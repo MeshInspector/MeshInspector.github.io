@@ -29,9 +29,9 @@
     <innergroup refid="group__TupleBindingsGroup">Tuple Bindings</innergroup>
     <innergroup refid="group__VectorGroup">Vector</innergroup>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__GeneralGroup_1gaf33aff000dfb310f8d4e2b79698c3373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::orient3d</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
         <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</argsstring>
         <name>orient3d</name>
         <qualifiedname>MR::orient3d</qualifiedname>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="19" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="19" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -623,9 +623,9 @@ xf(eye) = 0 </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" bodystart="36" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1gaf420bd1285dda4239d2ac0fac2eff1f9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API AffineXf3d</type>
-        <definition>MRMESH_API AffineXf3d MR::makeRigidXf</definition>
+      <memberdef kind="function" id="group__MathGroup_1ga9a3e0f5e3441afd311bdaca50e3edf16" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AffineXf3d</type>
+        <definition>AffineXf3d MR::makeRigidXf</definition>
         <argsstring>(const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)</argsstring>
         <name>makeRigidXf</name>
         <qualifiedname>MR::makeRigidXf</qualifiedname>
@@ -644,7 +644,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" line="14" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" declline="14" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" line="14" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" declline="14" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga97b0c226492f4561c1a2c13831433bed" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>

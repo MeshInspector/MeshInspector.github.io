@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" prot="public" static="no" mutable="no">
-        <type>struct <ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" kindref="compound">MR::VarEdgeTri::FlaggedTri</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga14a2b0f304716de7247bc521bb0f4b8b" kindref="member">struct</ref> <ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" kindref="compound">MR::VarEdgeTri::FlaggedTri</ref></type>
         <definition>struct MR::VarEdgeTri::FlaggedTri MR::VarEdgeTri::flaggedTri</definition>
         <argsstring></argsstring>
         <name>flaggedTri</name>

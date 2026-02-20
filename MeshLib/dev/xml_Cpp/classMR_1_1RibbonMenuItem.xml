@@ -45,7 +45,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" kind="function"><name>MR_DELETE_MOVE</name></member>
-      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" kind="function"><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kind="function"><name>RibbonMenuItem</name></member>
       <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" kind="function"><name>~RibbonMenuItem</name></member>
       <member refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979" kind="function"><name>action</name></member>
       <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" kind="function"><name>isActive</name></member>
@@ -54,7 +54,7 @@
       <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" kind="function"><name>uiName</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" kind="function"><name>setRibbonItemType</name></member>
       <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kind="function"><name>type</name></member>
-      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" kind="function"><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" kind="function"><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" kind="function"><name>dropItems</name></member>
       <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" kind="function"><name>getDynamicTooltip</name></member>
     </sectiondef>
@@ -64,6 +64,30 @@
 <para>class to hold menu items some information stored in json (icons path, tab name, subtab name) </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="37">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
         <label>MR::CaptureScreenshotToClipBoardMenuItem</label>
         <link refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem"/>
@@ -138,6 +162,12 @@
         <label>MR::OpenFilesMenuItem</label>
         <link refid="classMR_1_1OpenFilesMenuItem"/>
         <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="36" relation="public-inheritance">
         </childnode>
       </node>
       <node id="14">
@@ -278,10 +308,16 @@
         <childnode refid="31" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="37">
+      <node id="43">
         <label>MR::UndoMenuItem</label>
         <link refid="classMR_1_1UndoMenuItem"/>
         <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="36" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
@@ -310,8 +346,8 @@
       <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>MR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1gaa2761ae0f93e5eaa003abc2f797fa119" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name_</name></member>
-      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setRibbonItemType</name></member>
       <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>type</name></member>
       <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>type_</name></member>

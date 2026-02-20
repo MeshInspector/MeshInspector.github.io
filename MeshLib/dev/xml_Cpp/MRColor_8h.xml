@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRColor_8h" kind="file" language="C++">
     <compoundname>MRColor.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRVector4_8h" local="yes">MRVector4.h</includes>
     <includedby refid="ImGuiHelpers_8h" local="yes">ImGuiHelpers.h</includedby>
@@ -36,40 +36,40 @@
     <includedby refid="MRVisualObject_8h" local="yes">MRVisualObject.h</includedby>
     <includedby refid="MRVisualObjectTag_8h" local="yes">MRVisualObjectTag.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -81,53 +81,100 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
-      <node id="15">
+      <node id="23">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="10">
-        <label>algorithm</label>
-      </node>
-      <node id="11">
-        <label>cmath</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cstddef</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="12">
-        <label>cstring</label>
-      </node>
-      <node id="13">
-        <label>iosfwd</label>
+      <node id="18">
+        <label>algorithm</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -992,7 +1039,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector4_8h" kindref="compound">MRVector4.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
@@ -1004,7 +1051,7 @@
 <codeline lineno="13" refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>,<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>,<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>,<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga361e3d7af72254b02de4d5bdf7f08b60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga361e3d7af72254b02de4d5bdf7f08b60" kindref="member">Color</ref>()<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>{<sp/>0<sp/>},<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>{<sp/>0<sp/>},<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>{<sp/>0<sp/>},<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>{<sp/>255<sp/>}<sp/>{}</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" kindref="member">Color</ref>(<sp/>NoInit<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{}</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" kindref="member">Color</ref>(<sp/><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{}</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" kindref="member">Color</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>{uint8_t(<ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>)},<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>{uint8_t(<ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>)},<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>{uint8_t(<ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>)},<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>{uint8_t(<ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>)}<sp/>{}</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" kindref="member">Color</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>{uint8_t(<ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>)},<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>{uint8_t(<ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>)},<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>{uint8_t(<ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>)},<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>{255}<sp/>{}<sp/></highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" kindref="member">Color</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>)<sp/>noexcept<sp/>:</highlight></codeline>
@@ -1061,15 +1108,15 @@
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="73" refid="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref>()<sp/>const<sp/>noexcept</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67cff5041f700991499e260768a69ab8" kindref="member">Vector4&lt;T&gt;</ref>()<sp/>const<sp/>noexcept</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref>(<sp/>T(<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67cff5041f700991499e260768a69ab8" kindref="member">Vector4&lt;T&gt;</ref>(<sp/>T(<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref>(<sp/>T(<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>)<sp/>)<sp/>/<sp/>T(<sp/>255<sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67cff5041f700991499e260768a69ab8" kindref="member">Vector4&lt;T&gt;</ref>(<sp/>T(<sp/><ref refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kindref="member">r</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kindref="member">g</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>),<sp/>T(<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>)<sp/>)<sp/>/<sp/>T(<sp/>255<sp/>);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
@@ -1087,7 +1134,7 @@
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="group__GeneralGroup_1ga11adbe77a0a789151fa888fe153d4933" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>)</highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga11adbe77a0a789151fa888fe153d4933" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>)</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>.r<sp/>==<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>.r<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>.g<sp/>==<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>.g<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>.b<sp/>==<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>.b<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref>.a<sp/>==<sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref>.a;</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">}</highlight></codeline>
@@ -1122,7 +1169,7 @@
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kindref="member">b</ref><sp/>*<sp/>(<sp/>1<sp/>/<sp/><ref refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kindref="member">a</ref><sp/>);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="group__GeneralGroup_1gaec04b300d1c828ca3458af875f62ac7a" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="group__GeneralGroup_1gaec04b300d1c828ca3458af875f62ac7a" kindref="member">blend</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>front,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>back<sp/>);</highlight></codeline>
+<codeline lineno="136" refid="group__GeneralGroup_1ga4b04ff1161b2c5a217772a5c848f98dc" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="group__GeneralGroup_1ga4b04ff1161b2c5a217772a5c848f98dc" kindref="member">blend</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>front,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>back<sp/>);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
 <codeline lineno="138"><highlight class="normal">}<sp/></highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>

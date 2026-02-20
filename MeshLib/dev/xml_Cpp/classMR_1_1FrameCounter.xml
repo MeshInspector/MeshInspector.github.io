@@ -16,8 +16,8 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga807173f53f5c23dec924754664827f7e" kind="function"><name>startDraw</name></member>
-      <member refid="group__GeneralGroup_1ga6e8afcba61c4ec89dfe8c220c5bd44be" kind="function"><name>endDraw</name></member>
-      <member refid="group__GeneralGroup_1gaa00e5f661bf88c35e8fcb83709eab2d1" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gab565c8657588a4b578f147fd10456b43" kind="function"><name>endDraw</name></member>
+      <member refid="group__GeneralGroup_1ga7327ef9217c0d637a3fe427f72676165" kind="function"><name>reset</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -26,9 +26,9 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="13" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab152bae1e1a65d8d52cba5b78cd43a8c" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>drawTimeMilliSec</name></member>
-      <member refid="group__GeneralGroup_1ga6e8afcba61c4ec89dfe8c220c5bd44be" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>endDraw</name></member>
+      <member refid="group__GeneralGroup_1gab565c8657588a4b578f147fd10456b43" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>endDraw</name></member>
       <member refid="group__GeneralGroup_1ga25923dd70b8324ec74a8d347e1cd40d2" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>fps</name></member>
-      <member refid="group__GeneralGroup_1gaa00e5f661bf88c35e8fcb83709eab2d1" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga7327ef9217c0d637a3fe427f72676165" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga807173f53f5c23dec924754664827f7e" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startDraw</name></member>
       <member refid="group__GeneralGroup_1ga395c4c9676501e38c8d7e4cae20fa099" prot="private" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startDrawTime_</name></member>
       <member refid="group__GeneralGroup_1gacd4af6f15a2e2a8b940a60dd43ccfaaf" prot="private" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startFPSTime_</name></member>

@@ -5,20 +5,48 @@
     <includes local="yes">exports.h</includes>
     <includes refid="MRUnits_8h" local="yes">MRUnits.h</includes>
     <incdepgraph>
-      <node id="11">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
       </node>
       <node id="10">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRMesh/MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -26,10 +54,14 @@
         <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRUnitSettings.h</label>
@@ -46,11 +78,11 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -59,29 +91,38 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="8">
+      <node id="11">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="4">
         <label>MRViewer/exports.h</label>
       </node>
-      <node id="9">
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="17">
         <label>cassert</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="12">
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="19">
         <label>optional</label>
       </node>
-      <node id="13">
-        <label>string</label>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="14">
+        <label>string</label>
+      </node>
+      <node id="20">
         <label>variant</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -100,37 +141,37 @@
 <codeline lineno="8" refid="namespaceMR_1_1UnitSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UnitSettings" kindref="compound">MR::UnitSettings</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1_1UnitSettings_1ae406c519ab41f7cbc08d65a9c83d2bcf" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1ae406c519ab41f7cbc08d65a9c83d2bcf" kindref="member">resetToDefaults</ref>();</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1UnitSettings_1a6605d13452e5dc0af2d101284fc415c6" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a6605d13452e5dc0af2d101284fc415c6" kindref="member">resetToDefaults</ref>();</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"></codeline>
-<codeline lineno="17" refid="namespaceMR_1_1UnitSettings_1aa107ba449e9a30d426079db1abc6f9e8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1aa107ba449e9a30d426079db1abc6f9e8" kindref="member">getShowLeadingZero</ref>();</highlight></codeline>
-<codeline lineno="18" refid="namespaceMR_1_1UnitSettings_1a2b2fc6815346b05ae633d230e475a414" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a2b2fc6815346b05ae633d230e475a414" kindref="member">setShowLeadingZero</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>show<sp/>);</highlight></codeline>
+<codeline lineno="17" refid="namespaceMR_1_1UnitSettings_1a92c469e73280d6f522115571fcf167d7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a92c469e73280d6f522115571fcf167d7" kindref="member">getShowLeadingZero</ref>();</highlight></codeline>
+<codeline lineno="18" refid="namespaceMR_1_1UnitSettings_1a877acfc5ce5b7fba63a87fcfdf9e43d1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a877acfc5ce5b7fba63a87fcfdf9e43d1" kindref="member">setShowLeadingZero</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>show<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="namespaceMR_1_1UnitSettings_1a0325434bfffb878393212fbdbca5aa8e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a0325434bfffb878393212fbdbca5aa8e" kindref="member">getThousandsSeparator</ref>();</highlight></codeline>
-<codeline lineno="23" refid="namespaceMR_1_1UnitSettings_1a035b6705c6bf6c337d949fd451ec8078" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a035b6705c6bf6c337d949fd451ec8078" kindref="member">setThousandsSeparator</ref>(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ch<sp/>);</highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1_1UnitSettings_1a212516673007eec61db6d6737ed89889" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a212516673007eec61db6d6737ed89889" kindref="member">getThousandsSeparator</ref>();</highlight></codeline>
+<codeline lineno="23" refid="namespaceMR_1_1UnitSettings_1a9274e5f81702cc490493898076559da2" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a9274e5f81702cc490493898076559da2" kindref="member">setThousandsSeparator</ref>(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ch<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"></codeline>
-<codeline lineno="31" refid="namespaceMR_1_1UnitSettings_1a3828878d9371fdeec0058499a90a773c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="namespaceMR_1_1UnitSettings_1a3828878d9371fdeec0058499a90a773c" kindref="member">getUiLengthUnit</ref>();</highlight></codeline>
-<codeline lineno="32" refid="namespaceMR_1_1UnitSettings_1ad8d6be62abf0d99eeb86139fd7939da1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1ad8d6be62abf0d99eeb86139fd7939da1" kindref="member">setUiLengthUnit</ref>(<sp/>std::optional&lt;LengthUnit&gt;<sp/>unit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>setPreferredLeadingZero<sp/>);</highlight></codeline>
+<codeline lineno="31" refid="namespaceMR_1_1UnitSettings_1ae83d1247da6bf1d2bf28212e19246978" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="namespaceMR_1_1UnitSettings_1ae83d1247da6bf1d2bf28212e19246978" kindref="member">getUiLengthUnit</ref>();</highlight></codeline>
+<codeline lineno="32" refid="namespaceMR_1_1UnitSettings_1ac410a1fcd84e320251f853094123a7c9" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1ac410a1fcd84e320251f853094123a7c9" kindref="member">setUiLengthUnit</ref>(<sp/>std::optional&lt;LengthUnit&gt;<sp/>unit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>setPreferredLeadingZero<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="namespaceMR_1_1UnitSettings_1aec4e088dc329cbd35e4ad8d65ff24d64" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="namespaceMR_1_1UnitSettings_1aec4e088dc329cbd35e4ad8d65ff24d64" kindref="member">getModelLengthUnit</ref>();</highlight></codeline>
-<codeline lineno="38" refid="namespaceMR_1_1UnitSettings_1acb863d88d6e4822b694a244f85d09b2e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1acb863d88d6e4822b694a244f85d09b2e" kindref="member">setModelLengthUnit</ref>(<sp/>std::optional&lt;LengthUnit&gt;<sp/>unit<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="namespaceMR_1_1UnitSettings_1ad5bb619905d31722d3e7f5a91afb1c46" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="namespaceMR_1_1UnitSettings_1ad5bb619905d31722d3e7f5a91afb1c46" kindref="member">getModelLengthUnit</ref>();</highlight></codeline>
+<codeline lineno="38" refid="namespaceMR_1_1UnitSettings_1a94861183b1976b5e7b549d50ce37805d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a94861183b1976b5e7b549d50ce37805d" kindref="member">setModelLengthUnit</ref>(<sp/>std::optional&lt;LengthUnit&gt;<sp/>unit<sp/>);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="namespaceMR_1_1UnitSettings_1a69150415ea6b6c4a566729d65841d8d3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="namespaceMR_1_1UnitSettings_1a69150415ea6b6c4a566729d65841d8d3" kindref="member">getActualModelLengthUnit</ref>();</highlight></codeline>
+<codeline lineno="43" refid="namespaceMR_1_1UnitSettings_1a1ba5ba0e90a17b0b4971b32b561eeaf4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="namespaceMR_1_1UnitSettings_1a1ba5ba0e90a17b0b4971b32b561eeaf4" kindref="member">getActualModelLengthUnit</ref>();</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="namespaceMR_1_1UnitSettings_1a18f2b660ede4fa66b9a12f1b358ae3b5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gaa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref><sp/><ref refid="namespaceMR_1_1UnitSettings_1a18f2b660ede4fa66b9a12f1b358ae3b5" kindref="member">getDegreesMode</ref>();</highlight></codeline>
-<codeline lineno="48" refid="namespaceMR_1_1UnitSettings_1a095d298e864fff2df5d9ec05315d6d8b" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a095d298e864fff2df5d9ec05315d6d8b" kindref="member">setDegreesMode</ref>(<sp/><ref refid="group__GeneralGroup_1gaa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>setPreferredPrecision<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="namespaceMR_1_1UnitSettings_1a5c988ce02e5af851bf24cf8311f6d617" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gaa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref><sp/><ref refid="namespaceMR_1_1UnitSettings_1a5c988ce02e5af851bf24cf8311f6d617" kindref="member">getDegreesMode</ref>();</highlight></codeline>
+<codeline lineno="48" refid="namespaceMR_1_1UnitSettings_1a9660ba5f25b3c345a1d75f38de621842" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a9660ba5f25b3c345a1d75f38de621842" kindref="member">setDegreesMode</ref>(<sp/><ref refid="group__GeneralGroup_1gaa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref><sp/>mode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>setPreferredPrecision<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"></codeline>
-<codeline lineno="54" refid="namespaceMR_1_1UnitSettings_1af519bb8d603b29fed6ba650292d9caee" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1af519bb8d603b29fed6ba650292d9caee" kindref="member">getUiLengthPrecision</ref>();</highlight></codeline>
-<codeline lineno="55" refid="namespaceMR_1_1UnitSettings_1a6c2457148f4800dfc82a654d0d9f3592" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a6c2457148f4800dfc82a654d0d9f3592" kindref="member">setUiLengthPrecision</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision<sp/>);</highlight></codeline>
+<codeline lineno="54" refid="namespaceMR_1_1UnitSettings_1a6267dc3ac144ae861e2598c807bd77f1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a6267dc3ac144ae861e2598c807bd77f1" kindref="member">getUiLengthPrecision</ref>();</highlight></codeline>
+<codeline lineno="55" refid="namespaceMR_1_1UnitSettings_1a706ad2d0dd78e1d4d10e1352ef53f53b" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a706ad2d0dd78e1d4d10e1352ef53f53b" kindref="member">setUiLengthPrecision</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision<sp/>);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="namespaceMR_1_1UnitSettings_1aefbc07263247d17b42b9b520c287901c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1aefbc07263247d17b42b9b520c287901c" kindref="member">getUiAnglePrecision</ref>();</highlight></codeline>
-<codeline lineno="58" refid="namespaceMR_1_1UnitSettings_1a17f256d60a5bca751f33412395fcfa86" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a17f256d60a5bca751f33412395fcfa86" kindref="member">setUiAnglePrecision</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision<sp/>);</highlight></codeline>
+<codeline lineno="57" refid="namespaceMR_1_1UnitSettings_1a89d96a5a9615daa8de6e1bbbecda8156" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a89d96a5a9615daa8de6e1bbbecda8156" kindref="member">getUiAnglePrecision</ref>();</highlight></codeline>
+<codeline lineno="58" refid="namespaceMR_1_1UnitSettings_1afe6f0698124e6aaa4213c97e053c0696" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1afe6f0698124e6aaa4213c97e053c0696" kindref="member">setUiAnglePrecision</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision<sp/>);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="namespaceMR_1_1UnitSettings_1a0b189aa7e3720de95702885098bb3413" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a0b189aa7e3720de95702885098bb3413" kindref="member">getUiRatioPrecision</ref>();</highlight></codeline>
-<codeline lineno="61" refid="namespaceMR_1_1UnitSettings_1a2fa49ac2e3a36c4f6472b6b5ea7793cc" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1a2fa49ac2e3a36c4f6472b6b5ea7793cc" kindref="member">setUiRatioPrecision</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision<sp/>);</highlight></codeline>
+<codeline lineno="60" refid="namespaceMR_1_1UnitSettings_1ad0f4b58308b6afde0805f1a15314ec36" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1ad0f4b58308b6afde0805f1a15314ec36" kindref="member">getUiRatioPrecision</ref>();</highlight></codeline>
+<codeline lineno="61" refid="namespaceMR_1_1UnitSettings_1af40b003a9c4deee8e921de1a4f03e0b2" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1UnitSettings_1af40b003a9c4deee8e921de1a4f03e0b2" kindref="member">setUiRatioPrecision</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

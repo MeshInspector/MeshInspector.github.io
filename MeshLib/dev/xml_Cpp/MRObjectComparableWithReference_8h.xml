@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRObjectComparableWithReference_8h" kind="file" language="C++">
     <compoundname>MRObjectComparableWithReference.h</compoundname>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
     <includes local="no">optional</includes>
     <includes local="no">variant</includes>
@@ -11,40 +11,30 @@
     <includedby refid="MRPointObject_8h" local="yes">MRPointObject.h</includedby>
     <includedby refid="MRUIQualityControl_8h" local="yes">MRUIQualityControl.h</includedby>
     <incdepgraph>
-      <node id="9">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="1">
-        <label>MRObjectComparableWithReference.h</label>
-        <link refid="MRObjectComparableWithReference_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="2">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMesh/MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -56,48 +46,102 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>MRObjectComparableWithReference.h</label>
+        <link refid="MRObjectComparableWithReference_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="8">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="10">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="11">
-        <label>algorithm</label>
-      </node>
-      <node id="12">
-        <label>cmath</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cstddef</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="13">
-        <label>cstring</label>
-      </node>
-      <node id="14">
-        <label>iosfwd</label>
-      </node>
-      <node id="16">
-        <label>optional</label>
+      <node id="18">
+        <label>algorithm</label>
       </node>
       <node id="7">
-        <label>type_traits</label>
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
       </node>
       <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="23">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="22">
         <label>utility</label>
       </node>
-      <node id="17">
+      <node id="24">
         <label>variant</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -156,7 +200,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -166,7 +210,7 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ObjectComparableWithReference" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRMESH_CLASS<sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ObjectComparableWithReference" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" kindref="member">~ObjectComparableWithReference</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>

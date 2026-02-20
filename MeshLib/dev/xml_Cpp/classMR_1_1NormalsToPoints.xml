@@ -8,9 +8,9 @@
       <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" kind="variable"><name>solver_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaa8c324e95e6b5ee11d99cb93bde8a290" kind="function"><name>prepare</name></member>
-      <member refid="group__GeneralGroup_1ga2d12e50b57d329d34f6fc200ed8866f0" kind="function"><name>run</name></member>
-      <member refid="group__GeneralGroup_1ga8ab1a5ae7eeb9ae83adb8e7b78ffb94c" kind="function"><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" kind="function"><name>prepare</name></member>
+      <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" kind="function"><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" kind="function"><name>run</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -19,9 +19,9 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h" bodystart="15" bodyend="40"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gaa8c324e95e6b5ee11d99cb93bde8a290" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>prepare</name></member>
-      <member refid="group__GeneralGroup_1ga2d12e50b57d329d34f6fc200ed8866f0" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>run</name></member>
-      <member refid="group__GeneralGroup_1ga8ab1a5ae7eeb9ae83adb8e7b78ffb94c" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>prepare</name></member>
+      <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>run</name></member>
       <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" prot="private" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>solver_</name></member>
     </listofallmembers>
   </compounddef>

@@ -23,6 +23,30 @@
 <para>Return value of callbacks: returning true to any of the callbacks tells <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> that the event has been handled and that it should not be passed to other plugins or to other internal functions of <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="12">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>MR::DemoPlugin</label>
         <link refid="classMR_1_1DemoPlugin"/>
@@ -39,6 +63,12 @@
         <label>MR::MoveObjectByMouse</label>
         <link refid="classMR_1_1MoveObjectByMouse"/>
         <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
       <node id="4">
@@ -86,6 +116,12 @@
       <node id="1">
         <label>MR::ViewerPlugin</label>
         <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+      <node id="17">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>

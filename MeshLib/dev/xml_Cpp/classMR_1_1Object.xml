@@ -416,9 +416,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="87" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="87" bodyend="87"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; const Object &gt; MR::Object::find</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a0520ac7d486992d1ab8e2e421b9237f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; const Object &gt; MR::Object::find</definition>
         <argsstring>(const std::string_view &amp;name) const</argsstring>
         <name>find</name>
         <qualifiedname>MR::Object::find</qualifiedname>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="90" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="90" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -531,13 +531,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="107" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="107" bodyend="107"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::setXf</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a13e613fb84a7c11c723e88c920ddbfda" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::setXf</definition>
         <argsstring>(const AffineXf3f &amp;xf, ViewportId id={})</argsstring>
         <name>setXf</name>
         <qualifiedname>MR::Object::setXf</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga29cbd04bca216b622c6526ea818d86cb">setXf</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga400a0d007a56111994e7f514ad861a2f">setXf</reimplementedby>
         <param>
           <type>const AffineXf3f &amp;</type>
           <declname>xf</declname>
@@ -553,15 +553,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="108" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="108" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::resetXf</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a28ae4cd299540ffaf382524cb03062c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::resetXf</definition>
         <argsstring>(ViewportId id={})</argsstring>
         <name>resetXf</name>
         <qualifiedname>MR::Object::resetXf</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gab59d5f621e961a8874c5176e4b4ab355">resetXf</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa912ddb9fe7492d05e733f83bf83a572">resetXf</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
           <declname>id</declname>
@@ -574,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="110" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="110" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; AffineXf3f &gt; &amp;</type>
@@ -610,9 +610,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="115" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="115" bodyend="115"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API AffineXf3f</type>
-        <definition>MRMESH_API AffineXf3f MR::Object::worldXf</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::Object::worldXf</definition>
         <argsstring>(ViewportId id={}, bool *isDef=nullptr) const</argsstring>
         <name>worldXf</name>
         <qualifiedname>MR::Object::worldXf</qualifiedname>
@@ -634,7 +634,7 @@
 <parametername>isDef</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" kindref="member">worldXf()</ref> returns) </para>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" kindref="member">worldXf()</ref> returns) </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -642,11 +642,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="119" column="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="119" column="17"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Object::setWorldXf</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a61f69554fe584800b9f60fac7e7f2200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Object::setWorldXf</definition>
         <argsstring>(const AffineXf3f &amp;xf, ViewportId id={})</argsstring>
         <name>setWorldXf</name>
         <qualifiedname>MR::Object::setWorldXf</qualifiedname>
@@ -665,20 +665,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="120" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="120" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::applyScale</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a3a68f754bb677c34f6275a6fcbc332ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::applyScale</definition>
         <argsstring>(float scaleFactor)</argsstring>
         <name>applyScale</name>
         <qualifiedname>MR::Object::applyScale</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gaf8d43976f085c872629b548fdd2e0e9d">applyScale</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga8fc4869a46109f5f0c443a8766620452">applyScale</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga866b821cbf1353875759fa45e614249f">applyScale</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafb9471c0d9422d4474378ed1fd622724">applyScale</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gabd19fedb77b950f4b6d214edc81e6611">applyScale</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafcc452d7af81256782737daa253d27f8">applyScale</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2dc3a781ede961c76e0a0bb305350a78">applyScale</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad0b91f113f9983703e0a9118838e7708">applyScale</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafc1558a8a7ca2c9edd33645a42a7b011">applyScale</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab9415388ab77dd620bfcdca156d96e67">applyScale</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gace435c6713a8f474acf226c4201a1bf5">applyScale</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0e70ef55b8ceb030186bbb54665ac999">applyScale</reimplementedby>
         <param>
           <type>float</type>
           <declname>scaleFactor</declname>
@@ -690,11 +690,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="123" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="123" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-        <definition>MRMESH_API ViewportMask MR::Object::globalVisibilityMask</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a33afd7cea9523c3669d9d549f1ab53b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition>ViewportMask MR::Object::globalVisibilityMask</definition>
         <argsstring>() const</argsstring>
         <name>globalVisibilityMask</name>
         <qualifiedname>MR::Object::globalVisibilityMask</qualifiedname>
@@ -705,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="126" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="126" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -727,9 +727,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="128" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="128" bodyend="128"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Object::setGlobalVisibility</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a2d67075395231ca81600bcf6241a6e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Object::setGlobalVisibility</definition>
         <argsstring>(bool on, ViewportMask viewportMask=ViewportMask::any())</argsstring>
         <name>setGlobalVisibility</name>
         <qualifiedname>MR::Object::setGlobalVisibility</qualifiedname>
@@ -749,7 +749,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="130" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="130" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -846,9 +846,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="143" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="143" bodyend="143"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Object::isAncestor</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Object::isAncestor</definition>
         <argsstring>(const Object *ancestor) const</argsstring>
         <name>isAncestor</name>
         <qualifiedname>MR::Object::isAncestor</qualifiedname>
@@ -863,11 +863,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="146" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="146" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
-        <definition>MRMESH_API Object * MR::Object::findCommonAncestor</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a831f4bf76e2d9593f570d292c549999f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
+        <definition>Object * MR::Object::findCommonAncestor</definition>
         <argsstring>(Object &amp;other)</argsstring>
         <name>findCommonAncestor</name>
         <qualifiedname>MR::Object::findCommonAncestor</qualifiedname>
@@ -882,7 +882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="151" column="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="151" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
@@ -902,9 +902,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="152" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="152" bodyend="155"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API bool</type>
-        <definition>virtual MRMESH_API bool MR::Object::detachFromParent</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1acde230852a1c88579a652d00e088d03a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::Object::detachFromParent</definition>
         <argsstring>()</argsstring>
         <name>detachFromParent</name>
         <qualifiedname>MR::Object::detachFromParent</qualifiedname>
@@ -915,7 +915,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="159" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="159" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
@@ -946,9 +946,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="167" bodyend="167"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API bool</type>
-        <definition>virtual MRMESH_API bool MR::Object::addChild</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::Object::addChild</definition>
         <argsstring>(std::shared_ptr&lt; Object &gt; child, bool recognizedChild=true)</argsstring>
         <name>addChild</name>
         <qualifiedname>MR::Object::addChild</qualifiedname>
@@ -977,11 +977,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="176" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="176" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API bool</type>
-        <definition>virtual MRMESH_API bool MR::Object::addChildBefore</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::Object::addChildBefore</definition>
         <argsstring>(std::shared_ptr&lt; Object &gt; newChild, const std::shared_ptr&lt; Object &gt; &amp;existingChild)</argsstring>
         <name>addChildBefore</name>
         <qualifiedname>MR::Object::addChildBefore</qualifiedname>
@@ -1000,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="180" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="180" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1021,9 +1021,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="182" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="182" bodyend="182"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API bool</type>
-        <definition>virtual MRMESH_API bool MR::Object::removeChild</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::Object::removeChild</definition>
         <argsstring>(Object *child)</argsstring>
         <name>removeChild</name>
         <qualifiedname>MR::Object::removeChild</qualifiedname>
@@ -1037,11 +1037,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="183" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="183" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::removeAllChildren</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::removeAllChildren</definition>
         <argsstring>()</argsstring>
         <name>removeAllChildren</name>
         <qualifiedname>MR::Object::removeAllChildren</qualifiedname>
@@ -1052,11 +1052,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="185" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="185" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Object::sortChildren</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a4cf0bc879b98d57f31a9787e357dce2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Object::sortChildren</definition>
         <argsstring>()</argsstring>
         <name>sortChildren</name>
         <qualifiedname>MR::Object::sortChildren</qualifiedname>
@@ -1067,15 +1067,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="187" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="187" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API bool</type>
-        <definition>virtual MRMESH_API bool MR::Object::select</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a6a0d3c1523518070b289fea6871fb3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::Object::select</definition>
         <argsstring>(bool on)</argsstring>
         <name>select</name>
         <qualifiedname>MR::Object::select</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga274c0abce29f5631a046cd644da70e2b">select</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaba70b5abcb8c00c82e128d60c8c96664">select</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga9ed64e227f3e1aa208193f4cfe051ddc">select</reimplementedby>
         <param>
           <type>bool</type>
@@ -1088,7 +1088,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="190" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="190" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1107,9 +1107,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="191" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="191" bodyend="191"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::setAncillary</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1aff1c500650f7ae09501f12d0830ebe69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::setAncillary</definition>
         <argsstring>(bool ancillary)</argsstring>
         <name>setAncillary</name>
         <qualifiedname>MR::Object::setAncillary</qualifiedname>
@@ -1125,7 +1125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="195" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="195" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1141,9 +1141,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="196" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="196" bodyend="196"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Object::isGlobalAncillary</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Object::isGlobalAncillary</definition>
         <argsstring>() const</argsstring>
         <name>isGlobalAncillary</name>
         <qualifiedname>MR::Object::isGlobalAncillary</qualifiedname>
@@ -1154,11 +1154,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="198" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="198" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Object::setVisible</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a7c38cdec34f5eb072645d48c9c348046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Object::setVisible</definition>
         <argsstring>(bool on, ViewportMask viewportMask=ViewportMask::all())</argsstring>
         <name>setVisible</name>
         <qualifiedname>MR::Object::setVisible</qualifiedname>
@@ -1178,7 +1178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="201" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="201" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1200,9 +1200,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="203" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="203" bodyend="203"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::setVisibilityMask</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1abd94110891bc5e4715ab564a4912a01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::setVisibilityMask</definition>
         <argsstring>(ViewportMask viewportMask)</argsstring>
         <name>setVisibilityMask</name>
         <qualifiedname>MR::Object::setVisibilityMask</qualifiedname>
@@ -1217,7 +1217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="205" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="205" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -1240,7 +1240,7 @@
         <argsstring>(ViewportMask) const</argsstring>
         <name>getRedrawFlag</name>
         <qualifiedname>MR::Object::getRedrawFlag</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gaa095821c8be332dee208deb420d5c7f8">getRedrawFlag</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga12db668572358bc3aa3cde449fa6a894">getRedrawFlag</reimplementedby>
         <reimplementedby refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752">getRedrawFlag</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -1268,9 +1268,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="211" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="211" bodyend="211"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::Object::cloneTree</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Object &gt; MR::Object::cloneTree</definition>
         <argsstring>() const</argsstring>
         <name>cloneTree</name>
         <qualifiedname>MR::Object::cloneTree</qualifiedname>
@@ -1281,38 +1281,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="214" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="214" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ae0f00298204b65ca49b4daaa9a39f5c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::Object::clone</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a3d0d34710d4460c82c6e1a0b641b49ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>virtual std::shared_ptr&lt; Object &gt; MR::Object::clone</definition>
         <argsstring>() const</argsstring>
         <name>clone</name>
         <qualifiedname>MR::Object::clone</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga0817825d46092c4ebf5fbc8aa9b3cc0f">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1CircleObject_1a1fcb69f1dd8bdbf42302043d67fb8fa8">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafd3e44ebcd56377cde2ddecee9e57216">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga9be1f18971d98b7c6b59e4b442661d86">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gabc8e75e2c032185a15f15d542b20a9e0">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaa9a192c6a7b45287b4e6221e3d5ecb6d">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga5128e28ab5be3c4295cfdbbf344635c5">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gadb08022f8d2a8019b625e6e28e6fd32c">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga13d6da0884bda64f02742d0ef95e405d">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gab79717ed9223b4f94cf8d564d1bc126d">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gada224fb3ab391e048a38ca259d333c09">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga8d62fc8248ac41e37620d11e4e326b62">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga211a396578d24c0f475b44be7d6e5c44">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaeaa501dd61dadd0298de0f97c2b4c45d">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gad267de3013f2004552a791899a4d2fb6">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga7f67435bceafd659dec15164f3786ff9">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga224d80aaee530a620181296ca8a114a1">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga3de6d8962e60d11119a0a510af905f62">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga1028e5d0d684e5b32573488f69798497">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac70ea9d5e70ab550d46f0f74d632f202">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gabf829a28a78153a2114e13a36a46f092">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga1f6fca865f862aaeeb84eb4cd40b77d1">clone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga0f12c8dd3509baa2cb33bf45e476124a">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2e28bab289d85c27ab35738378bc8a6a">clone</reimplementedby>
+        <reimplementedby refid="classMR_1_1CircleObject_1ae9c8036268eeeed78dcc7531805138e4">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa4cee33827d1eb4ce3c5f11e720e8598">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga32da0e4cd42e4fedc62a520e933afec8">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga760324b4967624577b79c44b6eb8e967">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa49ca6333837271a0c371fe14a1291a3">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad3932272483b812ce114cfee6e6a1431">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5f82f221868fa76c1878004a0999411e">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4c37156d93f781acaa4e4b947ea774a0">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga38dc603b0f2b556cbbfdbe7ad57f78a9">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9a72e4e5407b679376d48dd7088a7ab3">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga288d0f8a4f96ea4bb3023d24a68cb350">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaed11073f8be4b98d9ce3ec2d1a6efee4">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga29915614a6305ff839e77921819340c6">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5856ca60c2f8b465c0ef652b64673c43">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa9ec3487af81936ddfc67111d2af8fd3">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaac550200485fff9f9bb28ae6f3b9822d">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad6a2f575b29ed4e5728fbc1f31871f0f">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0586706d8e102b5f74cbd5bbfae3bfa2">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa63335fac44cbfd137405553ae19be4c">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0abd2d71c474237c26d3d1bb288086f1">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga18d71b051fb7eb327f741407c5cf56d3">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad2e29cfdbf52727b6f0b67b275360aa0">clone</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1afb588eb7bbe9d5bf1c96061b34a3b617">clone</reimplementedby>
         <briefdescription>
 <para>clones current object only, without parent and/or children </para>
         </briefdescription>
@@ -1320,11 +1320,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="216" column="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="216" column="30"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::Object::shallowCloneTree</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a406d860dc855babd99ec6eb2eccd06d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Object &gt; MR::Object::shallowCloneTree</definition>
         <argsstring>() const</argsstring>
         <name>shallowCloneTree</name>
         <qualifiedname>MR::Object::shallowCloneTree</qualifiedname>
@@ -1335,37 +1335,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="219" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="219" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a0d35e02c1f43af6741066f893311266f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::Object::shallowClone</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a04daf2482cff43d36ae8c6f34faae22d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <definition>virtual std::shared_ptr&lt; Object &gt; MR::Object::shallowClone</definition>
         <argsstring>() const</argsstring>
         <name>shallowClone</name>
         <qualifiedname>MR::Object::shallowClone</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga9e20a99d9cfb02b91a653aefadbbb391">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1CircleObject_1a1b666f68cb067916d8b0a10e19c98af6">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaa6ffe65ecb905c4a85d865c70c753d4c">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga71326e9cd25df824ffbf9fe8fb545508">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga99ecc95eccd9b0fab3c76911ea1006a0">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga1ee596ccd488d1e2f49a4d690b9b6a32">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga8e077ec531dfa8174d27d9e5a31fa47f">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaba7a233ed2aaa7ce653e88e8795ffa84">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga374ae05761f1cc1baaa0aefae2e3ab18">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga21e09826b77caa1991f22c27088ada44">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaff95536683320ad3bdc54a759afe5e7b">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaa19c36b553adf089ebe87a6220248926">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga3da846b7d2eebc6602bc67510eb71d34">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga5b883e16802b82fc905c2166fba9cbce">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga0204d43ba94c12cd5f8e20ef283315d2">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaafeb7e582463b9ab47d0465ddb7e8758">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafbad2a43279c25456d0ae5f6ad86f37e">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gabf5ba6293ac5dd5b3019940c71272282">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga3900b0b2a1c555af5028468829a2ae82">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga2073cb832f307501a3efea77d5f2f461">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga0a61e373c543440d50c5cb78476cba67">shallowClone</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gae8924769b4847b515a97481b5ac24215">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac38c725897e38520a4fac097353e05d0">shallowClone</reimplementedby>
+        <reimplementedby refid="classMR_1_1CircleObject_1a33a94d84daa652e3c3b97d887be4ab5c">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga728295fd966fa4437f227a9278aa545c">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga959bcc67b17d44360f46dae22eb4319e">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6704079576f0c1e9a6fd6c402dd2d535">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6c366c2565abda1dde03fefcfb8a23bd">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf1c13b6959f202cd2cccca904b71ea2a">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga901cf3167935c516ef863ea906a360f2">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5389a02105a133839d6efd1367d61ef2">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac2aff24651dd71f257bdd1bc7e5cab02">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad0565a53dc01fa709884a1c9155bf72f">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga86badba7ec7e0bdd786bdf427783b6e3">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2e5fdbe68afa5032e0d636000d043bb3">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga92647e19258b5c8e4728a519c3dfedf1">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2c3cd5b9c7b2ec3d338781a407811c59">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2b1edbd43fdb6a74ee5714f1b7367248">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0dba824e99a6a229135fc5054dcecebc">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac7f9cab71d728236fca9592790df6afc">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga729bbb0c803db23d3de863a3a6c6b0ef">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac0e99e7d3adf378e25bbd4cb7f601fb0">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaba022f593f8904df66342bd389510978">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad1aaf888142c9a383db48e72e0d6e913">shallowClone</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1ae146478ca4f8ac89c5d4a5ad8859fd74">shallowClone</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1373,24 +1373,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="222" column="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="222" column="30"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ad99d5459862ef664776cb3dde87df0ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API std::vector&lt; std::string &gt;</type>
-        <definition>virtual MRMESH_API std::vector&lt; std::string &gt; MR::Object::getInfoLines</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a7f2ed80a457d4cb01790c861267af3be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>virtual std::vector&lt; std::string &gt; MR::Object::getInfoLines</definition>
         <argsstring>() const</argsstring>
         <name>getInfoLines</name>
         <qualifiedname>MR::Object::getInfoLines</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga94c8a0bb6913155e136c7a02750e7d0f">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafee53f116445c2f14e15413ad6913d6b">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga769f47ff3df3a3e6aff07639c62a4f50">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga66df6de195c9b8502579231576b0017c">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaef5e76ee8e7d04576faa2912fc3de4d0">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga0b6c4c31b11e372dea9237b6f9fcf5c6">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga8a5af21a0ab52a2d7f2464ba3e3f8131">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gae0e4a39d7b533adf3f8e3a245164b4b0">getInfoLines</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga896f78dba51a77e27ca06d9a9b9f85a7">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga767807484f9ecbc3aa4b9cf41ab89e98">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae971ab7a30afabbc075deda138f29bfd">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga95ae467a16a8577ca3e095ac74ded324">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6a28b90e48ee3479e4222cf54c910a94">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga892099f7637ed01a153cdb3869f435e7">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga61da8d378434221a94985647dc0ff612">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac5aad93f6e8de9c6a0a8a84bc03c263c">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga426a357a10f27bbc5b62882c7327905d">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5ef9f64e7836446849e42d2858aa93fd">getInfoLines</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1a50b598ca7511883951a2af242c22a323">getInfoLines</reimplementedby>
         <briefdescription>
 <para>return several info lines that can better describe object in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
         </briefdescription>
@@ -1398,11 +1398,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="225" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="225" column="26"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt; &gt;</type>
-        <definition>MRMESH_API MR_BIND_IGNORE Expected&lt; std::vector&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; &gt; MR::Object::serializeRecursive</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a816a99fe61e3ee86b2dddb57fc65aef9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt; &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; std::vector&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; &gt; MR::Object::serializeRecursive</definition>
         <argsstring>(const std::filesystem::path &amp;path, Json::Value &amp;root, int childId) const</argsstring>
         <name>serializeRecursive</name>
         <qualifiedname>MR::Object::serializeRecursive</qualifiedname>
@@ -1434,11 +1434,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="234" column="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="234" column="30"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::Object::deserializeRecursive</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a5ad7a9244371a01ba7538ff24ce15165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::Object::deserializeRecursive</definition>
         <argsstring>(const std::filesystem::path &amp;path, const Json::Value &amp;root, ProgressCallback progressCb={}, int *objCounter=nullptr)</argsstring>
         <name>deserializeRecursive</name>
         <qualifiedname>MR::Object::deserializeRecursive</qualifiedname>
@@ -1451,7 +1451,7 @@
           <declname>root</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>progressCb</declname>
           <defval>{}</defval>
         </param>
@@ -1467,11 +1467,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="239" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="239" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Object::swap</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1af6d1058c77b340a20c6cfaf8ccbf48fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Object::swap</definition>
         <argsstring>(Object &amp;other)</argsstring>
         <name>swap</name>
         <qualifiedname>MR::Object::swap</qualifiedname>
@@ -1486,7 +1486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="245" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="245" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aeb145057d6707527c3d60d9f459ec2b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>Box3f</type>
@@ -1494,11 +1494,11 @@
         <argsstring>(ViewportId={}) const</argsstring>
         <name>getWorldBox</name>
         <qualifiedname>MR::Object::getWorldBox</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga1b7dd5988b7afd2f99debb1cfed9225e">getWorldBox</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gabf4784be6ef8c3ce90625490765084dd">getWorldBox</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga2f0c431e946a273dfa9a2bb927206291">getWorldBox</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac7185971e31bea27e35f17cf9c4254d9">getWorldBox</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae648c5a3ff98482e5e6d48c7108de85a">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8804ef79037117d7ab6ee55952194df3">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4a23f1d3dcde64228575d9b50ba65725">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0636207d4d54a7bfebf51173307dc231">getWorldBox</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1af0d810ee48d532373421988b54559586">getWorldBox</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
           <defval>{}</defval>
@@ -1512,9 +1512,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="248" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="248" bodyend="248"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::Object::getWorldTreeBox</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1ad214d65abcf7233510a268c7d615beda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::Object::getWorldTreeBox</definition>
         <argsstring>(ViewportId={}) const</argsstring>
         <name>getWorldTreeBox</name>
         <qualifiedname>MR::Object::getWorldTreeBox</qualifiedname>
@@ -1530,7 +1530,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="250" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="250" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1540,10 +1540,10 @@
         <qualifiedname>MR::Object::hasVisualRepresentation</qualifiedname>
         <reimplementedby refid="group__GeneralGroup_1ga318823aeb622433aaf249f176f348858">hasVisualRepresentation</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1gab8661825d2a0395152d6fb6b82d994f1">hasVisualRepresentation</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gab254bdde22e806161d869d150ac181b8">hasVisualRepresentation</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga549b865eb174f604dfc2c5e9039e4c49">hasVisualRepresentation</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaaf5a84fb8a05f5651aee309a512efb74">hasVisualRepresentation</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gad8df4c2427d39243427462f856e0ea37">hasVisualRepresentation</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gade077c0a902c21d2c8ce774b53c04445">hasVisualRepresentation</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafadaad70a91ca257f963cf38bcf1f9eb">hasVisualRepresentation</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8824c33bac24ff7ace26edef63b2ae39">hasVisualRepresentation</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7f0a9978d5b54c121fa7ad7b0456100e">hasVisualRepresentation</reimplementedby>
         <briefdescription>
 <para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects </para>
         </briefdescription>
@@ -1588,9 +1588,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="261" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="261" bodyend="261"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Object::addTag</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a56371d5594dc04ece2f123377835e11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Object::addTag</definition>
         <argsstring>(std::string tag)</argsstring>
         <name>addTag</name>
         <qualifiedname>MR::Object::addTag</qualifiedname>
@@ -1605,11 +1605,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="265" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="265" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Object::removeTag</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1aaf5c6ed94ae5c2460bd980f52836d6c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Object::removeTag</definition>
         <argsstring>(const std::string &amp;tag)</argsstring>
         <name>removeTag</name>
         <qualifiedname>MR::Object::removeTag</qualifiedname>
@@ -1624,22 +1624,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="268" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="268" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1adc5d7c1d86bb8b8afe345a35b7c9a6bc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>virtual MRMESH_API size_t MR::Object::heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a5604698e40028be9831f88ae7b25cd8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::Object::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::Object::heapBytes</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga9788925d8f072383a35145d4b13cbb92">heapBytes</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga4dc4a82d21db1be6d2baf57046389e33">heapBytes</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gad0dafa16ac297c6861333ff5d93eb037">heapBytes</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gad64322425bc9354238fc990bff3e2b10">heapBytes</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga2646bd14bb792576389645ad9483bc0a">heapBytes</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gad43c1a2a2825cbe90ba7cd3c398e210c">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3eacd705a9caa806ca95559df911daaa">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga74700d88dcaf478b8ae87e6b6cdb5806">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5b38b5c2336386cba4698801bf3a4abc">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf1ab39f2aa085b410a6f1a3738fb9e12">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga088b746453f486538f4a92503bb57ad1">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad5608afd5c7be7e2bc7402119cce44de">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5286b77a132b626476a159eca8284084">heapBytes</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1a46e7b1e2f2d00253dfab10bc0ccc0c64">heapBytes</reimplementedby>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -1647,15 +1647,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="271" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="271" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API bool</type>
-        <definition>virtual MRMESH_API bool MR::Object::sameModels</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1abea48cadbb0a62e3251ab0dc7fea2976" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::Object::sameModels</definition>
         <argsstring>(const Object &amp;other) const</argsstring>
         <name>sameModels</name>
         <qualifiedname>MR::Object::sameModels</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gace01531be18fadb25ae2920e3bd7d50d">sameModels</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4bd8f5cef86101c686388e9c14035670">sameModels</reimplementedby>
         <param>
           <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
           <declname>other</declname>
@@ -1667,15 +1667,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="274" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="274" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>virtual MRMESH_API size_t MR::Object::getModelHash</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a3f895610f42b2b4dec3e99d8b0920ecf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::Object::getModelHash</definition>
         <argsstring>() const</argsstring>
         <name>getModelHash</name>
         <qualifiedname>MR::Object::getModelHash</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga611eccd4a51c43217840486907ce7ac5">getModelHash</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga50911deee9ba664ce8939acb05d66332">getModelHash</reimplementedby>
         <briefdescription>
 <para>return hash of model (or hash object pointer if object has no model) </para>
         </briefdescription>
@@ -1683,7 +1683,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="276" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="276" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -1701,7 +1701,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1Object_1ae0f00298204b65ca49b4daaa9a39f5c5" kindref="member">clone()</ref> </para>
+<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1Object_1a3d0d34710d4460c82c6e1a0b641b49ca" kindref="member">clone()</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1769,7 +1769,7 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>user should not be able to call copy implicitly, use <ref refid="classMR_1_1Object_1ae0f00298204b65ca49b4daaa9a39f5c5" kindref="member">clone()</ref> function instead </para>
+<para>user should not be able to call copy implicitly, use <ref refid="classMR_1_1Object_1a3d0d34710d4460c82c6e1a0b641b49ca" kindref="member">clone()</ref> function instead </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1777,35 +1777,35 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="291" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a8ff1262849d62c014b87a26f031aee9a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::swapBase_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a91ab78dc593781da4dbda7960a376fee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::swapBase_</definition>
         <argsstring>(Object &amp;other)</argsstring>
         <name>swapBase_</name>
         <qualifiedname>MR::Object::swapBase_</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga0f47f7d31bec9d2791312b72e2ac1d1f">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1CircleObject_1a744c3d9624e8aaae878e393781b1b263">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga576b9eda88516f812a400bea81f5fb17">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gad6493f67be6aa4a9a004c90d06a31d09">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gadcd21383f78a94b1d4ab6139004c73a8">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gadec17436488d24c31d8bcfeb2e4d1118">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga909bc94c17de8482114192a257f196a6">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga3369ad296b25670f64dcd09ff243e020">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gae4f6ce3d96a615ecb839a20f8f26df80">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga3c2f6a903e0a0d8bee8bb94b6385bb82">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga527fce3c91b8dc02284dab71a95d2ea7">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga11d75f9e64cd1cec71eff3f65d040259">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga58768d2ade5a8da7fdf85c181f2382a1">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gab787120fcb4837c6d8ef2ec3e62eb935">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga7cbf8f6689936307fe71452da91038a4">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaea1d998484c820abf8d0f350e035f139">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaba61550178a3b30b0ebf21cc444e4c41">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafb6fc94d7cbe98896d3b6fea3c1f4ceb">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac48271380b514265ffc50f490fba6aff">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafdd7f6159c74701c90843b6632e7e75f">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga144d0e6bad6b4589084b64ca9cdb9dea">swapBase_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gab073c7dd40fc01a69a3484338c65f9e0">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga64bcd1c2068b82db226099a60da97382">swapBase_</reimplementedby>
+        <reimplementedby refid="classMR_1_1CircleObject_1ad3e687bc98baabb7e78eb9f51419c7f0">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaef82975e17541274962eb709e14ccd48">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadc4dd6760dee252190fa8201ac24c469">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad9f09afae6ee2bb333686bb961c96daa">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaee499ae9d9cc8e7c6128631a184c6a66">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6cf28566a49484ce92a2771b00706735">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7a465b590e6d85008021c53402dd9d88">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab7a0f137875b64a7ae093a439810f59a">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0f3430f822c51cddbd4d3450663aa90d">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6c3936aa573facc5f186d50cba4fc7a5">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaca193c04df4a53ca594bc7b038e81848">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaca6684bb4c908a3b08895641c55607d4">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga952ae83b2d123e899c458b84d86609ac">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa23666fab5f9183750635cdd702415cf">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab923039b071facefc26f78f799bdb90b">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaee831a6c2f2b17b6a98e6005354a7691">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7f3113c27d7a3b3a0a49225f0650cd93">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga03398fdb8ffdcdaedf191db025189a71">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga66dea1229deec82d1a93e0a64a8f1ad9">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3f6c618f55b9572b56d019fba6996b4d">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae7ca77d5d5e54c1339264d4d0ea28613">swapBase_</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1a9edc8085c73f7847fcae1c6be295540c">swapBase_</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
           <declname>other</declname>
@@ -1817,19 +1817,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="294" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="294" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::swapSignals_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a379568377624da7413adaabeac8222d2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::swapSignals_</definition>
         <argsstring>(Object &amp;other)</argsstring>
         <name>swapSignals_</name>
         <qualifiedname>MR::Object::swapSignals_</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gabc258a705dc3d897b54a0c3327d98fc5">swapSignals_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaab5e51bab3ad302cd30461a5ba732274">swapSignals_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac4839bce4c651954d69c9ec295199d3d">swapSignals_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga2206a7673291c743de019228d79d5569">swapSignals_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gacbc8ed71deeabea4a842af8a85e62b76">swapSignals_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac927edf60864d12180a1cda36466e665">swapSignals_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5be3e4021558ce03754c02863c140917">swapSignals_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga22b39152e22b2824d783fb2f2919d0c0">swapSignals_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad4d8cdb97d2c2e2f85c18d9782e3f64b">swapSignals_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2a77b686aa2283cbd191232e44724c4a">swapSignals_</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
           <declname>other</declname>
@@ -1843,11 +1843,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="297" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="297" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
-        <definition>virtual MRMESH_API Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; MR::Object::serializeModel_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a50700fd5697a12cef45947f3b26adc2b" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
+        <definition>virtual Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; MR::Object::serializeModel_</definition>
         <argsstring>(const std::filesystem::path &amp;path) const</argsstring>
         <name>serializeModel_</name>
         <qualifiedname>MR::Object::serializeModel_</qualifiedname>
@@ -1855,10 +1855,10 @@
         <reimplementedby refid="group__GeneralGroup_1gab66f3e6b0a4c5168078a082dd7320592">serializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga4f28aa553c692ebdccaac12a11da2408">serializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1gae983153872b11430113999261f87e1b3">serializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga116290bef3d94859f87eca9db6741761">serializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga9fa6ac26f912851526acf17c5fc0a1d0">serializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga65e5ddbc1a33ad4d92709534633958e7">serializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga01db317d14e060f58c079fbcaa73e3ce">serializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaab8a0a89e416fe0b9303cd0f36d00298">serializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga47755a47005589e139ae15824e755a49">serializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga1cd5516a81f2751f2384f05be888efd8">serializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4b66326802c2afb34138769dde3c0dcb">serializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga1c8860dcab2d511e55f37fcc79856de2">serializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1gaed6f47b23720a4f19897185093cd86d4">serializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1gace4163b1d52950147e9fac4b263d2005">serializeModel_</reimplementedby>
@@ -1873,39 +1873,39 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="301" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="301" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a4b72f2310983a6e40753b5d919d72d35" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::serializeFields_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1af1776b0b1ac82e06055823a9cac2eafa" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::serializeFields_</definition>
         <argsstring>(Json::Value &amp;root) const</argsstring>
         <name>serializeFields_</name>
         <qualifiedname>MR::Object::serializeFields_</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga4b8623dc5463ca2d74dddd4de01243ad">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1CircleObject_1a2f2f75df180154bb0a2973c18a588e3f">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaf6287a16f4c08d79fb7eabf432759e42">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gab38f1a8dff6afd3547023c5162cab3ce">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga6a06fba3c75ed5593bee4cedd4c9d41c">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaccfacb42ebe37f4692a510c02fa02fca">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga70dc397b963d30654e48c48ef0dbc910">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga1d68e848504ae3e593e550c51d0b1ddb">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga79f589a038123b0475af33b9b0d43d2a">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga37942a1ac8acb313c33f8b29ee289ae2">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga4f32870205a547a67ffb38cd5b8f11ff">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gada9a662dc02f094a109afa99afda0e43">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac53731d4425ec9404c558b238467c3fa">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga03d1a17fadf84a8ad3ec4850334cef11">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga94d5dc0f646051e69cc9e5c89ad68f0d">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga6e93d56966cf8c7d956767173ee17eae">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gae0b780196658ba9017ae41f3ab2dd195">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga8d05e0dff6ba746d6758554f24bf308b">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga5758ae41f2198f2a1bbfb3004a14fd4d">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga8e666bd013d5313ea6db2ff4997e2f25">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaeb16ff07a3bf800cb981d3d78a999a0d">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gae8bbd998f229f7b6ee72635d8aeca1bb">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac54aada747b785885fee9262ca3055a7">serializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaad300c4270da25b21556235725b4b8c3">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0d9c69e03f4923c5a270bc0bfd7638e9">serializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1CircleObject_1a49ecfd52791039ef148e6b809ee192f4">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6a352aded2d237544187c9ab6113521b">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaab11173afeb0b8f751bda718617b779d">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabf7647d512a9fcd60f7f34b1a008e7ba">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa7184b2db13958d4a7ff0bb5214f6b2a">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab4e3d4bfebd2f700640bfa3755e47088">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga26f2395f9349233964fcc0ac191b1cd4">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga70080e512ec307c18c74a4e0972952fb">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6fd79ef3d5e584e0ef794706acdcadcd">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadb7d2408a063000ed821231690d5c9bd">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa2a759f75b727fabde2e37efc312f6c2">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4015cc30818d479e4158e2d4c19ca6eb">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga392b6d648e8c8e9dbb7a2279f1301f40">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7fa5273fb9c9cf3a212030c556ad3b22">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae1df152e8ef64cf91607ed7168d86ce7">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga24d6d8ce1921071df9651d0ff6c782c1">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaff4439c691e85ab9bef5aa9bc775e3e1">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabc84203c8b4552083cc68b116e3dd0c5">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7b9982a0596af03ca659f33d64ae9f2a">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8cd3b24aa3476c3dc26168fe3c384e64">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6bd90163fe613d14135f4eae1b703dc9">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gacc02ed2d78cfcdbda3984ce49167e2a7">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga075c0f266b61902399be54fa4cd84413">serializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1aa0f9fdf3732d2472187d199e61046202">serializeFields_</reimplementedby>
         <param>
           <type>Json::Value &amp;</type>
           <declname>root</declname>
@@ -1919,11 +1919,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="305" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="305" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>virtual MRMESH_API Expected&lt; void &gt; MR::Object::deserializeModel_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a24103b426aec928b849c1c5aed3849fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>virtual Expected&lt; void &gt; MR::Object::deserializeModel_</definition>
         <argsstring>(const std::filesystem::path &amp;path, ProgressCallback progressCb={})</argsstring>
         <name>deserializeModel_</name>
         <qualifiedname>MR::Object::deserializeModel_</qualifiedname>
@@ -1931,11 +1931,11 @@
         <reimplementedby refid="group__GeneralGroup_1ga615d94d3d0d7edc5f0572b37b99a2a3c">deserializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga0b342739d4c8569a43f01cec9b3eb49d">deserializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1gab844b9d8d6ba14b95e7618be9a18126c">deserializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga5de5ab96322e163dbeb9d7af873b832c">deserializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gabbacb883915ae2b416b37e7ecfbeee12">deserializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaf1c6b27457d1ea0598bf3371705a2fcb">deserializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaa5d09d8ac06d164d03a166e6a4cd6b24">deserializeModel_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaef0612e4bb2f6807b2b810404153d5dd">deserializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga76053b42daaca6a42580516032a81ece">deserializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac06fcc8cb9f188126a8933d4792efc28">deserializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga1cf0b27a9b9904ff3dcde54694cc424c">deserializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaae91725bdff8abb434b945aa3419678d">deserializeModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga65b4a3ca47835fc39606d407e5edffd5">deserializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga28110ff6897860301170b6efbdbe6682">deserializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga11959f6deff417510fd5847ba06dd31c">deserializeModel_</reimplementedby>
         <reimplementedby refid="group__GeneralGroup_1ga6526999666312eb4878184209c5f4284">deserializeModel_</reimplementedby>
@@ -1944,7 +1944,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>progressCb</declname>
           <defval>{}</defval>
         </param>
@@ -1955,15 +1955,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="308" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="308" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>virtual MRMESH_API Expected&lt; void &gt; MR::Object::setSharedModel_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1ae255ade2b73c7c74b291f272f5073e73" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>virtual Expected&lt; void &gt; MR::Object::setSharedModel_</definition>
         <argsstring>(const Object &amp;other)</argsstring>
         <name>setSharedModel_</name>
         <qualifiedname>MR::Object::setSharedModel_</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gac0a70c6a02e639b70d3467fe92680e66">setSharedModel_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7f4b16c5a6294a18671f4bf538980d96">setSharedModel_</reimplementedby>
         <param>
           <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
           <declname>other</declname>
@@ -1975,29 +1975,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="310" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="310" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::deserializeFields_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1ace37b35645d3a70bd3bd51339b19d2bc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::deserializeFields_</definition>
         <argsstring>(const Json::Value &amp;root)</argsstring>
         <name>deserializeFields_</name>
         <qualifiedname>MR::Object::deserializeFields_</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1ga59480f0434749a0e8e6735f4192a3b2e">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga41bf252d3d2bb76c6f777b48395ec2b5">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaee2648d2f24f218b7c2cbcd1b48ae0f2">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga7146e04a23e36d75bef98b3f61148b47">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafb1505e4eeef2688ab210b77314480ea">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga36e5ab56ab7eccc1b81fb3acff771764">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga1b4fadc47c45703484507fe084472ccb">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga91f1067311fb1cc387d342a67e4557cb">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga1b86e3e4fa2644b7400ebe0d64e4b6bc">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga6188f5d044e81a3a0e220618684fa515">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga2e7884eb663e4b1c43c6207525dee0c4">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gaa9b595f58846314d64145f6224563839">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gac21964aa2c3fa5b24daf6659c6abe091">deserializeFields_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1ga7af83e5f6a013118cfc9e837cd5d75c1">deserializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1VisualObject_1a671160c49edeed239f1361b59bd68810">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga114e89004edf44daf76d87548c31b158">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad71d0831f944a5a6c9306e34e53b76dc">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9014f6781c464b173937ecc3b01189d6">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga68357f8343d9f3acef8d530d73580d6c">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae2b0c5224cb4d443aaac4f4195c991c2">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaea5c70c40c5c639012654255dbbfb056">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7330b8204ab2b1d0b1144bba934c4ef3">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga97e97ebc00437373b5dd3ae4d9889fa9">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga51cb56f0b52248703b4fa96c7685964b">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab0c53a052dbd76ac138b176fd1fabece">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae54ab523a24b44f19fe5b98f3180c997">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga528d61e1346347cab130b0245d2e6700">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga882f516f216ccefece93f2d11f235bff">deserializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga791b6e8ae1779732d6693eb422e40fc5">deserializeFields_</reimplementedby>
+        <reimplementedby refid="classMR_1_1VisualObject_1ae67cf600b527d8c0d0c5543eda86c3f4">deserializeFields_</reimplementedby>
         <param>
           <type>const Json::Value &amp;</type>
           <declname>root</declname>
@@ -2011,32 +2011,32 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="314" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="314" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Object::sendWorldXfChangedSignal_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1a51befbcd75bb0e8dabe65ab428c0ca61" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Object::sendWorldXfChangedSignal_</definition>
         <argsstring>()</argsstring>
         <name>sendWorldXfChangedSignal_</name>
         <qualifiedname>MR::Object::sendWorldXfChangedSignal_</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This calls <computeroutput><ref refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" kindref="member">onWorldXfChanged_()</ref></computeroutput> for all children recursively, which in turn emits <computeroutput>worldXfChangedSignal</computeroutput>. This isn&apos;t virtual because it wouldn&apos;t be very useful, because it doesn&apos;t call itself on the children (it doesn&apos;t use a true recursion, instead imitating one, presumably to save stack space, though this is unlikely to be an issue). </para>
+<para>This calls <computeroutput><ref refid="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" kindref="member">onWorldXfChanged_()</ref></computeroutput> for all children recursively, which in turn emits <computeroutput>worldXfChangedSignal</computeroutput>. This isn&apos;t virtual because it wouldn&apos;t be very useful, because it doesn&apos;t call itself on the children (it doesn&apos;t use a true recursion, instead imitating one, presumably to save stack space, though this is unlikely to be an issue). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="329" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="329" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRMESH_API void</type>
-        <definition>virtual MRMESH_API void MR::Object::onWorldXfChanged_</definition>
+      <memberdef kind="function" id="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::Object::onWorldXfChanged_</definition>
         <argsstring>()</argsstring>
         <name>onWorldXfChanged_</name>
         <qualifiedname>MR::Object::onWorldXfChanged_</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gaed272d8412b35e82e0df272f085f51c3">onWorldXfChanged_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gab39801c71ba664fe01509d9a247c196d">onWorldXfChanged_</reimplementedby>
-        <reimplementedby refid="group__GeneralGroup_1gafd09bfdf435a2c589bea011e532c6ecc">onWorldXfChanged_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaea0a79b7e90de5074956fc0c819ef78f">onWorldXfChanged_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3baa3f91550299e2c0a237d572cc64f9">onWorldXfChanged_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab12350688785ef47db15daeda4ec6248">onWorldXfChanged_</reimplementedby>
         <briefdescription>
 <para>Emits <computeroutput>worldXfChangedSignal</computeroutput>, but derived classes can add additional behavior to it. </para>
         </briefdescription>
@@ -2044,7 +2044,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="332" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="332" column="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -2101,7 +2101,7 @@
           <declname>mapLinkToSharedObjectModel</declname>
         </param>
         <param>
-          <type>const ProgressCallback &amp;</type>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
           <declname>progressCb</declname>
         </param>
         <briefdescription>
@@ -2401,11 +2401,11 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="62" bodyend="343"/>
     <listofallmembers>
-      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::Object</scope><name>addChild</name></member>
-      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::Object</scope><name>addChildBefore</name></member>
-      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>addTag</name></member>
+      <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::Object</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::Object</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a56371d5594dc04ece2f123377835e11d" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>addTag</name></member>
       <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>ancillary_</name></member>
-      <member refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" virt="virtual"><scope>MR::Object</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a3a68f754bb677c34f6275a6fcbc332ee" prot="public" virt="virtual"><scope>MR::Object</scope><name>applyScale</name></member>
       <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>asType</name></member>
       <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>asType</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>bastards_</name></member>
@@ -2414,35 +2414,35 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>children_</name></member>
       <member refid="classMR_1_1Object_1affbcbbc7f5e086e26cdb5f7689557c74" prot="public" virt="virtual"><scope>MR::Object</scope><name>className</name></member>
       <member refid="classMR_1_1Object_1a6f75a192e0d9f2bdfecdac79b4a15ae1" prot="public" virt="virtual"><scope>MR::Object</scope><name>classNameInPlural</name></member>
-      <member refid="classMR_1_1Object_1ae0f00298204b65ca49b4daaa9a39f5c5" prot="public" virt="virtual"><scope>MR::Object</scope><name>clone</name></member>
-      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>cloneTree</name></member>
-      <member refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42" prot="protected" virt="virtual"><scope>MR::Object</scope><name>deserializeFields_</name></member>
-      <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::Object</scope><name>deserializeModel_</name></member>
-      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a3d0d34710d4460c82c6e1a0b641b49ca" prot="public" virt="virtual"><scope>MR::Object</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Object_1ace37b35645d3a70bd3bd51339b19d2bc" prot="protected" virt="virtual"><scope>MR::Object</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a24103b426aec928b849c1c5aed3849fd" prot="protected" virt="virtual"><scope>MR::Object</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a5ad7a9244371a01ba7538ff24ce15165" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1ad45231879b5ca6ac91ec634a08fd853a" prot="private" virt="non-virtual"><scope>MR::Object</scope><name>deserializeRecursive_</name></member>
-      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::Object</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1acde230852a1c88579a652d00e088d03a" prot="public" virt="virtual"><scope>MR::Object</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Object_1a0520ac7d486992d1ab8e2e421b9237f9" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>find</name></member>
-      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1a831f4bf76e2d9593f570d292c549999f" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>findCommonAncestor</name></member>
-      <member refid="classMR_1_1Object_1ad99d5459862ef664776cb3dde87df0ee" prot="public" virt="virtual"><scope>MR::Object</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::Object</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Object_1a7f2ed80a457d4cb01790c861267af3be" prot="public" virt="virtual"><scope>MR::Object</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Object_1a3f895610f42b2b4dec3e99d8b0920ecf" prot="public" virt="virtual"><scope>MR::Object</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1Object_1a4ae8a13d0528c5937e200015938b6dc5" prot="public" virt="virtual"><scope>MR::Object</scope><name>getRedrawFlag</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a05ec077c2240d9e3d7a9889ec4ad308d" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1Object_1aeb145057d6707527c3d60d9f459ec2b4" prot="public" virt="virtual"><scope>MR::Object</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Object_1ad214d65abcf7233510a268c7d615beda" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>globalVisibility</name></member>
-      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a33afd7cea9523c3669d9d549f1ab53b4" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>globalVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::Object</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" virt="virtual"><scope>MR::Object</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1Object_1adc5d7c1d86bb8b8afe345a35b7c9a6bc" prot="public" virt="virtual"><scope>MR::Object</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a5604698e40028be9831f88ae7b25cd8e" prot="public" virt="virtual"><scope>MR::Object</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isAncillary</name></member>
-      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isGlobalAncillary</name></member>
       <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isLocked</name></member>
       <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>isParentLocked</name></member>
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::Object</scope><name>isSelected</name></member>
@@ -2457,62 +2457,62 @@
       <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::Object</scope><name>onWorldXfChanged_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1ac39b8635e5ec3a3e5d0c900806a6766e" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" virt="virtual"><scope>MR::Object</scope><name>onWorldXfChanged_</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::Object</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::Object</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1af9423022c44615eb44c4c83247239a89" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::Object</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>parent</name></member>
       <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>parent</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>parentLocked_</name></member>
-      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::Object</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" virt="virtual"><scope>MR::Object</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>removeChild</name></member>
-      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::Object</scope><name>removeChild</name></member>
-      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" virt="virtual"><scope>MR::Object</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aaf5c6ed94ae5c2460bd980f52836d6c4" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>removeTag</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>resetRedrawFlag</name></member>
-      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::Object</scope><name>resetXf</name></member>
-      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::Object</scope><name>sameModels</name></member>
-      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::Object</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a28ae4cd299540ffaf382524cb03062c8" prot="public" virt="virtual"><scope>MR::Object</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Object_1abea48cadbb0a62e3251ab0dc7fea2976" prot="public" virt="virtual"><scope>MR::Object</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a6a0d3c1523518070b289fea6871fb3b2" prot="public" virt="virtual"><scope>MR::Object</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>selected_</name></member>
-      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1Object_1a4b72f2310983a6e40753b5d919d72d35" prot="protected" virt="virtual"><scope>MR::Object</scope><name>serializeFields_</name></member>
-      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::Object</scope><name>serializeModel_</name></member>
-      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a51befbcd75bb0e8dabe65ab428c0ca61" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="classMR_1_1Object_1af1776b0b1ac82e06055823a9cac2eafa" prot="protected" virt="virtual"><scope>MR::Object</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a50700fd5697a12cef45947f3b26adc2b" prot="protected" virt="virtual"><scope>MR::Object</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a816a99fe61e3ee86b2dddb57fc65aef9" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a4af773da3b6f66d596e105c7d6db4013" prot="private" virt="non-virtual"><scope>MR::Object</scope><name>serializeRecursive_</name></member>
-      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::Object</scope><name>setAncillary</name></member>
-      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1Object_1aff1c500650f7ae09501f12d0830ebe69" prot="public" virt="virtual"><scope>MR::Object</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1Object_1a2d67075395231ca81600bcf6241a6e24" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>setGlobalVisibility</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::Object</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::Object</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::Object</scope><name>setParentLocked</name></member>
-      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::Object</scope><name>setSharedModel_</name></member>
-      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::Object</scope><name>setVisibilityMask</name></member>
-      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>setVisible</name></member>
-      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>setWorldXf</name></member>
-      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::Object</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1ae255ade2b73c7c74b291f272f5073e73" prot="protected" virt="virtual"><scope>MR::Object</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1Object_1abd94110891bc5e4715ab564a4912a01a" prot="public" virt="virtual"><scope>MR::Object</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a7c38cdec34f5eb072645d48c9c348046" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1Object_1a61f69554fe584800b9f60fac7e7f2200" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a13e613fb84a7c11c723e88c920ddbfda" prot="public" virt="virtual"><scope>MR::Object</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::Object</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1Object_1a0d35e02c1f43af6741066f893311266f" prot="public" virt="virtual"><scope>MR::Object</scope><name>shallowClone</name></member>
-      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>shallowCloneTree</name></member>
-      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Object_1a04daf2482cff43d36ae8c6f34faae22d" prot="public" virt="virtual"><scope>MR::Object</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1a406d860dc855babd99ec6eb2eccd06d8" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Object_1a4cf0bc879b98d57f31a9787e357dce2a" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1Object_1aabde5426250bcc724ead68efd97e4be2" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>StaticClassName</name></member>
       <member refid="classMR_1_1Object_1a4ab2cadfadf02977ff6a11256d9e4d54" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classMR_1_1Object_1ab6591c1addd7f10e668274f4b393ec00" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>swap</name></member>
-      <member refid="classMR_1_1Object_1a8ff1262849d62c014b87a26f031aee9a" prot="protected" virt="virtual"><scope>MR::Object</scope><name>swapBase_</name></member>
-      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::Object</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1af6d1058c77b340a20c6cfaf8ccbf48fd" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>swap</name></member>
+      <member refid="classMR_1_1Object_1a91ab78dc593781da4dbda7960a376fee" prot="protected" virt="virtual"><scope>MR::Object</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a379568377624da7413adaabeac8222d2" prot="protected" virt="virtual"><scope>MR::Object</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>tags_</name></member>
       <member refid="classMR_1_1Object_1a46f7be31befc01e09d18deed96127a02" prot="public" virt="virtual"><scope>MR::Object</scope><name>typeName</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::Object</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>visibilityMask_</name></member>
-      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>worldXf</name></member>
       <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>worldXfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>xf</name></member>
       <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::Object</scope><name>xf_</name></member>
       <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>XfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::Object</scope><name>~Object</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1afc70bfdd1da7c7b37030df9392d86ab5" prot="public" virt="non-virtual"><scope>MR::Object</scope><name>~ObjectChildrenHolder</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

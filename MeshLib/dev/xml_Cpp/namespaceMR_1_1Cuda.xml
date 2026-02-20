@@ -10,7 +10,7 @@
     <innerclass refid="classMR_1_1Cuda_1_1Polyline3DataHolder" prot="public">MR::Cuda::Polyline3DataHolder</innerclass>
     <sectiondef kind="var">
       <memberdef kind="variable" id="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" prot="public" static="no" mutable="no">
-        <type>struct <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga14a2b0f304716de7247bc521bb0f4b8b" kindref="member">struct</ref> <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
         <definition>struct MR_BIND_IGNORE MR::Cuda::PointCloudDataHolder</definition>
         <argsstring></argsstring>
         <name>PointCloudDataHolder</name>
@@ -39,7 +39,7 @@
         <name>distanceMapFromContours</name>
         <qualifiedname>MR::Cuda::distanceMapFromContours</qualifiedname>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -62,7 +62,7 @@
         <name>distanceMapFromContoursHeapBytes</name>
         <qualifiedname>MR::Cuda::distanceMapFromContoursHeapBytes</qualifiedname>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -148,7 +148,7 @@
           <declname>params</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>

@@ -5,7 +5,7 @@
     <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
     <includes refid="MRSceneSelectionChange_8h" local="no">MRSceneSelectionChange.h</includes>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gae03b497a188281988804ecd125fd8f7c" kind="function"><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1ga582a7f9a59f810d41870507ac61d4942" kind="function"><name>updateSelection</name></member>
     </sectiondef>
     <briefdescription>
 <para>restart on state change </para>
@@ -38,7 +38,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" bodystart="32" bodyend="35"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gae03b497a188281988804ecd125fd8f7c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1ga582a7f9a59f810d41870507ac61d4942" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>updateSelection</name></member>
       <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>~ISceneSelectionChange</name></member>
     </listofallmembers>
   </compounddef>

@@ -6,13 +6,13 @@ var MRWeightedPointsShell_8h =
     [ "MR::WeightedShell::ParametersRegions", "structMR_1_1WeightedShell_1_1ParametersRegions.html", "structMR_1_1WeightedShell_1_1ParametersRegions" ],
     [ "MR::WeightedShell::ParametersRegions::Region", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region" ],
     [ "meshToDistanceVolumeT", "MRWeightedPointsShell_8h.html#ad2ba4e4f0e0175fc0608e172a0619984", null ],
-    [ "calculateShellWeightsFromRegions", "MRWeightedPointsShell_8h.html#a3e108c56779c35179e76f309f651b3ae", null ],
-    [ "meshShell", "MRWeightedPointsShell_8h.html#a5f3f7e651a5e21cd4346de588b7641b1", null ],
-    [ "meshShell", "MRWeightedPointsShell_8h.html#a54580de8838b073a4531d9f3149ea22e", null ],
-    [ "meshShell", "MRWeightedPointsShell_8h.html#a90e26c11723ff31873a2d5046d4edc5a", null ],
-    [ "meshShell", "MRWeightedPointsShell_8h.html#a7882f57d282bd3aa7b657061f8f9409b", null ],
-    [ "meshToDistanceVolume", "MRWeightedPointsShell_8h.html#a33b0f3cc490481ebb0f62010cf20518e", null ],
-    [ "pointsShell", "MRWeightedPointsShell_8h.html#a073bb16262b665c98e72cbc2da3afc40", null ],
-    [ "pointsShell", "MRWeightedPointsShell_8h.html#a8dc2c1b804b8a46b0a33345e1f1688f1", null ],
-    [ "pointsToDistanceVolume", "MRWeightedPointsShell_8h.html#a01eafebe7cd6350d108fb538e558fb12", null ]
+    [ "calculateShellWeightsFromRegions", "MRWeightedPointsShell_8h.html#a521af3e40765a04b00069fa14da9a3fa", null ],
+    [ "meshShell", "MRWeightedPointsShell_8h.html#a6c11500f809bc486096500b727e6cbbe", null ],
+    [ "meshShell", "MRWeightedPointsShell_8h.html#a31f9c85adfd5e2b5553fb5dcb97384f0", null ],
+    [ "meshShell", "MRWeightedPointsShell_8h.html#a8154f94a6793c43fd049a5bf549bf75f", null ],
+    [ "meshShell", "MRWeightedPointsShell_8h.html#aa73cc71df322e6863d94e7f237875475", null ],
+    [ "meshToDistanceVolume", "MRWeightedPointsShell_8h.html#a1828e77e08ab2c06e1b4bffe5866270f", null ],
+    [ "pointsShell", "MRWeightedPointsShell_8h.html#a2d9e4d1c9f007cc1087818a3740c5653", null ],
+    [ "pointsShell", "MRWeightedPointsShell_8h.html#a27dc07084bd9d7ba531af503ee26ecaa", null ],
+    [ "pointsToDistanceVolume", "MRWeightedPointsShell_8h.html#ad1ffa222355f35085c885b87e8d27df8", null ]
 ];

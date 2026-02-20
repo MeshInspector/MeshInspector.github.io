@@ -11,19 +11,25 @@
     <includedby refid="MRSurfacePointPicker_8h" local="yes">MRSurfacePointPicker.h</includedby>
     <includedby refid="MRViewport_8h" local="no">MRViewport.h</includedby>
     <incdepgraph>
-      <node id="10">
+      <node id="11">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="22">
+      <node id="29">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="24">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="9" relation="include">
@@ -36,21 +42,43 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="5">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="18">
-        <label>MRMeshTriPoint.h</label>
-        <link refid="MRMeshTriPoint_8h"/>
+      <node id="9">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+      </node>
+      <node id="25">
+        <label>MRMeshTriPoint.h</label>
+        <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -58,9 +86,9 @@
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -70,33 +98,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="27">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="26">
         <label>MRTriPoint.h</label>
         <link refid="MRTriPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -116,59 +144,75 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>MRMeshFwd.h</label>
+      <node id="10">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="2">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="11">
+      <node id="19">
         <label>algorithm</label>
+      </node>
+      <node id="12">
+        <label>array</label>
       </node>
       <node id="17">
         <label>cassert</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cmath</label>
       </node>
       <node id="7">
         <label>cstddef</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>cstring</label>
       </node>
-      <node id="14">
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="22">
         <label>iosfwd</label>
       </node>
-      <node id="21">
+      <node id="28">
         <label>limits</label>
       </node>
-      <node id="23">
+      <node id="30">
         <label>optional</label>
+      </node>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
       </node>
       <node id="8">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>utility</label>
       </node>
-      <node id="24">
+      <node id="31">
         <label>variant</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -252,15 +296,15 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref><sp/>=<sp/>std::variant&lt;std::monostate,<sp/>MeshTriPoint,<sp/>EdgePoint,<sp/>VertId&gt;;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1ga89a0d173f619c99ee93c0904af771995" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref><sp/><ref refid="group__GeneralGroup_1ga89a0d173f619c99ee93c0904af771995" kindref="member">pointOnObjectToPickedPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnObject" kindref="compound">PointOnObject</ref>&amp;<sp/>pos<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga682733ab4117db6c9d32200fd2fbf837" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref><sp/><ref refid="group__GeneralGroup_1ga682733ab4117db6c9d32200fd2fbf837" kindref="member">pointOnObjectToPickedPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnObject" kindref="compound">PointOnObject</ref>&amp;<sp/>pos<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1gaef29f4747473e9f88809ee80f810f06e" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gaef29f4747473e9f88809ee80f810f06e" kindref="member">getPickedPointPosition</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga061be58a0c33284aabdda040949d2da1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga061be58a0c33284aabdda040949d2da1" kindref="member">getPickedPointPosition</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="group__GeneralGroup_1ga82fec43cdbebaa87d6a73b31c407eafb" refkind="member"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>getPickedPointPosition()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga82fec43cdbebaa87d6a73b31c407eafb" kindref="member">pickedPointToVector3</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point<sp/>);</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gabbd442442a2de3378064efed4ae28f84" refkind="member"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>getPickedPointPosition()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gabbd442442a2de3378064efed4ae28f84" kindref="member">pickedPointToVector3</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="group__GeneralGroup_1ga6a6ef917fc600d4d162f4be62800ead6" refkind="member"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>getPickedPointPosition()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6a6ef917fc600d4d162f4be62800ead6" kindref="member">isPickedPointValid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point<sp/>);</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga5584930e36d7f68deab6907f5d11e027" refkind="member"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>getPickedPointPosition()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5584930e36d7f68deab6907f5d11e027" kindref="member">isPickedPointValid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="group__GeneralGroup_1gaf403dfe39beb0bed1ae39d133f0f01a1" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gaf403dfe39beb0bed1ae39d133f0f01a1" kindref="member">getPickedPointNormal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>interpolated<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga04831f2ccc8463060908522a0b06066c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga04831f2ccc8463060908522a0b06066c" kindref="member">getPickedPointNormal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>interpolated<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

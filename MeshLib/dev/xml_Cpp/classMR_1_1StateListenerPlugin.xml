@@ -4,6 +4,12 @@
     <compoundname>MR::StateListenerPlugin</compoundname>
     <basecompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="non-virtual">MR::StateBasePlugin</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; Connectables... &gt;</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AddCustomThemePlugin" prot="public" virt="non-virtual">MR::AddCustomThemePlugin</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1BinaryOperations" prot="public" virt="non-virtual">MR::BinaryOperations</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1CameraOrientation" prot="public" virt="non-virtual">MR::CameraOrientation</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1CaptureScreenshotMenuItem" prot="public" virt="non-virtual">MR::CaptureScreenshotMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1OpenRawVoxelsPlugin" prot="public" virt="non-virtual">MR::OpenRawVoxelsPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ViewerSettingsPlugin" prot="public" virt="non-virtual">MR::ViewerSettingsPlugin</derivedcompoundref>
     <includes refid="MRStatePlugin_8h" local="no">MRStatePlugin.h</includes>
     <templateparamlist>
       <param>
@@ -19,9 +25,9 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga85268a85190bc88be8cc76981bff5587" kind="function"><name>~StateListenerPlugin</name></member>
       <member refid="group__GeneralGroup_1ga7dd63f0fe42b793001a53a4e76b94255" kind="function"><name>enable</name></member>
-      <memberdef kind="function" id="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::StateBasePlugin::StateBasePlugin</definition>
+      <memberdef kind="function" id="classMR_1_1StateListenerPlugin_1a881049c271f0ed1e696cc1d9dd7b19d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::StateBasePlugin::StateBasePlugin</definition>
         <argsstring>(std::string name, StatePluginTabs tab=StatePluginTabs::Other)</argsstring>
         <name>StateBasePlugin</name>
         <qualifiedname>MR::StateListenerPlugin::StateBasePlugin</qualifiedname>
@@ -51,6 +57,30 @@
       <node id="9">
         <label>Connectables...</label>
       </node>
+      <node id="10">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="6">
         <label>MR::IPluginUpdate</label>
         <link refid="classMR_1_1IPluginUpdate"/>
@@ -67,6 +97,12 @@
         <label>MR::MultiListener&lt; Connectables... &gt;</label>
         <link refid="structMR_1_1MultiListener"/>
         <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
       <node id="4">
@@ -98,6 +134,12 @@
       <node id="3">
         <label>MR::ViewerPlugin</label>
         <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+      <node id="15">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -160,54 +202,54 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="139" bodyend="160"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerFwd.h" bodystart="74" bodyend="-1"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>blocking</name></member>
-      <member refid="group__GeneralGroup_1ga730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>checkStringMask</name></member>
+      <member refid="group__GeneralGroup_1ga637d5932d31bff8b065062c7e191fc05" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>checkStringMask</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>dialogIsCollapsed_</name></member>
-      <member refid="group__GeneralGroup_1gad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>dialogIsOpen</name></member>
+      <member refid="group__GeneralGroup_1ga4f65b03557a2fc96a2243d1d1ce7e99b" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>dialogIsOpen</name></member>
       <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>dialogIsOpen_</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>disconnect</name></member>
-      <member refid="group__GeneralGroup_1gaa3a6877967ca8f424ed261e43345bd26" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga40046aff5a01f978c06cb78392a7921d" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>drawDialog</name></member>
       <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>dropItems</name></member>
       <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>DropItemsList</name></member>
       <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>dropList_</name></member>
       <member refid="group__GeneralGroup_1ga7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>enable</name></member>
       <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>getDynamicTooltip</name></member>
-      <member refid="group__GeneralGroup_1ga54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>getTab</name></member>
-      <member refid="group__GeneralGroup_1ga1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>getTabName</name></member>
-      <member refid="group__GeneralGroup_1ga2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>getTooltip</name></member>
-      <member refid="group__GeneralGroup_1gaa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="group__GeneralGroup_1gac60894f731e40c4efde10ce83ec00f98" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga92b35d044111284af9dab8791a53c660" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>getTabName</name></member>
+      <member refid="group__GeneralGroup_1ga6b50155ff61345dc5b8abd5c4500b86b" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga4a73edaf848e58004c9362f2ac6df049" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>ImGuiBeginWindow_</name></member>
       <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>isAvailable</name></member>
-      <member refid="group__GeneralGroup_1gae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga23d5a6b87188d85970d7592c1c901ff8" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>isEnabled</name></member>
       <member refid="group__GeneralGroup_1ga239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>isEnabled_</name></member>
       <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>MR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>MultiListenerBase</name></member>
       <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>name</name></member>
-      <member refid="group__GeneralGroup_1ga31980ff25e0e7e77cf8ace037ddd9f68" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>onDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga653adb25964ffa5b7ca333c119b2e597" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga98563ce099c1b026abb38869a32f443f" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga9bd3dfb3cd43363f48a6b377b6eb33c9" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>onEnable_</name></member>
       <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>onPluginDisable_</name></member>
       <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>onPluginEnable_</name></member>
       <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>plugin_name</name></member>
       <member refid="group__GeneralGroup_1ga1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>PluginParent</name></member>
       <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>preDrawUpdate</name></member>
-      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>RibbonMenuItem</name></member>
-      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>setRibbonItemType</name></member>
-      <member refid="group__GeneralGroup_1ga1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>setUIName</name></member>
+      <member refid="group__GeneralGroup_1ga0223aec29e05a326d4505029393e7608" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>setUIName</name></member>
       <member refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>shouldClose_</name></member>
-      <member refid="group__GeneralGroup_1gaf0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1ga816498e728c95b55dfa2984b2ad45d35" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>shutdown</name></member>
       <member refid="group__GeneralGroup_1gadede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>sortString</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>StateBasePlugin</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a881049c271f0ed1e696cc1d9dd7b19d9" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>StateBasePlugin</name></member>
       <member refid="group__GeneralGroup_1gac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>tab_</name></member>
       <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>type</name></member>
       <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>type_</name></member>
       <member refid="group__GeneralGroup_1ga56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>uiName</name></member>
-      <member refid="group__GeneralGroup_1ga5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>UINameSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga14f462561c6d7534870cd58ca7bf20fb" prot="public" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>UINameSuffix</name></member>
       <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>updateSelection</name></member>
       <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::StateListenerPlugin</scope><name>viewer</name></member>
       <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>~IPluginUpdate</name></member>

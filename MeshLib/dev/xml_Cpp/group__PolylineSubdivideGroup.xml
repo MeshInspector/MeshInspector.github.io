@@ -5,9 +5,9 @@
     <title>Polyline Subdivide</title>
     <innerclass refid="structMR_1_1PolylineSubdivideSettings" prot="public">MR::PolylineSubdivideSettings</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__PolylineSubdivideGroup_1ga0bbd08d4c425d1f7af74133abd56be58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API int</type>
-        <definition>MRMESH_API int MR::subdividePolyline</definition>
+      <memberdef kind="function" id="group__PolylineSubdivideGroup_1gab43831fc9496b5cfec6dabf33d82df2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::subdividePolyline</definition>
         <argsstring>(Polyline2 &amp;polyline, const PolylineSubdivideSettings &amp;settings={})</argsstring>
         <name>subdividePolyline</name>
         <qualifiedname>MR::subdividePolyline</qualifiedname>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="38" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" declline="38" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="38" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" declline="38" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__PolylineSubdivideGroup_1ga7f91969af2bfe0c0487b2811d32925c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API int</type>
-        <definition>MRMESH_API int MR::subdividePolyline</definition>
+      <memberdef kind="function" id="group__PolylineSubdivideGroup_1ga8f12328931f9ad5bb4f2a045c02c354a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::subdividePolyline</definition>
         <argsstring>(Polyline3 &amp;polyline, const PolylineSubdivideSettings &amp;settings={})</argsstring>
         <name>subdividePolyline</name>
         <qualifiedname>MR::subdividePolyline</qualifiedname>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="39" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" declline="39" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="39" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" declline="39" declcolumn="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

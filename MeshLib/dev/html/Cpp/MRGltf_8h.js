@@ -1,5 +1,5 @@
 var MRGltf_8h =
 [
-    [ "deserializeObjectTreeFromGltf", "MRGltf_8h.html#ga9533f8301be7833fd9eb7dea4a8dc4a9", null ],
-    [ "serializeObjectTreeToGltf", "MRGltf_8h.html#ga9ffd211eed6d45ccbe16c7556c53fe5a", null ]
+    [ "deserializeObjectTreeFromGltf", "MRGltf_8h.html#gae6fa636dd51f34ce2884fd560b05e1f4", null ],
+    [ "serializeObjectTreeToGltf", "MRGltf_8h.html#gac8803852ddb6015dc7720ef58908cd84", null ]
 ];

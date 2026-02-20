@@ -11,9 +11,9 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga3e9fcf7dd7831ccbfdf02ee161bae0da" kind="function"><name>AngleTask</name></member>
-      <member refid="group__GeneralGroup_1gaca9dee7b662d5d6842d56865047cf173" kind="function"><name>AngleTask</name></member>
-      <member refid="group__GeneralGroup_1gaa3ac89e4fd5b5673725c56c28cd3cb1a" kind="function"><name>renderPass</name></member>
-      <member refid="group__GeneralGroup_1ga49f86a1ba427b305755d0ba398e68a98" kind="function"><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga0bc896cf6c132aea51f6e9c0ce0bba8e" kind="function"><name>AngleTask</name></member>
+      <member refid="group__GeneralGroup_1ga063d2956bd4058885e81ade7b7cafca0" kind="function"><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga71934ce675a55f671fbfaaa87c892141" kind="function"><name>onClick</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -58,7 +58,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="139" bodyend="151"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e9fcf7dd7831ccbfdf02ee161bae0da" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>AngleTask</name></member>
-      <member refid="group__GeneralGroup_1gaca9dee7b662d5d6842d56865047cf173" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>AngleTask</name></member>
+      <member refid="group__GeneralGroup_1ga0bc896cf6c132aea51f6e9c0ce0bba8e" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>AngleTask</name></member>
       <member refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>BasicClickableRectUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga7d2604474a74167ceaa7eb132072b9c4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>BasicClickableRectUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>BasicUiRenderTask</name></member>
@@ -67,17 +67,17 @@
       <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>clickableCornerA</name></member>
       <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>clickableCornerB</name></member>
       <member refid="group__GeneralGroup_1ga1afbc86d89a123e846aac8fdd0733d23" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>color_</name></member>
-      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gae05bf19b46876470cef45cd15178099f" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>earlyBackwardPass</name></member>
       <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>enabled</name></member>
       <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>InteractionMask</name></member>
       <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>isHovered</name></member>
-      <member refid="group__GeneralGroup_1ga49f86a1ba427b305755d0ba398e68a98" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga71934ce675a55f671fbfaaa87c892141" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>onClick</name></member>
       <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::AngleTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::AngleTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gac13626a691d0f1bbfd356521abc40d94" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>params_</name></member>
-      <member refid="group__GeneralGroup_1gaa3ac89e4fd5b5673725c56c28cd3cb1a" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga063d2956bd4058885e81ade7b7cafca0" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>renderPass</name></member>
       <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>renderTaskDepth</name></member>
       <member refid="group__GeneralGroup_1ga470fda72e3a7d752f8dd56f8612efac9" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>viewport_</name></member>
       <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>~BasicClickableRectUiRenderTask</name></member>

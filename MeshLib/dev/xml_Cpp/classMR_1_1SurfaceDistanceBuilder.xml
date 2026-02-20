@@ -106,9 +106,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1af3d50b55a0c2af75bdba0d4eb7dc2e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::SurfaceDistanceBuilder::SurfaceDistanceBuilder</definition>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ad953af191b66e04789699c3707a47b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SurfaceDistanceBuilder::SurfaceDistanceBuilder</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet *region)</argsstring>
         <name>SurfaceDistanceBuilder</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::SurfaceDistanceBuilder</qualifiedname>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="38" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="38" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ae5aba85dbb1efdefdea87c31c4c4a624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -154,9 +154,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="39" bodyend="40"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a1e5bc477a09b77b99e2ad82ac95adc91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::SurfaceDistanceBuilder::addStartRegion</definition>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a2d6c34cebbd8117d07b73bd3a514627d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceDistanceBuilder::addStartRegion</definition>
         <argsstring>(const VertBitSet &amp;region, float startDistance)</argsstring>
         <name>addStartRegion</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::addStartRegion</qualifiedname>
@@ -175,16 +175,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="42" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="42" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a370f90033c096568d58a18d399102064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::SurfaceDistanceBuilder::addStartVertices</definition>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ac6c258764fe276b1cf23bbba8bffe0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceDistanceBuilder::addStartVertices</definition>
         <argsstring>(const HashMap&lt; VertId, float &gt; &amp;startVertices)</argsstring>
         <name>addStartVertices</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::addStartVertices</qualifiedname>
         <param>
-          <type>const HashMap&lt; VertId, float &gt; &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; VertId, float &gt; &amp;</type>
           <declname>startVertices</declname>
         </param>
         <briefdescription>
@@ -194,11 +194,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="44" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="44" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a35fe09c0ed56d9b10178d9099cef9204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::SurfaceDistanceBuilder::addStart</definition>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a5189e1622e0103bd98faa67445fbbf74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceDistanceBuilder::addStart</definition>
         <argsstring>(const MeshTriPoint &amp;start)</argsstring>
         <name>addStart</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::addStart</qualifiedname>
@@ -213,11 +213,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="46" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="46" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a9b1547c200aedacf976a12ff582e729a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::SurfaceDistanceBuilder::setMaxVertUpdates</definition>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ab233bff0428403e114f95605d8e1004b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceDistanceBuilder::setMaxVertUpdates</definition>
         <argsstring>(int v)</argsstring>
         <name>setMaxVertUpdates</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::setMaxVertUpdates</qualifiedname>
@@ -232,11 +232,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="50" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="50" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a2c536dc87c144291b79132239fe4d967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::SurfaceDistanceBuilder::growOne</definition>
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a43aa321544fea1e2253d32f3f10b6a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::SurfaceDistanceBuilder::growOne</definition>
         <argsstring>()</argsstring>
         <name>growOne</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::growOne</qualifiedname>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="53" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="53" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1aa5c104e6de91cb67a4df448454913a0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>VertScalars</type>
@@ -386,22 +386,22 @@ otherwise if the known distance to c.vert is already not greater than returns fa
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="36" bodyend="82"/>
     <listofallmembers>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1a35fe09c0ed56d9b10178d9099cef9204" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStart</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1a1e5bc477a09b77b99e2ad82ac95adc91" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1a370f90033c096568d58a18d399102064" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a5189e1622e0103bd98faa67445fbbf74" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStart</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a2d6c34cebbd8117d07b73bd3a514627d" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ac6c258764fe276b1cf23bbba8bffe0a2" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a306ccd4e1e28b035365c75ee18fe2dc7" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>considerLeftTriPath_</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ac10dab2b68dd9de618eeb1ce16471e23" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>done</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a66781dd9ecf7009c090fffa4c7d0e6f7" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>doneDistance</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1a2c536dc87c144291b79132239fe4d967" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>growOne</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a43aa321544fea1e2253d32f3f10b6a39" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>growOne</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a1f44aba58ae6259cdea786b128d8d5b9" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>maxVertUpdates_</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1aa111cd653ee9cf1fa7b3be5c8bc5a39f" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>mesh_</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ab713041962ffdc81f9774b78518f4003" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>metricToPenalty_</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a4694ac1c1c7306b77175d4f75f1c9dd0" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>nextVerts_</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a6007868d5ad49a79e6f07bdafa976231" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>region_</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1a9b1547c200aedacf976a12ff582e729a" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>setMaxVertUpdates</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ab233bff0428403e114f95605d8e1004b" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>setMaxVertUpdates</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ab02bbcf361491a9616d55a5fc2151696" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>suggestDistancesAround_</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a2556338e00348be89e228fe21c945a97" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>suggestVertDistance_</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1af3d50b55a0c2af75bdba0d4eb7dc2e34" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1ad953af191b66e04789699c3707a47b18" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ae5aba85dbb1efdefdea87c31c4c4a624" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1aa5c104e6de91cb67a4df448454913a0d" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>takeDistanceMap</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a577fd7e8a0f77545c4e4cbc80886ada1" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>target_</name></member>

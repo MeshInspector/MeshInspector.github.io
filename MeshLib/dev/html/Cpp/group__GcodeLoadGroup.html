@@ -26,7 +26,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: Mesh Load</title>
+<title>MeshLib C++ Docs: Gcode Load</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -148,46 +148,46 @@ $(function(){initNavTree('group__GcodeLoadGroup.html',''); initResizable(true); 
   <div class="summary">
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Mesh Load<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
+  <div class="headertitle"><div class="title">Gcode Load<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga3fb5b21ae941b7ddf2b03fe3cd86d6d9" id="r_ga3fb5b21ae941b7ddf2b03fe3cd86d6d9"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fb5b21ae941b7ddf2b03fe3cd86d6d9">MR::GcodeLoad::fromGcode</a> (const std::filesystem::path &amp;file, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:ga3fb5b21ae941b7ddf2b03fe3cd86d6d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from *.gcode file (or any text file)  <br /></td></tr>
-<tr class="separator:ga3fb5b21ae941b7ddf2b03fe3cd86d6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga189701bf2d6aeb45f33edd76af737827" id="r_ga189701bf2d6aeb45f33edd76af737827"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga189701bf2d6aeb45f33edd76af737827">MR::GcodeLoad::fromGcode</a> (std::istream &amp;in, ProgressCallback callback={})</td></tr>
-<tr class="separator:ga189701bf2d6aeb45f33edd76af737827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga735fe0c1addb07566dd89260cdaff6c0" id="r_ga735fe0c1addb07566dd89260cdaff6c0"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga735fe0c1addb07566dd89260cdaff6c0">MR::GcodeLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:ga735fe0c1addb07566dd89260cdaff6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads mesh from it  <br /></td></tr>
-<tr class="separator:ga735fe0c1addb07566dd89260cdaff6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8be6edc15f79ed3847e61a3704ad234d" id="r_ga8be6edc15f79ed3847e61a3704ad234d"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8be6edc15f79ed3847e61a3704ad234d">MR::GcodeLoad::fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:ga8be6edc15f79ed3847e61a3704ad234d"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
-<tr class="separator:ga8be6edc15f79ed3847e61a3704ad234d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33c573d15dbf5dad94ba542de086310f" id="r_ga33c573d15dbf5dad94ba542de086310f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33c573d15dbf5dad94ba542de086310f">MR::GcodeLoad::fromGcode</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga33c573d15dbf5dad94ba542de086310f"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from *.gcode file (or any text file)  <br /></td></tr>
+<tr class="separator:ga33c573d15dbf5dad94ba542de086310f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ec4ed07fd9eba700d2b29e209c94a59" id="r_ga9ec4ed07fd9eba700d2b29e209c94a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ec4ed07fd9eba700d2b29e209c94a59">MR::GcodeLoad::fromGcode</a> (std::istream &amp;in, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga9ec4ed07fd9eba700d2b29e209c94a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5329836b1c029f6aa077f54ac9f320db" id="r_ga5329836b1c029f6aa077f54ac9f320db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5329836b1c029f6aa077f54ac9f320db">MR::GcodeLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga5329836b1c029f6aa077f54ac9f320db"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads mesh from it  <br /></td></tr>
+<tr class="separator:ga5329836b1c029f6aa077f54ac9f320db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47150c131e109dbf32854c7178a81219" id="r_ga47150c131e109dbf32854c7178a81219"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47150c131e109dbf32854c7178a81219">MR::GcodeLoad::fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga47150c131e109dbf32854c7178a81219"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
+<tr class="separator:ga47150c131e109dbf32854c7178a81219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga35effe39ccae6c9f42a114a9dac9bf44" id="r_ga35effe39ccae6c9f42a114a9dac9bf44"><td class="memItemLeft" align="right" valign="top">MRMESH_API const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35effe39ccae6c9f42a114a9dac9bf44">MR::GcodeLoad::Filters</a></td></tr>
-<tr class="separator:ga35effe39ccae6c9f42a114a9dac9bf44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd47706c7b97898cac1416f8753223c7" id="r_gabd47706c7b97898cac1416f8753223c7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd47706c7b97898cac1416f8753223c7">MR::GcodeLoad::Filters</a></td></tr>
+<tr class="separator:gabd47706c7b97898cac1416f8753223c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga735fe0c1addb07566dd89260cdaff6c0" name="ga735fe0c1addb07566dd89260cdaff6c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga735fe0c1addb07566dd89260cdaff6c0">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[1/2]</span></h2>
+<a id="ga5329836b1c029f6aa077f54ac9f320db" name="ga5329836b1c029f6aa077f54ac9f320db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5329836b1c029f6aa077f54ac9f320db">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt; MR::GcodeLoad::fromAnySupportedFormat </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt; MR::GcodeLoad::fromAnySupportedFormat </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ProgressCallback</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -198,14 +198,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga8be6edc15f79ed3847e61a3704ad234d" name="ga8be6edc15f79ed3847e61a3704ad234d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8be6edc15f79ed3847e61a3704ad234d">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+<a id="ga47150c131e109dbf32854c7178a81219" name="ga47150c131e109dbf32854c7178a81219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga47150c131e109dbf32854c7178a81219">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt; MR::GcodeLoad::fromAnySupportedFormat </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt; MR::GcodeLoad::fromAnySupportedFormat </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
@@ -217,7 +217,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ProgressCallback</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -228,21 +228,21 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga3fb5b21ae941b7ddf2b03fe3cd86d6d9" name="ga3fb5b21ae941b7ddf2b03fe3cd86d6d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fb5b21ae941b7ddf2b03fe3cd86d6d9">&#9670;&#160;</a></span>fromGcode() <span class="overload">[1/2]</span></h2>
+<a id="ga33c573d15dbf5dad94ba542de086310f" name="ga33c573d15dbf5dad94ba542de086310f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33c573d15dbf5dad94ba542de086310f">&#9670;&#160;</a></span>fromGcode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt; MR::GcodeLoad::fromGcode </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt; MR::GcodeLoad::fromGcode </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ProgressCallback</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -253,21 +253,21 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga189701bf2d6aeb45f33edd76af737827" name="ga189701bf2d6aeb45f33edd76af737827"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga189701bf2d6aeb45f33edd76af737827">&#9670;&#160;</a></span>fromGcode() <span class="overload">[2/2]</span></h2>
+<a id="ga9ec4ed07fd9eba700d2b29e209c94a59" name="ga9ec4ed07fd9eba700d2b29e209c94a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ec4ed07fd9eba700d2b29e209c94a59">&#9670;&#160;</a></span>fromGcode() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#gae43b8843f04ddbfec0a3cd4c77eacf87">GcodeSource</a> &gt; MR::GcodeLoad::fromGcode </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda">GcodeSource</a> &gt; MR::GcodeLoad::fromGcode </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ProgressCallback</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -277,8 +277,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ga35effe39ccae6c9f42a114a9dac9bf44" name="ga35effe39ccae6c9f42a114a9dac9bf44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga35effe39ccae6c9f42a114a9dac9bf44">&#9670;&#160;</a></span>Filters</h2>
+<a id="gabd47706c7b97898cac1416f8753223c7" name="gabd47706c7b97898cac1416f8753223c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd47706c7b97898cac1416f8753223c7">&#9670;&#160;</a></span>Filters</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,7 +287,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRMESH_API const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::GcodeLoad::Filters</td>
+          <td class="memname">const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::GcodeLoad::Filters</td>
         </tr>
       </table>
   </td>

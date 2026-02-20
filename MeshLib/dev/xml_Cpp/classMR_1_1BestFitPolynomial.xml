@@ -23,10 +23,10 @@
       <member refid="group__GeneralGroup_1ga90d9825444089ba7fba1db98f428afe1" kind="variable"><name>sumWeight_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga6e839e3a51321f2d22350459fa2c280d" kind="function"><name>BestFitPolynomial</name></member>
-      <member refid="group__GeneralGroup_1ga131a7e21452f03e4a9613d1d168482c8" kind="function"><name>addPoint</name></member>
-      <member refid="group__GeneralGroup_1ga8100999b4e841b219d7accb5a05c23bb" kind="function"><name>addPoint</name></member>
-      <member refid="group__GeneralGroup_1ga94178932bf3011077ad8a874c0e442ab" kind="function"><name>getBestPolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga4cc4787e1309be999f557f9c9b6457e0" kind="function"><name>BestFitPolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga0ede820e1fa6d69febc84b49cfdfbf92" kind="function"><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga26b2f5c52f605ed742ed25938a237b1d" kind="function"><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga2483cb582a78447bd01167eb898daff4" kind="function"><name>getBestPolynomial</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -34,10 +34,10 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="97" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="98" bodyend="116"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga131a7e21452f03e4a9613d1d168482c8" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>addPoint</name></member>
-      <member refid="group__GeneralGroup_1ga8100999b4e841b219d7accb5a05c23bb" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>addPoint</name></member>
-      <member refid="group__GeneralGroup_1ga6e839e3a51321f2d22350459fa2c280d" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>BestFitPolynomial</name></member>
-      <member refid="group__GeneralGroup_1ga94178932bf3011077ad8a874c0e442ab" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>getBestPolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga0ede820e1fa6d69febc84b49cfdfbf92" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga26b2f5c52f605ed742ed25938a237b1d" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga4cc4787e1309be999f557f9c9b6457e0" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>BestFitPolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga2483cb582a78447bd01167eb898daff4" prot="public" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>getBestPolynomial</name></member>
       <member refid="group__GeneralGroup_1gae2b44071a699cacf014676fb2a412844" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>lambda_</name></member>
       <member refid="group__GeneralGroup_1ga13a2ebadd5fbd25d8f33140180f42872" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>n</name></member>
       <member refid="group__GeneralGroup_1ga90d9825444089ba7fba1db98f428afe1" prot="private" virt="non-virtual"><scope>MR::BestFitPolynomial</scope><name>sumWeight_</name></member>

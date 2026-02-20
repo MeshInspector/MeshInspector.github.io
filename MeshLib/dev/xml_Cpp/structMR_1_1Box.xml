@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Box" kind="struct" language="C++" prot="public">
     <compoundname>MR::Box</compoundname>
+    <derivedcompoundref refid="structMR_1_1VoxelsVolumeMinMax" prot="public" virt="non-virtual">MR::VoxelsVolumeMinMax&lt; T &gt;</derivedcompoundref>
     <includes refid="MRBox_8h" local="no">MRBox.h</includes>
     <templateparamlist>
       <param>
@@ -206,7 +207,7 @@
         <name>Box</name>
         <qualifiedname>MR::Box::Box</qualifiedname>
         <param>
-          <type>NoInit</type>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
         </param>
         <briefdescription>
 <para>skip initialization of min/max </para>
@@ -234,7 +235,7 @@
         <name>Box</name>
         <qualifiedname>MR::Box::Box</qualifiedname>
         <param>
-          <type>NoInit</type>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -753,6 +754,18 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::Box&lt; V &gt;</label>
+        <link refid="structMR_1_1Box"/>
+      </node>
+      <node id="2">
+        <label>MR::VoxelsVolumeMinMax&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolumeMinMax"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="27" bodyend="286"/>
     <listofallmembers>
       <member refid="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>

@@ -35,6 +35,7 @@
     <innerclass refid="structMR_1_1FindProjectionOnPointsSettings" prot="public">MR::FindProjectionOnPointsSettings</innerclass>
     <innerclass refid="classMR_1_1IPointsProjector" prot="public">MR::IPointsProjector</innerclass>
     <innerclass refid="classMR_1_1PointsProjector" prot="public">MR::PointsProjector</innerclass>
+    <innerclass refid="structMR_1_1PolylineIntersectionResult2" prot="public">MR::PolylineIntersectionResult2</innerclass>
     <innerclass refid="structMR_1_1PolylineProjectionResult" prot="public">MR::PolylineProjectionResult</innerclass>
     <innerclass refid="structMR_1_1PolylineProjectionResult3Arg" prot="public">MR::PolylineProjectionResult3Arg</innerclass>
     <innerclass refid="structMR_1_1PolylineProjectionWithOffsetResult" prot="public">MR::PolylineProjectionWithOffsetResult</innerclass>
@@ -289,6 +290,54 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="90" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__AABBTreeGroup_1ga80d1c820a9a9983c511c6785b2c8ed94" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::function&lt; Processing(const EdgePoint &amp;polylinePoint, T rayPos, T &amp;rayStart, T &amp;rayEnd)&gt;</type>
+        <definition>using MR::PolylineIntersectionCallback2 =  std::function&lt;Processing(const EdgePoint &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</definition>
+        <argsstring></argsstring>
+        <name>PolylineIntersectionCallback2</name>
+        <qualifiedname>MR::PolylineIntersectionCallback2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this callback is envoked for each encountered ray-polyline intersection; if it returns <ref refid="group__GeneralGroup_1ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481" kindref="member">Processing::Stop</ref>, then the search immediately terminates; the callback can reduce rayEnd affecting the following search, but it shall not increase rayEnd </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__AABBTreeGroup_1gae0b1767f78412a4100c7baa4ae2cb2de" prot="public" static="no">
+        <type>PolylineIntersectionCallback2&lt; float &gt;</type>
+        <definition>using MR::PolylineIntersectionCallback2f =  PolylineIntersectionCallback2&lt;float&gt;</definition>
+        <argsstring></argsstring>
+        <name>PolylineIntersectionCallback2f</name>
+        <qualifiedname>MR::PolylineIntersectionCallback2f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__AABBTreeGroup_1gaba7cace2c59d8ea1874ea0223d3c3d42" prot="public" static="no">
+        <type>PolylineIntersectionCallback2&lt; double &gt;</type>
+        <definition>using MR::PolylineIntersectionCallback2d =  PolylineIntersectionCallback2&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>PolylineIntersectionCallback2d</name>
+        <qualifiedname>MR::PolylineIntersectionCallback2d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="51" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" prot="public" static="no">
         <templateparamlist>
           <param>
@@ -520,9 +569,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="90" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="90" bodyend="94"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga68e6755511856f1d2c49843267a81d4c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga27f3ab649f42f8c32266636ea1e4a672" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector3f &amp;dir, const Mesh &amp;m, UseAABBTree u=UseAABBTree::Yes)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -546,11 +595,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="15" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="15" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="15" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="15" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaf49d29fe114a45e7ba44769ed23e07a7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga349eb7a8c883560631fb216578fa032e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector3f &amp;dir, const MeshPart &amp;mp, UseAABBTree u=UseAABBTree::Yes)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -574,11 +623,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="20" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="20" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="20" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="20" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaa1b086afbde5a06209437e0bf56bc6d9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga55d85d5bef96fb008fa97c964a107106" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector3f &amp;dir, const MeshVertPart &amp;mp, UseAABBTree u=UseAABBTree::Yes)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -602,11 +651,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="25" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="25" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="25" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="25" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaa5ff2fe386af48055096b3eb89f158b6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga239eecd05ac9c728a9cdb53a9ac23fa4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector3f &amp;dir, const Polyline3 &amp;polyline, UseAABBTree u=UseAABBTree::Yes)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -630,11 +679,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="30" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="30" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="30" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="30" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga650448329cde9ee6b4e27760630a09a1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga52a64810b7f16779f6057c6ea4dbea38" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector2f &amp;dir, const Polyline2 &amp;polyline, UseAABBTree u=UseAABBTree::Yes)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -658,11 +707,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="35" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="35" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="35" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="35" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga66e2ad7a22a0bdbd4e16907bd521c654" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaf9301e60577be3efc4d4574adf1f0bdc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector3f &amp;dir, const PointCloud &amp;cloud, const VertBitSet *region=nullptr, UseAABBTree u=UseAABBTree::Yes)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -691,11 +740,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="40" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="40" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="40" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga025c593a83827d6bf51e5df0acd27db5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::findDirMax</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga732261d700b4c525fd647dd0ce9d0cb7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::findDirMax</definition>
         <argsstring>(const Vector3f &amp;dir, const AABBTreePoints &amp;tree, const VertBitSet *region=nullptr)</argsstring>
         <name>findDirMax</name>
         <qualifiedname>MR::findDirMax</qualifiedname>
@@ -719,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="44" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="44" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="44" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="44" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga7fcb33a674ea8b57ac858e40d42e26e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -871,9 +920,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="19" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="19" bodyend="29"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaaeb209f0c917451a03debbf058fc39e6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; FaceFace &gt;</type>
-        <definition>MRMESH_API std::vector&lt; FaceFace &gt; MR::findCollidingTriangles</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; FaceFace &gt;</type>
+        <definition>std::vector&lt; FaceFace &gt; MR::findCollidingTriangles</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</argsstring>
         <name>findCollidingTriangles</name>
         <qualifiedname>MR::findCollidingTriangles</qualifiedname>
@@ -920,11 +969,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="19" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="19" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="19" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="19" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga47e983a2ba53dbe6d49313488f3cae23" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::pair&lt; FaceBitSet, FaceBitSet &gt;</type>
-        <definition>MRMESH_API std::pair&lt; FaceBitSet, FaceBitSet &gt; MR::findCollidingTriangleBitsets</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; FaceBitSet, FaceBitSet &gt;</type>
+        <definition>std::pair&lt; FaceBitSet, FaceBitSet &gt; MR::findCollidingTriangleBitsets</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>findCollidingTriangleBitsets</name>
         <qualifiedname>MR::findCollidingTriangleBitsets</qualifiedname>
@@ -942,17 +991,17 @@
           <defval>nullptr</defval>
         </param>
         <briefdescription>
-<para>the same as <ref refid="group__AABBTreeGroup_1gaaeb209f0c917451a03debbf058fc39e6" kindref="member">findCollidingTriangles</ref>, but returns one bite set per mesh with colliding triangles </para>
+<para>the same as <ref refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" kindref="member">findCollidingTriangles</ref>, but returns one bite set per mesh with colliding triangles </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="23" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="23" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="23" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="23" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga69b56b2d80a7923ebfeed5757d334e4f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; bool &gt;</type>
-        <definition>MRMESH_API Expected&lt; bool &gt; MR::findSelfCollidingTriangles</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; bool &gt;</type>
+        <definition>Expected&lt; bool &gt; MR::findSelfCollidingTriangles</definition>
         <argsstring>(const MeshPart &amp;mp, std::vector&lt; FaceFace &gt; *outCollidingPairs, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</argsstring>
         <name>findSelfCollidingTriangles</name>
         <qualifiedname>MR::findSelfCollidingTriangles</qualifiedname>
@@ -991,11 +1040,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="27" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="27" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="27" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="27" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga0ac96d312ea833414d4d74069169cb1b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::vector&lt; FaceFace &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::vector&lt; FaceFace &gt; &gt; MR::findSelfCollidingTriangles</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; FaceFace &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; FaceFace &gt; &gt; MR::findSelfCollidingTriangles</definition>
         <argsstring>(const MeshPart &amp;mp, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</argsstring>
         <name>findSelfCollidingTriangles</name>
         <qualifiedname>MR::findSelfCollidingTriangles</qualifiedname>
@@ -1028,11 +1077,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="34" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="34" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="34" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="34" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gac946d92c431583fc7c4d656445ba1c07" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findSelfCollidingTrianglesBS</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FaceBitSet &gt;</type>
+        <definition>Expected&lt; FaceBitSet &gt; MR::findSelfCollidingTrianglesBS</definition>
         <argsstring>(const MeshPart &amp;mp, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</argsstring>
         <name>findSelfCollidingTrianglesBS</name>
         <qualifiedname>MR::findSelfCollidingTrianglesBS</qualifiedname>
@@ -1058,18 +1107,18 @@
           <defval>false</defval>
         </param>
         <briefdescription>
-<para>the same <ref refid="group__AABBTreeGroup_1ga69b56b2d80a7923ebfeed5757d334e4f" kindref="member">findSelfCollidingTriangles</ref> but returns the union of all self-intersecting faces </para>
+<para>the same <ref refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kindref="member">findSelfCollidingTriangles</ref> but returns the union of all self-intersecting faces </para>
         </briefdescription>
         <detaileddescription>
 <para>if true then treat touching faces as self-intersections too </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="39" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="39" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="39" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="39" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga3c4d304b28fd4695d20dc454318f5660" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isInside</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isInside</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>isInside</name>
         <qualifiedname>MR::isInside</qualifiedname>
@@ -1103,11 +1152,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="47" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="47" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="47" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="47" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga30d53ebf69ce150861f17e4695543778" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isNonIntersectingInside</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isNonIntersectingInside</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>isNonIntersectingInside</name>
         <qualifiedname>MR::isNonIntersectingInside</qualifiedname>
@@ -1141,11 +1190,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="54" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="54" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="54" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="54" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga3358455877a4f3ab26bb581338d86cd4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isNonIntersectingInside</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isNonIntersectingInside</definition>
         <argsstring>(const Mesh &amp;a, FaceId partFace, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>isNonIntersectingInside</name>
         <qualifiedname>MR::isNonIntersectingInside</qualifiedname>
@@ -1183,7 +1232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="61" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="61" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="61" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="61" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1207,9 +1256,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="24" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="24" bodyend="27"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga11d4ca955f1a62e15ebea578ffa83454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PreciseCollisionResult</type>
-        <definition>MRMESH_API PreciseCollisionResult MR::findCollidingEdgeTrisPrecise</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PreciseCollisionResult</type>
+        <definition>PreciseCollisionResult MR::findCollidingEdgeTrisPrecise</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</argsstring>
         <name>findCollidingEdgeTrisPrecise</name>
         <qualifiedname>MR::findCollidingEdgeTrisPrecise</qualifiedname>
@@ -1260,11 +1309,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="71" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="71" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="71" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="71" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga50f22b9cff7188bb21cc3c7d72ec4a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; EdgeTri &gt;</type>
-        <definition>MRMESH_API std::vector&lt; EdgeTri &gt; MR::findSelfCollidingEdgeTrisPrecise</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgeTri &gt;</type>
+        <definition>std::vector&lt; EdgeTri &gt; MR::findSelfCollidingEdgeTrisPrecise</definition>
         <argsstring>(const MeshPart &amp;mp, ConvertToIntVector conv, bool anyIntersection=false, const AffineXf3f *rigidB2A=nullptr, int aVertSizes=0)</argsstring>
         <name>findSelfCollidingEdgeTrisPrecise</name>
         <qualifiedname>MR::findSelfCollidingEdgeTrisPrecise</qualifiedname>
@@ -1324,11 +1373,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="80" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="80" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="80" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga8c7d357b072699f62023d97ea1c81f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; EdgeTri &gt;</type>
-        <definition>MRMESH_API std::vector&lt; EdgeTri &gt; MR::findCollidingEdgeTrisPrecise</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgeTri &gt;</type>
+        <definition>std::vector&lt; EdgeTri &gt; MR::findCollidingEdgeTrisPrecise</definition>
         <argsstring>(const Mesh &amp;a, const std::vector&lt; EdgeId &gt; &amp;edgesA, const Mesh &amp;b, const std::vector&lt; FaceId &gt; &amp;facesB, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>findCollidingEdgeTrisPrecise</name>
         <qualifiedname>MR::findCollidingEdgeTrisPrecise</qualifiedname>
@@ -1364,11 +1413,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="84" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="84" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="84" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga939afe34134c1d66c9ca5f19e33dc323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; EdgeTri &gt;</type>
-        <definition>MRMESH_API std::vector&lt; EdgeTri &gt; MR::findCollidingEdgeTrisPrecise</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgeTri &gt;</type>
+        <definition>std::vector&lt; EdgeTri &gt; MR::findCollidingEdgeTrisPrecise</definition>
         <argsstring>(const Mesh &amp;a, const std::vector&lt; FaceId &gt; &amp;facesA, const Mesh &amp;b, const std::vector&lt; EdgeId &gt; &amp;edgesB, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>findCollidingEdgeTrisPrecise</name>
         <qualifiedname>MR::findCollidingEdgeTrisPrecise</qualifiedname>
@@ -1404,11 +1453,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="90" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="90" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="90" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gada6fc8da7b44241f0c208c2f2b085124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API CoordinateConverters</type>
-        <definition>MRMESH_API CoordinateConverters MR::getVectorConverters</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CoordinateConverters</type>
+        <definition>CoordinateConverters MR::getVectorConverters</definition>
         <argsstring>(const MeshPart &amp;a)</argsstring>
         <name>getVectorConverters</name>
         <qualifiedname>MR::getVectorConverters</qualifiedname>
@@ -1423,11 +1472,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="98" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="98" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga125d7b99c7b4840e87a3470ef0c64b17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API CoordinateConverters</type>
-        <definition>MRMESH_API CoordinateConverters MR::getVectorConverters</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CoordinateConverters</type>
+        <definition>CoordinateConverters MR::getVectorConverters</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
         <name>getVectorConverters</name>
         <qualifiedname>MR::getVectorConverters</qualifiedname>
@@ -1461,11 +1510,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="104" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="104" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gadb20234daa82631954c44c1676424e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::processCloseTriangles</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::processCloseTriangles</definition>
         <argsstring>(const MeshPart &amp;mp, const Triangle3f &amp;t, float rangeSq, const TriangleCallback &amp;call)</argsstring>
         <name>processCloseTriangles</name>
         <qualifiedname>MR::processCloseTriangles</qualifiedname>
@@ -1492,11 +1541,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="32" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" declline="32" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="32" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" declline="32" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gab849769857dbeadbea5f6bbfa749dfa0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; float &gt;</type>
-        <definition>MRMESH_API std::optional&lt; float &gt; MR::signedDistanceToMesh</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga50fea0557381236d780b7ea113906a0f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; float &gt;</type>
+        <definition>std::optional&lt; float &gt; MR::signedDistanceToMesh</definition>
         <argsstring>(const MeshPart &amp;mp, const Vector3f &amp;p, const SignedDistanceToMeshOptions &amp;op)</argsstring>
         <name>signedDistanceToMesh</name>
         <qualifiedname>MR::signedDistanceToMesh</qualifiedname>
@@ -1519,11 +1568,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="36" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" declline="36" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="36" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" declline="36" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga4a4bcd2a0d206e01852cba4f6e0c2a6b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshIntersectionResult</type>
-        <definition>MRMESH_API MeshIntersectionResult MR::rayMeshIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga5d17b235f3f132749a8d474be90b43b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshIntersectionResult</type>
+        <definition>MeshIntersectionResult MR::rayMeshIntersect</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Line3f &amp;line, float rayStart=0.0f, float rayEnd=FLT_MAX, const IntersectionPrecomputes&lt; float &gt; *prec=nullptr, bool closestIntersect=true, const FacePredicate &amp;validFaces={})</argsstring>
         <name>rayMeshIntersect</name>
         <qualifiedname>MR::rayMeshIntersect</qualifiedname>
@@ -1567,11 +1616,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="38" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="38" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="38" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="38" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga987d32cc52268b780f26e3733f7d0151" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshIntersectionResult</type>
-        <definition>MRMESH_API MeshIntersectionResult MR::rayMeshIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gac496cb12e8c787a2c31ed1a53cd7c6a5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshIntersectionResult</type>
+        <definition>MeshIntersectionResult MR::rayMeshIntersect</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Line3d &amp;line, double rayStart=0.0, double rayEnd=DBL_MAX, const IntersectionPrecomputes&lt; double &gt; *prec=nullptr, bool closestIntersect=true, const FacePredicate &amp;validFaces={})</argsstring>
         <name>rayMeshIntersect</name>
         <qualifiedname>MR::rayMeshIntersect</qualifiedname>
@@ -1615,11 +1664,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="48" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="48" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="48" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="48" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga041f851064ebbb5159343f98539fc045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::multiRayMeshIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gac55c3d3c33053f0cfe8a2d4a19666c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::multiRayMeshIntersect</definition>
         <argsstring>(const MeshPart &amp;meshPart, const std::vector&lt; Vector3f &gt; &amp;origins, const std::vector&lt; Vector3f &gt; &amp;dirs, const MultiRayMeshIntersectResult &amp;result, float rayStart=0.0f, float rayEnd=FLT_MAX, bool closestIntersect=true, const FacePredicate &amp;validFaces={})</argsstring>
         <name>multiRayMeshIntersect</name>
         <qualifiedname>MR::multiRayMeshIntersect</qualifiedname>
@@ -1680,11 +1729,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="65" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="65" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="65" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="65" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5ed53546770d894ff3f4ea75bd760afa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MultiMeshIntersectionResult</type>
-        <definition>MRMESH_API MultiMeshIntersectionResult MR::rayMultiMeshAnyIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gae5f7b660ced5a6518f007aa99a455bc7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MultiMeshIntersectionResult</type>
+        <definition>MultiMeshIntersectionResult MR::rayMultiMeshAnyIntersect</definition>
         <argsstring>(const std::vector&lt; Line3fMesh &gt; &amp;lineMeshes, float rayStart=0.0f, float rayEnd=FLT_MAX)</argsstring>
         <name>rayMultiMeshAnyIntersect</name>
         <qualifiedname>MR::rayMultiMeshAnyIntersect</qualifiedname>
@@ -1709,11 +1758,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="97" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="97" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="97" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="97" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaca3917c935c4b071cac785463beaa5f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MultiMeshIntersectionResult</type>
-        <definition>MRMESH_API MultiMeshIntersectionResult MR::rayMultiMeshAnyIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaeacd596a535ae8aa6fe31809d838622e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MultiMeshIntersectionResult</type>
+        <definition>MultiMeshIntersectionResult MR::rayMultiMeshAnyIntersect</definition>
         <argsstring>(const std::vector&lt; Line3dMesh &gt; &amp;lineMeshes, double rayStart=0.0, double rayEnd=DBL_MAX)</argsstring>
         <name>rayMultiMeshAnyIntersect</name>
         <qualifiedname>MR::rayMultiMeshAnyIntersect</qualifiedname>
@@ -1738,11 +1787,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="100" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="100" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="100" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="100" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gac978c520f500c1e3dad2ddaff7a333f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::rayMeshIntersectAll</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::rayMeshIntersectAll</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Line3f &amp;line, MeshIntersectionCallback callback, float rayStart=0.0f, float rayEnd=FLT_MAX, const IntersectionPrecomputes&lt; float &gt; *prec=nullptr)</argsstring>
         <name>rayMeshIntersectAll</name>
         <qualifiedname>MR::rayMeshIntersectAll</qualifiedname>
@@ -1780,11 +1829,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="108" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="108" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="108" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="108" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga4f7fec7775a22ca743ad08d9b8ae3056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::rayMeshIntersectAll</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga0748a541fe122677a587562720e71f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::rayMeshIntersectAll</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Line3d &amp;line, MeshIntersectionCallback callback, double rayStart=0.0, double rayEnd=DBL_MAX, const IntersectionPrecomputes&lt; double &gt; *prec=nullptr)</argsstring>
         <name>rayMeshIntersectAll</name>
         <qualifiedname>MR::rayMeshIntersectAll</qualifiedname>
@@ -1822,11 +1871,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="111" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="111" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="111" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="111" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga8b2db465de4ef2df4f0f85fa142a612f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::planeMeshIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga832764c6cc9e48dbef001e22786ddc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::planeMeshIntersect</definition>
         <argsstring>(const MeshPart &amp;meshPart, const Plane3f &amp;plane, FaceBitSet *fs, UndirectedEdgeBitSet *ues, VertBitSet *vs, std::vector&lt; FaceId &gt; *fsVec=nullptr)</argsstring>
         <name>planeMeshIntersect</name>
         <qualifiedname>MR::planeMeshIntersect</qualifiedname>
@@ -1895,11 +1944,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="119" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="119" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="119" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="119" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga4b8be9888719bfd9c5944dc6293c902d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::xyPlaneMeshIntersect</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::xyPlaneMeshIntersect</definition>
         <argsstring>(const MeshPart &amp;meshPart, float zLevel, FaceBitSet *fs, UndirectedEdgeBitSet *ues, VertBitSet *vs, std::vector&lt; FaceId &gt; *fsVec=nullptr)</argsstring>
         <name>xyPlaneMeshIntersect</name>
         <qualifiedname>MR::xyPlaneMeshIntersect</qualifiedname>
@@ -1968,11 +2017,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="128" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="128" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="128" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="128" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga307aef2fadf0a7f062b4fab1daabe6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshMeshDistanceResult</type>
-        <definition>MRMESH_API MeshMeshDistanceResult MR::findDistance</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshMeshDistanceResult</type>
+        <definition>MeshMeshDistanceResult MR::findDistance</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</argsstring>
         <name>findDistance</name>
         <qualifiedname>MR::findDistance</qualifiedname>
@@ -2019,11 +2068,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="36" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="36" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="36" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga23c1ed1442e2de62ef49a64b7179d809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshMeshSignedDistanceResult</type>
-        <definition>MRMESH_API MeshMeshSignedDistanceResult MR::findSignedDistance</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshMeshSignedDistanceResult</type>
+        <definition>MeshMeshSignedDistanceResult MR::findSignedDistance</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</argsstring>
         <name>findSignedDistance</name>
         <qualifiedname>MR::findSignedDistance</qualifiedname>
@@ -2070,11 +2119,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="44" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="44" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="44" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="44" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga375d9c9dcfb1fd7d9a254a73370d71ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::findMaxDistanceSqOneWay</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga27ff8608a418f39b18f07f8db69d07d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::findMaxDistanceSqOneWay</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</argsstring>
         <name>findMaxDistanceSqOneWay</name>
         <qualifiedname>MR::findMaxDistanceSqOneWay</qualifiedname>
@@ -2121,11 +2170,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="52" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="52" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="52" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="52" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga3672072155e3f272d13a40ccd4645d02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::findMaxDistanceSq</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::findMaxDistanceSq</definition>
         <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</argsstring>
         <name>findMaxDistanceSq</name>
         <qualifiedname>MR::findMaxDistanceSq</qualifiedname>
@@ -2172,11 +2221,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="60" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="60" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="60" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="60" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga2574b6170fb044d2038e7fa9c0e2e4c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshProjectionTransforms</type>
-        <definition>MRMESH_API MeshProjectionTransforms MR::createProjectionTransforms</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshProjectionTransforms</type>
+        <definition>MeshProjectionTransforms MR::createProjectionTransforms</definition>
         <argsstring>(AffineXf3f &amp;storageXf, const AffineXf3f *pointXf, const AffineXf3f *treeXf)</argsstring>
         <name>createProjectionTransforms</name>
         <qualifiedname>MR::createProjectionTransforms</qualifiedname>
@@ -2227,11 +2276,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="46" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="46" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="46" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="46" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaa20d785f3f82fad58fb659bc0009563d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshProjectionResult</type>
-        <definition>MRMESH_API MeshProjectionResult MR::findProjection</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gadd58047c34992dde1fd3d7f854ca6d97" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshProjectionResult</type>
+        <definition>MeshProjectionResult MR::findProjection</definition>
         <argsstring>(const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const FacePredicate &amp;validFaces={}, const std::function&lt; bool(const MeshProjectionResult &amp;)&gt; &amp;validProjections={})</argsstring>
         <name>findProjection</name>
         <qualifiedname>MR::findProjection</qualifiedname>
@@ -2317,11 +2366,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="56" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="56" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="56" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="56" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga415d472754b9db893c0765c00951faad" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshProjectionResult</type>
-        <definition>MRMESH_API MeshProjectionResult MR::findProjectionSubtree</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gafbb2d7a2190e5d13b47162ac1bc2df96" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshProjectionResult</type>
+        <definition>MeshProjectionResult MR::findProjectionSubtree</definition>
         <argsstring>(const Vector3f &amp;pt, const MeshPart &amp;mp, const AABBTree &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const FacePredicate &amp;validFaces={}, const std::function&lt; bool(const MeshProjectionResult &amp;)&gt; &amp;validProjections={})</argsstring>
         <name>findProjectionSubtree</name>
         <qualifiedname>MR::findProjectionSubtree</qualifiedname>
@@ -2419,11 +2468,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="72" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="72" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="72" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="72" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga565cdeaec23b7bd65c3776723571fac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findBoxedTrisInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findBoxedTrisInBall</definition>
         <argsstring>(const MeshPart &amp;mp, Ball3f ball, const FoundBoxedTriCallback &amp;foundCallback)</argsstring>
         <name>findBoxedTrisInBall</name>
         <qualifiedname>MR::findBoxedTrisInBall</qualifiedname>
@@ -2446,11 +2495,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="87" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="87" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="87" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="87" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga354aa28c5105859923d024949d724b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findTrisInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findTrisInBall</definition>
         <argsstring>(const MeshPart &amp;mp, const Ball3f &amp;ball, const FoundTriCallback &amp;foundCallback, const FacePredicate &amp;validFaces={})</argsstring>
         <name>findTrisInBall</name>
         <qualifiedname>MR::findTrisInBall</qualifiedname>
@@ -2478,11 +2527,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="94" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="94" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="94" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="94" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga44d0cb5151cae38d27130277c50301bc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; SignedDistanceToMeshResult &gt;</type>
-        <definition>MRMESH_API std::optional&lt; SignedDistanceToMeshResult &gt; MR::findSignedDistance</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaa589ad702e6b1f7b5abcdba92a673997" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; SignedDistanceToMeshResult &gt;</type>
+        <definition>std::optional&lt; SignedDistanceToMeshResult &gt; MR::findSignedDistance</definition>
         <argsstring>(const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</argsstring>
         <name>findSignedDistance</name>
         <qualifiedname>MR::findSignedDistance</qualifiedname>
@@ -2529,11 +2578,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="112" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="112" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="112" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="112" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga4f02307f8c1e25c4c6af4fa18f8f2335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findPointsInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gac87637032fa2f500e6eb4f64bd08ce77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findPointsInBall</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const Ball3f &amp;ball, const OnPointInBallFound &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBall</name>
         <qualifiedname>MR::findPointsInBall</qualifiedname>
@@ -2571,11 +2620,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="25" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="25" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="25" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="25" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaccce2768abbaa7beeaa5c4df67b9ab69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MR_BIND_IGNORE void</type>
-        <definition>MRMESH_API MR_BIND_IGNORE void MR::findPointsInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaa8ca1746fb8260dd095e22333110b010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::findPointsInBall</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const Ball3f &amp;ball, const FoundPointCallback &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBall</name>
         <qualifiedname>MR::findPointsInBall</qualifiedname>
@@ -2613,11 +2662,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="31" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="31" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="31" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="31" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaf974a12892d479ea53f98fa7555dbcc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findPointsInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga0f18f1e1141d9a2fe88bd4434417c046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findPointsInBall</definition>
         <argsstring>(const Mesh &amp;mesh, const Ball3f &amp;ball, const OnPointInBallFound &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBall</name>
         <qualifiedname>MR::findPointsInBall</qualifiedname>
@@ -2655,11 +2704,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="38" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="38" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="38" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="38" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga88ebd671d617fbbd4f4e5dd2688c50a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MR_BIND_IGNORE void</type>
-        <definition>MRMESH_API MR_BIND_IGNORE void MR::findPointsInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gacc909bcd5d7fe92e054ab2abb3d8975e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::findPointsInBall</definition>
         <argsstring>(const Mesh &amp;mesh, const Ball3f &amp;ball, const FoundPointCallback &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBall</name>
         <qualifiedname>MR::findPointsInBall</qualifiedname>
@@ -2697,11 +2746,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="44" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="44" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="44" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="44" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga1e0c1140b01d4055efb5e997a66e3678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findPointsInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga14a7a9877009b22b322668d4afa1d55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findPointsInBall</definition>
         <argsstring>(const AABBTreePoints &amp;tree, Ball3f ball, const OnPointInBallFound &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBall</name>
         <qualifiedname>MR::findPointsInBall</qualifiedname>
@@ -2739,11 +2788,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="51" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="51" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="51" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="51" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5380a1e3c97c1ac33673199c3c83dd25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MR_BIND_IGNORE void</type>
-        <definition>MRMESH_API MR_BIND_IGNORE void MR::findPointsInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gab7f2d64a3a73b473757e9505a0905a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::findPointsInBall</definition>
         <argsstring>(const AABBTreePoints &amp;tree, const Ball3f &amp;ball, const FoundPointCallback &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBall</name>
         <qualifiedname>MR::findPointsInBall</qualifiedname>
@@ -2781,11 +2830,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="57" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="57" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="57" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="57" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5fa4e215cb2613c2e801735695f22dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findPointsInBox</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gab32c13d31593c4f1ca10935b021714dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findPointsInBox</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const Box3f &amp;box, const FoundPointCallback &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBox</name>
         <qualifiedname>MR::findPointsInBox</qualifiedname>
@@ -2823,11 +2872,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="18" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="18" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="18" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga1ebc24e7d3fa59c325ec9fed80e3f7c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findPointsInBox</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga72179dbd00c267bc382ace2fcd0782f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findPointsInBox</definition>
         <argsstring>(const Mesh &amp;mesh, const Box3f &amp;box, const FoundPointCallback &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBox</name>
         <qualifiedname>MR::findPointsInBox</qualifiedname>
@@ -2865,11 +2914,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="24" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="24" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="24" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="24" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga835e26690b8579246b5fe66eecd773ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findPointsInBox</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaa96619ba551ab32e6ead614ba614c2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findPointsInBox</definition>
         <argsstring>(const AABBTreePoints &amp;tree, const Box3f &amp;box, const FoundPointCallback &amp;foundCallback, const AffineXf3f *xf=nullptr)</argsstring>
         <name>findPointsInBox</name>
         <qualifiedname>MR::findPointsInBox</qualifiedname>
@@ -2907,11 +2956,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="30" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="30" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="30" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="30" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga732c66239ed6e0f0d31100e8e3ab29b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PointsProjectionResult</type>
-        <definition>MRMESH_API PointsProjectionResult MR::findProjectionOnPoints</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gab4c475c489f1543782e15d9b4bbe14cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PointsProjectionResult</type>
+        <definition>PointsProjectionResult MR::findProjectionOnPoints</definition>
         <argsstring>(const Vector3f &amp;pt, const PointCloudPart &amp;pcp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, VertPredicate skipCb={})</argsstring>
         <name>findProjectionOnPoints</name>
         <qualifiedname>MR::findProjectionOnPoints</qualifiedname>
@@ -2984,11 +3033,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="32" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="32" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="32" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="32" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga2d8d5a16d2f63ea3eec0edfb4f85917b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PointsProjectionResult</type>
-        <definition>MRMESH_API PointsProjectionResult MR::findProjectionOnPoints</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga41532fd138cf2bb72805d8af6a1522b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PointsProjectionResult</type>
+        <definition>PointsProjectionResult MR::findProjectionOnPoints</definition>
         <argsstring>(const Vector3f &amp;pt, const AABBTreePoints &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const VertBitSet *region=nullptr, VertPredicate skipCb={})</argsstring>
         <name>findProjectionOnPoints</name>
         <qualifiedname>MR::findProjectionOnPoints</qualifiedname>
@@ -3074,11 +3123,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="46" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="46" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="46" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5b2c2b50e8b1835a53ac746d5da87b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findFewClosestPoints</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findFewClosestPoints</definition>
         <argsstring>(const Vector3f &amp;pt, const PointCloud &amp;pc, FewSmallest&lt; PointsProjectionResult &gt; &amp;res, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findFewClosestPoints</name>
         <qualifiedname>MR::findFewClosestPoints</qualifiedname>
@@ -3150,11 +3199,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="59" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="59" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="59" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="59" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5ccfb741cd4bcb092c8884f744051203" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Buffer&lt; VertId &gt;</type>
-        <definition>MRMESH_API Buffer&lt; VertId &gt; MR::findNClosestPointsPerPoint</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Buffer&lt; VertId &gt;</type>
+        <definition>Buffer&lt; VertId &gt; MR::findNClosestPointsPerPoint</definition>
         <argsstring>(const PointCloud &amp;pc, int numNei, const ProgressCallback &amp;progress={})</argsstring>
         <name>findNClosestPointsPerPoint</name>
         <qualifiedname>MR::findNClosestPointsPerPoint</qualifiedname>
@@ -3190,11 +3239,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="69" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="69" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="69" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="69" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga994aaba24d39e18802b546f4fdab10cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertPair</type>
-        <definition>MRMESH_API VertPair MR::findTwoClosestPoints</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertPair</type>
+        <definition>VertPair MR::findTwoClosestPoints</definition>
         <argsstring>(const PointCloud &amp;pc, const ProgressCallback &amp;progress={})</argsstring>
         <name>findTwoClosestPoints</name>
         <qualifiedname>MR::findTwoClosestPoints</qualifiedname>
@@ -3214,11 +3263,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="72" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="72" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="72" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="72" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga15a3e18d2098f8ff33e67776a221e6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; EdgePointPair &gt;</type>
-        <definition>MRMESH_API std::vector&lt; EdgePointPair &gt; MR::findCollidingEdgePairs</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga557c3d2fa026be12ba0a5f6c8813da41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgePointPair &gt;</type>
+        <definition>std::vector&lt; EdgePointPair &gt; MR::findCollidingEdgePairs</definition>
         <argsstring>(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</argsstring>
         <name>findCollidingEdgePairs</name>
         <qualifiedname>MR::findCollidingEdgePairs</qualifiedname>
@@ -3265,11 +3314,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="16" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="16" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="16" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="16" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga44c8af10ceaf3059a77647d7b6f2ca8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; UndirectedEdgeUndirectedEdge &gt;</type>
-        <definition>MRMESH_API std::vector&lt; UndirectedEdgeUndirectedEdge &gt; MR::findCollidingEdges</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga24ed7e965fcb7ada110eb1d9919999f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; UndirectedEdgeUndirectedEdge &gt;</type>
+        <definition>std::vector&lt; UndirectedEdgeUndirectedEdge &gt; MR::findCollidingEdges</definition>
         <argsstring>(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</argsstring>
         <name>findCollidingEdges</name>
         <qualifiedname>MR::findCollidingEdges</qualifiedname>
@@ -3316,11 +3365,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="24" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="24" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="24" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="24" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga0f3404724c88f935957c8c3c8962ea3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt;</type>
-        <definition>MRMESH_API std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt; MR::findCollidingEdgesBitsets</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gac15d4a03ef6c224fff28d48fc239c17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt;</type>
+        <definition>std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt; MR::findCollidingEdgesBitsets</definition>
         <argsstring>(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)</argsstring>
         <name>findCollidingEdgesBitsets</name>
         <qualifiedname>MR::findCollidingEdgesBitsets</qualifiedname>
@@ -3354,11 +3403,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="31" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="31" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="31" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="31" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga4fca223a68dac564f66af0224c0ec3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; EdgePointPair &gt;</type>
-        <definition>MRMESH_API std::vector&lt; EdgePointPair &gt; MR::findSelfCollidingEdgePairs</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga3ffb21230e0818e71cb8d4f2cebce0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; EdgePointPair &gt;</type>
+        <definition>std::vector&lt; EdgePointPair &gt; MR::findSelfCollidingEdgePairs</definition>
         <argsstring>(const Polyline2 &amp;polyline)</argsstring>
         <name>findSelfCollidingEdgePairs</name>
         <qualifiedname>MR::findSelfCollidingEdgePairs</qualifiedname>
@@ -3373,11 +3422,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="35" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="35" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="35" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gad89aed99c2cba4cd08e06d896b839841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::vector&lt; UndirectedEdgeUndirectedEdge &gt;</type>
-        <definition>MRMESH_API std::vector&lt; UndirectedEdgeUndirectedEdge &gt; MR::findSelfCollidingEdges</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga40dff3803e8a5f4043f7a24ccbe46347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; UndirectedEdgeUndirectedEdge &gt;</type>
+        <definition>std::vector&lt; UndirectedEdgeUndirectedEdge &gt; MR::findSelfCollidingEdges</definition>
         <argsstring>(const Polyline2 &amp;polyline)</argsstring>
         <name>findSelfCollidingEdges</name>
         <qualifiedname>MR::findSelfCollidingEdges</qualifiedname>
@@ -3392,11 +3441,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="38" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="38" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="38" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga8658f18b6b0489c1dafa4903c64c0165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API UndirectedEdgeBitSet</type>
-        <definition>MRMESH_API UndirectedEdgeBitSet MR::findSelfCollidingEdgesBS</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga44e5371600a6e5f45273476367a698c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UndirectedEdgeBitSet</type>
+        <definition>UndirectedEdgeBitSet MR::findSelfCollidingEdgesBS</definition>
         <argsstring>(const Polyline2 &amp;polyline)</argsstring>
         <name>findSelfCollidingEdgesBS</name>
         <qualifiedname>MR::findSelfCollidingEdgesBS</qualifiedname>
@@ -3411,11 +3460,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="41" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="41" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="41" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="41" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaa8d770560279dcdaa48764810b77c30d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isInside</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaf5614c6f47e495a7aa4513078b1b2ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isInside</definition>
         <argsstring>(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)</argsstring>
         <name>isInside</name>
         <qualifiedname>MR::isInside</qualifiedname>
@@ -3449,11 +3498,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="47" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="47" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="47" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="47" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga2aba3040bbdbbafb7d8e38803b955524" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isPointInsidePolyline</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga8cdd94e81e6095b86dbd245ec23e9657" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isPointInsidePolyline</definition>
         <argsstring>(const Polyline2 &amp;polyline, const Vector2f &amp;point)</argsstring>
         <name>isPointInsidePolyline</name>
         <qualifiedname>MR::isPointInsidePolyline</qualifiedname>
@@ -3490,11 +3539,181 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="19" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="19" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="19" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="19" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga7f7211a85409018fd8ee71495646faa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionResult2</type>
-        <definition>MRMESH_API PolylineProjectionResult2 MR::findProjectionOnPolyline2</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga33dfe4d49b343eca892fe35c75826f0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; PolylineIntersectionResult2 &gt;</type>
+        <definition>std::optional&lt; PolylineIntersectionResult2 &gt; MR::rayPolylineIntersect</definition>
+        <argsstring>(const Polyline2 &amp;polyline, const Line2f &amp;line, float rayStart=0, float rayEnd=FLT_MAX, const IntersectionPrecomputes2&lt; float &gt; *prec=nullptr, bool closestIntersect=true)</argsstring>
+        <name>rayPolylineIntersect</name>
+        <qualifiedname>MR::rayPolylineIntersect</qualifiedname>
+        <param>
+          <type>const Polyline2 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const Line2f &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rayStart</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rayEnd</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <param>
+          <type>const IntersectionPrecomputes2&lt; float &gt; *</type>
+          <declname>prec</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closestIntersect</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds ray and polyline intersection in float-precision. <computeroutput>rayStart</computeroutput> and <computeroutput>rayEnd</computeroutput> define the interval on the ray to detect an intersection. <computeroutput>prec</computeroutput> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <computeroutput>!closestIntersect</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="34" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="34" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga40c1b0b4821dfe2acb66ec335a638cdc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; PolylineIntersectionResult2 &gt;</type>
+        <definition>std::optional&lt; PolylineIntersectionResult2 &gt; MR::rayPolylineIntersect</definition>
+        <argsstring>(const Polyline2 &amp;polyline, const Line2d &amp;line, double rayStart=0, double rayEnd=DBL_MAX, const IntersectionPrecomputes2&lt; double &gt; *prec=nullptr, bool closestIntersect=true)</argsstring>
+        <name>rayPolylineIntersect</name>
+        <qualifiedname>MR::rayPolylineIntersect</qualifiedname>
+        <param>
+          <type>const Polyline2 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const Line2d &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayStart</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayEnd</declname>
+          <defval>DBL_MAX</defval>
+        </param>
+        <param>
+          <type>const IntersectionPrecomputes2&lt; double &gt; *</type>
+          <declname>prec</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closestIntersect</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds ray and polyline intersection in double-precision. <computeroutput>rayStart</computeroutput> and <computeroutput>rayEnd</computeroutput> define the interval on the ray to detect an intersection. <computeroutput>prec</computeroutput> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <computeroutput>!closestIntersect</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="42" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="42" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga6334c9f41d88763fea47f1a1af491d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::rayPolylineIntersectAll</definition>
+        <argsstring>(const Polyline2 &amp;polyline, const Line2f &amp;line, const PolylineIntersectionCallback2f &amp;callback, float rayStart=0.0f, float rayEnd=FLT_MAX, const IntersectionPrecomputes2&lt; float &gt; *prec=nullptr)</argsstring>
+        <name>rayPolylineIntersectAll</name>
+        <qualifiedname>MR::rayPolylineIntersectAll</qualifiedname>
+        <param>
+          <type>const Polyline2 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const Line2f &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const PolylineIntersectionCallback2f &amp;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rayStart</declname>
+          <defval>0.0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rayEnd</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <param>
+          <type>const IntersectionPrecomputes2&lt; float &gt; *</type>
+          <declname>prec</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Intersects 2D ray and polyline in single-precision. Reports all intersections via given callback with the tendency to do it from ray start to ray end, but without guarantee of exact order. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="55" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="55" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga9a7462ec4027240eb0a1161b6f626cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::rayPolylineIntersectAll</definition>
+        <argsstring>(const Polyline2 &amp;polyline, const Line2d &amp;line, const PolylineIntersectionCallback2d &amp;callback, double rayStart=0.0, double rayEnd=DBL_MAX, const IntersectionPrecomputes2&lt; double &gt; *prec=nullptr)</argsstring>
+        <name>rayPolylineIntersectAll</name>
+        <qualifiedname>MR::rayPolylineIntersectAll</qualifiedname>
+        <param>
+          <type>const Polyline2 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const Line2d &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const PolylineIntersectionCallback2d &amp;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayStart</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayEnd</declname>
+          <defval>DBL_MAX</defval>
+        </param>
+        <param>
+          <type>const IntersectionPrecomputes2&lt; double &gt; *</type>
+          <declname>prec</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Intersects 2D ray and polyline in double-precision. Reports all intersections via given callback with the tendency to do it from ray start to ray end, but without guarantee of exact order. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="60" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="60" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga0995927769e13d426cdc839b9333a348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionResult2</type>
+        <definition>PolylineProjectionResult2 MR::findProjectionOnPolyline2</definition>
         <argsstring>(const Vector2f &amp;pt, const Polyline2 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf2f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findProjectionOnPolyline2</name>
         <qualifiedname>MR::findProjectionOnPolyline2</qualifiedname>
@@ -3554,11 +3773,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="36" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="36" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="36" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="36" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5e71a300face382a26ba8596d9b19820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionResult3</type>
-        <definition>MRMESH_API PolylineProjectionResult3 MR::findProjectionOnPolyline</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gad42cb6f30357f5db855c37c42aa1c2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionResult3</type>
+        <definition>PolylineProjectionResult3 MR::findProjectionOnPolyline</definition>
         <argsstring>(const Vector3f &amp;pt, const Polyline3 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findProjectionOnPolyline</name>
         <qualifiedname>MR::findProjectionOnPolyline</qualifiedname>
@@ -3618,11 +3837,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="45" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="45" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="45" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="45" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga491ccc452b2d068da6ce82aaebcd5372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionResult3Arg</type>
-        <definition>MRMESH_API PolylineProjectionResult3Arg MR::findMaxProjectionOnPolyline</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga58d35b756f586caa1fd15e099ab23327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionResult3Arg</type>
+        <definition>PolylineProjectionResult3Arg MR::findMaxProjectionOnPolyline</definition>
         <argsstring>(const VertCoords &amp;points, const Polyline3 &amp;polyline, const VertBitSet *pointsRegion=nullptr, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findMaxProjectionOnPolyline</name>
         <qualifiedname>MR::findMaxProjectionOnPolyline</qualifiedname>
@@ -3674,11 +3893,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="58" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="58" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="58" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="58" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaa484a0628a7ac3858cd590589687141c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionResult3</type>
-        <definition>MRMESH_API PolylineProjectionResult3 MR::findProjectionOnPolyline</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gaad1ea3c4b0b1e1d4489d7d978a3845a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionResult3</type>
+        <definition>PolylineProjectionResult3 MR::findProjectionOnPolyline</definition>
         <argsstring>(const Line3f &amp;ln, const Polyline3 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findProjectionOnPolyline</name>
         <qualifiedname>MR::findProjectionOnPolyline</qualifiedname>
@@ -3738,11 +3957,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="68" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="68" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="68" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="68" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaf2ef419d4414bb6d0efa0c918b21bddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Polyline2ProjectionWithOffsetResult</type>
-        <definition>MRMESH_API Polyline2ProjectionWithOffsetResult MR::findProjectionOnPolyline2WithOffset</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga41ef8f174984a0c0419f64ef57fcc591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Polyline2ProjectionWithOffsetResult</type>
+        <definition>Polyline2ProjectionWithOffsetResult MR::findProjectionOnPolyline2WithOffset</definition>
         <argsstring>(const Vector2f &amp;pt, const Polyline2 &amp;polyline, const Vector&lt; float, UndirectedEdgeId &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, AffineXf2f *xf=nullptr, float loDistLimit=0)</argsstring>
         <name>findProjectionOnPolyline2WithOffset</name>
         <qualifiedname>MR::findProjectionOnPolyline2WithOffset</qualifiedname>
@@ -3814,11 +4033,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="89" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="89" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="89" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="89" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga834d7e50b54b1b8c511990fc9d14c09c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionWithOffsetResult3</type>
-        <definition>MRMESH_API PolylineProjectionWithOffsetResult3 MR::findProjectionOnPolylineWithOffset</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga268bf7fb66d170d64002a9b38623237a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionWithOffsetResult3</type>
+        <definition>PolylineProjectionWithOffsetResult3 MR::findProjectionOnPolylineWithOffset</definition>
         <argsstring>(const Vector3f &amp;pt, const Polyline3 &amp;polyline, const Vector&lt; float, UndirectedEdgeId &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimit=0)</argsstring>
         <name>findProjectionOnPolylineWithOffset</name>
         <qualifiedname>MR::findProjectionOnPolylineWithOffset</qualifiedname>
@@ -3890,11 +4109,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="99" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="99" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="99" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="99" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga5ce436376c8036ec99459d3ccea88788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findEdgesInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gab36006e6e34e3bfb5c1eae34c7ca7a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findEdgesInBall</definition>
         <argsstring>(const Polyline2 &amp;polyline, const Vector2f &amp;center, float radius, const FoundEdgeCallback2 &amp;foundCallback, AffineXf2f *xf=nullptr)</argsstring>
         <name>findEdgesInBall</name>
         <qualifiedname>MR::findEdgesInBall</qualifiedname>
@@ -3926,11 +4145,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="108" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="108" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="108" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="108" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga799578a1ff64417ca5aa5c72fa15bb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findEdgesInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga85e20053ebbe6ca6df0716626e180145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findEdgesInBall</definition>
         <argsstring>(const Polyline3 &amp;polyline, const Vector3f &amp;center, float radius, const FoundEdgeCallback3 &amp;foundCallback, AffineXf3f *xf=nullptr)</argsstring>
         <name>findEdgesInBall</name>
         <qualifiedname>MR::findEdgesInBall</qualifiedname>
@@ -3962,11 +4181,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="111" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="111" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="111" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="111" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga50911249a881bd7365929503c138d8fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::findMeshEdgesInBall</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga9b1841d067ce666f118cf38820ca25d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::findMeshEdgesInBall</definition>
         <argsstring>(const Mesh &amp;mesh, const AABBTreePolyline3 &amp;tree, const Vector3f &amp;center, float radius, const FoundEdgeCallback3 &amp;foundCallback, AffineXf3f *xf=nullptr)</argsstring>
         <name>findMeshEdgesInBall</name>
         <qualifiedname>MR::findMeshEdgesInBall</qualifiedname>
@@ -4002,11 +4221,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="114" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="114" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="114" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="114" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga64c37b9a7a04aa567390955a50891b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionResult3</type>
-        <definition>MRMESH_API PolylineProjectionResult3 MR::findProjectionOnMeshEdges</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga1b96837dfe7b08b0a261c94d6814b536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionResult3</type>
+        <definition>PolylineProjectionResult3 MR::findProjectionOnMeshEdges</definition>
         <argsstring>(const Vector3f &amp;pt, const Mesh &amp;mesh, const AABBTreePolyline3 &amp;tree, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findProjectionOnMeshEdges</name>
         <qualifiedname>MR::findProjectionOnMeshEdges</qualifiedname>
@@ -4070,11 +4289,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="122" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="122" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="122" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="122" declcolumn="28"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaccdf7712b3c2bc175e4b09aae138aa40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PolylineProjectionResult3</type>
-        <definition>MRMESH_API PolylineProjectionResult3 MR::findProjectionOnMeshEdges</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga03e6a1eb9021cda27a103e38c550532c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PolylineProjectionResult3</type>
+        <definition>PolylineProjectionResult3 MR::findProjectionOnMeshEdges</definition>
         <argsstring>(const Line3f &amp;ln, const Mesh &amp;mesh, const AABBTreePolyline3 &amp;tree, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</argsstring>
         <name>findProjectionOnMeshEdges</name>
         <qualifiedname>MR::findProjectionOnMeshEdges</qualifiedname>
@@ -4138,7 +4357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="131" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="131" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="131" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="131" declcolumn="28"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

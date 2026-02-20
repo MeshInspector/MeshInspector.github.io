@@ -14,17 +14,17 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gade10d031eb7e19c1db2f6ef122332293" kind="function"><name>AncillaryImGuiLabel</name></member>
-      <member refid="group__GeneralGroup_1ga1158ea26daf5004c4d2540df1b304635" kind="function"><name>make</name></member>
-      <member refid="group__GeneralGroup_1ga7e8e1d86bdfbcaf76f8ab68bca823f56" kind="function"><name>make</name></member>
-      <member refid="group__GeneralGroup_1gaf2c939215a0b357749552a0faff1ab62" kind="function"><name>make</name></member>
-      <member refid="group__GeneralGroup_1gac293c89711518e59735abe0b6892db0d" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga49250eb022982b0fc3781564b5c48ddf" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga77d8234d4eb90c9066914191040095a8" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga29164595f1baaf514bbde473a7b4fbc9" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga445c3b0c4fa983e99bc09eec8b063b34" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga683dd458c5757baf3ea50d2c409ad687" kind="function"><name>getPivot</name></member>
       <member refid="group__GeneralGroup_1ga5eb068178518baee522fef0411e2c080" kind="function"><name>setPivot</name></member>
-      <member refid="group__GeneralGroup_1gaf8e9dfaf0178c9e62c73d71a35452d9d" kind="function"><name>overrideParams</name></member>
-      <member refid="group__GeneralGroup_1gada56277ca5d0380069c5558c23bc43c2" kind="function"><name>resetOverrideParams</name></member>
+      <member refid="group__GeneralGroup_1ga3f9c88380783f42c7842fde0be78d02d" kind="function"><name>overrideParams</name></member>
+      <member refid="group__GeneralGroup_1gaba29277412a92c7cdbff01b81a66fd95" kind="function"><name>resetOverrideParams</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga90fbc9e1b7c99ffa778d6bc285be99f4" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga02345fa508e72b085ce229bc494cdd11" kind="function"><name>preDraw_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Helper class that draws <ref refid="namespaceImGui" kindref="compound">ImGui</ref> label. </para>
@@ -82,24 +82,24 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="65" bodyend="102"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gade10d031eb7e19c1db2f6ef122332293" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>AncillaryImGuiLabel</name></member>
-      <member refid="group__GeneralGroup_1ga69d5ba4966a5c7fc86d0f9f39924c180" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga11a2606430cb36b32bb169a8b602e88d" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga683dd458c5757baf3ea50d2c409ad687" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>getPivot</name></member>
       <member refid="group__GeneralGroup_1ga36fb8b5b6334b963f646aee4256ad1b5" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>labelData_</name></member>
       <member refid="group__GeneralGroup_1ga78335c86e7eb53022d705b33cf1892cf" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>localPos_</name></member>
-      <member refid="group__GeneralGroup_1ga1158ea26daf5004c4d2540df1b304635" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
-      <member refid="group__GeneralGroup_1ga7e8e1d86bdfbcaf76f8ab68bca823f56" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
-      <member refid="group__GeneralGroup_1gaf2c939215a0b357749552a0faff1ab62" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga49250eb022982b0fc3781564b5c48ddf" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga77d8234d4eb90c9066914191040095a8" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga29164595f1baaf514bbde473a7b4fbc9" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>make</name></member>
       <member refid="group__GeneralGroup_1gaaaad0be432409ee6a00436099613fe77" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="group__GeneralGroup_1gaf8e9dfaf0178c9e62c73d71a35452d9d" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>overrideParams</name></member>
+      <member refid="group__GeneralGroup_1ga3f9c88380783f42c7842fde0be78d02d" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>overrideParams</name></member>
       <member refid="group__GeneralGroup_1gac4fa1fcffc9c13b6910fb6e6b7087ecd" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>overrideParams_</name></member>
       <member refid="group__GeneralGroup_1gad8142d902afd24b85597ecece31a3aa5" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>parent_</name></member>
       <member refid="group__GeneralGroup_1gab231bb252e2d3b79f2f764d53997070c" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>parentXfConnection_</name></member>
       <member refid="group__GeneralGroup_1gad212525dca4ea08ac96d5b0f63597d34" prot="private" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>pivot_</name></member>
-      <member refid="group__GeneralGroup_1ga90fbc9e1b7c99ffa778d6bc285be99f4" prot="private" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>preDraw_</name></member>
-      <member refid="group__GeneralGroup_1gac293c89711518e59735abe0b6892db0d" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>reset</name></member>
-      <member refid="group__GeneralGroup_1gada56277ca5d0380069c5558c23bc43c2" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>resetOverrideParams</name></member>
+      <member refid="group__GeneralGroup_1ga02345fa508e72b085ce229bc494cdd11" prot="private" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga445c3b0c4fa983e99bc09eec8b063b34" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaba29277412a92c7cdbff01b81a66fd95" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>resetOverrideParams</name></member>
       <member refid="group__GeneralGroup_1ga5eb068178518baee522fef0411e2c080" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>setPivot</name></member>
       <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>~ConnectionHolder</name></member>
       <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>~IConnectable</name></member>

@@ -10,21 +10,21 @@
       <member refid="group__GeneralGroup_1gaaef4506f852cda6395bbb63f6cb347c3" kind="variable"><name>cachedGridRotation_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gad5198f7e31e7fb3b38c2eafa34f46b58" kind="function"><name>ViewportGlobalBasis</name></member>
-      <member refid="group__GeneralGroup_1ga012d99e5cb1934ed13aacf0f817cdc47" kind="function"><name>getAxesLength</name></member>
-      <member refid="group__GeneralGroup_1ga8540b2156a68f3e965fa3a7d51e704fd" kind="function"><name>getAxesWidth</name></member>
-      <member refid="group__GeneralGroup_1ga723a077281d985e67b4601e9028f1b70" kind="function"><name>setAxesProps</name></member>
-      <member refid="group__GeneralGroup_1ga12801d2dd751246f5c16ee22920506b4" kind="function"><name>setColors</name></member>
-      <member refid="group__GeneralGroup_1ga0140bc479277971c9a74e3e593e46b7b" kind="function"><name>axesChildren</name></member>
-      <member refid="group__GeneralGroup_1gadf12d6fa6b9ede282e79114ae3acf9ee" kind="function"><name>getRedrawFlag</name></member>
-      <member refid="group__GeneralGroup_1ga3b01edb8a3a01ffa828ed5037b9bdd97" kind="function"><name>resetRedrawFlag</name></member>
-      <member refid="group__GeneralGroup_1gaa325da7b15c71b8d867ac78ea2d512c5" kind="function"><name>draw</name></member>
-      <member refid="group__GeneralGroup_1gae86e6c17c2312646c28ccc581fe97280" kind="function"><name>setVisible</name></member>
-      <member refid="group__GeneralGroup_1ga74384187a70927d9045f6519af7eb426" kind="function"><name>setVisibilityMask</name></member>
+      <member refid="group__GeneralGroup_1ga1a6fc9270af73ce5ff008fe42c09bc29" kind="function"><name>ViewportGlobalBasis</name></member>
+      <member refid="group__GeneralGroup_1gaffb6564dd0c94c82bc7b4aa028cd0526" kind="function"><name>getAxesLength</name></member>
+      <member refid="group__GeneralGroup_1ga9679297dbbf2a92f4f8c1a6313ad75aa" kind="function"><name>getAxesWidth</name></member>
+      <member refid="group__GeneralGroup_1ga741117f237e2a27b73d576d491ce1d39" kind="function"><name>setAxesProps</name></member>
+      <member refid="group__GeneralGroup_1ga535160ed5a1ef631a5445d31ea381795" kind="function"><name>setColors</name></member>
+      <member refid="group__GeneralGroup_1gaed207e94eca73fe32d328d00a623e80e" kind="function"><name>axesChildren</name></member>
+      <member refid="group__GeneralGroup_1ga7101c0726dacd65e2b871fe4b4cec13a" kind="function"><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1gaaf3b59fd6438c1ef59c6daea3e00df51" kind="function"><name>resetRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga3cf22625868204389355ad75a0744c2d" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga3e31e2b104853a82f93a8564d40786c9" kind="function"><name>setVisible</name></member>
+      <member refid="group__GeneralGroup_1gabeadde406712b6b5cb89aa03c5ea01fa" kind="function"><name>setVisibilityMask</name></member>
       <member refid="group__GeneralGroup_1ga50928a929ec603bfd12c73f36b3ce840" kind="function"><name>isVisible</name></member>
       <member refid="group__GeneralGroup_1gad6ddedef8f36c08dc5dc9cd7ccd008cf" kind="function"><name>getVisibilityMask</name></member>
-      <member refid="group__GeneralGroup_1ga39820f93544132d70dd40721d02f71ee" kind="function"><name>setGridVisible</name></member>
-      <member refid="group__GeneralGroup_1ga6d953b83abd97c1e1b992cc9e70196e4" kind="function"><name>setGridVisibilityMask</name></member>
+      <member refid="group__GeneralGroup_1gafa7976ab89d58ffe59dda2bc14b21f10" kind="function"><name>setGridVisible</name></member>
+      <member refid="group__GeneralGroup_1ga618734c776c994d3a45812502d58bc61" kind="function"><name>setGridVisibilityMask</name></member>
       <member refid="group__GeneralGroup_1ga9c1b6f23bb29b917c74a3b9010d96122" kind="function"><name>isGridVisible</name></member>
       <member refid="group__GeneralGroup_1ga9efec4f573b2e17be72ad7f6ea9c2cd9" kind="function"><name>getGridVisibilityMask</name></member>
       <member refid="group__GeneralGroup_1gab35195663b7a52e332795bb058fdf6fc" kind="function"><name>resetConnections</name></member>
@@ -41,29 +41,29 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGlobalBasis.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGlobalBasis.h" bodystart="15" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1b9151f737d72a760d8b3032f7e69c86" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>axes_</name></member>
-      <member refid="group__GeneralGroup_1ga0140bc479277971c9a74e3e593e46b7b" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>axesChildren</name></member>
+      <member refid="group__GeneralGroup_1gaed207e94eca73fe32d328d00a623e80e" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>axesChildren</name></member>
       <member refid="group__GeneralGroup_1gaaef4506f852cda6395bbb63f6cb347c3" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>cachedGridRotation_</name></member>
       <member refid="group__GeneralGroup_1ga7b9f6d9d53f2b45fe2bebf66561cfa12" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>connections_</name></member>
       <member refid="group__GeneralGroup_1ga5967f8afbb558d21f2ce15fbe00f9212" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>creteGrids_</name></member>
-      <member refid="group__GeneralGroup_1gaa325da7b15c71b8d867ac78ea2d512c5" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>draw</name></member>
-      <member refid="group__GeneralGroup_1ga012d99e5cb1934ed13aacf0f817cdc47" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getAxesLength</name></member>
-      <member refid="group__GeneralGroup_1ga8540b2156a68f3e965fa3a7d51e704fd" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getAxesWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3cf22625868204389355ad75a0744c2d" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1gaffb6564dd0c94c82bc7b4aa028cd0526" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getAxesLength</name></member>
+      <member refid="group__GeneralGroup_1ga9679297dbbf2a92f4f8c1a6313ad75aa" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getAxesWidth</name></member>
       <member refid="group__GeneralGroup_1ga9efec4f573b2e17be72ad7f6ea9c2cd9" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getGridVisibilityMask</name></member>
-      <member refid="group__GeneralGroup_1gadf12d6fa6b9ede282e79114ae3acf9ee" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga7101c0726dacd65e2b871fe4b4cec13a" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getRedrawFlag</name></member>
       <member refid="group__GeneralGroup_1gad6ddedef8f36c08dc5dc9cd7ccd008cf" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>getVisibilityMask</name></member>
       <member refid="group__GeneralGroup_1ga76f2c5c39ce855bbb3d28920c255d1ea" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>grids_</name></member>
       <member refid="group__GeneralGroup_1ga9c1b6f23bb29b917c74a3b9010d96122" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>isGridVisible</name></member>
       <member refid="group__GeneralGroup_1ga50928a929ec603bfd12c73f36b3ce840" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>isVisible</name></member>
       <member refid="group__GeneralGroup_1gab35195663b7a52e332795bb058fdf6fc" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>resetConnections</name></member>
-      <member refid="group__GeneralGroup_1ga3b01edb8a3a01ffa828ed5037b9bdd97" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>resetRedrawFlag</name></member>
-      <member refid="group__GeneralGroup_1ga723a077281d985e67b4601e9028f1b70" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setAxesProps</name></member>
-      <member refid="group__GeneralGroup_1ga12801d2dd751246f5c16ee22920506b4" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setColors</name></member>
-      <member refid="group__GeneralGroup_1ga6d953b83abd97c1e1b992cc9e70196e4" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setGridVisibilityMask</name></member>
-      <member refid="group__GeneralGroup_1ga39820f93544132d70dd40721d02f71ee" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setGridVisible</name></member>
-      <member refid="group__GeneralGroup_1ga74384187a70927d9045f6519af7eb426" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setVisibilityMask</name></member>
-      <member refid="group__GeneralGroup_1gae86e6c17c2312646c28ccc581fe97280" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setVisible</name></member>
+      <member refid="group__GeneralGroup_1gaaf3b59fd6438c1ef59c6daea3e00df51" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>resetRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga741117f237e2a27b73d576d491ce1d39" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setAxesProps</name></member>
+      <member refid="group__GeneralGroup_1ga535160ed5a1ef631a5445d31ea381795" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setColors</name></member>
+      <member refid="group__GeneralGroup_1ga618734c776c994d3a45812502d58bc61" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setGridVisibilityMask</name></member>
+      <member refid="group__GeneralGroup_1gafa7976ab89d58ffe59dda2bc14b21f10" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setGridVisible</name></member>
+      <member refid="group__GeneralGroup_1gabeadde406712b6b5cb89aa03c5ea01fa" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setVisibilityMask</name></member>
+      <member refid="group__GeneralGroup_1ga3e31e2b104853a82f93a8564d40786c9" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>setVisible</name></member>
       <member refid="group__GeneralGroup_1gaa72c12128e817a899c91c527144adb6a" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>updateGridXfs_</name></member>
-      <member refid="group__GeneralGroup_1gad5198f7e31e7fb3b38c2eafa34f46b58" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>ViewportGlobalBasis</name></member>
+      <member refid="group__GeneralGroup_1ga1a6fc9270af73ce5ff008fe42c09bc29" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>ViewportGlobalBasis</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

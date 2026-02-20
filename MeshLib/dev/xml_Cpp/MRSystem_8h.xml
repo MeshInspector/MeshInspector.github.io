@@ -3,29 +3,57 @@
   <compounddef id="MRSystem_8h" kind="file" language="C++">
     <compoundname>MRSystem.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRColor_8h" local="yes">MRColor.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">string</includes>
     <includedby refid="MRSymbolMesh_8h" local="yes">MRSymbolMesh.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="6">
-        <label>MRMacros.h</label>
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRSystem.h</label>
@@ -34,93 +62,109 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="15">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="24">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="2">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="11">
+      <node id="19">
         <label>algorithm</label>
       </node>
+      <node id="7">
+        <label>array</label>
+      </node>
       <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="20">
         <label>cmath</label>
       </node>
-      <node id="8">
+      <node id="16">
         <label>cstddef</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>cstring</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>filesystem</label>
       </node>
-      <node id="14">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="22">
         <label>iosfwd</label>
       </node>
-      <node id="18">
-        <label>string</label>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="17">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -162,7 +206,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRColor_8h" kindref="compound">MRColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -171,53 +215,53 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="group__GeneralGroup_1gabc117ae5bf8ce3683d73b2fc8e37cde1" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabc117ae5bf8ce3683d73b2fc8e37cde1" kindref="member">SetCurrentThreadName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga0ff4e521ce66f8d5f5cf13febff39797" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0ff4e521ce66f8d5f5cf13febff39797" kindref="member">SetCurrentThreadName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>name<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>SystemPath::getExecutableDirectory()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga940976ea08ba36431b30464cba7a9023" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga940976ea08ba36431b30464cba7a9023" kindref="member">GetExeDirectory</ref>();</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga8e20dfb03738a16f05bed84c41fa1738" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga8e20dfb03738a16f05bed84c41fa1738" kindref="member">GetExeDirectory</ref>();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>SystemPath::getResourcesDirectory()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1gad01e0850be9f75dcc1d0bd461787535f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gad01e0850be9f75dcc1d0bd461787535f" kindref="member">GetResourcesDirectory</ref>();</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gacbcf76720f1f257b107cbd0d2b92769d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gacbcf76720f1f257b107cbd0d2b92769d" kindref="member">GetResourcesDirectory</ref>();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>SystemPath::getFontsDirectory()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1ga67b0d94d13d167822c0f29d0c8bf0378" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga67b0d94d13d167822c0f29d0c8bf0378" kindref="member">GetFontsDirectory</ref>();</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gab812bb28c9a48f871a645d626563c067" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gab812bb28c9a48f871a645d626563c067" kindref="member">GetFontsDirectory</ref>();</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>SystemPath::getPluginsDirectory()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1ga56e81e881b5eb58845a48c7b40a88834" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga56e81e881b5eb58845a48c7b40a88834" kindref="member">GetLibsDirectory</ref>();</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga0d95c8a2d32514d4af5c9b86a4a03d89" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga0d95c8a2d32514d4af5c9b86a4a03d89" kindref="member">GetLibsDirectory</ref>();</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>SystemPath::getPythonModulesDirectory()<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga48fac29c948998d756efa56e0d362cc5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga48fac29c948998d756efa56e0d362cc5" kindref="member">GetEmbeddedPythonDirectory</ref>();</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga586e44fd2f6031ad9ccc43634d961770" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga586e44fd2f6031ad9ccc43634d961770" kindref="member">GetEmbeddedPythonDirectory</ref>();</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1gac8ef1e5eb550d8cb502e7a5a5ac8c038" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gac8ef1e5eb550d8cb502e7a5a5ac8c038" kindref="member">getUserConfigDir</ref>();</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga0252be1a64a0f93cb21eb155a8c443c4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga0252be1a64a0f93cb21eb155a8c443c4" kindref="member">getUserConfigDir</ref>();</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga77dbe991d4f1d8a2b0ffd3ed1e1320bb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga77dbe991d4f1d8a2b0ffd3ed1e1320bb" kindref="member">getUserConfigFilePath</ref>();</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga04a87a6441485a5dbc46d65bfe37f0a0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga04a87a6441485a5dbc46d65bfe37f0a0" kindref="member">getUserConfigFilePath</ref>();</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1ga4ba1f8b8dda149d741c79f6ca5c6f2ba" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga4ba1f8b8dda149d741c79f6ca5c6f2ba" kindref="member">GetTempDirectory</ref>();</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga532aae14c0815f4430c440f4b9b940cd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga532aae14c0815f4430c440f4b9b940cd" kindref="member">GetTempDirectory</ref>();</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga2ddb2bd9b31853c37146f070b0b472c1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga2ddb2bd9b31853c37146f070b0b472c1" kindref="member">GetHomeDirectory</ref>();</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1gaede3ee4fa7cd6dac98eec3af0fc694e6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gaede3ee4fa7cd6dac98eec3af0fc694e6" kindref="member">GetHomeDirectory</ref>();</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
-<codeline lineno="56"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/>GetWindowsInstallDirectory();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/>GetWindowsInstallDirectory();</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="group__GeneralGroup_1ga30ab310d8783b53dbd1a71407ebfdbe9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="group__GeneralGroup_1ga30ab310d8783b53dbd1a71407ebfdbe9" kindref="member">GetMRVersionString</ref>();</highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1ga343fc892898b015c184b43cac5b57252" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="group__GeneralGroup_1ga343fc892898b015c184b43cac5b57252" kindref="member">GetMRVersionString</ref>();</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="group__GeneralGroup_1gaec820d50ac448217d66131a079fce39a" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaec820d50ac448217d66131a079fce39a" kindref="member">OpenLink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>url<sp/>);</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga158ae72accbf24b3df150e984451ef38" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga158ae72accbf24b3df150e984451ef38" kindref="member">OpenLink</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>url<sp/>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="group__GeneralGroup_1ga2d2055c8154d0075f8388ca7579fd794" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2d2055c8154d0075f8388ca7579fd794" kindref="member">OpenDocument</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gac3f1e6585a3cb9c27b5fd27dfa6e6550" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac3f1e6585a3cb9c27b5fd27dfa6e6550" kindref="member">OpenDocument</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1ga7b5e5990972490ea4d3803ccca1b3757" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga7b5e5990972490ea4d3803ccca1b3757" kindref="member">GetCpuId</ref>();</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1gabed15f3404ef86fad2f19fcb07f6669c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabed15f3404ef86fad2f19fcb07f6669c" kindref="member">GetCpuId</ref>();</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1ga7d7ea607c1d62759b1a6d09f3b68c78f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga7d7ea607c1d62759b1a6d09f3b68c78f" kindref="member">GetDetailedOSName</ref>();</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1gaa01579c749c2564c4d22be7a73becd34" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaa01579c749c2564c4d22be7a73becd34" kindref="member">GetDetailedOSName</ref>();</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="group__GeneralGroup_1ga4495a70f291d11bdf905106b2a3856b5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga4495a70f291d11bdf905106b2a3856b5" kindref="member">getOSNoSpaces</ref>();</highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1gaf97917cdaf8f4b86b0ec6e9dddc55cbf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaf97917cdaf8f4b86b0ec6e9dddc55cbf" kindref="member">getOSNoSpaces</ref>();</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1ga76050fa0c0831ae2d21d1a20914f530d" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga76050fa0c0831ae2d21d1a20914f530d" kindref="member">setNewHandlerIfNeeded</ref>();</highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1gacf82628c1b0f5d65b9b4e3f0f5bc93df" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacf82628c1b0f5d65b9b4e3f0f5bc93df" kindref="member">setNewHandlerIfNeeded</ref>();</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref><sp/>=<sp/>std::vector&lt;std::filesystem::path&gt;;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__EMSCRIPTEN__</highlight></codeline>
-<codeline lineno="84" refid="group__GeneralGroup_1ga69dd7a0499b29eb5608d05713b8feb72" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga69dd7a0499b29eb5608d05713b8feb72" kindref="member">getCurrentStacktrace</ref>();</highlight></codeline>
+<codeline lineno="84" refid="group__GeneralGroup_1gaaa012fae7e3ab332b853cc1277239fe8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaaa012fae7e3ab332b853cc1277239fe8" kindref="member">getCurrentStacktrace</ref>();</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87" refid="structMR_1_1SystemMemory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SystemMemory" kindref="compound">SystemMemory</ref></highlight></codeline>
@@ -227,7 +271,7 @@
 <codeline lineno="93" refid="group__GeneralGroup_1ga76875970bb84c9474cc9e582162fe351" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga76875970bb84c9474cc9e582162fe351" kindref="member">physicalAvailable</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="group__GeneralGroup_1ga3ba2aca05f28a3dd3c05cb49fbf09b66" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1SystemMemory" kindref="compound">SystemMemory</ref><sp/><ref refid="group__GeneralGroup_1ga3ba2aca05f28a3dd3c05cb49fbf09b66" kindref="member">getSystemMemory</ref>();</highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga7b96790a3e5d5239dec152d5121bf39a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1SystemMemory" kindref="compound">SystemMemory</ref><sp/><ref refid="group__GeneralGroup_1ga7b96790a3e5d5239dec152d5121bf39a" kindref="member">getSystemMemory</ref>();</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
 <codeline lineno="101"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>ProccessMemoryInfo</highlight></codeline>
@@ -235,10 +279,10 @@
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>currVirtual<sp/>=<sp/>0,<sp/>maxVirtual<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>currPhysical<sp/>=<sp/>0,<sp/>maxPhysical<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="106"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>ProccessMemoryInfo<sp/>getProccessMemoryInfo();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>ProccessMemoryInfo<sp/>getProccessMemoryInfo();</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="group__GeneralGroup_1ga1e251c5988273136d8a8cf12655f3f0d" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1e251c5988273136d8a8cf12655f3f0d" kindref="member">setupLoggerByDefault</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;&amp;<sp/>customLogSinkAdder<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="116" refid="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" kindref="member">setupLoggerByDefault</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;&amp;<sp/>customLogSinkAdder<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

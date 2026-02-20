@@ -8,8 +8,8 @@
       <member refid="group__GeneralGroup_1gacdbe5464e0796cb2b8b083d58804a4be" kind="variable"><name>onPreTempFolderDelete_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gace9464c8f12cf5ffa4258eff7b5114e5" kind="function"><name>UniqueTemporaryFolder</name></member>
-      <member refid="group__GeneralGroup_1ga175a2246818aaee34d1f1be05f2d3256" kind="function"><name>~UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" kind="function"><name>UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga797e41695bc2cfcc9587df460a536f7d" kind="function"><name>~UniqueTemporaryFolder</name></member>
       <member refid="group__GeneralGroup_1ga8ec198312afe50720d7c5ab8ef8cfc46" kind="function"><name>operator bool</name></member>
       <member refid="group__GeneralGroup_1ga990b724a34e3cff31ff265fee8ab84b5" kind="function"><name>operator/</name></member>
     </sectiondef>
@@ -24,8 +24,8 @@
       <member refid="group__GeneralGroup_1gacdbe5464e0796cb2b8b083d58804a4be" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>onPreTempFolderDelete_</name></member>
       <member refid="group__GeneralGroup_1ga8ec198312afe50720d7c5ab8ef8cfc46" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator bool</name></member>
       <member refid="group__GeneralGroup_1ga990b724a34e3cff31ff265fee8ab84b5" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator/</name></member>
-      <member refid="group__GeneralGroup_1gace9464c8f12cf5ffa4258eff7b5114e5" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>UniqueTemporaryFolder</name></member>
-      <member refid="group__GeneralGroup_1ga175a2246818aaee34d1f1be05f2d3256" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>~UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga797e41695bc2cfcc9587df460a536f7d" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>~UniqueTemporaryFolder</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

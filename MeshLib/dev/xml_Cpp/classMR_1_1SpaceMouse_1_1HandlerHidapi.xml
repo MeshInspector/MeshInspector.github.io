@@ -217,9 +217,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="35" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a3dc021818a03274186e2b78274e47551" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::SpaceMouse::HandlerHidapi::hasValidDeviceConnected</definition>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a11dc848394777b3ad3ebabada8ff3ad8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::HandlerHidapi::hasValidDeviceConnected</definition>
         <argsstring>() const</argsstring>
         <name>hasValidDeviceConnected</name>
         <qualifiedname>MR::SpaceMouse::HandlerHidapi::hasValidDeviceConnected</qualifiedname>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="38" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="38" column="11"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -371,7 +371,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h" bodystart="29" bodyend="74"/>
     <listofallmembers>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae409f816e3e76e8a1348cc74d1d48887" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>active_</name></member>
-      <member refid="group__GeneralGroup_1gaca372f013f9f8d45231243ef9488c0c0" prot="public" virt="virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga625ba04c3c692acb70b7768e41291558" prot="public" virt="virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>connection_</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1acaf8ff342ec962b05e25bee42e5ff6f2" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>cv_</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a2af4200a51973a04590e1e19c0421d2d" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>dataPacket_</name></member>
@@ -380,7 +380,7 @@
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a18f0d8488dde9239b8890727eb94729b" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>findAndAttachDevice_</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a20c6b0e22bec8be84b2034de74bf6073" prot="public" virt="virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>handle</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>HandlerHidapi</name></member>
-      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a3dc021818a03274186e2b78274e47551" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>hasValidDeviceConnected</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a11dc848394777b3ad3ebabada8ff3ad8" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>hasValidDeviceConnected</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a72e91164e356ea478b0e5df93aaed69c" prot="public" virt="virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>initialize</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a029e292cd0d701562e873fa37c8a3a6c" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>initListenerThread_</name></member>
       <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a5550bc2f1a4020de0328d2ec675f6715" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::HandlerHidapi</scope><name>listenerThread_</name></member>

@@ -2,41 +2,92 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRCloseVertices_8h" kind="file" language="C++">
     <compoundname>MRCloseVertices.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRCloseVertices.h</label>
         <link refid="MRCloseVertices_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>cassert</label>
-      </node>
-      <node id="5">
-        <label>cmath</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="15">
         <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -47,7 +98,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -55,33 +106,33 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="group__GeneralGroup_1ga02de87b02beba8a1ce3c03e425646045" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1ga02de87b02beba8a1ce3c03e425646045" kindref="member">findSmallestCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gaaacf621951d6c1d514d9c5166e522471" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1gaaacf621951d6c1d514d9c5166e522471" kindref="member">findSmallestCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga89fc2fa34c591add37820e2a281513f8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1ga02de87b02beba8a1ce3c03e425646045" kindref="member">findSmallestCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gabc86854b54977711c3782b7f1a1a033f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1gaaacf621951d6c1d514d9c5166e522471" kindref="member">findSmallestCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga92bdbda4e88b4bc55b26f1a36c85c85f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1ga02de87b02beba8a1ce3c03e425646045" kindref="member">findSmallestCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga0aa35814287f1d7f21a6ac0dd9dc7b50" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1gaaacf621951d6c1d514d9c5166e522471" kindref="member">findSmallestCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1gadb5835a53edf43e46279c04a2ad4949b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1gadb5835a53edf43e46279c04a2ad4949b" kindref="member">findSmallestCloseVerticesUsingTree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>valid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga09fd6490cdc79109a61c6e6583bd3aa9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertMap&gt;<sp/><ref refid="group__GeneralGroup_1ga09fd6490cdc79109a61c6e6583bd3aa9" kindref="member">findSmallestCloseVerticesUsingTree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>valid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1gaaafe75350688f71f77b0eddcf5a4f119" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1gaaafe75350688f71f77b0eddcf5a4f119" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga1762c793c3fc20c5621e471fbc321ec1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga1762c793c3fc20c5621e471fbc321ec1" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga411bcccf305636fae1a39f5b16bef62d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1gaaafe75350688f71f77b0eddcf5a4f119" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga9d8fa0786d96722342e7f4b06172c02b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga1762c793c3fc20c5621e471fbc321ec1" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gace6312ad613bc3339936cb5239430429" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1gaaafe75350688f71f77b0eddcf5a4f119" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gabc59467351b65ab81702651c1442632c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga1762c793c3fc20c5621e471fbc321ec1" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga558ce068671d82609735a13471159683" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1gaaafe75350688f71f77b0eddcf5a4f119" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap<sp/>&amp;<sp/>smallestMap<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga74ace7e6efa72b185564d653e800cfad" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga1762c793c3fc20c5621e471fbc321ec1" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap<sp/>&amp;<sp/>smallestMap<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga9d9b0e044fbac51cc63aca13ec9855d3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;EdgePair&gt;<sp/><ref refid="group__GeneralGroup_1ga9d9b0e044fbac51cc63aca13ec9855d3" kindref="member">findTwinEdgePairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1gad6fbfaa55add0cfefe87b27dfd6c9427" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;EdgePair&gt;<sp/><ref refid="group__GeneralGroup_1gad6fbfaa55add0cfefe87b27dfd6c9427" kindref="member">findTwinEdgePairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="group__GeneralGroup_1ga5c0bcac69775a441149a72b11c50859c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga5c0bcac69775a441149a72b11c50859c" kindref="member">findTwinEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1ga304ac48536f95f12c4f141319c4cd12f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>EdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga5c0bcac69775a441149a72b11c50859c" kindref="member">findTwinEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gaa3c6e2ebbe054249a9169f7c85a99528" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeBitSet<sp/><ref refid="group__GeneralGroup_1gaa3c6e2ebbe054249a9169f7c85a99528" kindref="member">findTwinEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1gad5db1de53913184f447e3f8a25350ae3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeBitSet<sp/><ref refid="group__GeneralGroup_1gaa3c6e2ebbe054249a9169f7c85a99528" kindref="member">findTwinEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1gaa44e343ad4cf83164ad4771ea9e880b3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gaa44e343ad4cf83164ad4771ea9e880b3" kindref="member">findTwinUndirectedEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1ga21baf87f437b852b1e607b1dfa6319f2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gaa44e343ad4cf83164ad4771ea9e880b3" kindref="member">findTwinUndirectedEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga6ea77d16b7c8f5f36880e82fe07ccb89" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga6ea77d16b7c8f5f36880e82fe07ccb89" kindref="member">findTwinUndirectedEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga8ccdf8d51db1a5dc91a13ef13d29e30c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga6ea77d16b7c8f5f36880e82fe07ccb89" kindref="member">findTwinUndirectedEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="group__GeneralGroup_1ga6caaf25861d9a4702d6b7381072e6830" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeHashMap<sp/><ref refid="group__GeneralGroup_1ga6caaf25861d9a4702d6b7381072e6830" kindref="member">findTwinUndirectedEdgeHashMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1ga78de4ed5f0b59ba440f8c5a4ba100bd1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeHashMap<sp/><ref refid="group__GeneralGroup_1ga6caaf25861d9a4702d6b7381072e6830" kindref="member">findTwinUndirectedEdgeHashMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga2edc903da41e3d5e30b6c021b8b13a08" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref><sp/><ref refid="group__GeneralGroup_1ga2edc903da41e3d5e30b6c021b8b13a08" kindref="member">findTwinUndirectedEdgeHashMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ga68c8c9caa070992eb8b7ac550d12cae9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref><sp/><ref refid="group__GeneralGroup_1ga2edc903da41e3d5e30b6c021b8b13a08" kindref="member">findTwinUndirectedEdgeHashMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

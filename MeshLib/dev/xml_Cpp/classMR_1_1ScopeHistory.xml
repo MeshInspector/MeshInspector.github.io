@@ -9,8 +9,8 @@
       <member refid="group__GeneralGroup_1gac86d1e049286fe259d31f5a5fa14a4a7" kind="variable"><name>parentScopePtr_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga155a57e24f0f265fa6b27e456b83cec5" kind="function"><name>ScopeHistory</name></member>
-      <member refid="group__GeneralGroup_1ga5a69bc34372ef0223eb4b90fab0082d8" kind="function"><name>~ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kind="function"><name>ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" kind="function"><name>~ScopeHistory</name></member>
       <member refid="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" kind="function"><name>combinedAction</name></member>
     </sectiondef>
     <briefdescription>
@@ -23,9 +23,9 @@
       <member refid="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>combinedAction</name></member>
       <member refid="group__GeneralGroup_1ga4dd9ccda3424f0732f1579625df05934" prot="private" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>combinedAction_</name></member>
       <member refid="group__GeneralGroup_1gac86d1e049286fe259d31f5a5fa14a4a7" prot="private" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>parentScopePtr_</name></member>
-      <member refid="group__GeneralGroup_1ga155a57e24f0f265fa6b27e456b83cec5" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>ScopeHistory</name></member>
       <member refid="group__GeneralGroup_1ga86a6a9b2a3329e71208173ac6d3490c6" prot="private" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>store_</name></member>
-      <member refid="group__GeneralGroup_1ga5a69bc34372ef0223eb4b90fab0082d8" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>~ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>~ScopeHistory</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

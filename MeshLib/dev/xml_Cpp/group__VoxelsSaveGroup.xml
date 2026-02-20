@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__VoxelsSaveGroup" kind="group">
+    <compoundname>VoxelsSaveGroup</compoundname>
+    <title>Voxels Save</title>
+    <innernamespace refid="namespaceMR_1_1VoxelsSave">MR::VoxelsSave</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::saveObjectVoxelsToFile</definition>
+        <argsstring>(const Object &amp;object, const std::filesystem::path &amp;path, const ObjectSave::Settings &amp;settings)</argsstring>
+        <name>saveObjectVoxelsToFile</name>
+        <qualifiedname>MR::saveObjectVoxelsToFile</qualifiedname>
+        <param>
+          <type>const Object &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const ObjectSave::Settings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1VoxelsSave" kindref="compound">VoxelsSave</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="84" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="84" declcolumn="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

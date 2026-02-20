@@ -9,13 +9,13 @@ var MR2DContoursTriangulation_8h =
       [ "Positive", "MR2DContoursTriangulation_8h.html#gga41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147", null ],
       [ "Negative", "MR2DContoursTriangulation_8h.html#gga41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b", null ]
     ] ],
-    [ "findHoleVertIdsByHoleEdges", "MR2DContoursTriangulation_8h.html#ga3638a79ba38f8621fd9eb80783cb14be", null ],
-    [ "getOutline", "MR2DContoursTriangulation_8h.html#gaaae55b5f79adbd80cfe0f6f147069953", null ],
-    [ "getOutline", "MR2DContoursTriangulation_8h.html#ga1e7584c601fc9192683046e5f769c068", null ],
-    [ "getOutlineMesh", "MR2DContoursTriangulation_8h.html#ga0793fac040a2dcffcf616e963ebcfe7e", null ],
-    [ "getOutlineMesh", "MR2DContoursTriangulation_8h.html#ga83cb3ae007112f97a7019d02c16c2201", null ],
-    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#ga3a4d8b0d7301b69cd93de010d000bbcc", null ],
-    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#gadeb4ce509fc66338b9d870c64aefde19", null ],
-    [ "triangulateDisjointContours", "MR2DContoursTriangulation_8h.html#ga31ee3df5527e56120039ae242d069783", null ],
-    [ "triangulateDisjointContours", "MR2DContoursTriangulation_8h.html#gad078fde77ddac53c2c051b56888617e1", null ]
+    [ "findHoleVertIdsByHoleEdges", "MR2DContoursTriangulation_8h.html#gab8aeb3b0d7bff8697dd824538020153b", null ],
+    [ "getOutline", "MR2DContoursTriangulation_8h.html#ga4e98690acecec7a927c64053f5b86d80", null ],
+    [ "getOutline", "MR2DContoursTriangulation_8h.html#ga5dfad7ab63723534d37d1d91f48fa1a5", null ],
+    [ "getOutlineMesh", "MR2DContoursTriangulation_8h.html#ga4fea26f1468d4845a5875d3c87cd890f", null ],
+    [ "getOutlineMesh", "MR2DContoursTriangulation_8h.html#ga5e8af5982b8fe271a4ec768cd30c61f1", null ],
+    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#ga7444f5c6a17d0833c0acc2fe9e609b06", null ],
+    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#ga7e4a32c1c12ab602ce09059e7b2e3b9b", null ],
+    [ "triangulateDisjointContours", "MR2DContoursTriangulation_8h.html#ga17f7cb83e4239ac01ef1569adbbaab75", null ],
+    [ "triangulateDisjointContours", "MR2DContoursTriangulation_8h.html#ga74f8e57086cff7d504ab8c4f345cca3a", null ]
 ];

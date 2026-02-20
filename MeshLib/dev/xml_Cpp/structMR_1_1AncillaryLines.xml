@@ -13,15 +13,15 @@
       <member refid="group__GeneralGroup_1ga27b7a1ba6dc2d0f6a9f970eceb3bf7d2" kind="function"><name>AncillaryLines</name></member>
       <member refid="group__GeneralGroup_1ga27df408474d83d9c06b47c4b5f344a76" kind="function"><name>AncillaryLines</name></member>
       <member refid="group__GeneralGroup_1ga1586a42cec861e0cf8edd26f4d31f3ff" kind="function"><name>AncillaryLines</name></member>
-      <member refid="group__GeneralGroup_1gaf3281529d1ab8e07ec693f7ffa3072dd" kind="function"><name>make</name></member>
-      <member refid="group__GeneralGroup_1ga1fd7e0a12343aa6772c5231a36d628d7" kind="function"><name>make</name></member>
-      <member refid="group__GeneralGroup_1ga8130f94500e75fddfc646adf79fc1756" kind="function"><name>make</name></member>
-      <member refid="group__GeneralGroup_1gac5d131b80f575df708feec3d91a04efd" kind="function"><name>colorizeAxes</name></member>
-      <member refid="group__GeneralGroup_1ga94079e1bc86fd3a8d3d88ef85a35e727" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga0682a576c770e0012318e311672559ed" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1gac0ec0a851e0564d2ea02978c716a6593" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1gaf3166e13d0e6e32f2d413325cbf5515d" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1gadc881cadf2c1b87d9d5162536a8b1720" kind="function"><name>colorizeAxes</name></member>
+      <member refid="group__GeneralGroup_1gaf214cbf713cffeca3d05767eb0478076" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1gac40b43be9d56a0501df43434d19d8cbc" kind="function"><name>~AncillaryLines</name></member>
-      <member refid="group__GeneralGroup_1ga9c8cc96eaa02c4f366a99354fc621c6d" kind="function"><name>setContours</name></member>
-      <member refid="group__GeneralGroup_1ga927df020362fa03d9ad1e8a2af3b7b3c" kind="function"><name>resetContours</name></member>
-      <member refid="group__GeneralGroup_1ga784111585bac595d1a06938e219488e2" kind="function"><name>setDepthTest</name></member>
+      <member refid="group__GeneralGroup_1gaa9a211fa0a22448108021747c67f4b8d" kind="function"><name>setContours</name></member>
+      <member refid="group__GeneralGroup_1ga4b0e6a82d5af44e7b17b92b465e0cae1" kind="function"><name>resetContours</name></member>
+      <member refid="group__GeneralGroup_1ga033669d116c513a4775281cbaaa51f5c" kind="function"><name>setDepthTest</name></member>
     </sectiondef>
     <briefdescription>
 <para>Helper class to manage ancillary visual lines used by plugins. </para>
@@ -35,16 +35,16 @@
       <member refid="group__GeneralGroup_1ga27b7a1ba6dc2d0f6a9f970eceb3bf7d2" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
       <member refid="group__GeneralGroup_1ga27df408474d83d9c06b47c4b5f344a76" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
       <member refid="group__GeneralGroup_1ga1586a42cec861e0cf8edd26f4d31f3ff" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
-      <member refid="group__GeneralGroup_1gac5d131b80f575df708feec3d91a04efd" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>colorizeAxes</name></member>
-      <member refid="group__GeneralGroup_1gaf3281529d1ab8e07ec693f7ffa3072dd" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
-      <member refid="group__GeneralGroup_1ga1fd7e0a12343aa6772c5231a36d628d7" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
-      <member refid="group__GeneralGroup_1ga8130f94500e75fddfc646adf79fc1756" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1gadc881cadf2c1b87d9d5162536a8b1720" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>colorizeAxes</name></member>
+      <member refid="group__GeneralGroup_1ga0682a576c770e0012318e311672559ed" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1gac0ec0a851e0564d2ea02978c716a6593" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1gaf3166e13d0e6e32f2d413325cbf5515d" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
       <member refid="group__GeneralGroup_1ga3521624c0384c6ad11a0c3bdf5f1c1ed" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>obj</name></member>
       <member refid="group__GeneralGroup_1ga5420cacb7b0e5953d10f72c74ca8f91a" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1ga94079e1bc86fd3a8d3d88ef85a35e727" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga927df020362fa03d9ad1e8a2af3b7b3c" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>resetContours</name></member>
-      <member refid="group__GeneralGroup_1ga9c8cc96eaa02c4f366a99354fc621c6d" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setContours</name></member>
-      <member refid="group__GeneralGroup_1ga784111585bac595d1a06938e219488e2" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setDepthTest</name></member>
+      <member refid="group__GeneralGroup_1gaf214cbf713cffeca3d05767eb0478076" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga4b0e6a82d5af44e7b17b92b465e0cae1" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>resetContours</name></member>
+      <member refid="group__GeneralGroup_1gaa9a211fa0a22448108021747c67f4b8d" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setContours</name></member>
+      <member refid="group__GeneralGroup_1ga033669d116c513a4775281cbaaa51f5c" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setDepthTest</name></member>
       <member refid="group__GeneralGroup_1gac40b43be9d56a0501df43434d19d8cbc" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>~AncillaryLines</name></member>
     </listofallmembers>
   </compounddef>

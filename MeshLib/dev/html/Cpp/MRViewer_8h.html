@@ -190,9 +190,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gabf0f4c580a56e4a7e297faa1b6de7378" id="r_gabf0f4c580a56e4a7e297faa1b6de7378"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a> (const <a class="el" href="group__GeneralGroup.html#ga18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;params, const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;setup)</td></tr>
-<tr class="memdesc:gabf0f4c580a56e4a7e297faa1b6de7378"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts default viewer with given params and setup  <br /></td></tr>
-<tr class="separator:gabf0f4c580a56e4a7e297faa1b6de7378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada0c424f2526de3fc5e1e405ddc1fb39" id="r_gada0c424f2526de3fc5e1e405ddc1fb39"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gada0c424f2526de3fc5e1e405ddc1fb39">MR::launchDefaultViewer</a> (const <a class="el" href="group__GeneralGroup.html#ga18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;params, const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;setup)</td></tr>
+<tr class="memdesc:gada0c424f2526de3fc5e1e405ddc1fb39"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts default viewer with given params and setup  <br /></td></tr>
+<tr class="separator:gada0c424f2526de3fc5e1e405ddc1fb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ab5148a6d21d216f28a3c1da0055472db" name="ab5148a6d21d216f28a3c1da0055472db"></a>
@@ -213,11 +213,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="group__GeneralGroup.html#ga3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga7491e8da28f4f91c65a046245af2b38a">emplaceEvent</a>( NAME, [] { \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="group__GeneralGroup.html#ga8b214a239776e9c466820912e4449a2f">MR::getViewerInstance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga1a30a9d93fe61498f1f96c20bb834060">emplaceEvent</a>( NAME, [] { \</div>
 <div class="line">    MR::getViewerInstance() . METHOD (); \</div>
 <div class="line">} )</div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="group__GeneralGroup.html#ga3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div><div class="ttdoc">returns global instance of Viewer class</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga7491e8da28f4f91c65a046245af2b38a"><div class="ttname"><a href="group__GeneralGroup.html#ga7491e8da28f4f91c65a046245af2b38a">MR::Viewer::emplaceEvent</a></div><div class="ttdeci">MRVIEWER_API void emplaceEvent(std::string name, ViewerEventCallback cb, bool skipable=false)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga1a30a9d93fe61498f1f96c20bb834060"><div class="ttname"><a href="group__GeneralGroup.html#ga1a30a9d93fe61498f1f96c20bb834060">MR::Viewer::emplaceEvent</a></div><div class="ttdeci">void emplaceEvent(std::string name, ViewerEventCallback cb, bool skipable=false)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga8b214a239776e9c466820912e4449a2f"><div class="ttname"><a href="group__GeneralGroup.html#ga8b214a239776e9c466820912e4449a2f">MR::getViewerInstance</a></div><div class="ttdeci">Viewer &amp; getViewerInstance()</div><div class="ttdoc">returns global instance of Viewer class</div></div>
 </div><!-- fragment -->
 <p>helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html" title="GLFW-based mesh viewer.">MR::Viewer</a></code> method call to the event queue </p>
 
@@ -246,7 +246,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="group__GeneralGroup.html#ga3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga7491e8da28f4f91c65a046245af2b38a">emplaceEvent</a>( NAME, [__VA_ARGS__] { \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="group__GeneralGroup.html#ga8b214a239776e9c466820912e4449a2f">MR::getViewerInstance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga1a30a9d93fe61498f1f96c20bb834060">emplaceEvent</a>( NAME, [__VA_ARGS__] { \</div>
 <div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
 <div class="line">} )</div>
 </div><!-- fragment -->
@@ -275,7 +275,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="group__GeneralGroup.html#ga3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga7491e8da28f4f91c65a046245af2b38a">emplaceEvent</a>( NAME, [__VA_ARGS__] { \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="group__GeneralGroup.html#ga8b214a239776e9c466820912e4449a2f">MR::getViewerInstance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga1a30a9d93fe61498f1f96c20bb834060">emplaceEvent</a>( NAME, [__VA_ARGS__] { \</div>
 <div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
 <div class="line">}, true )</div>
 </div><!-- fragment -->

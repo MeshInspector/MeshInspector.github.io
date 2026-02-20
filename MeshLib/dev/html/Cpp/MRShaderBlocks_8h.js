@@ -5,11 +5,11 @@ var MRShaderBlocks_8h =
       [ "AlphaSort", "MRShaderBlocks_8h.html#gga26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c", null ],
       [ "DepthPeel", "MRShaderBlocks_8h.html#gga26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6", null ]
     ] ],
-    [ "getFragmentShaderClippingBlock", "MRShaderBlocks_8h.html#gaa526d722563500e7548560bc0a95cde4", null ],
-    [ "getFragmentShaderEndBlock", "MRShaderBlocks_8h.html#gad89fc9e615cf97d28183d6a676fdd4d1", null ],
-    [ "getFragmentShaderHeaderBlock", "MRShaderBlocks_8h.html#gaee5ff563a655d703fa5d39aa65e1c0f3", null ],
-    [ "getFragmentShaderOnlyOddBlock", "MRShaderBlocks_8h.html#ga5404571bb440331ecfd841ff6e8741cc", null ],
-    [ "getFragmentShaderPointSizeBlock", "MRShaderBlocks_8h.html#gaed5e226340fe1e3bfdcbdae04a1ebfca", null ],
-    [ "getPickerFragmentShader", "MRShaderBlocks_8h.html#gaf91e57bae7626f4e18c5bc1726ab2581", null ],
-    [ "getShaderMainBeginBlock", "MRShaderBlocks_8h.html#gafb88682a9d85529f849b971ada153795", null ]
+    [ "getFragmentShaderClippingBlock", "MRShaderBlocks_8h.html#ga97e752a49fe4e2e3b65e9f915b122aca", null ],
+    [ "getFragmentShaderEndBlock", "MRShaderBlocks_8h.html#ga81ff3b05848c2519852aab6b24b830e4", null ],
+    [ "getFragmentShaderHeaderBlock", "MRShaderBlocks_8h.html#ga7fea6f4fe3c17764eacef8a0324e144f", null ],
+    [ "getFragmentShaderOnlyOddBlock", "MRShaderBlocks_8h.html#gae4ae6a8ec99501a551574a18a18b07c1", null ],
+    [ "getFragmentShaderPointSizeBlock", "MRShaderBlocks_8h.html#ga78665c9b4ad78ff98be332b9dc1d7d9f", null ],
+    [ "getPickerFragmentShader", "MRShaderBlocks_8h.html#ga8d0c35a10cb3d303e56387880f7a8e76", null ],
+    [ "getShaderMainBeginBlock", "MRShaderBlocks_8h.html#gaf55badec247a8ed83ca57e51e74e36c0", null ]
 ];

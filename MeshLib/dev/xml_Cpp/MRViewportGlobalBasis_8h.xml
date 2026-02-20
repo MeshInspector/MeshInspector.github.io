@@ -2,423 +2,467 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRViewportGlobalBasis_8h" kind="file" language="C++">
     <compoundname>MRViewportGlobalBasis.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRViewportId_8h" local="yes">MRMesh/MRViewportId.h</includes>
     <includes refid="MRObjectLines_8h" local="yes">MRMesh/MRObjectLines.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <incdepgraph>
-      <node id="24">
+      <node id="33">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>MRBitSet.h</label>
-        <link refid="MRBitSet_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
         <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="60">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>MRHeapBytes.h</label>
+        <link refid="MRHeapBytes_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MRIRenderObject.h</label>
+        <link refid="MRIRenderObject_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="33">
-        <label>MRBox.h</label>
-        <link refid="MRBox_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="53">
-        <label>MRColor.h</label>
-        <link refid="MRColor_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
       <node id="56">
-        <label>MREnums.h</label>
-        <link refid="MREnums_8h"/>
-        <childnode refid="4" relation="include">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="57" relation="include">
         </childnode>
-      </node>
-      <node id="37">
-        <label>MRExpected.h</label>
-        <link refid="MRExpected_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-      </node>
-      <node id="59">
-        <label>MRMesh/MRFlagOperators.h</label>
-        <link refid="MRFlagOperators_8h"/>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="57">
-        <label>MRHeapBytes.h</label>
-        <link refid="MRHeapBytes_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="58">
-        <label>MRIRenderObject.h</label>
-        <link refid="MRIRenderObject_8h"/>
         <childnode refid="59" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="60" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
         <childnode refid="61" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="26">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="22">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-      </node>
-      <node id="52">
-        <label>MRImage.h</label>
-        <link refid="MRImage_8h"/>
-        <childnode refid="53" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="12">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="11">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="55">
         <label>MRMeshTexture.h</label>
         <link refid="MRMeshTexture_8h"/>
-        <childnode refid="52" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="20">
         <label>MRObject.h</label>
         <link refid="MRObject_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRMesh/MRObjectLines.h</label>
+        <link refid="MRObjectLines_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRObjectLinesHolder.h</label>
+        <link refid="MRObjectLinesHolder_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>MRRenderModelParameters.h</label>
+        <link refid="MRRenderModelParameters_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
         <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+      </node>
+      <node id="66">
+        <label>MRUniquePtr.h</label>
+        <link refid="MRUniquePtr_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MRViewportProperty.h</label>
+        <link refid="MRViewportProperty_8h"/>
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRMesh/MRObjectLines.h</label>
-        <link refid="MRObjectLines_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRObjectLinesHolder.h</label>
-        <link refid="MRObjectLinesHolder_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="63" relation="include">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="60">
-        <label>MRRenderModelParameters.h</label>
-        <link refid="MRRenderModelParameters_8h"/>
-        <childnode refid="59" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="42" relation="include">
-        </childnode>
-      </node>
-      <node id="62">
-        <label>MRUniquePtr.h</label>
-        <link refid="MRUniquePtr_8h"/>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="28">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="55">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="54">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="34">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="43">
-        <label>MRViewportProperty.h</label>
-        <link refid="MRViewportProperty_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
+      <node id="19">
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
         <childnode refid="62" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
-      <node id="63">
+      <node id="67">
         <label>MRXfBasedCache.h</label>
         <link refid="MRXfBasedCache_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="64" relation="include">
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="2">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -426,98 +470,99 @@
         <link refid="MRViewportGlobalBasis_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
-      <node id="35">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="18">
+      <node id="9">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="38">
+      <node id="45">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="2">
-        <label>MRViewerFwd.h</label>
-      </node>
-      <node id="27">
+      <node id="36">
         <label>MRphmap.h</label>
       </node>
-      <node id="19">
+      <node id="28">
         <label>algorithm</label>
       </node>
-      <node id="45">
+      <node id="10">
         <label>array</label>
       </node>
-      <node id="42">
+      <node id="48">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="5">
+      <node id="15">
         <label>cassert</label>
       </node>
-      <node id="20">
+      <node id="29">
         <label>cmath</label>
       </node>
-      <node id="30">
+      <node id="39">
         <label>concepts</label>
       </node>
-      <node id="15">
+      <node id="25">
         <label>cstddef</label>
       </node>
-      <node id="21">
+      <node id="30">
         <label>cstring</label>
       </node>
-      <node id="46">
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="51">
         <label>filesystem</label>
       </node>
-      <node id="31">
+      <node id="14">
         <label>functional</label>
       </node>
-      <node id="47">
+      <node id="52">
         <label>future</label>
       </node>
-      <node id="22">
+      <node id="31">
         <label>iosfwd</label>
       </node>
-      <node id="32">
+      <node id="40">
         <label>iterator</label>
       </node>
-      <node id="36">
+      <node id="43">
         <label>limits</label>
       </node>
-      <node id="44">
+      <node id="50">
         <label>map</label>
       </node>
-      <node id="48">
+      <node id="53">
         <label>memory</label>
       </node>
-      <node id="64">
+      <node id="68">
         <label>optional</label>
       </node>
-      <node id="49">
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="54">
         <label>set</label>
       </node>
-      <node id="39">
+      <node id="12">
         <label>string</label>
       </node>
-      <node id="16">
+      <node id="26">
         <label>type_traits</label>
       </node>
-      <node id="61">
+      <node id="65">
         <label>typeindex</label>
       </node>
-      <node id="23">
+      <node id="32">
         <label>utility</label>
       </node>
-      <node id="50">
+      <node id="11">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -529,7 +574,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewportId_8h" kindref="compound">MRMesh/MRViewportId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRObjectLines_8h" kindref="compound">MRMesh/MRObjectLines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSignal_8h" kindref="compound">MRMesh/MRSignal.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -541,31 +586,31 @@
 <codeline lineno="14" refid="classMR_1_1ViewportGlobalBasis" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewportGlobalBasis" kindref="compound">ViewportGlobalBasis</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1gad5198f7e31e7fb3b38c2eafa34f46b58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gad5198f7e31e7fb3b38c2eafa34f46b58" kindref="member">ViewportGlobalBasis</ref>();</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga1a6fc9270af73ce5ff008fe42c09bc29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga1a6fc9270af73ce5ff008fe42c09bc29" kindref="member">ViewportGlobalBasis</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga012d99e5cb1934ed13aacf0f817cdc47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga012d99e5cb1934ed13aacf0f817cdc47" kindref="member">getAxesLength</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gaffb6564dd0c94c82bc7b4aa028cd0526" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaffb6564dd0c94c82bc7b4aa028cd0526" kindref="member">getAxesLength</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga8540b2156a68f3e965fa3a7d51e704fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8540b2156a68f3e965fa3a7d51e704fd" kindref="member">getAxesWidth</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga9679297dbbf2a92f4f8c1a6313ad75aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9679297dbbf2a92f4f8c1a6313ad75aa" kindref="member">getAxesWidth</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga723a077281d985e67b4601e9028f1b70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga723a077281d985e67b4601e9028f1b70" kindref="member">setAxesProps</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" kindref="member">length</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga741117f237e2a27b73d576d491ce1d39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga741117f237e2a27b73d576d491ce1d39" kindref="member">setAxesProps</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" kindref="member">length</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga12801d2dd751246f5c16ee22920506b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga12801d2dd751246f5c16ee22920506b4" kindref="member">setColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>xColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>yColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>zColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>labelColors<sp/>);</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga535160ed5a1ef631a5445d31ea381795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga535160ed5a1ef631a5445d31ea381795" kindref="member">setColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>xColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>yColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>zColor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>labelColors<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga0140bc479277971c9a74e3e593e46b7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga0140bc479277971c9a74e3e593e46b7b" kindref="member">axesChildren</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1gaed207e94eca73fe32d328d00a623e80e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/><ref refid="group__GeneralGroup_1gaed207e94eca73fe32d328d00a623e80e" kindref="member">axesChildren</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gadf12d6fa6b9ede282e79114ae3acf9ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadf12d6fa6b9ede282e79114ae3acf9ee" kindref="member">getRedrawFlag</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38" refid="group__GeneralGroup_1ga3b01edb8a3a01ffa828ed5037b9bdd97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b01edb8a3a01ffa828ed5037b9bdd97" kindref="member">resetRedrawFlag</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga7101c0726dacd65e2b871fe4b4cec13a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7101c0726dacd65e2b871fe4b4cec13a" kindref="member">getRedrawFlag</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1gaaf3b59fd6438c1ef59c6daea3e00df51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf3b59fd6438c1ef59c6daea3e00df51" kindref="member">resetRedrawFlag</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1gaa325da7b15c71b8d867ac78ea2d512c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa325da7b15c71b8d867ac78ea2d512c5" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>&amp;<sp/>vp<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga3cf22625868204389355ad75a0744c2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3cf22625868204389355ad75a0744c2d" kindref="member">draw</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>&amp;<sp/>vp<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1gae86e6c17c2312646c28ccc581fe97280" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae86e6c17c2312646c28ccc581fe97280" kindref="member">setVisible</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on,<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>=<sp/>ViewportMask::all()<sp/>);</highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga74384187a70927d9045f6519af7eb426" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga74384187a70927d9045f6519af7eb426" kindref="member">setVisibilityMask</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga3e31e2b104853a82f93a8564d40786c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3e31e2b104853a82f93a8564d40786c9" kindref="member">setVisible</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on,<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>=<sp/>ViewportMask::all()<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gabeadde406712b6b5cb89aa03c5ea01fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabeadde406712b6b5cb89aa03c5ea01fa" kindref="member">setVisibilityMask</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga50928a929ec603bfd12c73f36b3ce840" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga50928a929ec603bfd12c73f36b3ce840" kindref="member">isVisible</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>=<sp/>ViewportMask::any()<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!axes_.empty()<sp/>&amp;&amp;<sp/>axes_[0]<sp/>&amp;&amp;<sp/>axes_[0]-&gt;isVisible(<sp/>vpMask<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1gad6ddedef8f36c08dc5dc9cd7ccd008cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="group__GeneralGroup_1gad6ddedef8f36c08dc5dc9cd7ccd008cf" kindref="member">getVisibilityMask</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(!axes_.empty()<sp/>&amp;&amp;<sp/>axes_[0]<sp/>)<sp/>?<sp/>axes_[0]-&gt;visibilityMask()<sp/>:<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1ga39820f93544132d70dd40721d02f71ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga39820f93544132d70dd40721d02f71ee" kindref="member">setGridVisible</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on,<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>=<sp/>ViewportMask::all()<sp/>);</highlight></codeline>
-<codeline lineno="53" refid="group__GeneralGroup_1ga6d953b83abd97c1e1b992cc9e70196e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d953b83abd97c1e1b992cc9e70196e4" kindref="member">setGridVisibilityMask</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1gafa7976ab89d58ffe59dda2bc14b21f10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafa7976ab89d58ffe59dda2bc14b21f10" kindref="member">setGridVisible</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on,<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>=<sp/>ViewportMask::all()<sp/>);</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1ga618734c776c994d3a45812502d58bc61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga618734c776c994d3a45812502d58bc61" kindref="member">setGridVisibilityMask</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="group__GeneralGroup_1ga9c1b6f23bb29b917c74a3b9010d96122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c1b6f23bb29b917c74a3b9010d96122" kindref="member">isGridVisible</ref>(<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>vpMask<sp/>=<sp/>ViewportMask::any()<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!grids_.empty()<sp/>&amp;&amp;<sp/>grids_[0]<sp/>&amp;&amp;<sp/>grids_[0]-&gt;isVisible(<sp/>vpMask<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1ga9efec4f573b2e17be72ad7f6ea9c2cd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="group__GeneralGroup_1ga9efec4f573b2e17be72ad7f6ea9c2cd9" kindref="member">getGridVisibilityMask</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(!grids_.empty()<sp/>&amp;&amp;<sp/>grids_[0]<sp/>)<sp/>?<sp/>grids_[0]-&gt;visibilityMask()<sp/>:<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref>();<sp/>}</highlight></codeline>

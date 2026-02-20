@@ -4,13 +4,41 @@
     <compoundname>MRTriDist.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRTriDist.h</label>
@@ -35,47 +63,66 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
         <label>algorithm</label>
       </node>
       <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="19">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cstring</label>
       </node>
-      <node id="13">
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="21">
         <label>iosfwd</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -132,16 +179,16 @@
 <codeline lineno="46"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" kindref="member">triDist</ref>(<sp/>Vector3f<sp/>&amp;<sp/>p,<sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>s[3],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>t[3]<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" kindref="member">triDist</ref>(<sp/>Vector3f<sp/>&amp;<sp/>p,<sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>s[3],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>t[3]<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" kindref="member">triDist</ref>(<sp/>Vector3f<sp/>&amp;<sp/>p,<sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>&amp;<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>&amp;<sp/>t<sp/>)</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" kindref="member">triDist</ref>(<sp/>Vector3f<sp/>&amp;<sp/>p,<sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>&amp;<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>&amp;<sp/>t<sp/>)</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" kindref="member">triDist</ref>(<sp/>p,<sp/>q,<sp/>s.data(),<sp/>t.data()<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" kindref="member">triDist</ref>(<sp/>p,<sp/>q,<sp/>s.data(),<sp/>t.data()<sp/>);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1ga5a67f76a82c38c8966aceae2506683e7" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5a67f76a82c38c8966aceae2506683e7" kindref="member">segPoints</ref>(</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" kindref="member">segPoints</ref>(</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/>&amp;<sp/>VEC,</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X</ref>,<sp/>Vector3f<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Y</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>P,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>A,<sp/></highlight></codeline>

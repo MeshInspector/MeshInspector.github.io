@@ -35,27 +35,27 @@
       <member refid="group__GeneralGroup_1ga1efc181844c96d8927ff6e49ea0139bf" kind="function"><name>~MoveObjectByMouseImpl</name></member>
       <member refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" kind="function"><name>minDistance</name></member>
       <member refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" kind="function"><name>setMinDistance</name></member>
-      <member refid="group__GeneralGroup_1ga6ce0bc82b6e4105651d707287c05c7ec" kind="function"><name>onDrawDialog</name></member>
-      <member refid="group__GeneralGroup_1ga540598c4c8004c75d894fa4e63f90694" kind="function"><name>onMouseDown</name></member>
-      <member refid="group__GeneralGroup_1ga3932fa9a5384b09c3fd4b7f7179697c6" kind="function"><name>onMouseMove</name></member>
-      <member refid="group__GeneralGroup_1ga4516bc68a71f976621ce71dff17b7837" kind="function"><name>onMouseUp</name></member>
-      <member refid="group__GeneralGroup_1ga6f7401692f7a4fc4b54c9a588eb04165" kind="function"><name>isMoving</name></member>
-      <member refid="group__GeneralGroup_1gaad8cb7773d35560f8b4469f293cbd169" kind="function"><name>cancel</name></member>
+      <member refid="group__GeneralGroup_1ga45f8ebdbb4537a2ba85a49fbb88a49b6" kind="function"><name>onDrawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga2e0876bcb1359481ac84aa5ca7f7dabd" kind="function"><name>onMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga5e505b6b24c50f3a7ef4300d48e6e79c" kind="function"><name>onMouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga72e9737a22dd34ae0b1f85c91fa88677" kind="function"><name>onMouseUp</name></member>
+      <member refid="group__GeneralGroup_1ga10658a6b8be61739b18245d8899b6ec8" kind="function"><name>isMoving</name></member>
+      <member refid="group__GeneralGroup_1ga68ec037621662887baaa9c63759afcb9" kind="function"><name>cancel</name></member>
       <member refid="group__GeneralGroup_1ga7de4136fb42f0c74d8c8f56b3e7e7254" kind="function"><name>enableHistory</name></member>
       <member refid="group__GeneralGroup_1gaf6ca6c34829bccce1c38a2f30f793b99" kind="function"><name>isHistoryEnabled</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga4634374908c348c3436bbbbc7a8571f0" kind="function"><name>pickObjects_</name></member>
-      <member refid="group__GeneralGroup_1ga1c00c84e0c80219e1fa10b926a82cf91" kind="function"><name>modeFromPickModifiers_</name></member>
-      <member refid="group__GeneralGroup_1ga8d4fb97994485132ccb6214d20ec2041" kind="function"><name>modeFromPick_</name></member>
-      <member refid="group__GeneralGroup_1gacb585eb1c444459ffe5c95d7b0db381e" kind="function"><name>setStartPoint_</name></member>
-      <member refid="group__GeneralGroup_1ga0e1c8964e80c006d7432d351d7f71e4d" kind="function"><name>setCenterPoint_</name></member>
-      <member refid="group__GeneralGroup_1ga66259d6115ca5e276ea745447817f0ce" kind="function"><name>calcControlPlane_</name></member>
-      <member refid="group__GeneralGroup_1ga32b8f295b15b40dffc3f103110e9d1b6" kind="function"><name>getBbox_</name></member>
+      <member refid="group__GeneralGroup_1ga1b2f159ab2d3b7941f27a5356fe15b2f" kind="function"><name>pickObjects_</name></member>
+      <member refid="group__GeneralGroup_1ga623c1f7dacde7e4af1153b0825817f6a" kind="function"><name>modeFromPickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga9fe55220911672e17abe1eef1bf18b1e" kind="function"><name>modeFromPick_</name></member>
+      <member refid="group__GeneralGroup_1ga19db3ae934aebaa9b9dceb96c2277baa" kind="function"><name>setStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga63a67e53b6c61a41200551e23adf6274" kind="function"><name>setCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1gac467ef9606a5f98eaf884d0ef8970c8f" kind="function"><name>calcControlPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga960f4e459a191c08f6f06a379a669156" kind="function"><name>getBbox_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga1a2c55bc1aa6acf230657040df6490f6" kind="function"><name>pick_</name></member>
-      <member refid="group__GeneralGroup_1gaa18aa05aa247a170a5e7cf128e082bee" kind="function"><name>onPick_</name></member>
+      <member refid="group__GeneralGroup_1gaa4a0ce39a3100287571ee07cc172feee" kind="function"><name>onPick_</name></member>
       <member refid="group__GeneralGroup_1gac3fa71fe5563d174520291c3b3bcb3d3" kind="function"><name>clear_</name></member>
       <member refid="group__GeneralGroup_1ga64704d6d9cfbe6c54fb2623898033620" kind="function"><name>applyCurrentXf_</name></member>
       <member refid="group__GeneralGroup_1ga0b7f66c2def84650c9b1b7e61ce65bf1" kind="function"><name>setVisualizeVectors_</name></member>
@@ -69,8 +69,8 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5b5ae11b230c45d421a32acdbe001d51" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>angle_</name></member>
       <member refid="group__GeneralGroup_1ga64704d6d9cfbe6c54fb2623898033620" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>applyCurrentXf_</name></member>
-      <member refid="group__GeneralGroup_1ga66259d6115ca5e276ea745447817f0ce" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>calcControlPlane_</name></member>
-      <member refid="group__GeneralGroup_1gaad8cb7773d35560f8b4469f293cbd169" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>cancel</name></member>
+      <member refid="group__GeneralGroup_1gac467ef9606a5f98eaf884d0ef8970c8f" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>calcControlPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga68ec037621662887baaa9c63759afcb9" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>cancel</name></member>
       <member refid="group__GeneralGroup_1gaa1fe6d33d6556da2ce9e87a68c5b5388" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>changingXfFromMouseMove_</name></member>
       <member refid="group__GeneralGroup_1gac3fa71fe5563d174520291c3b3bcb3d3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>clear_</name></member>
       <member refid="group__GeneralGroup_1ga90dbe741209952112c83d303612a9463" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>connections_</name></member>
@@ -78,30 +78,30 @@
       <member refid="group__GeneralGroup_1gadb167ed72d4e0abf3fd5ebc2bf23acc6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>currentXf_</name></member>
       <member refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>deadZonePixelRadius_</name></member>
       <member refid="group__GeneralGroup_1ga7de4136fb42f0c74d8c8f56b3e7e7254" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>enableHistory</name></member>
-      <member refid="group__GeneralGroup_1ga32b8f295b15b40dffc3f103110e9d1b6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>getBbox_</name></member>
+      <member refid="group__GeneralGroup_1ga960f4e459a191c08f6f06a379a669156" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>getBbox_</name></member>
       <member refid="group__GeneralGroup_1gaedc15af9d62e2f9a6876425b6080b23f" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>historyEnabled_</name></member>
       <member refid="group__GeneralGroup_1gad8e3944dd8d88a6a0f47b14ce21766f3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>initialXfs_</name></member>
       <member refid="group__GeneralGroup_1gaf6ca6c34829bccce1c38a2f30f793b99" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isHistoryEnabled</name></member>
-      <member refid="group__GeneralGroup_1ga6f7401692f7a4fc4b54c9a588eb04165" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isMoving</name></member>
+      <member refid="group__GeneralGroup_1ga10658a6b8be61739b18245d8899b6ec8" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isMoving</name></member>
       <member refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>minDistance</name></member>
       <member refid="group__GeneralGroup_1ga30bae421e02c7584c7f41e30d1b8847a" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>minDistance_</name></member>
-      <member refid="group__GeneralGroup_1ga8d4fb97994485132ccb6214d20ec2041" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPick_</name></member>
-      <member refid="group__GeneralGroup_1ga1c00c84e0c80219e1fa10b926a82cf91" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga9fe55220911672e17abe1eef1bf18b1e" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPick_</name></member>
+      <member refid="group__GeneralGroup_1ga623c1f7dacde7e4af1153b0825817f6a" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPickModifiers_</name></member>
       <member refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>MoveObjectByMouseImpl</name></member>
       <member refid="group__GeneralGroup_1ga657bfc3b281441e2c6d71db6b7aaaccb" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>objects_</name></member>
-      <member refid="group__GeneralGroup_1ga6ce0bc82b6e4105651d707287c05c7ec" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onDrawDialog</name></member>
-      <member refid="group__GeneralGroup_1ga540598c4c8004c75d894fa4e63f90694" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseDown</name></member>
-      <member refid="group__GeneralGroup_1ga3932fa9a5384b09c3fd4b7f7179697c6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseMove</name></member>
-      <member refid="group__GeneralGroup_1ga4516bc68a71f976621ce71dff17b7837" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseUp</name></member>
-      <member refid="group__GeneralGroup_1gaa18aa05aa247a170a5e7cf128e082bee" prot="private" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onPick_</name></member>
+      <member refid="group__GeneralGroup_1ga45f8ebdbb4537a2ba85a49fbb88a49b6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onDrawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga2e0876bcb1359481ac84aa5ca7f7dabd" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga5e505b6b24c50f3a7ef4300d48e6e79c" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga72e9737a22dd34ae0b1f85c91fa88677" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseUp</name></member>
+      <member refid="group__GeneralGroup_1gaa4a0ce39a3100287571ee07cc172feee" prot="private" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onPick_</name></member>
       <member refid="group__GeneralGroup_1ga1a2c55bc1aa6acf230657040df6490f6" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pick_</name></member>
-      <member refid="group__GeneralGroup_1ga4634374908c348c3436bbbbc7a8571f0" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pickObjects_</name></member>
+      <member refid="group__GeneralGroup_1ga1b2f159ab2d3b7941f27a5356fe15b2f" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pickObjects_</name></member>
       <member refid="group__GeneralGroup_1gaacb9fa9b021cf7630965729bb5bfa554" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>referencePlane_</name></member>
       <member refid="group__GeneralGroup_1gab848840eac2ca88c09b492f5e8aea4d4" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>scale_</name></member>
       <member refid="group__GeneralGroup_1ga3a6c148739515a46ba300de5cc48d45f" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>screenStartPoint_</name></member>
-      <member refid="group__GeneralGroup_1ga0e1c8964e80c006d7432d351d7f71e4d" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga63a67e53b6c61a41200551e23adf6274" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setCenterPoint_</name></member>
       <member refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setMinDistance</name></member>
-      <member refid="group__GeneralGroup_1gacb585eb1c444459ffe5c95d7b0db381e" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga19db3ae934aebaa9b9dceb96c2277baa" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setStartPoint_</name></member>
       <member refid="group__GeneralGroup_1ga0b7f66c2def84650c9b1b7e61ce65bf1" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setVisualizeVectors_</name></member>
       <member refid="group__GeneralGroup_1ga0d2331fdc1bf2fc0c011406c5c293457" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>shift_</name></member>
       <member refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>TransformMode</name></member>

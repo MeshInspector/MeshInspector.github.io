@@ -65,7 +65,7 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>funcLocal(<sp/>std::forward&lt;Args&gt;(<sp/>argsLocal<sp/>)...<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" kindref="member">MR::CommandLoop::runCommandFromGUIThread</ref>(<sp/>std::move(<sp/>deferredAction<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa7b94269107f75e82b8f719b5981465d" kindref="member">MR::CommandLoop::runCommandFromGUIThread</ref>(<sp/>std::move(<sp/>deferredAction<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>

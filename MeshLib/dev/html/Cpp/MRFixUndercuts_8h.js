@@ -1,17 +1,17 @@
 var MRFixUndercuts_8h =
 [
     [ "UndercutMetric", "MRFixUndercuts_8h.html#gafb7dbf2667211aa9d31565ef2d4ad13d", null ],
-    [ "distMapImproveDirection", "MRFixUndercuts_8h.html#ga4ce77d6cc1b654cd81c517870a1c840f", null ],
-    [ "find", "MRFixUndercuts_8h.html#gaab7f74dcecd9e3401fed6751e0b70e1a", null ],
-    [ "find", "MRFixUndercuts_8h.html#gaecc6cdf126c48d730e18a76748377b81", null ],
-    [ "findUndercuts", "MRFixUndercuts_8h.html#gae4d915cce44fa17e490cd4fcd8c2f873", null ],
-    [ "findUndercuts", "MRFixUndercuts_8h.html#ga767a353a6dec2e7f7e759a09ca2ca417", null ],
-    [ "findUndercuts", "MRFixUndercuts_8h.html#ga1f09ee04e3c1273e01b1976dfdc385ba", null ],
-    [ "fix", "MRFixUndercuts_8h.html#ga828027410a376eff4887e779d41e2ac7", null ],
-    [ "fixUndercuts", "MRFixUndercuts_8h.html#ga25cdcfeebb017e6cee1efc67f32d00ff", null ],
-    [ "fixUndercuts", "MRFixUndercuts_8h.html#gaeadb3059cbb560573bab4cf7842d03e7", null ],
-    [ "getUndercutAreaMetric", "MRFixUndercuts_8h.html#ga6103a164b0037795960a4ecc185199cc", null ],
-    [ "getUndercutAreaProjectionMetric", "MRFixUndercuts_8h.html#gabe945577bbd648b8f5dfafd9ebd0361e", null ],
-    [ "improveDirection", "MRFixUndercuts_8h.html#ga6302d9ddaf5ffbcdafa2451367f8b8e6", null ],
-    [ "scoreUndercuts", "MRFixUndercuts_8h.html#ga1533cdae8a0918d9ee6e83cf92f56280", null ]
+    [ "distMapImproveDirection", "MRFixUndercuts_8h.html#ga67e5936c7a3c257eea85691aa3ba8635", null ],
+    [ "find", "MRFixUndercuts_8h.html#gaf19f137e2e41335e593696e154fa6adb", null ],
+    [ "find", "MRFixUndercuts_8h.html#gaa80cdac437945976360f5329eb4d81a1", null ],
+    [ "findUndercuts", "MRFixUndercuts_8h.html#gaa7b18d3b26604915077ca1adfff52cd9", null ],
+    [ "findUndercuts", "MRFixUndercuts_8h.html#ga658b5ff275186d8fc13692aba99c967d", null ],
+    [ "findUndercuts", "MRFixUndercuts_8h.html#ga23bd992e37b352287ca1d1ea48854778", null ],
+    [ "fix", "MRFixUndercuts_8h.html#gaebb88297efa56ccb0dfc8efd1ea36204", null ],
+    [ "fixUndercuts", "MRFixUndercuts_8h.html#ga812908df881825b3bbecf0adef0366d9", null ],
+    [ "fixUndercuts", "MRFixUndercuts_8h.html#ga28783bf76ae80dccfc9293de131199ce", null ],
+    [ "getUndercutAreaMetric", "MRFixUndercuts_8h.html#gafd0f3743555a716efc72e912b027a9a4", null ],
+    [ "getUndercutAreaProjectionMetric", "MRFixUndercuts_8h.html#ga4a31713485aaf559be4ecdccf4d8b4fe", null ],
+    [ "improveDirection", "MRFixUndercuts_8h.html#ga4efe9f995f5277a0688fc4655de76048", null ],
+    [ "scoreUndercuts", "MRFixUndercuts_8h.html#gaa2c153fcb18670d6adbee61e19332f61", null ]
 ];

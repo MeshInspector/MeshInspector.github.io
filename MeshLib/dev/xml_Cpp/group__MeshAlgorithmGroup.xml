@@ -16,9 +16,9 @@
     <innergroup refid="group__MeshRelaxGroup">Mesh Relax</innergroup>
     <innergroup refid="group__MeshSubdivideGroup">Mesh Subdivide</innergroup>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshAlgorithmGroup_1gabd2f9988108fabef913d835c6c1385cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::straightenBoundary</definition>
+      <memberdef kind="function" id="group__MeshAlgorithmGroup_1ga85f120484f51a420267e45c05af90e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::straightenBoundary</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId bd, float minNeiNormalsDot, float maxTriAspectRatio, FaceBitSet *newFaces=nullptr)</argsstring>
         <name>straightenBoundary</name>
         <qualifiedname>MR::straightenBoundary</qualifiedname>
@@ -51,11 +51,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" line="15" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" declline="15" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" line="15" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" declline="15" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshAlgorithmGroup_1gac05a6a40f6f3f078e9ceb0870a399516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PointCloud</type>
-        <definition>MRMESH_API PointCloud MR::meshToPointCloud</definition>
+      <memberdef kind="function" id="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PointCloud</type>
+        <definition>PointCloud MR::meshToPointCloud</definition>
         <argsstring>(const Mesh &amp;mesh, bool saveNormals=true, const VertBitSet *verts=nullptr)</argsstring>
         <name>meshToPointCloud</name>
         <qualifiedname>MR::meshToPointCloud</qualifiedname>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" line="13" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" line="13" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

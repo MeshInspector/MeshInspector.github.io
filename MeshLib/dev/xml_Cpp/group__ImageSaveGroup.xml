@@ -4,9 +4,9 @@
     <compoundname>ImageSaveGroup</compoundname>
     <title>Image Save</title>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__ImageSaveGroup_1ga0657c5aa66364149969648ed210c529a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::ImageSave::toBmp</definition>
+      <memberdef kind="function" id="group__ImageSaveGroup_1ga0dc9086f036368f487178ea73db8ae9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::ImageSave::toBmp</definition>
         <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
         <name>toBmp</name>
         <qualifiedname>MR::ImageSave::toBmp</qualifiedname>
@@ -25,11 +25,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="22" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="22" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="22" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="22" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__ImageSaveGroup_1gaf5aa523593e91cde08bf181b7aa9b2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::ImageSave::toAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__ImageSaveGroup_1gacad461f67f85ef03af309127aaff7c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::ImageSave::toAnySupportedFormat</definition>
         <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR::ImageSave::toAnySupportedFormat</qualifiedname>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="25" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="25" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="25" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="25" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -8,9 +8,9 @@
     <innerclass refid="structMR_1_1PointCloudApproxRelaxParams" prot="public">MR::PointCloudApproxRelaxParams</innerclass>
     <innerclass refid="classMR_1_1RegularMapMesher" prot="public">MR::RegularMapMesher</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__PointCloudGroup_1gad56601e20058641f49fa277149d87e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::improveSampling</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gaac1c0003890912dca03aafa624951ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::improveSampling</definition>
         <argsstring>(const PointCloud &amp;cloud, VertBitSet &amp;samples, const ImproveSamplingSettings &amp;settings)</argsstring>
         <name>improveSampling</name>
         <qualifiedname>MR::improveSampling</qualifiedname>
@@ -52,11 +52,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h" line="44" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h" declline="44" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h" line="44" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h" declline="44" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gacc81cfcb469766869e22075807c018db" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertNormals &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertNormals &gt;</type>
+        <definition>std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, float radius, const ProgressCallback &amp;progress={}, OrientNormals orient=OrientNormals::Smart)</argsstring>
         <name>makeUnorientedNormals</name>
         <qualifiedname>MR::makeUnorientedNormals</qualifiedname>
@@ -105,11 +105,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="18" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="18" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="18" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga7448439cf7b5f0ec6ed3d9488bef703a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertNormals &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertNormals &gt;</type>
+        <definition>std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const AllLocalTriangulations &amp;triangs, const ProgressCallback &amp;progress={}, OrientNormals orient=OrientNormals::Smart)</argsstring>
         <name>makeUnorientedNormals</name>
         <qualifiedname>MR::makeUnorientedNormals</qualifiedname>
@@ -150,11 +150,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="26" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="26" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="26" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gae615385e5a3c6640f53b2afd04658838" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertNormals &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertNormals &gt;</type>
+        <definition>std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const Buffer&lt; VertId &gt; &amp;closeVerts, int numNei, const ProgressCallback &amp;progress={}, OrientNormals orient=OrientNormals::Smart)</argsstring>
         <name>makeUnorientedNormals</name>
         <qualifiedname>MR::makeUnorientedNormals</qualifiedname>
@@ -207,11 +207,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="34" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="34" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="34" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="34" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gac088f8a5d90a98ec6f18e97caca298f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::orientNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga4207b28452885c6d8c37052d9f9f9297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orientNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, VertNormals &amp;normals, float radius, const ProgressCallback &amp;progress={})</argsstring>
         <name>orientNormals</name>
         <qualifiedname>MR::orientNormals</qualifiedname>
@@ -251,11 +251,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="41" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="41" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="41" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="41" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gaa8f205918af032263bddf663cd5e03f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::orientNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga543bf9d494b5f9966b03ac52df938eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orientNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, VertNormals &amp;normals, const AllLocalTriangulations &amp;triangs, const ProgressCallback &amp;progress={})</argsstring>
         <name>orientNormals</name>
         <qualifiedname>MR::orientNormals</qualifiedname>
@@ -295,11 +295,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="51" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="51" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="51" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="51" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga450ad031ccac1e86e9a4f076d1aabd3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::orientNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga3040bf00fa2722f573c4ef965d0ddae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orientNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, VertNormals &amp;normals, const Buffer&lt; VertId &gt; &amp;closeVerts, int numNei, const ProgressCallback &amp;progress={})</argsstring>
         <name>orientNormals</name>
         <qualifiedname>MR::orientNormals</qualifiedname>
@@ -343,11 +343,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="58" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="58" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="58" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="58" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga40da78b08c082b4012d578e9b68e0c69" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertNormals &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertNormals &gt; MR::makeOrientedNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gaccb668ec7a811b6c00bb5eda5f7fa8f3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertNormals &gt;</type>
+        <definition>std::optional&lt; VertNormals &gt; MR::makeOrientedNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, float radius, const ProgressCallback &amp;progress={})</argsstring>
         <name>makeOrientedNormals</name>
         <qualifiedname>MR::makeOrientedNormals</qualifiedname>
@@ -383,11 +383,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="65" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="65" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="65" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="65" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gab197779cd5dda18a937f178ef98ceb27" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertNormals &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertNormals &gt; MR::makeOrientedNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga117dbe61fc1c56b7b7ba25d6514ac35d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertNormals &gt;</type>
+        <definition>std::optional&lt; VertNormals &gt; MR::makeOrientedNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, AllLocalTriangulations &amp;triangs, const ProgressCallback &amp;progress={})</argsstring>
         <name>makeOrientedNormals</name>
         <qualifiedname>MR::makeOrientedNormals</qualifiedname>
@@ -414,11 +414,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="72" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="72" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="72" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="72" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga6d1b190105546ec214cc4ab692ece60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertNormals</type>
-        <definition>MRMESH_API VertNormals MR::makeNormals</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga15578cc0c068a55121b279b4d0b9e7cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertNormals</type>
+        <definition>VertNormals MR::makeNormals</definition>
         <argsstring>(const PointCloud &amp;pointCloud, int avgNeighborhoodSize=48)</argsstring>
         <name>makeNormals</name>
         <qualifiedname>MR::makeNormals</qualifiedname>
@@ -448,11 +448,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="79" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="79" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="79" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga65f914c5f869b8b554e8394912e5a7a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::findAvgPointsRadius</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gad170a186634adcea1422a0bcb701584d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::findAvgPointsRadius</definition>
         <argsstring>(const PointCloud &amp;pointCloud, int avgPoints, int samples=1024)</argsstring>
         <name>findAvgPointsRadius</name>
         <qualifiedname>MR::findAvgPointsRadius</qualifiedname>
@@ -486,11 +486,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRadius.h" line="14" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRadius.h" declline="14" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRadius.h" line="14" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRadius.h" declline="14" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga6ba9ffdcab693b6baea21220474723b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::relax</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::relax</definition>
         <argsstring>(PointCloud &amp;pointCloud, const PointCloudRelaxParams &amp;params={}, ProgressCallback cb={})</argsstring>
         <name>relax</name>
         <qualifiedname>MR::relax</qualifiedname>
@@ -517,11 +517,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="21" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="21" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="21" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="21" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga43e77151f7880a37daf34ec986060115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::relaxKeepVolume</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::relaxKeepVolume</definition>
         <argsstring>(PointCloud &amp;pointCloud, const PointCloudRelaxParams &amp;params={}, ProgressCallback cb={})</argsstring>
         <name>relaxKeepVolume</name>
         <qualifiedname>MR::relaxKeepVolume</qualifiedname>
@@ -548,11 +548,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="26" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="26" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="26" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga6aed8553ea931bbcc8e56d557e037f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::relaxApprox</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::relaxApprox</definition>
         <argsstring>(PointCloud &amp;pointCloud, const PointCloudApproxRelaxParams &amp;params={}, ProgressCallback cb={})</argsstring>
         <name>relaxApprox</name>
         <qualifiedname>MR::relaxApprox</qualifiedname>
@@ -579,11 +579,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="36" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="36" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="36" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="36" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1ga1d42cd6fcda63ebaac2da831b5d85d72" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API std::optional&lt; VertBitSet &gt; MR::pointUniformSampling</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; VertBitSet &gt;</type>
+        <definition>std::optional&lt; VertBitSet &gt; MR::pointUniformSampling</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const UniformSamplingSettings &amp;settings)</argsstring>
         <name>pointUniformSampling</name>
         <qualifiedname>MR::pointUniformSampling</qualifiedname>
@@ -602,11 +602,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="35" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" declline="35" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="35" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" declline="35" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gacc95b061bc268ba7d0b6e32ac47807f7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; PointCloud &gt;</type>
-        <definition>MRMESH_API std::optional&lt; PointCloud &gt; MR::makeUniformSampledCloud</definition>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; PointCloud &gt;</type>
+        <definition>std::optional&lt; PointCloud &gt; MR::makeUniformSampledCloud</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const UniformSamplingSettings &amp;settings)</argsstring>
         <name>makeUniformSampledCloud</name>
         <qualifiedname>MR::makeUniformSampledCloud</qualifiedname>
@@ -625,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="41" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" declline="41" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="41" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" declline="41" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

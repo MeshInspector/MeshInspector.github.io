@@ -10,8 +10,8 @@ var MRVolumeIndexer_8h =
       [ "MinusX", "MRVolumeIndexer_8h.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454", null ],
       [ "Count", "MRVolumeIndexer_8h.html#ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "expandVoxelsMask", "MRVolumeIndexer_8h.html#ga2b294cbfdf1d13f5bb7babef620b361a", null ],
+    [ "expandVoxelsMask", "MRVolumeIndexer_8h.html#gaf4165e1b4387ead4958e16c2ffebdf4b", null ],
     [ "opposite", "MRVolumeIndexer_8h.html#ga4e89cddf49bc51a6caa983ba3b84c461", null ],
-    [ "shrinkVoxelsMask", "MRVolumeIndexer_8h.html#gaae181e34db4d5ebb6f2cc68194b69c18", null ],
+    [ "shrinkVoxelsMask", "MRVolumeIndexer_8h.html#ga051634fee494f975b01af37644de2b2a", null ],
     [ "neiPosDelta", "MRVolumeIndexer_8h.html#ga91147207103fdc2c344ad18106a8599a", null ]
 ];

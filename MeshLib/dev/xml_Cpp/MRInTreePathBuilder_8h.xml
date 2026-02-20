@@ -4,6 +4,12 @@
     <compoundname>MRInTreePathBuilder.h</compoundname>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRInTreePathBuilder.h</label>
         <link refid="MRInTreePathBuilder_8h"/>
@@ -14,14 +20,36 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="5">
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -31,24 +59,40 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="6">
+      <node id="15">
         <label>concepts</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1InTreePathBuilder" prot="public">MR::InTreePathBuilder</innerclass>
@@ -69,9 +113,9 @@
 <codeline lineno="13" refid="classMR_1_1InTreePathBuilder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1InTreePathBuilder" kindref="compound">InTreePathBuilder</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" kindref="member">InTreePathBuilder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>&amp;<sp/>treeEdges<sp/>);</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" kindref="member">InTreePathBuilder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>&amp;<sp/>treeEdges<sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>EdgePath<sp/><ref refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" kindref="member">build</ref>(<sp/>VertId<sp/>start,<sp/>VertId<sp/>finish<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gad261927227d814e06646f6daba7b3fa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref><sp/><ref refid="group__GeneralGroup_1gad261927227d814e06646f6daba7b3fa0" kindref="member">build</ref>(<sp/>VertId<sp/>start,<sp/>VertId<sp/>finish<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>EdgeId<sp/>getEdgeBack_(<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>

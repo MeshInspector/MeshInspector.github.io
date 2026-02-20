@@ -11,10 +11,10 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" kind="function"><name>RecentFilesStore</name></member>
       <member refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" kind="function"><name>RecentFilesStore</name></member>
-      <member refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" kind="function"><name>storeFile</name></member>
-      <member refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" kind="function"><name>getStoredFiles</name></member>
+      <member refid="group__GeneralGroup_1gaf325fa995ff9551866e03d07958c41db" kind="function"><name>storeFile</name></member>
+      <member refid="group__GeneralGroup_1ga2b477d298bbd9cf6c9461c91516ac972" kind="function"><name>getStoredFiles</name></member>
       <member refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" kind="function"><name>getCapacity</name></member>
-      <member refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" kind="function"><name>onUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" kind="function"><name>onUpdate</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -26,11 +26,11 @@
       <member refid="group__GeneralGroup_1ga79680c946de4a22ddf9715faff78e150" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>appName_</name></member>
       <member refid="group__GeneralGroup_1gad4ad64e7a274e03c22c321fe80f77f9c" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>capacity_</name></member>
       <member refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getCapacity</name></member>
-      <member refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getStoredFiles</name></member>
-      <member refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>onUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga2b477d298bbd9cf6c9461c91516ac972" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getStoredFiles</name></member>
+      <member refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>onUpdate</name></member>
       <member refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
       <member refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
-      <member refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>storeFile</name></member>
+      <member refid="group__GeneralGroup_1gaf325fa995ff9551866e03d07958c41db" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>storeFile</name></member>
       <member refid="group__GeneralGroup_1ga9f9d1fe969fc9cbdac378c46228936d8" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>updateSignal_</name></member>
     </listofallmembers>
   </compounddef>

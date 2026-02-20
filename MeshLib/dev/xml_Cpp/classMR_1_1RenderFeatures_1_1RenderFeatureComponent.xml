@@ -59,7 +59,7 @@
         <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
         <name>render</name>
         <qualifiedname>MR::RenderFeatures::RenderFeatureComponent::render</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a879e1173ef7bfb15f7742f2bbf9191eb">render</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1adff765d25d052a22403a15ce5231a41b">render</reimplementedby>
         <param>
           <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
           <declname>params</declname>
@@ -78,7 +78,7 @@
         <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
         <name>renderPicker</name>
         <qualifiedname>MR::RenderFeatures::RenderFeatureComponent::renderPicker</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a8a25f7b901d90a80b7e6de43f0c00d53">renderPicker</reimplementedby>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a2d5ce382c91aad5ff7d42827e3aa8c13">renderPicker</reimplementedby>
         <param>
           <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
           <declname>params</declname>

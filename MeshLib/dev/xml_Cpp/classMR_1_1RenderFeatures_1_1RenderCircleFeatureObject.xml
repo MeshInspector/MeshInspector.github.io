@@ -36,9 +36,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1ad46f11039fa4117f1040bc2b3b5a4011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::RenderFeatures::RenderCircleFeatureObject::RenderCircleFeatureObject</definition>
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1ad6c9725291a5290f3753907ffc489015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderFeatures::RenderCircleFeatureObject::RenderCircleFeatureObject</definition>
         <argsstring>(const VisualObject &amp;object)</argsstring>
         <name>RenderCircleFeatureObject</name>
         <qualifiedname>MR::RenderFeatures::RenderCircleFeatureObject::RenderCircleFeatureObject</qualifiedname>
@@ -52,11 +52,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="245" column="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="245" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a29c87ece31c42b112098bfd2a019588e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RenderFeatures::RenderCircleFeatureObject::renderUi</definition>
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a48bf22a7a30dabdbe6871758c246758d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderFeatures::RenderCircleFeatureObject::renderUi</definition>
         <argsstring>(const UiRenderParams &amp;params) override</argsstring>
         <name>renderUi</name>
         <qualifiedname>MR::RenderFeatures::RenderCircleFeatureObject::renderUi</qualifiedname>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="246" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="246" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -119,10 +119,10 @@
       <member refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a29dc597db844b392b51fc6ca2475a1a2" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>object_</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1af329d77a809f61449141449d06874cfe" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>radiusTask_</name></member>
       <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>render</name></member>
-      <member refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1ad46f11039fa4117f1040bc2b3b5a4011" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>RenderCircleFeatureObject</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1ad6c9725291a5290f3753907ffc489015" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>RenderCircleFeatureObject</name></member>
       <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>RenderObjectCombinator</name></member>
       <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>renderPicker</name></member>
-      <member refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a29c87ece31c42b112098bfd2a019588e" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a48bf22a7a30dabdbe6871758c246758d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>renderUi</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

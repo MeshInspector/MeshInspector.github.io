@@ -2,27 +2,94 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRViewerSettingsManager_8h" kind="file" language="C++">
     <compoundname>MRViewerSettingsManager.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="no">string</includes>
     <includes local="no">vector</includes>
     <incdepgraph>
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="2">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRViewerSettingsManager.h</label>
         <link refid="MRViewerSettingsManager_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRViewerFwd.h</label>
       </node>
       <node id="3">
-        <label>string</label>
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
       </node>
       <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="11">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -36,7 +103,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -66,18 +133,18 @@
 <codeline lineno="34" refid="classMR_1_1ViewerSettingsManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewerSettingsManager" kindref="compound">ViewerSettingsManager</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IViewerSettingsManager" kindref="compound">IViewerSettingsManager</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1ga73a1b054bbf40224c9f01e6aff8af7af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga73a1b054bbf40224c9f01e6aff8af7af" kindref="member">ViewerSettingsManager</ref>();</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" kindref="member">ViewerSettingsManager</ref>();</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga0dca5c0c64723897642af29dc8fef964" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0dca5c0c64723897642af29dc8fef964" kindref="member">loadInt</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>def<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="40" refid="group__GeneralGroup_1ga51cede7ab3c024e08577094a584e7512" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51cede7ab3c024e08577094a584e7512" kindref="member">saveInt</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1ga9ca002ebe5eebbe8133cc6bce3264b1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9ca002ebe5eebbe8133cc6bce3264b1f" kindref="member">loadString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>def<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga29f9662501e741d7d1fc74ed9c625795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga29f9662501e741d7d1fc74ed9c625795" kindref="member">saveString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>value<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga75e0d8257f6b959f21a0572a5cad981a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75e0d8257f6b959f21a0572a5cad981a" kindref="member">loadBool</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>def<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga042d3ed32be3a4c2a05955e2ff522edb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga042d3ed32be3a4c2a05955e2ff522edb" kindref="member">saveBool</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga1392491d95b8f7f5cebe20cb00d73e64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1392491d95b8f7f5cebe20cb00d73e64" kindref="member">loadInt</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>def<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga2bb3d3ae0a73c7c778d56670e6ec33a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2bb3d3ae0a73c7c778d56670e6ec33a3" kindref="member">saveInt</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga9584cb73ff43cb737462253c022fa70d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9584cb73ff43cb737462253c022fa70d" kindref="member">loadString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>def<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga40a110314a2a71d4691ccb7c5d12b71b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga40a110314a2a71d4691ccb7c5d12b71b" kindref="member">saveString</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>value<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga7c4de0cb30e8bc3f573117ecd4374f08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7c4de0cb30e8bc3f573117ecd4374f08" kindref="member">loadBool</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>def<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1gaf4053686681e4e0502750014963e5d19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf4053686681e4e0502750014963e5d19" kindref="member">saveBool</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="group__GeneralGroup_1ga44434b6d527c61c052707e63cba1a32a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga44434b6d527c61c052707e63cba1a32a" kindref="member">resetSettings</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="47" refid="group__GeneralGroup_1gaae039b8200dd053aec8632ae57be5880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaae039b8200dd053aec8632ae57be5880" kindref="member">loadSettings</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>viewer<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1ga770118627bfaf87c25ea5054d8accd6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga770118627bfaf87c25ea5054d8accd6b" kindref="member">saveSettings</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>viewer<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1gaca50a66b1ff34e35af7477250df6c2f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaca50a66b1ff34e35af7477250df6c2f9" kindref="member">resetSettings</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gaa81da9ffa8b311749756131d58cec964" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa81da9ffa8b311749756131d58cec964" kindref="member">loadSettings</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>viewer<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1gab1829bbed7fabbfad745ec9ed088349a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab1829bbed7fabbfad745ec9ed088349a" kindref="member">saveSettings</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>viewer<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -88,8 +155,8 @@
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>,</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1gaec65e015620e9455787fd7da4496b654" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaec65e015620e9455787fd7da4496b654" kindref="member">getLastExtention</ref>(<sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref><sp/>objType<sp/>);</highlight></codeline>
-<codeline lineno="60" refid="group__GeneralGroup_1gae34d29d931ee10c81966d705130f7490" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae34d29d931ee10c81966d705130f7490" kindref="member">setLastExtention</ref>(<sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref><sp/>objType,<sp/>std::string<sp/>ext<sp/>);</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" kindref="member">getLastExtention</ref>(<sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref><sp/>objType<sp/>);</highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" kindref="member">setLastExtention</ref>(<sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref><sp/>objType,<sp/>std::string<sp/>ext<sp/>);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>lastExtentions_;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal">};</highlight></codeline>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRMeshPart_8h" kind="file" language="C++">
     <compoundname>MRMeshPart.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includedby refid="MRDistanceMapParams_8h" local="yes">MRDistanceMapParams.h</includedby>
     <includedby refid="MRMeshCollide_8h" local="yes">MRMeshCollide.h</includedby>
     <includedby refid="MRMeshCollidePrecise_8h" local="yes">MRMeshCollidePrecise.h</includedby>
@@ -17,14 +17,68 @@
     <includedby refid="MRSweptVolume_8h" local="yes">MRSweptVolume.h</includedby>
     <includedby refid="MRVDBConversions_8h" local="yes">MRVDBConversions.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -492,7 +546,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
@@ -502,9 +556,9 @@
 <codeline lineno="14" refid="structMR_1_1MeshRegion" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshRegion" kindref="compound">MeshRegion</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" kindref="member">mesh</ref>;</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TaggedBitSet&lt;RegionTag&gt;*<sp/><ref refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" kindref="member">region</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1TypedBitSet" kindref="compound">TaggedBitSet&lt;RegionTag&gt;</ref>*<sp/><ref refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" kindref="member">region</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" kindref="member">MeshRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TaggedBitSet&lt;RegionTag&gt;*<sp/>bs<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" kindref="member">mesh</ref>(<sp/>m<sp/>),<sp/><ref refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" kindref="member">region</ref>(<sp/>bs<sp/>)</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" kindref="member">MeshRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1TypedBitSet" kindref="compound">TaggedBitSet&lt;RegionTag&gt;</ref>*<sp/>bs<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" kindref="member">mesh</ref>(<sp/>m<sp/>),<sp/><ref refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" kindref="member">region</ref>(<sp/>bs<sp/>)</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1gae376220ccfe757dc78e7edd18501521e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gae376220ccfe757dc78e7edd18501521e" kindref="member">MeshRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshRegion" kindref="compound">MeshRegion</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>

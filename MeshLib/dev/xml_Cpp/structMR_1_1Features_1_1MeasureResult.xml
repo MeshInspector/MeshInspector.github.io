@@ -16,7 +16,7 @@
       <member refid="group__GeneralGroup_1gae91b71d479c6bb30a6e9b3068dd1d0c2" kind="variable"><name>intersections</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga0682477036fb2befa7ff871bab780be2" kind="function"><name>swapObjects</name></member>
+      <member refid="group__GeneralGroup_1ga5dba144ad3a9ebca8c39bd09be9674e0" kind="function"><name>swapObjects</name></member>
     </sectiondef>
     <briefdescription>
 <para>Stores the results of measuring two objects relative to one another. </para>
@@ -59,7 +59,7 @@
       <member refid="group__GeneralGroup_1ga618a5c8cc475ae385a15f69aa6316d10" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>distance</name></member>
       <member refid="group__GeneralGroup_1gae91b71d479c6bb30a6e9b3068dd1d0c2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>intersections</name></member>
       <member refid="group__GeneralGroup_1gab9a02bda2fc92c73a0d7d637ba562a7e" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Status</name></member>
-      <member refid="group__GeneralGroup_1ga0682477036fb2befa7ff871bab780be2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
+      <member refid="group__GeneralGroup_1ga5dba144ad3a9ebca8c39bd09be9674e0" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

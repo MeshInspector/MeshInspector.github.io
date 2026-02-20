@@ -39,18 +39,18 @@
       <member refid="group__GeneralGroup_1ga120cfc7a4650cdec1d67064c2420614f" kind="variable"><name>xfValidatorConnection_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaf79205647930755e882de85d4796b7e8" kind="function"><name>create</name></member>
-      <member refid="group__GeneralGroup_1gac815cb12bfdb99a8a650143d34de17ad" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaef969a3ce10018f60dfd2a91386cc9dc" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1gacb35ab4e3708eff1a51c3c97f4bed0d4" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1gab0823ffe9059c2fb1d57757cb82579a6" kind="function"><name>getTransformModeMask</name></member>
-      <member refid="group__GeneralGroup_1gafcaee844badd2f2b918d558053da6e7e" kind="function"><name>setTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gaac0fd45e23de3824599f4eaf8998c5f9" kind="function"><name>setTransformMode</name></member>
       <member refid="group__GeneralGroup_1ga80fb43258823d107074fb68a3f1c411d" kind="function"><name>getAxisTransformMode</name></member>
       <member refid="group__GeneralGroup_1gaec0ff434beabde629460e566c23beb5c" kind="function"><name>setAxisTransformMode</name></member>
       <member refid="group__GeneralGroup_1gaaaadf59451391760eaa2882c90d79f5b" kind="function"><name>getRootObject</name></member>
       <member refid="group__GeneralGroup_1gaebfb068e75e8789d13365be5f6185026" kind="function"><name>getControls</name></member>
       <member refid="group__GeneralGroup_1gae9585eb2995d4b43669cb86533fecf4c" kind="function"><name>getControlsAs</name></member>
-      <member refid="group__GeneralGroup_1gab22daeb26cd1e936593d97d63cc407b5" kind="function"><name>setControlsXf</name></member>
-      <member refid="group__GeneralGroup_1ga1010ca302a266f98b14450145b726efe" kind="function"><name>getControlsXf</name></member>
-      <member refid="group__GeneralGroup_1gae251d733beed21672b8754f369937dca" kind="function"><name>followObjVisibility</name></member>
+      <member refid="group__GeneralGroup_1gaba005a03292b2ebf7f3025675e3879e4" kind="function"><name>setControlsXf</name></member>
+      <member refid="group__GeneralGroup_1ga309b221ba934a04bc72a8816735b450c" kind="function"><name>getControlsXf</name></member>
+      <member refid="group__GeneralGroup_1gafb0da08c56395ca16379820ac5911047" kind="function"><name>followObjVisibility</name></member>
       <member refid="group__GeneralGroup_1gaf0815d7c982b35b0dbe7f2e0abc9d583" kind="function"><name>setScaleTooltipCallback</name></member>
       <member refid="group__GeneralGroup_1gacd0c05bb93bc949b222c2721ad1d4b70" kind="function"><name>setTranslateTooltipCallback</name></member>
       <member refid="group__GeneralGroup_1ga3582cec258b537faa908e62e50ca0eb8" kind="function"><name>setRotateTooltipCallback</name></member>
@@ -60,11 +60,11 @@
       <member refid="group__GeneralGroup_1gaf009bd74e0f49b4a2efc1ddcf659e58a" kind="function"><name>setApproveXfCallback</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga18e73f8285fb05c1d747d2fbc0f469f7" kind="function"><name>onMouseDown_</name></member>
-      <member refid="group__GeneralGroup_1ga88f6ad760bce997f3cd4a28df6584510" kind="function"><name>onMouseUp_</name></member>
-      <member refid="group__GeneralGroup_1ga7e80b0a2bd72f8cc9b90e8302c87f146" kind="function"><name>onMouseMove_</name></member>
-      <member refid="group__GeneralGroup_1gab781984d15397602878f43de93d2e677" kind="function"><name>preDraw_</name></member>
-      <member refid="group__GeneralGroup_1ga476364330441292e139e0d0530f36625" kind="function"><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga5f3f3cb7421777d229272041737716e9" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gad84e674ac928870165bac57f02c64fb6" kind="function"><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga05498144b7613290cd1508c9a02268ee" kind="function"><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga731c664301b94c4513062a48a756745e" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga3c5644d56830f385e8c38fc8a26c27da" kind="function"><name>postDraw_</name></member>
       <member refid="group__GeneralGroup_1ga14aababe89652a39b0c5b29041efc2c5" kind="function"><name>activeMove_</name></member>
       <member refid="group__GeneralGroup_1gabc7e86a9c0e17ce976e6c7a432eccfea" kind="function"><name>processScaling_</name></member>
       <member refid="group__GeneralGroup_1ga6fec4b2c1674712117c0b664b18974c1" kind="function"><name>processTranslation_</name></member>
@@ -131,28 +131,28 @@
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1gaf3713eb8bffcbf48350e72f0e2c89440" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>controls_</name></member>
       <member refid="group__GeneralGroup_1ga49b1281ca7d736bd6ab859b17d2ca172" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>controlsRoot_</name></member>
-      <member refid="group__GeneralGroup_1gaf79205647930755e882de85d4796b7e8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1gaef969a3ce10018f60dfd2a91386cc9dc" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>create</name></member>
       <member refid="group__GeneralGroup_1ga35449e1ae8d7cbf3fd2419e1bbf163c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>currentScaling_</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>disconnect</name></member>
-      <member refid="group__GeneralGroup_1gae251d733beed21672b8754f369937dca" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>followObjVisibility</name></member>
+      <member refid="group__GeneralGroup_1gafb0da08c56395ca16379820ac5911047" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>followObjVisibility</name></member>
       <member refid="group__GeneralGroup_1ga80fb43258823d107074fb68a3f1c411d" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getAxisTransformMode</name></member>
       <member refid="group__GeneralGroup_1gaebfb068e75e8789d13365be5f6185026" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControls</name></member>
       <member refid="group__GeneralGroup_1gae9585eb2995d4b43669cb86533fecf4c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsAs</name></member>
-      <member refid="group__GeneralGroup_1ga1010ca302a266f98b14450145b726efe" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsXf</name></member>
+      <member refid="group__GeneralGroup_1ga309b221ba934a04bc72a8816735b450c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsXf</name></member>
       <member refid="group__GeneralGroup_1gaaaadf59451391760eaa2882c90d79f5b" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getRootObject</name></member>
       <member refid="group__GeneralGroup_1gab0823ffe9059c2fb1d57757cb82579a6" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getTransformModeMask</name></member>
-      <member refid="group__GeneralGroup_1ga18e73f8285fb05c1d747d2fbc0f469f7" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseDown_</name></member>
-      <member refid="group__GeneralGroup_1ga7e80b0a2bd72f8cc9b90e8302c87f146" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseMove_</name></member>
-      <member refid="group__GeneralGroup_1ga88f6ad760bce997f3cd4a28df6584510" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga5f3f3cb7421777d229272041737716e9" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga05498144b7613290cd1508c9a02268ee" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gad84e674ac928870165bac57f02c64fb6" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseUp_</name></member>
       <member refid="group__GeneralGroup_1gac66fe60bff702eade31596995472d6b3" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>picked_</name></member>
-      <member refid="group__GeneralGroup_1ga476364330441292e139e0d0530f36625" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>postDraw_</name></member>
-      <member refid="group__GeneralGroup_1gab781984d15397602878f43de93d2e677" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga3c5644d56830f385e8c38fc8a26c27da" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga731c664301b94c4513062a48a756745e" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>preDraw_</name></member>
       <member refid="group__GeneralGroup_1ga82097451e3598a34c7d84efcc2f779c8" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>prevScaling_</name></member>
       <member refid="group__GeneralGroup_1gad0e4a61b9fb0cd1063ea22b78fbe3dbd" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>prevTranslation_</name></member>
       <member refid="group__GeneralGroup_1ga57cd9b45ce2d7510bfe5ba803bfb295f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processRotation_</name></member>
       <member refid="group__GeneralGroup_1gabc7e86a9c0e17ce976e6c7a432eccfea" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processScaling_</name></member>
       <member refid="group__GeneralGroup_1ga6fec4b2c1674712117c0b664b18974c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processTranslation_</name></member>
-      <member refid="group__GeneralGroup_1gac815cb12bfdb99a8a650143d34de17ad" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gacb35ab4e3708eff1a51c3c97f4bed0d4" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga8e8f79a7d0d2a02abfdc44abc778691f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>rotateTooltipCallback_</name></member>
       <member refid="group__GeneralGroup_1gga4915966f289a83c27ddaa64bbb7d1f0ca3729a0cc8c62739af1c384af087e3bd0" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>RotationMode</name></member>
       <member refid="group__GeneralGroup_1gabe18e0ac8f37a1e3ffebfb2c9c603184" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>scaledXf_</name></member>
@@ -161,13 +161,13 @@
       <member refid="group__GeneralGroup_1ga3134eccba5998667c2b96764ceb6d88f" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setAddXfCallback</name></member>
       <member refid="group__GeneralGroup_1gaf009bd74e0f49b4a2efc1ddcf659e58a" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setApproveXfCallback</name></member>
       <member refid="group__GeneralGroup_1gaec0ff434beabde629460e566c23beb5c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setAxisTransformMode</name></member>
-      <member refid="group__GeneralGroup_1gab22daeb26cd1e936593d97d63cc407b5" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf</name></member>
+      <member refid="group__GeneralGroup_1gaba005a03292b2ebf7f3025675e3879e4" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf</name></member>
       <member refid="group__GeneralGroup_1gab5532c1d01a39c62fd0e2aadaafa3e16" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf_</name></member>
       <member refid="group__GeneralGroup_1ga3582cec258b537faa908e62e50ca0eb8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setRotateTooltipCallback</name></member>
       <member refid="group__GeneralGroup_1gaf0815d7c982b35b0dbe7f2e0abc9d583" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setScaleTooltipCallback</name></member>
       <member refid="group__GeneralGroup_1ga2d16d1f66d6e6a84e9ca9d18e68d2a03" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setStartModifyCallback</name></member>
       <member refid="group__GeneralGroup_1ga955e4e19a2da3a72cc42d41baaa73ad2" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setStopModifyCallback</name></member>
-      <member refid="group__GeneralGroup_1gafcaee844badd2f2b918d558053da6e7e" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gaac0fd45e23de3824599f4eaf8998c5f9" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTransformMode</name></member>
       <member refid="group__GeneralGroup_1gacd0c05bb93bc949b222c2721ad1d4b70" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTranslateTooltipCallback</name></member>
       <member refid="group__GeneralGroup_1ga91b5667a2d913bc544b962b3798f8985" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startAngle_</name></member>
       <member refid="group__GeneralGroup_1ga69f3a191ae55ced7ae54487348db3887" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startModifyCallback_</name></member>

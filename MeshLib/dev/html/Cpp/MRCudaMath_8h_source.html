@@ -153,7 +153,7 @@ $(function(){initNavTree('MRCudaMath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef __HIP_PLATFORM_AMD__</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span>float3;</div>
@@ -169,7 +169,7 @@ $(function(){initNavTree('MRCudaMath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1Cuda.html">MR::Cuda</a></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">struct </span>Matrix4;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">struct </span><a class="code hl_variable" href="group__GeneralGroup.html#ga71883428f1d6838140c899d5eb8ee7a1">Matrix4</a>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">   26</a></span>MRCUDA_API float3 <a class="code hl_function" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">fromVec</a>( <span class="keyword">const</span> Vector3f&amp; v );</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86">   27</a></span>MRCUDA_API int3 <a class="code hl_function" href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">fromVec</a>( <span class="keyword">const</span> Vector3i&amp; v );</div>
@@ -177,6 +177,8 @@ $(function(){initNavTree('MRCudaMath_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga71883428f1d6838140c899d5eb8ee7a1"><div class="ttname"><a href="group__GeneralGroup.html#ga71883428f1d6838140c899d5eb8ee7a1">MR::Matrix4</a></div><div class="ttdeci">Matrix4</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:262</div></div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html"><div class="ttname"><a href="namespaceMR_1_1Cuda.html">MR::Cuda</a></div><div class="ttdef"><b>Definition</b> MRCudaBasic.h:14</div></div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html_a0383a2435c0b02c9305d443c8e9f5579"><div class="ttname"><a href="namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579">MR::Cuda::fromXf</a></div><div class="ttdeci">MRCUDA_API Matrix4 fromXf(const MR::AffineXf3f &amp;xf)</div></div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html_abe48634df88da1f3afd905bbea765155"><div class="ttname"><a href="namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155">MR::Cuda::fromVec</a></div><div class="ttdeci">MRCUDA_API float3 fromVec(const Vector3f &amp;v)</div><div class="ttdoc">copy from CPU to GPU structs</div></div>

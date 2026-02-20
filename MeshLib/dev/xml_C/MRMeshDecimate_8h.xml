@@ -55,8 +55,10 @@
           <name>MR_DecimateStrategy_MinimizeError</name>
           <initializer>= 0</initializer>
           <briefdescription>
+<para>the next edge to collapse will be the one that introduced minimal error to the surface </para>
           </briefdescription>
           <detaileddescription>
+<para>the next edge to collapse will be the shortest one </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893" prot="public">
@@ -4932,7 +4934,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::remesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. </para>
+<para>Splits too long and eliminates too short edges from the mesh Generated from function <computeroutput>MR::remesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4977,9 +4979,7 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64" kindref="member">MR_DecimateStrategy</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>next<sp/>edge<sp/>to<sp/>collapse<sp/>will<sp/>be<sp/>the<sp/>one<sp/>that<sp/>introduced<sp/>minimal<sp/>error<sp/>to<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5" kindref="member">MR_DecimateStrategy_MinimizeError</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>next<sp/>edge<sp/>to<sp/>collapse<sp/>will<sp/>be<sp/>the<sp/>shortest<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5" kindref="member">MR_DecimateStrategy_MinimizeError</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="38" refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893" kindref="member">MR_DecimateStrategy_ShortestEdgeFirst</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="39" refid="MRMeshDecimate_8h_1ac2f5218d1fa6814d6c1ab3326cbcd560" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64" kindref="member">MR_DecimateStrategy</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
@@ -5425,7 +5425,6 @@
 <codeline lineno="1664"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1670" refid="MRMeshDecimate_8h_1a9316246350b0d5537c299e83a2189e78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDecimate_8h_1a532d0e68d8ead398ebeabe06add523ba" kindref="member">MR_RemeshSettings</ref><sp/>*<ref refid="MRMeshDecimate_8h_1a9316246350b0d5537c299e83a2189e78" kindref="member">MR_RemeshSettings_AssignFromAnother</ref>(<ref refid="MRMeshDecimate_8h_1a532d0e68d8ead398ebeabe06add523ba" kindref="member">MR_RemeshSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshDecimate_8h_1a532d0e68d8ead398ebeabe06add523ba" kindref="member">MR_RemeshSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1671"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1672"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Splits<sp/>too<sp/>long<sp/>and<sp/>eliminates<sp/>too<sp/>short<sp/>edges<sp/>from<sp/>the<sp/>mesh</highlight></codeline>
 <codeline lineno="1676" refid="MRMeshDecimate_8h_1a68e166ab1440679dbc41ea6c693e22f0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a68e166ab1440679dbc41ea6c693e22f0" kindref="member">MR_remesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDecimate_8h_1a532d0e68d8ead398ebeabe06add523ba" kindref="member">MR_RemeshSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="1677"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1678"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

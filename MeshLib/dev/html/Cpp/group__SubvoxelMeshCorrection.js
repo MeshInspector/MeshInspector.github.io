@@ -9,21 +9,21 @@ var group__SubvoxelMeshCorrection =
       [ "samplePoints", "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b3c5026793485f6071bb44a681e1461", null ]
     ] ],
     [ "MR::MeshOnVoxelsT< MeshType, VolumeType >", "classMR_1_1MeshOnVoxelsT.html", [
-      [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html#ab7eae2f762b72e60e07cd5db6b8b2ed1", null ],
-      [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html#a1b322982116a13162da2b64a54ffc5c1", null ],
-      [ "getOffsetVector", "classMR_1_1MeshOnVoxelsT.html#a6dd75cbf4661108c487f954a05415b11", null ],
-      [ "getPoints", "classMR_1_1MeshOnVoxelsT.html#ab69563c8e51540d8c264e0ee402a355d", null ],
-      [ "getValue", "classMR_1_1MeshOnVoxelsT.html#a3f6e6954e2e6f3fcd2d0e7ab8457fade", null ],
-      [ "getValues", "classMR_1_1MeshOnVoxelsT.html#a33f94216a2214a0e15f277f63c9b006c", null ],
-      [ "mesh", "classMR_1_1MeshOnVoxelsT.html#a0ccc7e9cad6df03bf25b347c38523ca0", null ],
-      [ "numVerts", "classMR_1_1MeshOnVoxelsT.html#a12227796564ddc80465829d668777dbd", null ],
-      [ "point", "classMR_1_1MeshOnVoxelsT.html#a1e804485d47771585c930ff0a81a66a6", null ],
-      [ "volume", "classMR_1_1MeshOnVoxelsT.html#a88f2d28749bdf9bfb0f0ef8a613b240c", null ],
-      [ "voxelSize", "classMR_1_1MeshOnVoxelsT.html#a256eaf8e5d728b140dd616866d8516f0", null ],
-      [ "xf", "classMR_1_1MeshOnVoxelsT.html#af0ad76908c340e791ac6be32f5ad272b", null ],
-      [ "xf", "classMR_1_1MeshOnVoxelsT.html#a76a21f869bff0cb1d85a80906e310f10", null ],
-      [ "xfInv", "classMR_1_1MeshOnVoxelsT.html#aecb9e08f49135604a5f49d18194c20cf", null ],
-      [ "xfInv", "classMR_1_1MeshOnVoxelsT.html#a53f243743c47a840a26a5421adebced0", null ]
+      [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html#aa2522900e56fc562b5695d5404ce54cf", null ],
+      [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html#a9c0013195051faeaea923c01ec680ab7", null ],
+      [ "getOffsetVector", "classMR_1_1MeshOnVoxelsT.html#a29875bbb25aa6021a264a34721ca973b", null ],
+      [ "getPoints", "classMR_1_1MeshOnVoxelsT.html#a215560abd21a5fb626da225aae99c716", null ],
+      [ "getValue", "classMR_1_1MeshOnVoxelsT.html#abdf80c44a70a73db372963471d7ad729", null ],
+      [ "getValues", "classMR_1_1MeshOnVoxelsT.html#a6f94dc801e80cd28838910efea41b179", null ],
+      [ "mesh", "classMR_1_1MeshOnVoxelsT.html#a11e86fffc23f0249974ea8afce2f6a52", null ],
+      [ "numVerts", "classMR_1_1MeshOnVoxelsT.html#a0fca9a80bd922a0dd17e6d85783df247", null ],
+      [ "point", "classMR_1_1MeshOnVoxelsT.html#a50006155a0a971894c72740d18f5cb53", null ],
+      [ "volume", "classMR_1_1MeshOnVoxelsT.html#adaa4df4f8bfc10c01c492e7d50fb3ed3", null ],
+      [ "voxelSize", "classMR_1_1MeshOnVoxelsT.html#abe673dce3426f3940dcd3bc71856e1a1", null ],
+      [ "xf", "classMR_1_1MeshOnVoxelsT.html#a7ef34d2d01a1aa77f54f6fdcbf1bafb8", null ],
+      [ "xf", "classMR_1_1MeshOnVoxelsT.html#af87e6d76b06d61e9eec3a84ad52b1e8d", null ],
+      [ "xfInv", "classMR_1_1MeshOnVoxelsT.html#a10734fbe92a0c2401c4d2078a348da0e", null ],
+      [ "xfInv", "classMR_1_1MeshOnVoxelsT.html#a326aaf9c3f045fdf2b9af91c702d3eb1", null ]
     ] ],
-    [ "MR::moveMeshToVoxelMaxDeriv", "group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f", null ]
+    [ "MR::moveMeshToVoxelMaxDeriv", "group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438", null ]
 ];

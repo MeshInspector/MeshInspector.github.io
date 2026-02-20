@@ -78,9 +78,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1Mesh_1a4512a13225dccd2691ad4106c46e3d7a" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>static MRMESH_API Mesh MR::Mesh::fromTriangles</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh MR::Mesh::fromTriangles</definition>
         <argsstring>(VertCoords vertexCoordinates, const Triangulation &amp;t, const MeshBuilder::BuildSettings &amp;settings={}, ProgressCallback cb={})</argsstring>
         <name>fromTriangles</name>
         <qualifiedname>MR::Mesh::fromTriangles</qualifiedname>
@@ -98,7 +98,7 @@
           <defval>{}</defval>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -109,11 +109,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="28" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="28" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac504344423bcd4292f8d75e4c7ee6d6d" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>static MRMESH_API Mesh MR::Mesh::fromTriMesh</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1afaefb0c0710fe0b87937c2901b4b486a" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh MR::Mesh::fromTriMesh</definition>
         <argsstring>(TriMesh &amp;&amp;triMesh, const MeshBuilder::BuildSettings &amp;settings={}, ProgressCallback cb={})</argsstring>
         <name>fromTriMesh</name>
         <qualifiedname>MR::Mesh::fromTriMesh</qualifiedname>
@@ -129,7 +129,7 @@
           <defval>{}</defval>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -140,11 +140,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="33" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="33" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a5c3189b1e26154d13fa969a44545916c" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>static MRMESH_API Mesh MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a88b9d109bf94e70747ba2b6554252196" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices</definition>
         <argsstring>(VertCoords vertexCoordinates, Triangulation &amp;t, std::vector&lt; MeshBuilder::VertDuplication &gt; *dups=nullptr, const MeshBuilder::BuildSettings &amp;settings={})</argsstring>
         <name>fromTrianglesDuplicatingNonManifoldVertices</name>
         <qualifiedname>MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
@@ -169,15 +169,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="structMR_1_1Mesh_1a4512a13225dccd2691ad4106c46e3d7a" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices </para>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="39" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="39" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac8ac9e60296e45307e29b01f339aaf5f" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>static MRMESH_API Mesh MR::Mesh::fromFaceSoup</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1af0ca02be2aa33003546b35bec72fb3c0" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh MR::Mesh::fromFaceSoup</definition>
         <argsstring>(VertCoords vertexCoordinates, const std::vector&lt; VertId &gt; &amp;verts, const Vector&lt; MeshBuilder::VertSpan, FaceId &gt; &amp;faces, const MeshBuilder::BuildSettings &amp;settings={}, ProgressCallback cb={})</argsstring>
         <name>fromFaceSoup</name>
         <qualifiedname>MR::Mesh::fromFaceSoup</qualifiedname>
@@ -199,7 +199,7 @@
           <defval>{}</defval>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -210,16 +210,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="48" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="48" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a5500ddb4660086a3703345d50241d0ad" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>static MRMESH_API Mesh MR::Mesh::fromPointTriples</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ac2c611bb8e5eedee72dd33d1b2229e2f" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>static Mesh MR::Mesh::fromPointTriples</definition>
         <argsstring>(const std::vector&lt; Triangle3f &gt; &amp;posTriples, bool duplicateNonManifoldVertices)</argsstring>
         <name>fromPointTriples</name>
         <qualifiedname>MR::Mesh::fromPointTriples</qualifiedname>
         <param>
-          <type>const std::vector&lt; Triangle3f &gt; &amp;</type>
+          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref> &gt; &amp;</type>
           <declname>posTriples</declname>
         </param>
         <param>
@@ -242,13 +242,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="56" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="56" column="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Mesh_1a994943959e77b3bc34449639c1dfcb6f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Mesh::operator==</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ad566edd8a184ac216a12a07e9f9270eb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Mesh::operator==</definition>
         <argsstring>(const Mesh &amp;b) const</argsstring>
         <name>operator==</name>
         <qualifiedname>MR::Mesh::operator==</qualifiedname>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="59" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="59" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5fab8c28312fa8c3ac69c2f63d345f20" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -322,9 +322,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="68" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="68" bodyend="68"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a3dd52ffaf9fa8339781fb229be905e28" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API LineSegm3f</type>
-        <definition>MRMESH_API LineSegm3f MR::Mesh::edgeSegment</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a840bac6e56b6be19515df2d1a3cf69fd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LineSegm3f</type>
+        <definition>LineSegm3f MR::Mesh::edgeSegment</definition>
         <argsstring>(EdgeId e) const</argsstring>
         <name>edgeSegment</name>
         <qualifiedname>MR::Mesh::edgeSegment</qualifiedname>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="71" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="71" column="18"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a584a6ede1ccbc7e9568e03eb8abd4ed5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -371,7 +371,7 @@
         <name>edgePoint</name>
         <qualifiedname>MR::Mesh::edgePoint</qualifiedname>
         <param>
-          <type>const MeshEdgePoint &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref> &amp;</type>
           <declname>ep</declname>
         </param>
         <briefdescription>
@@ -458,7 +458,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="87" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="87" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a7173fafd19150c40259003561a02162a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Triangle3f</type>
+        <type><ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref></type>
         <definition>Triangle3f MR::Mesh::getLeftTriPoints</definition>
         <argsstring>(EdgeId e) const</argsstring>
         <name>getLeftTriPoints</name>
@@ -532,7 +532,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="97" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a55a31eccbae1dd87a464a0907aad14ce" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Triangle3f</type>
+        <type><ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref></type>
         <definition>Triangle3f MR::Mesh::getTriPoints</definition>
         <argsstring>(FaceId f) const</argsstring>
         <name>getTriPoints</name>
@@ -645,9 +645,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="115" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="115" bodyend="115"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a25d99831d2f44ba34b7678c921475088" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
-        <definition>MRMESH_API MeshTriPoint MR::Mesh::toTriPoint</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a270c420c13ec0ad3d41b3bee66a69fe7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MeshTriPoint MR::Mesh::toTriPoint</definition>
         <argsstring>(VertId v) const</argsstring>
         <name>toTriPoint</name>
         <qualifiedname>MR::Mesh::toTriPoint</qualifiedname>
@@ -662,7 +662,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="118" column="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="118" column="20"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a72472fa8eac4aba3ae82bb68995534c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -706,9 +706,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="124" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="124" bodyend="124"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1add7ed762df9371522b37dc2b15689234" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API MeshEdgePoint</type>
-        <definition>MRMESH_API MeshEdgePoint MR::Mesh::toEdgePoint</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a757524ab0b73b9ef9256daca95b55540" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref></type>
+        <definition>MeshEdgePoint MR::Mesh::toEdgePoint</definition>
         <argsstring>(VertId v) const</argsstring>
         <name>toEdgePoint</name>
         <qualifiedname>MR::Mesh::toEdgePoint</qualifiedname>
@@ -723,10 +723,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="127" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="127" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1adbf2e3f4d7d5486dcfac998c96935dd3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>MeshEdgePoint</type>
+        <type><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref></type>
         <definition>MeshEdgePoint MR::Mesh::toEdgePoint</definition>
         <argsstring>(EdgeId e, const Vector3f &amp;p) const</argsstring>
         <name>toEdgePoint</name>
@@ -1193,9 +1193,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="204" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="204" bodyend="204"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a9d28f4d3c01028c7a1f278593eb90fd3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Plane3f</type>
-        <definition>MRMESH_API Plane3f MR::Mesh::getPlane3f</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a794228b9596c5ff43f76dc8654d1545f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref></type>
+        <definition>Plane3f MR::Mesh::getPlane3f</definition>
         <argsstring>(FaceId f) const</argsstring>
         <name>getPlane3f</name>
         <qualifiedname>MR::Mesh::getPlane3f</qualifiedname>
@@ -1210,11 +1210,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="207" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="207" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a702edaca41c2a85172ffb4710fd751c1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Plane3d</type>
-        <definition>MRMESH_API Plane3d MR::Mesh::getPlane3d</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a9694e3c2e3f18a1fd2989eaff00bc597" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Plane3d</type>
+        <definition>Plane3d MR::Mesh::getPlane3d</definition>
         <argsstring>(FaceId f) const</argsstring>
         <name>getPlane3d</name>
         <qualifiedname>MR::Mesh::getPlane3d</qualifiedname>
@@ -1228,7 +1228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="208" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="208" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ae349efd004dd70f615996b96d1007b7b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -1378,9 +1378,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="234" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="234" bodyend="234"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a0095216b1fbe49128eb4b14d6c9f8a42" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::Mesh::signedDistance</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a18b304c7bb132b9149d1ba45884fe700" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Mesh::signedDistance</definition>
         <argsstring>(const Vector3f &amp;pt, const MeshProjectionResult &amp;proj, const FaceBitSet *region=nullptr) const</argsstring>
         <name>signedDistance</name>
         <qualifiedname>MR::Mesh::signedDistance</qualifiedname>
@@ -1406,11 +1406,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="239" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="239" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a75cef066eedd4d32fb41ab9b3aa4cb82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> float</type>
-        <definition>MRMESH_API MR_BIND_IGNORE float MR::Mesh::signedDistance</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a49b0f8f91104ddf82ed708bac9fcaa15" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> float</type>
+        <definition>MR_BIND_IGNORE float MR::Mesh::signedDistance</definition>
         <argsstring>(const Vector3f &amp;pt, const MeshTriPoint &amp;proj, const FaceBitSet *region=nullptr) const</argsstring>
         <name>signedDistance</name>
         <qualifiedname>MR::Mesh::signedDistance</qualifiedname>
@@ -1433,11 +1433,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="240" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="240" column="28"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a879abd4325e74e6c17acebe255877c83" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::Mesh::signedDistance</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a6d5ecc32f9f154e338bcda8777c77259" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Mesh::signedDistance</definition>
         <argsstring>(const Vector3f &amp;pt) const</argsstring>
         <name>signedDistance</name>
         <qualifiedname>MR::Mesh::signedDistance</qualifiedname>
@@ -1454,11 +1454,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="245" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="245" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a4048484ac2e78090960bc9bbc60cd6b6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; float &gt;</type>
-        <definition>MRMESH_API std::optional&lt; float &gt; MR::Mesh::signedDistance</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a74fb2ffa3d099943f8def4c3be88c2d3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; float &gt;</type>
+        <definition>std::optional&lt; float &gt; MR::Mesh::signedDistance</definition>
         <argsstring>(const Vector3f &amp;pt, float maxDistSq, const FaceBitSet *region=nullptr) const</argsstring>
         <name>signedDistance</name>
         <qualifiedname>MR::Mesh::signedDistance</qualifiedname>
@@ -1484,11 +1484,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="251" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="251" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a0ddf4af17627f59df39990e32ea87c04" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::Mesh::calcFastWindingNumber</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1aa7d72b6218aad3ec4d1666974e9ffee3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::Mesh::calcFastWindingNumber</definition>
         <argsstring>(const Vector3f &amp;pt, float beta=2) const</argsstring>
         <name>calcFastWindingNumber</name>
         <qualifiedname>MR::Mesh::calcFastWindingNumber</qualifiedname>
@@ -1521,7 +1521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="258" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="258" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a8121a87b4511118c273836888eb18ab8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1561,9 +1561,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="262" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="262" bodyend="262"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a0fdc9e5969b065b761018ff5cb0a43a5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Mesh::isOutsideByProjNorm</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a6791802a774a6e582072850647d3aa4a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Mesh::isOutsideByProjNorm</definition>
         <argsstring>(const Vector3f &amp;pt, const MeshProjectionResult &amp;proj, const FaceBitSet *region=nullptr) const</argsstring>
         <name>isOutsideByProjNorm</name>
         <qualifiedname>MR::Mesh::isOutsideByProjNorm</qualifiedname>
@@ -1587,7 +1587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="267" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="267" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a45e5bda99bca2001e2b7d947f1b16177" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1629,7 +1629,7 @@
           <defval>nullptr</defval>
         </param>
         <param>
-          <type>const ProgressCallback &amp;</type>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -1818,9 +1818,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="316" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="316" bodyend="316"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a1991aad0672c28e1d07bd4c24750af8f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API QuadraticForm3f</type>
-        <definition>MRMESH_API QuadraticForm3f MR::Mesh::quadraticForm</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1aa04078e21e25882482b068987fbc6add" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QuadraticForm3f</type>
+        <definition>QuadraticForm3f MR::Mesh::quadraticForm</definition>
         <argsstring>(VertId v, bool angleWeigted, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *creases=nullptr) const</argsstring>
         <name>quadraticForm</name>
         <qualifiedname>MR::Mesh::quadraticForm</qualifiedname>
@@ -1849,26 +1849,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="321" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="321" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a6a9114dc0640fc079b18e83625c3464a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::Mesh::getBoundingBox</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1aaab3b5b832271960652218f95db6174a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::Mesh::getBoundingBox</definition>
         <argsstring>() const</argsstring>
         <name>getBoundingBox</name>
         <qualifiedname>MR::Mesh::getBoundingBox</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns the bounding box containing all valid vertices (implemented via <ref refid="structMR_1_1Mesh_1a1684c253364cffbe817aebd50bdf711f" kindref="member">getAABBTree()</ref>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision </para>
+<para>returns the bounding box containing all valid vertices (implemented via <ref refid="structMR_1_1Mesh_1ad2f07f0ecf58e8933334430666ce983f" kindref="member">getAABBTree()</ref>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="326" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="326" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a30783b277e8cd9daed4827c15daede28" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::Mesh::computeBoundingBox</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a916b0cecc3457997280e8f1e39227c8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::Mesh::computeBoundingBox</definition>
         <argsstring>(const AffineXf3f *toWorld=nullptr) const</argsstring>
         <name>computeBoundingBox</name>
         <qualifiedname>MR::Mesh::computeBoundingBox</qualifiedname>
@@ -1884,11 +1884,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="330" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="330" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a091677e4ef6993ac15490326ebcc1c78" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Box3f</type>
-        <definition>MRMESH_API Box3f MR::Mesh::computeBoundingBox</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a4040ab24e115ea0cd68fef6a177882c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3f</type>
+        <definition>Box3f MR::Mesh::computeBoundingBox</definition>
         <argsstring>(const FaceBitSet *region, const AffineXf3f *toWorld=nullptr) const</argsstring>
         <name>computeBoundingBox</name>
         <qualifiedname>MR::Mesh::computeBoundingBox</qualifiedname>
@@ -1908,7 +1908,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="334" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="334" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab9d3cfcd12351d9a2dd46dea8ddf9e65" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1970,9 +1970,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="346" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="346" bodyend="346"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a540a6eef456f6c54c214766fc0a7c3fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::zeroUnusedPoints</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ab19cc6268005d386aff0e95b2b04fa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::zeroUnusedPoints</definition>
         <argsstring>()</argsstring>
         <name>zeroUnusedPoints</name>
         <qualifiedname>MR::Mesh::zeroUnusedPoints</qualifiedname>
@@ -1983,11 +1983,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="349" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="349" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a9295908f703adbacd9b9b8f900b85f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::transform</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a92e85c214675a13b28dc01afc1e2659c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::transform</definition>
         <argsstring>(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</argsstring>
         <name>transform</name>
         <qualifiedname>MR::Mesh::transform</qualifiedname>
@@ -2007,11 +2007,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="354" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="354" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1aee64892c6401f2ffc0394a59628cdbb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::Mesh::addPoint</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a074d71b712f4d3b75e9afe65903cba2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::Mesh::addPoint</definition>
         <argsstring>(const Vector3f &amp;pos)</argsstring>
         <name>addPoint</name>
         <qualifiedname>MR::Mesh::addPoint</qualifiedname>
@@ -2026,11 +2026,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="357" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="357" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1afe79fbba41c13a31bd40b10fdff8b5ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::Mesh::addSeparateEdgeLoop</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a07d95933f6235de108fcb86097508b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::Mesh::addSeparateEdgeLoop</definition>
         <argsstring>(const std::vector&lt; Vector3f &gt; &amp;contourPoints)</argsstring>
         <name>addSeparateEdgeLoop</name>
         <qualifiedname>MR::Mesh::addSeparateEdgeLoop</qualifiedname>
@@ -2045,16 +2045,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="361" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="361" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1abd8119f3200435e62435f6ec375d98c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::Mesh::addSeparateContours</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ac127a110cf4ae135424a266306fc6788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::Mesh::addSeparateContours</definition>
         <argsstring>(const Contours3f &amp;contours, const AffineXf3f *xf=nullptr)</argsstring>
         <name>addSeparateContours</name>
         <qualifiedname>MR::Mesh::addSeparateContours</qualifiedname>
         <param>
-          <type>const Contours3f &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref> &amp;</type>
           <declname>contours</declname>
         </param>
         <param>
@@ -2069,11 +2069,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="365" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="365" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1abab2d759266b7e751ef91845d21afd98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::attachEdgeLoopPart</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a1a6420269a152e58f76f327bc6324f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::attachEdgeLoopPart</definition>
         <argsstring>(EdgeId first, EdgeId last, const std::vector&lt; Vector3f &gt; &amp;contourPoints)</argsstring>
         <name>attachEdgeLoopPart</name>
         <qualifiedname>MR::Mesh::attachEdgeLoopPart</qualifiedname>
@@ -2096,11 +2096,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="371" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="371" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a7444cb052e8855eb1ea69b34d2796f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::Mesh::splitEdge</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::Mesh::splitEdge</definition>
         <argsstring>(EdgeId e, const Vector3f &amp;newVertPos, FaceBitSet *region=nullptr, FaceHashMap *new2Old=nullptr)</argsstring>
         <name>splitEdge</name>
         <qualifiedname>MR::Mesh::splitEdge</qualifiedname>
@@ -2118,7 +2118,7 @@
           <defval>nullptr</defval>
         </param>
         <param>
-          <type>FaceHashMap *</type>
+          <type><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> *</type>
           <declname>new2Old</declname>
           <defval>nullptr</defval>
         </param>
@@ -2139,7 +2139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="381" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="381" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a572820417c5fc8e867bbb2f078275222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -2157,7 +2157,7 @@
           <defval>nullptr</defval>
         </param>
         <param>
-          <type>FaceHashMap *</type>
+          <type><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> *</type>
           <declname>new2Old</declname>
           <defval>nullptr</defval>
         </param>
@@ -2170,9 +2170,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="383" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="383" bodyend="383"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a4678592f5a58aba37a0994f895ff7804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API VertId</type>
-        <definition>MRMESH_API VertId MR::Mesh::splitFace</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertId</type>
+        <definition>VertId MR::Mesh::splitFace</definition>
         <argsstring>(FaceId f, const Vector3f &amp;newVertPos, FaceBitSet *region=nullptr, FaceHashMap *new2Old=nullptr)</argsstring>
         <name>splitFace</name>
         <qualifiedname>MR::Mesh::splitFace</qualifiedname>
@@ -2190,7 +2190,7 @@
           <defval>nullptr</defval>
         </param>
         <param>
-          <type>FaceHashMap *</type>
+          <type><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> *</type>
           <declname>new2Old</declname>
           <defval>nullptr</defval>
         </param>
@@ -2210,7 +2210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="388" column="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="388" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a8c0879122a6abf7e015c89fdbd7dd584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -2228,7 +2228,7 @@
           <defval>nullptr</defval>
         </param>
         <param>
-          <type>FaceHashMap *</type>
+          <type><ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> *</type>
           <declname>new2Old</declname>
           <defval>nullptr</defval>
         </param>
@@ -2241,9 +2241,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="390" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="390" bodyend="390"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac849720c9232498cb5e15afebe3b66a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::addMesh</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::addMesh</definition>
         <argsstring>(const Mesh &amp;from, PartMapping map={}, bool rearrangeTriangles=false)</argsstring>
         <name>addMesh</name>
         <qualifiedname>MR::Mesh::addMesh</qualifiedname>
@@ -2268,11 +2268,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="393" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="393" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a2e89de05b17ce06b9519c98aef4a5c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::addMesh</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::addMesh</definition>
         <argsstring>(const Mesh &amp;from, FaceMap *outFmap, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</argsstring>
         <name>addMesh</name>
         <qualifiedname>MR::Mesh::addMesh</qualifiedname>
@@ -2307,7 +2307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="394" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="394" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac0b4dc0a2e54dcb7728c761dd1bd9d38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
@@ -2347,9 +2347,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="397" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="397" bodyend="398"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a263bae4a94fa6f79f6f743e6610a1c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::addMeshPart</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a258b285e1b2c8ca0a2b827ddce9dc3c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::addMeshPart</definition>
         <argsstring>(const MeshPart &amp;from, const PartMapping &amp;map)</argsstring>
         <name>addMeshPart</name>
         <qualifiedname>MR::Mesh::addMeshPart</qualifiedname>
@@ -2368,7 +2368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="401" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="401" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a93735e8e5c48d4c099554d3d7e9d9688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
@@ -2396,9 +2396,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="402" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="402" bodyend="402"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac9f5c81ebd21645d282c96331c3d1bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::addMeshPart</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ac1edc292d38a11a0f4d173fa582d199d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::addMeshPart</definition>
         <argsstring>(const MeshPart &amp;from, bool flipOrientation=false, const std::vector&lt; EdgePath &gt; &amp;thisContours={}, const std::vector&lt; EdgePath &gt; &amp;fromContours={}, PartMapping map={})</argsstring>
         <name>addMeshPart</name>
         <qualifiedname>MR::Mesh::addMeshPart</qualifiedname>
@@ -2412,12 +2412,12 @@
           <defval>false</defval>
         </param>
         <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
           <declname>thisContours</declname>
           <defval>{}</defval>
         </param>
         <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
           <declname>fromContours</declname>
           <defval>{}</defval>
           <briefdescription><para>contours on this mesh that have to be stitched with </para>
@@ -2446,7 +2446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="406" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="406" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1afd2531f46c43b52bc814156ee4d3604f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
@@ -2468,12 +2468,12 @@
           <defval>false</defval>
         </param>
         <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
           <declname>thisContours</declname>
           <defval>{}</defval>
         </param>
         <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
           <declname>fromContours</declname>
           <defval>{}</defval>
         </param>
@@ -2490,9 +2490,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="411" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="411" bodyend="413"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a2e9331e1cd987b8dab1bceac8a73c5f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>MRMESH_API Mesh MR::Mesh::cloneRegion</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>Mesh MR::Mesh::cloneRegion</definition>
         <argsstring>(const FaceBitSet &amp;region, bool flipOrientation=false, const PartMapping &amp;map={}) const</argsstring>
         <name>cloneRegion</name>
         <qualifiedname>MR::Mesh::cloneRegion</qualifiedname>
@@ -2517,11 +2517,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="416" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="416" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1afa98765106d53bd5d84dee1e21189a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::pack</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a195c509bc89bff7c15ae4f20a0659b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::pack</definition>
         <argsstring>(const PartMapping &amp;map={}, bool rearrangeTriangles=false)</argsstring>
         <name>pack</name>
         <qualifiedname>MR::Mesh::pack</qualifiedname>
@@ -2542,11 +2542,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="419" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="419" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a8c2e86c98463df2ed4f302fe07afd129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::pack</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a6e9aa843e541b5b9b371902f0e14810a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::pack</definition>
         <argsstring>(FaceMap *outFmap, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</argsstring>
         <name>pack</name>
         <qualifiedname>MR::Mesh::pack</qualifiedname>
@@ -2577,11 +2577,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="420" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="420" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a79927855b6315170545914be8fe75151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::Mesh::pack</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a3aab49091b051347cde5a30a3f9ccbcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::Mesh::pack</definition>
         <argsstring>(const PackMapping &amp;map, ProgressCallback cb={})</argsstring>
         <name>pack</name>
         <qualifiedname>MR::Mesh::pack</qualifiedname>
@@ -2590,7 +2590,7 @@
           <declname>map</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -2601,11 +2601,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="425" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="425" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac790be9d7fbcbf9f765ebdd90f761c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1PackMapping" kindref="compound">PackMapping</ref></type>
-        <definition>MRMESH_API PackMapping MR::Mesh::packOptimally</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a065ab2187cbcc73a21aa4bab438dc7fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1PackMapping" kindref="compound">PackMapping</ref></type>
+        <definition>PackMapping MR::Mesh::packOptimally</definition>
         <argsstring>(bool preserveAABBTree=true)</argsstring>
         <name>packOptimally</name>
         <qualifiedname>MR::Mesh::packOptimally</qualifiedname>
@@ -2630,11 +2630,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="429" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="429" column="18"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1abd6e569587fbe83e40119a29f7ea276f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PackMapping" kindref="compound">PackMapping</ref> &gt;</type>
-        <definition>MRMESH_API Expected&lt; PackMapping &gt; MR::Mesh::packOptimally</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1abdde9d2b2de53657f20a2739ed8c9bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PackMapping" kindref="compound">PackMapping</ref> &gt;</type>
+        <definition>Expected&lt; PackMapping &gt; MR::Mesh::packOptimally</definition>
         <argsstring>(bool preserveAABBTree, ProgressCallback cb)</argsstring>
         <name>packOptimally</name>
         <qualifiedname>MR::Mesh::packOptimally</qualifiedname>
@@ -2643,7 +2643,7 @@
           <declname>preserveAABBTree</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -2652,11 +2652,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="430" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="430" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a21bb3faf52ec585da5606ce879ab3c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::deleteFaces</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ad9c18290c667b3b1636e3a077afccf1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::deleteFaces</definition>
         <argsstring>(const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</argsstring>
         <name>deleteFaces</name>
         <qualifiedname>MR::Mesh::deleteFaces</qualifiedname>
@@ -2686,11 +2686,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="433" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="433" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a726a27c8dbdef71902d1031424bea5cf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Mesh::projectPoint</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a017bf9ba11329c4596f14d33cbc8a654" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Mesh::projectPoint</definition>
         <argsstring>(const Vector3f &amp;point, PointOnFace &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</argsstring>
         <name>projectPoint</name>
         <qualifiedname>MR::Mesh::projectPoint</qualifiedname>
@@ -2759,11 +2759,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="441" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="441" column="12"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a973baf90b80dc2696bc083577727d4fc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::Mesh::projectPoint</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1aca0ea331ec5aeb3272f57d67aef2572a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Mesh::projectPoint</definition>
         <argsstring>(const Vector3f &amp;point, MeshProjectionResult &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</argsstring>
         <name>projectPoint</name>
         <qualifiedname>MR::Mesh::projectPoint</qualifiedname>
@@ -2832,7 +2832,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="449" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="449" column="12"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6b35787713d43cba7a9e486296170bd1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -2871,9 +2871,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="450" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="450" bodyend="450"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ab5adeca0be6b46384e28ca27dbe2aef1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
-        <definition>MRMESH_API MeshProjectionResult MR::Mesh::projectPoint</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ac103b0f7382c3183b4e466a8abcdd796" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+        <definition>MeshProjectionResult MR::Mesh::projectPoint</definition>
         <argsstring>(const Vector3f &amp;point, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</argsstring>
         <name>projectPoint</name>
         <qualifiedname>MR::Mesh::projectPoint</qualifiedname>
@@ -2930,7 +2930,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="458" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="458" column="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a5d8ec5f50ff1ff0e7434be26f918dca4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
@@ -2965,9 +2965,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="459" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="459" bodyend="459"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a1684c253364cffbe817aebd50bdf711f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> &amp;</type>
-        <definition>MRMESH_API const AABBTree &amp; MR::Mesh::getAABBTree</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ad2f07f0ecf58e8933334430666ce983f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> &amp;</type>
+        <definition>const AABBTree &amp; MR::Mesh::getAABBTree</definition>
         <argsstring>() const</argsstring>
         <name>getAABBTree</name>
         <qualifiedname>MR::Mesh::getAABBTree</qualifiedname>
@@ -2978,7 +2978,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="462" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="462" column="22"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a3a4be0475ee77042c23f150bf522aae7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> *</type>
@@ -2995,9 +2995,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="465" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="465" bodyend="465"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ace32bbac5b626dbbf99b27214ebed57d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
-        <definition>MRMESH_API const AABBTreePoints &amp; MR::Mesh::getAABBTreePoints</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1adf6b179f19958a616e38f83bdc825800" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &amp;</type>
+        <definition>const AABBTreePoints &amp; MR::Mesh::getAABBTreePoints</definition>
         <argsstring>() const</argsstring>
         <name>getAABBTreePoints</name>
         <qualifiedname>MR::Mesh::getAABBTreePoints</qualifiedname>
@@ -3008,7 +3008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="468" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="468" column="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a88f3660852b3da7957b674e29f125150" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> *</type>
@@ -3025,9 +3025,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="471" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="471" bodyend="471"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a43237a5df3be3b980a3147ceb8710a22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API const Dipoles &amp;</type>
-        <definition>MRMESH_API const Dipoles &amp; MR::Mesh::getDipoles</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a27a660c62e95948d2e77cd4e2681c0f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const Dipoles &amp;</type>
+        <definition>const Dipoles &amp; MR::Mesh::getDipoles</definition>
         <argsstring>() const</argsstring>
         <name>getDipoles</name>
         <qualifiedname>MR::Mesh::getDipoles</qualifiedname>
@@ -3038,7 +3038,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="474" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="474" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1aa011de9d0180060e3b1dbcc27917c54b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Dipoles *</type>
@@ -3055,9 +3055,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="477" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" bodystart="477" bodyend="477"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac4cfa4d1a1f01bbcf883f4e96079e505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::invalidateCaches</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::invalidateCaches</definition>
         <argsstring>(bool pointsChanged=true)</argsstring>
         <name>invalidateCaches</name>
         <qualifiedname>MR::Mesh::invalidateCaches</qualifiedname>
@@ -3082,11 +3082,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="481" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="481" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ad64499dab83be6cf5433119a613d6953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::updateCaches</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a94526b987be4d4c15cd0139f1ce4b5b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::updateCaches</definition>
         <argsstring>(const VertBitSet &amp;changedVerts)</argsstring>
         <name>updateCaches</name>
         <qualifiedname>MR::Mesh::updateCaches</qualifiedname>
@@ -3097,15 +3097,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <ref refid="structMR_1_1Mesh_1ac4cfa4d1a1f01bbcf883f4e96079e505" kindref="member">invalidateCaches()</ref> and following rebuild of trees </para>
+<para>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <ref refid="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" kindref="member">invalidateCaches()</ref> and following rebuild of trees </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="486" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="486" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac1942a02f00e2404cfbf897d88f3f732" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>MRMESH_API size_t MR::Mesh::heapBytes</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a938ddf04e638f19c080b5dc443141629" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::Mesh::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::Mesh::heapBytes</qualifiedname>
@@ -3116,11 +3116,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="489" column="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="489" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a12917935a6261c2bbffbcc979a91abde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::shrinkToFit</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::shrinkToFit</definition>
         <argsstring>()</argsstring>
         <name>shrinkToFit</name>
         <qualifiedname>MR::Mesh::shrinkToFit</qualifiedname>
@@ -3131,16 +3131,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="492" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="492" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a9148479b241d5fe774cd7bc6dd5ce142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Mesh::mirror</definition>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::mirror</definition>
         <argsstring>(const Plane3f &amp;plane)</argsstring>
         <name>mirror</name>
         <qualifiedname>MR::Mesh::mirror</qualifiedname>
         <param>
-          <type>const Plane3f &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref> &amp;</type>
           <declname>plane</declname>
         </param>
         <briefdescription>
@@ -3150,7 +3150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="495" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMesh.h" line="495" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3175,31 +3175,31 @@
     <listofallmembers>
       <member refid="structMR_1_1Mesh_1a43406c62d4fbf3496b1acce4c8107633" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreePointsOwner_</name></member>
-      <member refid="structMR_1_1Mesh_1ac849720c9232498cb5e15afebe3b66a8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
-      <member refid="structMR_1_1Mesh_1a2e89de05b17ce06b9519c98aef4a5c33" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
-      <member refid="structMR_1_1Mesh_1a263bae4a94fa6f79f6f743e6610a1c75" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
-      <member refid="structMR_1_1Mesh_1ac9f5c81ebd21645d282c96331c3d1bb5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
+      <member refid="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
+      <member refid="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
+      <member refid="structMR_1_1Mesh_1a258b285e1b2c8ca0a2b827ddce9dc3c3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
+      <member refid="structMR_1_1Mesh_1ac1edc292d38a11a0f4d173fa582d199d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
       <member refid="structMR_1_1Mesh_1ac0b4dc0a2e54dcb7728c761dd1bd9d38" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPart</name></member>
       <member refid="structMR_1_1Mesh_1a93735e8e5c48d4c099554d3d7e9d9688" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPartByMask</name></member>
       <member refid="structMR_1_1Mesh_1afd2531f46c43b52bc814156ee4d3604f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPartByMask</name></member>
-      <member refid="structMR_1_1Mesh_1aee64892c6401f2ffc0394a59628cdbb5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPoint</name></member>
-      <member refid="structMR_1_1Mesh_1abd8119f3200435e62435f6ec375d98c1" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateContours</name></member>
-      <member refid="structMR_1_1Mesh_1afe79fbba41c13a31bd40b10fdff8b5ee" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateEdgeLoop</name></member>
+      <member refid="structMR_1_1Mesh_1a074d71b712f4d3b75e9afe65903cba2f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPoint</name></member>
+      <member refid="structMR_1_1Mesh_1ac127a110cf4ae135424a266306fc6788" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateContours</name></member>
+      <member refid="structMR_1_1Mesh_1a07d95933f6235de108fcb86097508b9f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateEdgeLoop</name></member>
       <member refid="structMR_1_1Mesh_1a03632276528ce953490a2111a5280c7c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>area</name></member>
       <member refid="structMR_1_1Mesh_1a8ee4d943cee3647d877e189fb6b375d9" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>area</name></member>
       <member refid="structMR_1_1Mesh_1a45cc8a4868a2671492e010d86cb408cd" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>area</name></member>
-      <member refid="structMR_1_1Mesh_1abab2d759266b7e751ef91845d21afd98" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>attachEdgeLoopPart</name></member>
+      <member refid="structMR_1_1Mesh_1a1a6420269a152e58f76f327bc6324f05" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>attachEdgeLoopPart</name></member>
       <member refid="structMR_1_1Mesh_1ab9d3cfcd12351d9a2dd46dea8ddf9e65" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>averageEdgeLength</name></member>
-      <member refid="structMR_1_1Mesh_1a0ddf4af17627f59df39990e32ea87c04" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>calcFastWindingNumber</name></member>
+      <member refid="structMR_1_1Mesh_1aa7d72b6218aad3ec4d1666974e9ffee3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>calcFastWindingNumber</name></member>
       <member refid="structMR_1_1Mesh_1acdc8a11c22979314254353c064b61025" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>circumcircleDiameter</name></member>
       <member refid="structMR_1_1Mesh_1a097d63092885e790e360319635cf3b86" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>circumcircleDiameterSq</name></member>
-      <member refid="structMR_1_1Mesh_1a2e9331e1cd987b8dab1bceac8a73c5f5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cloneRegion</name></member>
-      <member refid="structMR_1_1Mesh_1a30783b277e8cd9daed4827c15daede28" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
-      <member refid="structMR_1_1Mesh_1a091677e4ef6993ac15490326ebcc1c78" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cloneRegion</name></member>
+      <member refid="structMR_1_1Mesh_1a916b0cecc3457997280e8f1e39227c8e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="structMR_1_1Mesh_1a4040ab24e115ea0cd68fef6a177882c7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
       <member refid="structMR_1_1Mesh_1aae3794627367f1c0ae6a497f41542197" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cotan</name></member>
       <member refid="structMR_1_1Mesh_1a1e2a8eaf7d1882e02a3eea66d1d72349" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dblArea</name></member>
       <member refid="structMR_1_1Mesh_1ab6d39814aa495e12ba8e388c22a6f12e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dblArea</name></member>
-      <member refid="structMR_1_1Mesh_1a21bb3faf52ec585da5606ce879ab3c4b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>deleteFaces</name></member>
+      <member refid="structMR_1_1Mesh_1ad9c18290c667b3b1636e3a077afccf1c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>deleteFaces</name></member>
       <member refid="structMR_1_1Mesh_1a6241859f835aa7cd22f26c1e40b9791a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>destPnt</name></member>
       <member refid="structMR_1_1Mesh_1ab71070e988656416b3bc9d2086aab4d1" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dihedralAngle</name></member>
       <member refid="structMR_1_1Mesh_1a0e4c897582e70d319407854dae664a39" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dihedralAngleCos</name></member>
@@ -3218,7 +3218,7 @@
       <member refid="structMR_1_1Mesh_1a4dda7695db1d721bc3cb64bb374c89c4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeLengthSq</name></member>
       <member refid="structMR_1_1Mesh_1a584a6ede1ccbc7e9568e03eb8abd4ed5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgePoint</name></member>
       <member refid="structMR_1_1Mesh_1abdbd41edd56e7e2c65589e9d7b0687fa" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgePoint</name></member>
-      <member refid="structMR_1_1Mesh_1a3dd52ffaf9fa8339781fb229be905e28" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeSegment</name></member>
+      <member refid="structMR_1_1Mesh_1a840bac6e56b6be19515df2d1a3cf69fd" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeSegment</name></member>
       <member refid="structMR_1_1Mesh_1a19223c76e1742c8cf6a56fd51b5c2c68" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeVector</name></member>
       <member refid="structMR_1_1Mesh_1ac30bc19abb82dba07bc51836c6fb4218" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCenterFromBBox</name></member>
       <member refid="structMR_1_1Mesh_1a983c07d7b4304575cff85c24523ca8a1" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCenterFromFaces</name></member>
@@ -3227,84 +3227,84 @@
       <member refid="structMR_1_1Mesh_1a5d8ec5f50ff1ff0e7434be26f918dca4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findClosestPoint</name></member>
       <member refid="structMR_1_1Mesh_1a1eda7cca99d50abaa6f9c15d4edefabb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCreaseEdges</name></member>
       <member refid="structMR_1_1Mesh_1ae4a0775d0410e3ff89ed981468aa016e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findSpikeVertices</name></member>
-      <member refid="structMR_1_1Mesh_1ac8ac9e60296e45307e29b01f339aaf5f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromFaceSoup</name></member>
-      <member refid="structMR_1_1Mesh_1a5500ddb4660086a3703345d50241d0ad" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromPointTriples</name></member>
-      <member refid="structMR_1_1Mesh_1a4512a13225dccd2691ad4106c46e3d7a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriangles</name></member>
-      <member refid="structMR_1_1Mesh_1a5c3189b1e26154d13fa969a44545916c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
-      <member refid="structMR_1_1Mesh_1ac504344423bcd4292f8d75e4c7ee6d6d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriMesh</name></member>
-      <member refid="structMR_1_1Mesh_1a1684c253364cffbe817aebd50bdf711f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTree</name></member>
+      <member refid="structMR_1_1Mesh_1af0ca02be2aa33003546b35bec72fb3c0" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromFaceSoup</name></member>
+      <member refid="structMR_1_1Mesh_1ac2c611bb8e5eedee72dd33d1b2229e2f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromPointTriples</name></member>
+      <member refid="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriangles</name></member>
+      <member refid="structMR_1_1Mesh_1a88b9d109bf94e70747ba2b6554252196" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="structMR_1_1Mesh_1afaefb0c0710fe0b87937c2901b4b486a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriMesh</name></member>
+      <member refid="structMR_1_1Mesh_1ad2f07f0ecf58e8933334430666ce983f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTree</name></member>
       <member refid="structMR_1_1Mesh_1a3a4be0475ee77042c23f150bf522aae7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreeNotCreate</name></member>
-      <member refid="structMR_1_1Mesh_1ace32bbac5b626dbbf99b27214ebed57d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreePoints</name></member>
+      <member refid="structMR_1_1Mesh_1adf6b179f19958a616e38f83bdc825800" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreePoints</name></member>
       <member refid="structMR_1_1Mesh_1a88f3660852b3da7957b674e29f125150" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreePointsNotCreate</name></member>
-      <member refid="structMR_1_1Mesh_1a6a9114dc0640fc079b18e83625c3464a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getBoundingBox</name></member>
+      <member refid="structMR_1_1Mesh_1aaab3b5b832271960652218f95db6174a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getBoundingBox</name></member>
       <member refid="structMR_1_1Mesh_1af6a988ce4d0f323cbbccd414f50e899a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestEdge</name></member>
       <member refid="structMR_1_1Mesh_1a91c234ebc0fba018fda6c46a072d8089" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestEdge</name></member>
       <member refid="structMR_1_1Mesh_1a2ad2ec1a3eff2b13c34415c807db69ad" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestVertex</name></member>
       <member refid="structMR_1_1Mesh_1a08e825f78e748198301ee280cbb88b9c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestVertex</name></member>
-      <member refid="structMR_1_1Mesh_1a43237a5df3be3b980a3147ceb8710a22" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getDipoles</name></member>
+      <member refid="structMR_1_1Mesh_1a27a660c62e95948d2e77cd4e2681c0f4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getDipoles</name></member>
       <member refid="structMR_1_1Mesh_1aa011de9d0180060e3b1dbcc27917c54b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getDipolesNotCreate</name></member>
       <member refid="structMR_1_1Mesh_1a587dd9a2bd990d58c6409c01b684553d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getLeftTriPoints</name></member>
       <member refid="structMR_1_1Mesh_1adcd0cf49be0be1375ae462651d5234d3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getLeftTriPoints</name></member>
       <member refid="structMR_1_1Mesh_1a7173fafd19150c40259003561a02162a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getLeftTriPoints</name></member>
-      <member refid="structMR_1_1Mesh_1a702edaca41c2a85172ffb4710fd751c1" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getPlane3d</name></member>
-      <member refid="structMR_1_1Mesh_1a9d28f4d3c01028c7a1f278593eb90fd3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getPlane3f</name></member>
+      <member refid="structMR_1_1Mesh_1a9694e3c2e3f18a1fd2989eaff00bc597" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getPlane3d</name></member>
+      <member refid="structMR_1_1Mesh_1a794228b9596c5ff43f76dc8654d1545f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getPlane3f</name></member>
       <member refid="structMR_1_1Mesh_1abe211d973521963165b09ad25d9a971c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getTriPoints</name></member>
       <member refid="structMR_1_1Mesh_1a08c67e01e6197aebd5f2407cc1571c89" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getTriPoints</name></member>
       <member refid="structMR_1_1Mesh_1a55a31eccbae1dd87a464a0907aad14ce" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getTriPoints</name></member>
-      <member refid="structMR_1_1Mesh_1ac1942a02f00e2404cfbf897d88f3f732" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>heapBytes</name></member>
+      <member refid="structMR_1_1Mesh_1a938ddf04e638f19c080b5dc443141629" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>heapBytes</name></member>
       <member refid="structMR_1_1Mesh_1a5987866b04f9e182594595fadb7cc6e5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>holeDirArea</name></member>
       <member refid="structMR_1_1Mesh_1a1d9c349940bd023baeffad5dd6e503f5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>holePerimeter</name></member>
-      <member refid="structMR_1_1Mesh_1ac4cfa4d1a1f01bbcf883f4e96079e505" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>invalidateCaches</name></member>
+      <member refid="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>invalidateCaches</name></member>
       <member refid="structMR_1_1Mesh_1a8121a87b4511118c273836888eb18ab8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>isOutside</name></member>
-      <member refid="structMR_1_1Mesh_1a0fdc9e5969b065b761018ff5cb0a43a5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>isOutsideByProjNorm</name></member>
+      <member refid="structMR_1_1Mesh_1a6791802a774a6e582072850647d3aa4a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>isOutsideByProjNorm</name></member>
       <member refid="structMR_1_1Mesh_1a76cd30890d96aba180bc7680067a1227" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftCotan</name></member>
       <member refid="structMR_1_1Mesh_1abac0e977c029df6d8bad34161ec50cce" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftDirDblArea</name></member>
       <member refid="structMR_1_1Mesh_1a797623a41864029eb93103c262fa70d4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftNormal</name></member>
       <member refid="structMR_1_1Mesh_1a8413d6a67149defd54376ec0b8d8ff05" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftTangent</name></member>
-      <member refid="structMR_1_1Mesh_1a9148479b241d5fe774cd7bc6dd5ce142" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>mirror</name></member>
+      <member refid="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>mirror</name></member>
       <member refid="structMR_1_1Mesh_1acc0ceb8ed258ca42cf125638c6940594" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
       <member refid="structMR_1_1Mesh_1aff330955f978300560fd33b43cd77cdd" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
       <member refid="structMR_1_1Mesh_1a129593cd8a305c93e60d945df893d20a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
-      <member refid="structMR_1_1Mesh_1a994943959e77b3bc34449639c1dfcb6f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Mesh_1ad566edd8a184ac216a12a07e9f9270eb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>operator==</name></member>
       <member refid="structMR_1_1Mesh_1a5fab8c28312fa8c3ac69c2f63d345f20" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>orgPnt</name></member>
-      <member refid="structMR_1_1Mesh_1afa98765106d53bd5d84dee1e21189a45" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
-      <member refid="structMR_1_1Mesh_1a8c2e86c98463df2ed4f302fe07afd129" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
-      <member refid="structMR_1_1Mesh_1a79927855b6315170545914be8fe75151" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
-      <member refid="structMR_1_1Mesh_1ac790be9d7fbcbf9f765ebdd90f761c71" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
-      <member refid="structMR_1_1Mesh_1abd6e569587fbe83e40119a29f7ea276f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
+      <member refid="structMR_1_1Mesh_1a195c509bc89bff7c15ae4f20a0659b36" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
+      <member refid="structMR_1_1Mesh_1a6e9aa843e541b5b9b371902f0e14810a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
+      <member refid="structMR_1_1Mesh_1a3aab49091b051347cde5a30a3f9ccbcc" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
+      <member refid="structMR_1_1Mesh_1a065ab2187cbcc73a21aa4bab438dc7fa" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
+      <member refid="structMR_1_1Mesh_1abdde9d2b2de53657f20a2739ed8c9bea" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
       <member refid="structMR_1_1Mesh_1a9c8ead50efe2f8a111848b488f0a6aca" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>points</name></member>
       <member refid="structMR_1_1Mesh_1aadf88049a42ee27a3ad54ca2f83bb056" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projArea</name></member>
       <member refid="structMR_1_1Mesh_1af4a7cadb50ed558293082e1da4bb24f2" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projArea</name></member>
-      <member refid="structMR_1_1Mesh_1a726a27c8dbdef71902d1031424bea5cf" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
-      <member refid="structMR_1_1Mesh_1a973baf90b80dc2696bc083577727d4fc" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
-      <member refid="structMR_1_1Mesh_1ab5adeca0be6b46384e28ca27dbe2aef1" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
+      <member refid="structMR_1_1Mesh_1a017bf9ba11329c4596f14d33cbc8a654" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
+      <member refid="structMR_1_1Mesh_1aca0ea331ec5aeb3272f57d67aef2572a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
+      <member refid="structMR_1_1Mesh_1ac103b0f7382c3183b4e466a8abcdd796" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
       <member refid="structMR_1_1Mesh_1a0362095ba2aeef52de9f42ffa78756a0" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
       <member refid="structMR_1_1Mesh_1acfd1988e966914fd56fac8cee64c5f49" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
       <member refid="structMR_1_1Mesh_1ac48c479f458af1facea8e79e38ed0d63" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
-      <member refid="structMR_1_1Mesh_1a1991aad0672c28e1d07bd4c24750af8f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>quadraticForm</name></member>
-      <member refid="structMR_1_1Mesh_1a12917935a6261c2bbffbcc979a91abde" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>shrinkToFit</name></member>
-      <member refid="structMR_1_1Mesh_1a0095216b1fbe49128eb4b14d6c9f8a42" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
-      <member refid="structMR_1_1Mesh_1a75cef066eedd4d32fb41ab9b3aa4cb82" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
-      <member refid="structMR_1_1Mesh_1a879abd4325e74e6c17acebe255877c83" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
-      <member refid="structMR_1_1Mesh_1a4048484ac2e78090960bc9bbc60cd6b6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
-      <member refid="structMR_1_1Mesh_1a7444cb052e8855eb1ea69b34d2796f3a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
+      <member refid="structMR_1_1Mesh_1aa04078e21e25882482b068987fbc6add" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>quadraticForm</name></member>
+      <member refid="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>shrinkToFit</name></member>
+      <member refid="structMR_1_1Mesh_1a18b304c7bb132b9149d1ba45884fe700" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
+      <member refid="structMR_1_1Mesh_1a49b0f8f91104ddf82ed708bac9fcaa15" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
+      <member refid="structMR_1_1Mesh_1a6d5ecc32f9f154e338bcda8777c77259" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
+      <member refid="structMR_1_1Mesh_1a74fb2ffa3d099943f8def4c3be88c2d3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
+      <member refid="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
       <member refid="structMR_1_1Mesh_1a572820417c5fc8e867bbb2f078275222" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
-      <member refid="structMR_1_1Mesh_1a4678592f5a58aba37a0994f895ff7804" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
+      <member refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
       <member refid="structMR_1_1Mesh_1a8c0879122a6abf7e015c89fdbd7dd584" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
       <member refid="structMR_1_1Mesh_1a45e5bda99bca2001e2b7d947f1b16177" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>sumAngles</name></member>
-      <member refid="structMR_1_1Mesh_1add7ed762df9371522b37dc2b15689234" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
+      <member refid="structMR_1_1Mesh_1a757524ab0b73b9ef9256daca95b55540" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
       <member refid="structMR_1_1Mesh_1adbf2e3f4d7d5486dcfac998c96935dd3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
       <member refid="structMR_1_1Mesh_1a91b13898794821d7f88845ebaa6cc1c4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>topology</name></member>
-      <member refid="structMR_1_1Mesh_1a25d99831d2f44ba34b7678c921475088" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
+      <member refid="structMR_1_1Mesh_1a270c420c13ec0ad3d41b3bee66a69fe7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
       <member refid="structMR_1_1Mesh_1a72472fa8eac4aba3ae82bb68995534c7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
       <member refid="structMR_1_1Mesh_1af8c6a8e572a6252362c3616d2973c5f7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
-      <member refid="structMR_1_1Mesh_1a9295908f703adbacd9b9b8f900b85f7d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>transform</name></member>
+      <member refid="structMR_1_1Mesh_1a92e85c214675a13b28dc01afc1e2659c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>transform</name></member>
       <member refid="structMR_1_1Mesh_1a63bb9b6214248707f092cca1db05afb2" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triangleAspectRatio</name></member>
       <member refid="structMR_1_1Mesh_1a985bc1ef62bdb8754e1b4f3da304256b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triCenter</name></member>
       <member refid="structMR_1_1Mesh_1a9c3fed969fd69fc13302e22b2d6fd4ad" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triPoint</name></member>
-      <member refid="structMR_1_1Mesh_1ad64499dab83be6cf5433119a613d6953" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCaches</name></member>
+      <member refid="structMR_1_1Mesh_1a94526b987be4d4c15cd0139f1ce4b5b2" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCaches</name></member>
       <member refid="structMR_1_1Mesh_1ae844a3412483056be32f892b104dac40" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>volume</name></member>
-      <member refid="structMR_1_1Mesh_1a540a6eef456f6c54c214766fc0a7c3fb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>zeroUnusedPoints</name></member>
+      <member refid="structMR_1_1Mesh_1ab19cc6268005d386aff0e95b2b04fa9d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>zeroUnusedPoints</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

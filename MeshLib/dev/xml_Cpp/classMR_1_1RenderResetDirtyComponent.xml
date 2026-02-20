@@ -8,9 +8,9 @@
       <member refid="group__GeneralGroup_1ga7f26a1b5a28bad425bae26031106581a" kind="variable"><name>objPtr_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga3379cb1c7250f753a25223627e4badd6" kind="function"><name>RenderResetDirtyComponent</name></member>
-      <member refid="group__GeneralGroup_1gad6945ce12bbde911734e7e6f840a844c" kind="function"><name>render</name></member>
-      <member refid="group__GeneralGroup_1gaf0236040c67db7f3a0fdacadf85875e9" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga05e6b97f2fd070782b47969273d53fda" kind="function"><name>RenderResetDirtyComponent</name></member>
+      <member refid="group__GeneralGroup_1ga229390e3b88ca642bd5bd4f60ab6f443" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga0135a19c94d4a57e753612b244722e68" kind="function"><name>renderPicker</name></member>
       <member refid="group__GeneralGroup_1ga8ca1ddd65d7766ffffa225d6e58b3ad5" kind="function"><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gad432bca8e634d4215c150fa02a1c9a5d" kind="function"><name>glBytes</name></member>
     </sectiondef>
@@ -49,9 +49,9 @@
       <member refid="group__GeneralGroup_1gad432bca8e634d4215c150fa02a1c9a5d" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>glBytes</name></member>
       <member refid="group__GeneralGroup_1ga8ca1ddd65d7766ffffa225d6e58b3ad5" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga7f26a1b5a28bad425bae26031106581a" prot="private" virt="non-virtual"><scope>MR::RenderResetDirtyComponent</scope><name>objPtr_</name></member>
-      <member refid="group__GeneralGroup_1gad6945ce12bbde911734e7e6f840a844c" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>render</name></member>
-      <member refid="group__GeneralGroup_1gaf0236040c67db7f3a0fdacadf85875e9" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>renderPicker</name></member>
-      <member refid="group__GeneralGroup_1ga3379cb1c7250f753a25223627e4badd6" prot="public" virt="non-virtual"><scope>MR::RenderResetDirtyComponent</scope><name>RenderResetDirtyComponent</name></member>
+      <member refid="group__GeneralGroup_1ga229390e3b88ca642bd5bd4f60ab6f443" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga0135a19c94d4a57e753612b244722e68" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga05e6b97f2fd070782b47969273d53fda" prot="public" virt="non-virtual"><scope>MR::RenderResetDirtyComponent</scope><name>RenderResetDirtyComponent</name></member>
       <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>renderUi</name></member>
       <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>~IRenderObject</name></member>
     </listofallmembers>

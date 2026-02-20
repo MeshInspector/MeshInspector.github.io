@@ -21,10 +21,10 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga7b90334059066d4883920a0f7fa6942f" kind="function"><name>cast</name></member>
-      <member refid="group__GeneralGroup_1ga647fa3efb019e9541f3faabd5316bbe3" kind="function"><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1gaf4cea678a8bd6d42610d8b839862f4d2" kind="function"><name>solve</name></member>
-      <member refid="group__GeneralGroup_1gaa365a06c840a632101e61a9d0ba31866" kind="function"><name>deriv</name></member>
-      <member refid="group__GeneralGroup_1ga6420dd28fcfe1d9d94da2689048ed849" kind="function"><name>intervalMin</name></member>
+      <member refid="group__GeneralGroup_1gad3ff4de6029266a085fe353fe76aabf8" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga5001ab42785d7fd024f3f75b296a25da" kind="function"><name>solve</name></member>
+      <member refid="group__GeneralGroup_1ga6fd94eeb3bf0ce0a900eb57707116fa3" kind="function"><name>deriv</name></member>
+      <member refid="group__GeneralGroup_1ga028a974d380727b12372be7dbf297b31" kind="function"><name>intervalMin</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -35,11 +35,11 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3cc5be84c9490736e6839f7d4f54e839" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1ga7b90334059066d4883920a0f7fa6942f" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>cast</name></member>
-      <member refid="group__GeneralGroup_1gaa365a06c840a632101e61a9d0ba31866" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>deriv</name></member>
-      <member refid="group__GeneralGroup_1ga6420dd28fcfe1d9d94da2689048ed849" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>intervalMin</name></member>
+      <member refid="group__GeneralGroup_1ga6fd94eeb3bf0ce0a900eb57707116fa3" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>deriv</name></member>
+      <member refid="group__GeneralGroup_1ga028a974d380727b12372be7dbf297b31" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>intervalMin</name></member>
       <member refid="group__GeneralGroup_1ga4a45c4c270e2285f289518dc03257056" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>n</name></member>
-      <member refid="group__GeneralGroup_1ga647fa3efb019e9541f3faabd5316bbe3" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>operator()</name></member>
-      <member refid="group__GeneralGroup_1gaf4cea678a8bd6d42610d8b839862f4d2" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>solve</name></member>
+      <member refid="group__GeneralGroup_1gad3ff4de6029266a085fe353fe76aabf8" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga5001ab42785d7fd024f3f75b296a25da" prot="public" virt="non-virtual"><scope>MR::Polynomial</scope><name>solve</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

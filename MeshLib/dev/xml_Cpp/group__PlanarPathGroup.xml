@@ -113,9 +113,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="28" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" bodystart="28" bodyend="32"/>
       </memberdef>
-      <memberdef kind="function" id="group__PlanarPathGroup_1ga64d6263ac2b571832be0c1a3e8114cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::reducePathViaVertex</definition>
+      <memberdef kind="function" id="group__PlanarPathGroup_1ga4dcf8a62c1ef3b68774507c3d3557bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::reducePathViaVertex</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, VertId v, const MeshTriPoint &amp;end, SurfacePath &amp;outPath, std::vector&lt; Vector2f &gt; &amp;tmp, SurfacePath &amp;cachePath)</argsstring>
         <name>reducePathViaVertex</name>
         <qualifiedname>MR::reducePathViaVertex</qualifiedname>
@@ -179,11 +179,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="38" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="38" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="38" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="38" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__PlanarPathGroup_1ga453514d922da4d7c4a02c78ca0b4eabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API int</type>
-        <definition>MRMESH_API int MR::reducePath</definition>
+      <memberdef kind="function" id="group__PlanarPathGroup_1ga0d2e3afb7eada78ede593a4e0a0d0e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::reducePath</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, SurfacePath &amp;path, const MeshTriPoint &amp;end, int maxIter=5)</argsstring>
         <name>reducePath</name>
         <qualifiedname>MR::reducePath</qualifiedname>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="43" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="43" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="43" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="43" declcolumn="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

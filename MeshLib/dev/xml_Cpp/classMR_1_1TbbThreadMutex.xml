@@ -9,13 +9,13 @@
       <member refid="group__GeneralGroup_1ga5ab0ebf352e994936c07826cea204d81" kind="variable"><name>lockFlag_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga5e5227909627529a3be4a85ba613d565" kind="function"><name>TbbThreadMutex</name></member>
-      <member refid="group__GeneralGroup_1ga90d44121dc83fee14538cf016ad521ee" kind="function"><name>tryLock</name></member>
+      <member refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" kind="function"><name>TbbThreadMutex</name></member>
+      <member refid="group__GeneralGroup_1gaf62d178d9fee21afe07b33f021a5a3e2" kind="function"><name>tryLock</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>helper class used to ensure that the specific thread is not re-used by TBB use it if you have nested TBB operations (e.g. parallel_for inside another parallel_for) <programlisting><codeline><highlight class="normal"><ref refid="group__GeneralGroup_1ga5e5227909627529a3be4a85ba613d565" kindref="member">TbbThreadMutex</ref><sp/>reportThreadMutex;</highlight></codeline>
+<para>helper class used to ensure that the specific thread is not re-used by TBB use it if you have nested TBB operations (e.g. parallel_for inside another parallel_for) <programlisting><codeline><highlight class="normal"><ref refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" kindref="member">TbbThreadMutex</ref><sp/>reportThreadMutex;</highlight></codeline>
 <codeline><highlight class="normal">tbb::parallel_for(<sp/>range,<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;&amp;<sp/>range<sp/>)</highlight></codeline>
 <codeline><highlight class="normal">{</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>reportThreadLock<sp/>=<sp/>reportThreadMutex.tryLock();</highlight></codeline>
@@ -32,8 +32,8 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac2142db03ef7499985da45422ed8023c" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>id_</name></member>
       <member refid="group__GeneralGroup_1ga5ab0ebf352e994936c07826cea204d81" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>lockFlag_</name></member>
-      <member refid="group__GeneralGroup_1ga5e5227909627529a3be4a85ba613d565" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>TbbThreadMutex</name></member>
-      <member refid="group__GeneralGroup_1ga90d44121dc83fee14538cf016ad521ee" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>tryLock</name></member>
+      <member refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>TbbThreadMutex</name></member>
+      <member refid="group__GeneralGroup_1gaf62d178d9fee21afe07b33f021a5a3e2" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>tryLock</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

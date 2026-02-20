@@ -9,8 +9,8 @@
       <member refid="group__GeneralGroup_1ga34b3b793c15c55cbe7bdc3ed006a856f" kind="variable"><name>task_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga89012b958d80898ade371042c8cdf25e" kind="function"><name>RenderDistanceObject</name></member>
-      <member refid="group__GeneralGroup_1gad9844fa43c48be4e012ac940a46ab685" kind="function"><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga6070d047f88d9b0c043777aa9e7b436c" kind="function"><name>RenderDistanceObject</name></member>
+      <member refid="group__GeneralGroup_1ga8761f109ea6c853dbc796ddb02567d89" kind="function"><name>renderUi</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -57,10 +57,10 @@
       <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga3e6ca8d3a0d8c8309b2eaa5d1f7ae08f" prot="private" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>object_</name></member>
       <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>render</name></member>
-      <member refid="group__GeneralGroup_1ga89012b958d80898ade371042c8cdf25e" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>RenderDistanceObject</name></member>
+      <member refid="group__GeneralGroup_1ga6070d047f88d9b0c043777aa9e7b436c" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>RenderDistanceObject</name></member>
       <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>RenderObjectCombinator</name></member>
       <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>renderPicker</name></member>
-      <member refid="group__GeneralGroup_1gad9844fa43c48be4e012ac940a46ab685" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga8761f109ea6c853dbc796ddb02567d89" prot="public" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>renderUi</name></member>
       <member refid="group__GeneralGroup_1ga34b3b793c15c55cbe7bdc3ed006a856f" prot="private" virt="non-virtual"><scope>MR::RenderDistanceObject</scope><name>task_</name></member>
     </listofallmembers>
   </compounddef>

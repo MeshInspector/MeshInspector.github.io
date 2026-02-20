@@ -120,9 +120,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__VoxelPathGroup_1ga149abd6a892e1284e051e285396c94c6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API VoxelsMetric</type>
-        <definition>MRVOXELS_API VoxelsMetric MR::voxelsExponentMetric</definition>
+      <memberdef kind="function" id="group__VoxelPathGroup_1ga71893ed176bf05baf89d6e5a3e42c3f8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VoxelsMetric</type>
+        <definition>VoxelsMetric MR::voxelsExponentMetric</definition>
         <argsstring>(const VdbVolume &amp;voxels, const VoxelMetricParameters &amp;parameters, float modifier=-1.0f)</argsstring>
         <name>voxelsExponentMetric</name>
         <qualifiedname>MR::voxelsExponentMetric</qualifiedname>
@@ -146,11 +146,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="47" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="47" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="47" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="47" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelPathGroup_1gaffc0e3988ac89d7c4ed030de11be4b80" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API VoxelsMetric</type>
-        <definition>MRVOXELS_API VoxelsMetric MR::voxelsSumDiffsMetric</definition>
+      <memberdef kind="function" id="group__VoxelPathGroup_1ga26f2d73245508897220a463898d518ae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VoxelsMetric</type>
+        <definition>VoxelsMetric MR::voxelsSumDiffsMetric</definition>
         <argsstring>(const VdbVolume &amp;voxels, const VoxelMetricParameters &amp;parameters)</argsstring>
         <name>voxelsSumDiffsMetric</name>
         <qualifiedname>MR::voxelsSumDiffsMetric</qualifiedname>
@@ -169,11 +169,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="51" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="51" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="51" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="51" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelPathGroup_1gad1772070c201609ff1aac3958e6b9005" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API std::vector&lt; size_t &gt;</type>
-        <definition>MRVOXELS_API std::vector&lt; size_t &gt; MR::buildSmallestMetricPath</definition>
+      <memberdef kind="function" id="group__VoxelPathGroup_1gae4966f63c7b2037c5dd9048a7103e382" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt; size_t &gt; MR::buildSmallestMetricPath</definition>
         <argsstring>(const VdbVolume &amp;voxels, const VoxelsMetric &amp;metric, size_t start, size_t finish, ProgressCallback cb={})</argsstring>
         <name>buildSmallestMetricPath</name>
         <qualifiedname>MR::buildSmallestMetricPath</qualifiedname>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="54" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="54" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="54" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="54" declcolumn="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

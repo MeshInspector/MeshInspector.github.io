@@ -154,7 +154,7 @@ $(function(){initNavTree('MRFeatureHelpers_8h.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">MRFeatureHelpers.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;MRMeshFwd.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRFeatureObject_8h_source.html">MRFeatureObject.h</a>&quot;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;unordered_set&gt;</code><br />
@@ -224,18 +224,18 @@ Functions</h2></td></tr>
 <tr class="memitem:gae69d6d886eeae936d8c70e983d245cd5"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae69d6d886eeae936d8c70e983d245cd5">MR::makeObjectFromClassName</a> (std::string className, P &amp;&amp;... params)</td></tr>
 <tr class="memdesc:gae69d6d886eeae936d8c70e983d245cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates an object of type <code>kind</code>, passing <code>params...</code> to its constructor.  <br /></td></tr>
 <tr class="separator:gae69d6d886eeae936d8c70e983d245cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga161bbd3a2147b79505e87110d929c90f" id="r_ga161bbd3a2147b79505e87110d929c90f"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga161bbd3a2147b79505e87110d929c90f">MR::getFeatureNormal</a> (<a class="el" href="classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
-<tr class="memdesc:ga161bbd3a2147b79505e87110d929c90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using forEachObjectKind the template collects a list of features for which the method ...-&gt;getNormal() is available.  <br /></td></tr>
-<tr class="separator:ga161bbd3a2147b79505e87110d929c90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04713a302796cba586c7e4caa99b88a3" id="r_ga04713a302796cba586c7e4caa99b88a3"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga04713a302796cba586c7e4caa99b88a3">MR::getFeatureDirection</a> (<a class="el" href="classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
-<tr class="memdesc:ga04713a302796cba586c7e4caa99b88a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using forEachObjectKind the template collects a list of features for which the method ...-&gt;getDirection() is available.  <br /></td></tr>
-<tr class="separator:ga04713a302796cba586c7e4caa99b88a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c700488babfd327228e53e26abd88e2" id="r_ga9c700488babfd327228e53e26abd88e2"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9c700488babfd327228e53e26abd88e2">MR::getFeaturesTypeWithNormals</a> ()</td></tr>
-<tr class="memdesc:ga9c700488babfd327228e53e26abd88e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to getNormal from specific feature using forEachObjectKind template. Returns nullopt is ...-&gt;getNormal() is not available for given feature type.  <br /></td></tr>
-<tr class="separator:ga9c700488babfd327228e53e26abd88e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1cea967678dc1380181a3337893ebf96" id="r_ga1cea967678dc1380181a3337893ebf96"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1cea967678dc1380181a3337893ebf96">MR::getFeaturesTypeWithDirections</a> ()</td></tr>
-<tr class="memdesc:ga1cea967678dc1380181a3337893ebf96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to getDirection from specific feature using forEachObjectKind template. Returns nullopt is ...-&gt;getDirection() is not available for given feature type.  <br /></td></tr>
-<tr class="separator:ga1cea967678dc1380181a3337893ebf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga580cd76132a0024f0b6ff340cceec94e" id="r_ga580cd76132a0024f0b6ff340cceec94e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga580cd76132a0024f0b6ff340cceec94e">MR::getFeatureNormal</a> (<a class="el" href="classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
+<tr class="memdesc:ga580cd76132a0024f0b6ff340cceec94e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using forEachObjectKind the template collects a list of features for which the method ...-&gt;getNormal() is available.  <br /></td></tr>
+<tr class="separator:ga580cd76132a0024f0b6ff340cceec94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6056ccb214c16e5c6bc5b1845f07c569" id="r_ga6056ccb214c16e5c6bc5b1845f07c569"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6056ccb214c16e5c6bc5b1845f07c569">MR::getFeatureDirection</a> (<a class="el" href="classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
+<tr class="memdesc:ga6056ccb214c16e5c6bc5b1845f07c569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using forEachObjectKind the template collects a list of features for which the method ...-&gt;getDirection() is available.  <br /></td></tr>
+<tr class="separator:ga6056ccb214c16e5c6bc5b1845f07c569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9afd7553d631902b64fd0b83afe94733" id="r_ga9afd7553d631902b64fd0b83afe94733"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9afd7553d631902b64fd0b83afe94733">MR::getFeaturesTypeWithNormals</a> ()</td></tr>
+<tr class="memdesc:ga9afd7553d631902b64fd0b83afe94733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to getNormal from specific feature using forEachObjectKind template. Returns nullopt is ...-&gt;getNormal() is not available for given feature type.  <br /></td></tr>
+<tr class="separator:ga9afd7553d631902b64fd0b83afe94733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c5fffc5ac0116cdc082f529360d02b3" id="r_ga6c5fffc5ac0116cdc082f529360d02b3"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6c5fffc5ac0116cdc082f529360d02b3">MR::getFeaturesTypeWithDirections</a> ()</td></tr>
+<tr class="memdesc:ga6c5fffc5ac0116cdc082f529360d02b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to getDirection from specific feature using forEachObjectKind template. Returns nullopt is ...-&gt;getDirection() is not available for given feature type.  <br /></td></tr>
+<tr class="separator:ga6c5fffc5ac0116cdc082f529360d02b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

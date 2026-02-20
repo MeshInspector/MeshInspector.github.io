@@ -27,6 +27,19 @@
     <detaileddescription>
 <para>A class describing a cylinder as a mathematical object.A cylinder is represented by a centerline, a radius, and a length.template &lt;typename T&gt; TODO: <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> could be infinite. For example for infinite <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> we could use negative length or length = -1 </para>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Cylinder3&lt; T &gt;</label>
+        <link refid="classMR_1_1Cylinder3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mainAxis</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Line&lt; T &gt;</label>
+        <link refid="structMR_1_1Line"/>
+      </node>
+    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="15" bodyend="56"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8d4a9e9f09d98b1f8fd1fe07bb507344" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>

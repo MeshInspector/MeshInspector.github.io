@@ -15,7 +15,7 @@
       <member refid="group__GeneralGroup_1ga16d4cae96337324ef3f6d67095003eba" kind="variable"><name>params_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gad8db7482eea8aa284e25701a769f2fd1" kind="function"><name>MarkedVoxelSlice</name></member>
+      <member refid="group__GeneralGroup_1gac8d7275a12a28b42fb8bff1a00e1aa63" kind="function"><name>MarkedVoxelSlice</name></member>
       <member refid="group__GeneralGroup_1ga68ad6e146ae252dc8573c3a2ce4c5616" kind="function"><name>getMask</name></member>
       <member refid="group__GeneralGroup_1ga72c959e4d508236259fcf2ac2777a909" kind="function"><name>getMask</name></member>
       <member refid="group__GeneralGroup_1ga520c3e0654e16a1e5d2abeae4b4c8115" kind="function"><name>setMask</name></member>
@@ -42,7 +42,7 @@
       <member refid="group__GeneralGroup_1gad26146bfaaea86c6642ac101c7f5bbfc" kind="function"><name>setActiveBox</name></member>
       <member refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" kind="function"><name>getParameters</name></member>
       <member refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" kind="function"><name>setParameters</name></member>
-      <member refid="group__GeneralGroup_1ga8cfc8efe67bed7ab6770d8952e75c6b6" kind="function"><name>forceUpdate</name></member>
+      <member refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" kind="function"><name>forceUpdate</name></member>
     </sectiondef>
     <briefdescription>
 <para><ref refid="namespaceImGui" kindref="compound">ImGui</ref> visualization of a slice from voxel object and seed marks on it. </para>
@@ -77,7 +77,7 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Count</name></member>
       <member refid="group__GeneralGroup_1ga094ba490347c2ad2d04d6326d0b5bc0f" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>dims_</name></member>
-      <member refid="group__GeneralGroup_1ga8cfc8efe67bed7ab6770d8952e75c6b6" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>forceUpdate</name></member>
+      <member refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>forceUpdate</name></member>
       <member refid="group__GeneralGroup_1ga3eb57f66e35c3ad6e95531620e2e40fa" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActiveBox</name></member>
       <member refid="group__GeneralGroup_1ga21bf4ef527270ad0d69f992c4378f606" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActivePlane</name></member>
       <member refid="group__GeneralGroup_1ga64f919f38e1712b774646be9eb857f99" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActiveVoxel</name></member>
@@ -99,9 +99,9 @@
       <member refid="group__GeneralGroup_1gace084b7a6961ec8f31f9a9f4ebb9bb05" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMin</name></member>
       <member refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getParameters</name></member>
       <member refid="group__GeneralGroup_1ga59d5c54906ac87a368772559ebb81aab" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>grid_</name></member>
-      <member refid="group__GeneralGroup_1ga45fefc6f372ef7195d6871caba9cfee2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ga51a7756c624cb499bfecb9df7d63de94" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>ImGuiImage</name></member>
       <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Inside</name></member>
-      <member refid="group__GeneralGroup_1gad8db7482eea8aa284e25701a769f2fd1" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MarkedVoxelSlice</name></member>
+      <member refid="group__GeneralGroup_1gac8d7275a12a28b42fb8bff1a00e1aa63" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MarkedVoxelSlice</name></member>
       <member refid="group__GeneralGroup_1gaf7c2c434d5b367268f132826d94c9457" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MaskType</name></member>
       <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Outside</name></member>
       <member refid="group__GeneralGroup_1ga16d4cae96337324ef3f6d67095003eba" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>params_</name></member>
@@ -117,8 +117,8 @@
       <member refid="group__GeneralGroup_1gaf725ffcc60939034b1746e896cfbe394" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMax</name></member>
       <member refid="group__GeneralGroup_1gacf4c42bc1d7a16cc6ff7ce4c3df76ab5" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMin</name></member>
       <member refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setParameters</name></member>
-      <member refid="group__GeneralGroup_1gaa1bd137d3093a9f7422dc445457b692f" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>update</name></member>
-      <member refid="group__GeneralGroup_1ga1d77e3e4c4aee3fb4502181c14bc89a7" prot="public" virt="virtual"><scope>MR::MarkedVoxelSlice</scope><name>~ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ga4bde207e5032a22bc4d62bb5f852cdfd" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1gabb51ef797541e544e2c906ade2ec2b92" prot="public" virt="virtual"><scope>MR::MarkedVoxelSlice</scope><name>~ImGuiImage</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

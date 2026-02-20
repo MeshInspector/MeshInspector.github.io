@@ -2,61 +2,49 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRRectIndexer_8h" kind="file" language="C++">
     <compoundname>MRRectIndexer.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
     <includedby refid="MRDistanceMap_8h" local="yes">MRDistanceMap.h</includedby>
     <includedby refid="MRMatrix_8h" local="yes">MRMatrix.h</includedby>
     <incdepgraph>
-      <node id="14">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="1">
-        <label>MRRectIndexer.h</label>
-        <link refid="MRRectIndexer_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -68,41 +56,94 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>MRRectIndexer.h</label>
+        <link refid="MRRectIndexer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="9">
-        <label>algorithm</label>
-      </node>
-      <node id="16">
-        <label>array</label>
-      </node>
-      <node id="15">
-        <label>cassert</label>
-      </node>
-      <node id="10">
-        <label>cmath</label>
-      </node>
-      <node id="6">
-        <label>cstddef</label>
-      </node>
-      <node id="11">
-        <label>cstring</label>
-      </node>
-      <node id="12">
-        <label>iosfwd</label>
-      </node>
-      <node id="7">
-        <label>type_traits</label>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="13">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="20">
+        <label>iosfwd</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="21">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -200,7 +241,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -246,7 +287,7 @@
 <codeline lineno="50" refid="classMR_1_1RectIndexer_1a581238851bf8cb545d729d3957100372" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a581238851bf8cb545d729d3957100372" kindref="member">areNeigbors</ref>(<sp/>PixelId<sp/>v0,<sp/>PixelId<sp/>v1<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a581238851bf8cb545d729d3957100372" kindref="member">areNeigbors</ref>(<sp/><ref refid="classMR_1_1RectIndexer_1aa496c121195d5bad75ebb417cfb8c884" kindref="member">toPos</ref>(<sp/>v0<sp/>),<sp/><ref refid="classMR_1_1RectIndexer_1aa496c121195d5bad75ebb417cfb8c884" kindref="member">toPos</ref>(<sp/>v1<sp/>)<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="51" refid="classMR_1_1RectIndexer_1a95b4e703046a8706888f15f3bd4b7c3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a95b4e703046a8706888f15f3bd4b7c3a" kindref="member">areNeigbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>pos1<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>pos0<sp/>-<sp/>pos1<sp/>).lengthSq()<sp/>==<sp/>1;<sp/>}</highlight></codeline>
 <codeline lineno="53" refid="classMR_1_1RectIndexer_1a3405e1ad7d3f9cb6d72845e41f3232bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PixelId<sp/><ref refid="classMR_1_1RectIndexer_1a3405e1ad7d3f9cb6d72845e41f3232bc" kindref="member">getNeighbor</ref>(<sp/>PixelId<sp/>v,<sp/><ref refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kindref="member">OutEdge2</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a3405e1ad7d3f9cb6d72845e41f3232bc" kindref="member">getNeighbor</ref>(<sp/>v,<sp/><ref refid="classMR_1_1RectIndexer_1aa496c121195d5bad75ebb417cfb8c884" kindref="member">toPos</ref>(<sp/>v<sp/>),<sp/>toNei<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="54" refid="classMR_1_1RectIndexer_1ac517f36a12430a41779b1e7fd847684b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>PixelId<sp/><ref refid="classMR_1_1RectIndexer_1ac517f36a12430a41779b1e7fd847684b" kindref="member">getNeighbor</ref>(<sp/>PixelId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kindref="member">OutEdge2</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54" refid="classMR_1_1RectIndexer_1a8b4fcc40aa58630eebf389ef808451df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PixelId<sp/><ref refid="classMR_1_1RectIndexer_1a8b4fcc40aa58630eebf389ef808451df" kindref="member">getNeighbor</ref>(<sp/>PixelId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kindref="member">OutEdge2</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="57" refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" kindref="member">dims_</ref>;</highlight></codeline>
@@ -276,8 +317,8 @@
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pos.x<sp/>+<sp/>pos.y<sp/>*<sp/>size_t(<ref refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" kindref="member">dims_</ref>.x);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="group__DistanceMapGroup_1ga6c5838a3065551d1adbcde13e5cf895b" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga6c5838a3065551d1adbcde13e5cf895b" kindref="member">expandPixelMask</ref>(<sp/>PixelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>1<sp/>);</highlight></codeline>
-<codeline lineno="87" refid="group__DistanceMapGroup_1gacbedf1abc59aa1401992cc4d1e1ed306" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1gacbedf1abc59aa1401992cc4d1e1ed306" kindref="member">shrinkPixelMask</ref>(<sp/>PixelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shrinkage<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="85" refid="group__DistanceMapGroup_1ga7fff85ab73fba784cf244960e540806c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga7fff85ab73fba784cf244960e540806c" kindref="member">expandPixelMask</ref>(<sp/>PixelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="87" refid="group__DistanceMapGroup_1ga74a690f4a3588537a12fb70388b1f65a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga74a690f4a3588537a12fb70388b1f65a" kindref="member">shrinkPixelMask</ref>(<sp/>PixelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shrinkage<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}<sp/></highlight></codeline>

@@ -3,8 +3,44 @@
   <compounddef id="MRAncillaryPlane_8h" kind="file" language="C++">
     <compoundname>MRAncillaryPlane.h</compoundname>
     <includes local="yes">exports.h</includes>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <incdepgraph>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
       <node id="1">
         <label>MRAncillaryPlane.h</label>
         <link refid="MRAncillaryPlane_8h"/>
@@ -13,11 +49,29 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
       </node>
       <node id="2">
         <label>exports.h</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1AncillaryPlane" prot="public">MR::AncillaryPlane</innerclass>
@@ -29,7 +83,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
@@ -39,12 +93,12 @@
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" kindref="member">AncillaryPlane</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gaff20855169063d26e84956dce51cb1c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaff20855169063d26e84956dce51cb1c6" kindref="member">AncillaryPlane</ref>(<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga102061c175e6a2b79be1b8da1ef1c164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;<sp/>operator<sp/>=(<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1gaf6eb096575c918e31fb4908db2705dc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gaf6eb096575c918e31fb4908db2705dc1" kindref="member">~AncillaryPlane</ref>();</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga5b991fd73a28962d40fc9a290e1c806f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;<sp/>operator<sp/>=(<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gafc639beaa44225b629fec1f0a51fd68f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gafc639beaa44225b629fec1f0a51fd68f" kindref="member">~AncillaryPlane</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1gad040974ca5651a528b262df4fbef3466" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad040974ca5651a528b262df4fbef3466" kindref="member">make</ref>();</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gae624027e30e44cf3abcaa38b9f307fce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae624027e30e44cf3abcaa38b9f307fce" kindref="member">make</ref>();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga1a09cebdd05ecb6f789b7d979a67b519" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a09cebdd05ecb6f789b7d979a67b519" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga350ebc799fad87e3f4fdbac53c4c1f56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga350ebc799fad87e3f4fdbac53c4c1f56" kindref="member">reset</ref>();</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gab15d93f5a87e6d36f886053125195b47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;PlaneObject&gt;<sp/><ref refid="group__GeneralGroup_1gab15d93f5a87e6d36f886053125195b47" kindref="member">obj</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>

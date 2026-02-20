@@ -1,15 +1,15 @@
 var MRObjectLoad_8h =
 [
-    [ "deserializeObjectTree", "MRObjectLoad_8h.html#ga5058cc4a63ce3a27970db1903d9c221d", null ],
-    [ "deserializeObjectTreeFromFolder", "MRObjectLoad_8h.html#gaf9b67bada243a640e8a520638c9771be", null ],
-    [ "getAllFilters", "MRObjectLoad_8h.html#gac7615c6e4894a59a84ec57986cbfc9c7", null ],
-    [ "isSupportedFileInSubfolders", "MRObjectLoad_8h.html#gaa2082792bceb5a2dd3b18ff5693f0441", null ],
-    [ "loadObjectFromFile", "MRObjectLoad_8h.html#ga01ad9a53501f3ed7609ba0a65b9ff422", null ],
-    [ "loadSceneFromAnySupportedFormat", "MRObjectLoad_8h.html#ga873b67818008b890a9733f438d361235", null ],
-    [ "makeObjectDistanceMapFromFile", "MRObjectLoad_8h.html#ga6db28aaf4d28c32688ee3fbe07c2cd69", null ],
-    [ "makeObjectFromMeshFile", "MRObjectLoad_8h.html#ga1d6fce928c9225edf56e248b7428e65d", null ],
-    [ "makeObjectGcodeFromFile", "MRObjectLoad_8h.html#ga9e5093d4aabe18b3b177676bed2f1832", null ],
-    [ "makeObjectLinesFromFile", "MRObjectLoad_8h.html#ga49f50b3f8a8b62d1de7af24264eac759", null ],
-    [ "makeObjectMeshFromFile", "MRObjectLoad_8h.html#ga16cd43ef755c087f9358dc1bb5473119", null ],
-    [ "makeObjectPointsFromFile", "MRObjectLoad_8h.html#gacd7dca15ed95f44fa82294bf8a85be2a", null ]
+    [ "deserializeObjectTree", "MRObjectLoad_8h.html#ga6fd5afbbb086d0929f3dc6d4f227c744", null ],
+    [ "deserializeObjectTreeFromFolder", "MRObjectLoad_8h.html#ga6f03d6e2aa5d66aac5eb616ef651e31d", null ],
+    [ "getAllFilters", "MRObjectLoad_8h.html#gaf486b5ab2b1a6bea43372dfd45b9dfc8", null ],
+    [ "isSupportedFileInSubfolders", "MRObjectLoad_8h.html#gad2d1bf6f777a42936fe7f20f86a7afa7", null ],
+    [ "loadObjectFromFile", "MRObjectLoad_8h.html#ga8f970cf17eda4dc8ebd3a11ba3227894", null ],
+    [ "loadSceneFromAnySupportedFormat", "MRObjectLoad_8h.html#gaca44e2332e7de600e47bb62bb01f93c5", null ],
+    [ "makeObjectDistanceMapFromFile", "MRObjectLoad_8h.html#ga57cc69565e989e8da9e17d20f41b42eb", null ],
+    [ "makeObjectFromMeshFile", "MRObjectLoad_8h.html#gadd90fc0dc330a520a6dff51ba956a7f1", null ],
+    [ "makeObjectGcodeFromFile", "MRObjectLoad_8h.html#ga0bb66c4b59655efd884905cf765e7a8a", null ],
+    [ "makeObjectLinesFromFile", "MRObjectLoad_8h.html#gac9dd077808aa46ace7e81ce139b9059a", null ],
+    [ "makeObjectMeshFromFile", "MRObjectLoad_8h.html#gae0171c457a8d377c478e26a0b170456c", null ],
+    [ "makeObjectPointsFromFile", "MRObjectLoad_8h.html#gae9ee60bba4a2913ac489fd27115fdd5b", null ]
 ];

@@ -67,9 +67,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" bodystart="20" bodyend="20"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Timer_1a3c039c473cb5b98b2b31c5ba336ccc6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Timer::restart</definition>
+      <memberdef kind="function" id="classMR_1_1Timer_1a2db88e174e3796c728ed6585e2ade84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Timer::restart</definition>
         <argsstring>(std::string name)</argsstring>
         <name>restart</name>
         <qualifiedname>MR::Timer::restart</qualifiedname>
@@ -83,11 +83,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="22" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="22" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Timer_1aaf14ca9ea06e15ba2d1ec028c8c345c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Timer::start</definition>
+      <memberdef kind="function" id="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Timer::start</definition>
         <argsstring>(std::string name)</argsstring>
         <name>start</name>
         <qualifiedname>MR::Timer::start</qualifiedname>
@@ -101,11 +101,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="23" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="23" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Timer_1a0e443a45dc3c97f0d97f235c6fc9c6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Timer::finish</definition>
+      <memberdef kind="function" id="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Timer::finish</definition>
         <argsstring>()</argsstring>
         <name>finish</name>
         <qualifiedname>MR::Timer::finish</qualifiedname>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="24" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="24" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -206,12 +206,12 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" bodystart="17" bodyend="36"/>
     <listofallmembers>
-      <member refid="classMR_1_1Timer_1a0e443a45dc3c97f0d97f235c6fc9c6e9" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>finish</name></member>
+      <member refid="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>finish</name></member>
       <member refid="classMR_1_1Timer_1aee5682697e88241b45ccc873426df465" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>operator=</name></member>
       <member refid="classMR_1_1Timer_1abf15faf22086bb240a8b83b365a55a87" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>operator=</name></member>
-      <member refid="classMR_1_1Timer_1a3c039c473cb5b98b2b31c5ba336ccc6a" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>restart</name></member>
+      <member refid="classMR_1_1Timer_1a2db88e174e3796c728ed6585e2ade84d" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>restart</name></member>
       <member refid="classMR_1_1Timer_1a732ca995a77c5930f0a5abe57ab4bc43" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>secondsPassed</name></member>
-      <member refid="classMR_1_1Timer_1aaf14ca9ea06e15ba2d1ec028c8c345c6" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>start</name></member>
+      <member refid="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>start</name></member>
       <member refid="classMR_1_1Timer_1a37b277791cc374816c6078ee2849381c" prot="private" virt="non-virtual"><scope>MR::Timer</scope><name>start_</name></member>
       <member refid="classMR_1_1Timer_1ac9365f7417ee092ebb5a609600ee3856" prot="private" virt="non-virtual"><scope>MR::Timer</scope><name>started_</name></member>
       <member refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>Timer</name></member>

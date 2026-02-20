@@ -178,32 +178,32 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a775aa83cc6e23820b3e00321d7c35da2" id="r_a775aa83cc6e23820b3e00321d7c35da2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775aa83cc6e23820b3e00321d7c35da2">createButton</a> (std::string_view name)</td></tr>
-<tr class="separator:a775aa83cc6e23820b3e00321d7c35da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118660fc12e6dbfbfc628692acf8c9b2" id="r_a118660fc12e6dbfbfc628692acf8c9b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118660fc12e6dbfbfc628692acf8c9b2">createButton</a> (std::string_view name)</td></tr>
+<tr class="separator:a118660fc12e6dbfbfc628692acf8c9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12811d400185e17b9fbecf90ca59920" id="r_af12811d400185e17b9fbecf90ca59920"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; <br />
 requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <tr class="memitem:af12811d400185e17b9fbecf90ca59920"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af12811d400185e17b9fbecf90ca59920">createValue</a> (std::string_view name, T value, T min, T max, bool consumeValueOverride=true)</td></tr>
 <tr class="separator:af12811d400185e17b9fbecf90ca59920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75ca46150fdd4fe271aa44e26bc987d" id="r_aa75ca46150fdd4fe271aa44e26bc987d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75ca46150fdd4fe271aa44e26bc987d">createValue</a> (std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt)</td></tr>
-<tr class="memdesc:aa75ca46150fdd4fe271aa44e26bc987d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for strings.  <br /></td></tr>
-<tr class="separator:aa75ca46150fdd4fe271aa44e26bc987d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c5a460292cbb0112a63fe0a6e85bf8" id="r_a74c5a460292cbb0112a63fe0a6e85bf8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c5a460292cbb0112a63fe0a6e85bf8">createValue</a> (std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt)</td></tr>
+<tr class="memdesc:a74c5a460292cbb0112a63fe0a6e85bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for strings.  <br /></td></tr>
+<tr class="separator:a74c5a460292cbb0112a63fe0a6e85bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a937d804d659e0c82a3623bf0c09be2bf" id="r_a937d804d659e0c82a3623bf0c09be2bf"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; </td></tr>
 <tr class="memitem:a937d804d659e0c82a3623bf0c09be2bf"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a937d804d659e0c82a3623bf0c09be2bf">createValueTentative</a> (std::string_view name, bool consumeValueOverride=true)</td></tr>
 <tr class="separator:a937d804d659e0c82a3623bf0c09be2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afac37f1a33604b207f8d30279b255ad2" id="r_afac37f1a33604b207f8d30279b255ad2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac37f1a33604b207f8d30279b255ad2">pushTree</a> (std::string_view name)</td></tr>
-<tr class="memdesc:afac37f1a33604b207f8d30279b255ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use those to group buttons into named groups.  <br /></td></tr>
-<tr class="separator:afac37f1a33604b207f8d30279b255ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af584a5ff88e3d48b91ace605bd8331e5" id="r_af584a5ff88e3d48b91ace605bd8331e5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af584a5ff88e3d48b91ace605bd8331e5">popTree</a> ()</td></tr>
-<tr class="separator:af584a5ff88e3d48b91ace605bd8331e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbf1d490037c289477160fdb25fb30f7" id="r_abbf1d490037c289477160fdb25fb30f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbf1d490037c289477160fdb25fb30f7">getRootEntry</a> ()</td></tr>
-<tr class="memdesc:abbf1d490037c289477160fdb25fb30f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current entry tree.  <br /></td></tr>
-<tr class="separator:abbf1d490037c289477160fdb25fb30f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12d929394733bbfd78765262fec48b8" id="r_ad12d929394733bbfd78765262fec48b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad12d929394733bbfd78765262fec48b8">pushTree</a> (std::string_view name)</td></tr>
+<tr class="memdesc:ad12d929394733bbfd78765262fec48b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use those to group buttons into named groups.  <br /></td></tr>
+<tr class="separator:ad12d929394733bbfd78765262fec48b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05a3802e2ed1ab9f8a55c8a8d55ef6a" id="r_ab05a3802e2ed1ab9f8a55c8a8d55ef6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05a3802e2ed1ab9f8a55c8a8d55ef6a">popTree</a> ()</td></tr>
+<tr class="separator:ab05a3802e2ed1ab9f8a55c8a8d55ef6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6a21c2491075e840bb5fa053992dc9" id="r_a0b6a21c2491075e840bb5fa053992dc9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b6a21c2491075e840bb5fa053992dc9">getRootEntry</a> ()</td></tr>
+<tr class="memdesc:a0b6a21c2491075e840bb5fa053992dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current entry tree.  <br /></td></tr>
+<tr class="separator:a0b6a21c2491075e840bb5fa053992dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is a low-level header for implementing GUIs that can be interacted with programmatically. Most likely you don't need to touch this, just use widgets from <code><a class="el" href="MRUIStyle_8h.html">MRUIStyle.h</a></code>. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a775aa83cc6e23820b3e00321d7c35da2" name="a775aa83cc6e23820b3e00321d7c35da2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775aa83cc6e23820b3e00321d7c35da2">&#9670;&#160;</a></span>createButton()</h2>
+<a id="a118660fc12e6dbfbfc628692acf8c9b2" name="a118660fc12e6dbfbfc628692acf8c9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118660fc12e6dbfbfc628692acf8c9b2">&#9670;&#160;</a></span>createButton()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +212,7 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API bool MR::UI::TestEngine::createButton </td>
+          <td class="memname">bool MR::UI::TestEngine::createButton </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>
@@ -228,8 +228,8 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 
 </div>
 </div>
-<a id="aa75ca46150fdd4fe271aa44e26bc987d" name="aa75ca46150fdd4fe271aa44e26bc987d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75ca46150fdd4fe271aa44e26bc987d">&#9670;&#160;</a></span>createValue() <span class="overload">[1/2]</span></h2>
+<a id="a74c5a460292cbb0112a63fe0a6e85bf8" name="a74c5a460292cbb0112a63fe0a6e85bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c5a460292cbb0112a63fe0a6e85bf8">&#9670;&#160;</a></span>createValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,7 +238,7 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API std::optional&lt; std::string &gt; MR::UI::TestEngine::createValue </td>
+          <td class="memname">std::optional&lt; std::string &gt; MR::UI::TestEngine::createValue </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -354,8 +354,8 @@ template&lt;AllowedValueType T&gt; </div>
 
 </div>
 </div>
-<a id="abbf1d490037c289477160fdb25fb30f7" name="abbf1d490037c289477160fdb25fb30f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbf1d490037c289477160fdb25fb30f7">&#9670;&#160;</a></span>getRootEntry()</h2>
+<a id="a0b6a21c2491075e840bb5fa053992dc9" name="a0b6a21c2491075e840bb5fa053992dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b6a21c2491075e840bb5fa053992dc9">&#9670;&#160;</a></span>getRootEntry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,7 +364,7 @@ template&lt;AllowedValueType T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp; MR::UI::TestEngine::getRootEntry </td>
+          <td class="memname">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp; MR::UI::TestEngine::getRootEntry </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -381,14 +381,14 @@ template&lt;AllowedValueType T&gt; </div>
 
 </div>
 </div>
-<a id="af584a5ff88e3d48b91ace605bd8331e5" name="af584a5ff88e3d48b91ace605bd8331e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af584a5ff88e3d48b91ace605bd8331e5">&#9670;&#160;</a></span>popTree()</h2>
+<a id="ab05a3802e2ed1ab9f8a55c8a8d55ef6a" name="ab05a3802e2ed1ab9f8a55c8a8d55ef6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05a3802e2ed1ab9f8a55c8a8d55ef6a">&#9670;&#160;</a></span>popTree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::UI::TestEngine::popTree </td>
+          <td class="memname">void MR::UI::TestEngine::popTree </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -398,14 +398,14 @@ template&lt;AllowedValueType T&gt; </div>
 
 </div>
 </div>
-<a id="afac37f1a33604b207f8d30279b255ad2" name="afac37f1a33604b207f8d30279b255ad2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afac37f1a33604b207f8d30279b255ad2">&#9670;&#160;</a></span>pushTree()</h2>
+<a id="ad12d929394733bbfd78765262fec48b8" name="ad12d929394733bbfd78765262fec48b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad12d929394733bbfd78765262fec48b8">&#9670;&#160;</a></span>pushTree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::UI::TestEngine::pushTree </td>
+          <td class="memname">void MR::UI::TestEngine::pushTree </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>

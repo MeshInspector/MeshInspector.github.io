@@ -8,19 +8,25 @@
     <includes local="no">vector</includes>
     <includes local="no">string</includes>
     <incdepgraph>
-      <node id="17">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="24">
+      <node id="30">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="31">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="3" relation="include">
@@ -31,17 +37,43 @@
         <link refid="MRExpected_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -54,26 +86,22 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="7">
+      <node id="15">
         <label>MRMeshTriPoint.h</label>
         <link refid="MRMeshTriPoint_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="28">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -81,99 +109,109 @@
         <link refid="MRSurfacePath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRTriPoint.h</label>
+        <link refid="MRTriPoint_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRTriPoint.h</label>
-        <link refid="MRTriPoint_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
       </node>
       <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="5">
+      <node id="14">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="18">
+      <node id="24">
         <label>algorithm</label>
       </node>
-      <node id="10">
-        <label>cassert</label>
-      </node>
-      <node id="19">
-        <label>cmath</label>
-      </node>
-      <node id="11">
-        <label>cstddef</label>
-      </node>
-      <node id="20">
-        <label>cstring</label>
-      </node>
-      <node id="21">
-        <label>iosfwd</label>
-      </node>
-      <node id="23">
-        <label>limits</label>
-      </node>
-      <node id="6">
-        <label>string</label>
-      </node>
-      <node id="12">
-        <label>type_traits</label>
+      <node id="8">
+        <label>array</label>
       </node>
       <node id="13">
-        <label>utility</label>
+        <label>cassert</label>
+      </node>
+      <node id="25">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cstddef</label>
       </node>
       <node id="26">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="27">
+        <label>iosfwd</label>
+      </node>
+      <node id="29">
+        <label>limits</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="18">
+        <label>type_traits</label>
+      </node>
+      <node id="19">
+        <label>utility</label>
+      </node>
+      <node id="9">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -200,7 +238,7 @@
 <codeline lineno="19" refid="structMR_1_1GeodesicPath" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GeodesicPath" kindref="compound">GeodesicPath</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21" refid="structMR_1_1GeodesicPath_1a0a5eaad44164e2e97b2ce0685dc1a53d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="structMR_1_1GeodesicPath_1a0a5eaad44164e2e97b2ce0685dc1a53d" kindref="member">start</ref>;<sp/></highlight></codeline>
-<codeline lineno="22" refid="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SurfacePath<sp/><ref refid="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" kindref="member">mids</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref><sp/><ref refid="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" kindref="member">mids</ref>;</highlight></codeline>
 <codeline lineno="23" refid="structMR_1_1GeodesicPath_1a8890c95d8a90898ea2d0898884bfa474" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="structMR_1_1GeodesicPath_1a8890c95d8a90898ea2d0898884bfa474" kindref="member">end</ref>;<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="structMR_1_1GeodesicPath_1a500cd0125a04fdafa54081b9392409e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeodesicPath_1a500cd0125a04fdafa54081b9392409e4" kindref="member">numVertices</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeodesicPath_1a0a5eaad44164e2e97b2ce0685dc1a53d" kindref="member">start</ref>.<ref refid="group__GeneralGroup_1ga448317ec66d714fc3faa1d0bd3b64867" kindref="member">valid</ref>()<sp/>+<sp/><ref refid="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" kindref="member">mids</ref>.size()<sp/>+<sp/><ref refid="structMR_1_1GeodesicPath_1a8890c95d8a90898ea2d0898884bfa474" kindref="member">end</ref>.<ref refid="group__GeneralGroup_1ga448317ec66d714fc3faa1d0bd3b64867" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
@@ -212,7 +250,7 @@
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__SurfacePathSubgroup_1ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5" kindref="member">InternalError</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__SurfacePathSubgroup_1gac84bc08e1e95706c67d413f315fcf9d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gae471951bdf73171ae96368056485fe84" kindref="member">toString</ref>(<ref refid="group__SurfacePathSubgroup_1gaf2c93aa0da8a9748d23340f32349a8b8" kindref="member">PathError</ref><sp/>error)</highlight></codeline>
+<codeline lineno="34" refid="group__SurfacePathSubgroup_1gac84bc08e1e95706c67d413f315fcf9d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaac6b91f4809d36b337fe54b064ce26dc" kindref="member">toString</ref>(<ref refid="group__SurfacePathSubgroup_1gaf2c93aa0da8a9748d23340f32349a8b8" kindref="member">PathError</ref><sp/>error)</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(error)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -222,19 +260,19 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="group__SurfacePathSubgroup_1ga446cf8a4654ec1a589f1ffd89762aa29" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga446cf8a4654ec1a589f1ffd89762aa29" kindref="member">computeSurfacePath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight></codeline>
+<codeline lineno="47" refid="group__SurfacePathSubgroup_1gae5e6b0dc86c4b88c9242edca8cc56c6c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1gae5e6b0dc86c4b88c9242edca8cc56c6c" kindref="member">computeSurfacePath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxGeodesicIters<sp/>=<sp/>5,<sp/></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>vertRegion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>VertScalars<sp/>*<sp/>outSurfaceDistances<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="group__SurfacePathSubgroup_1ga8359c707ab87c6591777e5c2809c7468" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga8359c707ab87c6591777e5c2809c7468" kindref="member">computeGeodesicPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
+<codeline lineno="54" refid="group__SurfacePathSubgroup_1gacccf351e5720e106bf93cbd71f41cba1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1gacccf351e5720e106bf93cbd71f41cba1" kindref="member">computeGeodesicPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/><ref refid="group__GeneralGroup_1ga0d52c069a53aab9d22c0f2c4e3f262a2" kindref="member">GeodesicPathApprox</ref><sp/>atype<sp/>=<sp/><ref refid="group__GeneralGroup_1gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435" kindref="member">GeodesicPathApprox::FastMarching</ref>,</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxGeodesicIters<sp/>=<sp/>100<sp/>);<sp/></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="group__SurfacePathSubgroup_1ga8d44e12ec3a4b21e1ebb753c0a84b8ca" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga8d44e12ec3a4b21e1ebb753c0a84b8ca" kindref="member">computeGeodesicPathApprox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
+<codeline lineno="60" refid="group__SurfacePathSubgroup_1ga69ad5976886828ef6adb1cfa8493cf5d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga69ad5976886828ef6adb1cfa8493cf5d" kindref="member">computeGeodesicPathApprox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/><ref refid="group__GeneralGroup_1ga0d52c069a53aab9d22c0f2c4e3f262a2" kindref="member">GeodesicPathApprox</ref><sp/>atype<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__SurfacePathSubgroup_1ga52601966a3d67cfd9b26ad1e586cd6f4" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga52601966a3d67cfd9b26ad1e586cd6f4" kindref="member">computeFastMarchingPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight></codeline>
+<codeline lineno="65" refid="group__SurfacePathSubgroup_1ga18f834a80979174e8209ab8d3a782d06" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SurfacePath, PathError&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga18f834a80979174e8209ab8d3a782d06" kindref="member">computeFastMarchingPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>vertRegion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>VertScalars<sp/>*<sp/>outSurfaceDistances<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
@@ -245,17 +283,17 @@
 <codeline lineno="76" refid="structMR_1_1ComputeSteepestDescentPathSettings_1a133dd657607eb8f8e2745935031c0ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>*<sp/><ref refid="structMR_1_1ComputeSteepestDescentPathSettings_1a133dd657607eb8f8e2745935031c0ed0" kindref="member">outBdReached</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="group__SurfacePathSubgroup_1ga563ea0f701cd05e6995193631495466e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>SurfacePath<sp/><ref refid="group__SurfacePathSubgroup_1ga563ea0f701cd05e6995193631495466e" kindref="member">computeSteepestDescentPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,</highlight></codeline>
+<codeline lineno="82" refid="group__SurfacePathSubgroup_1ga68f07a93e6327856641283127199b6be" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga68f07a93e6327856641283127199b6be" kindref="member">computeSteepestDescentPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="group__SurfacePathSubgroup_1ga30a8af69c2b3595b324d9f12a008c9cb" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1ga563ea0f701cd05e6995193631495466e" kindref="member">computeSteepestDescentPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/>SurfacePath<sp/>*<sp/>outPath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="89" refid="group__SurfacePathSubgroup_1ga9cb919b0dce15ca22cb7ff30ca02c7e3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1ga68f07a93e6327856641283127199b6be" kindref="member">computeSteepestDescentPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>start,<sp/><ref refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref><sp/>*<sp/>outPath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="group__SurfacePathSubgroup_1gaa46e9820d021f3412af4f1c59c14aaa2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>MeshEdgePoint<sp/><ref refid="group__SurfacePathSubgroup_1gaa46e9820d021f3412af4f1c59c14aaa2" kindref="member">findSteepestDescentPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/>VertId<sp/>v<sp/>);</highlight></codeline>
+<codeline lineno="93" refid="group__SurfacePathSubgroup_1gabf170f0041c6a3f36d79ed925e850fd8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref><sp/><ref refid="group__SurfacePathSubgroup_1gabf170f0041c6a3f36d79ed925e850fd8" kindref="member">findSteepestDescentPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/>VertId<sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="group__SurfacePathSubgroup_1ga03317f13dce667de5ec4fce7626aa415" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>MeshEdgePoint<sp/><ref refid="group__SurfacePathSubgroup_1gaa46e9820d021f3412af4f1c59c14aaa2" kindref="member">findSteepestDescentPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshEdgePoint<sp/>&amp;<sp/>ep<sp/>);</highlight></codeline>
+<codeline lineno="96" refid="group__SurfacePathSubgroup_1ga5b5da9697a805b05bb9c7373df78ff2c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref><sp/><ref refid="group__SurfacePathSubgroup_1gabf170f0041c6a3f36d79ed925e850fd8" kindref="member">findSteepestDescentPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref><sp/>&amp;<sp/>ep<sp/>);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="group__SurfacePathSubgroup_1ga316d288d92ba2fc460dcc7d29398e084" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>MeshEdgePoint<sp/><ref refid="group__SurfacePathSubgroup_1gaa46e9820d021f3412af4f1c59c14aaa2" kindref="member">findSteepestDescentPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>tp<sp/>);</highlight></codeline>
+<codeline lineno="99" refid="group__SurfacePathSubgroup_1ga8952cb06a36688c4b4c488957348610a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref><sp/><ref refid="group__SurfacePathSubgroup_1gabf170f0041c6a3f36d79ed925e850fd8" kindref="member">findSteepestDescentPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/>&amp;<sp/>tp<sp/>);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
 <codeline lineno="101" refid="group__SurfacePathSubgroup_1ga3887057b7aa95d9993b5ce57130c25a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1ga3887057b7aa95d9993b5ce57130c25a6" kindref="member">ExtremeEdgeType</ref></highlight></codeline>
 <codeline lineno="102"><highlight class="normal">{</highlight></codeline>
@@ -263,22 +301,22 @@
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__SurfacePathSubgroup_1gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4" kindref="member">Gorge</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="105"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="group__SurfacePathSubgroup_1ga0bd366cd8b4e0bb2f8754392be22cb12" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="group__SurfacePathSubgroup_1ga0bd366cd8b4e0bb2f8754392be22cb12" kindref="member">findExtremeEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/><ref refid="group__SurfacePathSubgroup_1ga3887057b7aa95d9993b5ce57130c25a6" kindref="member">ExtremeEdgeType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="108" refid="group__SurfacePathSubgroup_1gabfa071156dd75b886635006c22723f0d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__SurfacePathSubgroup_1gabfa071156dd75b886635006c22723f0d" kindref="member">findExtremeEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>field,<sp/><ref refid="group__SurfacePathSubgroup_1ga3887057b7aa95d9993b5ce57130c25a6" kindref="member">ExtremeEdgeType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="group__SurfacePathSubgroup_1ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>HashMap&lt;VertId,<sp/>VertId&gt;<sp/><ref refid="group__SurfacePathSubgroup_1ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5" kindref="member">computeClosestSurfacePathTargets</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
+<codeline lineno="112" refid="group__SurfacePathSubgroup_1ga413fe12435f61ff1dc99b12d02dd624b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, VertId&gt;</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga413fe12435f61ff1dc99b12d02dd624b" kindref="member">computeClosestSurfacePathTargets</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>ends,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>vertRegion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>VertScalars<sp/>*<sp/>outSurfaceDistances<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="group__SurfacePathSubgroup_1gaaa4dc30756e93cfc4cd2f88758193360" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>SurfacePaths<sp/><ref refid="group__SurfacePathSubgroup_1gaaa4dc30756e93cfc4cd2f88758193360" kindref="member">getSurfacePathsViaVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
+<codeline lineno="118" refid="group__SurfacePathSubgroup_1ga51f2d8eb7df287db536671a753ba514e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kindref="member">SurfacePaths</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga51f2d8eb7df287db536671a753ba514e" kindref="member">getSurfacePathsViaVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="group__SurfacePathSubgroup_1gacebe3b7371a72e49ddfbabc14fd008b4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1gacebe3b7371a72e49ddfbabc14fd008b4" kindref="member">surfacePathLength</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SurfacePath&amp;<sp/>surfacePath<sp/>);</highlight></codeline>
+<codeline lineno="121" refid="group__SurfacePathSubgroup_1ga2b6c054262dc6be330b0652f3dcb330f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1ga2b6c054262dc6be330b0652f3dcb330f" kindref="member">surfacePathLength</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref>&amp;<sp/>surfacePath<sp/>);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="group__SurfacePathSubgroup_1gaa32bef2e775ccf6172324f9718b2089f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1gaa32bef2e775ccf6172324f9718b2089f" kindref="member">geodesicPathLength</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeodesicPath" kindref="compound">GeodesicPath</ref>&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="124" refid="group__SurfacePathSubgroup_1ga08f66384a283a384aa43dcdb8bc7988e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathSubgroup_1ga08f66384a283a384aa43dcdb8bc7988e" kindref="member">geodesicPathLength</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeodesicPath" kindref="compound">GeodesicPath</ref>&amp;<sp/>path<sp/>);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="group__SurfacePathSubgroup_1ga874e90d25d0cf437f34834d739fa588c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contour3f<sp/><ref refid="group__SurfacePathSubgroup_1ga874e90d25d0cf437f34834d739fa588c" kindref="member">surfacePathToContour3f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SurfacePath<sp/>&amp;<sp/>line<sp/>);</highlight></codeline>
-<codeline lineno="128" refid="group__SurfacePathSubgroup_1ga8dbc7e2393ed3d315467293b5b2ba1e2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours3f<sp/><ref refid="group__SurfacePathSubgroup_1ga8dbc7e2393ed3d315467293b5b2ba1e2" kindref="member">surfacePathsToContours3f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SurfacePaths<sp/>&amp;<sp/>lines<sp/>);</highlight></codeline>
+<codeline lineno="127" refid="group__SurfacePathSubgroup_1ga75a2b2c564cafc8e986c3749ef417349" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga75a2b2c564cafc8e986c3749ef417349" kindref="member">surfacePathToContour3f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref><sp/>&amp;<sp/>line<sp/>);</highlight></codeline>
+<codeline lineno="128" refid="group__SurfacePathSubgroup_1ga7363609bc214bf449089b0bc47c91f9e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga7363609bc214bf449089b0bc47c91f9e" kindref="member">surfacePathsToContours3f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kindref="member">SurfacePaths</ref><sp/>&amp;<sp/>lines<sp/>);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="group__SurfacePathSubgroup_1ga8a5e36542111a308691e110f60e7f364" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contour3f<sp/><ref refid="group__SurfacePathSubgroup_1ga8a5e36542111a308691e110f60e7f364" kindref="member">geodesicPathToContour3f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeodesicPath" kindref="compound">GeodesicPath</ref>&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="131" refid="group__SurfacePathSubgroup_1ga21cf317952d09d64b66f7adbb3003bbb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/><ref refid="group__SurfacePathSubgroup_1ga21cf317952d09d64b66f7adbb3003bbb" kindref="member">geodesicPathToContour3f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeodesicPath" kindref="compound">GeodesicPath</ref>&amp;<sp/>path<sp/>);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="135"><highlight class="normal">}<sp/></highlight></codeline>

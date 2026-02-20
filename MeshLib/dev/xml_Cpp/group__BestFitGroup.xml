@@ -5,9 +5,9 @@
     <title>BestFit</title>
     <innerclass refid="classMR_1_1PointAccumulator" prot="public">MR::PointAccumulator</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__BestFitGroup_1gabf09681953aae673c37c9121925a3aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::accumulatePoints</definition>
+      <memberdef kind="function" id="group__BestFitGroup_1ga382b331863af4b9efc376e8a6b6a8f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::accumulatePoints</definition>
         <argsstring>(PointAccumulator &amp;accum, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *xf=nullptr)</argsstring>
         <name>accumulatePoints</name>
         <qualifiedname>MR::accumulatePoints</qualifiedname>
@@ -31,11 +31,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="57" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="57" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="57" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="57" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BestFitGroup_1ga141cf1a05b86ed500cac08d1205ca80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::accumulateWeighedPoints</definition>
+      <memberdef kind="function" id="group__BestFitGroup_1ga1949e6a0bb8f1ea9cce492d3bc6822ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::accumulateWeighedPoints</definition>
         <argsstring>(PointAccumulator &amp;accum, const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; float &gt; &amp;weights, const AffineXf3f *xf=nullptr)</argsstring>
         <name>accumulateWeighedPoints</name>
         <qualifiedname>MR::accumulateWeighedPoints</qualifiedname>
@@ -63,11 +63,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="60" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="60" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="60" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="60" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BestFitGroup_1ga9bca49efd608d5a3ee129ae497696532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::accumulateFaceCenters</definition>
+      <memberdef kind="function" id="group__BestFitGroup_1ga431f41a10bf3a8e6da02de4aa5efa819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::accumulateFaceCenters</definition>
         <argsstring>(PointAccumulator &amp;accum, const MeshPart &amp;mp, const AffineXf3f *xf=nullptr)</argsstring>
         <name>accumulateFaceCenters</name>
         <qualifiedname>MR::accumulateFaceCenters</qualifiedname>
@@ -91,11 +91,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="63" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="63" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="63" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="63" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BestFitGroup_1ga6ea5e287b2854466c0edc8429e4f3728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::accumulateLineCenters</definition>
+      <memberdef kind="function" id="group__BestFitGroup_1gadd8ec98f764c742961e5743805592c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::accumulateLineCenters</definition>
         <argsstring>(PointAccumulator &amp;accum, const Polyline3 &amp;pl, const AffineXf3f *xf=nullptr)</argsstring>
         <name>accumulateLineCenters</name>
         <qualifiedname>MR::accumulateLineCenters</qualifiedname>
@@ -119,11 +119,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="66" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="66" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="66" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="66" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BestFitGroup_1gae9b7d5125bd93295ef7d082687d116b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::accumulatePoints</definition>
+      <memberdef kind="function" id="group__BestFitGroup_1ga38c918865ff22c325ba1364003248481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::accumulatePoints</definition>
         <argsstring>(PointAccumulator &amp;accum, const PointCloudPart &amp;pcp, const AffineXf3f *xf=nullptr)</argsstring>
         <name>accumulatePoints</name>
         <qualifiedname>MR::accumulatePoints</qualifiedname>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="69" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="69" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="69" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" declline="69" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -190,7 +190,7 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    assert( maxGuideDistSq &gt; 0 );</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">const</span> <span class="keyword">auto</span> d = pos - guidePos;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">float</span> distSq = sqr( d );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">float</span> distSq = <a class="code hl_function" href="group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976">sqr</a>( d );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordflow">if</span> ( distSq &lt;= maxGuideDistSq )</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> pos;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">return</span> guidePos + std::sqrt( maxGuideDistSq / distSq ) * d;</div>
@@ -200,6 +200,7 @@ $(function(){initNavTree('MRRelaxParams_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>} </div>
 <div class="ttc" id="aMRMesh_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdoc">squared value</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:756</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga47663082758ba9a1d7d9942c1d2550fc"><div class="ttname"><a href="group__GeneralGroup.html#ga47663082758ba9a1d7d9942c1d2550fc">MR::RelaxParams::_padding</a></div><div class="ttdeci">MR_BIND_IGNORE int _padding</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:35</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6ab288ae813e1aa688312e31c258df71"><div class="ttname"><a href="group__GeneralGroup.html#ga6ab288ae813e1aa688312e31c258df71">MR::RelaxApproxType</a></div><div class="ttdeci">RelaxApproxType</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:39</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga7f58a3b0b7e5c09209f53edd90b4371a"><div class="ttname"><a href="group__GeneralGroup.html#ga7f58a3b0b7e5c09209f53edd90b4371a">MR::RelaxParams::force</a></div><div class="ttdeci">float force</div><div class="ttdoc">speed of relaxing, typical values (0.0, 0.5]</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:23</div></div>

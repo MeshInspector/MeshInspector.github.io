@@ -21,17 +21,17 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="group__GeneralGroup_1ga0fe291e46a58cddf57661fe94f5a2a47" kind="function"><name>~ShadowsGL</name></member>
-      <member refid="group__GeneralGroup_1gaa49107de3327a7c3585b3d42b97fbfb1" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" kind="function"><name>~ShadowsGL</name></member>
+      <member refid="group__GeneralGroup_1ga876b1cadd41eef4dda31a23ad2ef09be" kind="function"><name>enable</name></member>
       <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" kind="function"><name>isEnabled</name></member>
       <member refid="group__GeneralGroup_1ga37112847b6740a4ff382b4ea87a89fa9" kind="function"><name>getShadowShift</name></member>
-      <member refid="group__GeneralGroup_1ga1f96229c0027acb80974fbeccb9fff4d" kind="function"><name>setShadowShift</name></member>
+      <member refid="group__GeneralGroup_1gaaedc6c302db8d61a0f156336ff02572b" kind="function"><name>setShadowShift</name></member>
       <member refid="group__GeneralGroup_1ga04bd8703025b9a6312dff0a43be1c871" kind="function"><name>getShadowColor</name></member>
-      <member refid="group__GeneralGroup_1ga9d6d931d3b779b456540569abbceb962" kind="function"><name>setShadowColor</name></member>
+      <member refid="group__GeneralGroup_1ga5fc18723f52a72d76d43b900b6a72d4e" kind="function"><name>setShadowColor</name></member>
       <member refid="group__GeneralGroup_1gaab09524b5ecb1b890bfb298e7ce253ab" kind="function"><name>getBlurRadius</name></member>
-      <member refid="group__GeneralGroup_1ga48bc9b48164b58c3865f8c4b80dfea15" kind="function"><name>setBlurRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf671aa2b7eb9ffab2cc84a1d9735cca9" kind="function"><name>setBlurRadius</name></member>
       <member refid="group__GeneralGroup_1ga0f442b02859f8ff90f016b8bb644095a" kind="function"><name>getQuality</name></member>
-      <member refid="group__GeneralGroup_1gaf9db8ab9dcc3eb53d435f5c2da5425f0" kind="function"><name>setQuality</name></member>
+      <member refid="group__GeneralGroup_1ga1de833d1cc616ec5fafcfd2c26ba0d13" kind="function"><name>setQuality</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga7a9865affab7f33bb5fdcd6147bc2432" kind="function"><name>preDraw_</name></member>
@@ -57,7 +57,7 @@
       <member refid="group__GeneralGroup_1ga7180a41bfe4290617bcd9719714b67a4" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawLowSize_</name></member>
       <member refid="group__GeneralGroup_1gaf19d7d45c062332fae1db2eea0abe889" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawShadow_</name></member>
       <member refid="group__GeneralGroup_1ga4819d4cc62a7f6b5512217ecc0364419" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawTexture_</name></member>
-      <member refid="group__GeneralGroup_1gaa49107de3327a7c3585b3d42b97fbfb1" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga876b1cadd41eef4dda31a23ad2ef09be" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enable</name></member>
       <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enabled_</name></member>
       <member refid="group__GeneralGroup_1gaab09524b5ecb1b890bfb298e7ce253ab" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getBlurRadius</name></member>
       <member refid="group__GeneralGroup_1ga0f442b02859f8ff90f016b8bb644095a" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getQuality</name></member>
@@ -77,13 +77,13 @@
       <member refid="group__GeneralGroup_1ga28feee6b43b58046c1ed775c8328cddc" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>quality_</name></member>
       <member refid="group__GeneralGroup_1gacd2e34d99fa9c15561564a2ed9a1abec" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>sceneFramebuffer_</name></member>
       <member refid="group__GeneralGroup_1ga5357282c769752c656bd12228da222ca" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>sceneSize_</name></member>
-      <member refid="group__GeneralGroup_1ga48bc9b48164b58c3865f8c4b80dfea15" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setBlurRadius</name></member>
-      <member refid="group__GeneralGroup_1gaf9db8ab9dcc3eb53d435f5c2da5425f0" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setQuality</name></member>
-      <member refid="group__GeneralGroup_1ga9d6d931d3b779b456540569abbceb962" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowColor</name></member>
-      <member refid="group__GeneralGroup_1ga1f96229c0027acb80974fbeccb9fff4d" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowShift</name></member>
+      <member refid="group__GeneralGroup_1gaf671aa2b7eb9ffab2cc84a1d9735cca9" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setBlurRadius</name></member>
+      <member refid="group__GeneralGroup_1ga1de833d1cc616ec5fafcfd2c26ba0d13" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setQuality</name></member>
+      <member refid="group__GeneralGroup_1ga5fc18723f52a72d76d43b900b6a72d4e" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowColor</name></member>
+      <member refid="group__GeneralGroup_1gaaedc6c302db8d61a0f156336ff02572b" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowShift</name></member>
       <member refid="group__GeneralGroup_1ga039201a9c846ae2add0583c7e32f5c4b" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowColor_</name></member>
       <member refid="group__GeneralGroup_1gab98bf8d9ab5f4a8ee99afa09be05ec3f" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowShift_</name></member>
-      <member refid="group__GeneralGroup_1ga0fe291e46a58cddf57661fe94f5a2a47" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>~ShadowsGL</name></member>
+      <member refid="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>~ShadowsGL</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

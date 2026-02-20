@@ -21,9 +21,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__IOFiltersGroup_1ga92c17e5c77b16529d727a2fe2b1c1148" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API IOFilters</type>
-        <definition>MRMESH_API IOFilters MR::operator|</definition>
+      <memberdef kind="function" id="group__IOFiltersGroup_1gae94abfb9874900b0fa66d3383ea8489b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IOFilters</type>
+        <definition>IOFilters MR::operator|</definition>
         <argsstring>(const IOFilters &amp;a, const IOFilters &amp;b)</argsstring>
         <name>operator|</name>
         <qualifiedname>MR::operator|</qualifiedname>
@@ -42,11 +42,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="35" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="35" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="35" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="35" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__IOFiltersGroup_1gadd9420cabaaa71b707111e6213f0fdc6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; IOFilter &gt;</type>
-        <definition>MRMESH_API std::optional&lt; IOFilter &gt; MR::findFilter</definition>
+      <memberdef kind="function" id="group__IOFiltersGroup_1ga785198f857650c3631e4bce518e9518f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; IOFilter &gt;</type>
+        <definition>std::optional&lt; IOFilter &gt; MR::findFilter</definition>
         <argsstring>(const IOFilters &amp;filters, const std::string &amp;extension)</argsstring>
         <name>findFilter</name>
         <qualifiedname>MR::findFilter</qualifiedname>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="38" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="38" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="38" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="38" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

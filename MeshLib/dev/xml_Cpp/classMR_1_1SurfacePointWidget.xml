@@ -23,27 +23,27 @@
       <member refid="group__GeneralGroup_1ga4957d56df7a9514f0e31636bf16389fe" kind="variable"><name>endMove_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga7d9c8acabf47d730f83f1d17944e7462" kind="function"><name>~SurfacePointWidget</name></member>
-      <member refid="group__GeneralGroup_1ga8caf797895b0781cf13598ae376d1941" kind="function"><name>create</name></member>
-      <member refid="group__GeneralGroup_1gac576ca6d2ee3f2e66a4f10dea86ebe4e" kind="function"><name>create</name></member>
-      <member refid="group__GeneralGroup_1gadbc7a66606acd915861c47e2c89b347e" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga0e9391f8516c7ce8bfa47457eac393de" kind="function"><name>~SurfacePointWidget</name></member>
+      <member refid="group__GeneralGroup_1gaadc0a7d57266cccc5ac9edfc261e5671" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga7383fd7d45bd6c8f4a2ac55416da87fd" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga03b99f9869a71fb7d4f478bede15845d" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga0bd720379a39e8c1c66edd479989a1da" kind="function"><name>getPickSphere</name></member>
       <member refid="group__GeneralGroup_1gaaf1b995da6798f3caa166aff48dd0958" kind="function"><name>getParameters</name></member>
-      <member refid="group__GeneralGroup_1ga7490f0d419228b077322177f164a2552" kind="function"><name>setParameters</name></member>
-      <member refid="group__GeneralGroup_1ga67378b4ec7b94d338fe63c5d977dd35b" kind="function"><name>setBaseColor</name></member>
-      <member refid="group__GeneralGroup_1ga8d61ebacdd506518179659bb8b8c449b" kind="function"><name>updateParameters</name></member>
+      <member refid="group__GeneralGroup_1gab5e19b26508c014dfc2d2bb458ec5237" kind="function"><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1gaae3593c7f8c095b4f7e8af0a2b4909a3" kind="function"><name>setBaseColor</name></member>
+      <member refid="group__GeneralGroup_1gaeaced8a1ea2ff5a94e9554c322c75d00" kind="function"><name>updateParameters</name></member>
       <member refid="group__GeneralGroup_1ga798cfe4e8403435129f4788dbfe0604b" kind="function"><name>getAutoHover</name></member>
       <member refid="group__GeneralGroup_1gaf0454cbea26d720ec55e0e993b62d01b" kind="function"><name>setAutoHover</name></member>
-      <member refid="group__GeneralGroup_1ga4023f6d9ae5235d692afad4374b6134e" kind="function"><name>setHovered</name></member>
+      <member refid="group__GeneralGroup_1ga8890a6f39012615da6b44c1ee059e04a" kind="function"><name>setHovered</name></member>
       <member refid="group__GeneralGroup_1gadf37cc4ca96ed9fd71cd2578f8a46f07" kind="function"><name>getCurrentPosition</name></member>
-      <member refid="group__GeneralGroup_1gace3bc954b8623ec3e305c97cda6bf20c" kind="function"><name>getCoords</name></member>
+      <member refid="group__GeneralGroup_1ga775322fca57cb51a042839d08f3b3548" kind="function"><name>getCoords</name></member>
       <member refid="group__GeneralGroup_1gad67cc10d46142d987a91f3e113c348c4" kind="function"><name>toVector3f</name></member>
       <member refid="group__GeneralGroup_1ga4245a8c7d95d9eed5fa164c5fb3ba261" kind="function"><name>findCoords</name></member>
       <member refid="group__GeneralGroup_1ga0ebbe2422458ced3c507e3b1720682df" kind="function"><name>findNormal</name></member>
       <member refid="group__GeneralGroup_1ga6beef790b7d769b9129087231ce6c11a" kind="function"><name>getCurrentPositionMeshTriPoint</name></member>
-      <member refid="group__GeneralGroup_1ga1e2d9f33aba5dcb3e0d9c0dd6ea00e59" kind="function"><name>setCurrentPosition</name></member>
-      <member refid="group__GeneralGroup_1ga1636e12784d40c8c0e9fd238fa08b998" kind="function"><name>setCurrentPosition</name></member>
-      <member refid="group__GeneralGroup_1ga2035a5c0ceddd1f622ce5574dd8c12dc" kind="function"><name>swapCurrentPosition</name></member>
+      <member refid="group__GeneralGroup_1ga2a10e9420dd0e1e230bcde7652dcc237" kind="function"><name>setCurrentPosition</name></member>
+      <member refid="group__GeneralGroup_1ga7e98c028a246386e57f63d5d2f21ee35" kind="function"><name>setCurrentPosition</name></member>
+      <member refid="group__GeneralGroup_1ga6bf4280ad405f8c4542c007ca903b3a4" kind="function"><name>swapCurrentPosition</name></member>
       <member refid="group__GeneralGroup_1ga4b563c703bd7a9f082fd8808411d85de" kind="function"><name>setCanMoveCallback</name></member>
       <member refid="group__GeneralGroup_1gacf861cead782987809b2abb5be8d1c62" kind="function"><name>setStartMoveCallback</name></member>
       <member refid="group__GeneralGroup_1ga074b1ad08082a7ae08f4ca175e22a4de" kind="function"><name>setOnMoveCallback</name></member>
@@ -56,12 +56,12 @@
       <member refid="group__GeneralGroup_1gaa3db4d8b322b5367b1d58d57cc0e22e0" kind="function"><name>isPickIntoBackFace</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga93d818e0b954143bcb04acae5ce3237c" kind="function"><name>onMouseDown_</name></member>
-      <member refid="group__GeneralGroup_1gac15edafdd3eb62abebf41be1f0f18f55" kind="function"><name>onMouseUp_</name></member>
-      <member refid="group__GeneralGroup_1ga95301e3cac42b1051c6df0e89da2ede6" kind="function"><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gacd80c332cf29a7995113ef3e57b4ebb8" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gab3cbbe2dd3b68dbc3e10e418cd599622" kind="function"><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga03a72283b39e59212cb6f07cd40024c4" kind="function"><name>onMouseMove_</name></member>
       <member refid="group__GeneralGroup_1ga209840e3c2e5e106c31ee1c169f0a043" kind="function"><name>updatePositionAndRadius_</name></member>
       <member refid="group__GeneralGroup_1ga57885127243cdfeaf0c2dbaab0ee920c" kind="function"><name>updatePositionAndRadiusMesh_</name></member>
-      <member refid="group__GeneralGroup_1gadcacfda944cc34a9f0980e8047d9b408" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga11ff8055f2107bcb9eaf781db0daa378" kind="function"><name>preDraw_</name></member>
       <member refid="group__GeneralGroup_1gaccdddcf1a5c7f161f80320e93f235894" kind="function"><name>setPointRadius_</name></member>
       <member refid="group__GeneralGroup_1ga872c01e092435ca518385ed5718e231c" kind="function"><name>setSphereColor_</name></member>
     </sectiondef>
@@ -110,8 +110,8 @@
       <member refid="group__GeneralGroup_1gab24acd35a87bae2f729e25c4b403840d" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>baseObject_</name></member>
       <member refid="group__GeneralGroup_1gadf316366e883eae0bc5a7017cdb3e256" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>canMove_</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>connect</name></member>
-      <member refid="group__GeneralGroup_1ga8caf797895b0781cf13598ae376d1941" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>create</name></member>
-      <member refid="group__GeneralGroup_1gac576ca6d2ee3f2e66a4f10dea86ebe4e" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1gaadc0a7d57266cccc5ac9edfc261e5671" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga7383fd7d45bd6c8f4a2ac55416da87fd" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>create</name></member>
       <member refid="group__GeneralGroup_1ga5bea0fcbc60ddc5e9d0a95dd1d0090fe" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>currentPos_</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga4957d56df7a9514f0e31636bf16389fe" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>endMove_</name></member>
@@ -119,7 +119,7 @@
       <member refid="group__GeneralGroup_1ga0ebbe2422458ced3c507e3b1720682df" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>findNormal</name></member>
       <member refid="group__GeneralGroup_1ga798cfe4e8403435129f4788dbfe0604b" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getAutoHover</name></member>
       <member refid="group__GeneralGroup_1ga97ca2957633a2a8f6425d4f36a8df687" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getBaseSurface</name></member>
-      <member refid="group__GeneralGroup_1gace3bc954b8623ec3e305c97cda6bf20c" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getCoords</name></member>
+      <member refid="group__GeneralGroup_1ga775322fca57cb51a042839d08f3b3548" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getCoords</name></member>
       <member refid="group__GeneralGroup_1gadf37cc4ca96ed9fd71cd2578f8a46f07" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getCurrentPosition</name></member>
       <member refid="group__GeneralGroup_1ga6beef790b7d769b9129087231ce6c11a" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getCurrentPositionMeshTriPoint</name></member>
       <member refid="group__GeneralGroup_1gaaf1b995da6798f3caa166aff48dd0958" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>getParameters</name></member>
@@ -129,36 +129,36 @@
       <member refid="group__GeneralGroup_1gac30afb728e5209b6e8cb9d5334ff284e" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>isOnMove_</name></member>
       <member refid="group__GeneralGroup_1gaa3db4d8b322b5367b1d58d57cc0e22e0" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>isPickIntoBackFace</name></member>
       <member refid="group__GeneralGroup_1gaf8ca023142a553dcd48095fac027030d" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>onBaseObjectWorldXfChanged_</name></member>
-      <member refid="group__GeneralGroup_1ga93d818e0b954143bcb04acae5ce3237c" prot="private" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>onMouseDown_</name></member>
-      <member refid="group__GeneralGroup_1ga95301e3cac42b1051c6df0e89da2ede6" prot="private" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>onMouseMove_</name></member>
-      <member refid="group__GeneralGroup_1gac15edafdd3eb62abebf41be1f0f18f55" prot="private" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1gacd80c332cf29a7995113ef3e57b4ebb8" prot="private" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga03a72283b39e59212cb6f07cd40024c4" prot="private" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gab3cbbe2dd3b68dbc3e10e418cd599622" prot="private" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>onMouseUp_</name></member>
       <member refid="group__GeneralGroup_1ga626e1a76bd2fe171134cfc6d01f5bb84" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>onMove_</name></member>
       <member refid="group__GeneralGroup_1gaa46607c8b514b7f180e68965e7d18f07" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>params_</name></member>
       <member refid="group__GeneralGroup_1gab76d2305eddef8db3c0cd76643e02f5b" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>pickSphere_</name></member>
       <member refid="group__GeneralGroup_1gad925d10fc0ebaadb952aaa7dd07dc0f2" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>PositionType</name></member>
-      <member refid="group__GeneralGroup_1gadcacfda944cc34a9f0980e8047d9b408" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>preDraw_</name></member>
-      <member refid="group__GeneralGroup_1gadbc7a66606acd915861c47e2c89b347e" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga11ff8055f2107bcb9eaf781db0daa378" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga03b99f9869a71fb7d4f478bede15845d" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1gaf0454cbea26d720ec55e0e993b62d01b" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setAutoHover</name></member>
-      <member refid="group__GeneralGroup_1ga67378b4ec7b94d338fe63c5d977dd35b" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setBaseColor</name></member>
+      <member refid="group__GeneralGroup_1gaae3593c7f8c095b4f7e8af0a2b4909a3" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setBaseColor</name></member>
       <member refid="group__GeneralGroup_1ga4b563c703bd7a9f082fd8808411d85de" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setCanMoveCallback</name></member>
-      <member refid="group__GeneralGroup_1ga1e2d9f33aba5dcb3e0d9c0dd6ea00e59" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setCurrentPosition</name></member>
-      <member refid="group__GeneralGroup_1ga1636e12784d40c8c0e9fd238fa08b998" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setCurrentPosition</name></member>
+      <member refid="group__GeneralGroup_1ga2a10e9420dd0e1e230bcde7652dcc237" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setCurrentPosition</name></member>
+      <member refid="group__GeneralGroup_1ga7e98c028a246386e57f63d5d2f21ee35" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setCurrentPosition</name></member>
       <member refid="group__GeneralGroup_1ga13db908e8da8c97e871385cef92ef43d" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setEndMoveCallback</name></member>
-      <member refid="group__GeneralGroup_1ga4023f6d9ae5235d692afad4374b6134e" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setHovered</name></member>
+      <member refid="group__GeneralGroup_1ga8890a6f39012615da6b44c1ee059e04a" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setHovered</name></member>
       <member refid="group__GeneralGroup_1ga074b1ad08082a7ae08f4ca175e22a4de" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setOnMoveCallback</name></member>
-      <member refid="group__GeneralGroup_1ga7490f0d419228b077322177f164a2552" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1gab5e19b26508c014dfc2d2bb458ec5237" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setParameters</name></member>
       <member refid="group__GeneralGroup_1gaccdddcf1a5c7f161f80320e93f235894" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setPointRadius_</name></member>
       <member refid="group__GeneralGroup_1ga872c01e092435ca518385ed5718e231c" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setSphereColor_</name></member>
       <member refid="group__GeneralGroup_1gacf861cead782987809b2abb5be8d1c62" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>setStartMoveCallback</name></member>
       <member refid="group__GeneralGroup_1ga891c52a3ce97b26f444d271f1943378a" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>startDragging</name></member>
       <member refid="group__GeneralGroup_1gacd5dc0d35a05902cf32d2012e127521b" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>startMove_</name></member>
-      <member refid="group__GeneralGroup_1ga2035a5c0ceddd1f622ce5574dd8c12dc" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>swapCurrentPosition</name></member>
+      <member refid="group__GeneralGroup_1ga6bf4280ad405f8c4542c007ca903b3a4" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>swapCurrentPosition</name></member>
       <member refid="group__GeneralGroup_1gad67cc10d46142d987a91f3e113c348c4" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>toVector3f</name></member>
-      <member refid="group__GeneralGroup_1ga8d61ebacdd506518179659bb8b8c449b" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>updateParameters</name></member>
+      <member refid="group__GeneralGroup_1gaeaced8a1ea2ff5a94e9554c322c75d00" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>updateParameters</name></member>
       <member refid="group__GeneralGroup_1ga209840e3c2e5e106c31ee1c169f0a043" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>updatePositionAndRadius_</name></member>
       <member refid="group__GeneralGroup_1ga57885127243cdfeaf0c2dbaab0ee920c" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>updatePositionAndRadiusMesh_</name></member>
       <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::SurfacePointWidget</scope><name>~MultiListener</name></member>
-      <member refid="group__GeneralGroup_1ga7d9c8acabf47d730f83f1d17944e7462" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>~SurfacePointWidget</name></member>
+      <member refid="group__GeneralGroup_1ga0e9391f8516c7ce8bfa47457eac393de" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>~SurfacePointWidget</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

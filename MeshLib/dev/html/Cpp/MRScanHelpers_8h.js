@@ -1,6 +1,6 @@
 var MRScanHelpers_8h =
 [
-    [ "putScanFileNameInZ", "MRScanHelpers_8h.html#gab9229ab4444b58ce99c132c6509d0e6e", null ],
-    [ "sortScanFilesByName", "MRScanHelpers_8h.html#ga5f2711691fd38c7824e19ec119dd53c5", null ],
-    [ "sortScansByOrder", "MRScanHelpers_8h.html#ga58f5f81ba8aa5012048922f0bd323851", null ]
+    [ "putScanFileNameInZ", "MRScanHelpers_8h.html#gad32e4b25d65d4972f9223a5261cbd1b9", null ],
+    [ "sortScanFilesByName", "MRScanHelpers_8h.html#ga5e508caef59590753520653304096fa8", null ],
+    [ "sortScansByOrder", "MRScanHelpers_8h.html#gaff91c68f41381e746ca7f806ee6e6fc8", null ]
 ];

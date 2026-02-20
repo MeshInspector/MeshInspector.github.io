@@ -1,4 +1,4 @@
 var MRImproveSampling_8h =
 [
-    [ "improveSampling", "MRImproveSampling_8h.html#gad56601e20058641f49fa277149d87e08", null ]
+    [ "improveSampling", "MRImproveSampling_8h.html#gaac1c0003890912dca03aafa624951ad4", null ]
 ];

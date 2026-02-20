@@ -17,8 +17,8 @@
       <member refid="group__GeneralGroup_1gaada3c28db71274d822834a3645128f64" kind="variable"><name>textToExtraTextSpacing</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga226d37af8e339442720d4ed212593803" kind="function"><name>renderPass</name></member>
-      <member refid="group__GeneralGroup_1ga54a33b1b8786f39a98b4ae98ff04e9ba" kind="function"><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga0aa626de7514fbd1a5f879106a7500d6" kind="function"><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1gadd54b748f2e6d2318412e42a09b7cf1a" kind="function"><name>onClick</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -178,13 +178,13 @@
       <member refid="group__GeneralGroup_1ga7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>BasicUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>clickableCornerA</name></member>
       <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>clickableCornerB</name></member>
-      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::RenderNameObject::Task</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gae05bf19b46876470cef45cd15178099f" prot="public" virt="virtual"><scope>MR::RenderNameObject::Task</scope><name>earlyBackwardPass</name></member>
       <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>enabled</name></member>
       <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>InteractionMask</name></member>
       <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>isHovered</name></member>
       <member refid="group__GeneralGroup_1gad0dded6f176c6edf2711fabdeb217a5d" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>object</name></member>
-      <member refid="group__GeneralGroup_1ga54a33b1b8786f39a98b4ae98ff04e9ba" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1gadd54b748f2e6d2318412e42a09b7cf1a" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>onClick</name></member>
       <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderNameObject::Task</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderNameObject::Task</scope><name>operator=</name></member>
@@ -193,7 +193,7 @@
       <member refid="group__GeneralGroup_1ga5549735766833f3928cb969df8aff806" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>params</name></member>
       <member refid="group__GeneralGroup_1ga7bcbbabe3659dea6e3ae51bd43e4aee4" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>point</name></member>
       <member refid="group__GeneralGroup_1ga3000f727b32a23379d6c293f059be327" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>point2</name></member>
-      <member refid="group__GeneralGroup_1ga226d37af8e339442720d4ed212593803" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga0aa626de7514fbd1a5f879106a7500d6" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>renderPass</name></member>
       <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>renderTaskDepth</name></member>
       <member refid="group__GeneralGroup_1ga77e2a37679634cb49bd045efd0ab64d0" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>text</name></member>
       <member refid="group__GeneralGroup_1gaf8502e3838f3524f69674c49a793cb9a" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>textCenter</name></member>

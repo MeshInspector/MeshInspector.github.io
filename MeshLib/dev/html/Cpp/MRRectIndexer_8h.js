@@ -8,7 +8,7 @@ var MRRectIndexer_8h =
       [ "MinusX", "MRRectIndexer_8h.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454", null ],
       [ "Count", "MRRectIndexer_8h.html#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "expandPixelMask", "MRRectIndexer_8h.html#ga6c5838a3065551d1adbcde13e5cf895b", null ],
+    [ "expandPixelMask", "MRRectIndexer_8h.html#ga7fff85ab73fba784cf244960e540806c", null ],
     [ "opposite", "MRRectIndexer_8h.html#ga91a308e751ba7d6ace30ea1a895eb3fb", null ],
-    [ "shrinkPixelMask", "MRRectIndexer_8h.html#gacbedf1abc59aa1401992cc4d1e1ed306", null ]
+    [ "shrinkPixelMask", "MRRectIndexer_8h.html#ga74a690f4a3588537a12fb70388b1f65a", null ]
 ];

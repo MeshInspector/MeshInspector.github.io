@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CameraOrientation" kind="class" language="C++" prot="public">
     <compoundname>MR::CameraOrientation</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR::StatePlugin</basecompoundref>
+    <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
     <includes refid="MRCameraOrientationPlugin_8h" local="no">MRCameraOrientationPlugin.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" kind="variable"><name>position_</name></member>
@@ -26,40 +26,196 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="10">
+        <label>Connectables...</label>
+      </node>
       <node id="1">
         <label>MR::CameraOrientation</label>
         <link refid="classMR_1_1CameraOrientation"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="7">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="8">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="6">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="9">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>MR::StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="11">
+        <label>Connectables...</label>
+      </node>
       <node id="1">
         <label>MR::CameraOrientation</label>
         <link refid="classMR_1_1CameraOrientation"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="8">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="9">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="7">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="10">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>MR::StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="14" bodyend="34"/>
     <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>autofit_</name></member>
       <member refid="group__GeneralGroup_1gaded26055d65895c92ebe389028088749" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>blocking</name></member>
       <member refid="group__GeneralGroup_1ga7b825b1fc733e53dfbaab323acabaee3" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>CameraOrientation</name></member>
+      <member refid="group__GeneralGroup_1ga637d5932d31bff8b065062c7e191fc05" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>checkStringMask</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="group__GeneralGroup_1ga4f65b03557a2fc96a2243d1d1ce7e99b" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>dialogIsOpen</name></member>
+      <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>dialogIsOpen_</name></member>
       <member refid="group__GeneralGroup_1ga4bb143b3a4b81b06d8179e39509d78f4" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>direction_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga74aef5f0ae8518403793054b02f1b8c1" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>drawCameraPresets_</name></member>
       <member refid="group__GeneralGroup_1ga84a6d26e91901eef8efc27aa3a167aef" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>enable</name></member>
       <member refid="group__GeneralGroup_1gab1bda1ad0175c8eb29937d2f0fd37548" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getCamera_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1gac60894f731e40c4efde10ce83ec00f98" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga92b35d044111284af9dab8791a53c660" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getTabName</name></member>
+      <member refid="group__GeneralGroup_1ga6b50155ff61345dc5b8abd5c4500b86b" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga4a73edaf848e58004c9362f2ac6df049" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1gaf3d5cf08dbe17e2505a95279c9871c31" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isAutofit_</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga23d5a6b87188d85970d7592c1c901ff8" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>MultiListenerBase</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga98563ce099c1b026abb38869a32f443f" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>onDisable_</name></member>
       <member refid="group__GeneralGroup_1gacb7cb75211af29c82f3846598c3afee9" prot="private" virt="virtual"><scope>MR::CameraOrientation</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>plugin_name</name></member>
+      <member refid="group__GeneralGroup_1ga1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>PluginParent</name></member>
       <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>position_</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga0223aec29e05a326d4505029393e7608" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>setUIName</name></member>
+      <member refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga816498e728c95b55dfa2984b2ad45d35" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gadede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>sortString</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a881049c271f0ed1e696cc1d9dd7b19d9" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1gac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>tab_</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1ga14f462561c6d7534870cd58ca7bf20fb" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>UINameSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>updateSelection</name></member>
       <member refid="group__GeneralGroup_1ga7b52da913ea8a6b3924087c175438f9d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>upDir_</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~IPluginUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1ga85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~StateListenerPlugin</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~ViewerPlugin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

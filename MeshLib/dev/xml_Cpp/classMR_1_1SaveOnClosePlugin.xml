@@ -12,8 +12,8 @@
       <member refid="group__GeneralGroup_1ga3b7539c88a24677b7bad805b0965fd03" kind="variable"><name>activeModalHighlightTimer_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gacd23d814e2dac0931459aee0b97440b3" kind="function"><name>init</name></member>
-      <member refid="group__GeneralGroup_1gaac82fa6173a5c41f046e06e39465445e" kind="function"><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gaf872dbdc08c414c07982a40ac9489cf5" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga6ea54d4f1a94548bc1b8a7a08183ca74" kind="function"><name>shutdown</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga910af9ab044513672ec4ae3f4a01e03c" kind="function"><name>preDraw_</name></member>
@@ -82,13 +82,13 @@
       <member refid="group__GeneralGroup_1ga3b7539c88a24677b7bad805b0965fd03" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>activeModalHighlightTimer_</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>disconnect</name></member>
-      <member refid="group__GeneralGroup_1gacd23d814e2dac0931459aee0b97440b3" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1gaf872dbdc08c414c07982a40ac9489cf5" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1gaa9c50e906abc81d5db0abb34a9ce6e4c" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>initialized_</name></member>
       <member refid="group__GeneralGroup_1gacc8cf95e0293dc70c367f87fab3910dc" prot="private" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>interruptClose_</name></member>
       <member refid="group__GeneralGroup_1ga910af9ab044513672ec4ae3f4a01e03c" prot="private" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>preDraw_</name></member>
       <member refid="group__GeneralGroup_1ga469d16f1bff9fc97421f85fcde8f737d" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>shouldClose_</name></member>
       <member refid="group__GeneralGroup_1gae4139c3222b09a562333caf459d7e055" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>showCloseModal_</name></member>
-      <member refid="group__GeneralGroup_1gaac82fa6173a5c41f046e06e39465445e" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1ga6ea54d4f1a94548bc1b8a7a08183ca74" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>shutdown</name></member>
       <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>viewer</name></member>
       <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>~MultiListener</name></member>
       <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>~ViewerPlugin</name></member>

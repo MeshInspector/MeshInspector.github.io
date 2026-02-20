@@ -12,16 +12,34 @@
       <member refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" kind="variable"><name>tgt2srcEdges</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" kind="function"><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga400bfa8033764f32d164e4a87ecefc41" kind="function"><name>clear</name></member>
     </sectiondef>
     <briefdescription>
 <para>mapping among elements of source mesh, from which a part is taken, and target mesh </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::MapOrHashMap&lt; K, V &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="1">
+        <label>MR::PartMapping</label>
+        <link refid="structMR_1_1PartMapping"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>src2tgtFaces</edgelabel>
+          <edgelabel>src2tgtVerts</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
+          <edgelabel>tgt2srcFaces</edgelabel>
+          <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="13" bodyend="30"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga400bfa8033764f32d164e4a87ecefc41" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
       <member refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtEdges</name></member>
       <member refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtFaces</name></member>
       <member refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtVerts</name></member>

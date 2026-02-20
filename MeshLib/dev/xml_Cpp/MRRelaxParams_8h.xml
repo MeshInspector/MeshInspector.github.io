@@ -10,7 +10,13 @@
     <includedby refid="MRPointCloudRelax_8h" local="yes">MRPointCloudRelax.h</includedby>
     <includedby refid="MRPolylineRelax_8h" local="yes">MRPolylineRelax.h</includedby>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -18,16 +24,38 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRRelaxParams.h</label>
         <link refid="MRRelaxParams_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -47,63 +75,76 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="23">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
       </node>
-      <node id="16">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
         <label>algorithm</label>
       </node>
-      <node id="17">
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
         <label>cassert</label>
       </node>
-      <node id="11">
+      <node id="19">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cstring</label>
       </node>
-      <node id="13">
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="21">
         <label>iosfwd</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -174,7 +215,7 @@
 <codeline lineno="48"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>maxGuideDistSq<sp/>&gt;<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>d<sp/>=<sp/>pos<sp/>-<sp/>guidePos;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distSq<sp/>=<sp/>sqr(<sp/>d<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distSq<sp/>=<sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/>d<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>distSq<sp/>&lt;=<sp/>maxGuideDistSq<sp/>)</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pos;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>guidePos<sp/>+<sp/>std::sqrt(<sp/>maxGuideDistSq<sp/>/<sp/>distSq<sp/>)<sp/>*<sp/>d;</highlight></codeline>

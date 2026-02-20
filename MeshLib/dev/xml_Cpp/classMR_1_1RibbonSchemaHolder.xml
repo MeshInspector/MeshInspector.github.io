@@ -7,11 +7,11 @@
     <innerclass refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult" prot="public">MR::RibbonSchemaHolder::SearchResult</innerclass>
     <innerclass refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight" prot="public">MR::RibbonSchemaHolder::SearchResultWeight</innerclass>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga07e8558bf86dd569ca7acedfbce55d9a" kind="function"><name>schema</name></member>
-      <member refid="group__GeneralGroup_1ga28d7c0a6ed492a3e6678588c499d5a29" kind="function"><name>addItem</name></member>
-      <member refid="group__GeneralGroup_1ga091aa7fdc2342488f7e268ef28a578d7" kind="function"><name>delItem</name></member>
-      <member refid="group__GeneralGroup_1gaeb256a8a2b16bea518f1937d0683ca1a" kind="function"><name>search</name></member>
-      <member refid="group__GeneralGroup_1gab23a7433dd866e4a1f54103011c2e116" kind="function"><name>findItemTab</name></member>
+      <member refid="group__GeneralGroup_1gabc6d8d3352a89e99333f31d8cf3618e9" kind="function"><name>schema</name></member>
+      <member refid="group__GeneralGroup_1ga82af1242f60099dd9d8f408686e20153" kind="function"><name>addItem</name></member>
+      <member refid="group__GeneralGroup_1gaec21b4b9459943a6f732a10e1dfecd2a" kind="function"><name>delItem</name></member>
+      <member refid="group__GeneralGroup_1ga74f7c61963448011e7709e384024bf84" kind="function"><name>search</name></member>
+      <member refid="group__GeneralGroup_1gafa71f6751144e899c162ec0eaa802fd4" kind="function"><name>findItemTab</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gafce5bba1a630e2543e84b80fc8a9132a" kind="function"><name>RibbonSchemaHolder</name></member>
@@ -23,12 +23,12 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="83" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="84" bodyend="130"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga28d7c0a6ed492a3e6678588c499d5a29" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>addItem</name></member>
-      <member refid="group__GeneralGroup_1ga091aa7fdc2342488f7e268ef28a578d7" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>delItem</name></member>
-      <member refid="group__GeneralGroup_1gab23a7433dd866e4a1f54103011c2e116" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>findItemTab</name></member>
+      <member refid="group__GeneralGroup_1ga82af1242f60099dd9d8f408686e20153" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>addItem</name></member>
+      <member refid="group__GeneralGroup_1gaec21b4b9459943a6f732a10e1dfecd2a" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>delItem</name></member>
+      <member refid="group__GeneralGroup_1gafa71f6751144e899c162ec0eaa802fd4" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>findItemTab</name></member>
       <member refid="group__GeneralGroup_1gafce5bba1a630e2543e84b80fc8a9132a" prot="private" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>RibbonSchemaHolder</name></member>
-      <member refid="group__GeneralGroup_1ga07e8558bf86dd569ca7acedfbce55d9a" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>schema</name></member>
-      <member refid="group__GeneralGroup_1gaeb256a8a2b16bea518f1937d0683ca1a" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>search</name></member>
+      <member refid="group__GeneralGroup_1gabc6d8d3352a89e99333f31d8cf3618e9" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>schema</name></member>
+      <member refid="group__GeneralGroup_1ga74f7c61963448011e7709e384024bf84" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder</scope><name>search</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

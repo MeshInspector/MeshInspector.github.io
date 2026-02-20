@@ -2,26 +2,32 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRExtractIsolines_8h" kind="file" language="C++">
     <compoundname>MRExtractIsolines.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
     <incdepgraph>
-      <node id="7">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -29,22 +35,64 @@
         <link refid="MRExtractIsolines_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRExpected.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="14">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -55,7 +103,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -63,42 +111,42 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga0af750bc6c8661a8942e40aa5889bee9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>IsoLines<sp/><ref refid="group__GeneralGroup_1ga0af750bc6c8661a8942e40aa5889bee9" kindref="member">extractIsolines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMetric<sp/>&amp;<sp/>vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga5d03d536197842ac254beff47ba29011" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac6a876169f42e604d166b3309044b89d" kindref="member">IsoLines</ref><sp/><ref refid="group__GeneralGroup_1ga5d03d536197842ac254beff47ba29011" kindref="member">extractIsolines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga036c60a88f141a437ffed0bc572fce6d" kindref="member">VertMetric</ref><sp/>&amp;<sp/>vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1gaf51a8b056e1c23645f2fa60cbff920c4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf51a8b056e1c23645f2fa60cbff920c4" kindref="member">hasAnyIsoline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMetric<sp/>&amp;<sp/>vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga03a50a52a4c26a9d5b6e78b890af082e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga03a50a52a4c26a9d5b6e78b890af082e" kindref="member">hasAnyIsoline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga036c60a88f141a437ffed0bc572fce6d" kindref="member">VertMetric</ref><sp/>&amp;<sp/>vertValues,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga815c41bea1eb6b764772db436cfc8bd7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>IsoLines<sp/><ref refid="group__GeneralGroup_1ga0af750bc6c8661a8942e40aa5889bee9" kindref="member">extractIsolines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga29d3c977f4b71bbaa3acd870000d7862" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac6a876169f42e604d166b3309044b89d" kindref="member">IsoLines</ref><sp/><ref refid="group__GeneralGroup_1ga5d03d536197842ac254beff47ba29011" kindref="member">extractIsolines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>vertValues,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1gaf6919ccacfe9dfaf51234ebc70f41d86" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf51a8b056e1c23645f2fa60cbff920c4" kindref="member">hasAnyIsoline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga5f435e2835e87cba1a08b889b0f4fa61" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga03a50a52a4c26a9d5b6e78b890af082e" kindref="member">hasAnyIsoline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>vertValues,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1gaf217b208f69f24941c7d1f3ef75f8f3a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>PlaneSections<sp/><ref refid="group__GeneralGroup_1gaf217b208f69f24941c7d1f3ef75f8f3a" kindref="member">extractPlaneSections</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gafd04e07698d283ccba11db6292b3bc78" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5e21b52bde652c1330fdd745ee2ccbbc" kindref="member">PlaneSections</ref><sp/><ref refid="group__GeneralGroup_1gafd04e07698d283ccba11db6292b3bc78" kindref="member">extractPlaneSections</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga2c2376e41aa2ed7d937d084b6861c2e8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2c2376e41aa2ed7d937d084b6861c2e8" kindref="member">hasAnyPlaneSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f<sp/>&amp;<sp/>plane,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga55d8a2086544f8f5696bcf72e86682f5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga55d8a2086544f8f5696bcf72e86682f5" kindref="member">hasAnyPlaneSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>&amp;<sp/>plane,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gac09f6f9ae5b6b39caae441d96334d317" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>PlaneSections<sp/><ref refid="group__GeneralGroup_1gac09f6f9ae5b6b39caae441d96334d317" kindref="member">extractXYPlaneSections</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gae60d6a667b6dcb0aca720394ad233404" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5e21b52bde652c1330fdd745ee2ccbbc" kindref="member">PlaneSections</ref><sp/><ref refid="group__GeneralGroup_1gae60d6a667b6dcb0aca720394ad233404" kindref="member">extractXYPlaneSections</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga103a2ddf3834f4c8cff7f83fc77a0a7c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga103a2ddf3834f4c8cff7f83fc77a0a7c" kindref="member">hasAnyXYPlaneSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga837473effb24f6b67b7e4ec2f4af6b58" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga837473effb24f6b67b7e4ec2f4af6b58" kindref="member">hasAnyXYPlaneSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="group__GeneralGroup_1gadbf7de5ff23bc53757bf54ee9d85acfa" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;LineSegm3f&gt;<sp/><ref refid="group__GeneralGroup_1gadbf7de5ff23bc53757bf54ee9d85acfa" kindref="member">findTriangleSectionsByXYPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1ga9b426238bd03d85c23a23ee01f37380b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;LineSegm3f&gt;<sp/><ref refid="group__GeneralGroup_1ga9b426238bd03d85c23a23ee01f37380b" kindref="member">findTriangleSectionsByXYPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zLevel,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FaceId&gt;<sp/>*<sp/>faces<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>u<sp/>=<sp/><ref refid="group__GeneralGroup_1ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree::Yes</ref><sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="group__GeneralGroup_1ga2fc738fcb74adad1003e324c209a09d3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>PlaneSection<sp/><ref refid="group__GeneralGroup_1ga2fc738fcb74adad1003e324c209a09d3" kindref="member">trackSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1gaaf6c1d39150e04bfca4d0676ca2b13f9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga92cbbca830da255a9350ce63a48f49c3" kindref="member">PlaneSection</ref><sp/><ref refid="group__GeneralGroup_1gaaf6c1d39150e04bfca4d0676ca2b13f9" kindref="member">trackSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58aef72c37be9d1b9e6e5bbd6ef09448abe" kindref="member">direction</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__IntersectionGroup_1ga9f71b2c20cd6a91f42d8d76dbc038190" kindref="member">distance</ref><sp/>);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="group__GeneralGroup_1ga8a3113decc3c8c023af5840508849cdf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PlaneSection&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2fc738fcb74adad1003e324c209a09d3" kindref="member">trackSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>planePoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga04b9e51953d898cf85e76c05d426366a" kindref="member">ccw</ref><sp/>);</highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1ga4aaac7ea8405e49b47daafffcf733bd8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PlaneSection&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaaf6c1d39150e04bfca4d0676ca2b13f9" kindref="member">trackSection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>planePoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga47e912a91bc60a4df60c2bfcd07884cf" kindref="member">ccw</ref><sp/>);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="group__GeneralGroup_1gaef90160b1b7fa1c26c631887ca58c13f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef90160b1b7fa1c26c631887ca58c13f" kindref="member">isConsistentlyOriented</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IsoLine<sp/>&amp;<sp/>isoline<sp/>);</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gad593983d3666838a510cad90f2fcda9f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad593983d3666838a510cad90f2fcda9f" kindref="member">isConsistentlyOriented</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6e262af332519e310390cebc4a585090" kindref="member">IsoLine</ref><sp/>&amp;<sp/>isoline<sp/>);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1ga72949e084aaf4f8438a5d82ba377472c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga72949e084aaf4f8438a5d82ba377472c" kindref="member">getCrossedFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IsoLine<sp/>&amp;<sp/>isoline<sp/>);</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga338f2046cb00cced67c5d0e4504ea8c7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga338f2046cb00cced67c5d0e4504ea8c7" kindref="member">getCrossedFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6e262af332519e310390cebc4a585090" kindref="member">IsoLine</ref><sp/>&amp;<sp/>isoline<sp/>);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1ga47ebcb5e83e6625a4a33dd409771ff68" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contour2f<sp/><ref refid="group__GeneralGroup_1ga47ebcb5e83e6625a4a33dd409771ff68" kindref="member">planeSectionToContour2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PlaneSection<sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>meshToPlane<sp/>);</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref><sp/><ref refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" kindref="member">planeSectionToContour2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga92cbbca830da255a9350ce63a48f49c3" kindref="member">PlaneSection</ref><sp/>&amp;<sp/>section,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>meshToPlane<sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="group__GeneralGroup_1ga6c63c93268260926fe26705e7eba2d53" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga6c63c93268260926fe26705e7eba2d53" kindref="member">planeSectionsToContours2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PlaneSections<sp/>&amp;<sp/>sections,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>meshToPlane<sp/>);</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kindref="member">planeSectionsToContours2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e21b52bde652c1330fdd745ee2ccbbc" kindref="member">PlaneSections</ref><sp/>&amp;<sp/>sections,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>meshToPlane<sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

@@ -5,13 +5,13 @@ var namespaceMR_1_1WeightedShell =
     [ "ParametersMetric", "structMR_1_1WeightedShell_1_1ParametersMetric.html", "structMR_1_1WeightedShell_1_1ParametersMetric" ],
     [ "ParametersRegions", "structMR_1_1WeightedShell_1_1ParametersRegions.html", "structMR_1_1WeightedShell_1_1ParametersRegions" ],
     [ "meshToDistanceVolumeT", "namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984", null ],
-    [ "calculateShellWeightsFromRegions", "namespaceMR_1_1WeightedShell.html#a3e108c56779c35179e76f309f651b3ae", null ],
-    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a5f3f7e651a5e21cd4346de588b7641b1", null ],
-    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a54580de8838b073a4531d9f3149ea22e", null ],
-    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a90e26c11723ff31873a2d5046d4edc5a", null ],
-    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a7882f57d282bd3aa7b657061f8f9409b", null ],
-    [ "meshToDistanceVolume", "namespaceMR_1_1WeightedShell.html#a33b0f3cc490481ebb0f62010cf20518e", null ],
-    [ "pointsShell", "namespaceMR_1_1WeightedShell.html#a073bb16262b665c98e72cbc2da3afc40", null ],
-    [ "pointsShell", "namespaceMR_1_1WeightedShell.html#a8dc2c1b804b8a46b0a33345e1f1688f1", null ],
-    [ "pointsToDistanceVolume", "namespaceMR_1_1WeightedShell.html#a01eafebe7cd6350d108fb538e558fb12", null ]
+    [ "calculateShellWeightsFromRegions", "namespaceMR_1_1WeightedShell.html#a521af3e40765a04b00069fa14da9a3fa", null ],
+    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a6c11500f809bc486096500b727e6cbbe", null ],
+    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a31f9c85adfd5e2b5553fb5dcb97384f0", null ],
+    [ "meshShell", "namespaceMR_1_1WeightedShell.html#a8154f94a6793c43fd049a5bf549bf75f", null ],
+    [ "meshShell", "namespaceMR_1_1WeightedShell.html#aa73cc71df322e6863d94e7f237875475", null ],
+    [ "meshToDistanceVolume", "namespaceMR_1_1WeightedShell.html#a1828e77e08ab2c06e1b4bffe5866270f", null ],
+    [ "pointsShell", "namespaceMR_1_1WeightedShell.html#a2d9e4d1c9f007cc1087818a3740c5653", null ],
+    [ "pointsShell", "namespaceMR_1_1WeightedShell.html#a27dc07084bd9d7ba531af503ee26ecaa", null ],
+    [ "pointsToDistanceVolume", "namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8", null ]
 ];

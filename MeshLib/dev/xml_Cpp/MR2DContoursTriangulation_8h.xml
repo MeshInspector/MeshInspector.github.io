@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MR2DContoursTriangulation_8h" kind="file" language="C++">
     <compoundname>MR2DContoursTriangulation.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
@@ -11,19 +11,43 @@
         <link refid="MR2DContoursTriangulation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -31,28 +55,51 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
-        <label>cassert</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cstddef</label>
-      </node>
-      <node id="9">
-        <label>optional</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="15">
         <label>type_traits</label>
       </node>
-      <node id="8">
+      <node id="16">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
@@ -67,7 +114,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
@@ -88,7 +135,7 @@
 <codeline lineno="23" refid="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" kindref="member">HoleVertIds</ref><sp/>=<sp/>std::vector&lt;VertId&gt;;</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref><sp/>=<sp/>std::vector&lt;HoleVertIds&gt;;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga3638a79ba38f8621fd9eb80783cb14be" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref><sp/><ref refid="group__GeneralGroup_1ga3638a79ba38f8621fd9eb80783cb14be" kindref="member">findHoleVertIdsByHoleEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>tp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;&amp;<sp/>holePaths<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref><sp/><ref refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" kindref="member">findHoleVertIdsByHoleEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>tp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;&amp;<sp/>holePaths<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">IntersectionInfo</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
@@ -115,8 +162,8 @@
 <codeline lineno="63" refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" kindref="member">WindingMode</ref><sp/><ref refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" kindref="member">innerType</ref>{<sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">WindingMode::Negative</ref><sp/>};<sp/></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1ga83cb3ae007112f97a7019d02c16c2201" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga83cb3ae007112f97a7019d02c16c2201" kindref="member">getOutlineMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref>*<sp/>interMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="69" refid="group__GeneralGroup_1ga0793fac040a2dcffcf616e963ebcfe7e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga83cb3ae007112f97a7019d02c16c2201" kindref="member">getOutlineMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2d&amp;<sp/>contours,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref>*<sp/>interMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" kindref="member">getOutlineMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref>*<sp/>interMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga4fea26f1468d4845a5875d3c87cd890f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" kindref="member">getOutlineMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref>*<sp/>interMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71" refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref></highlight></codeline>
 <codeline lineno="72"><highlight class="normal">{</highlight></codeline>
@@ -124,14 +171,14 @@
 <codeline lineno="74" refid="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">BaseOutlineParameters</ref><sp/><ref refid="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" kindref="member">baseParams</ref>;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1ga1e7584c601fc9192683046e5f769c068" refkind="member"><highlight class="normal">MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga1e7584c601fc9192683046e5f769c068" kindref="member">getOutline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="79" refid="group__GeneralGroup_1gaaae55b5f79adbd80cfe0f6f147069953" refkind="member"><highlight class="normal">MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga1e7584c601fc9192683046e5f769c068" kindref="member">getOutline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2d&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" kindref="member">getOutline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" kindref="member">getOutline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kindref="compound">OutlineParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="group__GeneralGroup_1ga3a4d8b0d7301b69cd93de010d000bbcc" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga3a4d8b0d7301b69cd93de010d000bbcc" kindref="member">triangulateContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2d&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="88" refid="group__GeneralGroup_1gadeb4ce509fc66338b9d870c64aefde19" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga3a4d8b0d7301b69cd93de010d000bbcc" kindref="member">triangulateContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="87" refid="group__GeneralGroup_1ga7444f5c6a17d0833c0acc2fe9e609b06" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga7444f5c6a17d0833c0acc2fe9e609b06" kindref="member">triangulateContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1ga7e4a32c1c12ab602ce09059e7b2e3b9b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga7444f5c6a17d0833c0acc2fe9e609b06" kindref="member">triangulateContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="group__GeneralGroup_1ga31ee3df5527e56120039ae242d069783" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__GeneralGroup_1ga31ee3df5527e56120039ae242d069783" kindref="member">triangulateDisjointContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2d&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>std::vector&lt;EdgePath&gt;*<sp/>outBoundaries<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="98" refid="group__GeneralGroup_1gad078fde77ddac53c2c051b56888617e1" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__GeneralGroup_1ga31ee3df5527e56120039ae242d069783" kindref="member">triangulateDisjointContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>std::vector&lt;EdgePath&gt;*<sp/>outBoundaries<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" kindref="member">triangulateDisjointContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4bcf38e9e8de19979ccfe5e3eab1967b" kindref="member">Contours2d</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>std::vector&lt;EdgePath&gt;*<sp/>outBoundaries<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="98" refid="group__GeneralGroup_1ga74f8e57086cff7d504ab8c4f345cca3a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" kindref="member">triangulateDisjointContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref>*<sp/>holeVertsIds<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>std::vector&lt;EdgePath&gt;*<sp/>outBoundaries<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">}</highlight></codeline>

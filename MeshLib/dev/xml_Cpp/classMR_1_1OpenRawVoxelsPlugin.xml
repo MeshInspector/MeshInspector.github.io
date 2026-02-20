@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OpenRawVoxelsPlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::OpenRawVoxelsPlugin</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR::StatePlugin</basecompoundref>
+    <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
     <includes refid="MROpenRawVoxelsPlugin_8h" local="no">MROpenRawVoxelsPlugin.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga6f7956ab3991792dfc3bee5f66d69f71" kind="variable"><name>autoMode_</name></member>
@@ -21,35 +21,191 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="10">
+        <label>Connectables...</label>
+      </node>
+      <node id="7">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="8">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="6">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="9">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>MR::OpenRawVoxelsPlugin</label>
         <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="5">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
       <node id="2">
-        <label>MR::StatePlugin</label>
+        <label>StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="11">
+        <label>Connectables...</label>
+      </node>
+      <node id="8">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="9">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="7">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="10">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>MR::OpenRawVoxelsPlugin</label>
         <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="6">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
       <node id="2">
-        <label>MR::StatePlugin</label>
+        <label>StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h" bodystart="13" bodyend="25"/>
     <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga6f7956ab3991792dfc3bee5f66d69f71" prot="private" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>autoMode_</name></member>
+      <member refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga637d5932d31bff8b065062c7e191fc05" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>checkStringMask</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="group__GeneralGroup_1ga4f65b03557a2fc96a2243d1d1ce7e99b" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>dialogIsOpen</name></member>
+      <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>dialogIsOpen_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1gab8b2265a3371f30c9bd4bf6899a16df8" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1gac60894f731e40c4efde10ce83ec00f98" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga92b35d044111284af9dab8791a53c660" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>getTabName</name></member>
+      <member refid="group__GeneralGroup_1ga6b50155ff61345dc5b8abd5c4500b86b" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga4a73edaf848e58004c9362f2ac6df049" prot="protected" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga23d5a6b87188d85970d7592c1c901ff8" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>isEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>MultiListenerBase</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1ga3ce3cfe039e0ebb3cccbc7f179257e85" prot="private" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>onDisable_</name></member>
       <member refid="group__GeneralGroup_1ga9b83f1639b9738321f86e6613a0aa2c6" prot="private" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>onPluginEnable_</name></member>
       <member refid="group__GeneralGroup_1ga579c7536deedc6bdbd3cb924c92b968e" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>OpenRawVoxelsPlugin</name></member>
       <member refid="group__GeneralGroup_1gae600a0d93a5ed57dc666e7abea646eda" prot="private" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>parameters_</name></member>
+      <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>plugin_name</name></member>
+      <member refid="group__GeneralGroup_1ga1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>PluginParent</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga0223aec29e05a326d4505029393e7608" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>setUIName</name></member>
+      <member refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga816498e728c95b55dfa2984b2ad45d35" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gadede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>sortString</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a881049c271f0ed1e696cc1d9dd7b19d9" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1gac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>tab_</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1ga14f462561c6d7534870cd58ca7bf20fb" prot="public" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>UINameSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~IPluginUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1ga85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~StateListenerPlugin</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>~ViewerPlugin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

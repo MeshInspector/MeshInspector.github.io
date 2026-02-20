@@ -9,6 +9,335 @@
     <innerclass refid="structMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
     <innerclass refid="structMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
     <innerclass refid="structMR_1_1BooleanResult" prot="public">MR::BooleanResult</innerclass>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BooleanResult</type>
+        <definition>BooleanResult MR::boolean</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</argsstring>
+        <name>boolean</name>
+        <qualifiedname>MR::boolean</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+        </param>
+        <param>
+          <type>BooleanResultMapper *</type>
+          <declname>mapper</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Performs CSG operation on two meshes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes new mesh - result of boolean operation on mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meshA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>A</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>meshB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>B</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CSG operation to perform </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mapper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Input meshes should have no self-intersections in intersecting zone </para>
+</simplesect>
+<simplesect kind="note"><para>If meshes are not closed in intersecting zone some boolean operations are not allowed (as far as input meshes interior and exterior cannot be determined) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="62" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="62" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; BooleanResultPoints, std::string &gt;</type>
+        <definition>Expected&lt; BooleanResultPoints, std::string &gt; MR::getBooleanPoints</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr)</argsstring>
+        <name>getBooleanPoints</name>
+        <qualifiedname>MR::getBooleanPoints</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Returns the points of mesh boolean&apos;s result mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns vertices and intersection points of mesh that is result of boolean operation of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput>. Can be used as fast alternative for cases where the mesh topology can be ignored (bounding box, convex hull, etc.) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meshA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>A</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>meshB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>B</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean operation to perform </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="137" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="137" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1ga39d92839525374ba15a2557ed8f93b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BooleanResult</type>
+        <definition>BooleanResult MR::boolean</definition>
+        <argsstring>(Mesh &amp;&amp;meshA, Mesh &amp;&amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</argsstring>
+        <name>boolean</name>
+        <qualifiedname>MR::boolean</qualifiedname>
+        <param>
+          <type>Mesh &amp;&amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>Mesh &amp;&amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+        </param>
+        <param>
+          <type>BooleanResultMapper *</type>
+          <declname>mapper</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="64" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="64" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BooleanResult</type>
+        <definition>BooleanResult MR::boolean</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
+        <name>boolean</name>
+        <qualifiedname>MR::boolean</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const BooleanParameters &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="107" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="107" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BooleanResult</type>
+        <definition>BooleanResult MR::boolean</definition>
+        <argsstring>(Mesh &amp;&amp;meshA, Mesh &amp;&amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
+        <name>boolean</name>
+        <qualifiedname>MR::boolean</qualifiedname>
+        <param>
+          <type>Mesh &amp;&amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>Mesh &amp;&amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const BooleanParameters &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="109" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="109" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::selfBoolean</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>selfBoolean</name>
+        <qualifiedname>MR::selfBoolean</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs boolean operation on mesh with itself, cutting simple intersections contours and flipping their connectivity this function is experimental and likely to change signature and/or behavior in future <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="114" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="114" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Contours3f</type>
+        <definition>Contours3f MR::findIntersectionContours</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, const AffineXf3f *rigidB2A=nullptr)</argsstring>
+        <name>findIntersectionContours</name>
+        <qualifiedname>MR::findIntersectionContours</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns intersection contours of given meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="117" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="117" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::convertIntFloatAllVerts</definition>
+        <argsstring>(Mesh &amp;mesh, const CoordinateConverters &amp;conv)</argsstring>
+        <name>convertIntFloatAllVerts</name>
+        <qualifiedname>MR::convertIntFloatAllVerts</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const CoordinateConverters &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts all vertices of the mesh first in integer-coordinates, and then back in float-coordinates; this is necessary to avoid small self-intersections near newly introduced vertices on cut-contours; this actually sligntly moves only small perentage of vertices near x=0 or y=0 or z=0 planes, where float-precision is higher than int-precision; newly introduced vertices on cut-contours are also converted, but we expected that they remain unchanged due to idempotent property of the conversion </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="145" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="145" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="enum">
       <memberdef kind="enum" id="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" prot="public" static="no" strong="yes">
         <type></type>
@@ -98,7 +427,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Enum class of available CSG operations <image type="html" name="no_bool.png" width="300cm">Two separate meshes</image>
- <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga5dc229b89588f1a3416aca4910e460d9" kindref="member">MR::boolean</ref> </para>
+ <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -115,11 +444,11 @@
         <name>OneMeshContours</name>
         <qualifiedname>MR::OneMeshContours</qualifiedname>
         <briefdescription>
-<para>Special data type for <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref>. </para>
+<para>Special data type for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref>. </para>
         </briefdescription>
         <detaileddescription>
-<para>This is special data for <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref>, you can convert some other contours representation to it by:<linebreak/>
-<ref refid="group__BooleanGroup_1ga698235aeb90b1a947f95fa76eeb78ff3" kindref="member">MR::convertMeshTriPointsToClosedContour</ref> <ref refid="group__BooleanGroup_1ga9d5cd0e3c54003e08c1884a7895b3e74" kindref="member">MR::convertSurfacePathsToMeshContours</ref> </para>
+<para>This is special data for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref>, you can convert some other contours representation to it by:<linebreak/>
+<ref refid="group__BooleanGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" kindref="member">MR::convertMeshTriPointsToClosedContour</ref> <ref refid="group__BooleanGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" kindref="member">MR::convertSurfacePathsToMeshContours</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -127,9 +456,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__BooleanGroup_1ga3f74a4803a385d6714d3711d05b747dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::doBooleanOperation</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga17c23a55f3d3172ff25ce29e501a75e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::doBooleanOperation</definition>
         <argsstring>(Mesh &amp;&amp;meshACut, Mesh &amp;&amp;meshBCut, const std::vector&lt; EdgePath &gt; &amp;cutEdgesA, const std::vector&lt; EdgePath &gt; &amp;cutEdgesB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr, BooleanResultMapper *mapper=nullptr, bool mergeAllNonIntersectingComponents=false, const BooleanInternalParameters &amp;intParams={})</argsstring>
         <name>doBooleanOperation</name>
         <qualifiedname>MR::doBooleanOperation</qualifiedname>
@@ -184,11 +513,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="114" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" declline="114" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="114" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" declline="114" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API CutMeshResult</type>
-        <definition>MRMESH_API CutMeshResult MR::cutMesh</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CutMeshResult</type>
+        <definition>CutMeshResult MR::cutMesh</definition>
         <argsstring>(Mesh &amp;mesh, const OneMeshContours &amp;contours, const CutMeshParameters &amp;params={})</argsstring>
         <name>cutMesh</name>
         <qualifiedname>MR::cutMesh</qualifiedname>
@@ -248,11 +577,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="86" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" declline="86" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="86" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" declline="86" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gafe85b81b6d40ee16ccd3e12919143c43" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; OneMeshContours &gt;</type>
-        <definition>MRMESH_API Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1gaccf79b17bf64faa5454a116f768def33" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; OneMeshContours &gt;</type>
+        <definition>Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, float offset, SearchPathSettings searchSettings={})</argsstring>
         <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
         <qualifiedname>MR::convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
@@ -277,7 +606,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>offset</parametername>
 </parameternamelist>
@@ -298,11 +627,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="133" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" declline="133" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="133" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" declline="133" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga6f7ebfbd5a56670b4a78787e6318ee7e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; OneMeshContours &gt;</type>
-        <definition>MRMESH_API Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; OneMeshContours &gt;</type>
+        <definition>Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, SearchPathSettings searchSettings={})</argsstring>
         <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
         <qualifiedname>MR::convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
@@ -327,7 +656,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>offsetAtPoint</parametername>
 </parameternamelist>
@@ -348,165 +677,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="144" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" declline="144" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="144" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" declline="144" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga5dc229b89588f1a3416aca4910e460d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API BooleanResult</type>
-        <definition>MRMESH_API BooleanResult MR::boolean</definition>
-        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</argsstring>
-        <name>boolean</name>
-        <qualifiedname>MR::boolean</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>BooleanOperation</type>
-          <declname>operation</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-        </param>
-        <param>
-          <type>BooleanResultMapper *</type>
-          <declname>mapper</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>ProgressCallback</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Performs CSG operation on two meshes. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Makes new mesh - result of boolean operation on mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting></para>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>meshA</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Input mesh <computeroutput>A</computeroutput> </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>meshB</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Input mesh <computeroutput>B</computeroutput> </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>operation</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>CSG operation to perform </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>rigidB2A</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>mapper</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="note"><para>Input meshes should have no self-intersections in intersecting zone </para>
-</simplesect>
-<simplesect kind="note"><para>If meshes are not closed in intersecting zone some boolean operations are not allowed (as far as input meshes interior and exterior cannot be determined) </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="60" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="60" declcolumn="26"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gabcddc5448fa2c146bca47925a093d3c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; BooleanResultPoints, std::string &gt;</type>
-        <definition>MRMESH_API Expected&lt; BooleanResultPoints, std::string &gt; MR::getBooleanPoints</definition>
-        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr)</argsstring>
-        <name>getBooleanPoints</name>
-        <qualifiedname>MR::getBooleanPoints</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>BooleanOperation</type>
-          <declname>operation</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>Returns the points of mesh boolean&apos;s result mesh. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns vertices and intersection points of mesh that is result of boolean operation of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput>. Can be used as fast alternative for cases where the mesh topology can be ignored (bounding box, convex hull, etc.) <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>meshA</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Input mesh <computeroutput>A</computeroutput> </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>meshB</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Input mesh <computeroutput>B</computeroutput> </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>operation</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Boolean operation to perform </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>rigidB2A</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="135" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" declline="135" declcolumn="22"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API Expected&lt; OneMeshContour &gt;</type>
-        <definition>MR_BIND_IGNORE MRMESH_API Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, MeshTriPointsConnector connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
         <name>convertMeshTriPointsToMeshContour</name>
         <qualifiedname>MR::convertMeshTriPointsToMeshContour</qualifiedname>
@@ -531,7 +706,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds paths between neighbor <computeroutput>surfaceLine</computeroutput> with MeshTriPointsConnector function and build contour <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds paths between neighbor <computeroutput>surfaceLine</computeroutput> with MeshTriPointsConnector function and build contour <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>connectorFn</parametername>
 </parameternamelist>
@@ -552,11 +727,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="82" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="82" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="82" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="82" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga883d13829f7b1336863883d48777b302" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; OneMeshContour &gt;</type>
-        <definition>MRMESH_API Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga1038937a987d09a86802e694724e7aa7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; OneMeshContour &gt;</type>
+        <definition>Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, SearchPathSettings searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
         <name>convertMeshTriPointsToMeshContour</name>
         <qualifiedname>MR::convertMeshTriPointsToMeshContour</qualifiedname>
@@ -582,7 +757,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build contour <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build contour <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>searchSettings</parametername>
 </parameternamelist>
@@ -603,11 +778,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="100" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="100" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="100" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="100" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga698235aeb90b1a947f95fa76eeb78ff3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; OneMeshContour &gt;</type>
-        <definition>MRMESH_API Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToClosedContour</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; OneMeshContour &gt;</type>
+        <definition>Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToClosedContour</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, SearchPathSettings searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
         <name>convertMeshTriPointsToClosedContour</name>
         <qualifiedname>MR::convertMeshTriPointsToClosedContour</qualifiedname>
@@ -633,7 +808,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build closed contour <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build closed contour <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>pivotIndices</parametername>
 </parameternamelist>
@@ -648,11 +823,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="111" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="111" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="111" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="111" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga4415eacd7a732188919def7411ee0245" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API OneMeshContour</type>
-        <definition>MRMESH_API OneMeshContour MR::convertSurfacePathWithEndsToMeshContour</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga84ad133112b40770a9311344d2bbfdde" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>OneMeshContour</type>
+        <definition>OneMeshContour MR::convertSurfacePathWithEndsToMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const SurfacePath &amp;surfacePath, const MeshTriPoint &amp;end)</argsstring>
         <name>convertSurfacePathWithEndsToMeshContour</name>
         <qualifiedname>MR::convertSurfacePathWithEndsToMeshContour</qualifiedname>
@@ -676,17 +851,17 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Converts SurfacePath to OneMeshContours. </para>
         </briefdescription>
         <detaileddescription>
-<para>Creates <ref refid="structMR_1_1OneMeshContour" kindref="compound">MR::OneMeshContour</ref> object from given surface path with ends for <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input <computeroutput>start</computeroutput> and surfacePath.front() should be from same face surfacePath.back() and <computeroutput>end</computeroutput> should be from same face</para>
+<para>Creates <ref refid="structMR_1_1OneMeshContour" kindref="compound">MR::OneMeshContour</ref> object from given surface path with ends for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <computeroutput>start</computeroutput> and surfacePath.front() should be from same face surfacePath.back() and <computeroutput>end</computeroutput> should be from same face</para>
 <para>note that whole path (including <computeroutput>start</computeroutput> and <computeroutput>end</computeroutput>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</para>
 <para>vert path edge point path edge end o-------<mdash/>o- <ndash/> <ndash/> <ndash/> <ndash/> O \ \ / \ \ / \ \ / \/ o path </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="133" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="133" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="133" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="133" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga9d5cd0e3c54003e08c1884a7895b3e74" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API OneMeshContours</type>
-        <definition>MRMESH_API OneMeshContours MR::convertSurfacePathsToMeshContours</definition>
+      <memberdef kind="function" id="group__BooleanGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>OneMeshContours</type>
+        <definition>OneMeshContours MR::convertSurfacePathsToMeshContours</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;surfacePaths)</argsstring>
         <name>convertSurfacePathsToMeshContours</name>
         <qualifiedname>MR::convertSurfacePathsToMeshContours</qualifiedname>
@@ -702,11 +877,11 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Converts SurfacePaths to OneMeshContours. </para>
         </briefdescription>
         <detaileddescription>
-<para>Creates <ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">MR::OneMeshContours</ref> object from given surface paths for <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> input </para>
+<para>Creates <ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">MR::OneMeshContours</ref> object from given surface paths for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="144" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="144" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="144" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" declline="144" declcolumn="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

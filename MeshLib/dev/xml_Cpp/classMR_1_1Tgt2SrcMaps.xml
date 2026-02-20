@@ -13,8 +13,8 @@
       <member refid="group__GeneralGroup_1ga26b2fe14ea09031aeeaac3c8ee0b1e9d" kind="variable"><name>tgt2srcEdges_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaa3682117ec9b9d0ef8ecb9b276b92eb9" kind="function"><name>Tgt2SrcMaps</name></member>
-      <member refid="group__GeneralGroup_1ga14c3003ffc8403f5dea22328cb1eb28e" kind="function"><name>~Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" kind="function"><name>Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1ga1292d111cef99d6fa455ffc18a016bff" kind="function"><name>~Tgt2SrcMaps</name></member>
       <member refid="group__GeneralGroup_1ga725d82739c07f928cd88750f4d3d6583" kind="function"><name>operator const PartMapping &amp;</name></member>
       <member refid="group__GeneralGroup_1ga8266fef859ccf3d06f819a2681185063" kind="function"><name>getPartMapping</name></member>
     </sectiondef>
@@ -33,9 +33,9 @@
       <member refid="group__GeneralGroup_1ga2db6e54b7e0811eab2f6e7705de2c2eb" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outVmap_</name></member>
       <member refid="group__GeneralGroup_1ga26b2fe14ea09031aeeaac3c8ee0b1e9d" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcEdges_</name></member>
       <member refid="group__GeneralGroup_1ga4470dd9fa15bf6617facc05bb46c6cb0" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcFaces_</name></member>
-      <member refid="group__GeneralGroup_1gaa3682117ec9b9d0ef8ecb9b276b92eb9" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
       <member refid="group__GeneralGroup_1gaab854f5443c1add5ddedcc2e5941f070" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcVerts_</name></member>
-      <member refid="group__GeneralGroup_1ga14c3003ffc8403f5dea22328cb1eb28e" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>~Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1ga1292d111cef99d6fa455ffc18a016bff" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>~Tgt2SrcMaps</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

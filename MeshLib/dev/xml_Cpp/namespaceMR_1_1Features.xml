@@ -14,7 +14,7 @@
         <name>SubfeatureFunc</name>
         <qualifiedname>MR::Features::SubfeatureFunc</qualifiedname>
         <briefdescription>
-<para>A user callback for <computeroutput><ref refid="namespaceMR_1_1Features_1a97570d41ec01a7111b742503bdc2c5dc" kindref="member">forEachSubfeature()</ref></computeroutput>. </para>
+<para>A user callback for <computeroutput><ref refid="namespaceMR_1_1Features_1a2cc22f65100a51a32afed2acf0c837b4" kindref="member">forEachSubfeature()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26,30 +26,30 @@
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1gacbd075b92fa1a44ed1751506cecb9b3a" kind="function"><name>toPrimitive</name></member>
       <member refid="group__GeneralGroup_1ga4b8fe8c172363793d31c8bbc29e9fdb2" kind="function"><name>toPrimitive</name></member>
-      <member refid="group__GeneralGroup_1ga4701a0fae7580c7711140ac3823a2ad1" kind="function"><name>toPrimitive</name></member>
-      <member refid="group__GeneralGroup_1gade193da66da564733854a43102ee2ff9" kind="function"><name>toPrimitive</name></member>
+      <member refid="group__GeneralGroup_1ga164e47d633f8939134d7f4f05960c4ac" kind="function"><name>toPrimitive</name></member>
+      <member refid="group__GeneralGroup_1ga9f2a352fa6ebdfaab6c6abbb609ebaf2" kind="function"><name>toPrimitive</name></member>
       <member refid="group__GeneralGroup_1ga8181371796e19bd3d28cc3300b6aa1bb" kind="function"><name>toPrimitive</name></member>
       <member refid="group__GeneralGroup_1gaa06970e4aa6f9508425ab48758238239" kind="function"><name>toPrimitive</name></member>
-      <member refid="group__GeneralGroup_1ga5868f629eb5b33654ac9c296f89ab859" kind="function"><name>primitiveCircle</name></member>
-      <member refid="group__GeneralGroup_1ga2d7396ae23e2d25cae0b7fc52fd0700e" kind="function"><name>primitiveCylinder</name></member>
-      <member refid="group__GeneralGroup_1ga8d70d3465b40dfe88c3a3fb7210afee0" kind="function"><name>primitiveCone</name></member>
-      <member refid="group__GeneralGroup_1gaeeb9d21a824a2dd94d682b54ab1862d2" kind="function"><name>primitiveFromObject</name></member>
-      <member refid="group__GeneralGroup_1gab8f22bea18d05dc887187f02a89188a6" kind="function"><name>primitiveFromObjectWithWorldXf</name></member>
-      <member refid="group__GeneralGroup_1ga49fd9207c07aaf09dab5aa90ea742cbb" kind="function"><name>primitiveToObject</name></member>
-      <member refid="group__GeneralGroup_1ga786882f4d1d08a909e121d587762bc7d" kind="function"><name>transformPrimitive</name></member>
-      <member refid="group__GeneralGroup_1ga6bccfd9503d10be206552d1b68cafd59" kind="function"><name>transformPrimitive</name></member>
-      <member refid="group__GeneralGroup_1gae44995ca46fc9d43471041459ff5b491" kind="function"><name>transformPrimitive</name></member>
-      <member refid="group__GeneralGroup_1ga65e870c3bf2b91e5fdaf05b63c27009a" kind="function"><name>transformPrimitive</name></member>
-      <member refid="group__GeneralGroup_1ga6ef217cccdf314a4441a435f229650af" kind="function"><name>toString</name></member>
+      <member refid="group__GeneralGroup_1ga9223e7ea52cd0ccab2aefc1dca9b0942" kind="function"><name>primitiveCircle</name></member>
+      <member refid="group__GeneralGroup_1ga3dfb9540262a453cb91ceab88f993f7e" kind="function"><name>primitiveCylinder</name></member>
+      <member refid="group__GeneralGroup_1ga16f7fbfea8028da05b9f8b2027f85c23" kind="function"><name>primitiveCone</name></member>
+      <member refid="group__GeneralGroup_1ga77f0bbc8c04e0b727e00cc07912a7b0c" kind="function"><name>primitiveFromObject</name></member>
+      <member refid="group__GeneralGroup_1ga0ee94e7f828ec33e97d163624be23223" kind="function"><name>primitiveFromObjectWithWorldXf</name></member>
+      <member refid="group__GeneralGroup_1ga9c22ecde73c0051accbd85c488691c98" kind="function"><name>primitiveToObject</name></member>
+      <member refid="group__GeneralGroup_1gaaa0753286fe5a355ff3593563fb63d6c" kind="function"><name>transformPrimitive</name></member>
+      <member refid="group__GeneralGroup_1ga672264c351859ed1def8f51fc6997fc6" kind="function"><name>transformPrimitive</name></member>
+      <member refid="group__GeneralGroup_1gaafc858d46ec2adaf64199e0b1275989e" kind="function"><name>transformPrimitive</name></member>
+      <member refid="group__GeneralGroup_1gad3a471455d6564ccb4166e9c932d2191" kind="function"><name>transformPrimitive</name></member>
+      <member refid="group__GeneralGroup_1ga35468173f62fc640a383a299b8eab5e2" kind="function"><name>toString</name></member>
       <member refid="group__GeneralGroup_1ga1f7d6b7fed16c703a284c2013da802e2" kind="function"><name>name</name></member>
-      <member refid="group__GeneralGroup_1ga64ffcca649e7365b125b54b414b4e3a1" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga82f0bbbfc5b2eccfe3470ac8ba6c4f9c" kind="function"><name>name</name></member>
       <member refid="group__GeneralGroup_1ga39b347d1c16a0e596d16c09cc7839ded" kind="function"><name>measure</name></member>
       <member refid="group__GeneralGroup_1gada065f0f7c5b74946d5ae2826df2bf0d" kind="function"><name>measure</name></member>
       <member refid="group__GeneralGroup_1ga8ae032d9a48f5e4e7669748c12b6f05c" kind="function"><name>measure</name></member>
-      <member refid="group__GeneralGroup_1gacba878d0a966299305f4db971b3896b7" kind="function"><name>measure</name></member>
-      <memberdef kind="function" id="namespaceMR_1_1Features_1a97570d41ec01a7111b742503bdc2c5dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Features::forEachSubfeature</definition>
+      <member refid="group__GeneralGroup_1gae0537612491fae86ac764b65a9835df9" kind="function"><name>measure</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1Features_1a2cc22f65100a51a32afed2acf0c837b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Features::forEachSubfeature</definition>
         <argsstring>(const Features::Primitives::Variant &amp;feature, const SubfeatureFunc &amp;func)</argsstring>
         <name>forEachSubfeature</name>
         <qualifiedname>MR::Features::forEachSubfeature</qualifiedname>
@@ -68,11 +68,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="30" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" declline="30" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="30" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" declline="30" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Features_1a5d8f9dc8288a74b574ebe08113e9f6cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::Features::forEachVisualSubfeature</definition>
+      <memberdef kind="function" id="namespaceMR_1_1Features_1a91acadf34447ca8b79061efb805693dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Features::forEachVisualSubfeature</definition>
         <argsstring>(const Features::Primitives::Variant &amp;params, const Features::SubfeatureFunc &amp;func)</argsstring>
         <name>forEachVisualSubfeature</name>
         <qualifiedname>MR::Features::forEachVisualSubfeature</qualifiedname>
@@ -85,13 +85,13 @@
           <declname>func</declname>
         </param>
         <briefdescription>
-<para>This is similar to <computeroutput><ref refid="namespaceMR_1_1Features_1a97570d41ec01a7111b742503bdc2c5dc" kindref="member">Features::forEachSubfeature</ref></computeroutput>, but slightly adjusted to be suitable for visualization. </para>
+<para>This is similar to <computeroutput><ref refid="namespaceMR_1_1Features_1a2cc22f65100a51a32afed2acf0c837b4" kindref="member">Features::forEachSubfeature</ref></computeroutput>, but slightly adjusted to be suitable for visualization. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualSubfeatures.h" line="11" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualSubfeatures.h" declline="11" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualSubfeatures.h" line="11" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualSubfeatures.h" declline="11" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -8,9 +8,9 @@
       <member refid="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" kind="variable"><name>mesh_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gafed176c7dbfe208569b144bdc9098406" kind="function"><name>updateMeshData</name></member>
-      <member refid="group__GeneralGroup_1gae194bedca304ad2f71754636df131baa" kind="function"><name>findProjections</name></member>
-      <member refid="group__GeneralGroup_1ga3bf37be2e7fcb673d711ca176b94d282" kind="function"><name>projectionsHeapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3c206247fe6e6ed0dd78c5f4defe0892" kind="function"><name>updateMeshData</name></member>
+      <member refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" kind="function"><name>findProjections</name></member>
+      <member refid="group__GeneralGroup_1ga9b64899affd5b03d593b17336d91bddf" kind="function"><name>projectionsHeapBytes</name></member>
     </sectiondef>
     <briefdescription>
 <para>Computes the closest point on mesh to each of given points on CPU. </para>
@@ -43,10 +43,10 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="67" bodyend="87"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gae194bedca304ad2f71754636df131baa" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>mesh_</name></member>
-      <member refid="group__GeneralGroup_1ga3bf37be2e7fcb673d711ca176b94d282" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
-      <member refid="group__GeneralGroup_1gafed176c7dbfe208569b144bdc9098406" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>updateMeshData</name></member>
+      <member refid="group__GeneralGroup_1ga9b64899affd5b03d593b17336d91bddf" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3c206247fe6e6ed0dd78c5f4defe0892" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>updateMeshData</name></member>
       <member refid="group__GeneralGroup_1gac1a1633695c8776296054f81942a84dc" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>~IPointsToMeshProjector</name></member>
     </listofallmembers>
   </compounddef>

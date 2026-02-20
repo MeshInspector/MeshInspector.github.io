@@ -5,11 +5,44 @@
     <title>Decimate overview</title>
     <innerclass refid="structMR_1_1DecimateSettings" prot="public">MR::DecimateSettings</innerclass>
     <innerclass refid="structMR_1_1DecimateResult" prot="public">MR::DecimateResult</innerclass>
+    <innerclass refid="structMR_1_1ResolveMeshDegenSettings" prot="public">MR::ResolveMeshDegenSettings</innerclass>
+    <innerclass refid="structMR_1_1RemeshSettings" prot="public">MR::RemeshSettings</innerclass>
     <innerclass refid="structMR_1_1DecimatePolylineSettings" prot="public">MR::DecimatePolylineSettings</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" prot="public" static="no" strong="no">
+        <type></type>
+        <name>DecimateStrategy</name>
+        <qualifiedname>MR::DecimateStrategy</qualifiedname>
+        <enumvalue id="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" prot="public">
+          <name>MinimizeError</name>
+          <briefdescription>
+<para>the next edge to collapse will be the one that introduced minimal error to the surface </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552" prot="public">
+          <name>ShortestEdgeFirst</name>
+          <briefdescription>
+<para>the next edge to collapse will be the shortest one </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines the order of edge collapses inside Decimate algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API DecimateResult</type>
-        <definition>MRMESH_API DecimateResult MR::decimateMesh</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DecimateResult</type>
+        <definition>DecimateResult MR::decimateMesh</definition>
         <argsstring>(Mesh &amp;mesh, const DecimateSettings &amp;settings={})</argsstring>
         <name>decimateMesh</name>
         <qualifiedname>MR::decimateMesh</qualifiedname>
@@ -33,11 +66,62 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="194" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="194" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="195" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="195" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__DecimateGroup_1gacb444edaf47dfdb3ecdd1e8e89947640" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API QuadraticForm3f</type>
-        <definition>MRMESH_API QuadraticForm3f MR::computeFormAtVertex</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DecimateResult</type>
+        <definition>DecimateResult MR::decimateObjectMeshData</definition>
+        <argsstring>(ObjectMeshData &amp;data, const DecimateSettings &amp;settings)</argsstring>
+        <name>decimateObjectMeshData</name>
+        <qualifiedname>MR::decimateObjectMeshData</qualifiedname>
+        <param>
+          <type>ObjectMeshData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const DecimateSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region must be null, and real simplification region will be data face selection (or whole mesh if no face selection) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="199" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="199" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; ObjectMeshData &gt;</type>
+        <definition>std::optional&lt; ObjectMeshData &gt; MR::makeDecimatedObjectMeshData</definition>
+        <argsstring>(const ObjectMesh &amp;obj, const DecimateSettings &amp;settings, DecimateResult *outRes=nullptr)</argsstring>
+        <name>makeDecimatedObjectMeshData</name>
+        <qualifiedname>MR::makeDecimatedObjectMeshData</qualifiedname>
+        <param>
+          <type>const ObjectMesh &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const DecimateSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>DecimateResult *</type>
+          <declname>outRes</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns the data of decimated mesh given <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> (which remains unchanged) and decimation parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="202" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="202" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1ga5d60f8aec3ed26e0949d5b97861324e0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QuadraticForm3f</type>
+        <definition>QuadraticForm3f MR::computeFormAtVertex</definition>
         <argsstring>(const MeshPart &amp;mp, VertId v, float stabilizer, bool angleWeigted, const UndirectedEdgeBitSet *creases=nullptr)</argsstring>
         <name>computeFormAtVertex</name>
         <qualifiedname>MR::computeFormAtVertex</qualifiedname>
@@ -69,11 +153,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="209" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="209" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="210" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="210" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="group__DecimateGroup_1gaf5753b646d0c83bd144038b4d90d0918" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector&lt; QuadraticForm3f, VertId &gt;</type>
-        <definition>MRMESH_API Vector&lt; QuadraticForm3f, VertId &gt; MR::computeFormsAtVertices</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1ga5064016639386ac5440322085837e9da" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector&lt; QuadraticForm3f, VertId &gt;</type>
+        <definition>Vector&lt; QuadraticForm3f, VertId &gt; MR::computeFormsAtVertices</definition>
         <argsstring>(const MeshPart &amp;mp, float stabilizer, bool angleWeigted, const UndirectedEdgeBitSet *creases=nullptr)</argsstring>
         <name>computeFormsAtVertices</name>
         <qualifiedname>MR::computeFormsAtVertices</qualifiedname>
@@ -101,11 +185,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="215" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="215" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="216" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="216" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__DecimateGroup_1ga68a943035521cac62a80a1f864147c6e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::getSubdividePart</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1gafd27c831dac6b72e1cc177e88f8a7c4a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::getSubdividePart</definition>
         <argsstring>(const FaceBitSet &amp;valids, size_t subdivideParts, size_t myPart)</argsstring>
         <name>getSubdividePart</name>
         <qualifiedname>MR::getSubdividePart</qualifiedname>
@@ -128,11 +212,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="222" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="222" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="223" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__DecimateGroup_1ga881bb2eecb81e65b51d1cb8a52340637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::resolveMeshDegenerations</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1ga819efdab20db83df5180d339b4ed6196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::resolveMeshDegenerations</definition>
         <argsstring>(Mesh &amp;mesh, const ResolveMeshDegenSettings &amp;settings={})</argsstring>
         <name>resolveMeshDegenerations</name>
         <qualifiedname>MR::resolveMeshDegenerations</qualifiedname>
@@ -149,20 +233,43 @@
 <para>Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings. </para>
         </briefdescription>
         <detaileddescription>
-<para>consider using <ref refid="group__MeshFixerGroup_1gad11bed424b514b2e835eb9ba644dd4eb" kindref="member">fixMeshDegeneracies</ref> for more complex cases</para>
+<para>consider using <ref refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kindref="member">fixMeshDegeneracies</ref> for more complex cases</para>
 <para><simplesect kind="return"><para>true if the mesh has been changed</para>
 </simplesect>
-<simplesect kind="see"><para><ref refid="group__DecimateGroup_1ga16a994862b0ba8f6a68c61463be0ed4e" kindref="member">decimateMesh</ref> </para>
+<simplesect kind="see"><para><ref refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kindref="member">decimateMesh</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="255" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="255" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="256" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="256" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API DecimatePolylineResult</type>
-        <definition>MRMESH_API DecimatePolylineResult MR::decimatePolyline</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1ga2f09d000493d3c9da7ce3f98f6f4ee3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::remesh</definition>
+        <argsstring>(Mesh &amp;mesh, const RemeshSettings &amp;settings)</argsstring>
+        <name>remesh</name>
+        <qualifiedname>MR::remesh</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const RemeshSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Splits too long and eliminates too short edges from the mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="311" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="311" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DecimateGroup_1gaeafa3a500cea3d03dc8e011409571cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DecimatePolylineResult</type>
+        <definition>DecimatePolylineResult MR::decimatePolyline</definition>
         <argsstring>(Polyline2 &amp;polyline, const DecimatePolylineSettings2 &amp;settings={})</argsstring>
         <name>decimatePolyline</name>
         <qualifiedname>MR::decimatePolyline</qualifiedname>
@@ -182,11 +289,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="94" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="94" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="94" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="94" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="group__DecimateGroup_1gac12c761d9044619a794badf63900a599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API DecimatePolylineResult</type>
-        <definition>MRMESH_API DecimatePolylineResult MR::decimateContour</definition>
+      <memberdef kind="function" id="group__DecimateGroup_1ga45b98526f41bd7599cee507344ad60a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DecimatePolylineResult</type>
+        <definition>DecimatePolylineResult MR::decimateContour</definition>
         <argsstring>(Contour2f &amp;contour, const DecimatePolylineSettings2 &amp;settings={})</argsstring>
         <name>decimateContour</name>
         <qualifiedname>MR::decimateContour</qualifiedname>
@@ -206,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="101" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="101" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="101" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="101" declcolumn="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

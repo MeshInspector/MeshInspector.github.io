@@ -12,8 +12,8 @@
       <member refid="group__GeneralGroup_1ga40d83f299265b6f68e4560c1841eaeca" kind="variable"><name>heap_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga868e5e5616edae5787beab77d64681a4" kind="function"><name>PrecipitationSimulator</name></member>
-      <member refid="group__GeneralGroup_1ga0ae04f850be8f1baf7203566c8071eee" kind="function"><name>simulateOne</name></member>
+      <member refid="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" kind="function"><name>PrecipitationSimulator</name></member>
+      <member refid="group__GeneralGroup_1ga0166c65bc017f235deff3ba32b0bdae4" kind="function"><name>simulateOne</name></member>
     </sectiondef>
     <briefdescription>
 <para>the class models water increase in the terrain under the rain with constant precipitation </para>
@@ -24,8 +24,8 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Event</name></member>
       <member refid="group__GeneralGroup_1ga40d83f299265b6f68e4560c1841eaeca" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>heap_</name></member>
-      <member refid="group__GeneralGroup_1ga868e5e5616edae5787beab77d64681a4" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>PrecipitationSimulator</name></member>
-      <member refid="group__GeneralGroup_1ga0ae04f850be8f1baf7203566c8071eee" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>simulateOne</name></member>
+      <member refid="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>PrecipitationSimulator</name></member>
+      <member refid="group__GeneralGroup_1ga0166c65bc017f235deff3ba32b0bdae4" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>simulateOne</name></member>
       <member refid="group__GeneralGroup_1ga344c2cbe7f972c0c54ed7429d7a14ae4" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>wg_</name></member>
     </listofallmembers>
   </compounddef>

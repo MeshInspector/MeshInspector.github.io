@@ -24,6 +24,10 @@
 </para>
     </detaileddescription>
     <collaborationgraph>
+      <node id="3">
+        <label>MR::MapOrHashMap&lt; K, V &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
       <node id="1">
         <label>MR::MergeVolumePartSettings</label>
         <link refid="structMR_1_1MergeVolumePartSettings"/>
@@ -34,6 +38,14 @@
       <node id="2">
         <label>MR::PartMapping</label>
         <link refid="structMR_1_1PartMapping"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>src2tgtFaces</edgelabel>
+          <edgelabel>src2tgtVerts</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
+          <edgelabel>tgt2srcFaces</edgelabel>
+          <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="22" column="1"/>

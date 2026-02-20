@@ -153,7 +153,7 @@ $(function(){initNavTree('MRRenderGLHelpers_8h.html',''); initResizable(true); }
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRIRenderObject_8h_source.html">MRMesh/MRIRenderObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRGladGlfw_8h_source.html">MRGladGlfw.h</a>&quot;</code><br />
+<code>#include &quot;MRGladGlfw.h&quot;</code><br />
 <code>#include &quot;exports.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRColor_8h_source.html">MRMesh/MRColor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector2_8h_source.html">MRMesh/MRVector2.h</a>&quot;</code><br />
@@ -196,8 +196,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga079f28d3be3f3a62901df8df69f1dc9c" id="r_ga079f28d3be3f3a62901df8df69f1dc9c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API GLint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga079f28d3be3f3a62901df8df69f1dc9c">MR::bindVertexAttribArray</a> (const <a class="el" href="structMR_1_1BindVertexAttribArraySettings.html">BindVertexAttribArraySettings</a> &amp;settings)</td></tr>
-<tr class="separator:ga079f28d3be3f3a62901df8df69f1dc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30e22a28918175bafc2c33da36bf96bb" id="r_ga30e22a28918175bafc2c33da36bf96bb"><td class="memItemLeft" align="right" valign="top">GLint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga30e22a28918175bafc2c33da36bf96bb">MR::bindVertexAttribArray</a> (const <a class="el" href="structMR_1_1BindVertexAttribArraySettings.html">BindVertexAttribArraySettings</a> &amp;settings)</td></tr>
+<tr class="separator:ga30e22a28918175bafc2c33da36bf96bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga96c0afdf384671d181d6111113d5bf35" id="r_ga96c0afdf384671d181d6111113d5bf35"><td class="memTemplParams" colspan="2">template&lt;typename T , template&lt; typename, typename... &gt; class C, typename... args&gt; </td></tr>
 <tr class="memitem:ga96c0afdf384671d181d6111113d5bf35"><td class="memTemplItemLeft" align="right" valign="top">GLint&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga96c0afdf384671d181d6111113d5bf35">MR::bindVertexAttribArray</a> (const GLuint program_shader, const char *name, <a class="el" href="classMR_1_1GlBuffer.html">GlBuffer</a> &amp;buf, const C&lt; T, args... &gt; &amp;V, int baseTypeElementsNumber, bool refresh, bool forceUse=false)</td></tr>
 <tr class="separator:ga96c0afdf384671d181d6111113d5bf35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,13 +208,13 @@ Functions</h2></td></tr>
 <tr class="separator:gac18f4f5a762acd94219012ec5d66db13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6931409b16a2665d35204990c62611b3" id="r_ga6931409b16a2665d35204990c62611b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6931409b16a2665d35204990c62611b3">MR::getDepthFunctionLEqual</a> (<a class="el" href="group__GeneralGroup.html#gaa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> funcType)</td></tr>
 <tr class="separator:ga6931409b16a2665d35204990c62611b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadafa0e11e73b6f545a604653e8596e39" id="r_gadafa0e11e73b6f545a604653e8596e39"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadafa0e11e73b6f545a604653e8596e39">MR::bindDepthPeelingTextures</a> (GLuint shaderId, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, GLenum startGLTextureIndex)</td></tr>
-<tr class="memdesc:gadafa0e11e73b6f545a604653e8596e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to bind depth and color buffers to given shader program  <br /></td></tr>
-<tr class="separator:gadafa0e11e73b6f545a604653e8596e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga65e4c49cbaee4c09e454456226d235eb" id="r_ga65e4c49cbaee4c09e454456226d235eb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga65e4c49cbaee4c09e454456226d235eb">MR::objectPreRenderSetup</a> (const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, <a class="el" href="group__GeneralGroup.html#ga712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> desiredPass, bool deptTesting)</td></tr>
-<tr class="separator:ga65e4c49cbaee4c09e454456226d235eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga340ef00828cc9761a27857d5d7c8bfb6" id="r_ga340ef00828cc9761a27857d5d7c8bfb6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga340ef00828cc9761a27857d5d7c8bfb6">MR::objectPostRenderSetup</a> (const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, <a class="el" href="group__GeneralGroup.html#ga712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> desiredPass, bool deptTesting)</td></tr>
-<tr class="separator:ga340ef00828cc9761a27857d5d7c8bfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d510e044c33512acc2f608d908c68bf" id="r_ga8d510e044c33512acc2f608d908c68bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8d510e044c33512acc2f608d908c68bf">MR::bindDepthPeelingTextures</a> (GLuint shaderId, const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, GLenum startGLTextureIndex)</td></tr>
+<tr class="memdesc:ga8d510e044c33512acc2f608d908c68bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to bind depth and color buffers to given shader program  <br /></td></tr>
+<tr class="separator:ga8d510e044c33512acc2f608d908c68bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaefbfea5b4893a96564583f9dab7c2a14" id="r_gaefbfea5b4893a96564583f9dab7c2a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaefbfea5b4893a96564583f9dab7c2a14">MR::objectPreRenderSetup</a> (const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, <a class="el" href="group__GeneralGroup.html#ga712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> desiredPass, bool deptTesting)</td></tr>
+<tr class="separator:gaefbfea5b4893a96564583f9dab7c2a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga39e4868568d0025dfa5a6edb56cabf3f" id="r_ga39e4868568d0025dfa5a6edb56cabf3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga39e4868568d0025dfa5a6edb56cabf3f">MR::objectPostRenderSetup</a> (const <a class="el" href="structMR_1_1TransparencyMode.html">TransparencyMode</a> &amp;tMode, <a class="el" href="group__GeneralGroup.html#ga712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> desiredPass, bool deptTesting)</td></tr>
+<tr class="separator:ga39e4868568d0025dfa5a6edb56cabf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

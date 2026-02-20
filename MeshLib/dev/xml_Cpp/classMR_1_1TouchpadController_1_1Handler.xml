@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
 <para>Base class for platform-dependent code handling touchpad events</para>
-<para>If you want to add touchpad gesture support on your platform, inherit this class, extend the <computeroutput><ref refid="group__GeneralGroup_1ga7f99ad050f7c266930af4bf9ffc13c37" kindref="member">TouchpadController::initialize</ref></computeroutput> method and call the corresponding methods on the touchpad events. </para>
+<para>If you want to add touchpad gesture support on your platform, inherit this class, extend the <computeroutput><ref refid="group__GeneralGroup_1ga28e436c01d418ee35f2c34370fac094d" kindref="member">TouchpadController::initialize</ref></computeroutput> method and call the corresponding methods on the touchpad events. </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="51" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" bodystart="52" bodyend="76"/>
     <listofallmembers>

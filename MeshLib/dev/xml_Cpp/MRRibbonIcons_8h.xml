@@ -4,16 +4,52 @@
     <compoundname>MRRibbonIcons.h</compoundname>
     <includes refid="MRFlagOperators_8h" local="yes">MRMesh/MRFlagOperators.h</includes>
     <includes local="yes">MRMesh/MRphmap.h</includes>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="no">array</includes>
     <includes local="no">filesystem</includes>
     <includedby refid="MRRibbonButtonDrawer_8h" local="yes">MRRibbonButtonDrawer.h</includedby>
     <incdepgraph>
+      <node id="10">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>MRMesh/MRFlagOperators.h</label>
         <link refid="MRFlagOperators_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="11">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRRibbonIcons.h</label>
@@ -24,25 +60,59 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
       <node id="4">
         <label>MRMesh/MRphmap.h</label>
       </node>
-      <node id="5">
-        <label>MRViewerFwd.h</label>
+      <node id="12">
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="6">
+      <node id="13">
         <label>array</label>
       </node>
+      <node id="18">
+        <label>cassert</label>
+      </node>
       <node id="7">
+        <label>exports.h</label>
+      </node>
+      <node id="19">
         <label>filesystem</label>
+      </node>
+      <node id="17">
+        <label>functional</label>
+      </node>
+      <node id="16">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="15">
+        <label>string</label>
       </node>
       <node id="3">
         <label>type_traits</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -75,7 +145,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFlagOperators_8h" kindref="compound">MRMesh/MRFlagOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRphmap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -99,9 +169,9 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Logos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref>,</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga9719cda5e63b461becae03d081f6c564" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9719cda5e63b461becae03d081f6c564" kindref="member">load</ref>();</highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gaf834f6c83c9f7dd9c55a0a6aa20a8e45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf834f6c83c9f7dd9c55a0a6aa20a8e45" kindref="member">free</ref>();</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga679b258211e9754bfe36635ba6a2eca2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref>*<sp/><ref refid="group__GeneralGroup_1ga679b258211e9754bfe36635ba6a2eca2" kindref="member">findByName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" kindref="member">load</ref>();</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" kindref="member">free</ref>();</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref>*<sp/><ref refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" kindref="member">findByName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" kindref="member">ColorType</ref><sp/>colorType,<sp/><ref refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref><sp/>iconType<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonIcons" kindref="compound">RibbonIcons</ref>();</highlight></codeline>
@@ -144,7 +214,7 @@
 <codeline lineno="76" refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::filesystem::path<sp/>pathDirectory;</highlight></codeline>
 <codeline lineno="78" refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pair&lt;Sizes,<sp/>Sizes&gt;<sp/>minMaxSizes;</highlight></codeline>
 <codeline lineno="79" refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref><sp/>availableColor<sp/>=<sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref>::White;</highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HashMap&lt;std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>SizedIcons&gt;<sp/>map;</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt;std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>SizedIcons&gt;<sp/>map;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;IconTypeData,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref>::Count<sp/>)&gt;<sp/>data_;</highlight></codeline>

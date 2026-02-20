@@ -2,42 +2,68 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRClosestWeightedPoint_8h" kind="file" language="C++">
     <compoundname>MRClosestWeightedPoint.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMeshTriPoint_8h" local="yes">MRMeshTriPoint.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">cfloat</includes>
     <includedby refid="MRWeightedPointsShell_8h" local="yes">MRWeightedPointsShell.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="21">
+      <node id="28">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="14">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -47,108 +73,126 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="3">
-        <label>MRMeshTriPoint.h</label>
-        <link refid="MRMeshTriPoint_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="13">
+        <label>MRMeshTriPoint.h</label>
+        <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="18">
         <label>MRTriPoint.h</label>
         <link refid="MRTriPoint_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="20">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+      </node>
+      <node id="19">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="15">
-        <label>algorithm</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cassert</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="22">
-        <label>cfloat</label>
-      </node>
-      <node id="16">
-        <label>cmath</label>
+        <label>algorithm</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="29">
+        <label>cfloat</label>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="15">
         <label>cstddef</label>
       </node>
-      <node id="17">
+      <node id="24">
         <label>cstring</label>
       </node>
-      <node id="18">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="20">
+      <node id="27">
         <label>limits</label>
       </node>
-      <node id="8">
-        <label>type_traits</label>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="17">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -175,7 +219,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshTriPoint_8h" kindref="compound">MRMeshTriPoint.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -232,7 +276,7 @@
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77" refid="structMR_1_1DistanceFromWeightedPointsParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceFromWeightedPointsParams" kindref="compound">DistanceFromWeightedPointsParams</ref></highlight></codeline>
 <codeline lineno="78"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1ga1eaf010a7c663adafe798fdd9007fe6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMetric<sp/><ref refid="group__GeneralGroup_1ga1eaf010a7c663adafe798fdd9007fe6c" kindref="member">pointWeight</ref>;</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1ga1eaf010a7c663adafe798fdd9007fe6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga036c60a88f141a437ffed0bc572fce6d" kindref="member">VertMetric</ref><sp/><ref refid="group__GeneralGroup_1ga1eaf010a7c663adafe798fdd9007fe6c" kindref="member">pointWeight</ref>;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84" refid="group__GeneralGroup_1ga18407dd8e4524c66ba05a120168bbf92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga18407dd8e4524c66ba05a120168bbf92" kindref="member">minWeight</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
@@ -252,10 +296,10 @@
 <codeline lineno="111" refid="group__GeneralGroup_1ga1f9b9b98c5a65f0baaaa7de96b1c030c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1f9b9b98c5a65f0baaaa7de96b1c030c" kindref="member">maxBidirDist</ref><sp/>=<sp/>FLT_MAX;</highlight></codeline>
 <codeline lineno="112"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="group__GeneralGroup_1ga7ac55cb1be58afd31c59d36e8b7f694d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1PointAndDistance" kindref="compound">PointAndDistance</ref><sp/><ref refid="group__GeneralGroup_1ga7ac55cb1be58afd31c59d36e8b7f694d" kindref="member">findClosestWeightedPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>loc,</highlight></codeline>
+<codeline lineno="117" refid="group__GeneralGroup_1ga5532d81603c3c43d0d3af4cb8a039582" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PointAndDistance" kindref="compound">PointAndDistance</ref><sp/><ref refid="group__GeneralGroup_1ga5532d81603c3c43d0d3af4cb8a039582" kindref="member">findClosestWeightedPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>loc,</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="group__GeneralGroup_1ga9539c3875b76b2c903199487856a95eb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshPointAndDistance" kindref="compound">MeshPointAndDistance</ref><sp/><ref refid="group__GeneralGroup_1ga9539c3875b76b2c903199487856a95eb" kindref="member">findClosestWeightedMeshPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>loc,</highlight></codeline>
+<codeline lineno="123" refid="group__GeneralGroup_1gad6d30799c3e2a261eed4d4fc7bb4524d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshPointAndDistance" kindref="compound">MeshPointAndDistance</ref><sp/><ref refid="group__GeneralGroup_1gad6d30799c3e2a261eed4d4fc7bb4524d" kindref="member">findClosestWeightedMeshPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>loc,</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal">}<sp/></highlight></codeline>

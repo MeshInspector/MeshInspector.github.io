@@ -7,12 +7,12 @@ var structMR_1_1BooleanResultMapper =
       [ "Count", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9", null ],
-    [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd", null ],
+    [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#a654dd05e055cf50b5ed29987e8838ac1", null ],
     [ "getMaps", "structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7", null ],
-    [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
-    [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
-    [ "map", "structMR_1_1BooleanResultMapper.html#a98265093e5d605c22ac13fb59ac056b2", null ],
-    [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],
-    [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ],
+    [ "map", "structMR_1_1BooleanResultMapper.html#a3c9521a76c9f0ff1327150e75980e48f", null ],
+    [ "map", "structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6", null ],
+    [ "map", "structMR_1_1BooleanResultMapper.html#a4025520e93584d2b0b95e661d513df2b", null ],
+    [ "map", "structMR_1_1BooleanResultMapper.html#a8f369cfaf8161eeacbd279d20b92aadb", null ],
+    [ "newFaces", "structMR_1_1BooleanResultMapper.html#a49d9476b91391ce052bbd2b26db33be5", null ],
     [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
 ];

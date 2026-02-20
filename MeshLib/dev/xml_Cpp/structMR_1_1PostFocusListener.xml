@@ -8,7 +8,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gac6da51dc62db3e216930fa626bd53dd3" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gac88ae46c3a44734665f38071133b6260" kind="function"><name>~PostFocusListener</name></member>
-      <member refid="group__GeneralGroup_1gaca372f013f9f8d45231243ef9488c0c0" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga625ba04c3c692acb70b7768e41291558" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1ga38251f795111e912a45ad68a7c13ca21" kind="function"><name>postFocus_</name></member>
@@ -62,7 +62,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="400" bodyend="406"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gaca372f013f9f8d45231243ef9488c0c0" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga625ba04c3c692acb70b7768e41291558" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PostFocusListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1gac6da51dc62db3e216930fa626bd53dd3" prot="public" virt="non-virtual"><scope>MR::PostFocusListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

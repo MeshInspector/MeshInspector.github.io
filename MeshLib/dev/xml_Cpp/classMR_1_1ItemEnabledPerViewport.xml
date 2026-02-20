@@ -7,8 +7,8 @@
       <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" kind="variable"><name>enabledViewports_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaa62d6677cf53b5231eecfe4c1576ff34" kind="function"><name>getEnabledViewports</name></member>
-      <member refid="group__GeneralGroup_1ga07e0387f9cebc82afaf77606185e64d1" kind="function"><name>setEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1gabcacdc178a41c53b15348fa7318ef556" kind="function"><name>getEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1ga90cbd3da86bc6165bc468eaa3af40bc7" kind="function"><name>setEnabledViewports</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1ga8551ebd9ecb3e6bab5cde187606e154a" kind="function"><name>ItemEnabledPerViewport</name></member>
@@ -21,9 +21,9 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" bodystart="16" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" prot="private" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>enabledViewports_</name></member>
-      <member refid="group__GeneralGroup_1gaa62d6677cf53b5231eecfe4c1576ff34" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>getEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1gabcacdc178a41c53b15348fa7318ef556" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>getEnabledViewports</name></member>
       <member refid="group__GeneralGroup_1ga8551ebd9ecb3e6bab5cde187606e154a" prot="protected" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>ItemEnabledPerViewport</name></member>
-      <member refid="group__GeneralGroup_1ga07e0387f9cebc82afaf77606185e64d1" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>setEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1ga90cbd3da86bc6165bc468eaa3af40bc7" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>setEnabledViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

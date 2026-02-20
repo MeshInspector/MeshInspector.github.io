@@ -10,21 +10,53 @@
     <includes local="no">filesystem</includes>
     <includes local="no">unordered_map</includes>
     <incdepgraph>
+      <node id="12">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
       <node id="9">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="10">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="14">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
+      <node id="11">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="3">
         <label>MRPybind11.h</label>
@@ -49,35 +81,41 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="11">
+      <node id="14">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="12">
+      <node id="21">
         <label>MRPch/MRExpected.h</label>
       </node>
       <node id="4">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
+      <node id="15">
+        <label>array</label>
+      </node>
+      <node id="20">
+        <label>cassert</label>
+      </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="16">
+      <node id="22">
         <label>filesystem</label>
       </node>
-      <node id="15">
+      <node id="19">
         <label>functional</label>
+      </node>
+      <node id="18">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="8">
         <label>pybind11/numpy.h</label>
@@ -91,11 +129,14 @@
       <node id="7">
         <label>pybind11/stl_bind.h</label>
       </node>
-      <node id="13">
+      <node id="17">
         <label>string</label>
       </node>
-      <node id="17">
+      <node id="23">
         <label>unordered_map</label>
+      </node>
+      <node id="16">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classPythonStreamRedirector" prot="public">PythonStreamRedirector</innerclass>
@@ -627,7 +668,7 @@ _Pragma(&quot;warning(pop)&quot;)</initializer>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(std::is_nothrow_convertible&lt;E,<sp/>std::string&gt;::value)</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(err);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<ref refid="group__GeneralGroup_1gae471951bdf73171ae96368056485fe84" kindref="member">toString</ref>(err));</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<ref refid="group__GeneralGroup_1gaac6b91f4809d36b337fe54b064ce26dc" kindref="member">toString</ref>(err));</highlight></codeline>
 <codeline lineno="236"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
 <codeline lineno="239"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>

@@ -10,7 +10,7 @@ var classMR_1_1VolumeIndexer =
     [ "getNeighbor", "group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075", null ],
     [ "getNeighbor", "group__VoxelGroup.html#gafe8987c6754acf0b39a5d12c2a7d0da9", null ],
     [ "getNeighbor", "group__VoxelGroup.html#ga70480624af713d6c33abe8a12d5fa6ef", null ],
-    [ "hasNeighbour", "group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf", null ],
+    [ "hasNeighbour", "group__VoxelGroup.html#ga568040796ed83557b8128ba94a11852e", null ],
     [ "isBdVoxel", "group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a", null ],
     [ "isInDims", "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35", null ],
     [ "size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],

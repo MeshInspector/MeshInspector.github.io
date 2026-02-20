@@ -19,9 +19,9 @@
     <innergroup refid="group__ViewportGroup">Viewport group</innergroup>
     <innergroup refid="group__VisualObjectGroup">Visual Object group</innergroup>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__GeneralGroup_1ga085d7d3412f6d94799496d313c33276f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::shared_ptr&lt; Object &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::createObject</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaf64abac75be433ff8023d96ebb3cb627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; Object &gt;</type>
+        <definition>std::shared_ptr&lt; Object &gt; MR::createObject</definition>
         <argsstring>(const std::string &amp;className)</argsstring>
         <name>createObject</name>
         <qualifiedname>MR::createObject</qualifiedname>
@@ -36,13 +36,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="18" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" declline="18" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="18" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" declline="18" declcolumn="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__DataModelGroup_1ga16cd43ef755c087f9358dc1bb5473119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObjectMesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObjectMesh &gt; MR::makeObjectMeshFromFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObjectMesh &gt;</type>
+        <definition>Expected&lt; LoadedObjectMesh &gt; MR::makeObjectMeshFromFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>makeObjectMeshFromFile</name>
         <qualifiedname>MR::makeObjectMeshFromFile</qualifiedname>
@@ -62,11 +62,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="23" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="23" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="23" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga1d6fce928c9225edf56e248b7428e65d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObject &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObject &gt; MR::makeObjectFromMeshFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObject &gt;</type>
+        <definition>Expected&lt; LoadedObject &gt; MR::makeObjectFromMeshFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={}, bool returnOnlyMesh=false)</argsstring>
         <name>makeObjectFromMeshFile</name>
         <qualifiedname>MR::makeObjectFromMeshFile</qualifiedname>
@@ -92,11 +92,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="26" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="26" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="26" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga49f50b3f8a8b62d1de7af24264eac759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; ObjectLines &gt;</type>
-        <definition>MRMESH_API Expected&lt; ObjectLines &gt; MR::makeObjectLinesFromFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; ObjectLines &gt;</type>
+        <definition>Expected&lt; ObjectLines &gt; MR::makeObjectLinesFromFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>makeObjectLinesFromFile</name>
         <qualifiedname>MR::makeObjectLinesFromFile</qualifiedname>
@@ -116,11 +116,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="30" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="30" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1gacd7dca15ed95f44fa82294bf8a85be2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; ObjectPoints &gt;</type>
-        <definition>MRMESH_API Expected&lt; ObjectPoints &gt; MR::makeObjectPointsFromFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gae9ee60bba4a2913ac489fd27115fdd5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; ObjectPoints &gt;</type>
+        <definition>Expected&lt; ObjectPoints &gt; MR::makeObjectPointsFromFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>makeObjectPointsFromFile</name>
         <qualifiedname>MR::makeObjectPointsFromFile</qualifiedname>
@@ -140,11 +140,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="33" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="33" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="33" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="33" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga6db28aaf4d28c32688ee3fbe07c2cd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; ObjectDistanceMap &gt;</type>
-        <definition>MRMESH_API Expected&lt; ObjectDistanceMap &gt; MR::makeObjectDistanceMapFromFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1ga57cc69565e989e8da9e17d20f41b42eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; ObjectDistanceMap &gt;</type>
+        <definition>Expected&lt; ObjectDistanceMap &gt; MR::makeObjectDistanceMapFromFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>makeObjectDistanceMapFromFile</name>
         <qualifiedname>MR::makeObjectDistanceMapFromFile</qualifiedname>
@@ -164,11 +164,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="36" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="36" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="36" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga9e5093d4aabe18b3b177676bed2f1832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; ObjectGcode &gt;</type>
-        <definition>MRMESH_API Expected&lt; ObjectGcode &gt; MR::makeObjectGcodeFromFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1ga0bb66c4b59655efd884905cf765e7a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; ObjectGcode &gt;</type>
+        <definition>Expected&lt; ObjectGcode &gt; MR::makeObjectGcodeFromFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>makeObjectGcodeFromFile</name>
         <qualifiedname>MR::makeObjectGcodeFromFile</qualifiedname>
@@ -188,11 +188,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="39" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="39" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="39" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga01ad9a53501f3ed7609ba0a65b9ff422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObjects &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObjects &gt; MR::loadObjectFromFile</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObjects &gt;</type>
+        <definition>Expected&lt; LoadedObjects &gt; MR::loadObjectFromFile</definition>
         <argsstring>(const std::filesystem::path &amp;filename, const ProgressCallback &amp;callback={})</argsstring>
         <name>loadObjectFromFile</name>
         <qualifiedname>MR::loadObjectFromFile</qualifiedname>
@@ -222,11 +222,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="45" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="45" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="45" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1gaa2082792bceb5a2dd3b18ff5693f0441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::isSupportedFileInSubfolders</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isSupportedFileInSubfolders</definition>
         <argsstring>(const std::filesystem::path &amp;folder)</argsstring>
         <name>isSupportedFileInSubfolders</name>
         <qualifiedname>MR::isSupportedFileInSubfolders</qualifiedname>
@@ -241,11 +241,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="48" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="48" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="48" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="48" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga873b67818008b890a9733f438d361235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObject &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObject &gt; MR::loadSceneFromAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObject &gt;</type>
+        <definition>Expected&lt; LoadedObject &gt; MR::loadSceneFromAnySupportedFormat</definition>
         <argsstring>(const std::filesystem::path &amp;path, const ProgressCallback &amp;callback={})</argsstring>
         <name>loadSceneFromAnySupportedFormat</name>
         <qualifiedname>MR::loadSceneFromAnySupportedFormat</qualifiedname>
@@ -265,11 +265,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="51" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="51" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="51" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="51" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1ga5058cc4a63ce3a27970db1903d9c221d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObject &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObject &gt; MR::deserializeObjectTree</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObject &gt;</type>
+        <definition>Expected&lt; LoadedObject &gt; MR::deserializeObjectTree</definition>
         <argsstring>(const std::filesystem::path &amp;path, const FolderCallback &amp;postDecompress={}, const ProgressCallback &amp;progressCb={})</argsstring>
         <name>deserializeObjectTree</name>
         <qualifiedname>MR::deserializeObjectTree</qualifiedname>
@@ -292,15 +292,15 @@
         </briefdescription>
         <detaileddescription>
 <para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</para>
-<para>if postDecompress is set, it is called after decompression loading is controlled with <ref refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" kindref="member">Object::deserializeModel_</ref> and <ref refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42" kindref="member">Object::deserializeFields_</ref> </para>
+<para>if postDecompress is set, it is called after decompression loading is controlled with <ref refid="classMR_1_1Object_1a24103b426aec928b849c1c5aed3849fd" kindref="member">Object::deserializeModel_</ref> and <ref refid="classMR_1_1Object_1ace37b35645d3a70bd3bd51339b19d2bc" kindref="member">Object::deserializeFields_</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="62" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="62" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="62" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="62" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1gaf9b67bada243a640e8a520638c9771be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObject &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObject &gt; MR::deserializeObjectTreeFromFolder</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObject &gt;</type>
+        <definition>Expected&lt; LoadedObject &gt; MR::deserializeObjectTreeFromFolder</definition>
         <argsstring>(const std::filesystem::path &amp;folder, const ProgressCallback &amp;progressCb={})</argsstring>
         <name>deserializeObjectTreeFromFolder</name>
         <qualifiedname>MR::deserializeObjectTreeFromFolder</qualifiedname>
@@ -318,15 +318,15 @@
         </briefdescription>
         <detaileddescription>
 <para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</para>
-<para>loading is controlled with <ref refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" kindref="member">Object::deserializeModel_</ref> and <ref refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42" kindref="member">Object::deserializeFields_</ref> </para>
+<para>loading is controlled with <ref refid="classMR_1_1Object_1a24103b426aec928b849c1c5aed3849fd" kindref="member">Object::deserializeModel_</ref> and <ref refid="classMR_1_1Object_1ace37b35645d3a70bd3bd51339b19d2bc" kindref="member">Object::deserializeFields_</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="74" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="74" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="74" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__DataModelGroup_1gac7615c6e4894a59a84ec57986cbfc9c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API IOFilters</type>
-        <definition>MRMESH_API IOFilters MR::getAllFilters</definition>
+      <memberdef kind="function" id="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IOFilters</type>
+        <definition>IOFilters MR::getAllFilters</definition>
         <argsstring>()</argsstring>
         <name>getAllFilters</name>
         <qualifiedname>MR::getAllFilters</qualifiedname>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="79" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="79" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="79" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="79" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">

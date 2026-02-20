@@ -5,7 +5,7 @@
     <includes refid="MRMeshPart_8h" local="no">MRMeshPart.h</includes>
     <templateparamlist>
       <param>
-        <type>typename RegionTag</type>
+        <type>typename <ref refid="group__GeneralGroup_1gaf293d6c66d14a3940a1c5a5685a1b36f" kindref="member">RegionTag</ref></type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
@@ -23,6 +23,10 @@
 <para>stores reference on whole mesh (if region is nullptr) or on its part (if region pointer is valid) </para>
     </detaileddescription>
     <collaborationgraph>
+      <node id="5">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
       <node id="2">
         <label>MR::Mesh</label>
         <link refid="structMR_1_1Mesh"/>
@@ -36,10 +40,19 @@
         <childnode refid="2" relation="usage">
           <edgelabel>mesh</edgelabel>
         </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>region</edgelabel>
+        </childnode>
       </node>
       <node id="3">
         <label>MR::MeshTopology</label>
         <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="4">
+        <label>MR::TypedBitSet&lt; RegionTag &gt;</label>
+        <link refid="classMR_1_1TypedBitSet"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshPart.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshPart.h" bodystart="15" bodyend="34"/>

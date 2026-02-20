@@ -50,9 +50,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1af253d14866ae6530d01634b16042d387" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::LoggingStreambuf::LoggingStreambuf</definition>
+      <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1a10af535c39ec904bc21af3515d22ca70" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::LoggingStreambuf::LoggingStreambuf</definition>
         <argsstring>(spdlog::level::level_enum level)</argsstring>
         <name>LoggingStreambuf</name>
         <qualifiedname>MR::LoggingStreambuf::LoggingStreambuf</qualifiedname>
@@ -66,13 +66,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="19" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="19" column="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1ad3da2990b79129af6e4cb2426b138860" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::streamsize</type>
-        <definition>MRMESH_API std::streamsize MR::LoggingStreambuf::xsputn</definition>
+      <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1aa5650bf98c6bf9b5817799949dd04f54" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::streamsize</type>
+        <definition>std::streamsize MR::LoggingStreambuf::xsputn</definition>
         <argsstring>(const char_type *s, std::streamsize count) override</argsstring>
         <name>xsputn</name>
         <qualifiedname>MR::LoggingStreambuf::xsputn</qualifiedname>
@@ -90,11 +90,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="22" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="22" column="22"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1ad6dff8009973c32d9738ccde8cb43602" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API int_type</type>
-        <definition>MRMESH_API int_type MR::LoggingStreambuf::overflow</definition>
+      <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1a689ba491de5b9a2634e89c00cf321c40" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int_type</type>
+        <definition>int_type MR::LoggingStreambuf::overflow</definition>
         <argsstring>(int_type ch=traits_type::eof()) override</argsstring>
         <name>overflow</name>
         <qualifiedname>MR::LoggingStreambuf::overflow</qualifiedname>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="23" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="23" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -144,9 +144,9 @@
       <member refid="classMR_1_1LoggingStreambuf_1abeb2c96aa6d9aed8ded584a7f7614edf" prot="private" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>buf_</name></member>
       <member refid="classMR_1_1LoggingStreambuf_1a046a929d84d4db14e0a9c0196d26a30a" prot="private" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>bufMutex_</name></member>
       <member refid="classMR_1_1LoggingStreambuf_1ae325ef8c246631af7ac5e6a866acfd1a" prot="private" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>level_</name></member>
-      <member refid="classMR_1_1LoggingStreambuf_1af253d14866ae6530d01634b16042d387" prot="public" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>LoggingStreambuf</name></member>
-      <member refid="classMR_1_1LoggingStreambuf_1ad6dff8009973c32d9738ccde8cb43602" prot="protected" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>overflow</name></member>
-      <member refid="classMR_1_1LoggingStreambuf_1ad3da2990b79129af6e4cb2426b138860" prot="protected" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>xsputn</name></member>
+      <member refid="classMR_1_1LoggingStreambuf_1a10af535c39ec904bc21af3515d22ca70" prot="public" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>LoggingStreambuf</name></member>
+      <member refid="classMR_1_1LoggingStreambuf_1a689ba491de5b9a2634e89c00cf321c40" prot="protected" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>overflow</name></member>
+      <member refid="classMR_1_1LoggingStreambuf_1aa5650bf98c6bf9b5817799949dd04f54" prot="protected" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>xsputn</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

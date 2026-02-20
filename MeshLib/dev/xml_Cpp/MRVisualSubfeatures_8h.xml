@@ -12,27 +12,33 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>MRMesh/MRCone3.h</label>
         <link refid="MRCone3_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="24">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="22">
+      <node id="30">
         <label>MRMesh/MRCylinder3.h</label>
         <link refid="MRCylinder3_8h"/>
-        <childnode refid="23" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -40,52 +46,74 @@
         <link refid="MRFeatures_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="29">
         <label>MRLine.h</label>
         <link refid="MRLine_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="20">
         <label>MRLine3.h</label>
         <link refid="MRLine3_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="6">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="24">
-        <label>MRMesh/MRPlane3.h</label>
-        <link refid="MRPlane3_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
-      <node id="25">
+      <node id="31">
+        <label>MRMesh/MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
         <label>MRMesh/MRSphere.h</label>
         <link refid="MRSphere_8h"/>
         <childnode refid="7" relation="include">
@@ -96,40 +124,44 @@
         <link refid="MRSubfeatures_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="22">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="14" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="21">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRVisualSubfeatures.h</label>
@@ -139,50 +171,56 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="23">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="16">
+      <node id="10">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>algorithm</label>
       </node>
-      <node id="26">
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
         <label>cassert</label>
       </node>
-      <node id="18">
+      <node id="26">
         <label>cmath</label>
       </node>
-      <node id="14">
+      <node id="23">
         <label>cstddef</label>
       </node>
-      <node id="19">
+      <node id="27">
         <label>cstring</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="29">
+      <node id="15">
         <label>functional</label>
       </node>
-      <node id="8">
+      <node id="17">
         <label>iosfwd</label>
       </node>
-      <node id="27">
+      <node id="33">
         <label>optional</label>
       </node>
-      <node id="9">
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="18">
         <label>type_traits</label>
       </node>
-      <node id="20">
+      <node id="28">
         <label>utility</label>
       </node>
-      <node id="28">
+      <node id="34">
         <label>variant</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -201,7 +239,7 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Features" kindref="compound">MR::Features</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="namespaceMR_1_1Features_1a5d8f9dc8288a74b574ebe08113e9f6cf" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1a5d8f9dc8288a74b574ebe08113e9f6cf" kindref="member">forEachVisualSubfeature</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga955a7f843d9b5df0f393ec7699ada624" kindref="member">Features::Primitives::Variant</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1a2f919d193c35478d40f28668b8d2d209" kindref="member">Features::SubfeatureFunc</ref>&amp;<sp/>func<sp/>);</highlight></codeline>
+<codeline lineno="11" refid="namespaceMR_1_1Features_1a91acadf34447ca8b79061efb805693dc" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1a91acadf34447ca8b79061efb805693dc" kindref="member">forEachVisualSubfeature</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga955a7f843d9b5df0f393ec7699ada624" kindref="member">Features::Primitives::Variant</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Features_1a2f919d193c35478d40f28668b8d2d209" kindref="member">Features::SubfeatureFunc</ref>&amp;<sp/>func<sp/>);</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

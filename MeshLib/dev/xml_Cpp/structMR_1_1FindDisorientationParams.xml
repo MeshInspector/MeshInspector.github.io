@@ -74,7 +74,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="145" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="145" bodyend="145"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindDisorientationParams_1a0c40bf2320287e58137728520c03765e" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::FindDisorientationParams::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

@@ -10,7 +10,7 @@
       <member refid="group__GeneralGroup_1gab79fe5ae069fdadbd3770bdfe85a1109" kind="variable"><name>notIncidentFaces</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga33ee706b3bfff045b2ba04b21a5c7f5a" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1ga4f68b00de0e936bca0ded2f66858d59e" kind="function"><name>set</name></member>
     </sectiondef>
     <briefdescription>
 <para>describes the point of measurement on mesh </para>
@@ -35,7 +35,7 @@
       <member refid="group__GeneralGroup_1gae6a8983e822178897c427087d4f65a28" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>inDir</name></member>
       <member refid="group__GeneralGroup_1gab79fe5ae069fdadbd3770bdfe85a1109" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>notIncidentFaces</name></member>
       <member refid="group__GeneralGroup_1ga3a24b45014eebfd444ca4f0e15a72c3d" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>pt</name></member>
-      <member refid="group__GeneralGroup_1ga33ee706b3bfff045b2ba04b21a5c7f5a" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1ga4f68b00de0e936bca0ded2f66858d59e" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>set</name></member>
       <member refid="group__GeneralGroup_1gaada8def241781f58cfc3cfe595c86622" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>triPoint</name></member>
     </listofallmembers>
   </compounddef>

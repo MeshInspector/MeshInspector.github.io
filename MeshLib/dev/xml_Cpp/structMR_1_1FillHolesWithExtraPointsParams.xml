@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="91" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="92" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHolesWithExtraPointsParams_1aa413702c40e0c7216a9137543e25d8a5" prot="public" static="no" mutable="no">
         <type>const VertBitSet *</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="95" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="95" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="96" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="96" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="90" bodyend="96"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" bodystart="91" bodyend="97"/>
     <listofallmembers>
       <member refid="structMR_1_1FillHolesWithExtraPointsParams_1aa413702c40e0c7216a9137543e25d8a5" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>modifyBdVertices</name></member>
       <member refid="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>triangulation</name></member>

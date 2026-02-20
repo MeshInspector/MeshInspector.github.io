@@ -8,24 +8,30 @@
     <includedby refid="MRMesh_8h" local="yes">MRMesh.h</includedby>
     <includedby refid="MRMeshBuilder_8h" local="yes">MRMeshBuilder.h</includedby>
     <incdepgraph>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
@@ -33,26 +39,64 @@
         <link refid="MRMeshBuilderTypes_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="9">
-        <label>array</label>
-      </node>
-      <node id="5">
-        <label>cassert</label>
-      </node>
-      <node id="6">
-        <label>cstddef</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="16">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -247,7 +291,7 @@
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga67c89067a48e2a3d29e24b6a36d57de7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga67c89067a48e2a3d29e24b6a36d57de7" kindref="member">Triangle</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga9a381456c77917de55d37a962d6841e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshBuilder_1_1Triangle" kindref="compound">Triangle</ref>(<sp/>VertId<sp/>a,<sp/>VertId<sp/>b,<sp/>VertId<sp/>c,<sp/>FaceId<sp/><ref refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" kindref="member">f</ref><sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" kindref="member">f</ref>(<ref refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" kindref="member">f</ref>)<sp/>{<sp/><ref refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kindref="member">v</ref>[0]<sp/>=<sp/>a;<sp/><ref refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kindref="member">v</ref>[1]<sp/>=<sp/>b;<sp/><ref refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kindref="member">v</ref>[2]<sp/>=<sp/>c;<sp/>}</highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ThreeVertIds<sp/><ref refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kindref="member">v</ref>;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/><ref refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kindref="member">v</ref>;</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" kindref="member">f</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gad3a0063941eb7c51389f4baeaae1d36f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad3a0063941eb7c51389f4baeaae1d36f" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshBuilder_1_1Triangle" kindref="compound">Triangle</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)</highlight><highlight class="keyword">const</highlight></codeline>

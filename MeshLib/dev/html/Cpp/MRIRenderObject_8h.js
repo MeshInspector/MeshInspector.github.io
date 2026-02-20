@@ -14,6 +14,6 @@ var MRIRenderObject_8h =
       [ "Default", "MRIRenderObject_8h.html#ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67", null ]
     ] ],
     [ "createRenderObject", "MRIRenderObject_8h.html#gad5939add708452e0f1d36d597997afb1", null ],
-    [ "createRenderObject", "MRIRenderObject_8h.html#ga93172f1e06fd94c642f000fd5e190230", null ],
+    [ "createRenderObject", "MRIRenderObject_8h.html#ga2b57f8c854e9b524065d67dae1326d4c", null ],
     [ "makeRenderObjectConstructor", "MRIRenderObject_8h.html#ga914fb714c0f1a8f97d100a16c3d33af1", null ]
 ];

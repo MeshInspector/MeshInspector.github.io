@@ -9,10 +9,10 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaf1195b4bb18db9e8ca21e92db9139406" kind="function"><name>MeshTopologyDiff</name></member>
-      <member refid="group__GeneralGroup_1ga124d70218b979697c0fa67ce32b07c56" kind="function"><name>MeshTopologyDiff</name></member>
-      <member refid="group__GeneralGroup_1gaad4c78043b91fd4835e71c4d2a281a95" kind="function"><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga88fdf0cea84ab07c1fef729e2ae635cb" kind="function"><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1ga2938cffd19b314aeae8e39ef7dc4df2e" kind="function"><name>applyAndSwap</name></member>
       <member refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" kind="function"><name>any</name></member>
-      <member refid="group__GeneralGroup_1ga743e293604e551a32e96aba9e63cb091" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaa4a8e6c2de54156f11ab33a657c3c2d9" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -23,11 +23,11 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="16" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>any</name></member>
-      <member refid="group__GeneralGroup_1gaad4c78043b91fd4835e71c4d2a281a95" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga2938cffd19b314aeae8e39ef7dc4df2e" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>applyAndSwap</name></member>
       <member refid="group__GeneralGroup_1ga39b1649c247ac2e6e2c8364114912a1d" prot="private" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>changedEdges_</name></member>
-      <member refid="group__GeneralGroup_1ga743e293604e551a32e96aba9e63cb091" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaa4a8e6c2de54156f11ab33a657c3c2d9" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gaf1195b4bb18db9e8ca21e92db9139406" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
-      <member refid="group__GeneralGroup_1ga124d70218b979697c0fa67ce32b07c56" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1ga88fdf0cea84ab07c1fef729e2ae635cb" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
       <member refid="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" prot="private" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>toEdgesSize_</name></member>
     </listofallmembers>
   </compounddef>

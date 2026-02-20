@@ -88,9 +88,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="27" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1IOFilter_1a608730d6a06e28828607af1531f9a765" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::IOFilter::isSupportedExtension</definition>
+      <memberdef kind="function" id="structMR_1_1IOFilter_1a18838c79f9c4e0c3b96c9c294f66b83b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::IOFilter::isSupportedExtension</definition>
         <argsstring>(const std::string &amp;ext) const</argsstring>
         <name>isSupportedExtension</name>
         <qualifiedname>MR::IOFilter::isSupportedExtension</qualifiedname>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="29" column="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="29" column="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -116,7 +116,7 @@
       <member refid="structMR_1_1IOFilter_1a8806427d8212780dc5b20506b24b1223" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>extensions</name></member>
       <member refid="structMR_1_1IOFilter_1a5f6f14f66f3758e05a9ca414470b17e3" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>IOFilter</name></member>
       <member refid="structMR_1_1IOFilter_1a54c41ce2b24a4ff3c52cb1bc4b87094a" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>IOFilter</name></member>
-      <member refid="structMR_1_1IOFilter_1a608730d6a06e28828607af1531f9a765" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>isSupportedExtension</name></member>
+      <member refid="structMR_1_1IOFilter_1a18838c79f9c4e0c3b96c9c294f66b83b" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>isSupportedExtension</name></member>
       <member refid="structMR_1_1IOFilter_1ad4426ebb26f3474b6d69ca07c8e35980" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>name</name></member>
       <member refid="structMR_1_1IOFilter_1a80dd32b51dbd9885a56ae8cf65001c7a" prot="public" virt="non-virtual"><scope>MR::IOFilter</scope><name>operator&lt;=&gt;</name></member>
     </listofallmembers>

@@ -37,7 +37,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="50" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1a2529d1b4547bb2eed9bb781f0c131829" prot="public" static="no" mutable="no">
-        <type>EdgeMetric</type>
+        <type><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref></type>
         <definition>EdgeMetric MR::DetectTunnelSettings::metric</definition>
         <argsstring></argsstring>
         <name>metric</name>
@@ -84,7 +84,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="64" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1ae823ab96c2d11f1cccba5d61003a1202" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::DetectTunnelSettings::progress</definition>
         <argsstring></argsstring>
         <name>progress</name>

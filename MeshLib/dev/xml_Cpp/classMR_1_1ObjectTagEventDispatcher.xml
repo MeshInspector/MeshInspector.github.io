@@ -13,7 +13,7 @@
       <member refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" kind="variable"><name>tagRemovedSignal</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga09204f895004b59cd1b3e447b498b57a" kind="function"><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" kind="function"><name>instance</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" kind="function"><name>ObjectTagEventDispatcher</name></member>
@@ -43,7 +43,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga09204f895004b59cd1b3e447b498b57a" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>instance</name></member>
       <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" prot="private" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
       <member refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagAddedSignal</name></member>
       <member refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagAddedSignal</name></member>

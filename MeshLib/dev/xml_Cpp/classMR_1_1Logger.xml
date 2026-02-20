@@ -20,9 +20,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
-        <definition>static MRMESH_API Logger &amp; MR::Logger::instance</definition>
+      <memberdef kind="function" id="classMR_1_1Logger_1a17cd4b1f33ef615f3f1dedeef3c963bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
+        <definition>static Logger &amp; MR::Logger::instance</definition>
         <argsstring>()</argsstring>
         <name>instance</name>
         <qualifiedname>MR::Logger::instance</qualifiedname>
@@ -32,13 +32,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="25" column="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="25" column="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Logger_1ac5d54247fea49f7312322217b9c8620b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp;</type>
-        <definition>MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp; MR::Logger::getSpdLogger</definition>
+      <memberdef kind="function" id="classMR_1_1Logger_1afc826203d2b566cca300cf6126fcab39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; spdlog::logger &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; spdlog::logger &gt; &amp; MR::Logger::getSpdLogger</definition>
         <argsstring>() const</argsstring>
         <name>getSpdLogger</name>
         <qualifiedname>MR::Logger::getSpdLogger</qualifiedname>
@@ -49,11 +49,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="28" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="28" column="28"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Logger_1aedaebeb791f1300a121668a8a525ecb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::string</type>
-        <definition>MRMESH_API std::string MR::Logger::getDefaultPattern</definition>
+      <memberdef kind="function" id="classMR_1_1Logger_1af08e378d79a4ca1b7572bd761f7f15d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::Logger::getDefaultPattern</definition>
         <argsstring>() const</argsstring>
         <name>getDefaultPattern</name>
         <qualifiedname>MR::Logger::getDefaultPattern</qualifiedname>
@@ -64,11 +64,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="31" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="31" column="18"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Logger_1a07fd961518f48457c8f593cb84b583cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Logger::addSink</definition>
+      <memberdef kind="function" id="classMR_1_1Logger_1a9c8d798758ac7d84eb9c0bfd015326d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Logger::addSink</definition>
         <argsstring>(const spdlog::sink_ptr &amp;sink)</argsstring>
         <name>addSink</name>
         <qualifiedname>MR::Logger::addSink</qualifiedname>
@@ -83,11 +83,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="34" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="34" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Logger_1a49397b1c0308f3639e914775ba6d0b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::Logger::removeSink</definition>
+      <memberdef kind="function" id="classMR_1_1Logger_1a42dd267d9ad357b129d3e00b6f8397df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Logger::removeSink</definition>
         <argsstring>(const spdlog::sink_ptr &amp;sink)</argsstring>
         <name>removeSink</name>
         <qualifiedname>MR::Logger::removeSink</qualifiedname>
@@ -101,11 +101,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="35" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="35" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Logger_1a36009f2c90bd53d2e844e3c72c21e554" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::filesystem::path</type>
-        <definition>MRMESH_API std::filesystem::path MR::Logger::getLogFileName</definition>
+      <memberdef kind="function" id="classMR_1_1Logger_1a9981418112111e8ea23d788875a239fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::Logger::getLogFileName</definition>
         <argsstring>() const</argsstring>
         <name>getLogFileName</name>
         <qualifiedname>MR::Logger::getLogFileName</qualifiedname>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="38" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="38" column="28"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -142,14 +142,14 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" bodystart="23" bodyend="42"/>
     <listofallmembers>
-      <member refid="classMR_1_1Logger_1a07fd961518f48457c8f593cb84b583cc" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>addSink</name></member>
-      <member refid="classMR_1_1Logger_1aedaebeb791f1300a121668a8a525ecb1" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getDefaultPattern</name></member>
-      <member refid="classMR_1_1Logger_1a36009f2c90bd53d2e844e3c72c21e554" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getLogFileName</name></member>
-      <member refid="classMR_1_1Logger_1ac5d54247fea49f7312322217b9c8620b" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getSpdLogger</name></member>
-      <member refid="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>instance</name></member>
+      <member refid="classMR_1_1Logger_1a9c8d798758ac7d84eb9c0bfd015326d6" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>addSink</name></member>
+      <member refid="classMR_1_1Logger_1af08e378d79a4ca1b7572bd761f7f15d1" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getDefaultPattern</name></member>
+      <member refid="classMR_1_1Logger_1a9981418112111e8ea23d788875a239fe" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getLogFileName</name></member>
+      <member refid="classMR_1_1Logger_1afc826203d2b566cca300cf6126fcab39" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getSpdLogger</name></member>
+      <member refid="classMR_1_1Logger_1a17cd4b1f33ef615f3f1dedeef3c963bc" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>instance</name></member>
       <member refid="classMR_1_1Logger_1a3ddcfce6c6d6ac2645e38f2f6db138a6" prot="private" virt="non-virtual"><scope>MR::Logger</scope><name>Logger</name></member>
       <member refid="classMR_1_1Logger_1ab59786d1bd2934b57b227e1d9fa83bf7" prot="private" virt="non-virtual"><scope>MR::Logger</scope><name>logger_</name></member>
-      <member refid="classMR_1_1Logger_1a49397b1c0308f3639e914775ba6d0b38" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>removeSink</name></member>
+      <member refid="classMR_1_1Logger_1a42dd267d9ad357b129d3e00b6f8397df" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>removeSink</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

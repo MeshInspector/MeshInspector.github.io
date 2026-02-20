@@ -10,13 +10,13 @@
       <member refid="group__GeneralGroup_1ga0be41fa3865b758a1577557baa2cbee8" kind="variable"><name>params_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga4fedb5a99bc37029028cfd35d8f09e92" kind="function"><name>computeCornerPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0276fee45562dc6af8bf5698239cd25d" kind="function"><name>computeCornerPoint</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga25f03c394752ed95a6eb71db98714312" kind="function"><name>LengthTask</name></member>
-      <member refid="group__GeneralGroup_1ga51e67eb60266c370689d03ec27c8e963" kind="function"><name>LengthTask</name></member>
-      <member refid="group__GeneralGroup_1ga8ae60075550540eed0dc6caa49b99b98" kind="function"><name>renderPass</name></member>
-      <member refid="group__GeneralGroup_1gaf4c203cb61c7b00b88193e016d8ea533" kind="function"><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga9177fd315926acedee36e316311837f8" kind="function"><name>LengthTask</name></member>
+      <member refid="group__GeneralGroup_1ga4803f998a8c3bd9890bd25a3e0ab1330" kind="function"><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1gaecdc07268d9f4f0a234bf6e2a7fb5a29" kind="function"><name>onClick</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -68,20 +68,20 @@
       <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>clickableCornerA</name></member>
       <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>clickableCornerB</name></member>
       <member refid="group__GeneralGroup_1ga3e9227a98a442d10b4198b2c3f6fd764" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>color_</name></member>
-      <member refid="group__GeneralGroup_1ga4fedb5a99bc37029028cfd35d8f09e92" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>computeCornerPoint</name></member>
-      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1ga0276fee45562dc6af8bf5698239cd25d" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>computeCornerPoint</name></member>
+      <member refid="group__GeneralGroup_1gae05bf19b46876470cef45cd15178099f" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>earlyBackwardPass</name></member>
       <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>enabled</name></member>
       <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>InteractionMask</name></member>
       <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>isHovered</name></member>
       <member refid="group__GeneralGroup_1ga25f03c394752ed95a6eb71db98714312" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>LengthTask</name></member>
-      <member refid="group__GeneralGroup_1ga51e67eb60266c370689d03ec27c8e963" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>LengthTask</name></member>
-      <member refid="group__GeneralGroup_1gaf4c203cb61c7b00b88193e016d8ea533" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga9177fd315926acedee36e316311837f8" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>LengthTask</name></member>
+      <member refid="group__GeneralGroup_1gaecdc07268d9f4f0a234bf6e2a7fb5a29" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>onClick</name></member>
       <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::LengthTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::LengthTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga0be41fa3865b758a1577557baa2cbee8" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>params_</name></member>
-      <member refid="group__GeneralGroup_1ga8ae60075550540eed0dc6caa49b99b98" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga4803f998a8c3bd9890bd25a3e0ab1330" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>renderPass</name></member>
       <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>renderTaskDepth</name></member>
       <member refid="group__GeneralGroup_1ga08afaf1a954011df3e2d6943483c4e2f" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>viewport_</name></member>
       <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::RenderDimensions::LengthTask</scope><name>~BasicClickableRectUiRenderTask</name></member>

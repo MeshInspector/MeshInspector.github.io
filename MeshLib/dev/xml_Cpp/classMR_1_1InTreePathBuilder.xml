@@ -9,8 +9,8 @@
       <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" kind="variable"><name>vertDistance_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" kind="function"><name>InTreePathBuilder</name></member>
-      <member refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" kind="function"><name>build</name></member>
+      <member refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" kind="function"><name>InTreePathBuilder</name></member>
+      <member refid="group__GeneralGroup_1gad261927227d814e06646f6daba7b3fa0" kind="function"><name>build</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" kind="function"><name>getEdgeBack_</name></member>
@@ -22,9 +22,9 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
+      <member refid="group__GeneralGroup_1gad261927227d814e06646f6daba7b3fa0" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
       <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>getEdgeBack_</name></member>
-      <member refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
+      <member refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
       <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>topology_</name></member>
       <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>treeEdges_</name></member>
       <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>vertDistance_</name></member>

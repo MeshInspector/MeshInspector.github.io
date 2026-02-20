@@ -3,13 +3,14 @@
   <compounddef id="group__MeshLoadGroup" kind="group">
     <compoundname>MeshLoadGroup</compoundname>
     <title>Mesh Load</title>
+    <innernamespace refid="namespaceMR_1_1MeshLoad">MR::MeshLoad</innernamespace>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga0230084d7f2168e0171883198494ca0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromMrmesh</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gaba05f7f90f05d09381c9cb8f7ebd026f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadMrmesh</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromMrmesh</name>
-        <qualifiedname>MR::MeshLoad::fromMrmesh</qualifiedname>
+        <name>loadMrmesh</name>
+        <qualifiedname>MR::loadMrmesh</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -26,14 +27,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="87" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="87" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="23" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="23" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga4725e7b67ed74363c6782045a4122ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromMrmesh</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga91395f208d2897a9e2909ea50cafbdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadMrmesh</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromMrmesh</name>
-        <qualifiedname>MR::MeshLoad::fromMrmesh</qualifiedname>
+        <name>loadMrmesh</name>
+        <qualifiedname>MR::loadMrmesh</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -50,14 +51,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="91" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="91" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="27" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="27" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga9dacefdac7728d37b984dcab6ed88bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromOff</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gae9d550701875783b909d5602b8d7c358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadOff</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromOff</name>
-        <qualifiedname>MR::MeshLoad::fromOff</qualifiedname>
+        <name>loadOff</name>
+        <qualifiedname>MR::loadOff</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -74,14 +75,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="94" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="94" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="30" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1gaf2da62e6f9eb917bd0def906f852e597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromOff</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gabb2fb7048c72f794d823a6b200b0d1eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadOff</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromOff</name>
-        <qualifiedname>MR::MeshLoad::fromOff</qualifiedname>
+        <name>loadOff</name>
+        <qualifiedname>MR::loadOff</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -98,14 +99,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="97" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="97" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="33" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="33" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga132c2f040df5ba0e5b7c26b62a687a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromObj</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga5887b7ca337e8f580c09f27e0f02be06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadObj</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromObj</name>
-        <qualifiedname>MR::MeshLoad::fromObj</qualifiedname>
+        <name>loadObj</name>
+        <qualifiedname>MR::loadObj</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -122,14 +123,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="100" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="100" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="36" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="36" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1gac407c8e26de276d27c9bbb8fe40eade0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromObj</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga45676946fa326619771af2a6a6ca06ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadObj</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromObj</name>
-        <qualifiedname>MR::MeshLoad::fromObj</qualifiedname>
+        <name>loadObj</name>
+        <qualifiedname>MR::loadObj</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -146,14 +147,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="104" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="40" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="40" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga1b2267cc39cb8d9f8cc2942df5a0b12b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnyStl</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga3151d6e7d113b0f6862c0b3169b6b1b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadStl</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromAnyStl</name>
-        <qualifiedname>MR::MeshLoad::fromAnyStl</qualifiedname>
+        <name>loadStl</name>
+        <qualifiedname>MR::loadStl</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -170,14 +171,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="107" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="107" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="43" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="43" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga49f8924ac46a8d5087ce59fb9be4ecfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnyStl</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga94d0ddcfb7798b21933b7434b48d18fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadStl</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromAnyStl</name>
-        <qualifiedname>MR::MeshLoad::fromAnyStl</qualifiedname>
+        <name>loadStl</name>
+        <qualifiedname>MR::loadStl</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -194,14 +195,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="111" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="111" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="47" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="47" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga800a25cbcfacd411f62b7c5f66035242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromBinaryStl</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga0a654a753687ea60dde0bb19b57972ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadBinaryStl</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromBinaryStl</name>
-        <qualifiedname>MR::MeshLoad::fromBinaryStl</qualifiedname>
+        <name>loadBinaryStl</name>
+        <qualifiedname>MR::loadBinaryStl</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -218,14 +219,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="114" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="114" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="50" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="50" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga08e50aacade413e567cd3bc388b51163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromBinaryStl</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga72ab069925c13a351947758d035d299e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadBinaryStl</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromBinaryStl</name>
-        <qualifiedname>MR::MeshLoad::fromBinaryStl</qualifiedname>
+        <name>loadBinaryStl</name>
+        <qualifiedname>MR::loadBinaryStl</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -242,14 +243,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="118" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="118" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="54" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="54" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1gaf50c150b1dd81fc6068b1ceff67e4fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromASCIIStl</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga10a5b922b565a1ff5fbb737e1c073d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadASCIIStl</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromASCIIStl</name>
-        <qualifiedname>MR::MeshLoad::fromASCIIStl</qualifiedname>
+        <name>loadASCIIStl</name>
+        <qualifiedname>MR::loadASCIIStl</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -266,14 +267,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="121" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="121" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="57" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="57" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga48e8ba7fe63a7dd81cac9f267a869133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromASCIIStl</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga68b151b2439c04a20e2b19f29d5ae110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadASCIIStl</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromASCIIStl</name>
-        <qualifiedname>MR::MeshLoad::fromASCIIStl</qualifiedname>
+        <name>loadASCIIStl</name>
+        <qualifiedname>MR::loadASCIIStl</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -290,14 +291,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="124" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="60" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="60" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga1cb0c1de8fa23fcac57b58ccd15c147a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromPly</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gac969ce40799ae4283a46b06d658aa9d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadPly</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromPly</name>
-        <qualifiedname>MR::MeshLoad::fromPly</qualifiedname>
+        <name>loadPly</name>
+        <qualifiedname>MR::loadPly</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -314,14 +315,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="127" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="127" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="63" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="63" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga288b39c5cb10846a9c11e14ca00ada85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromPly</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gaba5ce54fc0f049940d50275d05193473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadPly</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromPly</name>
-        <qualifiedname>MR::MeshLoad::fromPly</qualifiedname>
+        <name>loadPly</name>
+        <qualifiedname>MR::loadPly</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -338,14 +339,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="131" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="131" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="67" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="67" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga1335c7ebd417b7e14d4a7fbec71b1e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromDxf</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga11c6ceffce956e393739c3b154874194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadDxf</definition>
         <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromDxf</name>
-        <qualifiedname>MR::MeshLoad::fromDxf</qualifiedname>
+        <name>loadDxf</name>
+        <qualifiedname>MR::loadDxf</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>path</declname>
@@ -362,14 +363,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="134" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="134" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="70" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="70" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga6c226ac764bb215351691358c90e3eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromDxf</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1gaf2c22023760ac4daa50745d2663e60bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadDxf</definition>
         <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromDxf</name>
-        <qualifiedname>MR::MeshLoad::fromDxf</qualifiedname>
+        <name>loadDxf</name>
+        <qualifiedname>MR::loadDxf</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -386,14 +387,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="137" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="137" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="73" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="73" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1gac9118492a6cd095ff8e563c0987fc477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga64394b5cbce9a5e5d3f9d33fb7243176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadMesh</definition>
         <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromAnySupportedFormat</name>
-        <qualifiedname>MR::MeshLoad::fromAnySupportedFormat</qualifiedname>
+        <name>loadMesh</name>
+        <qualifiedname>MR::loadMesh</qualifiedname>
         <param>
           <type>const std::filesystem::path &amp;</type>
           <declname>file</declname>
@@ -410,14 +411,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="140" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="140" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="76" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="76" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga7aaa3a9fdc4e9ca9e86331c938c43fcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
-        <definition>MRMESH_API Expected&lt; Mesh &gt; MR::MeshLoad::fromAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__MeshLoadGroup_1ga91bda7c52e79b000345c9747df79744b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::loadMesh</definition>
         <argsstring>(std::istream &amp;in, const std::string &amp;extension, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromAnySupportedFormat</name>
-        <qualifiedname>MR::MeshLoad::fromAnySupportedFormat</qualifiedname>
+        <name>loadMesh</name>
+        <qualifiedname>MR::loadMesh</qualifiedname>
         <param>
           <type>std::istream &amp;</type>
           <declname>in</declname>
@@ -438,29 +439,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="144" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="144" declcolumn="21"/>
-      </memberdef>
-      <memberdef kind="function" id="group__MeshLoadGroup_1ga1609740c1af4ee05a62c65f39f25323a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE MRMESH_API void</type>
-        <definition>MR_BIND_IGNORE MRMESH_API void MR::MeshLoad::telemetryLogSize</definition>
-        <argsstring>(const Mesh &amp;mesh)</argsstring>
-        <name>telemetryLogSize</name>
-        <qualifiedname>MR::MeshLoad::telemetryLogSize</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <briefdescription>
-<para>emits telemetry signal with the integer logarithm of mesh size </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="147" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="147" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="80" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="80" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>new simpler names </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

@@ -30,24 +30,24 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaf91ecfb07e0863d000af4ebedc49c763" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="group__GeneralGroup_1ga801124ee76e24e9a65f09339f064e35b" kind="function"><name>connect</name></member>
-      <member refid="group__GeneralGroup_1ga658d96148a2b7e4d19231d7801569723" kind="function"><name>setMouseControl</name></member>
+      <member refid="group__GeneralGroup_1ga049c09f52a5b753a6935356ccfd39cde" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gabf12d68f3ac6484a0fdffb15eeb0131c" kind="function"><name>setMouseControl</name></member>
       <member refid="group__GeneralGroup_1ga97504993e7ae26edd11c87386a2b5c6a" kind="function"><name>getDownMousePos</name></member>
       <member refid="group__GeneralGroup_1gaf7ace43b0cc3f1e6c8f984e53473876a" kind="function"><name>getMousePos</name></member>
-      <member refid="group__GeneralGroup_1ga2a1971571d792ac671837f6658315096" kind="function"><name>isPressed</name></member>
-      <member refid="group__GeneralGroup_1ga7696a282703b3fb0ade622ed97e5e3ba" kind="function"><name>isPressedAny</name></member>
+      <member refid="group__GeneralGroup_1gabb58214722dec57f676bb9945fa96518" kind="function"><name>isPressed</name></member>
+      <member refid="group__GeneralGroup_1gab6b255ac13c315a9db8983b0875fa62d" kind="function"><name>isPressedAny</name></member>
       <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" kind="function"><name>isCursorInside</name></member>
       <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" kind="function"><name>isDropOldEventOnNewActive</name></member>
       <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" kind="function"><name>dropOldEventsOnNew</name></member>
-      <member refid="group__GeneralGroup_1ga287c53d51507ce60bbd4cdd1aceddd48" kind="function"><name>findControlByMode</name></member>
+      <member refid="group__GeneralGroup_1ga5cfbe5c519b74434202e1e4f3d26779f" kind="function"><name>findControlByMode</name></member>
       <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" kind="function"><name>setTrasformModifierCb</name></member>
       <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" kind="function"><name>setFOVModifierCb</name></member>
       <member refid="group__GeneralGroup_1ga24e57a9dc84d98aa47bb153dce49815c" kind="function"><name>getMouseConflicts</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gafb9ca609657051489af0e9c49e4e5214" kind="function"><name>getControlString</name></member>
-      <member refid="group__GeneralGroup_1ga2affe8f585571c7d0426962af908ffe1" kind="function"><name>mouseAndModToKey</name></member>
-      <member refid="group__GeneralGroup_1ga9d5e51eb18d1cd7551ba1f8385da113c" kind="function"><name>keyToMouseAndMod</name></member>
+      <member refid="group__GeneralGroup_1gab0ab7f0553a3700c77a68a99bb5f54e8" kind="function"><name>getControlString</name></member>
+      <member refid="group__GeneralGroup_1gae38872a38ceb66e1c2a20f312921b8e8" kind="function"><name>mouseAndModToKey</name></member>
+      <member refid="group__GeneralGroup_1gadb14e66cdb0ce97e615367d0c0bcbf9a" kind="function"><name>keyToMouseAndMod</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga40d31be81a1f1a36774c3240969be6d6" kind="function"><name>preMouseDown_</name></member>
@@ -71,7 +71,7 @@
       <member refid="group__GeneralGroup_1gaf1d2af68b305682321cc5fc636ad3435" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickModifiers_</name></member>
       <member refid="group__GeneralGroup_1gace6ff7ee7290e7ebc86bfbc3125cbace" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickPendingDown_</name></member>
       <member refid="group__GeneralGroup_1ga4ee40fc6f784380b6b48fa681ad8fb81" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickTime_</name></member>
-      <member refid="group__GeneralGroup_1ga801124ee76e24e9a65f09339f064e35b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga049c09f52a5b753a6935356ccfd39cde" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga133a228bac6f1df8212f8df1039ffe89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>currentMode_</name></member>
       <member refid="group__GeneralGroup_1gabb4d12ea163f0f2ad318bab3d7cdec04" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>currentMousePos_</name></member>
       <member refid="group__GeneralGroup_1ga92e2b5854eb11ae1d9391c63c0c675b8" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>cursorEntrance_</name></member>
@@ -82,20 +82,20 @@
       <member refid="group__GeneralGroup_1ga2bfcc1cfbe75108b42dc97a3da162141" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dragButton_</name></member>
       <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>dropOldEventsOnNew</name></member>
       <member refid="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dropOldEventsOnNew_</name></member>
-      <member refid="group__GeneralGroup_1ga287c53d51507ce60bbd4cdd1aceddd48" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>findControlByMode</name></member>
+      <member refid="group__GeneralGroup_1ga5cfbe5c519b74434202e1e4f3d26779f" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>findControlByMode</name></member>
       <member refid="group__GeneralGroup_1gad1b71f4ffbe2dbebe14d9b4a3f9bb426" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>fovModifierCb_</name></member>
-      <member refid="group__GeneralGroup_1gafb9ca609657051489af0e9c49e4e5214" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getControlString</name></member>
+      <member refid="group__GeneralGroup_1gab0ab7f0553a3700c77a68a99bb5f54e8" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getControlString</name></member>
       <member refid="group__GeneralGroup_1ga97504993e7ae26edd11c87386a2b5c6a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getDownMousePos</name></member>
       <member refid="group__GeneralGroup_1ga24e57a9dc84d98aa47bb153dce49815c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getMouseConflicts</name></member>
       <member refid="group__GeneralGroup_1gaf7ace43b0cc3f1e6c8f984e53473876a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getMousePos</name></member>
       <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isCursorInside</name></member>
       <member refid="group__GeneralGroup_1ga57cfdd5a88450edaed4d0ef0bddb6370" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>isCursorInside_</name></member>
       <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isDropOldEventOnNewActive</name></member>
-      <member refid="group__GeneralGroup_1ga2a1971571d792ac671837f6658315096" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressed</name></member>
-      <member refid="group__GeneralGroup_1ga7696a282703b3fb0ade622ed97e5e3ba" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressedAny</name></member>
-      <member refid="group__GeneralGroup_1ga9d5e51eb18d1cd7551ba1f8385da113c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>keyToMouseAndMod</name></member>
+      <member refid="group__GeneralGroup_1gabb58214722dec57f676bb9945fa96518" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressed</name></member>
+      <member refid="group__GeneralGroup_1gab6b255ac13c315a9db8983b0875fa62d" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressedAny</name></member>
+      <member refid="group__GeneralGroup_1gadb14e66cdb0ce97e615367d0c0bcbf9a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>keyToMouseAndMod</name></member>
       <member refid="group__GeneralGroup_1ga8f30fa3856888a18448ad24974f98b1b" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>map_</name></member>
-      <member refid="group__GeneralGroup_1ga2affe8f585571c7d0426962af908ffe1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseAndModToKey</name></member>
+      <member refid="group__GeneralGroup_1gae38872a38ceb66e1c2a20f312921b8e8" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseAndModToKey</name></member>
       <member refid="group__GeneralGroup_1gaba6e92a5a4a8fe8713057e942b2056b6" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseDown_</name></member>
       <member refid="group__GeneralGroup_1gabc8ea13d2c29de4c6878d778c53b7940" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>MouseModeBackMap</name></member>
       <member refid="group__GeneralGroup_1gaa74ac024d9ebcf8b9b970eab67a5a767" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>MouseModeMap</name></member>
@@ -108,7 +108,7 @@
       <member refid="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>prevMousePos_</name></member>
       <member refid="group__GeneralGroup_1ga0d913e0ad425b861ac4e770079c87b0a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>resetAllIfNeeded_</name></member>
       <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setFOVModifierCb</name></member>
-      <member refid="group__GeneralGroup_1ga658d96148a2b7e4d19231d7801569723" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setMouseControl</name></member>
+      <member refid="group__GeneralGroup_1gabf12d68f3ac6484a0fdffb15eeb0131c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setMouseControl</name></member>
       <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setTrasformModifierCb</name></member>
       <member refid="group__GeneralGroup_1ga8f377fb5f4b4ae1261438935d12d6b89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>transformModifierCb_</name></member>
     </listofallmembers>

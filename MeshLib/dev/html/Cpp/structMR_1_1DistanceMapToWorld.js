@@ -1,8 +1,8 @@
 var structMR_1_1DistanceMapToWorld =
 [
     [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591", null ],
-    [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5", null ],
-    [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html#a45d71d4ab5dd33dbd4ef7b7b6eb16468", null ],
+    [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html#aafedbe9db4bcbe9cf1a98dd2daa8da7f", null ],
+    [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html#a0c1936ef3e3658b717e91379b4f57651", null ],
     [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df", null ],
     [ "operator AffineXf3f", "structMR_1_1DistanceMapToWorld.html#a74d96fa90a47e012874bf6708e586545", null ],
     [ "toWorld", "structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742", null ],

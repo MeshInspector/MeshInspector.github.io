@@ -21,10 +21,10 @@ var classMR_1_1RibbonFontManager =
       [ "Monospace", "group__GeneralGroup.html#ggaba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384", null ],
       [ "Count", "group__GeneralGroup.html#ggaba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "RibbonFontManager", "group__GeneralGroup.html#gacf93e10106173992a8391b7e12038700", null ],
+    [ "RibbonFontManager", "group__GeneralGroup.html#ga23e99a477eb55ac16456207f0a8ec124", null ],
     [ "getAllFontPaths", "group__GeneralGroup.html#gaa5736661718edce158b7b07f4beca13e", null ],
-    [ "getFontByType", "group__GeneralGroup.html#gad3f9e2f7788079bfaece40298c022f53", null ],
-    [ "getMenuFontPath", "group__GeneralGroup.html#gaf67d4ecfff6fa832444a2a214a3f471a", null ],
-    [ "loadAllFonts", "group__GeneralGroup.html#gaef885272e89706ec05cb6ab51b2eb47b", null ],
-    [ "setNewFontPaths", "group__GeneralGroup.html#ga7ea173f1a1a258e47371b455d842de8e", null ]
+    [ "getFontByType", "group__GeneralGroup.html#ga9235b2cad7f0449c5e110f5d39cd5dc1", null ],
+    [ "getMenuFontPath", "group__GeneralGroup.html#gae0602c6b4676272d831b527ffbd92ddd", null ],
+    [ "loadAllFonts", "group__GeneralGroup.html#gadbf6aadf4dfe32b0b164735eb68c157b", null ],
+    [ "setNewFontPaths", "group__GeneralGroup.html#ga4ec42bb68d5b28aabef0f28fce200eaf", null ]
 ];

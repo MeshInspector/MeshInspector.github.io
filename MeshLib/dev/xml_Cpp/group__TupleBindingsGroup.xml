@@ -3,7 +3,506 @@
   <compounddef id="group__TupleBindingsGroup" kind="group">
     <compoundname>TupleBindingsGroup</compoundname>
     <title>Tuple Bindings</title>
-    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gab1cf2ee509740a5f5564fce176ac6b05" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::get</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="89" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gadb3a21b01f96eab713fd525c22ba5569" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; MR::get</definition>
+        <argsstring>(Vector2&lt; T &gt; &amp;v) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Vector2&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="92" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gaefd861e0aee2f0435761cbaf44e7897f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::get</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;v) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="95" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga28e92a7fd124a5ea679bd55bac165135" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; MR::get</definition>
+        <argsstring>(Vector3&lt; T &gt; &amp;v) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Vector3&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="98" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga01413673c815bd0bfc3dea53829bb94b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::get</definition>
+        <argsstring>(const Vector4&lt; T &gt; &amp;v) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Vector4&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="101" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga4f46e33f779ccbcf3bbee75323347837" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; MR::get</definition>
+        <argsstring>(Vector4&lt; T &gt; &amp;v) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Vector4&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="104" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gada36a4ce0d1d0bf666e421ec3cb00f39" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const Matrix2&lt; T &gt;::VectorType &amp;</type>
+        <definition>const Matrix2&lt; T &gt;::VectorType &amp; MR::get</definition>
+        <argsstring>(const Matrix2&lt; T &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Matrix2&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="107" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga27575a581409754718e3440d21583420" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix2&lt; T &gt;::VectorType &amp;</type>
+        <definition>Matrix2&lt; T &gt;::VectorType &amp; MR::get</definition>
+        <argsstring>(Matrix2&lt; T &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Matrix2&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="110" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga28ca9a61313c194fdd1d8bd54eb71cbc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const Matrix3&lt; T &gt;::VectorType &amp;</type>
+        <definition>const Matrix3&lt; T &gt;::VectorType &amp; MR::get</definition>
+        <argsstring>(const Matrix3&lt; T &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Matrix3&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="113" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga4e767d46dd23fb8b21130cc65ef9eb61" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix3&lt; T &gt;::VectorType &amp;</type>
+        <definition>Matrix3&lt; T &gt;::VectorType &amp; MR::get</definition>
+        <argsstring>(Matrix3&lt; T &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Matrix3&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="116" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga3c24ab14380574117e31e10f073688fc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const Matrix4&lt; T &gt;::VectorType &amp;</type>
+        <definition>const Matrix4&lt; T &gt;::VectorType &amp; MR::get</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Matrix4&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="119" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga7aa397b5ed81246a0465fb3bdc4f5599" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix4&lt; T &gt;::VectorType &amp;</type>
+        <definition>Matrix4&lt; T &gt;::VectorType &amp; MR::get</definition>
+        <argsstring>(Matrix4&lt; T &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Matrix4&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="122" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gaac529af9159db98123ad959d1708a303" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>const std::tuple_element&lt; I, AffineXf&lt; V &gt; &gt;::type &amp;</type>
+        <definition>const std::tuple_element&lt; I, AffineXf&lt; V &gt; &gt;::type &amp; MR::get</definition>
+        <argsstring>(const AffineXf&lt; V &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const AffineXf&lt; V &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="125" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga8c1f285288de8cd4487966109876601b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>std::tuple_element&lt; I, AffineXf&lt; V &gt; &gt;::type &amp;</type>
+        <definition>std::tuple_element&lt; I, AffineXf&lt; V &gt; &gt;::type &amp; MR::get</definition>
+        <argsstring>(AffineXf&lt; V &gt; &amp;m) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>AffineXf&lt; V &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="134" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="134" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga8adef0dcb5a67d508801a46f29deb81f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int MR::get</definition>
+        <argsstring>(const MR::Id&lt; T &gt; &amp;id) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1Id" kindref="compound">MR::Id</ref>&lt; T &gt; &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="143" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="143" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1ga4bc6e978265e037bdca77110eae89d64" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>int &amp;</type>
+        <definition>int &amp; MR::get</definition>
+        <argsstring>(MR::Id&lt; T &gt; &amp;id) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id" kindref="compound">MR::Id</ref>&lt; T &gt; &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="150" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gac87e12b44af38ae6f625b3bc7749aec7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+        </templateparamlist>
+        <type>const uint8_t &amp;</type>
+        <definition>const uint8_t &amp; MR::get</definition>
+        <argsstring>(const Color &amp;c) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>const Color &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="157" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="157" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TupleBindingsGroup_1gaae733878440cead52d3fc2fd6c4429b9" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+        </templateparamlist>
+        <type>uint8_t &amp;</type>
+        <definition>uint8_t &amp; MR::get</definition>
+        <argsstring>(Color &amp;c) noexcept</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::get</qualifiedname>
+        <param>
+          <type>Color &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" line="164" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTupleBindings.h" bodystart="164" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

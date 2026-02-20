@@ -17,9 +17,9 @@
       <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" kind="variable"><name>data_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga9719cda5e63b461becae03d081f6c564" kind="function"><name>load</name></member>
-      <member refid="group__GeneralGroup_1gaf834f6c83c9f7dd9c55a0a6aa20a8e45" kind="function"><name>free</name></member>
-      <member refid="group__GeneralGroup_1ga679b258211e9754bfe36635ba6a2eca2" kind="function"><name>findByName</name></member>
+      <member refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" kind="function"><name>load</name></member>
+      <member refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" kind="function"><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" kind="function"><name>findByName</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga9c0e1ddeff54a33609d04589edfa9b39" kind="function"><name>RibbonIcons</name></member>
@@ -40,12 +40,12 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>ColorType</name></member>
       <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>data_</name></member>
-      <member refid="group__GeneralGroup_1ga679b258211e9754bfe36635ba6a2eca2" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findByName</name></member>
+      <member refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findByName</name></member>
       <member refid="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findRequiredSize_</name></member>
-      <member refid="group__GeneralGroup_1gaf834f6c83c9f7dd9c55a0a6aa20a8e45" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>free</name></member>
       <member refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>IconType</name></member>
       <member refid="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>instance_</name></member>
-      <member refid="group__GeneralGroup_1ga9719cda5e63b461becae03d081f6c564" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load</name></member>
+      <member refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load</name></member>
       <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load_</name></member>
       <member refid="group__GeneralGroup_1ga9c0e1ddeff54a33609d04589edfa9b39" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>RibbonIcons</name></member>
       <member refid="group__GeneralGroup_1ga62a1717386122730a20db87f57d97a86" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>SizedIcons</name></member>

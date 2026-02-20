@@ -1,5 +1,5 @@
 var classMR_1_1RenderAngleObject =
 [
-    [ "RenderAngleObject", "group__GeneralGroup.html#gad783673b63b5a23dcf35d0bc3ecd7a02", null ],
-    [ "renderUi", "group__GeneralGroup.html#ga27735a1d0225c060e7c06bbb288c0225", null ]
+    [ "RenderAngleObject", "group__GeneralGroup.html#ga2668069fbbb824a6d3a527b90ce0c3a6", null ],
+    [ "renderUi", "group__GeneralGroup.html#gacf5a24f58c8360bc3f6e89afb200b56f", null ]
 ];

@@ -14,6 +14,19 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Box&lt; float &gt;</label>
+        <link refid="structMR_1_1Box"/>
+      </node>
+      <node id="1">
+        <label>MR::Palette::Parameters</label>
+        <link refid="structMR_1_1Palette_1_1Parameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>legendLimits</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="150" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="151" bodyend="156"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga10918a054375c316bd8e2fcb0685a726" prot="public" virt="non-virtual"><scope>MR::Palette::Parameters</scope><name>baseColors</name></member>

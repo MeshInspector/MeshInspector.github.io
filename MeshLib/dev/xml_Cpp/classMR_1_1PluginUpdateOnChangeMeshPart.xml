@@ -14,11 +14,11 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaf80c0adcc1ca6dfd7b24e4d98aed5dcc" kind="function"><name>setUpdateFunc</name></member>
-      <member refid="group__GeneralGroup_1gab8919af457390e1c709327e3828a8c6b" kind="function"><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gaeecca4157ae98471f423c89291353435" kind="function"><name>preDrawUpdate</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga9767c4ad35864bc85b2f759c2aad5888" kind="function"><name>onPluginEnable_</name></member>
-      <member refid="group__GeneralGroup_1ga5c3907d5d352c381ea77f8c3081e136d" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gaa218ef42832643cdd6508125fa222af2" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaae19bc2cf74c66051f722392d3aa8eb9" kind="function"><name>onPluginDisable_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -54,9 +54,9 @@
       <member refid="group__GeneralGroup_1ga2fd3a2923aaecd02cf580577dc7b634f" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>connections_</name></member>
       <member refid="group__GeneralGroup_1gac672aeb6f42f88a437ce92709a6aba0b" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>dirty_</name></member>
       <member refid="group__GeneralGroup_1ga66e69a046397d4cb09c381d2e7021cbf" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>func_</name></member>
-      <member refid="group__GeneralGroup_1ga5c3907d5d352c381ea77f8c3081e136d" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga9767c4ad35864bc85b2f759c2aad5888" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>onPluginEnable_</name></member>
-      <member refid="group__GeneralGroup_1gab8919af457390e1c709327e3828a8c6b" prot="public" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gaae19bc2cf74c66051f722392d3aa8eb9" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gaa218ef42832643cdd6508125fa222af2" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaeecca4157ae98471f423c89291353435" prot="public" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>preDrawUpdate</name></member>
       <member refid="group__GeneralGroup_1gaf80c0adcc1ca6dfd7b24e4d98aed5dcc" prot="public" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>setUpdateFunc</name></member>
       <member refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>shouldClose_</name></member>
       <member refid="group__GeneralGroup_1ga8966c139b8539e3583cf02308b060484" prot="public" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>UpdateFunc</name></member>

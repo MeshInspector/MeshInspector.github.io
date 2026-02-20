@@ -3,19 +3,55 @@
   <compounddef id="MRRibbonFontManager_8h" kind="file" language="C++">
     <compoundname>MRRibbonFontManager.h</compoundname>
     <includes local="yes">exports.h</includes>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRImGui_8h" local="yes">MRImGui.h</includes>
     <includes local="no">array</includes>
     <includes local="no">filesystem</includes>
     <includedby refid="MRRibbonFontHolder_8h" local="yes">MRRibbonFontHolder.h</includedby>
     <includedby refid="MRRibbonMenu_8h" local="yes">MRRibbonMenu.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="16">
         <label>MRImGui.h</label>
         <link refid="MRImGui_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -25,30 +61,61 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRPch/MRSuppressWarning.h</label>
       </node>
       <node id="3">
         <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="17">
+        <label>MRPch/MRSuppressWarning.h</label>
+      </node>
+      <node id="10">
         <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="8">
+      <node id="19">
         <label>filesystem</label>
       </node>
-      <node id="6">
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="18">
         <label>imgui.h</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -79,7 +146,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGui_8h" kindref="compound">MRImGui.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -118,24 +185,24 @@
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1gab37a19ee9fe77c068e749dc7e8dfd6b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref><sp/>=<sp/>std::array&lt;std::filesystem::path,<sp/>size_t(<sp/>FontFile::Count<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="group__GeneralGroup_1gacf93e10106173992a8391b7e12038700" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gacf93e10106173992a8391b7e12038700" kindref="member">RibbonFontManager</ref>();</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1ga23e99a477eb55ac16456207f0a8ec124" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga23e99a477eb55ac16456207f0a8ec124" kindref="member">RibbonFontManager</ref>();</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="group__GeneralGroup_1gaef885272e89706ec05cb6ab51b2eb47b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef885272e89706ec05cb6ab51b2eb47b" kindref="member">loadAllFonts</ref>(<sp/>ImWchar*<sp/>charRanges<sp/>);</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1gadbf6aadf4dfe32b0b164735eb68c157b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbf6aadf4dfe32b0b164735eb68c157b" kindref="member">loadAllFonts</ref>(<sp/>ImWchar*<sp/>charRanges<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__GeneralGroup_1gad3f9e2f7788079bfaece40298c022f53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ImFont*<sp/><ref refid="group__GeneralGroup_1gad3f9e2f7788079bfaece40298c022f53" kindref="member">getFontByType</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54" refid="group__GeneralGroup_1ga0d99ef9d5a6b87aaad1197070ab64af0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0d99ef9d5a6b87aaad1197070ab64af0" kindref="member">getFontSizeByType</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga9235b2cad7f0449c5e110f5d39cd5dc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ImFont*<sp/><ref refid="group__GeneralGroup_1ga9235b2cad7f0449c5e110f5d39cd5dc1" kindref="member">getFontByType</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga4a78076bca223898e1516e00fe8dbbfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4a78076bca223898e1516e00fe8dbbfc" kindref="member">getFontSizeByType</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="group__GeneralGroup_1gaf67d4ecfff6fa832444a2a214a3f471a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gaf67d4ecfff6fa832444a2a214a3f471a" kindref="member">getMenuFontPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gae0602c6b4676272d831b527ffbd92ddd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gae0602c6b4676272d831b527ffbd92ddd" kindref="member">getMenuFontPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="60" refid="group__GeneralGroup_1gaa5736661718edce158b7b07f4beca13e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaa5736661718edce158b7b07f4beca13e" kindref="member">getAllFontPaths</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fontPaths_;<sp/>}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1ga7ea173f1a1a258e47371b455d842de8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7ea173f1a1a258e47371b455d842de8e" kindref="member">setNewFontPaths</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref>&amp;<sp/>paths<sp/>);</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga4ec42bb68d5b28aabef0f28fce200eaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ec42bb68d5b28aabef0f28fce200eaf" kindref="member">setNewFontPaths</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab37a19ee9fe77c068e749dc7e8dfd6b2" kindref="member">FontFilePaths</ref>&amp;<sp/>paths<sp/>);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1ga518edbd9a7eae398440e4c334020dcf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ImFont*<sp/><ref refid="group__GeneralGroup_1ga518edbd9a7eae398440e4c334020dcf5" kindref="member">getFontByTypeStatic</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga97355af20e7429bbe3a9d0b3f7c209a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ImFont*<sp/><ref refid="group__GeneralGroup_1ga97355af20e7429bbe3a9d0b3f7c209a9" kindref="member">getFontByTypeStatic</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1ga5007fb2bb8bb0c50e9b8141d7c7b8a1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FontAndSize<sp/><ref refid="group__GeneralGroup_1ga5007fb2bb8bb0c50e9b8141d7c7b8a1d" kindref="member">getFontAndSizeByTypeStatic</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga506a448723b22b85582a4fb8e1748483" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref><sp/><ref refid="group__GeneralGroup_1ga506a448723b22b85582a4fb8e1748483" kindref="member">getFontAndSizeByTypeStatic</ref>(<sp/><ref refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kindref="member">FontType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="group__GeneralGroup_1ga0d18d71db7c19b02d1b5ad1bfe8f2aa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0d18d71db7c19b02d1b5ad1bfe8f2aa8" kindref="member">initFontManagerInstance</ref>(<sp/><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref>*<sp/>ribbonFontManager<sp/>);</highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1ga734cfe3441622a222995f037877e3178" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga734cfe3441622a222995f037877e3178" kindref="member">initFontManagerInstance</ref>(<sp/><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref>*<sp/>ribbonFontManager<sp/>);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>

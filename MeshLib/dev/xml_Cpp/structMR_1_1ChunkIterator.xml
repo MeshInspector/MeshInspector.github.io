@@ -17,10 +17,10 @@
       <member refid="group__GeneralGroup_1ga987331c567ec798d896b77adaf490fc0" kind="variable"><name>index</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gac0f52b399269d4be6c5c051272d0db86" kind="function"><name>operator==</name></member>
-      <member refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" kind="function"><name>operator++</name></member>
-      <member refid="group__GeneralGroup_1gad8208e10b106ed35392e4b212e98c87d" kind="function"><name>operator++</name></member>
-      <member refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga90a63604beb7920d77fa819e7e2ea521" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga5473458b678950c6619e626094a5dcef" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga666de2260dc875f0ae45010555f0a53f" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga16f82476a6a3f356016b4a66acb5f122" kind="function"><name>operator*</name></member>
       <member refid="group__GeneralGroup_1ga3d81344e7c7048e9e13514de12883555" kind="function"><name>operator-&gt;</name></member>
     </sectiondef>
     <briefdescription>
@@ -34,11 +34,11 @@
       <member refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>difference_type</name></member>
       <member refid="group__GeneralGroup_1ga987331c567ec798d896b77adaf490fc0" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>index</name></member>
       <member refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>iterator_category</name></member>
-      <member refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator*</name></member>
-      <member refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
-      <member refid="group__GeneralGroup_1gad8208e10b106ed35392e4b212e98c87d" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga16f82476a6a3f356016b4a66acb5f122" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga5473458b678950c6619e626094a5dcef" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga666de2260dc875f0ae45010555f0a53f" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
       <member refid="group__GeneralGroup_1ga3d81344e7c7048e9e13514de12883555" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator-&gt;</name></member>
-      <member refid="group__GeneralGroup_1gac0f52b399269d4be6c5c051272d0db86" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga90a63604beb7920d77fa819e7e2ea521" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator==</name></member>
       <member refid="group__GeneralGroup_1gae873581e7d1361e2837dad74512411f0" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>overlap</name></member>
       <member refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>pointer</name></member>
       <member refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>reference</name></member>

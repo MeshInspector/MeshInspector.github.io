@@ -5,7 +5,13 @@
     <includes refid="MRSymMatrix2_8h" local="yes">MRSymMatrix2.h</includes>
     <includes refid="MRSymMatrix3_8h" local="yes">MRSymMatrix3.h</includes>
     <incdepgraph>
-      <node id="16">
+      <node id="10">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -13,26 +19,48 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="15">
+      <node id="23">
         <label>MRMatrix2.h</label>
         <link refid="MRMatrix2_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="28">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -40,7 +68,7 @@
         <link refid="MRQuadraticForm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -48,21 +76,21 @@
         <link refid="MRSymMatrix2_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="26">
         <label>MRSymMatrix3.h</label>
         <link refid="MRSymMatrix3_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -82,20 +110,20 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="27">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="4" relation="include">
@@ -104,50 +132,69 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>MRMeshFwd.h</label>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
       <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="10">
-        <label>algorithm</label>
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="11">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
+      </node>
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="19">
         <label>cmath</label>
       </node>
       <node id="6">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cstring</label>
       </node>
-      <node id="13">
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="21">
         <label>iosfwd</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>limits</label>
+      </node>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
       </node>
       <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1QuadraticForm" prot="public">MR::QuadraticForm</innerclass>
@@ -187,13 +234,13 @@
 <codeline lineno="36"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga613642585592285c402e51d9af48651a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;<sp/>QuadraticForm&lt;V&gt;,<sp/>V<sp/>&gt;<sp/><ref refid="group__GeneralGroup_1ga613642585592285c402e51d9af48651a" kindref="member">sum</ref>(</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;<sp/>QuadraticForm&lt;V&gt;,<sp/>V<sp/>&gt;<sp/><ref refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kindref="member">sum</ref>(</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x0,</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x1,<sp/></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>minAmong01<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1gae2db52d249d73990155ac0aee19ecdf7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/><ref refid="group__GeneralGroup_1gae2db52d249d73990155ac0aee19ecdf7" kindref="member">sumAt</ref>(</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kindref="member">sumAt</ref>(</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x0,</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1QuadraticForm" kindref="compound">QuadraticForm&lt;V&gt;</ref><sp/>&amp;<sp/>q1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x1,</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>pos<sp/>);</highlight></codeline>

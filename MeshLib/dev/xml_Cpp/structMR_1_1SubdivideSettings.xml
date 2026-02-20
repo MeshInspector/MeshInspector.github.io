@@ -175,7 +175,7 @@
         </briefdescription>
         <detaileddescription>
 <para>If false do not touch border edges (cannot subdivide lone faces)<linebreak/>
-use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref="member">MR::findRegionOuterFaces</ref> to find boundary faces </para>
+use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref="member">MR::findRegionOuterFaces</ref> to find boundary faces </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -308,7 +308,7 @@ use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="83" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::SubdivideSettings::progressCallback</definition>
         <argsstring></argsstring>
         <name>progressCallback</name>

@@ -16,14 +16,14 @@
       <member refid="group__GeneralGroup_1gaa75ce33740e9bd281f5633e11c989129" kind="variable"><name>mutex_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga6ae7e4c5020652a1dda97dc3664b2bbf" kind="function"><name>setMainThreadId</name></member>
-      <member refid="group__GeneralGroup_1gaa3d66df8666058e293e9daa4b8f68928" kind="function"><name>getMainThreadId</name></member>
-      <member refid="group__GeneralGroup_1ga90822eccec894fc827de4d60e5b6285b" kind="function"><name>setState</name></member>
-      <member refid="group__GeneralGroup_1gac2c51a1238c31d646cfb988bb335188b" kind="function"><name>appendCommand</name></member>
-      <member refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" kind="function"><name>runCommandFromGUIThread</name></member>
-      <member refid="group__GeneralGroup_1ga2f948b137288b0e6e94ca32809166869" kind="function"><name>processCommands</name></member>
-      <member refid="group__GeneralGroup_1ga49b2698f52cf9c94be1af74fa75bf354" kind="function"><name>empty</name></member>
-      <member refid="group__GeneralGroup_1gaf9d0a6f381407e79b5ee8eac0cd2fda2" kind="function"><name>removeCommands</name></member>
+      <member refid="group__GeneralGroup_1ga558e9edf12a087ef7a2803062787af5b" kind="function"><name>setMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1ga838c1c9734a5dcffc951811fbf442a3b" kind="function"><name>getMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1gad8d97732825e4cad90081d68d7923d8d" kind="function"><name>setState</name></member>
+      <member refid="group__GeneralGroup_1gadceb2e7dc3e951be7d6c80eb72cb226c" kind="function"><name>appendCommand</name></member>
+      <member refid="group__GeneralGroup_1gaa7b94269107f75e82b8f719b5981465d" kind="function"><name>runCommandFromGUIThread</name></member>
+      <member refid="group__GeneralGroup_1ga608f3b3e1415777cf598629aa0b73681" kind="function"><name>processCommands</name></member>
+      <member refid="group__GeneralGroup_1ga42865b58d6d71d73a87b0633e0b623f2" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gaf136777f46bf36d97d449cd471709f41" kind="function"><name>removeCommands</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" kind="function"><name>CommandLoop</name></member>
@@ -41,21 +41,21 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="17" bodyend="79"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>addCommand_</name></member>
-      <member refid="group__GeneralGroup_1gac2c51a1238c31d646cfb988bb335188b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>appendCommand</name></member>
+      <member refid="group__GeneralGroup_1gadceb2e7dc3e951be7d6c80eb72cb226c" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>appendCommand</name></member>
       <member refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandFunc</name></member>
       <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandLoop</name></member>
       <member refid="group__GeneralGroup_1gacfda35989377d6cd24d55b26e21500db" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>commands_</name></member>
-      <member refid="group__GeneralGroup_1ga49b2698f52cf9c94be1af74fa75bf354" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>empty</name></member>
-      <member refid="group__GeneralGroup_1gaa3d66df8666058e293e9daa4b8f68928" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>getMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1ga42865b58d6d71d73a87b0633e0b623f2" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga838c1c9734a5dcffc951811fbf442a3b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>getMainThreadId</name></member>
       <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>instance_</name></member>
       <member refid="group__GeneralGroup_1ga49f8164b9d23200b50227b620344917c" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>mainThreadId_</name></member>
       <member refid="group__GeneralGroup_1gaa75ce33740e9bd281f5633e11c989129" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>mutex_</name></member>
-      <member refid="group__GeneralGroup_1ga2f948b137288b0e6e94ca32809166869" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>processCommands</name></member>
+      <member refid="group__GeneralGroup_1ga608f3b3e1415777cf598629aa0b73681" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>processCommands</name></member>
       <member refid="group__GeneralGroup_1gaa3467ab398f96c65ed9621abdb8e5438" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>queueClosed_</name></member>
-      <member refid="group__GeneralGroup_1gaf9d0a6f381407e79b5ee8eac0cd2fda2" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>removeCommands</name></member>
-      <member refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>runCommandFromGUIThread</name></member>
-      <member refid="group__GeneralGroup_1ga6ae7e4c5020652a1dda97dc3664b2bbf" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setMainThreadId</name></member>
-      <member refid="group__GeneralGroup_1ga90822eccec894fc827de4d60e5b6285b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setState</name></member>
+      <member refid="group__GeneralGroup_1gaf136777f46bf36d97d449cd471709f41" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>removeCommands</name></member>
+      <member refid="group__GeneralGroup_1gaa7b94269107f75e82b8f719b5981465d" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>runCommandFromGUIThread</name></member>
+      <member refid="group__GeneralGroup_1ga558e9edf12a087ef7a2803062787af5b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1gad8d97732825e4cad90081d68d7923d8d" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setState</name></member>
       <member refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>StartPosition</name></member>
       <member refid="group__GeneralGroup_1gaae9d2900dc96e5066d7e3cd8c11db7ec" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>state_</name></member>
       <member refid="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>~CommandLoop</name></member>

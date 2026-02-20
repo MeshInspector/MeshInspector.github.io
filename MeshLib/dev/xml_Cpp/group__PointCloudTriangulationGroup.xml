@@ -4,11 +4,12 @@
     <compoundname>PointCloudTriangulationGroup</compoundname>
     <title>PointCloud triangulation overview</title>
     <innerclass refid="structMR_1_1TriangulationParameters" prot="public">MR::TriangulationParameters</innerclass>
+    <innerclass refid="structMR_1_1FillHolesWithExtraPointsParams" prot="public">MR::FillHolesWithExtraPointsParams</innerclass>
     <innergroup refid="group__TriangulationHelpersGroup">TriangulationHelpers</innergroup>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__PointCloudTriangulationGroup_1ga9a35a19f982f5409d7939ad87946a479" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API std::optional&lt; Mesh &gt;</type>
-        <definition>MRMESH_API std::optional&lt; Mesh &gt; MR::triangulatePointCloud</definition>
+      <memberdef kind="function" id="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; Mesh &gt;</type>
+        <definition>std::optional&lt; Mesh &gt; MR::triangulatePointCloud</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={}, const ProgressCallback &amp;progressCb={})</argsstring>
         <name>triangulatePointCloud</name>
         <qualifiedname>MR::triangulatePointCloud</qualifiedname>
@@ -42,7 +43,52 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="86" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" declline="86" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="86" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" declline="86" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::fillHolesWithExtraPoints</definition>
+        <argsstring>(Mesh &amp;mesh, PointCloud &amp;extraPoints, const FillHolesWithExtraPointsParams &amp;params={}, const ProgressCallback &amp;progressCb={})</argsstring>
+        <name>fillHolesWithExtraPoints</name>
+        <qualifiedname>MR::fillHolesWithExtraPoints</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>PointCloud &amp;</type>
+          <declname>extraPoints</declname>
+        </param>
+        <param>
+          <type>const FillHolesWithExtraPointsParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>fills the holes in the mesh by adding triangles to it with the vertices in existing boundary vertices or given extra points (in any combination)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>extraPoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must have either properly oriented normals or no normals, and it will be temporary modified during the call </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if the operation was canceled or incorrect input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="103" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" declline="103" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

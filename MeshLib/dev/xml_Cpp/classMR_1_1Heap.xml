@@ -9,11 +9,10 @@
         <type>typename T</type>
       </param>
       <param>
-        <type>typename I</type>
+        <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
       </param>
       <param>
         <type>typename P</type>
-        <defval>std::less&lt;T&gt;</defval>
       </param>
     </templateparamlist>
     <sectiondef kind="private-attrib">
@@ -32,7 +31,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; size_t, I &gt;</type>
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; size_t, <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref> &gt;</type>
         <definition>Vector&lt;size_t, I&gt; MR::Heap&lt; T, I, P &gt;::id2PosInHeap_</definition>
         <argsstring></argsstring>
         <name>id2PosInHeap_</name>
@@ -86,7 +85,7 @@
         <name>value</name>
         <qualifiedname>MR::Heap::value</qualifiedname>
         <param>
-          <type>I</type>
+          <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
           <declname>elemId</declname>
         </param>
         <briefdescription>
@@ -128,7 +127,7 @@
         <name>increaseValue</name>
         <qualifiedname>MR::Heap::increaseValue</qualifiedname>
         <param>
-          <type>I</type>
+          <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
           <declname>elemId</declname>
         </param>
         <param>
@@ -174,7 +173,7 @@
     <detaileddescription>
 <para>provides two operations: 1) change the value of any element; 2) find the element with the largest value </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="23" bodyend="63"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="628" bodyend="-1"/>
     <listofallmembers>
       <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>
       <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>

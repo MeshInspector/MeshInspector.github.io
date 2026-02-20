@@ -19,14 +19,14 @@
       <member refid="group__GeneralGroup_1gad0e22f8a9ddce47d6aab63cfe35ab6bd" kind="function"><name>isZeroRadius</name></member>
       <member refid="group__GeneralGroup_1gafa5b6dc1d9e1f98cbec052e8d506d20a" kind="function"><name>isCircle</name></member>
       <member refid="group__GeneralGroup_1ga246d93a7bb2aaa83191d515884303ecb" kind="function"><name>length</name></member>
-      <member refid="group__GeneralGroup_1ga9f96764db5c4750b318539f5c7ccf9b3" kind="function"><name>centerPoint</name></member>
-      <member refid="group__GeneralGroup_1gaeda0b75106e0df9b044fe33c1adb7044" kind="function"><name>extendToInfinity</name></member>
-      <member refid="group__GeneralGroup_1ga3fbdf03d9ba7e87339fb77edbc8699d9" kind="function"><name>extendToInfinity</name></member>
-      <member refid="group__GeneralGroup_1ga52d74c8c1581a73964681c4273172f52" kind="function"><name>untruncateCone</name></member>
-      <member refid="group__GeneralGroup_1gac00c1b10d86e8726d41cd48ce17c9ebf" kind="function"><name>axis</name></member>
-      <member refid="group__GeneralGroup_1ga31365626f0397b521d1712b59fb2a466" kind="function"><name>basePoint</name></member>
-      <member refid="group__GeneralGroup_1gaadc4bfd4025c567372583450899716ae" kind="function"><name>basePlane</name></member>
-      <member refid="group__GeneralGroup_1ga4148dbcf1b8080fed62d67986a18dee1" kind="function"><name>baseCircle</name></member>
+      <member refid="group__GeneralGroup_1gaf14c9a2c6a0ece8a0ce764b4378ce71d" kind="function"><name>centerPoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f3b24bd796d2f22fe3630f26ba7eadb" kind="function"><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1ga77fb755bf0e8cfee6d7ae93e1f4a022f" kind="function"><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1gaa67d4ba56151139e957a1d94f9b2a5a1" kind="function"><name>untruncateCone</name></member>
+      <member refid="group__GeneralGroup_1ga8a42078ef10591681da03dca8d0c2abd" kind="function"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1gabd1e8c5beb3f477ab780b44c519fd630" kind="function"><name>basePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9ce5753cdf704589464965d88ddc53dc" kind="function"><name>basePlane</name></member>
+      <member refid="group__GeneralGroup_1ga43792d2039e9e2ce13fc3c5e5435d9b4" kind="function"><name>baseCircle</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -35,14 +35,14 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="57" bodyend="112"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gac00c1b10d86e8726d41cd48ce17c9ebf" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>axis</name></member>
-      <member refid="group__GeneralGroup_1ga4148dbcf1b8080fed62d67986a18dee1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>
-      <member refid="group__GeneralGroup_1gaadc4bfd4025c567372583450899716ae" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePlane</name></member>
-      <member refid="group__GeneralGroup_1ga31365626f0397b521d1712b59fb2a466" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePoint</name></member>
-      <member refid="group__GeneralGroup_1ga9f96764db5c4750b318539f5c7ccf9b3" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>centerPoint</name></member>
+      <member refid="group__GeneralGroup_1ga8a42078ef10591681da03dca8d0c2abd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga43792d2039e9e2ce13fc3c5e5435d9b4" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>
+      <member refid="group__GeneralGroup_1ga9ce5753cdf704589464965d88ddc53dc" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePlane</name></member>
+      <member refid="group__GeneralGroup_1gabd1e8c5beb3f477ab780b44c519fd630" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePoint</name></member>
+      <member refid="group__GeneralGroup_1gaf14c9a2c6a0ece8a0ce764b4378ce71d" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>centerPoint</name></member>
       <member refid="group__GeneralGroup_1ga9f603438a2e12d81289b9696c05cdcd4" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>dir</name></member>
-      <member refid="group__GeneralGroup_1gaeda0b75106e0df9b044fe33c1adb7044" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
-      <member refid="group__GeneralGroup_1ga3fbdf03d9ba7e87339fb77edbc8699d9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1ga9f3b24bd796d2f22fe3630f26ba7eadb" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1ga77fb755bf0e8cfee6d7ae93e1f4a022f" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
       <member refid="group__GeneralGroup_1gaed7a509cc23a908a6cf803007694eabf" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>hollow</name></member>
       <member refid="group__GeneralGroup_1gafa5b6dc1d9e1f98cbec052e8d506d20a" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isCircle</name></member>
       <member refid="group__GeneralGroup_1gad0e22f8a9ddce47d6aab63cfe35ab6bd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isZeroRadius</name></member>
@@ -53,7 +53,7 @@
       <member refid="group__GeneralGroup_1gac1751a2024b0d6daec6aedd03c36ba2c" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveLength</name></member>
       <member refid="group__GeneralGroup_1ga6d82dd73c4e7a2c5455773425fb17871" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveSideRadius</name></member>
       <member refid="group__GeneralGroup_1ga40eff23fbea04d4a72390fda48c04bfd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>referencePoint</name></member>
-      <member refid="group__GeneralGroup_1ga52d74c8c1581a73964681c4273172f52" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>untruncateCone</name></member>
+      <member refid="group__GeneralGroup_1gaa67d4ba56151139e957a1d94f9b2a5a1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>untruncateCone</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

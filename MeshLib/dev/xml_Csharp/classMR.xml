@@ -2174,8 +2174,10 @@
           <name>MinimizeError</name>
           <initializer>= 0</initializer>
           <briefdescription>
+<para>the next edge to collapse will be the one that introduced minimal error to the surface </para>
           </briefdescription>
           <detaileddescription>
+<para>the next edge to collapse will be the shortest one </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="classMR_1add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b" prot="public">
@@ -6220,7 +6222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="105" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="105" bodyend="110"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="104" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="104" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a96c71335d50972953899ac5d54945ef7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2f</type>
@@ -6239,7 +6241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="116" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="116" bodyend="121"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="114" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="114" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7648a331d18f756bfa0deace77e1ad06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2f</type>
@@ -6258,7 +6260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="127" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="127" bodyend="132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="124" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="124" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3b4eab44f3c1eeca4e6da50856b7a53d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2f</type>
@@ -6277,7 +6279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="138" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="138" bodyend="143"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="134" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="134" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3f</type>
@@ -6296,7 +6298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="148" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="148" bodyend="153"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="144" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="144" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a74381b8b62038398dba6c60728446e79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3f</type>
@@ -6315,7 +6317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="158" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="158" bodyend="163"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="154" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="154" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab2b1ad7052a33253c9e82b1b64e526ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3f</type>
@@ -6334,7 +6336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="168" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="168" bodyend="173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="164" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="164" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a49170b4d6b6d62e9977c437a62892dd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3f</type>
@@ -6353,7 +6355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="178" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="178" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="174" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="174" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2d</type>
@@ -6372,7 +6374,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="188" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="188" bodyend="193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="184" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="184" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af3875fbb52d3e44fbc1e6132998f9dcf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2d</type>
@@ -6391,7 +6393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="198" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="198" bodyend="203"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="194" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="194" bodyend="199"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9b25458156bf36988fa67f2aaea4f801" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2d</type>
@@ -6410,7 +6412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="208" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="208" bodyend="213"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="204" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="204" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3b4cb96e06a319fb3700c43433cd1361" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector2d</type>
@@ -6429,7 +6431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="218" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="218" bodyend="223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="214" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="214" bodyend="219"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3d</type>
@@ -6448,7 +6450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="228" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="228" bodyend="233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="224" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="224" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a75253fe315b152399699cad98c78c06e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3d</type>
@@ -6467,7 +6469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="238" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="238" bodyend="243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="234" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="234" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3fba89c21c649e3a922c1c873956aa9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3d</type>
@@ -6486,7 +6488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="248" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="248" bodyend="253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="244" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="244" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6387fc7059856915906a68b83576e9e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3d</type>
@@ -6505,7 +6507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="258" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="258" bodyend="263"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="254" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="254" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
@@ -6524,7 +6526,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="268" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="268" bodyend="273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="264" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="264" bodyend="269"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8059bd99794ffd55e7566447757b3863" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
@@ -6543,7 +6545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="278" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="278" bodyend="283"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="274" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="274" bodyend="279"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3e3f25640a06f96a07304326a07445bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
@@ -6562,7 +6564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="288" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="288" bodyend="293"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="284" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="284" bodyend="289"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8a5efa4d7afac61160ef22ed8ebc173e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
@@ -6581,7 +6583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="298" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="298" bodyend="303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="294" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="294" bodyend="299"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a22910aeab046586d25ca0c53bca16f89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -6600,7 +6602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="308" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="308" bodyend="313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="304" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="304" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3d5e22d897e1466150fe1098c16a3d5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -6619,7 +6621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="318" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="318" bodyend="323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="314" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="314" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a44e6c7a47de200ba3b61828b47ab64ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -6638,7 +6640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="328" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="328" bodyend="333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="324" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="324" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1570c314ff19bffd97c696c4f55dabfd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -6657,7 +6659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="338" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="338" bodyend="343"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="334" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="334" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a46d67039c5bd98c2359400b71209f23b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2d</type>
@@ -6676,7 +6678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="348" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="348" bodyend="353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="344" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="344" bodyend="349"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1f1f76b509745d4493b3b34fac241e47" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2d</type>
@@ -6695,7 +6697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="358" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="358" bodyend="363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="354" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="354" bodyend="359"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a11eb0e4935374548586991f535fb8873" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2d</type>
@@ -6714,7 +6716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="368" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="368" bodyend="373"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="364" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="364" bodyend="369"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a952f3330531c16d63d1ded33ee3ab810" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2d</type>
@@ -6733,7 +6735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="378" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="378" bodyend="383"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="374" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="374" bodyend="379"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3d</type>
@@ -6752,7 +6754,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="388" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="388" bodyend="393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="384" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="384" bodyend="389"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a675655122326cc43a570d5fc3c842b10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3d</type>
@@ -6771,7 +6773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="398" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="398" bodyend="403"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="394" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="394" bodyend="399"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a13ded45da86c1db1fbefd08a0c519f6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3d</type>
@@ -6790,7 +6792,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="408" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="408" bodyend="413"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="404" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="404" bodyend="409"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac05f788e1ac2f0550a28aa82f57ebfa4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3d</type>
@@ -6809,7 +6811,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="418" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="418" bodyend="423"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="414" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="414" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a69c80bb31266546933db0c88875afc59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.CutMeshResult</type>
@@ -15875,7 +15877,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a45ad91d20adc7c36d5051f856642d124" kindref="member">MR.remesh</ref></computeroutput>. </para>
+<para>Splits too long and eliminates too short edges from the mesh Generated from function <computeroutput><ref refid="classMR_1a45ad91d20adc7c36d5051f856642d124" kindref="member">MR.remesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

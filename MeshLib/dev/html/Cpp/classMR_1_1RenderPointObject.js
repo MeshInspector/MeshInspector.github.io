@@ -1,5 +1,5 @@
 var classMR_1_1RenderPointObject =
 [
-    [ "RenderPointObject", "group__GeneralGroup.html#ga8db5303f19a2babd3839432a002b0d8a", null ],
-    [ "renderUi", "group__GeneralGroup.html#ga388660fd78bbf541a374d4a5cbc6b27a", null ]
+    [ "RenderPointObject", "group__GeneralGroup.html#ga2ec380d1dce4645357f0bb2ef0ec14bc", null ],
+    [ "renderUi", "group__GeneralGroup.html#ga70846fad90e533b27b7b9beba1b91a71", null ]
 ];

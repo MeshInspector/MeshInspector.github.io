@@ -2,34 +2,85 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRPolylineDecimate_8h" kind="file" language="C++">
     <compoundname>MRPolylineDecimate.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="no">cfloat</includes>
     <includes local="no">climits</includes>
     <includes local="no">functional</includes>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRPolylineDecimate.h</label>
         <link refid="MRPolylineDecimate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
       </node>
       <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="13">
         <label>cfloat</label>
       </node>
-      <node id="4">
+      <node id="14">
         <label>climits</label>
       </node>
-      <node id="5">
+      <node id="11">
         <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1DecimatePolylineSettings" prot="public">MR::DecimatePolylineSettings</innerclass>
@@ -42,7 +93,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;climits&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -84,11 +135,11 @@
 <codeline lineno="87" refid="group__GeneralGroup_1ga5e4317d37968dd6016c8fc5826f9e8f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e4317d37968dd6016c8fc5826f9e8f5" kindref="member">errorIntroduced</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
 <codeline lineno="88"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" kindref="member">decimatePolyline</ref>(<sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings2</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="95" refid="group__GeneralGroup_1ga8e3fea3b34acecc3eafb0088d3a9e468" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" kindref="member">decimatePolyline</ref>(<sp/>Polyline3&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings3</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="94" refid="group__DecimateGroup_1gaeafa3a500cea3d03dc8e011409571cac" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1gaeafa3a500cea3d03dc8e011409571cac" kindref="member">decimatePolyline</ref>(<sp/><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref>&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings2</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="95" refid="group__GeneralGroup_1ga8184701aebff355e04a3f2f5e218a81f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1gaeafa3a500cea3d03dc8e011409571cac" kindref="member">decimatePolyline</ref>(<sp/>Polyline3&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings3</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="group__DecimateGroup_1gac12c761d9044619a794badf63900a599" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1gac12c761d9044619a794badf63900a599" kindref="member">decimateContour</ref>(<sp/>Contour2f&amp;<sp/>contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings2</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="102" refid="group__GeneralGroup_1ga6f9fa131498e694eaa8674f7a73a01c6" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1gac12c761d9044619a794badf63900a599" kindref="member">decimateContour</ref>(<sp/>Contour3f&amp;<sp/>contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings3</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="101" refid="group__DecimateGroup_1ga45b98526f41bd7599cee507344ad60a1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1ga45b98526f41bd7599cee507344ad60a1" kindref="member">decimateContour</ref>(<sp/><ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref>&amp;<sp/>contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings2</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1gadcaf03fd3d33f91e795a0b37a7a48020" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref><sp/><ref refid="group__DecimateGroup_1ga45b98526f41bd7599cee507344ad60a1" kindref="member">decimateContour</ref>(<sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref>&amp;<sp/>contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DecimatePolylineSettings" kindref="compound">DecimatePolylineSettings3</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

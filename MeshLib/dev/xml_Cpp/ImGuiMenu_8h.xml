@@ -17,218 +17,168 @@
     <includedby refid="MRImGuiMenuListeners_8h" local="yes">MRImGuiMenuListeners.h</includedby>
     <includedby refid="MRRibbonMenu_8h" local="yes">MRRibbonMenu.h</includedby>
     <incdepgraph>
-      <node id="36">
+      <node id="44">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="42">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="47">
         <label>MRMesh/MRBox.h</label>
         <link refid="MRBox_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="44">
-        <label>MRMesh/MRColor.h</label>
-        <link refid="MRColor_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
+      <node id="25">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="30">
+      <node id="38">
         <label>MRMesh/MRFlagOperators.h</label>
         <link refid="MRFlagOperators_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRMesh/MRIRenderObject.h</label>
-        <link refid="MRIRenderObject_8h"/>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="35">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>MRRenderModelParameters.h</label>
-        <link refid="MRRenderModelParameters_8h"/>
-        <childnode refid="30" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+      <node id="37">
+        <label>MRMesh/MRIRenderObject.h</label>
+        <link refid="MRIRenderObject_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="43">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-      </node>
-      <node id="32">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRMesh/MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+      </node>
+      <node id="39">
+        <label>MRRenderModelParameters.h</label>
+        <link refid="MRRenderModelParameters_8h"/>
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+      </node>
+      <node id="31">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+      </node>
+      <node id="22">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-      </node>
-      <node id="33">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRViewportId.h</label>
-        <link refid="MRViewportId_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>ImGuiMenu.h</label>
-        <link refid="ImGuiMenu_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -240,43 +190,137 @@
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+      </node>
+      <node id="21">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="41">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRMesh/MRViewportId.h</label>
+        <link refid="MRViewportId_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>ImGuiMenu.h</label>
+        <link refid="ImGuiMenu_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
         <label>MRNotificationType.h</label>
         <link refid="MRNotificationType_8h"/>
       </node>
-      <node id="27">
+      <node id="35">
         <label>MRShowModal.h</label>
         <link refid="MRShowModal_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="34">
         <label>MRSignalCombiners.h</label>
         <link refid="MRSignalCombiners_8h"/>
       </node>
-      <node id="10">
+      <node id="20">
         <label>MRViewerEventsListener.h</label>
         <link refid="MRViewerEventsListener_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -284,7 +328,7 @@
         <link refid="MRViewerInstance_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -292,75 +336,82 @@
         <link refid="MRViewerPlugin_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="42">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="6">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="17">
+      <node id="11">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="4">
-        <label>MRViewerFwd.h</label>
-      </node>
-      <node id="18">
+      <node id="26">
         <label>algorithm</label>
       </node>
-      <node id="24">
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="32">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="7">
+      <node id="17">
         <label>cassert</label>
       </node>
-      <node id="19">
+      <node id="27">
         <label>cmath</label>
       </node>
-      <node id="14">
+      <node id="23">
         <label>cstddef</label>
       </node>
-      <node id="20">
+      <node id="28">
         <label>cstring</label>
       </node>
-      <node id="8">
+      <node id="6">
+        <label>exports.h</label>
+      </node>
+      <node id="19">
         <label>filesystem</label>
       </node>
-      <node id="37">
+      <node id="16">
         <label>functional</label>
       </node>
-      <node id="28">
+      <node id="36">
         <label>imgui.h</label>
       </node>
-      <node id="21">
+      <node id="29">
         <label>iosfwd</label>
       </node>
-      <node id="43">
+      <node id="49">
         <label>limits</label>
       </node>
-      <node id="39">
+      <node id="46">
         <label>memory</label>
       </node>
-      <node id="45">
+      <node id="51">
         <label>optional</label>
       </node>
       <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="24">
         <label>type_traits</label>
       </node>
-      <node id="38">
+      <node id="45">
         <label>typeindex</label>
       </node>
-      <node id="46">
+      <node id="52">
         <label>unordered_map</label>
       </node>
-      <node id="22">
+      <node id="30">
         <label>utility</label>
       </node>
-      <node id="9">
+      <node id="13">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -487,7 +538,7 @@
 <codeline lineno="103" refid="group__GeneralGroup_1gad09d9b751f97c0d1e2ba46c849392a7c" refkind="member"><highlight class="normal"><sp/><sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1gad09d9b751f97c0d1e2ba46c849392a7c" kindref="member">mainWindowPos_</ref>;</highlight></codeline>
 <codeline lineno="104" refid="group__GeneralGroup_1ga348b708be326f0e5f3a65a9be9f143b9" refkind="member"><highlight class="normal"><sp/><sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1ga348b708be326f0e5f3a65a9be9f143b9" kindref="member">mainWindowSize_</ref>;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="group__GeneralGroup_1ga133e9d1bc1eaddc62bc3607ef1c16dc1" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga133e9d1bc1eaddc62bc3607ef1c16dc1" kindref="member">setupShortcuts_</ref>();</highlight></codeline>
+<codeline lineno="106" refid="group__GeneralGroup_1ga0a6f74cade696ca820545752cffe457c" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0a6f74cade696ca820545752cffe457c" kindref="member">setupShortcuts_</ref>();</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
 <codeline lineno="108" refid="group__GeneralGroup_1ga69ba22274265966f6ddc7eabf3eb78a9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>savedDialogPositionEnabled_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
@@ -547,25 +598,25 @@
 <codeline lineno="170" refid="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" kindref="member">tagNewName_</ref>;</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="173" refid="group__GeneralGroup_1ga941afb045218d28ebad9b6325161891c" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ImGuiMenu&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga941afb045218d28ebad9b6325161891c" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="173" refid="group__GeneralGroup_1gab64a0169c2ce828e50018e9e77a7efde" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ImGuiMenu&gt;&amp;<sp/><ref refid="group__GeneralGroup_1gab64a0169c2ce828e50018e9e77a7efde" kindref="member">instance</ref>();</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="group__GeneralGroup_1gacf26f479a1c27455aadd05900f3832bd" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacf26f479a1c27455aadd05900f3832bd" kindref="member">init</ref>(<ref refid="classMR_1_1Viewer" kindref="compound">MR::Viewer</ref><sp/>*_viewer)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="175" refid="group__GeneralGroup_1gaa7ee3e7a4a77594b927efba32415a464" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa7ee3e7a4a77594b927efba32415a464" kindref="member">init</ref>(<ref refid="classMR_1_1Viewer" kindref="compound">MR::Viewer</ref><sp/>*_viewer)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="group__GeneralGroup_1ga3425b4fd87149a0b1038c2caf99fb4ab" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3425b4fd87149a0b1038c2caf99fb4ab" kindref="member">initBackend</ref>();</highlight></codeline>
+<codeline lineno="178" refid="group__GeneralGroup_1ga587478555bffc9440eae880bd0bcd307" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga587478555bffc9440eae880bd0bcd307" kindref="member">initBackend</ref>();</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="group__GeneralGroup_1ga917a445993fd54f9097b63dd7377c691" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga917a445993fd54f9097b63dd7377c691" kindref="member">startFrame</ref>();</highlight></codeline>
-<codeline lineno="183" refid="group__GeneralGroup_1gaca84b210ea3b4853487a073ab51ee99e" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaca84b210ea3b4853487a073ab51ee99e" kindref="member">finishFrame</ref>();</highlight></codeline>
+<codeline lineno="181" refid="group__GeneralGroup_1ga8b79c21599f784533ef4f70fddf1db36" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8b79c21599f784533ef4f70fddf1db36" kindref="member">startFrame</ref>();</highlight></codeline>
+<codeline lineno="183" refid="group__GeneralGroup_1ga1bcd52f7eae916075af2a2ec8afedfba" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1bcd52f7eae916075af2a2ec8afedfba" kindref="member">finishFrame</ref>();</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="group__GeneralGroup_1ga423490d7e386f490c25a410dba86479e" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga423490d7e386f490c25a410dba86479e" kindref="member">load_font</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>font_size<sp/>=<sp/>13);</highlight></codeline>
-<codeline lineno="186" refid="group__GeneralGroup_1ga9859a64886007cc8433d38e0ab48ed66" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9859a64886007cc8433d38e0ab48ed66" kindref="member">reload_font</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>font_size<sp/>=<sp/>13);</highlight></codeline>
+<codeline lineno="185" refid="group__GeneralGroup_1ga987aa20207af04e10d09704d8d29ffa0" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga987aa20207af04e10d09704d8d29ffa0" kindref="member">load_font</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>font_size<sp/>=<sp/>13);</highlight></codeline>
+<codeline lineno="186" refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" kindref="member">reload_font</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>font_size<sp/>=<sp/>13);</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="group__GeneralGroup_1gae8ea9f87c7bb3f33454eacc1a708eae8" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae8ea9f87c7bb3f33454eacc1a708eae8" kindref="member">shutdown</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188" refid="group__GeneralGroup_1gab240aaae96a293365717e78584688f4c" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab240aaae96a293365717e78584688f4c" kindref="member">shutdown</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="group__GeneralGroup_1ga0e6e81174d86126a578915516a77134a" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e6e81174d86126a578915516a77134a" kindref="member">draw_menu</ref>();</highlight></codeline>
+<codeline lineno="191" refid="group__GeneralGroup_1gaeb3ade87e9a78c6336c999822aeae8c9" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeb3ade87e9a78c6336c999822aeae8c9" kindref="member">draw_menu</ref>();</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="group__GeneralGroup_1ga06b63d6e0f840a978d53ab48129df966" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga06b63d6e0f840a978d53ab48129df966" kindref="member">draw_helpers</ref>();</highlight></codeline>
+<codeline lineno="193" refid="group__GeneralGroup_1gab850436ff735a29b18d896606e0c11a4" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab850436ff735a29b18d896606e0c11a4" kindref="member">draw_helpers</ref>();</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="group__GeneralGroup_1gafa605ceb7d771db8326713487bc76779" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafa605ceb7d771db8326713487bc76779" kindref="member">draw_viewer_window</ref>();</highlight></codeline>
+<codeline lineno="196" refid="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" kindref="member">draw_viewer_window</ref>();</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
 <codeline lineno="199" refid="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" kindref="member">draw_custom_window</ref>()<sp/>{}</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
@@ -575,7 +626,7 @@
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
 <codeline lineno="206" refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kindref="member">draw_labels_window</ref>();</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="group__GeneralGroup_1ga8816c5eec0cd0dbf6a48ffb892cacb8e" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8816c5eec0cd0dbf6a48ffb892cacb8e" kindref="member">draw_text</ref>(</highlight></codeline>
+<codeline lineno="208" refid="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" kindref="member">draw_text</ref>(</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>&amp;<sp/>viewport,</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pos,</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555" kindref="member">normal</ref>,</highlight></codeline>
@@ -583,33 +634,33 @@
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>clipByViewport<sp/>);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="group__GeneralGroup_1ga68decea45636d9cf3ddd402a7ed91222" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga68decea45636d9cf3ddd402a7ed91222" kindref="member">pixel_ratio</ref>();</highlight></codeline>
+<codeline lineno="216" refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" kindref="member">pixel_ratio</ref>();</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="group__GeneralGroup_1gac28c9493029fa946734f3ed3980b6a68" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac28c9493029fa946734f3ed3980b6a68" kindref="member">hidpi_scaling</ref>();</highlight></codeline>
+<codeline lineno="218" refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" kindref="member">hidpi_scaling</ref>();</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="group__GeneralGroup_1ga6b675470dbdebfb5d03efb515c5e8b63" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b675470dbdebfb5d03efb515c5e8b63" kindref="member">menu_scaling</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220" refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" kindref="member">menu_scaling</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
 <codeline lineno="223" refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" kindref="member">getUserScaling</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>userScaling_;<sp/>}</highlight></codeline>
-<codeline lineno="225" refid="group__GeneralGroup_1gae1070bda705ced4859b5b72a381c0432" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae1070bda705ced4859b5b72a381c0432" kindref="member">setUserScaling</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaling<sp/>);</highlight></codeline>
+<codeline lineno="225" refid="group__GeneralGroup_1gaafde25d3c36aa8b8ef7ed089de03c8dd" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaafde25d3c36aa8b8ef7ed089de03c8dd" kindref="member">setUserScaling</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaling<sp/>);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="group__GeneralGroup_1gae5d94dd8a1dc073888a8e0424f6bdfa5" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/>ImGuiContext*<sp/><ref refid="group__GeneralGroup_1gae5d94dd8a1dc073888a8e0424f6bdfa5" kindref="member">getCurrentContext</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227" refid="group__GeneralGroup_1ga251791115f07b579fa202436054f5d48" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/>ImGuiContext*<sp/><ref refid="group__GeneralGroup_1ga251791115f07b579fa202436054f5d48" kindref="member">getCurrentContext</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"></highlight></codeline>
 <codeline lineno="229" refid="group__GeneralGroup_1gaa42442fae2b45f724400fbfa87716738" refkind="member"><highlight class="normal"><sp/><sp/>ImGuiWindow*<sp/><ref refid="group__GeneralGroup_1gaa42442fae2b45f724400fbfa87716738" kindref="member">getLastFocusedPlugin</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prevFrameFocusPlugin_;<sp/>};</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="group__GeneralGroup_1ga2a048091853e02ff674893add9adf7e3" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a048091853e02ff674893add9adf7e3" kindref="member">showModalMessage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>msg,<sp/><ref refid="group__GeneralGroup_1ga3ccf27858d11d72a88bdbaf6e9d2b05d" kindref="member">NotificationType</ref><sp/>msgType<sp/>);</highlight></codeline>
+<codeline lineno="232" refid="group__GeneralGroup_1gaa01c67f4f60c3ada3a42131b072e462f" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa01c67f4f60c3ada3a42131b072e462f" kindref="member">showModalMessage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>msg,<sp/><ref refid="group__GeneralGroup_1ga3ccf27858d11d72a88bdbaf6e9d2b05d" kindref="member">NotificationType</ref><sp/>msgType<sp/>);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="group__GeneralGroup_1gac9903c4ecfd72b4f98e4c1aff9492b54" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gac9903c4ecfd72b4f98e4c1aff9492b54" kindref="member">getMenuFontPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="234" refid="group__GeneralGroup_1ga985205322b93f00291168e3510b45334" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga985205322b93f00291168e3510b45334" kindref="member">getMenuFontPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="group__GeneralGroup_1ga6e83c3a2b5060c5372ee9c2bb1157282" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6e83c3a2b5060c5372ee9c2bb1157282" kindref="member">setDrawTimeMillisecThreshold</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>maxGoodTimeMillisec<sp/>);</highlight></codeline>
+<codeline lineno="237" refid="group__GeneralGroup_1ga42624abdfcdda719a37176eb1053d605" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga42624abdfcdda719a37176eb1053d605" kindref="member">setDrawTimeMillisecThreshold</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>maxGoodTimeMillisec<sp/>);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="group__GeneralGroup_1ga52c9719c16910b21da7ba53e511aa7cc" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga52c9719c16910b21da7ba53e511aa7cc" kindref="member">draw_scene_list</ref>();</highlight></codeline>
-<codeline lineno="242" refid="group__GeneralGroup_1ga19f8c069859057e2b94e0581392811fd" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19f8c069859057e2b94e0581392811fd" kindref="member">draw_scene_list_content</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>all<sp/>);</highlight></codeline>
+<codeline lineno="240" refid="group__GeneralGroup_1ga43f85bb44dcc48fb654aca2f9c8e1325" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga43f85bb44dcc48fb654aca2f9c8e1325" kindref="member">draw_scene_list</ref>();</highlight></codeline>
+<codeline lineno="242" refid="group__GeneralGroup_1gabc0755f9915af8353fcdacacb0bc8444" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabc0755f9915af8353fcdacacb0bc8444" kindref="member">draw_scene_list_content</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>all<sp/>);</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="group__GeneralGroup_1gad8af0b75810e306754f798aa50faec9b" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad8af0b75810e306754f798aa50faec9b" kindref="member">draw_selection_properties</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
-<codeline lineno="249" refid="group__GeneralGroup_1gaf67d48be36abd965d153cd88aa0f3638" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf67d48be36abd965d153cd88aa0f3638" kindref="member">draw_selection_properties_content</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
+<codeline lineno="246" refid="group__GeneralGroup_1gae65039b931dc674243f763a8876fc140" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae65039b931dc674243f763a8876fc140" kindref="member">draw_selection_properties</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
+<codeline lineno="249" refid="group__GeneralGroup_1gaba56047bcc1fbc1ffa7a44ab65955419" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba56047bcc1fbc1ffa7a44ab65955419" kindref="member">draw_selection_properties_content</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
 <codeline lineno="251"></codeline>
-<codeline lineno="253" refid="group__GeneralGroup_1gad7c9e77d4351091f9ed719f00a3d294b" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad7c9e77d4351091f9ed719f00a3d294b" kindref="member">drawCollapsingHeader_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/>ImGuiTreeNodeFlags<sp/>flags<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="255" refid="group__GeneralGroup_1ga4d7a22f188b50d351cefdec8196a9dce" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4d7a22f188b50d351cefdec8196a9dce" kindref="member">drawCollapsingHeaderTransform_</ref>();</highlight></codeline>
+<codeline lineno="253" refid="group__GeneralGroup_1gaa2f41574cc14aa82fc1fc29b98febd6c" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2f41574cc14aa82fc1fc29b98febd6c" kindref="member">drawCollapsingHeader_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/>ImGuiTreeNodeFlags<sp/>flags<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="255" refid="group__GeneralGroup_1ga6bec132133eebcf4d7ef25102a76fa39" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6bec132133eebcf4d7ef25102a76fa39" kindref="member">drawCollapsingHeaderTransform_</ref>();</highlight></codeline>
 <codeline lineno="256"><highlight class="normal"></highlight></codeline>
 <codeline lineno="257" refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" kindref="member">make_visualize_checkbox</ref>(<sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;<sp/>selectedVisualObjs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref><sp/>type,<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">MR::ViewportMask</ref><sp/>viewportid,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>invert<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT&gt;</highlight></codeline>
@@ -636,28 +687,28 @@
 <codeline lineno="279"><highlight class="normal"></highlight></codeline>
 <codeline lineno="280" refid="group__GeneralGroup_1ga6313d10e2b78aadec08af6df6ce0df6b" refkind="member"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;ShortcutManager&gt;<sp/><ref refid="group__GeneralGroup_1ga6313d10e2b78aadec08af6df6ce0df6b" kindref="member">getShortcutManager</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shortcutManager_;<sp/>};</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282" refid="group__GeneralGroup_1ga623682b4c72a120b6972a719f75d4282" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga623682b4c72a120b6972a719f75d4282" kindref="member">add_modifier</ref>(<sp/>std::shared_ptr&lt;MR::MeshModifier&gt;<sp/>modifier<sp/>);</highlight></codeline>
+<codeline lineno="282" refid="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" kindref="member">add_modifier</ref>(<sp/>std::shared_ptr&lt;MR::MeshModifier&gt;<sp/>modifier<sp/>);</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="group__GeneralGroup_1ga42d36b1b6c1d3d5f973f5bb0b994ba44" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga42d36b1b6c1d3d5f973f5bb0b994ba44" kindref="member">allowSceneReorder</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allow<sp/>);</highlight></codeline>
+<codeline lineno="284" refid="group__GeneralGroup_1gacda74258f75623378ed69b6cf60a5711" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacda74258f75623378ed69b6cf60a5711" kindref="member">allowSceneReorder</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allow<sp/>);</highlight></codeline>
 <codeline lineno="285" refid="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" kindref="member">checkPossibilityObjectRemoval</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>allowRemoval_;<sp/>};</highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="group__GeneralGroup_1ga79fec46acf5000a119ac7c3ce90a3da5" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga79fec46acf5000a119ac7c3ce90a3da5" kindref="member">allowObjectsRemoval</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allow<sp/>);</highlight></codeline>
+<codeline lineno="287" refid="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" kindref="member">allowObjectsRemoval</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allow<sp/>);</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289" refid="group__GeneralGroup_1ga6695a9712b5cfa0478fc548bb675085a" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6695a9712b5cfa0478fc548bb675085a" kindref="member">tryRenameSelectedObject</ref>();</highlight></codeline>
+<codeline lineno="289" refid="group__GeneralGroup_1ga46994fb4141726f726f8e903e0ebdd3b" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga46994fb4141726f726f8e903e0ebdd3b" kindref="member">tryRenameSelectedObject</ref>();</highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291" refid="group__GeneralGroup_1ga760f379753472105d9f5cbefaeecc741" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga760f379753472105d9f5cbefaeecc741" kindref="member">setObjectTreeState</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>open<sp/>);</highlight></codeline>
+<codeline lineno="291" refid="group__GeneralGroup_1ga7fb78d10511806576e8eb081203982f5" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7fb78d10511806576e8eb081203982f5" kindref="member">setObjectTreeState</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>open<sp/>);</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="group__GeneralGroup_1ga8f01e9d7c731a69186508c03397c09f1" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f01e9d7c731a69186508c03397c09f1" kindref="member">expandObjectTreeAndScroll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj<sp/>);</highlight></codeline>
+<codeline lineno="294" refid="group__GeneralGroup_1ga107476790b63bb2626af1911696a2612" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga107476790b63bb2626af1911696a2612" kindref="member">expandObjectTreeAndScroll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj<sp/>);</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="297" refid="group__GeneralGroup_1ga86b80144e3a19e663a44c52daa73f55d" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga86b80144e3a19e663a44c52daa73f55d" kindref="member">setShowShortcuts</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
-<codeline lineno="299" refid="group__GeneralGroup_1ga71eee39290bad9e423c351d3e5199f06" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga71eee39290bad9e423c351d3e5199f06" kindref="member">getShowShortcuts</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="297" refid="group__GeneralGroup_1ga2e12c000c6392a47446df2a428e38a3e" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2e12c000c6392a47446df2a428e38a3e" kindref="member">setShowShortcuts</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
+<codeline lineno="299" refid="group__GeneralGroup_1gab7846cc6b8aebe41100e1bad3ee7b165" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab7846cc6b8aebe41100e1bad3ee7b165" kindref="member">getShowShortcuts</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
 <codeline lineno="302" refid="group__GeneralGroup_1gaa2d17638d5eae8d84052a441927c8e2e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2d17638d5eae8d84052a441927c8e2e" kindref="member">enableSavedDialogPositions</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on<sp/>)<sp/>{<sp/>savedDialogPositionEnabled_<sp/>=<sp/>on;<sp/>}</highlight></codeline>
 <codeline lineno="304" refid="group__GeneralGroup_1ga3af61c19b91ea2126bb2ffdea304cba9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3af61c19b91ea2126bb2ffdea304cba9" kindref="member">isSavedDialogPositionsEnabled</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>savedDialogPositionEnabled_;<sp/>}</highlight></codeline>
 <codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="group__GeneralGroup_1ga12da43f010acf739a8eccfc33ecdeb04" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderManager" kindref="compound">UiRenderManager</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga12da43f010acf739a8eccfc33ecdeb04" kindref="member">getUiRenderManager</ref>();</highlight></codeline>
+<codeline lineno="307" refid="group__GeneralGroup_1ga960994b2cf7ea83b62d0709572c3f591" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderManager" kindref="compound">UiRenderManager</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga960994b2cf7ea83b62d0709572c3f591" kindref="member">getUiRenderManager</ref>();</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="309" refid="group__GeneralGroup_1ga0d3348b637e1e6672669ff2da445a8e8" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;SceneObjectsListDrawer&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga0d3348b637e1e6672669ff2da445a8e8" kindref="member">getSceneObjectsList</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sceneObjectsList_;<sp/>};</highlight></codeline>
+<codeline lineno="309" refid="group__GeneralGroup_1ga48fd92cd17ef9d58c9f021cfa8d2658d" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;SceneObjectsListDrawer&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga48fd92cd17ef9d58c9f021cfa8d2658d" kindref="member">getSceneObjectsList</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sceneObjectsList_;<sp/>};</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
 <codeline lineno="311" refid="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" kindref="member">NameTagSelectionMode</ref></highlight></codeline>
 <codeline lineno="312"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -666,21 +717,21 @@
 <codeline lineno="317"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
 <codeline lineno="318" refid="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" kindref="member">NameTagClickSignal</ref><sp/>=<sp/>boost::signals2::signal&lt;bool(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/><ref refid="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" kindref="member">NameTagSelectionMode</ref><sp/>mode<sp/>),<sp/><ref refid="structMR_1_1StopOnTrueCombiner" kindref="compound">StopOnTrueCombiner</ref>&gt;;</highlight></codeline>
 <codeline lineno="320" refid="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" kindref="member">NameTagClickSignal</ref><sp/><ref refid="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" kindref="member">nameTagClickSignal</ref>;</highlight></codeline>
-<codeline lineno="322" refid="group__GeneralGroup_1ga95c82c0734872d0f3d937e4653c60574" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga95c82c0734872d0f3d937e4653c60574" kindref="member">simulateNameTagClick</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/><ref refid="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" kindref="member">NameTagSelectionMode</ref><sp/>mode<sp/>);</highlight></codeline>
-<codeline lineno="324" refid="group__GeneralGroup_1gaa3b2a929f13cffa8c834e72a56c9dc94" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa3b2a929f13cffa8c834e72a56c9dc94" kindref="member">simulateNameTagClickWithKeyboardModifiers</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="322" refid="group__GeneralGroup_1gae37d50df7b1ae39e2fb9f1ffadea21a9" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae37d50df7b1ae39e2fb9f1ffadea21a9" kindref="member">simulateNameTagClick</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/><ref refid="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" kindref="member">NameTagSelectionMode</ref><sp/>mode<sp/>);</highlight></codeline>
+<codeline lineno="324" refid="group__GeneralGroup_1ga0c19303af27f7c3d1bc9fcd233ac00da" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0c19303af27f7c3d1bc9fcd233ac00da" kindref="member">simulateNameTagClickWithKeyboardModifiers</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
 <codeline lineno="326" refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" kindref="member">DrawSceneUiSignal</ref><sp/>=<sp/>boost::signals2::signal&lt;void(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId,<sp/><ref refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref>&amp;<sp/>tasks<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="328" refid="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" kindref="member">DrawSceneUiSignal</ref><sp/><ref refid="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" kindref="member">drawSceneUiSignal</ref>;</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="331" refid="group__GeneralGroup_1gab5abbf10004a75a69b1704b7af20e5b3" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab5abbf10004a75a69b1704b7af20e5b3" kindref="member">anyImGuiWindowIsHovered</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="333" refid="group__GeneralGroup_1gad3c1c5744647a6fd39a4296770a420f6" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad3c1c5744647a6fd39a4296770a420f6" kindref="member">anyUiObjectIsHovered</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="331" refid="group__GeneralGroup_1gad2a64141eea7543d77763acf46e5674b" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad2a64141eea7543d77763acf46e5674b" kindref="member">anyImGuiWindowIsHovered</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="333" refid="group__GeneralGroup_1ga398dc624768fd545202eabec71edca08" refkind="member"><highlight class="normal"><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga398dc624768fd545202eabec71edca08" kindref="member">anyUiObjectIsHovered</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="334"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337" refid="group__GeneralGroup_1ga9e71b44d5c09846170d097db09e2750a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref><sp/><ref refid="group__GeneralGroup_1ga9e71b44d5c09846170d097db09e2750a" kindref="member">calcSelectedTypesMask</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
-<codeline lineno="338" refid="group__GeneralGroup_1ga53d8e6df5755a98f1e793f6bc4bf0f89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga53d8e6df5755a98f1e793f6bc4bf0f89" kindref="member">drawGeneralOptions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
-<codeline lineno="339" refid="group__GeneralGroup_1ga223a369cd0143ab0fd5e6d5577641ab4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga223a369cd0143ab0fd5e6d5577641ab4" kindref="member">drawAdvancedOptions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/>selectedObjs,<sp/><ref refid="group__GeneralGroup_1ga08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref><sp/>selectedMask<sp/>);</highlight></codeline>
-<codeline lineno="340" refid="group__GeneralGroup_1ga84850cbba56bfddc430ce99e51b91b71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga84850cbba56bfddc430ce99e51b91b71" kindref="member">drawRemoveButton</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
-<codeline lineno="341" refid="group__GeneralGroup_1ga9af6848400197f4024584b77d9a9dc55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9af6848400197f4024584b77d9a9dc55" kindref="member">drawDrawOptionsCheckboxes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/>selectedObjs,<sp/><ref refid="group__GeneralGroup_1ga08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref><sp/>selectedMask<sp/>);</highlight></codeline>
-<codeline lineno="342" refid="group__GeneralGroup_1gae222c9e1c96773c161341f616707e6ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae222c9e1c96773c161341f616707e6ce" kindref="member">drawDrawOptionsColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
+<codeline lineno="337" refid="group__GeneralGroup_1gacf0c50c3142b19530e99510238d76d9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref><sp/><ref refid="group__GeneralGroup_1gacf0c50c3142b19530e99510238d76d9c" kindref="member">calcSelectedTypesMask</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
+<codeline lineno="338" refid="group__GeneralGroup_1ga0e8c9335d9129dab0ac3f428f4f9afe1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e8c9335d9129dab0ac3f428f4f9afe1" kindref="member">drawGeneralOptions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
+<codeline lineno="339" refid="group__GeneralGroup_1ga696222ece2d12338ac7925bf5ba31001" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga696222ece2d12338ac7925bf5ba31001" kindref="member">drawAdvancedOptions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/>selectedObjs,<sp/><ref refid="group__GeneralGroup_1ga08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref><sp/>selectedMask<sp/>);</highlight></codeline>
+<codeline lineno="340" refid="group__GeneralGroup_1gaa9ae19f72e7141f60d4bc7c556816678" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa9ae19f72e7141f60d4bc7c556816678" kindref="member">drawRemoveButton</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
+<codeline lineno="341" refid="group__GeneralGroup_1ga9ae2634d70e38f62b6a64768e075a2e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9ae2634d70e38f62b6a64768e075a2e2" kindref="member">drawDrawOptionsCheckboxes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/>selectedObjs,<sp/><ref refid="group__GeneralGroup_1ga08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref><sp/>selectedMask<sp/>);</highlight></codeline>
+<codeline lineno="342" refid="group__GeneralGroup_1ga781d285bb03ab1613b955b1ee6611097" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga781d285bb03ab1613b955b1ee6611097" kindref="member">drawDrawOptionsColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;&amp;<sp/>selectedObjs<sp/>);</highlight></codeline>
 <codeline lineno="343"><highlight class="normal"></highlight></codeline>
 <codeline lineno="345" refid="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" kindref="compound">SelectionInformationStyle</ref></highlight></codeline>
 <codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -693,71 +744,71 @@
 <codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="362" refid="group__GeneralGroup_1ga6a60ab6a3f2d56c380d10b0911d6c7b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6a60ab6a3f2d56c380d10b0911d6c7b1" kindref="member">drawModalMessage_</ref>();</highlight></codeline>
+<codeline lineno="362" refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" kindref="member">drawModalMessage_</ref>();</highlight></codeline>
 <codeline lineno="363"><highlight class="normal"></highlight></codeline>
 <codeline lineno="364" refid="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>capturedMouse_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="366" refid="group__GeneralGroup_1ga5b4a5520d05a30f780c06a061325e121" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5b4a5520d05a30f780c06a061325e121" kindref="member">onMouseDown_</ref>(<sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>button,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="367" refid="group__GeneralGroup_1ga4698fb9422936fc36f43f4dcb02fb3d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4698fb9422936fc36f43f4dcb02fb3d2" kindref="member">onMouseUp_</ref>(<sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>button,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="368" refid="group__GeneralGroup_1ga6fcea5fac57d33dc003165a9ece2b51b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6fcea5fac57d33dc003165a9ece2b51b" kindref="member">onMouseMove_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mouse_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mouse_y<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="369" refid="group__GeneralGroup_1ga294419b7fa4605c3e9d701e12368445e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga294419b7fa4605c3e9d701e12368445e" kindref="member">onMouseScroll_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>delta_y<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="370" refid="group__GeneralGroup_1ga6704f92b807e648f697c3313347d8001" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6704f92b807e648f697c3313347d8001" kindref="member">cursorEntrance_</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>entered<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="372" refid="group__GeneralGroup_1ga7906a1932a537af9cea6a47dcc68a00d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7906a1932a537af9cea6a47dcc68a00d" kindref="member">onCharPressed_</ref>(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="373" refid="group__GeneralGroup_1ga0e858510ba6a8fd6ef7f6a8875c6c36d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e858510ba6a8fd6ef7f6a8875c6c36d" kindref="member">onKeyDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="374" refid="group__GeneralGroup_1ga753fd5393ff4b24834ef25607ca2eaf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga753fd5393ff4b24834ef25607ca2eaf4" kindref="member">onKeyUp_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="375" refid="group__GeneralGroup_1ga3b05cbee00a414bd0c9184b9563abff0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b05cbee00a414bd0c9184b9563abff0" kindref="member">onKeyRepeat_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="377" refid="group__GeneralGroup_1ga16a6844acf0cd5b7f1b4dfe41979e796" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga16a6844acf0cd5b7f1b4dfe41979e796" kindref="member">postResize_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref><sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="378" refid="group__GeneralGroup_1gaff46cdf1806900d19d9806e28d325659" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaff46cdf1806900d19d9806e28d325659" kindref="member">postRescale_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="380" refid="group__GeneralGroup_1gad16e3a9ef41b44123e96565a98582cda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad16e3a9ef41b44123e96565a98582cda" kindref="member">spaceMouseMove_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>translate,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>rotate<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="381" refid="group__GeneralGroup_1ga4060b3a583e77e5b681d7fb9ecc49846" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4060b3a583e77e5b681d7fb9ecc49846" kindref="member">spaceMouseDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="383" refid="group__GeneralGroup_1gae066809443102cbe5292c380ceb24331" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae066809443102cbe5292c380ceb24331" kindref="member">touchpadRotateGestureBegin_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="384" refid="group__GeneralGroup_1gad643f6137f4b2d4869a009a40f716346" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad643f6137f4b2d4869a009a40f716346" kindref="member">touchpadRotateGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref><sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="385" refid="group__GeneralGroup_1gab17e611f2f8ceb1096d1ea82e52fa819" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab17e611f2f8ceb1096d1ea82e52fa819" kindref="member">touchpadRotateGestureEnd_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="386" refid="group__GeneralGroup_1ga16d62bdb2a3278ade5f315b24ed2477c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga16d62bdb2a3278ade5f315b24ed2477c" kindref="member">touchpadSwipeGestureBegin_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="387" refid="group__GeneralGroup_1ga346d5dfb27bcdd169d5a51702396da40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga346d5dfb27bcdd169d5a51702396da40" kindref="member">touchpadSwipeGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaY,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kinetic<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="388" refid="group__GeneralGroup_1gaff463379fb884a74986f40aff951fb64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaff463379fb884a74986f40aff951fb64" kindref="member">touchpadSwipeGestureEnd_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="389" refid="group__GeneralGroup_1ga1065bf25259c52604ca9fb26da03cd6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1065bf25259c52604ca9fb26da03cd6a" kindref="member">touchpadZoomGestureBegin_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="390" refid="group__GeneralGroup_1ga6e66701283ee97b5ff913eb99b22b975" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6e66701283ee97b5ff913eb99b22b975" kindref="member">touchpadZoomGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kinetic<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="391" refid="group__GeneralGroup_1ga772230273af61c56a22656823bc62403" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga772230273af61c56a22656823bc62403" kindref="member">touchpadZoomGestureEnd_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="393" refid="group__GeneralGroup_1ga551ad5455fbfb7e59f498036018a9b1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga551ad5455fbfb7e59f498036018a9b1b" kindref="member">postFocus_</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>focused<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="366" refid="group__GeneralGroup_1ga994b09e6e275cbb251285532f2c151ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga994b09e6e275cbb251285532f2c151ed" kindref="member">onMouseDown_</ref>(<sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>button,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="367" refid="group__GeneralGroup_1gad8a6fa727b9d7376e1013da8fdd82ba1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad8a6fa727b9d7376e1013da8fdd82ba1" kindref="member">onMouseUp_</ref>(<sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>button,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifier<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="368" refid="group__GeneralGroup_1gaa62cc275373a6ea5f93a45f30808f559" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa62cc275373a6ea5f93a45f30808f559" kindref="member">onMouseMove_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mouse_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mouse_y<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="369" refid="group__GeneralGroup_1ga39593a74467c7f5657c1928ba29e9918" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga39593a74467c7f5657c1928ba29e9918" kindref="member">onMouseScroll_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>delta_y<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="370" refid="group__GeneralGroup_1gaee8749db5f4345cd8e9e82f9b4b588a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaee8749db5f4345cd8e9e82f9b4b588a3" kindref="member">cursorEntrance_</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>entered<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="372" refid="group__GeneralGroup_1ga71c0a4f3e155ed0c5a23884385941faf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga71c0a4f3e155ed0c5a23884385941faf" kindref="member">onCharPressed_</ref>(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="373" refid="group__GeneralGroup_1ga9fd2c5cfa5ab8477bbf3d7bf1ab8ebef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9fd2c5cfa5ab8477bbf3d7bf1ab8ebef" kindref="member">onKeyDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="374" refid="group__GeneralGroup_1gaddc623163631e49d8f6274ea52de8c4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaddc623163631e49d8f6274ea52de8c4e" kindref="member">onKeyUp_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="375" refid="group__GeneralGroup_1ga3a4a876fef977b3d64182c7a90017350" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3a4a876fef977b3d64182c7a90017350" kindref="member">onKeyRepeat_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="377" refid="group__GeneralGroup_1ga1a04f77dd9640baabc21151abbeb373a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a04f77dd9640baabc21151abbeb373a" kindref="member">postResize_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref><sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="378" refid="group__GeneralGroup_1ga62511e31a24aa693197882de543d01b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62511e31a24aa693197882de543d01b2" kindref="member">postRescale_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="380" refid="group__GeneralGroup_1ga15cf987399a05978bda56826f3cfa9e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga15cf987399a05978bda56826f3cfa9e8" kindref="member">spaceMouseMove_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>translate,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>rotate<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="381" refid="group__GeneralGroup_1gad624687937256fd0722428f0f446bbf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad624687937256fd0722428f0f446bbf4" kindref="member">spaceMouseDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="383" refid="group__GeneralGroup_1gae2a62bf6f90ebf260b61f81dd258f714" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae2a62bf6f90ebf260b61f81dd258f714" kindref="member">touchpadRotateGestureBegin_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="384" refid="group__GeneralGroup_1gac92850dfedbaf136b29969809e6bc5b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac92850dfedbaf136b29969809e6bc5b7" kindref="member">touchpadRotateGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref><sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="385" refid="group__GeneralGroup_1ga03caa17830177e82fef4957f4b816184" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga03caa17830177e82fef4957f4b816184" kindref="member">touchpadRotateGestureEnd_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="386" refid="group__GeneralGroup_1gaa78732e0e9637761b5d75fd438dbc38a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa78732e0e9637761b5d75fd438dbc38a" kindref="member">touchpadSwipeGestureBegin_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="387" refid="group__GeneralGroup_1ga016b5cca7b3fe9f9e022e3528654a39b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga016b5cca7b3fe9f9e022e3528654a39b" kindref="member">touchpadSwipeGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaY,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kinetic<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="388" refid="group__GeneralGroup_1ga94cce2cb106ba99a14f51e1fd4afb50e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga94cce2cb106ba99a14f51e1fd4afb50e" kindref="member">touchpadSwipeGestureEnd_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="389" refid="group__GeneralGroup_1ga6be0f0e930aff8b721e952068edd177d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6be0f0e930aff8b721e952068edd177d" kindref="member">touchpadZoomGestureBegin_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="390" refid="group__GeneralGroup_1gae8c54fb0b0f263c36ef11aeccf8e2fde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae8c54fb0b0f263c36ef11aeccf8e2fde" kindref="member">touchpadZoomGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kinetic<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="391" refid="group__GeneralGroup_1ga9ae9318994ff4c3a45ae8addd49d473d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9ae9318994ff4c3a45ae8addd49d473d" kindref="member">touchpadZoomGestureEnd_</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="393" refid="group__GeneralGroup_1ga3aee721bfe74d1d6bc9cb7bfae13d907" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3aee721bfe74d1d6bc9cb7bfae13d907" kindref="member">postFocus_</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>focused<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="394"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397" refid="group__GeneralGroup_1ga76cda98d1dc4caae438ec0501f7bde8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga76cda98d1dc4caae438ec0501f7bde8f" kindref="member">rescaleStyle_</ref>();</highlight></codeline>
+<codeline lineno="397" refid="group__GeneralGroup_1gae165bd076813c61b66a4d1267c0fbfb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae165bd076813c61b66a4d1267c0fbfb4" kindref="member">rescaleStyle_</ref>();</highlight></codeline>
 <codeline lineno="398"><highlight class="normal"></highlight></codeline>
-<codeline lineno="399" refid="group__GeneralGroup_1ga99d49a0c86f16f2e917e71c81efe4187" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga99d49a0c86f16f2e917e71c81efe4187" kindref="member">drawSelectionInformation_</ref>();</highlight></codeline>
-<codeline lineno="400" refid="group__GeneralGroup_1ga6454c87e178e7cc91a395fb2ce4b3c10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6454c87e178e7cc91a395fb2ce4b3c10" kindref="member">drawFeaturePropertiesEditor_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="399" refid="group__GeneralGroup_1ga1e0b023b33b10ed33c6ed78157fb7973" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1e0b023b33b10ed33c6ed78157fb7973" kindref="member">drawSelectionInformation_</ref>();</highlight></codeline>
+<codeline lineno="400" refid="group__GeneralGroup_1gaa95362cbaedec95d47487198b49e72ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa95362cbaedec95d47487198b49e72ee" kindref="member">drawFeaturePropertiesEditor_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="401"><highlight class="normal"></highlight></codeline>
-<codeline lineno="402" refid="group__GeneralGroup_1gaf76f6326506b7340794051ec1fa60782" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf76f6326506b7340794051ec1fa60782" kindref="member">drawComparablePropertiesEditor_</ref>(<sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="402" refid="group__GeneralGroup_1ga93d9f62f18aedb3aee05577b6b4f84a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga93d9f62f18aedb3aee05577b6b4f84a3" kindref="member">drawComparablePropertiesEditor_</ref>(<sp/><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="405" refid="group__GeneralGroup_1ga60feeb812f9b38fdb42b0e3aa55b44f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga60feeb812f9b38fdb42b0e3aa55b44f3" kindref="member">drawCustomSelectionInformation_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" kindref="compound">SelectionInformationStyle</ref>&amp;<sp/>style<sp/>);</highlight></codeline>
+<codeline lineno="405" refid="group__GeneralGroup_1gab4e5f971f31b4ef95eb9c3698d9dff31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4e5f971f31b4ef95eb9c3698d9dff31" kindref="member">drawCustomSelectionInformation_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" kindref="compound">SelectionInformationStyle</ref>&amp;<sp/>style<sp/>);</highlight></codeline>
 <codeline lineno="406"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407" refid="group__GeneralGroup_1ga7d69c77712f963358e34a99c4eb27b8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7d69c77712f963358e34a99c4eb27b8a" kindref="member">draw_custom_selection_properties</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
+<codeline lineno="407" refid="group__GeneralGroup_1gaa2da5750de4e13ca0344018028ab6d0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2da5750de4e13ca0344018028ab6d0c" kindref="member">draw_custom_selection_properties</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
 <codeline lineno="408"><highlight class="normal"></highlight></codeline>
-<codeline lineno="409" refid="group__GeneralGroup_1ga0df92b241b5b7ddcc8f855ed329f2eeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0df92b241b5b7ddcc8f855ed329f2eeb" kindref="member">drawTagInformation_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
+<codeline lineno="409" refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" kindref="member">drawTagInformation_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected<sp/>);</highlight></codeline>
 <codeline lineno="410"><highlight class="normal"></highlight></codeline>
-<codeline lineno="411" refid="group__GeneralGroup_1ga318c4a57bcb4a30a7620d3c954668c5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga318c4a57bcb4a30a7620d3c954668c5a" kindref="member">drawTransform_</ref>();</highlight></codeline>
+<codeline lineno="411" refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" kindref="member">drawTransform_</ref>();</highlight></codeline>
 <codeline lineno="412"><highlight class="normal"></highlight></codeline>
-<codeline lineno="413" refid="group__GeneralGroup_1gac40c4ccc20532c621364545dc961f65a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac40c4ccc20532c621364545dc961f65a" kindref="member">drawTransformContextMenu_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/><sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="413" refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" kindref="member">drawTransformContextMenu_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/><sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="414"><highlight class="normal"></highlight></codeline>
-<codeline lineno="416" refid="group__GeneralGroup_1ga1a2ff7496cd88b62087cf3adef33dee1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a2ff7496cd88b62087cf3adef33dee1" kindref="member">drawShortcutsWindow_</ref>();</highlight></codeline>
-<codeline lineno="418" refid="group__GeneralGroup_1ga6991399e6f33fd30c2ddf2482fa849c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6991399e6f33fd30c2ddf2482fa849c0" kindref="member">getSceneInfoItemWidth_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemCount<sp/><sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="416" refid="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" kindref="member">drawShortcutsWindow_</ref>();</highlight></codeline>
+<codeline lineno="418" refid="group__GeneralGroup_1gaf1877fc755762a20d997b8f1a9742043" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf1877fc755762a20d997b8f1a9742043" kindref="member">getSceneInfoItemWidth_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemCount<sp/><sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="419"><highlight class="normal"></highlight></codeline>
 <codeline lineno="420" refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" kindref="compound">UiRenderManagerImpl</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></highlight></codeline>
 <codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="423" refid="group__GeneralGroup_1ga7347c1740073a409a4350f361af9b816" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7347c1740073a409a4350f361af9b816" kindref="member">preRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="424" refid="group__GeneralGroup_1ga40f36215f485498d7757d2473e6d2d64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga40f36215f485498d7757d2473e6d2d64" kindref="member">postRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="425" refid="group__GeneralGroup_1ga1aa058b02893d9bc3fd3589e0dc7bf21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref><sp/><ref refid="group__GeneralGroup_1ga1aa058b02893d9bc3fd3589e0dc7bf21" kindref="member">beginBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/><ref refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref>&amp;<sp/>tasks<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="426" refid="group__GeneralGroup_1ga6eae746d6778e271123fb43ad2f8f4e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6eae746d6778e271123fb43ad2f8f4e2" kindref="member">finishBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref>&amp;<sp/>params<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="423" refid="group__GeneralGroup_1ga393e611425f8e0700c6a66af14fc700b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga393e611425f8e0700c6a66af14fc700b" kindref="member">preRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="424" refid="group__GeneralGroup_1ga88f44b8b52e3dc0e7e3c125b45cdb7c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88f44b8b52e3dc0e7e3c125b45cdb7c9" kindref="member">postRenderViewport</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="425" refid="group__GeneralGroup_1ga0d422ddb23c790808aa9288b25363482" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref><sp/><ref refid="group__GeneralGroup_1ga0d422ddb23c790808aa9288b25363482" kindref="member">beginBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/><ref refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref>&amp;<sp/>tasks<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="426" refid="group__GeneralGroup_1gadfffa8dc5a661a4fb5936ad8b3858b77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadfffa8dc5a661a4fb5936ad8b3858b77" kindref="member">finishBackwardPass</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewport,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref>&amp;<sp/>params<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
 <codeline lineno="429" refid="group__GeneralGroup_1ga810c0bc5c84d12f69dbbdd1510c7ea20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" kindref="member">BasicUiRenderTask::InteractionMask</ref><sp/>consumedInteractions{};</highlight></codeline>
 <codeline lineno="430"><highlight class="normal"></highlight></codeline>
-<codeline lineno="433" refid="group__GeneralGroup_1ga51953f10f06ecbdf36131c6711172452" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51953f10f06ecbdf36131c6711172452" kindref="member">canConsumeEvent</ref>(<sp/><ref refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" kindref="member">BasicUiRenderTask::InteractionMask</ref><sp/>event<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="433" refid="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" kindref="member">canConsumeEvent</ref>(<sp/><ref refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" kindref="member">BasicUiRenderTask::InteractionMask</ref><sp/>event<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="436" refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;UiRenderManagerImpl&gt;<sp/><ref refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" kindref="member">uiRenderManager_</ref>;</highlight></codeline>
 <codeline lineno="437" refid="group__GeneralGroup_1ga7d0715a8cba151ac2cf1b9260c778350" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;SceneObjectsListDrawer&gt;<sp/><ref refid="group__GeneralGroup_1ga7d0715a8cba151ac2cf1b9260c778350" kindref="member">sceneObjectsList_</ref>;</highlight></codeline>
 <codeline lineno="438"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="439"><highlight class="normal"></highlight></codeline>
 <codeline lineno="440"><highlight class="normal"></highlight></codeline>
-<codeline lineno="442" refid="group__GeneralGroup_1ga9cab0079b5bdf8b5ebb5ba774cd76b62" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9cab0079b5bdf8b5ebb5ba774cd76b62" kindref="member">reserveKeyEvent</ref>(<sp/>ImGuiKey<sp/>key<sp/>);</highlight></codeline>
+<codeline lineno="442" refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" kindref="member">reserveKeyEvent</ref>(<sp/>ImGuiKey<sp/>key<sp/>);</highlight></codeline>
 <codeline lineno="443"><highlight class="normal"></highlight></codeline>
 <codeline lineno="444"><highlight class="normal"></highlight></codeline>
 <codeline lineno="445"><highlight class="normal">}<sp/></highlight></codeline>

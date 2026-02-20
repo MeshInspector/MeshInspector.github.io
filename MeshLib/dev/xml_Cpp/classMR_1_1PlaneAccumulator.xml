@@ -34,9 +34,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a561b80488532ac9db2b78daf77f60124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::PlaneAccumulator::addPlane</definition>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a2b607f4cffd555b7c0cdaa488439a986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PlaneAccumulator::addPlane</definition>
         <argsstring>(const Plane3d &amp;pl)</argsstring>
         <name>addPlane</name>
         <qualifiedname>MR::PlaneAccumulator::addPlane</qualifiedname>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="77" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="77" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1adffaaa076fb1e9216cb89f89f2ee3af6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -59,7 +59,7 @@
         <name>addPlane</name>
         <qualifiedname>MR::PlaneAccumulator::addPlane</qualifiedname>
         <param>
-          <type>const Plane3f &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref> &amp;</type>
           <declname>pl</declname>
         </param>
         <briefdescription>
@@ -70,9 +70,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="78" bodyend="78"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1af8c3f7e07324810201d7e42c25d77fb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector3d</type>
-        <definition>MRMESH_API Vector3d MR::PlaneAccumulator::findBestCrossPoint</definition>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1ad21706d15535338144b96f1ec664146c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::PlaneAccumulator::findBestCrossPoint</definition>
         <argsstring>(const Vector3d &amp;p0, double tol, int *rank=nullptr, Vector3d *space=nullptr) const</argsstring>
         <name>findBestCrossPoint</name>
         <qualifiedname>MR::PlaneAccumulator::findBestCrossPoint</qualifiedname>
@@ -126,11 +126,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="85" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="85" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a0255552e85ddcbc57932a70e4eabbb28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::PlaneAccumulator::findBestCrossPoint</definition>
+      <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1ab243bb9c789a839af26cf2ed0972f49e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::PlaneAccumulator::findBestCrossPoint</definition>
         <argsstring>(const Vector3f &amp;p0, float tol, int *rank=nullptr, Vector3f *space=nullptr) const</argsstring>
         <name>findBestCrossPoint</name>
         <qualifiedname>MR::PlaneAccumulator::findBestCrossPoint</qualifiedname>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="86" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="86" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -168,10 +168,10 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="75" bodyend="91"/>
     <listofallmembers>
-      <member refid="classMR_1_1PlaneAccumulator_1a561b80488532ac9db2b78daf77f60124" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1a2b607f4cffd555b7c0cdaa488439a986" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1adffaaa076fb1e9216cb89f89f2ee3af6" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
-      <member refid="classMR_1_1PlaneAccumulator_1af8c3f7e07324810201d7e42c25d77fb3" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
-      <member refid="classMR_1_1PlaneAccumulator_1a0255552e85ddcbc57932a70e4eabbb28" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1ad21706d15535338144b96f1ec664146c" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classMR_1_1PlaneAccumulator_1ab243bb9c789a839af26cf2ed0972f49e" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1a01b1cd6902f7e5195b07ff45dd326277" prot="private" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>mat_</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1a67b76e0f451ddcc537d85a02c251d2df" prot="private" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>rhs_</name></member>
     </listofallmembers>

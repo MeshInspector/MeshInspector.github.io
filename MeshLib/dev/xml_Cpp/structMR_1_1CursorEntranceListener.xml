@@ -7,7 +7,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga2e6ad6df00a5718db8e060aec257534b" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gabd94cdf4627914e91f8f24f1aef2cb54" kind="function"><name>~CursorEntranceListener</name></member>
-      <member refid="group__GeneralGroup_1ga2d5c27d95f9984ab5220e7c158d41841" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gab16f3059c06b78bdc487efa6c5aafabb" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gadab2592cc61c2b1c1c6cf9edd031f71b" kind="function"><name>cursorEntrance_</name></member>
@@ -55,7 +55,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="410" bodyend="416"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga2d5c27d95f9984ab5220e7c158d41841" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gab16f3059c06b78bdc487efa6c5aafabb" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::CursorEntranceListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gadab2592cc61c2b1c1c6cf9edd031f71b" prot="protected" virt="pure-virtual"><scope>MR::CursorEntranceListener</scope><name>cursorEntrance_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>disconnect</name></member>

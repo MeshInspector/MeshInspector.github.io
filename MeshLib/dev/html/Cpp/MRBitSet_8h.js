@@ -13,7 +13,7 @@ var MRBitSet_8h =
     [ "makeVectorWithSeqNums", "MRBitSet_8h.html#ga68d5cff879ff5d9d841c1ecebfb71ed1", null ],
     [ "operator&", "MRBitSet_8h.html#ga4383c7ccfb257c9434fe3e9e0b59a27b", null ],
     [ "operator-", "MRBitSet_8h.html#ga042aeb0c2011b3bc175a13e96a447a5f", null ],
-    [ "operator==", "MRBitSet_8h.html#ga300a438da6440ee7d2e92933bcfa6018", null ],
+    [ "operator==", "MRBitSet_8h.html#ga477d12e4df21747098c68393607fe634", null ],
     [ "operator==", "MRBitSet_8h.html#ga6eb99174c3e76c7cef9281244bb0352b", null ],
     [ "operator==", "MRBitSet_8h.html#ga4369afee04806dc72d3e0bca2ddaa0ec", null ],
     [ "operator^", "MRBitSet_8h.html#gace45a71e6bdb315750cbd38f5e648a56", null ],

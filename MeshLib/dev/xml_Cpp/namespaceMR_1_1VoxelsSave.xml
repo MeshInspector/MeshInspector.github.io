@@ -5,7 +5,7 @@
     <innerclass refid="structMR_1_1VoxelsSave_1_1SavingSettings" prot="public">MR::VoxelsSave::SavingSettings</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1VoxelsSave_1a5289196c605171ac3410bbe845a26176" prot="public" static="no">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const VdbVolume &amp;, const std::filesystem::path &amp;, ProgressCallback)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const VdbVolume &amp;, const std::filesystem::path &amp;, <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>)</type>
         <definition>using MR::VoxelsSave::VoxelsSaver =  Expected&lt;void&gt;( * )( const VdbVolume&amp;, const std::filesystem::path&amp;, ProgressCallback )</definition>
         <argsstring></argsstring>
         <name>VoxelsSaver</name>
@@ -16,32 +16,548 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="76" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="77" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga8b7a3d30f9b81594b08a8a90828dd8e6" kind="function"><name>toDicom</name></member>
-      <member refid="group__GeneralGroup_1ga0f83445b39c9bf24c4f50d6fe1f4cfe8" kind="function"><name>toDicom</name></member>
-      <member refid="group__GeneralGroup_1ga06de9ebb71a997d3eec5251dc2a1c1e8" kind="function"><name>toDicom</name></member>
-      <member refid="group__IOGroup_1gaba5fa9d2b1947f916a3629cde580c30f" kind="function"><name>toRawAutoname</name></member>
-      <member refid="group__IOGroup_1gae7faa074ac0a027170b7339a76da566a" kind="function"><name>toRawAutoname</name></member>
-      <member refid="group__IOGroup_1gaf3e337da226cefb117434f836e5305cc" kind="function"><name>gridToRawAutoname</name></member>
-      <member refid="group__IOGroup_1ga4d10a99aa49d2b8f2ef88692d30d10cd" kind="function"><name>gridToRawFloat</name></member>
-      <member refid="group__IOGroup_1ga12d518250bd2612433a450a1a4d1edca" kind="function"><name>toRawFloat</name></member>
-      <member refid="group__IOGroup_1gaa02434644d181b6490b7026bc9cfa989" kind="function"><name>toRawFloat</name></member>
-      <member refid="group__IOGroup_1ga07fcb9dbce1e084feea3f4bc9a997d05" kind="function"><name>toGav</name></member>
-      <member refid="group__IOGroup_1ga2be8d94b307086a5911150897b696e80" kind="function"><name>toGav</name></member>
-      <member refid="group__IOGroup_1ga83684442a0c8442dd692b127a40080a0" kind="function"><name>toGav</name></member>
-      <member refid="group__IOGroup_1ga708af38f8b6078cd2a53f8d8efdfa969" kind="function"><name>toGav</name></member>
-      <member refid="group__IOGroup_1gad119eb5a04825967c784f81d0add0afe" kind="function"><name>toGav</name></member>
-      <member refid="group__IOGroup_1ga3fc609b9748c17d4d66dba1569809141" kind="function"><name>toGav</name></member>
-      <member refid="group__IOGroup_1gae95da72600888100f789f35d3c34dcfb" kind="function"><name>gridToVdb</name></member>
-      <member refid="group__IOGroup_1ga8e29fc2e07717e64d35c1baafabcb446" kind="function"><name>gridToVdb</name></member>
-      <member refid="group__IOGroup_1gae7e67df258eb2d97e1ddf1d1cb4917f5" kind="function"><name>toVdb</name></member>
-      <member refid="group__IOGroup_1ga9dcafbf81e0cc08b00b5f3cc6c42f9e6" kind="function"><name>gridToAnySupportedFormat</name></member>
-      <member refid="group__IOGroup_1ga479f7166483b9a6ae878a9eaaaf3b2c2" kind="function"><name>toAnySupportedFormat</name></member>
-      <member refid="group__IOGroup_1ga71f97bec2215ef7c561b5de6d82dfe53" kind="function"><name>saveSliceToImage</name></member>
-      <member refid="group__IOGroup_1ga369d03f6b945767a7f3fff153969a695" kind="function"><name>saveAllSlicesToImage</name></member>
+      <member refid="group__GeneralGroup_1gaeaddd51312fec04fbd52fe20b7f6ad50" kind="function"><name>toDicom</name></member>
+      <member refid="group__GeneralGroup_1ga63205d8fe6f992628c37a17d75f90eb8" kind="function"><name>toDicom</name></member>
+      <member refid="group__GeneralGroup_1gaf30d811aab2278471ec56ad8a7204a87" kind="function"><name>toDicom</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a2e179fbde55c39476bb8befcc2377073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toRawAutoname</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toRawAutoname</name>
+        <qualifiedname>MR::VoxelsSave::toRawAutoname</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Save raw voxels file, writing parameters in file name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="21" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="21" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1af82f8c5775c7abc303399c0fdf9d8de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toRawAutoname</definition>
+        <argsstring>(const SimpleVolume &amp;simpleVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toRawAutoname</name>
+        <qualifiedname>MR::VoxelsSave::toRawAutoname</qualifiedname>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="23" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="23" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1adab85b9bc199dbc4168a30c1aaec5c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::gridToRawAutoname</definition>
+        <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;dims, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>gridToRawAutoname</name>
+        <qualifiedname>MR::VoxelsSave::gridToRawAutoname</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="25" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="25" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a0f33f9e03ac1292f300799e260c153be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::gridToRawFloat</definition>
+        <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;dims, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>gridToRawFloat</name>
+        <qualifiedname>MR::VoxelsSave::gridToRawFloat</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Save voxels in raw format with each value as 32-bit float in given binary stream. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="29" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="29" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a8dfc94b0369f1092754d0946e0918817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toRawFloat</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>toRawFloat</name>
+        <qualifiedname>MR::VoxelsSave::toRawFloat</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="30" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a25d9cd02652bc821741b80b0ddf5469e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toRawFloat</definition>
+        <argsstring>(const SimpleVolume &amp;simpleVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>toRawFloat</name>
+        <qualifiedname>MR::VoxelsSave::toRawFloat</qualifiedname>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="31" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="31" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1ace76e677d22f184c1690891c1f7f1733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toGav</name>
+        <qualifiedname>MR::VoxelsSave::toGav</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Save voxels in Gav-format in given destination. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="34" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="34" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1aca5f59835f2efa7a8c951100ff32aef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>toGav</name>
+        <qualifiedname>MR::VoxelsSave::toGav</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="35" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="35" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a718554fb1f1670650b40d39ce9a22541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
+        <argsstring>(const SimpleVolumeMinMax &amp;simpleVolumeMinMax, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toGav</name>
+        <qualifiedname>MR::VoxelsSave::toGav</qualifiedname>
+        <param>
+          <type>const <ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref> &amp;</type>
+          <declname>simpleVolumeMinMax</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="36" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="36" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1ac8ab65dc423aa7859ba112a305fcaabf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
+        <argsstring>(const SimpleVolumeMinMax &amp;simpleVolumeMinMax, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>toGav</name>
+        <qualifiedname>MR::VoxelsSave::toGav</qualifiedname>
+        <param>
+          <type>const <ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref> &amp;</type>
+          <declname>simpleVolumeMinMax</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="37" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="37" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a46dba753c5d67dafa8e2ea47c0078657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
+        <argsstring>(const SimpleVolume &amp;simpleVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toGav</name>
+        <qualifiedname>MR::VoxelsSave::toGav</qualifiedname>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="38" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="38" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a2df418f8471fab1ef437524c6b07333a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
+        <argsstring>(const SimpleVolume &amp;simpleVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>toGav</name>
+        <qualifiedname>MR::VoxelsSave::toGav</qualifiedname>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="39" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="39" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a867d99fb48150c6bfcbe17cfdace59f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::gridToVdb</definition>
+        <argsstring>(const FloatGrid &amp;grid, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>gridToVdb</name>
+        <qualifiedname>MR::VoxelsSave::gridToVdb</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Save voxels file in OpenVDB format. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="42" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="42" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a4761dc821789e8835fef765b78772f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::gridToVdb</definition>
+        <argsstring>(const FloatGrid &amp;grid, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
+        <name>gridToVdb</name>
+        <qualifiedname>MR::VoxelsSave::gridToVdb</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="44" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="44" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a506f7db9c23f93fe5586a3494d704abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toVdb</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toVdb</name>
+        <qualifiedname>MR::VoxelsSave::toVdb</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="46" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="46" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1afeecbc4eab76803974501a46e51234d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::gridToAnySupportedFormat</definition>
+        <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;dims, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>gridToAnySupportedFormat</name>
+        <qualifiedname>MR::VoxelsSave::gridToAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Saves voxels in a file, detecting the format from file extension. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="50" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="50" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a31dd497fcf4de34a42a8d0a512e300e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::toAnySupportedFormat</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR::VoxelsSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="52" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="52" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1ae97a9649f728491374a52c4f5822d109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::saveSliceToImage</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const VdbVolume &amp;vdbVolume, const SlicePlane &amp;slicePlain, int sliceNumber, ProgressCallback callback={})</argsstring>
+        <name>saveSliceToImage</name>
+        <qualifiedname>MR::VoxelsSave::saveSliceToImage</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref> &amp;</type>
+          <declname>slicePlain</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sliceNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>save the slice by the active plane through the sliceNumber to an image file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="56" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="56" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a56ebe06547e21b86384b5c3a557b9aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::VoxelsSave::saveAllSlicesToImage</definition>
+        <argsstring>(const VdbVolume &amp;vdbVolume, const SavingSettings &amp;settings)</argsstring>
+        <name>saveAllSlicesToImage</name>
+        <qualifiedname>MR::VoxelsSave::saveAllSlicesToImage</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1VoxelsSave_1_1SavingSettings" kindref="compound">SavingSettings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>save all slices by the active plane through all voxel planes along the active axis to an image file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="72" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="72" declcolumn="11"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>namespace <ref refid="namespaceMR_1_1VoxelsLoad" kindref="compound">VoxelsLoad</ref> </para>

@@ -2,74 +2,70 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRPointToPointAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRPointToPointAligningTransform.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRAffineXf3.h</includes>
     <includedby refid="MRAligningTransform_8h" local="yes">MRAligningTransform.h</includedby>
     <incdepgraph>
-      <node id="17">
+      <node id="25">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="5">
-        <label>MRMacros.h</label>
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="4">
+      <node id="14">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-      </node>
-      <node id="1">
-        <label>MRPointToPointAligningTransform.h</label>
-        <link refid="MRPointToPointAligningTransform_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -77,41 +73,92 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>MRPointToPointAligningTransform.h</label>
+        <link refid="MRPointToPointAligningTransform_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+      </node>
+      <node id="16">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="11">
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>algorithm</label>
       </node>
-      <node id="13">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="21">
         <label>cmath</label>
       </node>
-      <node id="8">
+      <node id="17">
         <label>cstddef</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>cstring</label>
       </node>
-      <node id="15">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="23">
         <label>iosfwd</label>
       </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="18">
         <label>type_traits</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -136,7 +183,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRAffineXf3_8h" kindref="compound">MRAffineXf3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
@@ -146,11 +193,11 @@
 <codeline lineno="15" refid="classMR_1_1PointToPointAligningTransform" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1PointToPointAligningTransform_1aa7e4554d230ff4113f0eda48c212f0bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1aa7e4554d230ff4113f0eda48c212f0bc" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>p2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1PointToPointAligningTransform_1a28ee1d360198448e23e00615c086e7ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a28ee1d360198448e23e00615c086e7ff" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>p2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="classMR_1_1PointToPointAligningTransform_1a1f94659f434039a0d815dc1cc7926025" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a1f94659f434039a0d815dc1cc7926025" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>)<sp/>{<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a1f94659f434039a0d815dc1cc7926025" kindref="member">add</ref>(<sp/>Vector3d(<sp/>p1<sp/>),<sp/>Vector3d(<sp/>p2<sp/>),<sp/>w<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="classMR_1_1PointToPointAligningTransform_1a6b0c81b83591abaea22519d6292ba022" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a6b0c81b83591abaea22519d6292ba022" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>);</highlight></codeline>
+<codeline lineno="25" refid="classMR_1_1PointToPointAligningTransform_1a443f77a80d33d459b4eb9d37264241cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a443f77a80d33d459b4eb9d37264241cd" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="classMR_1_1PointToPointAligningTransform_1ac5424746eb81f9bd5747eefad03a184b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1ac5424746eb81f9bd5747eefad03a184b" kindref="member">clear</ref>()<sp/>{<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>{};<sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
@@ -160,15 +207,15 @@
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="classMR_1_1PointToPointAligningTransform_1a36c54b01cd263e2fd5108051a8588576" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a36c54b01cd263e2fd5108051a8588576" kindref="member">totalWeight</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sumW_;<sp/>}</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1PointToPointAligningTransform_1a3f69ff2cdbd2209a9e4b5ce12d6b6d23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a3f69ff2cdbd2209a9e4b5ce12d6b6d23" kindref="member">findBestRigidXf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1PointToPointAligningTransform_1a1aa61a6aa29e1ed1cc269c3e147ce9b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a1aa61a6aa29e1ed1cc269c3e147ce9b0" kindref="member">findBestRigidXf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="classMR_1_1PointToPointAligningTransform_1aaee2e3799959a735664c9a514ebf68b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1aaee2e3799959a735664c9a514ebf68b4" kindref="member">findBestRigidScaleXf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45" refid="classMR_1_1PointToPointAligningTransform_1ae5b2f6e8a74884a10a6914afbb8ba12b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1ae5b2f6e8a74884a10a6914afbb8ba12b" kindref="member">findBestRigidScaleXf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="classMR_1_1PointToPointAligningTransform_1af76b9bbf81a2b3e4c6736320d918abf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1af76b9bbf81a2b3e4c6736320d918abf3" kindref="member">findBestRigidXfFixedRotationAxis</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>axis<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1PointToPointAligningTransform_1ad5d312c82e2c66505844283d81318459" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1ad5d312c82e2c66505844283d81318459" kindref="member">findBestRigidXfFixedRotationAxis</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>axis<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="classMR_1_1PointToPointAligningTransform_1a19aab45c251d7c3e06f40a8e59ec2998" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a19aab45c251d7c3e06f40a8e59ec2998" kindref="member">findBestRigidXfOrthogonalRotationAxis</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>ort<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="classMR_1_1PointToPointAligningTransform_1ac0d25befa3ce9b9ac11852c66c0b9def" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1ac0d25befa3ce9b9ac11852c66c0b9def" kindref="member">findBestRigidXfOrthogonalRotationAxis</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>ort<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="classMR_1_1PointToPointAligningTransform_1ad5779781042d23e1ded869ab54fc771e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>Vector3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1ad5779781042d23e1ded869ab54fc771e" kindref="member">findBestTranslation</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54" refid="classMR_1_1PointToPointAligningTransform_1a4e2b650956d9ae729830232e6464e313" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector3d<sp/><ref refid="classMR_1_1PointToPointAligningTransform_1a4e2b650956d9ae729830232e6464e313" kindref="member">findBestTranslation</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">BestRotation</highlight></codeline>

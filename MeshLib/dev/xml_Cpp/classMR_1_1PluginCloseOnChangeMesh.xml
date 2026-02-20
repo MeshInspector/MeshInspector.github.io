@@ -11,10 +11,10 @@
       <member refid="group__GeneralGroup_1ga84e6c03197732646789295b475260890" kind="variable"><name>meshChangedConnections_</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga5790fe8a480493d40913adc3812e1127" kind="function"><name>reactOnFaceSelectionChanges_</name></member>
-      <member refid="group__GeneralGroup_1ga2e05f59d67c502229f3a2a2e919886fc" kind="function"><name>onPluginEnable_</name></member>
-      <member refid="group__GeneralGroup_1gaf521c98fca4b1537e06ebf161605954d" kind="function"><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga8a6dc440df682b00feb1b9fd10eab31a" kind="function"><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1gaf7fc2e2aad9875cf8e3d1746f8b3b056" kind="function"><name>reactOnFaceSelectionChanges_</name></member>
+      <member refid="group__GeneralGroup_1ga0fa059dd4caff86460127a8c6f7e9918" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga116e218acf4861f76d791208feba92ad" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga387a5cfc8facfc6ad0741fa49cddcfe7" kind="function"><name>shouldClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -49,11 +49,11 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7b94773fd2366584812415d8cc83b4c1" prot="protected" virt="non-virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>meshChanged_</name></member>
       <member refid="group__GeneralGroup_1ga84e6c03197732646789295b475260890" prot="private" virt="non-virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>meshChangedConnections_</name></member>
-      <member refid="group__GeneralGroup_1gaf521c98fca4b1537e06ebf161605954d" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga2e05f59d67c502229f3a2a2e919886fc" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga116e218acf4861f76d791208feba92ad" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga0fa059dd4caff86460127a8c6f7e9918" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginEnable_</name></member>
       <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>preDrawUpdate</name></member>
-      <member refid="group__GeneralGroup_1ga5790fe8a480493d40913adc3812e1127" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>reactOnFaceSelectionChanges_</name></member>
-      <member refid="group__GeneralGroup_1ga8a6dc440df682b00feb1b9fd10eab31a" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1gaf7fc2e2aad9875cf8e3d1746f8b3b056" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>reactOnFaceSelectionChanges_</name></member>
+      <member refid="group__GeneralGroup_1ga387a5cfc8facfc6ad0741fa49cddcfe7" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>shouldClose_</name></member>
       <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>~IPluginUpdate</name></member>
     </listofallmembers>
   </compounddef>

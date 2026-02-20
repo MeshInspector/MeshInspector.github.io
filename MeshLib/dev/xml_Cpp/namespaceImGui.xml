@@ -57,7 +57,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>return struct of <ref refid="namespaceImGui_1a9c130223f0795222ba5a4445f8c9e917" kindref="member">ImGui::Palette</ref> <linebreak/>
+<para>return struct of <ref refid="namespaceImGui_1ac731a9d6a2c3b334d247953eedb6e7d1" kindref="member">ImGui::Palette</ref> <linebreak/>
 values are bits </para>
         </detaileddescription>
         <inbodydescription>
@@ -241,9 +241,9 @@ values are bits </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="77" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="77" bodyend="80"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a28e1c155304849c7d19acd541112fd83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::DragFloatValid</definition>
+      <memberdef kind="function" id="namespaceImGui_1a2d763b2a2f74c1b55cfcacf0b6ea826b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::DragFloatValid</definition>
         <argsstring>(const char *label, float *value, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max(), const char *format=&quot;%.3f&quot;, ImGuiSliderFlags flags=0)</argsstring>
         <name>DragFloatValid</name>
         <qualifiedname>ImGui::DragFloatValid</qualifiedname>
@@ -287,11 +287,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="86" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="86" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="86" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="86" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a65c23b1e96e6b6498e84ce4cc36c8b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::DragFloatValidLineWidth</definition>
+      <memberdef kind="function" id="namespaceImGui_1ae2aece386c4f42feb67b8c15d3dad093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::DragFloatValidLineWidth</definition>
         <argsstring>(const char *label, float *value)</argsstring>
         <name>DragFloatValidLineWidth</name>
         <qualifiedname>ImGui::DragFloatValidLineWidth</qualifiedname>
@@ -304,17 +304,17 @@ values are bits </para>
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>similar to <ref refid="namespaceImGui_1a28e1c155304849c7d19acd541112fd83" kindref="member">ImGui::DragFloatValid</ref> but use available line width range </para>
+<para>similar to <ref refid="namespaceImGui_1a2d763b2a2f74c1b55cfcacf0b6ea826b" kindref="member">ImGui::DragFloatValid</ref> but use available line width range </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="92" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="92" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="92" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="92" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1af6cde4f0c7ce90fbd8f1e25123620cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="structImGui_1_1MultiDragRes" kindref="compound">MultiDragRes</ref></type>
-        <definition>MRVIEWER_API MultiDragRes ImGui::DragFloatValid2</definition>
+      <memberdef kind="function" id="namespaceImGui_1a7d077767e574ad56765fa13b51695b56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structImGui_1_1MultiDragRes" kindref="compound">MultiDragRes</ref></type>
+        <definition>MultiDragRes ImGui::DragFloatValid2</definition>
         <argsstring>(const char *label, float v[2], float v_speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max(), const char *format=&quot;%.3f&quot;, ImGuiSliderFlags flags=0, const char *(*tooltips)[2]=nullptr)</argsstring>
         <name>DragFloatValid2</name>
         <qualifiedname>ImGui::DragFloatValid2</qualifiedname>
@@ -365,11 +365,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="105" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="105" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="105" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="105" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a1518948fa064c73b105776a73da476dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="structImGui_1_1MultiDragRes" kindref="compound">MultiDragRes</ref></type>
-        <definition>MRVIEWER_API MultiDragRes ImGui::DragFloatValid3</definition>
+      <memberdef kind="function" id="namespaceImGui_1ab25c23602d30180dfa6f02e4e59b0e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structImGui_1_1MultiDragRes" kindref="compound">MultiDragRes</ref></type>
+        <definition>MultiDragRes ImGui::DragFloatValid3</definition>
         <argsstring>(const char *label, float v[3], float v_speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max(), const char *format=&quot;%.3f&quot;, ImGuiSliderFlags flags=0, const char *(*tooltips)[3]=nullptr)</argsstring>
         <name>DragFloatValid3</name>
         <qualifiedname>ImGui::DragFloatValid3</qualifiedname>
@@ -420,11 +420,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="115" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="115" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="115" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="115" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1aed7e188bef741b7dadcd0903a2453748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::DragIntValid</definition>
+      <memberdef kind="function" id="namespaceImGui_1ac18c85601f8a2864d526058a981136c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::DragIntValid</definition>
         <argsstring>(const char *label, int *value, float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;)</argsstring>
         <name>DragIntValid</name>
         <qualifiedname>ImGui::DragIntValid</qualifiedname>
@@ -463,11 +463,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="124" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="124" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="124" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="124" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a05c747c1c3e6b5e5f9435452360a521f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="structImGui_1_1MultiDragRes" kindref="compound">MultiDragRes</ref></type>
-        <definition>MRVIEWER_API MultiDragRes ImGui::DragIntValid3</definition>
+      <memberdef kind="function" id="namespaceImGui_1af6959fc8a1517c4a64acd4afbbe721b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structImGui_1_1MultiDragRes" kindref="compound">MultiDragRes</ref></type>
+        <definition>MultiDragRes ImGui::DragIntValid3</definition>
         <argsstring>(const char *label, int v[3], float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;, const char *(*tooltips)[3]=nullptr)</argsstring>
         <name>DragIntValid3</name>
         <qualifiedname>ImGui::DragIntValid3</qualifiedname>
@@ -513,11 +513,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="133" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="133" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="133" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="133" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a4e3833bf7761da4ac20ca9397fbdbc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::InputIntValid</definition>
+      <memberdef kind="function" id="namespaceImGui_1a867aa01d47fba96fd27bffdb9ab8caef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::InputIntValid</definition>
         <argsstring>(const char *label, int *value, int min, int max, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</argsstring>
         <name>InputIntValid</name>
         <qualifiedname>ImGui::InputIntValid</qualifiedname>
@@ -559,7 +559,7 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="142" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="142" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="142" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="142" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceImGui_1a01e8908c9ff42e3510168251a97f1d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -596,9 +596,9 @@ values are bits </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="147" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="147" bodyend="153"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1aab9ea83bb6bf2bc7f7bb8d0c582bd9a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::PlotCustomHistogram</definition>
+      <memberdef kind="function" id="namespaceImGui_1a771e5316396acbc0376d96adf2808c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::PlotCustomHistogram</definition>
         <argsstring>(const char *str_id, std::function&lt; float(int idx)&gt; values_getter, std::function&lt; void(int idx)&gt; tooltip, std::function&lt; void(int idx)&gt; on_click, int values_count, int values_offset=0, float scale_min=FLT_MAX, float scale_max=FLT_MAX, ImVec2 frame_size=ImVec2(0, 0), int selectedBarId=-1, int hoveredBarId=-1, const std::vector&lt; HistogramGridLine &gt; &amp;gridIndexes={}, const std::vector&lt; HistogramGridLine &gt; &amp;gridValues={})</argsstring>
         <name>PlotCustomHistogram</name>
         <qualifiedname>ImGui::PlotCustomHistogram</qualifiedname>
@@ -686,11 +686,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="169" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="169" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="169" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="169" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a23ae6006298ef80c1e04a1ea1b49dabf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::BeginStatePlugin</definition>
+      <memberdef kind="function" id="namespaceImGui_1a216fbde95017cbd4e591842b3530da81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::BeginStatePlugin</definition>
         <argsstring>(const char *label, bool *open, float width)</argsstring>
         <name>BeginStatePlugin</name>
         <qualifiedname>ImGui::BeginStatePlugin</qualifiedname>
@@ -713,11 +713,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="180" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="180" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="180" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="180" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a6dfe914b3199c96486e9fc7b82138777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API ImVec2</type>
-        <definition>MRVIEWER_API ImVec2 ImGui::GetDownPosition</definition>
+      <memberdef kind="function" id="namespaceImGui_1a471b8f48842ef21f90356a0070d33d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ImVec2</type>
+        <definition>ImVec2 ImGui::GetDownPosition</definition>
         <argsstring>(const float width)</argsstring>
         <name>GetDownPosition</name>
         <qualifiedname>ImGui::GetDownPosition</qualifiedname>
@@ -732,11 +732,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="215" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="215" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="215" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="215" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a9566862a34c508f460141204ccee118d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API float</type>
-        <definition>MRVIEWER_API float ImGui::GetTitleBarHeght</definition>
+      <memberdef kind="function" id="namespaceImGui_1a6bd93f12bdfd72ecf6ebb90ec6d8631e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ImGui::GetTitleBarHeght</definition>
         <argsstring>()</argsstring>
         <name>GetTitleBarHeght</name>
         <qualifiedname>ImGui::GetTitleBarHeght</qualifiedname>
@@ -747,11 +747,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="218" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="218" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="218" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="218" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1abc9641ecb8b0feb32e48a68aa785e864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::pair&lt; ImVec2, bool &gt;</type>
-        <definition>MRVIEWER_API std::pair&lt; ImVec2, bool &gt; ImGui::LoadSavedWindowPos</definition>
+      <memberdef kind="function" id="namespaceImGui_1a7ff8ed86ee8ea50b3b4c5eea9bf2e502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; ImVec2, bool &gt;</type>
+        <definition>std::pair&lt; ImVec2, bool &gt; ImGui::LoadSavedWindowPos</definition>
         <argsstring>(const char *label, ImGuiWindow *window, float width, const ImVec2 *position=nullptr)</argsstring>
         <name>LoadSavedWindowPos</name>
         <qualifiedname>ImGui::LoadSavedWindowPos</qualifiedname>
@@ -776,7 +776,7 @@ values are bits </para>
         </briefdescription>
         <detaileddescription>
 <para>Load saved window position, if possible</para>
-<para>if can&apos;t load - get <computeroutput>position</computeroutput> (if setted) or default (upper-right viewport corner) see also <ref refid="namespaceImGui_1a083d798cae08523bfb8851595088a61b" kindref="member">SaveWindowPosition</ref> <parameterlist kind="param"><parameteritem>
+<para>if can&apos;t load - get <computeroutput>position</computeroutput> (if setted) or default (upper-right viewport corner) see also <ref refid="namespaceImGui_1ae48c5f3721a42228f06ad99bd9d3182f" kindref="member">SaveWindowPosition</ref> <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>label</parametername>
 </parameternamelist>
@@ -807,11 +807,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="227" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="227" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="227" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="227" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a6066bf27894061659a1b44c4daf5ca1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::pair&lt; ImVec2, bool &gt;</type>
-        <definition>MRVIEWER_API std::pair&lt; ImVec2, bool &gt; ImGui::LoadSavedWindowPos</definition>
+      <memberdef kind="function" id="namespaceImGui_1aba3aedd4bc21e49dc028ea838c0a2146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; ImVec2, bool &gt;</type>
+        <definition>std::pair&lt; ImVec2, bool &gt; ImGui::LoadSavedWindowPos</definition>
         <argsstring>(const char *label, float width, const ImVec2 *position=nullptr)</argsstring>
         <name>LoadSavedWindowPos</name>
         <qualifiedname>ImGui::LoadSavedWindowPos</qualifiedname>
@@ -834,11 +834,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="228" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="228" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="228" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="228" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a083d798cae08523bfb8851595088a61b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::SaveWindowPosition</definition>
+      <memberdef kind="function" id="namespaceImGui_1ae48c5f3721a42228f06ad99bd9d3182f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::SaveWindowPosition</definition>
         <argsstring>(const char *label, ImGuiWindow *window)</argsstring>
         <name>SaveWindowPosition</name>
         <qualifiedname>ImGui::SaveWindowPosition</qualifiedname>
@@ -854,15 +854,15 @@ values are bits </para>
         </briefdescription>
         <detaileddescription>
 <para>Save window position</para>
-<para>saved only if window exist see also <ref refid="namespaceImGui_1abc9641ecb8b0feb32e48a68aa785e864" kindref="member">LoadSavedWindowPos</ref> </para>
+<para>saved only if window exist see also <ref refid="namespaceImGui_1a7ff8ed86ee8ea50b3b4c5eea9bf2e502" kindref="member">LoadSavedWindowPos</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="233" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="233" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="233" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1af40083e35c7775c1fff23b763d9d0e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::SaveWindowPosition</definition>
+      <memberdef kind="function" id="namespaceImGui_1a5cc3e778e75f9ee629a7ae99f8472c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::SaveWindowPosition</definition>
         <argsstring>(const char *label)</argsstring>
         <name>SaveWindowPosition</name>
         <qualifiedname>ImGui::SaveWindowPosition</qualifiedname>
@@ -876,11 +876,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="234" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="234" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="234" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="234" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1ab9191609cc8db0202abe18e31641a55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::BeginSavedWindowPos</definition>
+      <memberdef kind="function" id="namespaceImGui_1a0d41b8541cb776c3dd51831a279e1166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::BeginSavedWindowPos</definition>
         <argsstring>(const std::string &amp;name, bool *open, const SavedWindowPosParams &amp;params)</argsstring>
         <name>BeginSavedWindowPos</name>
         <qualifiedname>ImGui::BeginSavedWindowPos</qualifiedname>
@@ -900,15 +900,15 @@ values are bits </para>
         </briefdescription>
         <detaileddescription>
 <para>Same as ImGui::Begin, but with loading and saving the window position</para>
-<para>see also <ref refid="namespaceImGui_1abc9641ecb8b0feb32e48a68aa785e864" kindref="member">LoadSavedWindowPos</ref> and <ref refid="namespaceImGui_1a083d798cae08523bfb8851595088a61b" kindref="member">SaveWindowPosition</ref> </para>
+<para>see also <ref refid="namespaceImGui_1a7ff8ed86ee8ea50b3b4c5eea9bf2e502" kindref="member">LoadSavedWindowPos</ref> and <ref refid="namespaceImGui_1ae48c5f3721a42228f06ad99bd9d3182f" kindref="member">SaveWindowPosition</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="247" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="247" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="247" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="247" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a8686baf36ce377f9e5cd6aea4b1d4005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::BeginCustomStatePlugin</definition>
+      <memberdef kind="function" id="namespaceImGui_1a8a6605ae0f056ee5b375dbcaca407891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::BeginCustomStatePlugin</definition>
         <argsstring>(const char *label, bool *open, const CustomStatePluginWindowParameters &amp;params={})</argsstring>
         <name>BeginCustomStatePlugin</name>
         <qualifiedname>ImGui::BeginCustomStatePlugin</qualifiedname>
@@ -932,11 +932,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="251" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="251" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="251" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="251" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a7e59143b9ee934b74838c5c3b80c6559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::EndCustomStatePlugin</definition>
+      <memberdef kind="function" id="namespaceImGui_1a92b09b917f0685293d7605ed0b7986a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::EndCustomStatePlugin</definition>
         <argsstring>()</argsstring>
         <name>EndCustomStatePlugin</name>
         <qualifiedname>ImGui::EndCustomStatePlugin</qualifiedname>
@@ -947,11 +947,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="253" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="253" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="253" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="253" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a959274b0c45550ab3c50db7f9fbb2628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::BeginModalNoAnimation</definition>
+      <memberdef kind="function" id="namespaceImGui_1acf0100b42cbaf8998bfce08740ceb543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::BeginModalNoAnimation</definition>
         <argsstring>(const char *label, bool *open=nullptr, ImGuiWindowFlags flags=0)</argsstring>
         <name>BeginModalNoAnimation</name>
         <qualifiedname>ImGui::BeginModalNoAnimation</qualifiedname>
@@ -976,11 +976,11 @@ values are bits </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="256" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="256" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="256" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="256" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1acd8cc938250148aa8872b289ee37a885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::InputIntBitSet</definition>
+      <memberdef kind="function" id="namespaceImGui_1a5defcf8082320dec4abc0770f3bc99d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::InputIntBitSet</definition>
         <argsstring>(const char *label, int *v, const MR::BitSet &amp;bs, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</argsstring>
         <name>InputIntBitSet</name>
         <qualifiedname>ImGui::InputIntBitSet</qualifiedname>
@@ -1024,11 +1024,11 @@ value can&apos;t be changed if bs has no any valid value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="263" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="263" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="263" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="263" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a2e673d54604370c06cb076d0449831a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::DragInputInt</definition>
+      <memberdef kind="function" id="namespaceImGui_1ac6574da9d1febddb9aa79e7f9bdd7038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::DragInputInt</definition>
         <argsstring>(const char *label, int *value, float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;, ImGuiSliderFlags flags=ImGuiSliderFlags_None)</argsstring>
         <name>DragInputInt</name>
         <qualifiedname>ImGui::DragInputInt</qualifiedname>
@@ -1075,11 +1075,11 @@ value can&apos;t be changed if bs has no any valid value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="270" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="270" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="270" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="270" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1aabb908deed7006b50c7ad6ec124126a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::Link</definition>
+      <memberdef kind="function" id="namespaceImGui_1a1de0301581b33a2a2e592a082de3ab16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::Link</definition>
         <argsstring>(const char *label, uint32_t color=MR::Color(60, 120, 255).getUInt32())</argsstring>
         <name>Link</name>
         <qualifiedname>ImGui::Link</qualifiedname>
@@ -1100,11 +1100,11 @@ value can&apos;t be changed if bs has no any valid value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="277" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="277" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="277" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="277" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a9c130223f0795222ba5a4445f8c9e917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" kindref="member">PaletteChanges</ref></type>
-        <definition>MRVIEWER_API PaletteChanges ImGui::Palette</definition>
+      <memberdef kind="function" id="namespaceImGui_1ac731a9d6a2c3b334d247953eedb6e7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" kindref="member">PaletteChanges</ref></type>
+        <definition>PaletteChanges ImGui::Palette</definition>
         <argsstring>(const char *label, MR::Palette &amp;palette, std::string &amp;presetName, float width, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max())</argsstring>
         <name>Palette</name>
         <qualifiedname>ImGui::Palette</qualifiedname>
@@ -1171,11 +1171,11 @@ can load and save palette preset. <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="297" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="297" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="297" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="297" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a1ff64ab0bea9537c8755a84b4226dde0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::Plane</definition>
+      <memberdef kind="function" id="namespaceImGui_1a73942e37afedb96d86cafa736df83508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::Plane</definition>
         <argsstring>(MR::PlaneWidget &amp;planeWidget, PlaneWidgetFlags flags={})</argsstring>
         <name>Plane</name>
         <qualifiedname>ImGui::Plane</qualifiedname>
@@ -1196,11 +1196,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="319" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="319" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="319" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="319" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a8258976ae8bdfc2882e10e03831be422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::Direction</definition>
+      <memberdef kind="function" id="namespaceImGui_1a7de53b40c34268b3f0488baa3cce4186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::Direction</definition>
         <argsstring>(MR::DirectionWidget &amp;dirWidget, bool &amp;editDragging, const std::string &amp;historyName)</argsstring>
         <name>Direction</name>
         <qualifiedname>ImGui::Direction</qualifiedname>
@@ -1242,11 +1242,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="325" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="325" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="325" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="325" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a35ab4450ec9a2caa24b029e5c5c11ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::Image</definition>
+      <memberdef kind="function" id="namespaceImGui_1aedb015f9f592f1fd8b470ab6f5ac89be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::Image</definition>
         <argsstring>(const MR::ImGuiImage &amp;image, const ImVec2 &amp;size, const MR::Color &amp;multColor)</argsstring>
         <name>Image</name>
         <qualifiedname>ImGui::Image</qualifiedname>
@@ -1269,11 +1269,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="328" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="328" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="328" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="328" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1ad271bb43979f12d68480619505b2900f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::Image</definition>
+      <memberdef kind="function" id="namespaceImGui_1a0aa5259d479228cac323c9479306a981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::Image</definition>
         <argsstring>(const MR::ImGuiImage &amp;image, const ImVec2 &amp;size, const ImVec4 &amp;multColor={ 1, 1, 1, 1 })</argsstring>
         <name>Image</name>
         <qualifiedname>ImGui::Image</qualifiedname>
@@ -1296,11 +1296,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="329" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="329" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="329" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="329" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a1fb7653d1377ce1f2dd7a8f9d1057615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API MR::Vector2i</type>
-        <definition>MRVIEWER_API MR::Vector2i ImGui::GetImagePointerCoord</definition>
+      <memberdef kind="function" id="namespaceImGui_1a693d63535afd37161a3808983d21d7ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR::Vector2i</type>
+        <definition>MR::Vector2i ImGui::GetImagePointerCoord</definition>
         <argsstring>(const MR::ImGuiImage &amp;image, const ImVec2 &amp;size, const ImVec2 &amp;imagePos)</argsstring>
         <name>GetImagePointerCoord</name>
         <qualifiedname>ImGui::GetImagePointerCoord</qualifiedname>
@@ -1323,11 +1323,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="332" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="332" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="332" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="332" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1abd01e3d0c0bcd6ca3f831a2e16d7bdd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void ImGui::Spinner</definition>
+      <memberdef kind="function" id="namespaceImGui_1afb617d7a671fde9e4b9a9280685929b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImGui::Spinner</definition>
         <argsstring>(float radius)</argsstring>
         <name>Spinner</name>
         <qualifiedname>ImGui::Spinner</qualifiedname>
@@ -1342,11 +1342,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="336" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="336" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="336" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="336" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1acedb24606d4e2b34b200ade5cb5ccf14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::ModalBigTitle</definition>
+      <memberdef kind="function" id="namespaceImGui_1a7554b2c9b03f4d4b518f68e284509187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::ModalBigTitle</definition>
         <argsstring>(const char *title)</argsstring>
         <name>ModalBigTitle</name>
         <qualifiedname>ImGui::ModalBigTitle</qualifiedname>
@@ -1361,11 +1361,11 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="339" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="339" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="339" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="339" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a29d932a1f5e6a9e91213d1a209b09e1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::ModalExitButton</definition>
+      <memberdef kind="function" id="namespaceImGui_1a526ae831fa80bb7c77bcb658c70af536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::ModalExitButton</definition>
         <argsstring>()</argsstring>
         <name>ModalExitButton</name>
         <qualifiedname>ImGui::ModalExitButton</qualifiedname>
@@ -1376,7 +1376,7 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="342" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="342" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="342" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="342" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceImGui_1a22263f205e7e3988ff6be4e152a963a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -1426,9 +1426,9 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="349" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="349" bodyend="352"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceImGui_1a57f161b33d858badb4201fbedd7b3163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool ImGui::isMultiViewportEnabled</definition>
+      <memberdef kind="function" id="namespaceImGui_1a765b6525f19901392bdd0a4456045e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ImGui::isMultiViewportEnabled</definition>
         <argsstring>()</argsstring>
         <name>isMultiViewportEnabled</name>
         <qualifiedname>ImGui::isMultiViewportEnabled</qualifiedname>
@@ -1439,7 +1439,7 @@ can import plane from the scene, draw it with mouse or adjust with controls plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="355" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="355" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" declline="355" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

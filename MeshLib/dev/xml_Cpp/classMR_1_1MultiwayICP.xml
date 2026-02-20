@@ -21,21 +21,21 @@
       <member refid="group__GeneralGroup_1ga40bccf930578d259a3f3417df82131c8" kind="variable"><name>iter_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga4fc483cb7fd8b04e2e37761a891b6a15" kind="function"><name>MultiwayICP</name></member>
-      <member refid="group__GeneralGroup_1ga45afa9e21d3905737cd8bafd86926578" kind="function"><name>calculateTransformations</name></member>
-      <member refid="group__GeneralGroup_1ga176d6154b15b1c250f3f5cd3fb1a35cc" kind="function"><name>calculateTransformationsFixFirst</name></member>
-      <member refid="group__GeneralGroup_1gafab250201279bb04e86b137138ef54de" kind="function"><name>resamplePoints</name></member>
-      <member refid="group__GeneralGroup_1ga266ccb33611f47b517672664e5ecca33" kind="function"><name>updateAllPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga2f6e378c35aa8f425461ad03c089cfc3" kind="function"><name>MultiwayICP</name></member>
+      <member refid="group__GeneralGroup_1ga90092df2895892ddbf0a59ca246a2d17" kind="function"><name>calculateTransformations</name></member>
+      <member refid="group__GeneralGroup_1ga035f430685fd818c36a92a7c113cf528" kind="function"><name>calculateTransformationsFixFirst</name></member>
+      <member refid="group__GeneralGroup_1ga7f8fba636970f99be8a47d033f23fb4c" kind="function"><name>resamplePoints</name></member>
+      <member refid="group__GeneralGroup_1gad85e289a1348d63836e08165f570c776" kind="function"><name>updateAllPointPairs</name></member>
       <member refid="group__GeneralGroup_1gafa420b3638e8c4e0b5ac70acb575a741" kind="function"><name>setParams</name></member>
       <member refid="group__GeneralGroup_1ga1df773567dfe9ebaffb468a5e35325fe" kind="function"><name>getParams</name></member>
-      <member refid="group__GeneralGroup_1ga64ac3c584445bc45cecd3c1c41d10ae6" kind="function"><name>getMeanSqDistToPoint</name></member>
-      <member refid="group__GeneralGroup_1gadef2b42123425d640c3ba527a8ba8f08" kind="function"><name>getMeanSqDistToPlane</name></member>
-      <member refid="group__GeneralGroup_1ga7d58f57c70792f0ec9ef82aa6e95407a" kind="function"><name>getNumSamples</name></member>
-      <member refid="group__GeneralGroup_1ga2b9103b68bd7af393660d7dafc751954" kind="function"><name>getNumActivePairs</name></member>
+      <member refid="group__GeneralGroup_1gad96a8827b3a7713399a0acdeb0aa705f" kind="function"><name>getMeanSqDistToPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0e94f0e1e0beb80d99a446d5c6adfdf3" kind="function"><name>getMeanSqDistToPlane</name></member>
+      <member refid="group__GeneralGroup_1ga31f9f24f9707a89894c7114257e92e37" kind="function"><name>getNumSamples</name></member>
+      <member refid="group__GeneralGroup_1ga3f3b23fba2e6f0e139a4c48c233a43e1" kind="function"><name>getNumActivePairs</name></member>
       <member refid="group__GeneralGroup_1gae36a340dd4d403cc4894bc8a8b87d0d6" kind="function"><name>setPerIterationCallback</name></member>
       <member refid="group__GeneralGroup_1gae4d25815f9e27aeb558a76b1268fb602" kind="function"><name>devIndependentEquationsModeEnabled</name></member>
       <member refid="group__GeneralGroup_1ga44f6380f606dbdbaf88e1bf6357735dc" kind="function"><name>devEnableIndependentEquationsMode</name></member>
-      <member refid="group__GeneralGroup_1ga088270c2bee7aaaea93a48fc5d48c2fd" kind="function"><name>getStatusInfo</name></member>
+      <member refid="group__GeneralGroup_1ga6e1eda7d34eb0bef9c81d8e1e5d9c5ad" kind="function"><name>getStatusInfo</name></member>
       <member refid="group__GeneralGroup_1ga3a6e071719c0f164a01aeca591915112" kind="function"><name>getPairsPerLayer</name></member>
       <member refid="group__GeneralGroup_1gae32c804d4589f4cbb0cd5821bace1d83" kind="function"><name>getCascadeIndexer</name></member>
     </sectiondef>
@@ -67,8 +67,8 @@
       <member refid="group__GeneralGroup_1ga282279a00c7e92bd0b8b7fb4db086da3" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcGen_</name></member>
       <member refid="group__GeneralGroup_1ga6fdebd6ba8aa32213489601272d4a6bf" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcP2Pl_</name></member>
       <member refid="group__GeneralGroup_1ga107897a8d7571fca54e0cae91cabb0be" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcP2Pt_</name></member>
-      <member refid="group__GeneralGroup_1ga45afa9e21d3905737cd8bafd86926578" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformations</name></member>
-      <member refid="group__GeneralGroup_1ga176d6154b15b1c250f3f5cd3fb1a35cc" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformationsFixFirst</name></member>
+      <member refid="group__GeneralGroup_1ga90092df2895892ddbf0a59ca246a2d17" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformations</name></member>
+      <member refid="group__GeneralGroup_1ga035f430685fd818c36a92a7c113cf528" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calculateTransformationsFixFirst</name></member>
       <member refid="group__GeneralGroup_1ga9e848face193cbd3f78527ce9a837664" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>cascadeIndexer_</name></member>
       <member refid="group__GeneralGroup_1ga9688460bcc7dc60199dc457ab849bc3a" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>cascadeIter_</name></member>
       <member refid="group__GeneralGroup_1gaac84694b3dad7ab10183d26471c51a5f" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>deactivateFarDistPairs_</name></member>
@@ -76,17 +76,17 @@
       <member refid="group__GeneralGroup_1gae4d25815f9e27aeb558a76b1268fb602" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>devIndependentEquationsModeEnabled</name></member>
       <member refid="group__GeneralGroup_1ga7c47d89642fc6f92227adf5b750b008b" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>doIteration_</name></member>
       <member refid="group__GeneralGroup_1gae32c804d4589f4cbb0cd5821bace1d83" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getCascadeIndexer</name></member>
-      <member refid="group__GeneralGroup_1gadef2b42123425d640c3ba527a8ba8f08" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getMeanSqDistToPlane</name></member>
-      <member refid="group__GeneralGroup_1ga64ac3c584445bc45cecd3c1c41d10ae6" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getMeanSqDistToPoint</name></member>
-      <member refid="group__GeneralGroup_1ga2b9103b68bd7af393660d7dafc751954" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getNumActivePairs</name></member>
-      <member refid="group__GeneralGroup_1ga7d58f57c70792f0ec9ef82aa6e95407a" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getNumSamples</name></member>
+      <member refid="group__GeneralGroup_1ga0e94f0e1e0beb80d99a446d5c6adfdf3" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getMeanSqDistToPlane</name></member>
+      <member refid="group__GeneralGroup_1gad96a8827b3a7713399a0acdeb0aa705f" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getMeanSqDistToPoint</name></member>
+      <member refid="group__GeneralGroup_1ga3f3b23fba2e6f0e139a4c48c233a43e1" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getNumActivePairs</name></member>
+      <member refid="group__GeneralGroup_1ga31f9f24f9707a89894c7114257e92e37" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getNumSamples</name></member>
       <member refid="group__GeneralGroup_1ga3a6e071719c0f164a01aeca591915112" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getPairsPerLayer</name></member>
       <member refid="group__GeneralGroup_1ga1df773567dfe9ebaffb468a5e35325fe" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getParams</name></member>
-      <member refid="group__GeneralGroup_1ga088270c2bee7aaaea93a48fc5d48c2fd" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getStatusInfo</name></member>
+      <member refid="group__GeneralGroup_1ga6e1eda7d34eb0bef9c81d8e1e5d9c5ad" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>getStatusInfo</name></member>
       <member refid="group__GeneralGroup_1ga40bccf930578d259a3f3417df82131c8" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>iter_</name></member>
       <member refid="group__GeneralGroup_1gaa5dbf24096b532624b188e0e55eaaf94" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>LayerSamples</name></member>
       <member refid="group__GeneralGroup_1ga8a6bea316cbe5135619267fc08711fb2" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>maxGroupSize_</name></member>
-      <member refid="group__GeneralGroup_1ga4fc483cb7fd8b04e2e37761a891b6a15" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>MultiwayICP</name></member>
+      <member refid="group__GeneralGroup_1ga2f6e378c35aa8f425461ad03c089cfc3" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>MultiwayICP</name></member>
       <member refid="group__GeneralGroup_1gac1829b80cb1af2135f9988384b408cc2" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>multiwayIter_</name></member>
       <member refid="group__GeneralGroup_1ga67d743f94307957dc8309ca50283451c" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>objs_</name></member>
       <member refid="group__GeneralGroup_1ga10f40b7180edaa50e5b9f16581e895df" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>p2plIter_</name></member>
@@ -95,7 +95,7 @@
       <member refid="group__GeneralGroup_1ga37a8e0d52c2729455ea42255f7d90942" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>PairsPerLayer</name></member>
       <member refid="group__GeneralGroup_1ga8e2ae11d44e75182a5e19bab6b114d70" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>perIterationCb_</name></member>
       <member refid="group__GeneralGroup_1gae64b41544363b3494a2250e7166770e2" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>prop_</name></member>
-      <member refid="group__GeneralGroup_1gafab250201279bb04e86b137138ef54de" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resamplePoints</name></member>
+      <member refid="group__GeneralGroup_1ga7f8fba636970f99be8a47d033f23fb4c" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resamplePoints</name></member>
       <member refid="group__GeneralGroup_1gaf5f10a46e2d0c92e7aabcc19b6db162a" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resampleUpperLayers_</name></member>
       <member refid="group__GeneralGroup_1ga39d3179ef0e08c041feb9a6ea743c6ef" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>reservePairsLayer0_</name></member>
       <member refid="group__GeneralGroup_1gad4cba2a0484136f958167fca4d15321e" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>reserveUpperLayerPairs_</name></member>
@@ -104,7 +104,7 @@
       <member refid="group__GeneralGroup_1gafa420b3638e8c4e0b5ac70acb575a741" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setParams</name></member>
       <member refid="group__GeneralGroup_1gae36a340dd4d403cc4894bc8a8b87d0d6" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setPerIterationCallback</name></member>
       <member refid="group__GeneralGroup_1ga9cef041fd9f97265e8a65b58da4c1d50" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setupLayers_</name></member>
-      <member refid="group__GeneralGroup_1ga266ccb33611f47b517672664e5ecca33" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateAllPointPairs</name></member>
+      <member refid="group__GeneralGroup_1gad85e289a1348d63836e08165f570c776" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateAllPointPairs</name></member>
       <member refid="group__GeneralGroup_1gad59df8b1f291757da812d4af0dfa7a3e" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateLayerPairs_</name></member>
     </listofallmembers>
   </compounddef>

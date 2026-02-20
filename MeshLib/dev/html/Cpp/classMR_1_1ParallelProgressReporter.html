@@ -164,12 +164,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ga2c6d0ee3e32d318d2f21e81a65c786fb" id="r_ga2c6d0ee3e32d318d2f21e81a65c786fb"><td class="memItemLeft" align="right" valign="top">MRMESH_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2c6d0ee3e32d318d2f21e81a65c786fb">ParallelProgressReporter</a> (const ProgressCallback &amp;cb)</td></tr>
-<tr class="separator:ga2c6d0ee3e32d318d2f21e81a65c786fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb8acccd63d1068e162e165f290b3227" id="r_gafb8acccd63d1068e162e165f290b3227"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html">PerTaskReporter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafb8acccd63d1068e162e165f290b3227">newTask</a> (float weight=1.f)</td></tr>
-<tr class="separator:gafb8acccd63d1068e162e165f290b3227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga14f01226cb9a140ad5be9540453a8eed" id="r_ga14f01226cb9a140ad5be9540453a8eed"><td class="memItemLeft" align="right" valign="top">MRMESH_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga14f01226cb9a140ad5be9540453a8eed">operator()</a> ()</td></tr>
-<tr class="separator:ga14f01226cb9a140ad5be9540453a8eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1d953cc657c4b0ac3b50bbb44cdc1dd" id="r_gaf1d953cc657c4b0ac3b50bbb44cdc1dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf1d953cc657c4b0ac3b50bbb44cdc1dd">ParallelProgressReporter</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
+<tr class="separator:gaf1d953cc657c4b0ac3b50bbb44cdc1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dbff57f458d4ac8ac5fabfe53eb685d" id="r_ga0dbff57f458d4ac8ac5fabfe53eb685d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html">PerTaskReporter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0dbff57f458d4ac8ac5fabfe53eb685d">newTask</a> (float weight=1.f)</td></tr>
+<tr class="separator:ga0dbff57f458d4ac8ac5fabfe53eb685d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab12804eaa7827c0475e3cac1250a662c" id="r_gab12804eaa7827c0475e3cac1250a662c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab12804eaa7827c0475e3cac1250a662c">operator()</a> ()</td></tr>
+<tr class="separator:gab12804eaa7827c0475e3cac1250a662c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class allows progress to be reported from different threads. Unlike progress callback that is passed to <a class="el" href="group__BasicGroup.html#gaf184f372f735726148d7a07cbbbb29af">ParallelFor</a>, each task may report the progress separately, and the progress displayed to user is not just a number of completed tasks divided by the total number of tasks, but rather a (weighted) average of progresses reported from each task </p>

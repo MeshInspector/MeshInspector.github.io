@@ -7,7 +7,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga898ad2a77c0378293713eff6653eed12" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gad96923cab3fbc7dc4521f3755625925e" kind="function"><name>~MouseUpListener</name></member>
-      <member refid="group__GeneralGroup_1ga6ac98f2cd4e75c1b0afb455e589b2faa" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga9b5d532b0bf1d4935e73122b34e75770" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gacc8933bfbd960ed092ace57557e1aca3" kind="function"><name>onMouseUp_</name></member>
@@ -54,7 +54,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="63" bodyend="69"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga6ac98f2cd4e75c1b0afb455e589b2faa" prot="public" virt="virtual"><scope>MR::MouseUpListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga9b5d532b0bf1d4935e73122b34e75770" prot="public" virt="virtual"><scope>MR::MouseUpListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::MouseUpListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::MouseUpListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga898ad2a77c0378293713eff6653eed12" prot="public" virt="non-virtual"><scope>MR::MouseUpListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

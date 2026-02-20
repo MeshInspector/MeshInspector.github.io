@@ -7,7 +7,7 @@
     </templateparamlist>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="structMR_1_1PolylineTraits_3_01Vector2f_01_4_1a71afe05c4c71237b7ac0e7b925f8d57d" prot="public" static="no">
-        <type>MR::Polyline2</type>
+        <type><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">MR::Polyline2</ref></type>
         <definition>using MR::PolylineTraits&lt; Vector2f &gt;::Polyline =  MR::Polyline2</definition>
         <argsstring></argsstring>
         <name>Polyline</name>

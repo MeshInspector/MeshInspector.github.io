@@ -16,6 +16,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="10">
+        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::BinaryOperations&lt;&gt;</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::CameraOrientation&lt;&gt;</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>MR::ISceneSelectionChange</label>
         <link refid="classMR_1_1ISceneSelectionChange"/>
@@ -24,6 +48,12 @@
         <label>MR::MoveObjectByMouse</label>
         <link refid="classMR_1_1MoveObjectByMouse"/>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -66,6 +96,12 @@
         <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

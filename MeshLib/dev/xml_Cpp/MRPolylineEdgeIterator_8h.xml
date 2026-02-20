@@ -6,34 +6,70 @@
     <includes refid="MRIteratorRange_8h" local="yes">MRIteratorRange.h</includes>
     <includes local="no">iterator</includes>
     <incdepgraph>
-      <node id="14">
+      <node id="21">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRIteratorRange.h</label>
+        <link refid="MRIteratorRange_8h"/>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -42,22 +78,14 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="19">
-        <label>MRIteratorRange.h</label>
-        <link refid="MRIteratorRange_8h"/>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
       <node id="1">
         <label>MRPolylineEdgeIterator.h</label>
         <link refid="MRPolylineEdgeIterator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -65,69 +93,82 @@
         <link refid="MRPolylineTopology_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="14">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="15">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="9">
-        <label>cassert</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
-        <label>concepts</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="11">
-        <label>cstddef</label>
+      <node id="22">
+        <label>MRphmap.h</label>
       </node>
-      <node id="16">
-        <label>functional</label>
-      </node>
-      <node id="17">
-        <label>iosfwd</label>
-      </node>
-      <node id="18">
-        <label>iterator</label>
-      </node>
-      <node id="12">
-        <label>type_traits</label>
+      <node id="8">
+        <label>array</label>
       </node>
       <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="16">
+        <label>concepts</label>
+      </node>
+      <node id="18">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="24">
+        <label>iterator</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>type_traits</label>
+      </node>
+      <node id="20">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1PolylineUndirectedEdgeIterator" prot="public">MR::PolylineUndirectedEdgeIterator</innerclass>
@@ -158,7 +199,7 @@
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>topology_-&gt;<ref refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" kindref="member">undirectedEdgeSize</ref>()<sp/>==<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>edge_<sp/>=<sp/>UndirectedEdgeId{0};</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>topology_-&gt;<ref refid="group__GeneralGroup_1ga0a9412a90e63fc7a356cd7098e1f8ad6" kindref="member">isLoneEdge</ref>(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>topology_-&gt;<ref refid="group__GeneralGroup_1ga340d1c3c2700cc5e1f3e470e2b04e0ca" kindref="member">isLoneEdge</ref>(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" kindref="member">operator ++</ref>();</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1gaceb9e42371e4e109bae6cfd91baa5ec1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaceb9e42371e4e109bae6cfd91baa5ec1" kindref="member">PolylineUndirectedEdgeIterator</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -174,7 +215,7 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>edge_<sp/>=<sp/>UndirectedEdgeId{};</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!topology_-&gt;<ref refid="group__GeneralGroup_1ga0a9412a90e63fc7a356cd7098e1f8ad6" kindref="member">isLoneEdge</ref>(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!topology_-&gt;<ref refid="group__GeneralGroup_1ga340d1c3c2700cc5e1f3e470e2b04e0ca" kindref="member">isLoneEdge</ref>(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
@@ -187,7 +228,7 @@
 <codeline lineno="54"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*a<sp/>==<sp/>*b;<sp/>}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5534d2437ed57cabae82ae75a441b224" kindref="member">operator !=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>

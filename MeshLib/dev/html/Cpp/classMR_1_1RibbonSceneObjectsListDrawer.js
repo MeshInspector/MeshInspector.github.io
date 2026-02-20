@@ -1,14 +1,14 @@
 var classMR_1_1RibbonSceneObjectsListDrawer =
 [
-    [ "collapsingHeader_", "group__GeneralGroup.html#gad86a3587a045aae766a1ba386a398763", null ],
-    [ "draw", "group__GeneralGroup.html#gaea709a4c7f86169aed34caaf2005e834", null ],
-    [ "drawCustomObjectPrefixInScene_", "group__GeneralGroup.html#ga4e8a6cc8c1d5b8b6f4f05011f6887688", null ],
-    [ "drawObject_", "group__GeneralGroup.html#ga9edde88675685e22f89f455241fd1eef", null ],
-    [ "drawSceneContextMenu_", "group__GeneralGroup.html#ga1032f9f59d910e1113385182e182986b", null ],
-    [ "drawSkippedObject_", "group__GeneralGroup.html#ga93c05ad6cbe137ae91506d25d990e5f6", null ],
+    [ "collapsingHeader_", "group__GeneralGroup.html#ga6786c6530d025a1e9acab79910d8a114", null ],
+    [ "draw", "group__GeneralGroup.html#ga0d0fb4bcc7b0ecaab3c3c6e316f9c934", null ],
+    [ "drawCustomObjectPrefixInScene_", "group__GeneralGroup.html#gab26146ff0bb7a4ec8340a72dbfbc296f", null ],
+    [ "drawObject_", "group__GeneralGroup.html#gaa81e3e39a235a0ffc8c1b9b5bea06713", null ],
+    [ "drawSceneContextMenu_", "group__GeneralGroup.html#ga843b49589f2763533269ca87249c2d4d", null ],
+    [ "drawSkippedObject_", "group__GeneralGroup.html#ga33348170cfbfd40b37ebd1de4aaf6a2a", null ],
     [ "getCloseContextOnChange", "group__GeneralGroup.html#ga76b557373659019c5f9ce857d437e84a", null ],
-    [ "initRibbonMenu", "group__GeneralGroup.html#ga6fccd91d7785e8df8425ed250c606137", null ],
-    [ "objectLineStrId_", "group__GeneralGroup.html#gace8f2d89b5482ae8137036f4d38ed4fa", null ],
+    [ "initRibbonMenu", "group__GeneralGroup.html#ga04abc3de8e718d6580a97c614043ea6f", null ],
+    [ "objectLineStrId_", "group__GeneralGroup.html#gaea128d37e7d7035f849f1569b931a56a", null ],
     [ "setCloseContextOnChange", "group__GeneralGroup.html#ga7b203ae37c12d09d2d98e86766a46fe5", null ],
     [ "onDrawContextSignal", "group__GeneralGroup.html#gaa3fac069d87e7b77317f8987e5a591f0", null ]
 ];

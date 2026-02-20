@@ -14,8 +14,8 @@
       <member refid="group__GeneralGroup_1ga2f62ff4b3532137f4e57ca966f9e1cb5" kind="variable"><name>points_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaa4fad50a7e105fa74961ca6cc97e2818" kind="function"><name>reserve</name></member>
-      <member refid="group__GeneralGroup_1ga14d6f8f8c30e4503c535f588649b8c2b" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga912b1f11a64c5a801dc9bedeca46d933" kind="function"><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga1ec9880b17254911722c77703cc96dbd" kind="function"><name>addTriangles</name></member>
       <member refid="group__GeneralGroup_1gaa5e3191cd4ff080dc3f960e8763c0069" kind="function"><name>numTris</name></member>
       <member refid="group__GeneralGroup_1ga2e2e54026ad94fbd2e7c0b98270a01e3" kind="function"><name>takeTriangulation</name></member>
       <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" kind="function"><name>takePoints</name></member>
@@ -27,12 +27,12 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="36" bodyend="56"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga14d6f8f8c30e4503c535f588649b8c2b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga1ec9880b17254911722c77703cc96dbd" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>addTriangles</name></member>
       <member refid="group__GeneralGroup_1ga6a194174e9880bf4cdec8da7458b8a29" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>HMap</name></member>
       <member refid="group__GeneralGroup_1ga2dbc8f97579ed9310d17d07af07fa541" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>hmap_</name></member>
       <member refid="group__GeneralGroup_1gaa5e3191cd4ff080dc3f960e8763c0069" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>numTris</name></member>
       <member refid="group__GeneralGroup_1ga2f62ff4b3532137f4e57ca966f9e1cb5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>points_</name></member>
-      <member refid="group__GeneralGroup_1gaa4fad50a7e105fa74961ca6cc97e2818" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga912b1f11a64c5a801dc9bedeca46d933" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>reserve</name></member>
       <member refid="group__GeneralGroup_1ga7ac4a8bbe3ab426d093ac7d87dd3ce76" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>t_</name></member>
       <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takePoints</name></member>
       <member refid="group__GeneralGroup_1ga2e2e54026ad94fbd2e7c0b98270a01e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takeTriangulation</name></member>

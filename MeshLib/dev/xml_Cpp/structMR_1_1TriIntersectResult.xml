@@ -5,7 +5,7 @@
     <includes refid="MRTriangleIntersection_8h" local="no">MRTriangleIntersection.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1TriIntersectResult_1afddaa2d62c7a7fcf3af2785e8551c268" prot="public" static="no" mutable="no">
-        <type>TriPointf</type>
+        <type><ref refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kindref="member">TriPointf</ref></type>
         <definition>TriPointf MR::TriIntersectResult::bary</definition>
         <argsstring></argsstring>
         <name>bary</name>

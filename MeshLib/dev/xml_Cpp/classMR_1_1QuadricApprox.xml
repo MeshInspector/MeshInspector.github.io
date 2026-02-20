@@ -8,12 +8,12 @@
       <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" kind="variable"><name>accumB_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gae270ffda4cb41173e3c68cdc4f52ad51" kind="function"><name>QuadricApprox</name></member>
-      <member refid="group__GeneralGroup_1ga342756aa48e8673901de34a1d494a186" kind="function"><name>addPoint</name></member>
-      <member refid="group__GeneralGroup_1ga0cea7a7005e02a997a52d3b6cb12c0e3" kind="function"><name>calcBestCoefficients</name></member>
+      <member refid="group__GeneralGroup_1ga1451826f5c7e17f9abe54c74b26052dd" kind="function"><name>QuadricApprox</name></member>
+      <member refid="group__GeneralGroup_1ga4c491c30846d6d6051ac64bc66374e9f" kind="function"><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1gab4c7110c71267480e00a1c55e9d226dc" kind="function"><name>calcBestCoefficients</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga3b30fafd105b242617b7b762edfad5e6" kind="function"><name>findZeroProjection</name></member>
+      <member refid="group__GeneralGroup_1ga03fe60ea7e0abbe26829708ba3bc971c" kind="function"><name>findZeroProjection</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -25,10 +25,10 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac8e19cbed09e8196fce48b968dc5e48b" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumA_</name></member>
       <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumB_</name></member>
-      <member refid="group__GeneralGroup_1ga342756aa48e8673901de34a1d494a186" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
-      <member refid="group__GeneralGroup_1ga0cea7a7005e02a997a52d3b6cb12c0e3" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>calcBestCoefficients</name></member>
-      <member refid="group__GeneralGroup_1ga3b30fafd105b242617b7b762edfad5e6" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>findZeroProjection</name></member>
-      <member refid="group__GeneralGroup_1gae270ffda4cb41173e3c68cdc4f52ad51" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+      <member refid="group__GeneralGroup_1ga4c491c30846d6d6051ac64bc66374e9f" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1gab4c7110c71267480e00a1c55e9d226dc" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>calcBestCoefficients</name></member>
+      <member refid="group__GeneralGroup_1ga03fe60ea7e0abbe26829708ba3bc971c" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>findZeroProjection</name></member>
+      <member refid="group__GeneralGroup_1ga1451826f5c7e17f9abe54c74b26052dd" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

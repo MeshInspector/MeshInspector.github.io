@@ -3,9 +3,45 @@
   <compounddef id="MRAncillaryMesh_8h" kind="file" language="C++">
     <compoundname>MRAncillaryMesh.h</compoundname>
     <includes local="yes">exports.h</includes>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes local="no">memory</includes>
     <incdepgraph>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
       <node id="1">
         <label>MRAncillaryMesh.h</label>
         <link refid="MRAncillaryMesh_8h"/>
@@ -13,17 +49,35 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="4">
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="14">
         <label>memory</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1AncillaryMesh" prot="public">MR::AncillaryMesh</innerclass>
@@ -36,7 +90,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
@@ -54,9 +108,9 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="group__GeneralGroup_1ga8a528306a33323e01e042183dae875de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8a528306a33323e01e042183dae875de" kindref="member">AncillaryMesh</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>parent<sp/>)<sp/>{<sp/>make(<sp/>parent<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga2a6863cc813c77827137f29a5688b80a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a6863cc813c77827137f29a5688b80a" kindref="member">make</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>parent<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga883d63b8d7ad7656fde3ffff6b88cbdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga883d63b8d7ad7656fde3ffff6b88cbdb" kindref="member">make</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>parent<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1gabaf618a5c330ee1013fdd1c572982be0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabaf618a5c330ee1013fdd1c572982be0" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga97224204d9a8fb7c998f7899e16e5af4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga97224204d9a8fb7c998f7899e16e5af4" kindref="member">reset</ref>();</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1ga777bcc1bb0ce9a0d628c6c36b727b767" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga777bcc1bb0ce9a0d628c6c36b727b767" kindref="member">~AncillaryMesh</ref>()<sp/>{<sp/>reset();<sp/>}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">};</highlight></codeline>

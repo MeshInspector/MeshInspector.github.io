@@ -11,9 +11,9 @@
       <member refid="group__GeneralGroup_1gad74acc1c8737cb5e9c9c2f349130ee97" kind="variable"><name>pointCloudChangedConnections_</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga3569c689e004637d73b414f0440e0046" kind="function"><name>onPluginEnable_</name></member>
-      <member refid="group__GeneralGroup_1gae215a7b0b1f5259e0bc87855f0b2e740" kind="function"><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1gacc66fd5a6484e6733be7dd12f9e13e4f" kind="function"><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga3ffafb74745ba3e093fb69b3ee5aef54" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga833135808c13e43e91ba944e93f158a5" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga2dbd9e0194fe4b254d6819b4f4104c16" kind="function"><name>shouldClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -46,12 +46,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="82" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="83" bodyend="93"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gae215a7b0b1f5259e0bc87855f0b2e740" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga3569c689e004637d73b414f0440e0046" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga833135808c13e43e91ba944e93f158a5" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga3ffafb74745ba3e093fb69b3ee5aef54" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>onPluginEnable_</name></member>
       <member refid="group__GeneralGroup_1gad910ff2766e17a565cfa33cb6eefc831" prot="protected" virt="non-virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>pointCloudChanged_</name></member>
       <member refid="group__GeneralGroup_1gad74acc1c8737cb5e9c9c2f349130ee97" prot="private" virt="non-virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>pointCloudChangedConnections_</name></member>
       <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>preDrawUpdate</name></member>
-      <member refid="group__GeneralGroup_1gacc66fd5a6484e6733be7dd12f9e13e4f" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga2dbd9e0194fe4b254d6819b4f4104c16" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>shouldClose_</name></member>
       <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangePointCloud</scope><name>~IPluginUpdate</name></member>
     </listofallmembers>
   </compounddef>

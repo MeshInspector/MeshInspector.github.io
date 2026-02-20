@@ -150,7 +150,7 @@ $(function(){initNavTree('MRBezier_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MRBezier_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -180,13 +180,13 @@ $(function(){initNavTree('MRBezier_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    V q[3];</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 3; ++i )</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        q[i] = lerp( p[i], p[i+1], t );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        q[i] = <a class="code hl_function" href="group__GeneralGroup.html#gabedf6d080f6840c8f336d5bce0c9f87a">lerp</a>( p[i], p[i+1], t );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    V r[2];</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 2; ++i )</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        r[i] = lerp( q[i], q[i+1], t );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        r[i] = <a class="code hl_function" href="group__GeneralGroup.html#gabedf6d080f6840c8f336d5bce0c9f87a">lerp</a>( q[i], q[i+1], t );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordflow">return</span> lerp( r[0], r[1], t );</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gabedf6d080f6840c8f336d5bce0c9f87a">lerp</a>( r[0], r[1], t );</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
 </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
@@ -207,12 +207,14 @@ $(function(){initNavTree('MRBezier_8h_source.html',''); initResizable(true); });
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>} </div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga253c4a44671e701720f11bb8c0078f06"><div class="ttname"><a href="group__GeneralGroup.html#ga253c4a44671e701720f11bb8c0078f06">MR::CubicBezierCurve::p</a></div><div class="ttdeci">V p[4]</div><div class="ttdoc">4 control points</div><div class="ttdef"><b>Definition</b> MRBezier.h:22</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga56b8e90a46bbc02fd586b6fc293831a6"><div class="ttname"><a href="group__GeneralGroup.html#ga56b8e90a46bbc02fd586b6fc293831a6">MR::CubicBezierCurve::getWeights</a></div><div class="ttdeci">static std::array&lt; T, 4 &gt; getWeights(T t)</div><div class="ttdoc">computes weights of every control point for given parameter value, the sum of all weights is equal to...</div><div class="ttdef"><b>Definition</b> MRBezier.h:47</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga63f31635f31a229471ff3cc2990d95ea"><div class="ttname"><a href="group__GeneralGroup.html#ga63f31635f31a229471ff3cc2990d95ea">MR::VectorTraits::size</a></div><div class="ttdeci">static constexpr int size</div><div class="ttdef"><b>Definition</b> MRMesh/MRVectorTraits.h:22</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6b83dc1d69f50bd387ec3bf5392c92c2"><div class="ttname"><a href="group__GeneralGroup.html#ga6b83dc1d69f50bd387ec3bf5392c92c2">MR::CubicBezierCurve::T</a></div><div class="ttdeci">typename VTraits::BaseType T</div><div class="ttdef"><b>Definition</b> MRBezier.h:18</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga808273a91fc951f1b82faa9424e6451e"><div class="ttname"><a href="group__GeneralGroup.html#ga808273a91fc951f1b82faa9424e6451e">MR::CubicBezierCurve::getPoint</a></div><div class="ttdeci">V getPoint(T t) const</div><div class="ttdoc">computes point on the curve from parameter value</div><div class="ttdef"><b>Definition</b> MRBezier.h:32</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gabedf6d080f6840c8f336d5bce0c9f87a"><div class="ttname"><a href="group__GeneralGroup.html#gabedf6d080f6840c8f336d5bce0c9f87a">MR::lerp</a></div><div class="ttdeci">constexpr auto lerp(V v0, V v1, T t) noexcept</div><div class="ttdoc">Linear interpolation: returns v0 when t==0 and v1 when t==1.</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:772</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac89e37ab87d7a669e55d9c9ca0f3eb66"><div class="ttname"><a href="group__GeneralGroup.html#gac89e37ab87d7a669e55d9c9ca0f3eb66">MR::CubicBezierCurve::elements</a></div><div class="ttdeci">static constexpr int elements</div><div class="ttdef"><b>Definition</b> MRBezier.h:19</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gadbadae2704ad269b8d78edbb0f2faa93"><div class="ttname"><a href="group__GeneralGroup.html#gadbadae2704ad269b8d78edbb0f2faa93">MR::VectorTraits::BaseType</a></div><div class="ttdeci">T BaseType</div><div class="ttdoc">The base template handles scalars (or just non-vectors).</div><div class="ttdef"><b>Definition</b> MRMesh/MRVectorTraits.h:21</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>

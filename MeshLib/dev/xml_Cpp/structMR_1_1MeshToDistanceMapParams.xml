@@ -164,9 +164,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="19" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1acd9523a7ea030a77856bbadf789bd132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a564c1336e2a73c39aed0b35f500f1ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const Vector3f &amp;direction, const Vector2i &amp;resolution, const MeshPart &amp;mp, bool usePreciseBoundingBox=false)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -194,11 +194,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="27" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="27" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1adda331f5bf606eb9b53caf3c558a995e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a1414dd7af830df04857f0d5f2549af24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const Vector3f &amp;direction, const Vector2f &amp;pixelSize, const MeshPart &amp;mp, bool usePreciseBoundingBox=false)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -225,11 +225,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="28" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="28" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a0c6ccd10574471e4af8efbc69fafa6e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1aca3b29afef50e241d1f0cb88665f5f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const Matrix3f &amp;rotation, const Vector3f &amp;origin, const Vector2i &amp;resolution, const Vector2f &amp;size)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -256,11 +256,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="35" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="35" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a14db6d93dcb7499b5254dcfdca3449da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1aee9b39f6d40e82b31a7ac6661925c1f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const Matrix3f &amp;rotation, const Vector3f &amp;origin, const Vector2f &amp;pixelSize, const Vector2i &amp;resolution)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -286,11 +286,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="36" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="36" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a9cd65a60a7f447243861fb42df431beb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1af2eb0fe8049e968df27f68d2950bff6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const Matrix3f &amp;rotation, const Vector2i &amp;resolution, const MeshPart &amp;mp, bool usePreciseBoundingBox=false)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -318,11 +318,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="45" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="45" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1af2eeaa511b9352ea711dc539633b65ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a54fc8759794af2258b2386c8bcdbe84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const AffineXf3f &amp;xf, const Vector2i &amp;resolution, const Vector2f &amp;size)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -345,11 +345,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="55" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="55" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a9217a48605a6d5f20c9daf1c4bd74356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
+      <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a2e2a5518e499f07ee236d0357ab3d1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</definition>
         <argsstring>(const AffineXf3f &amp;xf, const Vector2f &amp;pixelSize, const Vector2i &amp;resolution)</argsstring>
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR::MeshToDistanceMapParams::MeshToDistanceMapParams</qualifiedname>
@@ -371,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="56" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="56" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a482fe4d7560bd0ee7537f958da60f404" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -491,13 +491,13 @@
       <member refid="structMR_1_1MeshToDistanceMapParams_1ae10bd48929c73f94d1960224dd507ca0" prot="private" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>initFromSize_</name></member>
       <member refid="structMR_1_1MeshToDistanceMapParams_1a21d0cfe784245102024dfe44da9bf9de" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>maxValue</name></member>
       <member refid="structMR_1_1MeshToDistanceMapParams_1acea3bbf8d8d0c8750d496ed6934725de" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1acd9523a7ea030a77856bbadf789bd132" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1adda331f5bf606eb9b53caf3c558a995e" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1a0c6ccd10574471e4af8efbc69fafa6e8" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1a14db6d93dcb7499b5254dcfdca3449da" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1a9cd65a60a7f447243861fb42df431beb" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1af2eeaa511b9352ea711dc539633b65ec" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
-      <member refid="structMR_1_1MeshToDistanceMapParams_1a9217a48605a6d5f20c9daf1c4bd74356" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1a564c1336e2a73c39aed0b35f500f1ff6" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1a1414dd7af830df04857f0d5f2549af24" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1aca3b29afef50e241d1f0cb88665f5f9b" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1aee9b39f6d40e82b31a7ac6661925c1f1" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1af2eb0fe8049e968df27f68d2950bff6c" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1a54fc8759794af2258b2386c8bcdbe84b" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
+      <member refid="structMR_1_1MeshToDistanceMapParams_1a2e2a5518e499f07ee236d0357ab3d1a8" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
       <member refid="structMR_1_1MeshToDistanceMapParams_1a0a6eecb875a2ecf0083eb4d21451bbad" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>minValue</name></member>
       <member refid="structMR_1_1MeshToDistanceMapParams_1a482fe4d7560bd0ee7537f958da60f404" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>operator AffineXf3f</name></member>
       <member refid="structMR_1_1MeshToDistanceMapParams_1aac1ab78936263c419b3c72a94c08ea99" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>orgPoint</name></member>

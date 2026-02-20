@@ -54,9 +54,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1aeef82c61856472cfd39c42fe30004d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a03c53fa4619c12febece2ac42f24da34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
         <argsstring>()</argsstring>
         <name>UniqueThreadSafeOwner</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::UniqueThreadSafeOwner</qualifiedname>
@@ -66,11 +66,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="20" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="20" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ab82d0ad01192df7f52ddc46eb3d6b7a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1af22ff27ea4145d05864f9c70b8d4b355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
         <argsstring>(const UniqueThreadSafeOwner &amp;)</argsstring>
         <name>UniqueThreadSafeOwner</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::UniqueThreadSafeOwner</qualifiedname>
@@ -83,11 +83,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="21" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="21" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1af6ec1dea9bb6597f1eb584a24ebedd26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
-        <definition>MRMESH_API UniqueThreadSafeOwner &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::operator=</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6d5da0de362dedbdfea9cb36588093f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
+        <definition>UniqueThreadSafeOwner &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::operator=</definition>
         <argsstring>(const UniqueThreadSafeOwner &amp;)</argsstring>
         <name>operator=</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::operator=</qualifiedname>
@@ -100,11 +100,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="22" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="22" column="28"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ad109e39c613cdd106e350b62dad36efe" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1aac40ad5a280f9942e61b59df3599969d" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
         <argsstring>(UniqueThreadSafeOwner &amp;&amp;b) noexcept</argsstring>
         <name>UniqueThreadSafeOwner</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::UniqueThreadSafeOwner</qualifiedname>
@@ -118,11 +118,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="23" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="23" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6346fa8c52ec4d101fcbe69d489a04dc" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRMESH_API <ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
-        <definition>MRMESH_API UniqueThreadSafeOwner &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::operator=</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a64a10dee713d8b17c9bdde7e86b7e7ad" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
+        <definition>UniqueThreadSafeOwner &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::operator=</definition>
         <argsstring>(UniqueThreadSafeOwner &amp;&amp;b) noexcept</argsstring>
         <name>operator=</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::operator=</qualifiedname>
@@ -136,11 +136,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="24" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="24" column="28"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a3d73291f1f47c3b4d4a33166f8d09a6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::~UniqueThreadSafeOwner</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1aa4d169e499f27522636ee6d6583dadd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniqueThreadSafeOwner&lt; T &gt;::~UniqueThreadSafeOwner</definition>
         <argsstring>()</argsstring>
         <name>~UniqueThreadSafeOwner</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::~UniqueThreadSafeOwner</qualifiedname>
@@ -150,11 +150,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="25" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="25" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ab0b41efc38efad3d6af477942a131ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::UniqueThreadSafeOwner&lt; T &gt;::reset</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ad67258a7a3b8aeb188de6494661b2298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::UniqueThreadSafeOwner&lt; T &gt;::reset</definition>
         <argsstring>()</argsstring>
         <name>reset</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::reset</qualifiedname>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="28" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="28" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6ab481f5b5794550188bd3bc3557b15f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T *</type>
@@ -182,9 +182,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="30" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="30" bodyend="30"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ae534b2090bbb82c6fee33efc2f3c0c34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API T &amp;</type>
-        <definition>MRMESH_API T &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::getOrCreate</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a2dda95c55e90e76bb8f38140cd276c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::getOrCreate</definition>
         <argsstring>(const std::function&lt; T()&gt; &amp;creator)</argsstring>
         <name>getOrCreate</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::getOrCreate</qualifiedname>
@@ -199,11 +199,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="32" column="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="32" column="9"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a116e9e31af9a5c5fb15cf8d9278226b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::UniqueThreadSafeOwner&lt; T &gt;::update</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a9e426780257a98ca9ae76478afe01453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::UniqueThreadSafeOwner&lt; T &gt;::update</definition>
         <argsstring>(const std::function&lt; void(T &amp;)&gt; &amp;updater)</argsstring>
         <name>update</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::update</qualifiedname>
@@ -218,11 +218,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="34" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="34" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6a6144337b7f7991fae893818231e943" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API size_t</type>
-        <definition>MRMESH_API size_t MR::UniqueThreadSafeOwner&lt; T &gt;::heapBytes</definition>
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a263b2d43f529f2cd5885456450f7fa02" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::UniqueThreadSafeOwner&lt; T &gt;::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::UniqueThreadSafeOwner::heapBytes</qualifiedname>
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="36" column="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="36" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -241,22 +241,22 @@
     <detaileddescription>
 <para>This class is base class for unique thread safe owning of some objects, for example <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> classes derived from this one should have function like getOrCreate </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="18" bodyend="43"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="651" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="18" bodyend="43"/>
     <listofallmembers>
       <member refid="classMR_1_1UniqueThreadSafeOwner_1af29806290d2f67bc248591e6f8a30cec" prot="private" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>construction_</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner_1a6ab481f5b5794550188bd3bc3557b15f" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>get</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1ae534b2090bbb82c6fee33efc2f3c0c34" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>getOrCreate</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1a6a6144337b7f7991fae893818231e943" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1a2dda95c55e90e76bb8f38140cd276c6e" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>getOrCreate</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1a263b2d43f529f2cd5885456450f7fa02" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner_1a94e7f67a2b000245c485e031e80f2f76" prot="private" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>mutex_</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner_1ab0d51a929ff2e2de32a95167b71e37db" prot="private" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>obj_</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1af6ec1dea9bb6597f1eb584a24ebedd26" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>operator=</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1a6346fa8c52ec4d101fcbe69d489a04dc" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>operator=</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1ab0b41efc38efad3d6af477942a131ef2" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>reset</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1aeef82c61856472cfd39c42fe30004d4a" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>UniqueThreadSafeOwner</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1ab82d0ad01192df7f52ddc46eb3d6b7a6" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>UniqueThreadSafeOwner</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1ad109e39c613cdd106e350b62dad36efe" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>UniqueThreadSafeOwner</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1a116e9e31af9a5c5fb15cf8d9278226b1" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>update</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner_1a3d73291f1f47c3b4d4a33166f8d09a6a" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>~UniqueThreadSafeOwner</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1a6d5da0de362dedbdfea9cb36588093f0" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>operator=</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1a64a10dee713d8b17c9bdde7e86b7e7ad" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>operator=</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1ad67258a7a3b8aeb188de6494661b2298" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>reset</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1a03c53fa4619c12febece2ac42f24da34" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>UniqueThreadSafeOwner</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1af22ff27ea4145d05864f9c70b8d4b355" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>UniqueThreadSafeOwner</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1aac40ad5a280f9942e61b59df3599969d" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>UniqueThreadSafeOwner</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1a9e426780257a98ca9ae76478afe01453" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>update</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner_1aa4d169e499f27522636ee6d6583dadd3" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>~UniqueThreadSafeOwner</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -5,9 +5,9 @@
     <title>TriangulationHelpers</title>
     <innerclass refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" prot="public">MR::TriangulationHelpers::TriangulatedFanData</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga239d61601b826c9241ca50d59821b545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::TriangulationHelpers::updateNeighborsRadius</definition>
+      <memberdef kind="function" id="group__TriangulationHelpersGroup_1gaf72ca8f1d6497ca42e99d5884312305c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::TriangulationHelpers::updateNeighborsRadius</definition>
         <argsstring>(const VertCoords &amp;points, VertId v, VertId boundaryV, const std::vector&lt; VertId &gt; &amp;fan, float baseRadius)</argsstring>
         <name>updateNeighborsRadius</name>
         <qualifiedname>MR::TriangulationHelpers::updateNeighborsRadius</qualifiedname>
@@ -56,11 +56,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="29" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="29" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="29" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="29" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga1b730fbcddd0678ad119e9abc6d797c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::TriangulationHelpers::findNeighborsInBall</definition>
+      <memberdef kind="function" id="group__TriangulationHelpersGroup_1gab7b3e43bb16453b2202ab3e82d052488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TriangulationHelpers::findNeighborsInBall</definition>
         <argsstring>(const PointCloud &amp;pointCloud, VertId v, float radius, std::vector&lt; VertId &gt; &amp;neighbors)</argsstring>
         <name>findNeighborsInBall</name>
         <qualifiedname>MR::TriangulationHelpers::findNeighborsInBall</qualifiedname>
@@ -87,11 +87,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="36" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="36" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="36" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="36" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__TriangulationHelpersGroup_1gaf71ad211f7cae4bc648807774f9b3758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API float</type>
-        <definition>MRMESH_API float MR::TriangulationHelpers::findNumNeighbors</definition>
+      <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga9f026bf1ef8ed09a14cc5012fe92d8fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::TriangulationHelpers::findNumNeighbors</definition>
         <argsstring>(const PointCloud &amp;pointCloud, VertId v, int numNeis, std::vector&lt; VertId &gt; &amp;neighbors, FewSmallest&lt; PointsProjectionResult &gt; &amp;tmp, float upDistLimitSq=FLT_MAX)</argsstring>
         <name>findNumNeighbors</name>
         <qualifiedname>MR::TriangulationHelpers::findNumNeighbors</qualifiedname>
@@ -147,11 +147,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="45" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="45" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="45" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="45" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__TriangulationHelpersGroup_1gae34e6824af064eefccf01c8f241bb11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::TriangulationHelpers::filterNeighbors</definition>
+      <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga8a151252bffbc3c9b6cf56c1a45292f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::TriangulationHelpers::filterNeighbors</definition>
         <argsstring>(const VertNormals &amp;orientedNormals, const VertBitSet *untrustedNormals, VertId v, std::vector&lt; VertId &gt; &amp;neighbors)</argsstring>
         <name>filterNeighbors</name>
         <qualifiedname>MR::TriangulationHelpers::filterNeighbors</qualifiedname>
@@ -178,11 +178,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="52" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="52" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="52" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="52" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__TriangulationHelpersGroup_1gad0f4036eebdcc507b1d8314ee455eef9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API bool</type>
-        <definition>MRMESH_API bool MR::TriangulationHelpers::isBoundaryPoint</definition>
+      <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga379ef6cfbe1df486c3b9baf10d186c0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::TriangulationHelpers::isBoundaryPoint</definition>
         <argsstring>(const PointCloud &amp;cloud, VertId v, const Settings &amp;settings, TriangulatedFanData &amp;fanData)</argsstring>
         <name>isBoundaryPoint</name>
         <qualifiedname>MR::TriangulationHelpers::isBoundaryPoint</qualifiedname>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="162" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="162" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="162" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="162" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -55,7 +55,7 @@
         <name>fromLines</name>
         <qualifiedname>MR::Cuda::Polyline2DataHolder::fromLines</qualifiedname>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>polyline</declname>
         </param>
         <briefdescription>
@@ -74,7 +74,7 @@
         <name>heapBytes</name>
         <qualifiedname>MR::Cuda::Polyline2DataHolder::heapBytes</qualifiedname>
         <param>
-          <type>const Polyline2 &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref> &amp;</type>
           <declname>polyline</declname>
         </param>
         <briefdescription>

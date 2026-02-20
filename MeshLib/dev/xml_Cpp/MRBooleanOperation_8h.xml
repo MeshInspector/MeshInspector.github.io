@@ -13,53 +13,81 @@
         <link refid="MRBooleanOperation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="9">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
       </node>
-      <node id="12">
+      <node id="18">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="5">
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -69,42 +97,52 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="10">
+      <node id="17">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="16">
+      <node id="8">
         <label>array</label>
       </node>
-      <node id="8">
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="6">
+      <node id="15">
         <label>concepts</label>
       </node>
-      <node id="13">
+      <node id="19">
         <label>cstddef</label>
       </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
       <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
         <label>string</label>
       </node>
-      <node id="14">
+      <node id="20">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="21">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -159,17 +197,17 @@
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" kindref="member">BooleanResultMapper</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="structMR_1_1BooleanResultMapper_1a730a4aa776837ed09143d106e54c085b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a730a4aa776837ed09143d106e54c085b" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1BooleanResultMapper_1af6e316b7b21f94033491018406e4e3a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1af6e316b7b21f94033491018406e4e3a6" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="structMR_1_1BooleanResultMapper_1ac601634b2fe9f6fe7b9531d6c8bf6d7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>VertBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1ac601634b2fe9f6fe7b9531d6c8bf6d7c" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1BooleanResultMapper_1a8f369cfaf8161eeacbd279d20b92aadb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a8f369cfaf8161eeacbd279d20b92aadb" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="structMR_1_1BooleanResultMapper_1ac5f5c7f84c16ba4d08fd3b45d06c5914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>EdgeBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1ac5f5c7f84c16ba4d08fd3b45d06c5914" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EdgeBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70" refid="structMR_1_1BooleanResultMapper_1a3c9521a76c9f0ff1327150e75980e48f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a3c9521a76c9f0ff1327150e75980e48f" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EdgeBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="structMR_1_1BooleanResultMapper_1a98265093e5d605c22ac13fb59ac056b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a98265093e5d605c22ac13fb59ac056b2" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73" refid="structMR_1_1BooleanResultMapper_1a4025520e93584d2b0b95e661d513df2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a4025520e93584d2b0b95e661d513df2b" kindref="member">map</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="structMR_1_1BooleanResultMapper_1a965145c8345c2af57bdd338b3fd038b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a965145c8345c2af57bdd338b3fd038b4" kindref="member">newFaces</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76" refid="structMR_1_1BooleanResultMapper_1a49d9476b91391ce052bbd2b26db33be5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a49d9476b91391ce052bbd2b26db33be5" kindref="member">newFaces</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="structMR_1_1BooleanResultMapper_1ab684f42e7c2f76fd478da500c3b2ddcd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1ab684f42e7c2f76fd478da500c3b2ddcd" kindref="member">filteredOldFaceBitSet</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>);</highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1BooleanResultMapper_1a654dd05e055cf50b5ed29987e8838ac1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResultMapper_1a654dd05e055cf50b5ed29987e8838ac1" kindref="member">filteredOldFaceBitSet</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>oldBS,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>obj<sp/>);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="81" refid="structMR_1_1BooleanResultMapper_1_1Maps" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanResultMapper_1_1Maps" kindref="compound">Maps</ref></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -191,7 +229,7 @@
 <codeline lineno="108" refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeLoop&gt;*<sp/><ref refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" kindref="member">optionalOutCut</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="109"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="group__BooleanGroup_1ga3f74a4803a385d6714d3711d05b747dc" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga3f74a4803a385d6714d3711d05b747dc" kindref="member">doBooleanOperation</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;&amp;<sp/>meshACut,<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;&amp;<sp/>meshBCut,</highlight></codeline>
+<codeline lineno="114" refid="group__BooleanGroup_1ga17c23a55f3d3172ff25ce29e501a75e1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga17c23a55f3d3172ff25ce29e501a75e1" kindref="member">doBooleanOperation</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;&amp;<sp/>meshACut,<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;&amp;<sp/>meshBCut,</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;&amp;<sp/>cutEdgesA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;&amp;<sp/>cutEdgesB,</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kindref="member">BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref>*<sp/>mapper<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>

@@ -1,9 +1,9 @@
 var MRLinesShader_8h =
 [
-    [ "getLinesFragmentShader", "MRLinesShader_8h.html#gaab6d9bd27efccb810b4f0cb86051c972", null ],
-    [ "getLinesJointFragmentShader", "MRLinesShader_8h.html#gaca4f34c4f899d8f2dc5fc0544af86988", null ],
-    [ "getLinesJointPickerVertexShader", "MRLinesShader_8h.html#ga24b7ac695d3053bcef08895e25b552fa", null ],
-    [ "getLinesJointVertexShader", "MRLinesShader_8h.html#gae8a18c80a62a4c8e474c1616dfe05ea5", null ],
-    [ "getLinesPickerVertexShader", "MRLinesShader_8h.html#ga178beefe1e15b0bbd91973f4559643d3", null ],
-    [ "getLinesVertexShader", "MRLinesShader_8h.html#gac7af2d44ec301ec74812ff72f004c3e0", null ]
+    [ "getLinesFragmentShader", "MRLinesShader_8h.html#ga7212ef060f5b6bb3027242aa5eb7cb52", null ],
+    [ "getLinesJointFragmentShader", "MRLinesShader_8h.html#gafacadf10cd80b048c494e0102d84e53a", null ],
+    [ "getLinesJointPickerVertexShader", "MRLinesShader_8h.html#gad77da64dd3a20e790eddff17a7493cc9", null ],
+    [ "getLinesJointVertexShader", "MRLinesShader_8h.html#ga381bab48f8eb8c16fd656799bd1e7903", null ],
+    [ "getLinesPickerVertexShader", "MRLinesShader_8h.html#ga7efc626eb10d4d8242cc43d8ec82bd8b", null ],
+    [ "getLinesVertexShader", "MRLinesShader_8h.html#ga266e4beb4d8066ce8371b96a2c258464", null ]
 ];

@@ -28,26 +28,26 @@
       <member refid="group__GeneralGroup_1ga7b529ce727390e19e969071a10c019b2" kind="variable"><name>connectionHolders_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gab409cc955cfe26509e58b47d527cfa88" kind="function"><name>PickPointManager</name></member>
-      <member refid="group__GeneralGroup_1ga31b5a1ad4254215a601d20d9930c956c" kind="function"><name>~PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1ga3453893f133121740200b3d1cb06e521" kind="function"><name>PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1gadb4f919ec3533d6b4aedf0d20b1142b0" kind="function"><name>~PickPointManager</name></member>
       <member refid="group__GeneralGroup_1ga0922ea18b0bacb74b2787b4e9fb1987f" kind="function"><name>getSurfaceContour</name></member>
       <member refid="group__GeneralGroup_1ga7785cb6ce3cab3d064b6c20f07958cf3" kind="function"><name>getSurfaceContours</name></member>
-      <member refid="group__GeneralGroup_1gabf753ac8d813babfa08dc56142474e65" kind="function"><name>isClosedContour</name></member>
-      <member refid="group__GeneralGroup_1gadc30aaa3b2d5dea491584b3a5e6bf4c5" kind="function"><name>numPickPoints</name></member>
-      <member refid="group__GeneralGroup_1gafd198214161345e35723084cbe16222f" kind="function"><name>getPointWidget</name></member>
-      <member refid="group__GeneralGroup_1ga5293eb3d7c9e32d1534443a4eaadd070" kind="function"><name>getPointIndex</name></member>
+      <member refid="group__GeneralGroup_1gafbb7fc2ffb2d06b33f917b3b7648ae17" kind="function"><name>isClosedContour</name></member>
+      <member refid="group__GeneralGroup_1ga6d7d78799c3c9e6bece9f5dc1bdefee8" kind="function"><name>numPickPoints</name></member>
+      <member refid="group__GeneralGroup_1ga3baa6fc8b4400f99b3b140691af50c1c" kind="function"><name>getPointWidget</name></member>
+      <member refid="group__GeneralGroup_1ga3c5cbd427e263456b880103f824fe8bb" kind="function"><name>getPointIndex</name></member>
       <member refid="group__GeneralGroup_1ga61baa844efa1ebb8a509db54e7fa814c" kind="function"><name>draggedPointWidget</name></member>
-      <member refid="group__GeneralGroup_1gaf959eff3b4eda34f1ac7a97272444c8e" kind="function"><name>appendPoint</name></member>
-      <member refid="group__GeneralGroup_1ga02c3091306f572deb4b8f46b6fe4c87f" kind="function"><name>insertPoint</name></member>
-      <member refid="group__GeneralGroup_1ga9c4b283d6f473e8f7b894b329c3af11d" kind="function"><name>removePoint</name></member>
-      <member refid="group__GeneralGroup_1gafe8ba740b1413bdd9b9eb081d4eda8c3" kind="function"><name>closeContour</name></member>
-      <member refid="group__GeneralGroup_1ga0dd9ef9d866e2b5ff2e61585eb577de6" kind="function"><name>getFullState</name></member>
-      <member refid="group__GeneralGroup_1gaaa77594d52f4d994bf5604f3eae7d6cb" kind="function"><name>clear</name></member>
-      <member refid="group__GeneralGroup_1gacba6697c62cf417cb8b8ed078a6a1288" kind="function"><name>setFullState</name></member>
+      <member refid="group__GeneralGroup_1ga8cf67c769b380333d100e17e6969f0e3" kind="function"><name>appendPoint</name></member>
+      <member refid="group__GeneralGroup_1ga13aeb0d48a58d580587c4dda340587b3" kind="function"><name>insertPoint</name></member>
+      <member refid="group__GeneralGroup_1ga49b307d573292d2786d0365515e5df07" kind="function"><name>removePoint</name></member>
+      <member refid="group__GeneralGroup_1gaf651304b2314a2ab0e3ca399750ed29d" kind="function"><name>closeContour</name></member>
+      <member refid="group__GeneralGroup_1gac819f291009c09339d4dab0cfcb9afde" kind="function"><name>getFullState</name></member>
+      <member refid="group__GeneralGroup_1ga26ba45d6f8a921a6ce281e87bf57c405" kind="function"><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga9045bcca56db4164969359312dcd5ffd" kind="function"><name>setFullState</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga3fd558b89d0d48ed8a013ac4d7e46310" kind="function"><name>onMouseDown_</name></member>
-      <member refid="group__GeneralGroup_1gabb9a698f7e0e8e5dd24431bae4aa543c" kind="function"><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga2f5ef87b6ed170978e1d8447d195f8f0" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga09e501ee908da265042519b644a4fe2d" kind="function"><name>onMouseMove_</name></member>
       <member refid="group__GeneralGroup_1ga0f6e9d1906d74f6e6f3982a456a4e263" kind="function"><name>pick_</name></member>
       <member refid="group__GeneralGroup_1ga5b07872c77c221bfce7f0450153aef82" kind="function"><name>colorLast2Points_</name></member>
       <member refid="group__GeneralGroup_1ga21e2561e8dfc577e1f6c2dec41881e47" kind="function"><name>createPickWidget_</name></member>
@@ -131,11 +131,11 @@
       <member refid="group__GeneralGroup_1gadffaab931d52fa647870ad0274b3166f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>AllowCallBack</name></member>
       <member refid="group__GeneralGroup_1ga2a3eef8619c745538f986985802843c4" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>
       <member refid="group__GeneralGroup_1gaee33fb19641ae9f9a5dfddf342414077" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>
-      <member refid="group__GeneralGroup_1gaf959eff3b4eda34f1ac7a97272444c8e" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendPoint</name></member>
+      <member refid="group__GeneralGroup_1ga8cf67c769b380333d100e17e6969f0e3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendPoint</name></member>
       <member refid="group__GeneralGroup_1gaec9df5b70f6f58958c686105f526a1a5" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>ChangeObjectCallBack</name></member>
-      <member refid="group__GeneralGroup_1gaaa77594d52f4d994bf5604f3eae7d6cb" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga26ba45d6f8a921a6ce281e87bf57c405" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clear</name></member>
       <member refid="group__GeneralGroup_1ga2ff416ed56117444635aa4086780dd41" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clearNoHistory_</name></member>
-      <member refid="group__GeneralGroup_1gafe8ba740b1413bdd9b9eb081d4eda8c3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>closeContour</name></member>
+      <member refid="group__GeneralGroup_1gaf651304b2314a2ab0e3ca399750ed29d" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>closeContour</name></member>
       <member refid="group__GeneralGroup_1ga5b07872c77c221bfce7f0450153aef82" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>colorLast2Points_</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga7b529ce727390e19e969071a10c019b2" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>connectionHolders_</name></member>
@@ -144,34 +144,34 @@
       <member refid="group__GeneralGroup_1ga61baa844efa1ebb8a509db54e7fa814c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>draggedPointWidget</name></member>
       <member refid="group__GeneralGroup_1ga3f9ec84c031441c8f3b210c2167d7c6c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>draggedPointWidget_</name></member>
       <member refid="group__GeneralGroup_1ga126f436cbe4bfa2339652d428159ad0b" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>FullState</name></member>
-      <member refid="group__GeneralGroup_1ga0dd9ef9d866e2b5ff2e61585eb577de6" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getFullState</name></member>
-      <member refid="group__GeneralGroup_1ga5293eb3d7c9e32d1534443a4eaadd070" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointIndex</name></member>
-      <member refid="group__GeneralGroup_1gafd198214161345e35723084cbe16222f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointWidget</name></member>
+      <member refid="group__GeneralGroup_1gac819f291009c09339d4dab0cfcb9afde" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getFullState</name></member>
+      <member refid="group__GeneralGroup_1ga3c5cbd427e263456b880103f824fe8bb" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointIndex</name></member>
+      <member refid="group__GeneralGroup_1ga3baa6fc8b4400f99b3b140691af50c1c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointWidget</name></member>
       <member refid="group__GeneralGroup_1ga0922ea18b0bacb74b2787b4e9fb1987f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getSurfaceContour</name></member>
       <member refid="group__GeneralGroup_1ga7785cb6ce3cab3d064b6c20f07958cf3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getSurfaceContours</name></member>
       <member refid="group__GeneralGroup_1ga3e22f7c3ed6bf212d676828f6518a8e7" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>hoveredPointWidget_</name></member>
-      <member refid="group__GeneralGroup_1ga02c3091306f572deb4b8f46b6fe4c87f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPoint</name></member>
+      <member refid="group__GeneralGroup_1ga13aeb0d48a58d580587c4dda340587b3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPoint</name></member>
       <member refid="group__GeneralGroup_1ga4c4f80acf0ad251934e1abd0d5410508" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPointNoHistory_</name></member>
-      <member refid="group__GeneralGroup_1gabf753ac8d813babfa08dc56142474e65" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>isClosedContour</name></member>
+      <member refid="group__GeneralGroup_1gafbb7fc2ffb2d06b33f917b3b7648ae17" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>isClosedContour</name></member>
       <member refid="group__GeneralGroup_1gaddf41a96534e38d28b995884affbcba2" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>moveClosedPoint_</name></member>
       <member refid="group__GeneralGroup_1gafcfbb490cac1e6b5cae3b8545f580e3c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>myPickSpheres_</name></member>
-      <member refid="group__GeneralGroup_1gadc30aaa3b2d5dea491584b3a5e6bf4c5" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>numPickPoints</name></member>
-      <member refid="group__GeneralGroup_1ga3fd558b89d0d48ed8a013ac4d7e46310" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseDown_</name></member>
-      <member refid="group__GeneralGroup_1gabb9a698f7e0e8e5dd24431bae4aa543c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga6d7d78799c3c9e6bece9f5dc1bdefee8" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>numPickPoints</name></member>
+      <member refid="group__GeneralGroup_1ga2f5ef87b6ed170978e1d8447d195f8f0" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga09e501ee908da265042519b644a4fe2d" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseMove_</name></member>
       <member refid="group__GeneralGroup_1gada6902120790d59fb87b99281b702b8c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>params</name></member>
       <member refid="group__GeneralGroup_1ga0f6e9d1906d74f6e6f3982a456a4e263" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>pick_</name></member>
       <member refid="group__GeneralGroup_1ga4df11dd3e391e34438e4e34e89fff100" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>pickedPoints_</name></member>
       <member refid="group__GeneralGroup_1gaf5dd9ce5eda38d70eb2e0c789aa3e06c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickerPointCallBack</name></member>
-      <member refid="group__GeneralGroup_1gab409cc955cfe26509e58b47d527cfa88" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickPointManager</name></member>
-      <member refid="group__GeneralGroup_1ga9c4b283d6f473e8f7b894b329c3af11d" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePoint</name></member>
+      <member refid="group__GeneralGroup_1ga3453893f133121740200b3d1cb06e521" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1ga49b307d573292d2786d0365515e5df07" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePoint</name></member>
       <member refid="group__GeneralGroup_1ga509d03cb7c92fc3fe74b910f3c28a8a3" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePointNoHistory_</name></member>
-      <member refid="group__GeneralGroup_1gacba6697c62cf417cb8b8ed078a6a1288" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setFullState</name></member>
+      <member refid="group__GeneralGroup_1ga9045bcca56db4164969359312dcd5ffd" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setFullState</name></member>
       <member refid="group__GeneralGroup_1ga994464eb2e13212ecdc58646034bfb24" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setHoveredPointWidget_</name></member>
       <member refid="group__GeneralGroup_1ga66fec48ba08655d3ee9486f9b4e2c3f0" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>SurfaceContour</name></member>
       <member refid="group__GeneralGroup_1ga517842afda1f1c9d0c1487829fb09fb4" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>SurfaceContours</name></member>
       <member refid="group__GeneralGroup_1ga232b6f6a01185b09ee8b2970fbf3b1bd" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>swapStateNoHistory_</name></member>
       <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>~MultiListener</name></member>
-      <member refid="group__GeneralGroup_1ga31b5a1ad4254215a601d20d9930c956c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>~PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1gadb4f919ec3533d6b4aedf0d20b1142b0" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>~PickPointManager</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

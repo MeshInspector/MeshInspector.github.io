@@ -7,31 +7,31 @@
       <member refid="group__GeneralGroup_1ga731e24a7648d6e8021c2b5173ecd0277" kind="variable"><name>impl_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga318ff34fd862aa6e9208738bc0e896e0" kind="function"><name>MarchingCubesByParts</name></member>
-      <member refid="group__GeneralGroup_1ga848441e254b88cedf1b9ec6340d013b7" kind="function"><name>~MarchingCubesByParts</name></member>
-      <member refid="group__GeneralGroup_1gae0071a3f687586a7cd6c99081cc17e38" kind="function"><name>MarchingCubesByParts</name></member>
-      <member refid="group__GeneralGroup_1gac76ad798c1f7c3352a72b4ce91e3669a" kind="function"><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1ga2e83c9bbbb8db6891ddcfab4639ca690" kind="function"><name>layersPerBlock</name></member>
-      <member refid="group__GeneralGroup_1gad318fe7929b1263c84bdd7ca0fbc44b0" kind="function"><name>nextZ</name></member>
-      <member refid="group__GeneralGroup_1ga331ff50d13580eda9d9a7fcfc2dbd00a" kind="function"><name>addPart</name></member>
-      <member refid="group__GeneralGroup_1ga230e32235ef70e220ab12fbd32524395" kind="function"><name>finalize</name></member>
+      <member refid="group__GeneralGroup_1ga84f3ba7ed54cbb776f06ed47e3b415bd" kind="function"><name>MarchingCubesByParts</name></member>
+      <member refid="group__GeneralGroup_1ga8465063f19028a494e5c79bf9018efe4" kind="function"><name>~MarchingCubesByParts</name></member>
+      <member refid="group__GeneralGroup_1ga49fc9388bd596ebb7c3fb830c64e8311" kind="function"><name>MarchingCubesByParts</name></member>
+      <member refid="group__GeneralGroup_1ga0440d8357dd92c859ead3bb3c486be5e" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gae5981da511b9113e5110e74165080c6a" kind="function"><name>layersPerBlock</name></member>
+      <member refid="group__GeneralGroup_1gac36ddc4d2dca79641b198e99f73594fc" kind="function"><name>nextZ</name></member>
+      <member refid="group__GeneralGroup_1ga3ce510677c42e024a501000d9d3595e6" kind="function"><name>addPart</name></member>
+      <member refid="group__GeneralGroup_1ga76529b64a8e1e3a92ddf4c3d7b1d3e85" kind="function"><name>finalize</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = <ref refid="structMR_1_1Mesh_1ac504344423bcd4292f8d75e4c7ee6d6d" kindref="member">Mesh::fromTriMesh</ref>( *x.<ref refid="group__GeneralGroup_1ga230e32235ef70e220ab12fbd32524395" kindref="member">finalize()</ref> ); </para>
+<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = <ref refid="structMR_1_1Mesh_1afaefb0c0710fe0b87937c2901b4b486a" kindref="member">Mesh::fromTriMesh</ref>( *x.<ref refid="group__GeneralGroup_1ga76529b64a8e1e3a92ddf4c3d7b1d3e85" kindref="member">finalize()</ref> ); </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="94" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="95" bodyend="120"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga331ff50d13580eda9d9a7fcfc2dbd00a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>addPart</name></member>
-      <member refid="group__GeneralGroup_1ga230e32235ef70e220ab12fbd32524395" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>finalize</name></member>
+      <member refid="group__GeneralGroup_1ga3ce510677c42e024a501000d9d3595e6" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>addPart</name></member>
+      <member refid="group__GeneralGroup_1ga76529b64a8e1e3a92ddf4c3d7b1d3e85" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>finalize</name></member>
       <member refid="group__GeneralGroup_1ga731e24a7648d6e8021c2b5173ecd0277" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>impl_</name></member>
-      <member refid="group__GeneralGroup_1ga2e83c9bbbb8db6891ddcfab4639ca690" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>layersPerBlock</name></member>
-      <member refid="group__GeneralGroup_1ga318ff34fd862aa6e9208738bc0e896e0" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
-      <member refid="group__GeneralGroup_1gae0071a3f687586a7cd6c99081cc17e38" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
-      <member refid="group__GeneralGroup_1gad318fe7929b1263c84bdd7ca0fbc44b0" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>nextZ</name></member>
-      <member refid="group__GeneralGroup_1gac76ad798c1f7c3352a72b4ce91e3669a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1ga848441e254b88cedf1b9ec6340d013b7" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>~MarchingCubesByParts</name></member>
+      <member refid="group__GeneralGroup_1gae5981da511b9113e5110e74165080c6a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>layersPerBlock</name></member>
+      <member refid="group__GeneralGroup_1ga84f3ba7ed54cbb776f06ed47e3b415bd" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
+      <member refid="group__GeneralGroup_1ga49fc9388bd596ebb7c3fb830c64e8311" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
+      <member refid="group__GeneralGroup_1gac36ddc4d2dca79641b198e99f73594fc" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>nextZ</name></member>
+      <member refid="group__GeneralGroup_1ga0440d8357dd92c859ead3bb3c486be5e" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga8465063f19028a494e5c79bf9018efe4" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>~MarchingCubesByParts</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

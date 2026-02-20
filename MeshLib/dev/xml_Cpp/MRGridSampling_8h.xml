@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRGridSampling_8h" kind="file" language="C++">
     <compoundname>MRGridSampling.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRPointCloudPart_8h" local="yes">MRPointCloudPart.h</includes>
@@ -10,30 +10,58 @@
     <includes local="no">optional</includes>
     <includedby refid="MRMultiwayICP_8h" local="yes">MRMultiwayICP.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRGridSampling.h</label>
         <link refid="MRGridSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -41,77 +69,93 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="7">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="11">
+      <node id="19">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="21">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="15">
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="4">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
         <label>cassert</label>
       </node>
-      <node id="5">
+      <node id="14">
         <label>cmath</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>concepts</label>
       </node>
-      <node id="8">
+      <node id="16">
         <label>cstddef</label>
       </node>
-      <node id="16">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="23">
         <label>optional</label>
       </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="17">
         <label>type_traits</label>
       </node>
-      <node id="10">
+      <node id="18">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -136,7 +180,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPointCloudPart_8h" kindref="compound">MRPointCloudPart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -147,9 +191,9 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga1f09dea53bc42dd20b0c49da65f93de4" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga1f09dea53bc42dd20b0c49da65f93de4" kindref="member">verticesGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga1affac088ee75a400bd6599f10259644" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga1affac088ee75a400bd6599f10259644" kindref="member">verticesGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ga298468d2102ba7a9ee0eb901c723fb05" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga298468d2102ba7a9ee0eb901c723fb05" kindref="member">pointGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>&amp;<sp/>pcp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga8fd557ec370469d7e49dda43061bb485" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga8fd557ec370469d7e49dda43061bb485" kindref="member">pointGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>&amp;<sp/>pcp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="structMR_1_1ModelPointsData" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></highlight></codeline>
@@ -170,7 +214,7 @@
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kindref="member">MultiObjsSamples</ref><sp/>=<sp/>std::vector&lt;ObjVertId&gt;;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1ga329c2a88771e4750d1a363a45246add3" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;MultiObjsSamples&gt;<sp/><ref refid="group__GeneralGroup_1ga329c2a88771e4750d1a363a45246add3" kindref="member">multiModelGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;ModelPointsData, ObjId&gt;</ref>&amp;<sp/>models,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1gae26b8f62dca51a80c9ba270f309ca6d8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;MultiObjsSamples&gt;<sp/><ref refid="group__GeneralGroup_1gae26b8f62dca51a80c9ba270f309ca6d8" kindref="member">multiModelGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;ModelPointsData, ObjId&gt;</ref>&amp;<sp/>models,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

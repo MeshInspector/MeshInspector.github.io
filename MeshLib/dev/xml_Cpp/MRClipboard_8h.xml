@@ -5,17 +5,53 @@
     <includes local="yes">exports.h</includes>
     <includes refid="MRExpected_8h" local="no">MRMesh/MRExpected.h</includes>
     <incdepgraph>
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
       <node id="3">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRClipboard.h</label>
@@ -25,20 +61,32 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
+      <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="7">
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
         <label>string</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -57,9 +105,9 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga64ba59ae26faaa746ba815d967500996" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::string&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga64ba59ae26faaa746ba815d967500996" kindref="member">GetClipboardText</ref>();</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga2164661162d3ed459dafa20e6e36048a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::string&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2164661162d3ed459dafa20e6e36048a" kindref="member">GetClipboardText</ref>();</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga77cedc6882615e0daf650acc9b62add9" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga77cedc6882615e0daf650acc9b62add9" kindref="member">SetClipboardText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text<sp/>);</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gad1d11634c44c3a9701fb22661b0e26ce" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gad1d11634c44c3a9701fb22661b0e26ce" kindref="member">SetClipboardText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>text<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

@@ -10,9 +10,9 @@
       <member refid="group__GeneralGroup_1ga8107de14813f5ecbb6e0435763200592" kind="variable"><name>colors_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga42b35b277b6054a729a2b3e5d531694c" kind="function"><name>get</name></member>
-      <member refid="group__GeneralGroup_1ga851d95f7acd61b3606b31b2b0d29c180" kind="function"><name>set</name></member>
-      <member refid="group__GeneralGroup_1ga578b3e66bc0beee629141978da41c4b3" kind="function"><name>getName</name></member>
+      <member refid="group__GeneralGroup_1ga2213acc4e6b29595dcd41c3c01895fc6" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1gaab5702041286d77201bac4ce1254f2d0" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1gab707d437e87e22030a43899bb2baf017" kind="function"><name>getName</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga0e5fecd080591ad15ebe9eb762332b62" kind="function"><name>SceneColors</name></member>
@@ -35,8 +35,8 @@
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>Count</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>Edges</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>FeatureBackFaces</name></member>
-      <member refid="group__GeneralGroup_1ga42b35b277b6054a729a2b3e5d531694c" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>get</name></member>
-      <member refid="group__GeneralGroup_1ga578b3e66bc0beee629141978da41c4b3" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>getName</name></member>
+      <member refid="group__GeneralGroup_1ga2213acc4e6b29595dcd41c3c01895fc6" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gab707d437e87e22030a43899bb2baf017" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>getName</name></member>
       <member refid="group__GeneralGroup_1ga402bea84b6b17c7a9f2a182bf935ecd6" prot="private" virt="non-virtual"><scope>MR::SceneColors</scope><name>instance_</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>Labels</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa1f22b54e531ba5e49d0a70cb38135582" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>LabelsBad</name></member>
@@ -57,7 +57,7 @@
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>SelectedObjectVoxels</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>SelectedPoints</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa543c0ab476d5490df39cee5d7f8c8834" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>SelectedTemporaryMeasurements</name></member>
-      <member refid="group__GeneralGroup_1ga851d95f7acd61b3606b31b2b0d29c180" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1gaab5702041286d77201bac4ce1254f2d0" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>set</name></member>
       <member refid="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>Type</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>UnselectedFeatureDecorations</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa7214bce26d7d375bcdd8113f5a5351c7" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>UnselectedFeatures</name></member>

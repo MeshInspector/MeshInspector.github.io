@@ -8,9 +8,9 @@
       <member refid="group__GeneralGroup_1gab5e83a3c56780c46a64f9a04d4f17fe4" kind="variable"><name>vbo_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga091185a94f7c1bd1bf1bfac2f6bbcee9" kind="function"><name>gen</name></member>
-      <member refid="group__GeneralGroup_1ga671aee1dfab68b7ee88a6c8453c18eb0" kind="function"><name>bind</name></member>
-      <member refid="group__GeneralGroup_1ga208dc43cfe4121fd6fbf133e08f5866d" kind="function"><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga82aaaa36f3cb69e2d397360b3e7d75cf" kind="function"><name>gen</name></member>
+      <member refid="group__GeneralGroup_1ga9b0e7ce4640cd562b5eab91216a857e7" kind="function"><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga18859b513a9de77213a374a2093e054b" kind="function"><name>del</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for rendering simple texture </para>
@@ -19,9 +19,9 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="202" bodyend="213"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga671aee1dfab68b7ee88a6c8453c18eb0" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>bind</name></member>
-      <member refid="group__GeneralGroup_1ga208dc43cfe4121fd6fbf133e08f5866d" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>del</name></member>
-      <member refid="group__GeneralGroup_1ga091185a94f7c1bd1bf1bfac2f6bbcee9" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>gen</name></member>
+      <member refid="group__GeneralGroup_1ga9b0e7ce4640cd562b5eab91216a857e7" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga18859b513a9de77213a374a2093e054b" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga82aaaa36f3cb69e2d397360b3e7d75cf" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>gen</name></member>
       <member refid="group__GeneralGroup_1ga7c63e19c79faa8d221a44c175f0add41" prot="private" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>vao_</name></member>
       <member refid="group__GeneralGroup_1gab5e83a3c56780c46a64f9a04d4f17fe4" prot="private" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>vbo_</name></member>
     </listofallmembers>

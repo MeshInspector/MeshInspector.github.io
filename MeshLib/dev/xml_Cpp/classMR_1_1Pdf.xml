@@ -27,37 +27,37 @@
       <member refid="group__GeneralGroup_1gae024d2a255ca7e6b10a982238597494f" kind="variable"><name>tableParams_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga9f0c7ef105e92a128194a9adfc92d221" kind="function"><name>Pdf</name></member>
-      <member refid="group__GeneralGroup_1gaee0d3ee8980ff7e8cfd1d6e28aee30a0" kind="function"><name>Pdf</name></member>
-      <member refid="group__GeneralGroup_1ga1daea35a2c1a89104e601e2698703aa3" kind="function"><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1gae6fd1a7d1d29456ea75c56e4266869b6" kind="function"><name>~Pdf</name></member>
-      <member refid="group__GeneralGroup_1ga291a56e9861b5beebfbdc37e96ed0a18" kind="function"><name>addText</name></member>
-      <member refid="group__GeneralGroup_1ga228772361fdf3d86347b01387e931dcd" kind="function"><name>addText</name></member>
-      <member refid="group__GeneralGroup_1ga5a380fcfda1b84fd2e540a00bfd65b9e" kind="function"><name>getTextWidth</name></member>
-      <member refid="group__GeneralGroup_1gabeba0e412b8eb52c6291c259c2433368" kind="function"><name>addTable</name></member>
-      <member refid="group__GeneralGroup_1ga77343f24e2ba4af1f5eb5d348ffd9f89" kind="function"><name>addPaletteStatsTable</name></member>
-      <member refid="group__GeneralGroup_1ga4039adc925552c73016c055ff4af499a" kind="function"><name>addImageFromFile</name></member>
-      <member refid="group__GeneralGroup_1gab5a8f63787fc46e9ce3d55e4589b934a" kind="function"><name>addImage</name></member>
-      <member refid="group__GeneralGroup_1ga6b4f163cd54edddf7ed416f248944a41" kind="function"><name>newPage</name></member>
+      <member refid="group__GeneralGroup_1ga592bad758219343d640e203f33e9b74c" kind="function"><name>Pdf</name></member>
+      <member refid="group__GeneralGroup_1gadeee7f3bd750790173a58e2a5cd00d33" kind="function"><name>Pdf</name></member>
+      <member refid="group__GeneralGroup_1ga4f6e5b9408dbe06b4b1b129238cc298e" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga46dba3dd02f31bb5374fec49aa45897d" kind="function"><name>~Pdf</name></member>
+      <member refid="group__GeneralGroup_1ga30d1b49fbc2ea2e2d02052c03e26e86a" kind="function"><name>addText</name></member>
+      <member refid="group__GeneralGroup_1ga4609b512b49a227abe93aee644d2797c" kind="function"><name>addText</name></member>
+      <member refid="group__GeneralGroup_1ga4485a97d771253538126f58bdbb059fb" kind="function"><name>getTextWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3137067456e79ff20ab5c743f357398c" kind="function"><name>addTable</name></member>
+      <member refid="group__GeneralGroup_1ga1d4f556e556f49b697286bffced9e463" kind="function"><name>addPaletteStatsTable</name></member>
+      <member refid="group__GeneralGroup_1ga9faa835647e6c612ecee586a242bedc7" kind="function"><name>addImageFromFile</name></member>
+      <member refid="group__GeneralGroup_1ga9b68670f477fee6b3fbf360235f0359a" kind="function"><name>addImage</name></member>
+      <member refid="group__GeneralGroup_1gac989115c12f1a349d8345026879817ff" kind="function"><name>newPage</name></member>
       <member refid="group__GeneralGroup_1gae8f3b5dc8632f9d2f88485100f9295aa" kind="function"><name>setNewPageAction</name></member>
-      <member refid="group__GeneralGroup_1gabc9ed95ae6e1716fd51587b19efa6e06" kind="function"><name>saveToFile</name></member>
+      <member refid="group__GeneralGroup_1gad37c56a39a2b09dfffdf32e5955a71d0" kind="function"><name>saveToFile</name></member>
       <member refid="group__GeneralGroup_1ga2d50ce4fd99aacbb45dbd1c55bcaef48" kind="function"><name>setCursorPosX</name></member>
       <member refid="group__GeneralGroup_1gabf4d77cea93bab673b2b6cf427789622" kind="function"><name>setCursorPosY</name></member>
       <member refid="group__GeneralGroup_1ga2838fe45692b53926281ae909994b4b1" kind="function"><name>getCursorPosX</name></member>
       <member refid="group__GeneralGroup_1ga1cd00e797b07d3531ab22317e4a70e89" kind="function"><name>getCursorPosY</name></member>
-      <member refid="group__GeneralGroup_1gad7472fd24c463fd3ed5142556cabfcda" kind="function"><name>getPageSize</name></member>
-      <member refid="group__GeneralGroup_1ga7d54d322194dad2bad57577d5cba8ccf" kind="function"><name>getPageWorkArea</name></member>
-      <member refid="group__GeneralGroup_1ga1dd5556a4f0d253153c5fe0bd80ceab3" kind="function"><name>operator bool</name></member>
-      <member refid="group__GeneralGroup_1ga261bf8bbc1276a8db04b94833e6d4f72" kind="function"><name>newTable</name></member>
-      <member refid="group__GeneralGroup_1gac86cc8971f93f1f4b2aef2eace885b2b" kind="function"><name>setTableColumnWidths</name></member>
-      <member refid="group__GeneralGroup_1gafaf69d5e8800ddef0ab9968082cc1da8" kind="function"><name>addTableTitles</name></member>
-      <member refid="group__GeneralGroup_1ga46f8ba492e1e579c5577c40304761698" kind="function"><name>setColumnValuesFormat</name></member>
-      <member refid="group__GeneralGroup_1gab32723b16f57913d8b0edd654da12d4a" kind="function"><name>addRow</name></member>
-      <member refid="group__GeneralGroup_1gad1c742e73c20c57c86e24c5cb37a9b6e" kind="function"><name>getTableTextWidth</name></member>
+      <member refid="group__GeneralGroup_1ga4afeed16698b73632c20a718e7237ec2" kind="function"><name>getPageSize</name></member>
+      <member refid="group__GeneralGroup_1ga8d3c701da003cdcbe757b4d43d7e270e" kind="function"><name>getPageWorkArea</name></member>
+      <member refid="group__GeneralGroup_1gab7a6b95995c88b2ded77efbcfef86a8d" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1gaf17aec5644b975ecb4f753851fb2e496" kind="function"><name>newTable</name></member>
+      <member refid="group__GeneralGroup_1ga74d4061038291767cc5a448eb504ec1a" kind="function"><name>setTableColumnWidths</name></member>
+      <member refid="group__GeneralGroup_1ga5c8f30c6ce5a31dbd41208f5d9907c23" kind="function"><name>addTableTitles</name></member>
+      <member refid="group__GeneralGroup_1gad1c3b2b55da64470d3c9982f70e78906" kind="function"><name>setColumnValuesFormat</name></member>
+      <member refid="group__GeneralGroup_1ga966e93dd53b2bb3f6f0591f8af155377" kind="function"><name>addRow</name></member>
+      <member refid="group__GeneralGroup_1ga3aefb71b605e5acb4d9c826fdb7c51e0" kind="function"><name>getTableTextWidth</name></member>
       <member refid="group__GeneralGroup_1ga390764a2cd1ac5662384be6f8151a476" kind="function"><name>setTableCustomRule</name></member>
-      <member refid="group__GeneralGroup_1gac3a17552d9efaf37834828527b2678c9" kind="function"><name>drawTextInRect</name></member>
-      <member refid="group__GeneralGroup_1ga01b1c81c898e6c8e22e8019345522303" kind="function"><name>drawTextCell</name></member>
-      <member refid="group__GeneralGroup_1ga27b3eabecb8bc7d25ee5f41a46a20b81" kind="function"><name>drawRect</name></member>
+      <member refid="group__GeneralGroup_1gac90b06790870697bf76584491bff9edd" kind="function"><name>drawTextInRect</name></member>
+      <member refid="group__GeneralGroup_1gaa4eb6ebcd64e7d268534daf0f31b0365" kind="function"><name>drawTextCell</name></member>
+      <member refid="group__GeneralGroup_1gaea3ed8adafe01d568fb5eed94a16d708" kind="function"><name>drawRect</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gac888bbca1f9b94fbdf5450e269d857e8" kind="function"><name>reset_</name></member>
@@ -74,15 +74,15 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="71" bodyend="287"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gab5a8f63787fc46e9ce3d55e4589b934a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage</name></member>
+      <member refid="group__GeneralGroup_1ga9b68670f477fee6b3fbf360235f0359a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage</name></member>
       <member refid="group__GeneralGroup_1gaa3b34fa71138ec809b069e67b98ea8fc" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage_</name></member>
-      <member refid="group__GeneralGroup_1ga4039adc925552c73016c055ff4af499a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImageFromFile</name></member>
-      <member refid="group__GeneralGroup_1ga77343f24e2ba4af1f5eb5d348ffd9f89" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addPaletteStatsTable</name></member>
-      <member refid="group__GeneralGroup_1gab32723b16f57913d8b0edd654da12d4a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addRow</name></member>
-      <member refid="group__GeneralGroup_1gabeba0e412b8eb52c6291c259c2433368" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTable</name></member>
-      <member refid="group__GeneralGroup_1gafaf69d5e8800ddef0ab9968082cc1da8" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTableTitles</name></member>
-      <member refid="group__GeneralGroup_1ga291a56e9861b5beebfbdc37e96ed0a18" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
-      <member refid="group__GeneralGroup_1ga228772361fdf3d86347b01387e931dcd" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="group__GeneralGroup_1ga9faa835647e6c612ecee586a242bedc7" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImageFromFile</name></member>
+      <member refid="group__GeneralGroup_1ga1d4f556e556f49b697286bffced9e463" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addPaletteStatsTable</name></member>
+      <member refid="group__GeneralGroup_1ga966e93dd53b2bb3f6f0591f8af155377" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addRow</name></member>
+      <member refid="group__GeneralGroup_1ga3137067456e79ff20ab5c743f357398c" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTable</name></member>
+      <member refid="group__GeneralGroup_1ga5c8f30c6ce5a31dbd41208f5d9907c23" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTableTitles</name></member>
+      <member refid="group__GeneralGroup_1ga30d1b49fbc2ea2e2d02052c03e26e86a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="group__GeneralGroup_1ga4609b512b49a227abe93aee644d2797c" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
       <member refid="group__GeneralGroup_1ga01f53b3d9e1d43e6470addb360f2e893" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>AlignmentHorizontal</name></member>
       <member refid="group__GeneralGroup_1gaddcce0be2d50261a49738521a62f021e" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>calcTextLineWidths_</name></member>
       <member refid="group__GeneralGroup_1ga56c9e3bd61f367c3efe2fecbbe7c3303" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>checkAndCreateNewPageIfNeed_</name></member>
@@ -90,38 +90,38 @@
       <member refid="group__GeneralGroup_1gacdab02eee4b0ac24132a835490f64033" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>columnsInfo_</name></member>
       <member refid="group__GeneralGroup_1gad803fd5cf1c66985e58753ba3e7afd7d" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>cursorX_</name></member>
       <member refid="group__GeneralGroup_1ga4d3a805bd0724363077dac0aff11dfb4" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>cursorY_</name></member>
-      <member refid="group__GeneralGroup_1ga27b3eabecb8bc7d25ee5f41a46a20b81" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawRect</name></member>
-      <member refid="group__GeneralGroup_1ga01b1c81c898e6c8e22e8019345522303" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextCell</name></member>
-      <member refid="group__GeneralGroup_1gac3a17552d9efaf37834828527b2678c9" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextInRect</name></member>
+      <member refid="group__GeneralGroup_1gaea3ed8adafe01d568fb5eed94a16d708" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawRect</name></member>
+      <member refid="group__GeneralGroup_1gaa4eb6ebcd64e7d268534daf0f31b0365" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextCell</name></member>
+      <member refid="group__GeneralGroup_1gac90b06790870697bf76584491bff9edd" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextInRect</name></member>
       <member refid="group__GeneralGroup_1ga2838fe45692b53926281ae909994b4b1" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getCursorPosX</name></member>
       <member refid="group__GeneralGroup_1ga1cd00e797b07d3531ab22317e4a70e89" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getCursorPosY</name></member>
-      <member refid="group__GeneralGroup_1gad7472fd24c463fd3ed5142556cabfcda" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageSize</name></member>
-      <member refid="group__GeneralGroup_1ga7d54d322194dad2bad57577d5cba8ccf" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageWorkArea</name></member>
-      <member refid="group__GeneralGroup_1gad1c742e73c20c57c86e24c5cb37a9b6e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTableTextWidth</name></member>
-      <member refid="group__GeneralGroup_1ga5a380fcfda1b84fd2e540a00bfd65b9e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTextWidth</name></member>
+      <member refid="group__GeneralGroup_1ga4afeed16698b73632c20a718e7237ec2" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageSize</name></member>
+      <member refid="group__GeneralGroup_1ga8d3c701da003cdcbe757b4d43d7e270e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageWorkArea</name></member>
+      <member refid="group__GeneralGroup_1ga3aefb71b605e5acb4d9c826fdb7c51e0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTableTextWidth</name></member>
+      <member refid="group__GeneralGroup_1ga4485a97d771253538126f58bdbb059fb" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTextWidth</name></member>
       <member refid="group__GeneralGroup_1ga437acac7583adc59f75670b40c32cf96" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>moveCursorToNewLine_</name></member>
-      <member refid="group__GeneralGroup_1ga6b4f163cd54edddf7ed416f248944a41" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newPage</name></member>
+      <member refid="group__GeneralGroup_1gac989115c12f1a349d8345026879817ff" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newPage</name></member>
       <member refid="group__GeneralGroup_1ga96f5bdfefc90dd146f3a62b3b0b2b959" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>newPageAction_</name></member>
-      <member refid="group__GeneralGroup_1ga261bf8bbc1276a8db04b94833e6d4f72" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newTable</name></member>
-      <member refid="group__GeneralGroup_1ga1dd5556a4f0d253153c5fe0bd80ceab3" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator bool</name></member>
-      <member refid="group__GeneralGroup_1ga1daea35a2c1a89104e601e2698703aa3" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaf17aec5644b975ecb4f753851fb2e496" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newTable</name></member>
+      <member refid="group__GeneralGroup_1gab7a6b95995c88b2ded77efbcfef86a8d" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga4f6e5b9408dbe06b4b1b129238cc298e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga360b4022b52b899404ec80d306de31b5" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>params_</name></member>
-      <member refid="group__GeneralGroup_1ga9f0c7ef105e92a128194a9adfc92d221" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
-      <member refid="group__GeneralGroup_1gaee0d3ee8980ff7e8cfd1d6e28aee30a0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="group__GeneralGroup_1ga592bad758219343d640e203f33e9b74c" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="group__GeneralGroup_1gadeee7f3bd750790173a58e2a5cd00d33" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
       <member refid="group__GeneralGroup_1gac888bbca1f9b94fbdf5450e269d857e8" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>reset_</name></member>
       <member refid="group__GeneralGroup_1ga819cae2eb9b4524146c934a75c1c5046" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>rowCounter_</name></member>
-      <member refid="group__GeneralGroup_1gabc9ed95ae6e1716fd51587b19efa6e06" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>saveToFile</name></member>
-      <member refid="group__GeneralGroup_1ga46f8ba492e1e579c5577c40304761698" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setColumnValuesFormat</name></member>
+      <member refid="group__GeneralGroup_1gad37c56a39a2b09dfffdf32e5955a71d0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>saveToFile</name></member>
+      <member refid="group__GeneralGroup_1gad1c3b2b55da64470d3c9982f70e78906" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setColumnValuesFormat</name></member>
       <member refid="group__GeneralGroup_1ga2d50ce4fd99aacbb45dbd1c55bcaef48" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosX</name></member>
       <member refid="group__GeneralGroup_1gabf4d77cea93bab673b2b6cf427789622" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosY</name></member>
       <member refid="group__GeneralGroup_1gae8f3b5dc8632f9d2f88485100f9295aa" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setNewPageAction</name></member>
-      <member refid="group__GeneralGroup_1gac86cc8971f93f1f4b2aef2eace885b2b" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableColumnWidths</name></member>
+      <member refid="group__GeneralGroup_1ga74d4061038291767cc5a448eb504ec1a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableColumnWidths</name></member>
       <member refid="group__GeneralGroup_1ga390764a2cd1ac5662384be6f8151a476" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableCustomRule</name></member>
       <member refid="group__GeneralGroup_1gaf29688048070498ce5dba46eae9b3533" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>state_</name></member>
       <member refid="group__GeneralGroup_1ga6e33eadc4d9e3e7f394dae468da894c5" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>TableCustomRule</name></member>
       <member refid="group__GeneralGroup_1gaaa0bf49b2fe8b53a2fa9c3fccdca1aea" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>tableCustomRule_</name></member>
       <member refid="group__GeneralGroup_1gae024d2a255ca7e6b10a982238597494f" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>tableParams_</name></member>
-      <member refid="group__GeneralGroup_1gae6fd1a7d1d29456ea75c56e4266869b6" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>~Pdf</name></member>
+      <member refid="group__GeneralGroup_1ga46dba3dd02f31bb5374fec49aa45897d" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>~Pdf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

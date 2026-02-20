@@ -1,6 +1,5 @@
 var MRPointCloudTriangulation_8h =
 [
-    [ "MR::FillHolesWithExtraPointsParams", "structMR_1_1FillHolesWithExtraPointsParams.html", "structMR_1_1FillHolesWithExtraPointsParams" ],
-    [ "fillHolesWithExtraPoints", "MRPointCloudTriangulation_8h.html#a78380cd08bf7f494b7cecb2264046d37", null ],
-    [ "triangulatePointCloud", "MRPointCloudTriangulation_8h.html#ga9a35a19f982f5409d7939ad87946a479", null ]
+    [ "fillHolesWithExtraPoints", "MRPointCloudTriangulation_8h.html#ga667297e36f7837828ecea717d5be86ce", null ],
+    [ "triangulatePointCloud", "MRPointCloudTriangulation_8h.html#gad8757f0b892706f56491e2b0a5a016d8", null ]
 ];

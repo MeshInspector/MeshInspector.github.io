@@ -29,14 +29,14 @@ var MRUnits_8h =
       [ "alwaysNegative", "MRUnits_8h.html#ggaa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c", null ]
     ] ],
     [ "getDefaultUnitParams", "MRUnits_8h.html#ga80607090259b7b45b4ea7809158a48a2", null ],
-    [ "guessPrecision", "MRUnits_8h.html#gab1a04d603618814df24f8f6b758ace40", null ],
-    [ "guessPrecision", "MRUnits_8h.html#gab1a04d603618814df24f8f6b758ace40", null ],
-    [ "guessPrecision", "MRUnits_8h.html#ga33468b27fcfb4e39e7bcbc65162f5dce", null ],
-    [ "guessPrecision", "MRUnits_8h.html#ga33468b27fcfb4e39e7bcbc65162f5dce", null ],
+    [ "guessPrecision", "MRUnits_8h.html#ga9a965773312b3a70aff98af6a8c3edd6", null ],
+    [ "guessPrecision", "MRUnits_8h.html#ga9a965773312b3a70aff98af6a8c3edd6", null ],
+    [ "guessPrecision", "MRUnits_8h.html#ga5131dd5b5c0ee3d069181a89234faa9a", null ],
+    [ "guessPrecision", "MRUnits_8h.html#ga5131dd5b5c0ee3d069181a89234faa9a", null ],
     [ "setDefaultUnitParams", "MRUnits_8h.html#ga822feec21d0c267d63b63429392323c9", null ],
-    [ "toString", "MRUnits_8h.html#ga2345d0a738c6f4f2a8fb95b5fb2504a8", null ],
-    [ "valueToImGuiFormatString", "MRUnits_8h.html#ga888aed091b9c64c5a26d9490cd820f89", null ],
-    [ "valueToImGuiFormatString", "MRUnits_8h.html#gac3733c3924551342afaddf9b84564e21", null ],
-    [ "valueToString", "MRUnits_8h.html#ga4d3f8a6d1d7a0498aa353e88c7456182", null ],
-    [ "valueToString", "MRUnits_8h.html#gae67e358aa67b3bec22536c544a8ed160", null ]
+    [ "toString", "MRUnits_8h.html#ga9e38650fb793fdec7377cf7905106aa8", null ],
+    [ "valueToImGuiFormatString", "MRUnits_8h.html#ga391cf83607d0cd26f7c40e107f63efca", null ],
+    [ "valueToImGuiFormatString", "MRUnits_8h.html#ga4922fa02764d551e9d5c81230bcd87d0", null ],
+    [ "valueToString", "MRUnits_8h.html#gabf78d457d8b013e02649896cdda4cf56", null ],
+    [ "valueToString", "MRUnits_8h.html#gae6027d5ac294f254760c4139264b2197", null ]
 ];

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRPointsProject_8h" kind="file" language="C++">
     <compoundname>MRPointsProject.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRPointCloudPart_8h" local="yes">MRPointCloudPart.h</includes>
@@ -11,22 +11,54 @@
     <includedby refid="MRPointCloudTriangulationHelpers_8h" local="yes">MRPointCloudTriangulationHelpers.h</includedby>
     <includedby refid="MRPointsInBall_8h" local="yes">MRPointsInBall.h</includedby>
     <incdepgraph>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="15">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -39,11 +71,7 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="13">
+      <node id="19">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="2" relation="include">
@@ -54,41 +82,54 @@
         <link refid="MRPointsProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="9">
-        <label>cassert</label>
-      </node>
-      <node id="14">
-        <label>cfloat</label>
-      </node>
-      <node id="10">
-        <label>cstddef</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>string</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="11">
-        <label>type_traits</label>
+      <node id="14">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
       </node>
       <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="20">
+        <label>cfloat</label>
+      </node>
+      <node id="16">
+        <label>cstddef</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="17">
+        <label>type_traits</label>
+      </node>
+      <node id="18">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -127,7 +168,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPointCloudPart_8h" kindref="compound">MRPointCloudPart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -145,27 +186,27 @@
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__AABBTreeGroup_1ga732c66239ed6e0f0d31100e8e3ab29b4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1ga732c66239ed6e0f0d31100e8e3ab29b4" kindref="member">findProjectionOnPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>&amp;<sp/>pcp,</highlight></codeline>
+<codeline lineno="32" refid="group__AABBTreeGroup_1gab4c475c489f1543782e15d9b4bbe14cf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gab4c475c489f1543782e15d9b4bbe14cf" kindref="member">findProjectionOnPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>&amp;<sp/>pcp,</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>VertPredicate<sp/>skipCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="group__AABBTreeGroup_1ga2d8d5a16d2f63ea3eec0edfb4f85917b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1ga732c66239ed6e0f0d31100e8e3ab29b4" kindref="member">findProjectionOnPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>&amp;<sp/>tree,</highlight></codeline>
+<codeline lineno="46" refid="group__AABBTreeGroup_1ga41532fd138cf2bb72805d8af6a1522b4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gab4c475c489f1543782e15d9b4bbe14cf" kindref="member">findProjectionOnPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>&amp;<sp/>tree,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>VertPredicate<sp/>skipCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="group__AABBTreeGroup_1ga5b2c2b50e8b1835a53ac746d5da87b54" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga5b2c2b50e8b1835a53ac746d5da87b54" kindref="member">findFewClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/><ref refid="classMR_1_1FewSmallest" kindref="compound">FewSmallest&lt;PointsProjectionResult&gt;</ref><sp/>&amp;<sp/>res,</highlight></codeline>
+<codeline lineno="59" refid="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" kindref="member">findFewClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/><ref refid="classMR_1_1FewSmallest" kindref="compound">FewSmallest&lt;PointsProjectionResult&gt;</ref><sp/>&amp;<sp/>res,</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="group__AABBTreeGroup_1ga5ccfb741cd4bcb092c8884f744051203" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1Buffer" kindref="compound">Buffer&lt;VertId&gt;</ref><sp/><ref refid="group__AABBTreeGroup_1ga5ccfb741cd4bcb092c8884f744051203" kindref="member">findNClosestPointsPerPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNei,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="69" refid="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Buffer" kindref="compound">Buffer&lt;VertId&gt;</ref><sp/><ref refid="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" kindref="member">findNClosestPointsPerPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNei,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__AABBTreeGroup_1ga994aaba24d39e18802b546f4fdab10cc" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertPair<sp/><ref refid="group__AABBTreeGroup_1ga994aaba24d39e18802b546f4fdab10cc" kindref="member">findTwoClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="72" refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gad75ce80ca78d38bd524b9c4ccd7a520d" kindref="member">VertPair</ref><sp/><ref refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" kindref="member">findTwoClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75" refid="structMR_1_1FindProjectionOnPointsSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></highlight></codeline>
 <codeline lineno="76"><highlight class="normal">{</highlight></codeline>
@@ -174,7 +215,7 @@
 <codeline lineno="82" refid="structMR_1_1FindProjectionOnPointsSettings_1a51086d69676631deb69313f75b2d8379" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1a51086d69676631deb69313f75b2d8379" kindref="member">upDistLimitSq</ref><sp/>=<sp/>FLT_MAX;</highlight></codeline>
 <codeline lineno="84" refid="structMR_1_1FindProjectionOnPointsSettings_1a33ab001af75b70c47485278f07082bd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1a33ab001af75b70c47485278f07082bd5" kindref="member">loDistLimitSq</ref><sp/>=<sp/>0.f;</highlight></codeline>
 <codeline lineno="86" refid="structMR_1_1FindProjectionOnPointsSettings_1a41d849f8892e4ddc754d38672dde5152" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1a41d849f8892e4ddc754d38672dde5152" kindref="member">skipSameIndex</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="88" refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="88" refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" kindref="member">cb</ref>;</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92" refid="classMR_1_1IPointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
@@ -190,15 +231,15 @@
 <codeline lineno="105" refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" kindref="member">projectionsHeapBytes</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="classMR_1_1PointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRMESH_CLASS<sp/><ref refid="classMR_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
+<codeline lineno="109" refid="classMR_1_1PointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
 <codeline lineno="110"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="113" refid="classMR_1_1PointsProjector_1abbb8bb3a25f447af9b6abe188662181a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1PointsProjector_1abbb8bb3a25f447af9b6abe188662181a" kindref="member">setPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113" refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd" kindref="member">setPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="classMR_1_1PointsProjector_1a7f6e0c85341469a32a8424abb1a7e25f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1PointsProjector_1a7f6e0c85341469a32a8424abb1a7e25f" kindref="member">findProjections</ref>(<sp/>std::vector&lt;PointsProjectionResult&gt;&amp;<sp/>results,</highlight></codeline>
+<codeline lineno="116" refid="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" kindref="member">findProjections</ref>(<sp/>std::vector&lt;PointsProjectionResult&gt;&amp;<sp/>results,</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref>&amp;<sp/>settings<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="classMR_1_1PointsProjector_1a2ae04a83d426c8411c3e839482a1f96f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointsProjector_1a2ae04a83d426c8411c3e839482a1f96f" kindref="member">projectionsHeapBytes</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120" refid="classMR_1_1PointsProjector_1aeb970ece1c2d3764ce6369fc07d74181" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointsProjector_1aeb970ece1c2d3764ce6369fc07d74181" kindref="member">projectionsHeapBytes</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>*<sp/>pointCloud_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="123"><highlight class="normal">};</highlight></codeline>

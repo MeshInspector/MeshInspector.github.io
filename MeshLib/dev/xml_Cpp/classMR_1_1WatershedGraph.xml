@@ -17,8 +17,8 @@
       <member refid="group__GeneralGroup_1gaa48b13ce1011fd290bd5fb1aa90c29b3" kind="variable"><name>parentBasin_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" kind="function"><name>WatershedGraph</name></member>
-      <member refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" kind="function"><name>getHeightAt</name></member>
+      <member refid="group__GeneralGroup_1ga50705670ff6a5cb245a04bce034f12ec" kind="function"><name>WatershedGraph</name></member>
+      <member refid="group__GeneralGroup_1ga02132a9c3480025356b1c3121549dd04" kind="function"><name>getHeightAt</name></member>
       <member refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" kind="function"><name>graph</name></member>
       <member refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" kind="function"><name>totalArea</name></member>
       <member refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kind="function"><name>numBasins</name></member>
@@ -27,20 +27,20 @@
       <member refid="group__GeneralGroup_1gac60717bcac94de1bf3eaf1f3eba5753f" kind="function"><name>bdInfo</name></member>
       <member refid="group__GeneralGroup_1gae5da135593dd2516248f691c21c4afe2" kind="function"><name>bdInfo</name></member>
       <member refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" kind="function"><name>outsideId</name></member>
-      <member refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" kind="function"><name>getRootBasin</name></member>
-      <member refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" kind="function"><name>flowsTo</name></member>
-      <member refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" kind="function"><name>flowsFinallyTo</name></member>
-      <member refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" kind="function"><name>setParentsToRoots</name></member>
-      <member refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" kind="function"><name>findLowestBd</name></member>
-      <member refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" kind="function"><name>merge</name></member>
-      <member refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" kind="function"><name>mergeViaBd</name></member>
-      <member refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" kind="function"><name>getBasinFaces</name></member>
-      <member refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" kind="function"><name>getAllBasinFaces</name></member>
-      <member refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" kind="function"><name>getBasinFacesBelowLevel</name></member>
-      <member refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" kind="function"><name>computeBasinVolume</name></member>
-      <member refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" kind="function"><name>getInterBasinEdges</name></member>
-      <member refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" kind="function"><name>getOverflowPoints</name></member>
-      <member refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" kind="function"><name>iniBasin2Tgt</name></member>
+      <member refid="group__GeneralGroup_1ga85b7c2ccd5e28806db46f5a26e507f28" kind="function"><name>getRootBasin</name></member>
+      <member refid="group__GeneralGroup_1ga5b2711abdf56822582fe72b67b334a6b" kind="function"><name>flowsTo</name></member>
+      <member refid="group__GeneralGroup_1ga4760ccbf2c39897d1e8968ebe9551298" kind="function"><name>flowsFinallyTo</name></member>
+      <member refid="group__GeneralGroup_1ga0075320ba33e4e671d46cf54d63bbdff" kind="function"><name>setParentsToRoots</name></member>
+      <member refid="group__GeneralGroup_1gabf123281495927e599e51b75d652c16c" kind="function"><name>findLowestBd</name></member>
+      <member refid="group__GeneralGroup_1ga557cfc57817b5b67b52b24991ee87a8b" kind="function"><name>merge</name></member>
+      <member refid="group__GeneralGroup_1ga8cc719c5ef9f380e16c5d06041d4b9e0" kind="function"><name>mergeViaBd</name></member>
+      <member refid="group__GeneralGroup_1ga83b8a3cf4ecc5a211c8b5d03729e5135" kind="function"><name>getBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1ga5f3ce49434aabe62d6adefdd21cb8de8" kind="function"><name>getAllBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1gacb0f326b076e25bddfb91bc11659bd1a" kind="function"><name>getBasinFacesBelowLevel</name></member>
+      <member refid="group__GeneralGroup_1gad07c81be05f8ec3cd0086cd911373589" kind="function"><name>computeBasinVolume</name></member>
+      <member refid="group__GeneralGroup_1ga6215c2b6a5a985316a55d6ce1672e42e" kind="function"><name>getInterBasinEdges</name></member>
+      <member refid="group__GeneralGroup_1gab568bdf3fd95f172c0cd0dac1fff6c5d" kind="function"><name>getOverflowPoints</name></member>
+      <member refid="group__GeneralGroup_1ga0c631771a448fb0e09538e22707305f9" kind="function"><name>iniBasin2Tgt</name></member>
     </sectiondef>
     <briefdescription>
 <para>graphs representing rain basins on the mesh </para>
@@ -55,32 +55,32 @@
       <member refid="group__GeneralGroup_1gac60717bcac94de1bf3eaf1f3eba5753f" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
       <member refid="group__GeneralGroup_1gae5da135593dd2516248f691c21c4afe2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
       <member refid="group__GeneralGroup_1ga49a07b99fad17464e3aca703d3ac72b1" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bds_</name></member>
-      <member refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>computeBasinVolume</name></member>
+      <member refid="group__GeneralGroup_1gad07c81be05f8ec3cd0086cd911373589" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>computeBasinVolume</name></member>
       <member refid="group__GeneralGroup_1ga5463aad37b66b92aea9de4d6e0f171db" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>face2iniBasin_</name></member>
-      <member refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>findLowestBd</name></member>
-      <member refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsFinallyTo</name></member>
-      <member refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsTo</name></member>
-      <member refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getAllBasinFaces</name></member>
-      <member refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFaces</name></member>
-      <member refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
-      <member refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getHeightAt</name></member>
-      <member refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getInterBasinEdges</name></member>
-      <member refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getOverflowPoints</name></member>
-      <member refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getRootBasin</name></member>
+      <member refid="group__GeneralGroup_1gabf123281495927e599e51b75d652c16c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>findLowestBd</name></member>
+      <member refid="group__GeneralGroup_1ga4760ccbf2c39897d1e8968ebe9551298" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsFinallyTo</name></member>
+      <member refid="group__GeneralGroup_1ga5b2711abdf56822582fe72b67b334a6b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsTo</name></member>
+      <member refid="group__GeneralGroup_1ga5f3ce49434aabe62d6adefdd21cb8de8" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getAllBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1ga83b8a3cf4ecc5a211c8b5d03729e5135" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1gacb0f326b076e25bddfb91bc11659bd1a" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
+      <member refid="group__GeneralGroup_1ga02132a9c3480025356b1c3121549dd04" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getHeightAt</name></member>
+      <member refid="group__GeneralGroup_1ga6215c2b6a5a985316a55d6ce1672e42e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getInterBasinEdges</name></member>
+      <member refid="group__GeneralGroup_1gab568bdf3fd95f172c0cd0dac1fff6c5d" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getOverflowPoints</name></member>
+      <member refid="group__GeneralGroup_1ga85b7c2ccd5e28806db46f5a26e507f28" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getRootBasin</name></member>
       <member refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph</name></member>
       <member refid="group__GeneralGroup_1ga196916d95a210d4a089811129e88069a" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph_</name></member>
-      <member refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>iniBasin2Tgt</name></member>
-      <member refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>merge</name></member>
-      <member refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mergeViaBd</name></member>
+      <member refid="group__GeneralGroup_1ga0c631771a448fb0e09538e22707305f9" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>iniBasin2Tgt</name></member>
+      <member refid="group__GeneralGroup_1ga557cfc57817b5b67b52b24991ee87a8b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>merge</name></member>
+      <member refid="group__GeneralGroup_1ga8cc719c5ef9f380e16c5d06041d4b9e0" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mergeViaBd</name></member>
       <member refid="group__GeneralGroup_1gaee42960a1ac1beafd3dcf37d30c879c9" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mesh_</name></member>
       <member refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>numBasins</name></member>
       <member refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId</name></member>
       <member refid="group__GeneralGroup_1ga1edaa81377e05473256334fb038becb8" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId_</name></member>
       <member refid="group__GeneralGroup_1gaa48b13ce1011fd290bd5fb1aa90c29b3" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>parentBasin_</name></member>
-      <member refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>setParentsToRoots</name></member>
+      <member refid="group__GeneralGroup_1ga0075320ba33e4e671d46cf54d63bbdff" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>setParentsToRoots</name></member>
       <member refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea</name></member>
       <member refid="group__GeneralGroup_1ga582cc77bfa73e02c8c18957f1e1f11b2" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea_</name></member>
-      <member refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>
+      <member refid="group__GeneralGroup_1ga50705670ff6a5cb245a04bce034f12ec" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

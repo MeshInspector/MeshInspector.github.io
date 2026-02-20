@@ -91,9 +91,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1aa423a8c6a70592f7e1b45b5f3255c5c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::RestoringStreamsSink::RestoringStreamsSink</definition>
+      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1a7c95c0761fc85fb5eebafa030b6e796e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RestoringStreamsSink::RestoringStreamsSink</definition>
         <argsstring>()</argsstring>
         <name>RestoringStreamsSink</name>
         <qualifiedname>MR::RestoringStreamsSink::RestoringStreamsSink</qualifiedname>
@@ -103,11 +103,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="37" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="37" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1a618c5f626a98c04e3f583577f1a0be03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::RestoringStreamsSink::~RestoringStreamsSink</definition>
+      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1ad868c0427905c094e662aec870e350d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RestoringStreamsSink::~RestoringStreamsSink</definition>
         <argsstring>()</argsstring>
         <name>~RestoringStreamsSink</name>
         <qualifiedname>MR::RestoringStreamsSink::~RestoringStreamsSink</qualifiedname>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="38" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="38" column="6"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -186,12 +186,12 @@
       <member refid="classMR_1_1RestoringStreamsSink_1a5a99aea9be897bb55667f63f6f0bf6b0" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>clogBuf_</name></member>
       <member refid="classMR_1_1RestoringStreamsSink_1af538b91d1451e00700dd49a936c87b00" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>coutBuf_</name></member>
       <member refid="classMR_1_1RestoringStreamsSink_1a0b62091dd3d0661d6bd8e5a698e7493d" prot="private" virt="virtual"><scope>MR::RestoringStreamsSink</scope><name>flush_</name></member>
-      <member refid="classMR_1_1RestoringStreamsSink_1aa423a8c6a70592f7e1b45b5f3255c5c7" prot="public" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>RestoringStreamsSink</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1a7c95c0761fc85fb5eebafa030b6e796e" prot="public" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>RestoringStreamsSink</name></member>
       <member refid="classMR_1_1RestoringStreamsSink_1aa4063007fd77a0d8f82eef01fecf09ee" prot="private" virt="virtual"><scope>MR::RestoringStreamsSink</scope><name>sink_it_</name></member>
       <member refid="classMR_1_1RestoringStreamsSink_1a54a2f20f45acc9835d6cfa9cbb25e1ca" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>spdCerrBuf_</name></member>
       <member refid="classMR_1_1RestoringStreamsSink_1a1f2cc223defb71e3674bc5002202e103" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>spdClogBuf_</name></member>
       <member refid="classMR_1_1RestoringStreamsSink_1ac3e7707ba8abdec96f9f808f6f15f070" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>spdCoutBuf_</name></member>
-      <member refid="classMR_1_1RestoringStreamsSink_1a618c5f626a98c04e3f583577f1a0be03" prot="public" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>~RestoringStreamsSink</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1ad868c0427905c094e662aec870e350d2" prot="public" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>~RestoringStreamsSink</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -21,7 +21,7 @@
       <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" kind="function"><name>~BasicClickableRectUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga39048fbb209483a86815166a42245eb3" kind="function"><name>onClick</name></member>
-      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" kind="function"><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gae05bf19b46876470cef45cd15178099f" kind="function"><name>earlyBackwardPass</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -85,7 +85,7 @@
       <member refid="group__GeneralGroup_1ga7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>clickableCornerA</name></member>
       <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>clickableCornerB</name></member>
-      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gae05bf19b46876470cef45cd15178099f" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>earlyBackwardPass</name></member>
       <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>enabled</name></member>
       <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>InteractionMask</name></member>
       <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>isActive</name></member>

@@ -3,13 +3,13 @@ var namespaceMR_1_1TriangulationHelpers =
     [ "FanOptimizerQueueElement", "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" ],
     [ "Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", "structMR_1_1TriangulationHelpers_1_1Settings" ],
     [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ],
-    [ "buildLocalTriangulation", "namespaceMR_1_1TriangulationHelpers.html#a7bac13257412606ce60799f214894488", null ],
-    [ "buildLocalTriangulations", "namespaceMR_1_1TriangulationHelpers.html#a0e54822d80eff541695984d7a72a2ac9", null ],
-    [ "buildUnitedLocalTriangulations", "namespaceMR_1_1TriangulationHelpers.html#aaaaea439dd161b8d9bb9fa504ec2c384", null ],
-    [ "filterNeighbors", "group__TriangulationHelpersGroup.html#gae34e6824af064eefccf01c8f241bb11d", null ],
-    [ "findBoundaryPoints", "namespaceMR_1_1TriangulationHelpers.html#a691dadc49fb6346b701545653e8e1dcf", null ],
-    [ "findNeighborsInBall", "group__TriangulationHelpersGroup.html#ga1b730fbcddd0678ad119e9abc6d797c0", null ],
-    [ "findNumNeighbors", "group__TriangulationHelpersGroup.html#gaf71ad211f7cae4bc648807774f9b3758", null ],
-    [ "isBoundaryPoint", "group__TriangulationHelpersGroup.html#gad0f4036eebdcc507b1d8314ee455eef9", null ],
-    [ "updateNeighborsRadius", "group__TriangulationHelpersGroup.html#ga239d61601b826c9241ca50d59821b545", null ]
+    [ "buildLocalTriangulation", "namespaceMR_1_1TriangulationHelpers.html#a1d49af7a8eeeab7c3559be658f3f7abf", null ],
+    [ "buildLocalTriangulations", "namespaceMR_1_1TriangulationHelpers.html#a7c0d563c2b38463627552396d1943390", null ],
+    [ "buildUnitedLocalTriangulations", "namespaceMR_1_1TriangulationHelpers.html#ab287ce821d48fe623f355150ce7ccda3", null ],
+    [ "filterNeighbors", "group__TriangulationHelpersGroup.html#ga8a151252bffbc3c9b6cf56c1a45292f0", null ],
+    [ "findBoundaryPoints", "namespaceMR_1_1TriangulationHelpers.html#a411db16d5e4c2dbe23cd32a475579e0a", null ],
+    [ "findNeighborsInBall", "group__TriangulationHelpersGroup.html#gab7b3e43bb16453b2202ab3e82d052488", null ],
+    [ "findNumNeighbors", "group__TriangulationHelpersGroup.html#ga9f026bf1ef8ed09a14cc5012fe92d8fc", null ],
+    [ "isBoundaryPoint", "group__TriangulationHelpersGroup.html#ga379ef6cfbe1df486c3b9baf10d186c0b", null ],
+    [ "updateNeighborsRadius", "group__TriangulationHelpersGroup.html#gaf72ca8f1d6497ca42e99d5884312305c", null ]
 ];

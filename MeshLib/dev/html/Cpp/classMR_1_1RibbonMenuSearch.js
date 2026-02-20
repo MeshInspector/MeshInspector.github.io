@@ -1,9 +1,9 @@
 var classMR_1_1RibbonMenuSearch =
 [
-    [ "activate", "group__GeneralGroup.html#gab0a9a0a890de308d579a6b1226cdbc6b", null ],
-    [ "drawMenuUI", "group__GeneralGroup.html#gaf63422eb95c89c1f0593b3c8f5dc00d8", null ],
-    [ "getSearchStringWidth", "group__GeneralGroup.html#gafcef0eec09d9ab66c4eceebbb8b15d73", null ],
-    [ "getWidthMenuUI", "group__GeneralGroup.html#gabb54fa525352a97793f4948df5292ba7", null ],
+    [ "activate", "group__GeneralGroup.html#ga83be28fa980e2abc39cd07557b87169e", null ],
+    [ "drawMenuUI", "group__GeneralGroup.html#gac8f4001d5233669141be3ce487e7a138", null ],
+    [ "getSearchStringWidth", "group__GeneralGroup.html#gaab30541029b94b3f1c2b3744112019e1", null ],
+    [ "getWidthMenuUI", "group__GeneralGroup.html#ga33635a208a5beadbb88da4bc44a7b252", null ],
     [ "pushRecentItem", "group__GeneralGroup.html#gac74ec292a21908372b2925b5aa868cf8", null ],
     [ "setRequirementsFunc", "group__GeneralGroup.html#ga9c0a860e85f2d55494f4829c2720efa6", null ],
     [ "setSmallUI", "group__GeneralGroup.html#gac091dc76627f29a6d704646a477f55c5", null ],

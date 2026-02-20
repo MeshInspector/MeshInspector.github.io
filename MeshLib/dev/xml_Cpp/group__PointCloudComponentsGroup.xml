@@ -4,9 +4,9 @@
     <compoundname>PointCloudComponentsGroup</compoundname>
     <title>PointCloudComponents</title>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gaf9095649bbc7febf7cf56b9b88cf267f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; VertBitSet &gt; MR::PointCloudComponents::getLargeComponentsUnion</definition>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga162ae0e5c789b236060b9b335feb625c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VertBitSet &gt;</type>
+        <definition>Expected&lt; VertBitSet &gt; MR::PointCloudComponents::getLargeComponentsUnion</definition>
         <argsstring>(const PointCloud &amp;pointCloud, float maxDist, int minSize, ProgressCallback pc={})</argsstring>
         <name>getLargeComponentsUnion</name>
         <qualifiedname>MR::PointCloudComponents::getLargeComponentsUnion</qualifiedname>
@@ -51,11 +51,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="19" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="19" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="19" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="19" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga14df913179759fda2f2122b83b643423" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; VertBitSet &gt;</type>
-        <definition>MRMESH_API Expected&lt; VertBitSet &gt; MR::PointCloudComponents::getLargeComponentsUnion</definition>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gaa6878f82b77658a2135dbb389319639c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VertBitSet &gt;</type>
+        <definition>Expected&lt; VertBitSet &gt; MR::PointCloudComponents::getLargeComponentsUnion</definition>
         <argsstring>(UnionFind&lt; VertId &gt; &amp;unionStructs, const VertBitSet &amp;region, int minSize, ProgressCallback pc={})</argsstring>
         <name>getLargeComponentsUnion</name>
         <qualifiedname>MR::PointCloudComponents::getLargeComponentsUnion</qualifiedname>
@@ -94,11 +94,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="24" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="24" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="24" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="24" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga96d04280c74669348a5a1a121f860883" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::vector&lt; VertBitSet &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::vector&lt; VertBitSet &gt; &gt; MR::PointCloudComponents::getLargeComponents</definition>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga3fb225164d831bc24e3c3ab3a48516a2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; VertBitSet &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; VertBitSet &gt; &gt; MR::PointCloudComponents::getLargeComponents</definition>
         <argsstring>(const PointCloud &amp;pointCloud, float maxDist, int minSize, ProgressCallback pc={})</argsstring>
         <name>getLargeComponents</name>
         <qualifiedname>MR::PointCloudComponents::getLargeComponents</qualifiedname>
@@ -143,11 +143,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="29" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="29" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="29" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="29" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gac22fef282be15fa19c019501c0b5e92b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt; MR::PointCloudComponents::getAllComponents</definition>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga6ade83c39e3ddd3af28280b0c0293e48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt;</type>
+        <definition>Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt; MR::PointCloudComponents::getAllComponents</definition>
         <argsstring>(const PointCloud &amp;pointCloud, float maxDist, int maxComponentCount=INT_MAX, ProgressCallback pc={})</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>MR::PointCloudComponents::getAllComponents</qualifiedname>
@@ -198,11 +198,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="37" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="37" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="37" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="37" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudComponentsGroup_1gae7a32b050223cbf6c42329521657f9a8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; UnionFind&lt; VertId &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; UnionFind&lt; VertId &gt; &gt; MR::PointCloudComponents::getUnionFindStructureVerts</definition>
+      <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga2fd74d609a838e30b78f03e49da4737e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; UnionFind&lt; VertId &gt; &gt;</type>
+        <definition>Expected&lt; UnionFind&lt; VertId &gt; &gt; MR::PointCloudComponents::getUnionFindStructureVerts</definition>
         <argsstring>(const PointCloud &amp;pointCloud, float maxDist, const VertBitSet *region=nullptr, ProgressCallback pc={})</argsstring>
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR::PointCloudComponents::getUnionFindStructureVerts</qualifiedname>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="41" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="41" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="41" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="41" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

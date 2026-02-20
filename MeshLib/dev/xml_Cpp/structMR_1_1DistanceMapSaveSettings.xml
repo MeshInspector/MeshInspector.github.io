@@ -21,7 +21,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="200" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::DistanceMapSaveSettings::progress</definition>
         <argsstring></argsstring>
         <name>progress</name>

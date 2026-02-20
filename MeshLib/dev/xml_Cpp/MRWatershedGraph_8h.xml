@@ -6,24 +6,30 @@
     <includes local="no">cassert</includes>
     <includes local="no">cfloat</includes>
     <incdepgraph>
-      <node id="14">
+      <node id="21">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -31,23 +37,47 @@
         <link refid="MRGraph_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="17">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -55,19 +85,17 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="6">
+      <node id="15">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -77,11 +105,11 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -89,46 +117,59 @@
         <link refid="MRWatershedGraph_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRMeshFwd.h</label>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="15">
+      <node id="22">
         <label>MRphmap.h</label>
       </node>
       <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="19">
+      <node id="25">
         <label>cfloat</label>
       </node>
-      <node id="7">
+      <node id="16">
         <label>concepts</label>
       </node>
-      <node id="11">
+      <node id="18">
         <label>cstddef</label>
       </node>
-      <node id="16">
+      <node id="13">
         <label>functional</label>
       </node>
-      <node id="17">
+      <node id="23">
         <label>iosfwd</label>
       </node>
-      <node id="18">
+      <node id="24">
         <label>iterator</label>
       </node>
       <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="13">
+      <node id="20">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1WatershedGraph" prot="public">MR::WatershedGraph</innerclass>
@@ -204,9 +245,9 @@
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="74" refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" kindref="member">WatershedGraph</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;int, FaceId&gt;</ref><sp/>&amp;<sp/>face2basin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kindref="member">numBasins</ref><sp/>);</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1ga50705670ff6a5cb245a04bce034f12ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga50705670ff6a5cb245a04bce034f12ec" kindref="member">WatershedGraph</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;int, FaceId&gt;</ref><sp/>&amp;<sp/>face2basin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kindref="member">numBasins</ref><sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" kindref="member">getHeightAt</ref>(<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77" refid="group__GeneralGroup_1ga02132a9c3480025356b1c3121549dd04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga02132a9c3480025356b1c3121549dd04" kindref="member">getHeightAt</ref>(<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80" refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph" kindref="compound">Graph</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" kindref="member">graph</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>graph_;<sp/>}</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
@@ -222,29 +263,29 @@
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" kindref="member">outsideId</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>outsideId_;<sp/>}</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" kindref="member">getRootBasin</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100" refid="group__GeneralGroup_1ga85b7c2ccd5e28806db46f5a26e507f28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga85b7c2ccd5e28806db46f5a26e507f28" kindref="member">getRootBasin</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" kindref="member">flowsTo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103" refid="group__GeneralGroup_1ga5b2711abdf56822582fe72b67b334a6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga5b2711abdf56822582fe72b67b334a6b" kindref="member">flowsTo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" kindref="member">flowsFinallyTo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exceptOutside<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1ga4760ccbf2c39897d1e8968ebe9551298" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga4760ccbf2c39897d1e8968ebe9551298" kindref="member">flowsFinallyTo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exceptOutside<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" kindref="member">setParentsToRoots</ref>();</highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1ga0075320ba33e4e671d46cf54d63bbdff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0075320ba33e4e671d46cf54d63bbdff" kindref="member">setParentsToRoots</ref>();</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;Graph::EdgeId,<sp/>float&gt;<sp/><ref refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" kindref="member">findLowestBd</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115" refid="group__GeneralGroup_1gabf123281495927e599e51b75d652c16c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;Graph::EdgeId,<sp/>float&gt;<sp/><ref refid="group__GeneralGroup_1gabf123281495927e599e51b75d652c16c" kindref="member">findLowestBd</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" kindref="member">merge</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v0,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v1<sp/>);</highlight></codeline>
+<codeline lineno="118" refid="group__GeneralGroup_1ga557cfc57817b5b67b52b24991ee87a8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga557cfc57817b5b67b52b24991ee87a8b" kindref="member">merge</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v0,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v1<sp/>);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" kindref="member">mergeViaBd</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref><sp/>bd<sp/>);</highlight></codeline>
+<codeline lineno="121" refid="group__GeneralGroup_1ga8cc719c5ef9f380e16c5d06041d4b9e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga8cc719c5ef9f380e16c5d06041d4b9e0" kindref="member">mergeViaBd</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref><sp/>bd<sp/>);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" kindref="member">getBasinFaces</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124" refid="group__GeneralGroup_1ga83b8a3cf4ecc5a211c8b5d03729e5135" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga83b8a3cf4ecc5a211c8b5d03729e5135" kindref="member">getBasinFaces</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;FaceBitSet, Graph::VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" kindref="member">getAllBasinFaces</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128" refid="group__GeneralGroup_1ga5f3ce49434aabe62d6adefdd21cb8de8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;FaceBitSet, Graph::VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga5f3ce49434aabe62d6adefdd21cb8de8" kindref="member">getAllBasinFaces</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" kindref="member">getBasinFacesBelowLevel</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>waterLevel<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1gacb0f326b076e25bddfb91bc11659bd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gacb0f326b076e25bddfb91bc11659bd1a" kindref="member">getBasinFacesBelowLevel</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>waterLevel<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" kindref="member">computeBasinVolume</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>waterLevel<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135" refid="group__GeneralGroup_1gad07c81be05f8ec3cd0086cd911373589" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad07c81be05f8ec3cd0086cd911373589" kindref="member">computeBasinVolume</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>waterLevel<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" kindref="member">getInterBasinEdges</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139" refid="group__GeneralGroup_1ga6215c2b6a5a985316a55d6ce1672e42e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga6215c2b6a5a985316a55d6ce1672e42e" kindref="member">getInterBasinEdges</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142" refid="structMR_1_1WatershedGraph_1_1OverflowPoint" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WatershedGraph_1_1OverflowPoint" kindref="compound">OverflowPoint</ref></highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -253,9 +294,9 @@
 <codeline lineno="146" refid="group__GeneralGroup_1ga4058c6bc93b43ba32fc92f1f336b7619" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga4058c6bc93b43ba32fc92f1f336b7619" kindref="member">overflowTo</ref>;<sp/></highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;OverflowPoint&gt;<sp/><ref refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" kindref="member">getOverflowPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150" refid="group__GeneralGroup_1gab568bdf3fd95f172c0cd0dac1fff6c5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;OverflowPoint&gt;<sp/><ref refid="group__GeneralGroup_1gab568bdf3fd95f172c0cd0dac1fff6c5d" kindref="member">getOverflowPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Graph::VertId, Graph::VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" kindref="member">iniBasin2Tgt</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154" refid="group__GeneralGroup_1ga0c631771a448fb0e09538e22707305f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Graph::VertId, Graph::VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga0c631771a448fb0e09538e22707305f9" kindref="member">iniBasin2Tgt</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh_;</highlight></codeline>

@@ -2,11 +2,47 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRShowModal_8h" kind="file" language="C++">
     <compoundname>MRShowModal.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRNotificationType_8h" local="yes">MRNotificationType.h</includes>
     <includedby refid="ImGuiMenu_8h" local="yes">ImGuiMenu.h</includedby>
     <incdepgraph>
-      <node id="3">
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="16">
         <label>MRNotificationType.h</label>
         <link refid="MRNotificationType_8h"/>
       </node>
@@ -15,11 +51,48 @@
         <link refid="MRShowModal_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -60,17 +133,17 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRNotificationType_8h" kindref="compound">MRNotificationType.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1ga042f3414ad34f25080f423078a3ad327" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga042f3414ad34f25080f423078a3ad327" kindref="member">showModal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>error,<sp/><ref refid="group__GeneralGroup_1ga3ccf27858d11d72a88bdbaf6e9d2b05d" kindref="member">NotificationType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga04d5a9c5ea64015a7ac8eccdf71e108e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga04d5a9c5ea64015a7ac8eccdf71e108e" kindref="member">showModal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>error,<sp/><ref refid="group__GeneralGroup_1ga3ccf27858d11d72a88bdbaf6e9d2b05d" kindref="member">NotificationType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1ga81804b582b588b4a894660b307a92cc2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga81804b582b588b4a894660b307a92cc2" kindref="member">showError</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>error<sp/>)</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga042f3414ad34f25080f423078a3ad327" kindref="member">showModal</ref>(<sp/>error,<sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd" kindref="member">NotificationType::Error</ref><sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga04d5a9c5ea64015a7ac8eccdf71e108e" kindref="member">showModal</ref>(<sp/>error,<sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd" kindref="member">NotificationType::Error</ref><sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>

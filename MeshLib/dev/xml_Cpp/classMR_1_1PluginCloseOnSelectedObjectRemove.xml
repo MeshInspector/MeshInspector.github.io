@@ -9,9 +9,9 @@
       <member refid="group__GeneralGroup_1ga90e667c415c9c5f19be0f5c8383d3448" kind="variable"><name>selectedObjs_</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga4be1eca9d7909ac4a5cbe2b48ceee2f2" kind="function"><name>onPluginEnable_</name></member>
-      <member refid="group__GeneralGroup_1ga3692cfee7d26f636f2487f01cfa6afc8" kind="function"><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga174d0cc22e4a0b69220109e026efaf7f" kind="function"><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1gaa62f51f7319943c7184b9c948adfbe59" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaa560ad539172d4468ab4c11bda0cfa1f" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga10c8ea6c503388d2719e921b1ec1c9e2" kind="function"><name>shouldClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -50,11 +50,11 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="32" bodyend="39"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga3692cfee7d26f636f2487f01cfa6afc8" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>onPluginDisable_</name></member>
-      <member refid="group__GeneralGroup_1ga4be1eca9d7909ac4a5cbe2b48ceee2f2" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaa560ad539172d4468ab4c11bda0cfa1f" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gaa62f51f7319943c7184b9c948adfbe59" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>onPluginEnable_</name></member>
       <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>preDrawUpdate</name></member>
       <member refid="group__GeneralGroup_1ga90e667c415c9c5f19be0f5c8383d3448" prot="private" virt="non-virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>selectedObjs_</name></member>
-      <member refid="group__GeneralGroup_1ga174d0cc22e4a0b69220109e026efaf7f" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga10c8ea6c503388d2719e921b1ec1c9e2" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>shouldClose_</name></member>
       <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>~IPluginUpdate</name></member>
     </listofallmembers>
   </compounddef>

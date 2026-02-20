@@ -40,10 +40,10 @@ var MRImGuiMeasurementIndicators_8h =
     [ "TextIcon", "MRImGuiMeasurementIndicators_8h.html#ada21c38059140ab54d2c729c198e39f4", [
       [ "diameter", "MRImGuiMeasurementIndicators_8h.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378", null ]
     ] ],
-    [ "arrowTriangle", "MRImGuiMeasurementIndicators_8h.html#a8c5e10a09f814d534e98407570061530", null ],
-    [ "distance", "MRImGuiMeasurementIndicators_8h.html#adde528adacd6500e6e542902d77f3690", null ],
-    [ "line", "MRImGuiMeasurementIndicators_8h.html#a5eeca0f9dda534003c2bd14f598dd27c", null ],
-    [ "point", "MRImGuiMeasurementIndicators_8h.html#ad36daa50d771e787011f42e1d74ef4fe", null ],
+    [ "arrowTriangle", "MRImGuiMeasurementIndicators_8h.html#a71248914dc84117569c4980bc4906a4a", null ],
+    [ "distance", "MRImGuiMeasurementIndicators_8h.html#a491df75b1eafcddfde28b6ed4dd4c88c", null ],
+    [ "line", "MRImGuiMeasurementIndicators_8h.html#a10f8eed093365dade4b8f37a4bdf05fb", null ],
+    [ "point", "MRImGuiMeasurementIndicators_8h.html#a6ef5d71c48a4e7485fa77f40c981eab4", null ],
     [ "prepareCurve", "MRImGuiMeasurementIndicators_8h.html#aa8511657c2ed1cc63ff209a6ede1c0f9", null ],
-    [ "text", "MRImGuiMeasurementIndicators_8h.html#ad06ab5868363731bf9b8a19d146e0d0b", null ]
+    [ "text", "MRImGuiMeasurementIndicators_8h.html#ab99fb146ee19534728c21de96d621c49", null ]
 ];

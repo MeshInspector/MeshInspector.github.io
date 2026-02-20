@@ -54,7 +54,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="57" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MultiRayMeshIntersectResult_1abe24325f915016d19bbaa021b7acdf15" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; TriPointf &gt; *</type>
+        <type>std::vector&lt; <ref refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kindref="member">TriPointf</ref> &gt; *</type>
         <definition>std::vector&lt;TriPointf&gt;* MR::MultiRayMeshIntersectResult::isectBary</definition>
         <argsstring></argsstring>
         <name>isectBary</name>

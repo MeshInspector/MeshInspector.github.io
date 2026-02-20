@@ -7,7 +7,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga4a6459f8e52042e121c679fb50fe589b" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga5cc8ba8e6f14534373f4af57eb899efb" kind="function"><name>~TouchpadRotateGestureUpdateListener</name></member>
-      <member refid="group__GeneralGroup_1ga1543608250b47eb5f6a2545ff3cb0d5a" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gaf267b3d116d685a485ca8996b4f7bc5b" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1ga24ed3f7e2ae56c6df5adc3606fb0ec7e" kind="function"><name>touchpadRotateGestureUpdate_</name></member>
@@ -55,7 +55,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="320" bodyend="326"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga1543608250b47eb5f6a2545ff3cb0d5a" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureUpdateListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gaf267b3d116d685a485ca8996b4f7bc5b" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureUpdateListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadRotateGestureUpdateListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureUpdateListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga4a6459f8e52042e121c679fb50fe589b" prot="public" virt="non-virtual"><scope>MR::TouchpadRotateGestureUpdateListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

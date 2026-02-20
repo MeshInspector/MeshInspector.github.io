@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRObjectLoad_8h" kind="file" language="C++">
     <compoundname>MRObjectLoad.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRIOFilters_8h" local="yes">MRIOFilters.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
@@ -11,56 +11,84 @@
     <includes refid="MRLoadedObjects_8h" local="yes">MRLoadedObjects.h</includes>
     <includes local="no">filesystem</includes>
     <incdepgraph>
-      <node id="11">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRIOFilters.h</label>
         <link refid="MRIOFilters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRLoadedObjects.h</label>
+        <link refid="MRLoadedObjects_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="17">
-        <label>MRLoadedObjects.h</label>
-        <link refid="MRLoadedObjects_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="21">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="14">
+      <node id="20">
         <label>MRMeshLoadSettings.h</label>
         <link refid="MRMeshLoadSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -68,95 +96,102 @@
         <link refid="MRObjectLoad_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
-      <node id="8">
+      <node id="16">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="21">
         <label>MRUniqueTemporaryFolder.h</label>
         <link refid="MRUniqueTemporaryFolder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="24">
         <label>MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
-      <node id="19">
+      <node id="25">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
       </node>
-      <node id="20">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="12">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="13">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="9">
-        <label>cassert</label>
-      </node>
-      <node id="10">
-        <label>cmath</label>
-      </node>
-      <node id="4">
-        <label>compare</label>
-      </node>
-      <node id="16">
-        <label>filesystem</label>
-      </node>
-      <node id="22">
-        <label>memory</label>
-      </node>
-      <node id="5">
-        <label>optional</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>string</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="19">
+        <label>MRPch/MRExpected.h</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="17">
+        <label>cmath</label>
+      </node>
+      <node id="14">
+        <label>compare</label>
+      </node>
+      <node id="22">
+        <label>filesystem</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="26">
+        <label>memory</label>
+      </node>
+      <node id="15">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -168,7 +203,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRIOFilters_8h" kindref="compound">MRIOFilters.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -183,34 +218,34 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"></codeline>
-<codeline lineno="23" refid="group__DataModelGroup_1ga16cd43ef755c087f9358dc1bb5473119" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjectMesh&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga16cd43ef755c087f9358dc1bb5473119" kindref="member">makeObjectMeshFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjectMesh&gt;</ref><sp/><ref refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" kindref="member">makeObjectMeshFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__DataModelGroup_1ga1d6fce928c9225edf56e248b7428e65d" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga1d6fce928c9225edf56e248b7428e65d" kindref="member">makeObjectFromMeshFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>cb<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="26" refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" kindref="member">makeObjectFromMeshFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>returnOnlyMesh<sp/>=<sp/>false<sp/>);<sp/></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__DataModelGroup_1ga49f50b3f8a8b62d1de7af24264eac759" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectLines&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga49f50b3f8a8b62d1de7af24264eac759" kindref="member">makeObjectLinesFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/>ProgressCallback<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="30" refid="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectLines&gt;</ref><sp/><ref refid="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" kindref="member">makeObjectLinesFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__DataModelGroup_1gacd7dca15ed95f44fa82294bf8a85be2a" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectPoints&gt;</ref><sp/><ref refid="group__DataModelGroup_1gacd7dca15ed95f44fa82294bf8a85be2a" kindref="member">makeObjectPointsFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/>ProgressCallback<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__DataModelGroup_1gae9ee60bba4a2913ac489fd27115fdd5b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectPoints&gt;</ref><sp/><ref refid="group__DataModelGroup_1gae9ee60bba4a2913ac489fd27115fdd5b" kindref="member">makeObjectPointsFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__DataModelGroup_1ga6db28aaf4d28c32688ee3fbe07c2cd69" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectDistanceMap&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga6db28aaf4d28c32688ee3fbe07c2cd69" kindref="member">makeObjectDistanceMapFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/>ProgressCallback<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="36" refid="group__DataModelGroup_1ga57cc69565e989e8da9e17d20f41b42eb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectDistanceMap&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga57cc69565e989e8da9e17d20f41b42eb" kindref="member">makeObjectDistanceMapFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__DataModelGroup_1ga9e5093d4aabe18b3b177676bed2f1832" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectGcode&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga9e5093d4aabe18b3b177676bed2f1832" kindref="member">makeObjectGcodeFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/>ProgressCallback<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__DataModelGroup_1ga0bb66c4b59655efd884905cf765e7a8a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ObjectGcode&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga0bb66c4b59655efd884905cf765e7a8a" kindref="member">makeObjectGcodeFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__DataModelGroup_1ga01ad9a53501f3ed7609ba0a65b9ff422" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga01ad9a53501f3ed7609ba0a65b9ff422" kindref="member">loadObjectFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>filename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" kindref="member">loadObjectFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>filename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="group__DataModelGroup_1gaa2082792bceb5a2dd3b18ff5693f0441" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__DataModelGroup_1gaa2082792bceb5a2dd3b18ff5693f0441" kindref="member">isSupportedFileInSubfolders</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>folder<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" kindref="member">isSupportedFileInSubfolders</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>folder<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__DataModelGroup_1ga873b67818008b890a9733f438d361235" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga873b67818008b890a9733f438d361235" kindref="member">loadSceneFromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" kindref="member">loadSceneFromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="group__DataModelGroup_1ga5058cc4a63ce3a27970db1903d9c221d" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga5058cc4a63ce3a27970db1903d9c221d" kindref="member">deserializeObjectTree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
+<codeline lineno="62" refid="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" kindref="member">deserializeObjectTree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref>&amp;<sp/>postDecompress<sp/>=<sp/>{},</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="group__DataModelGroup_1gaf9b67bada243a640e8a520638c9771be" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1gaf9b67bada243a640e8a520638c9771be" kindref="member">deserializeObjectTreeFromFolder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>folder,</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="74" refid="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" kindref="member">deserializeObjectTreeFromFolder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>folder,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="group__DataModelGroup_1gac7615c6e4894a59a84ec57986cbfc9c7" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref><sp/><ref refid="group__DataModelGroup_1gac7615c6e4894a59a84ec57986cbfc9c7" kindref="member">getAllFilters</ref>();</highlight></codeline>
+<codeline lineno="79" refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref><sp/><ref refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" kindref="member">getAllFilters</ref>();</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83"><highlight class="normal">}<sp/></highlight></codeline>

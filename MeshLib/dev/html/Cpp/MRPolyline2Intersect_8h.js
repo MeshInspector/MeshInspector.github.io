@@ -1,12 +1,11 @@
 var MRPolyline2Intersect_8h =
 [
-    [ "MR::PolylineIntersectionResult2", "structMR_1_1PolylineIntersectionResult2.html", "structMR_1_1PolylineIntersectionResult2" ],
-    [ "PolylineIntersectionCallback2", "MRPolyline2Intersect_8h.html#a80d1c820a9a9983c511c6785b2c8ed94", null ],
-    [ "PolylineIntersectionCallback2d", "MRPolyline2Intersect_8h.html#aba7cace2c59d8ea1874ea0223d3c3d42", null ],
-    [ "PolylineIntersectionCallback2f", "MRPolyline2Intersect_8h.html#ae0b1767f78412a4100c7baa4ae2cb2de", null ],
-    [ "isPointInsidePolyline", "MRPolyline2Intersect_8h.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
-    [ "rayPolylineIntersect", "MRPolyline2Intersect_8h.html#a6676a2ad828681c05e6c1fccdf52553e", null ],
-    [ "rayPolylineIntersect", "MRPolyline2Intersect_8h.html#aced4d907b5fe7e8492db1e0168969ef0", null ],
-    [ "rayPolylineIntersectAll", "MRPolyline2Intersect_8h.html#abf79f047867338a89736183056994f69", null ],
-    [ "rayPolylineIntersectAll", "MRPolyline2Intersect_8h.html#abc2868e5402457432689a152d4f07aab", null ]
+    [ "PolylineIntersectionCallback2", "MRPolyline2Intersect_8h.html#ga80d1c820a9a9983c511c6785b2c8ed94", null ],
+    [ "PolylineIntersectionCallback2d", "MRPolyline2Intersect_8h.html#gaba7cace2c59d8ea1874ea0223d3c3d42", null ],
+    [ "PolylineIntersectionCallback2f", "MRPolyline2Intersect_8h.html#gae0b1767f78412a4100c7baa4ae2cb2de", null ],
+    [ "isPointInsidePolyline", "MRPolyline2Intersect_8h.html#ga8cdd94e81e6095b86dbd245ec23e9657", null ],
+    [ "rayPolylineIntersect", "MRPolyline2Intersect_8h.html#ga40c1b0b4821dfe2acb66ec335a638cdc", null ],
+    [ "rayPolylineIntersect", "MRPolyline2Intersect_8h.html#ga33dfe4d49b343eca892fe35c75826f0b", null ],
+    [ "rayPolylineIntersectAll", "MRPolyline2Intersect_8h.html#ga9a7462ec4027240eb0a1161b6f626cb7", null ],
+    [ "rayPolylineIntersectAll", "MRPolyline2Intersect_8h.html#ga6334c9f41d88763fea47f1a1af491d7a", null ]
 ];

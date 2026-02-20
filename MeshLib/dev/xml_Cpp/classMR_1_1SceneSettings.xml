@@ -15,18 +15,18 @@
       <member refid="group__GeneralGroup_1ga61486b22f9af7ded129fa6bcb8b6d30b" kind="variable"><name>cncMachineSettings_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga99c0597b4736ae61ccee231e3ee128f2" kind="function"><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga18c9a1123941b3ec2a871e49db0bd687" kind="function"><name>get</name></member>
-      <member refid="group__GeneralGroup_1ga6d3be44b66c41e166e07856aa4673e4f" kind="function"><name>get</name></member>
-      <member refid="group__GeneralGroup_1ga51aaea6eb63ecc588e48c5dc225d6f37" kind="function"><name>set</name></member>
-      <member refid="group__GeneralGroup_1ga68b57eea600905333d751706f1d51652" kind="function"><name>set</name></member>
-      <member refid="group__GeneralGroup_1gad795c96b5d06b21a8f5f3510c945b568" kind="function"><name>getDefaultShadingMode</name></member>
-      <member refid="group__GeneralGroup_1gac1d2767ac82804a0b2c0d7e9204ec4c4" kind="function"><name>setDefaultShadingMode</name></member>
-      <member refid="group__GeneralGroup_1gacc623e68729b68bbf4c1068297ab5122" kind="function"><name>getCNCMachineSettings</name></member>
-      <member refid="group__GeneralGroup_1ga74e917fd6f8f3e450de96469896b2bf1" kind="function"><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga894fcc815298b0aebea325e64d09c495" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga16a379ad3fa3bd316038e6040a25d235" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga5786f478398399366131858ce23f54da" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1gab78f12b36390bcda6254817a9d7247b6" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1gab33c04442675301bb7cf035e494dd33f" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1ga02b287347092463de5476b8ec75d358f" kind="function"><name>getDefaultShadingMode</name></member>
+      <member refid="group__GeneralGroup_1gafca3894ccff66bbec70307b98b8b79cd" kind="function"><name>setDefaultShadingMode</name></member>
+      <member refid="group__GeneralGroup_1gadb3726c677eae05ad9e1d00f757913c0" kind="function"><name>getCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1gaeeec7a68a9468bf16f9a6de3ab6566bf" kind="function"><name>setCNCMachineSettings</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga3db2438b6d6dd98c4b6a06775c388370" kind="function"><name>SceneSettings</name></member>
+      <member refid="group__GeneralGroup_1gabb107126e0510fa95451b5471436d2d6" kind="function"><name>SceneSettings</name></member>
       <member refid="group__GeneralGroup_1ga833e6c4ea6089cdfa4dbddf1706b3016" kind="function"><name>~SceneSettings</name></member>
       <member refid="group__GeneralGroup_1gaab309373a5f3f1cdf32c93bcc6fc34f9" kind="function"><name>operator=</name></member>
     </sectiondef>
@@ -46,18 +46,18 @@
       <member refid="group__GeneralGroup_1gacd4f262ef33f4cc9d0bbee84ddbfcb1c" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>defaultShadingMode_</name></member>
       <member refid="group__GeneralGroup_1ga61a10cb8195c7d27a991787319abc2d4" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>floatSettings_</name></member>
       <member refid="group__GeneralGroup_1gad40f8b0bfec68b50393b6e9e021b0261" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>FloatType</name></member>
-      <member refid="group__GeneralGroup_1ga18c9a1123941b3ec2a871e49db0bd687" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>get</name></member>
-      <member refid="group__GeneralGroup_1ga6d3be44b66c41e166e07856aa4673e4f" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>get</name></member>
-      <member refid="group__GeneralGroup_1gacc623e68729b68bbf4c1068297ab5122" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>getCNCMachineSettings</name></member>
-      <member refid="group__GeneralGroup_1gad795c96b5d06b21a8f5f3510c945b568" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>getDefaultShadingMode</name></member>
+      <member refid="group__GeneralGroup_1ga16a379ad3fa3bd316038e6040a25d235" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga5786f478398399366131858ce23f54da" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gadb3726c677eae05ad9e1d00f757913c0" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>getCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga02b287347092463de5476b8ec75d358f" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>getDefaultShadingMode</name></member>
       <member refid="group__GeneralGroup_1ga287f581fbd80098de7734314b41e28c1" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>instance_</name></member>
       <member refid="group__GeneralGroup_1gaab309373a5f3f1cdf32c93bcc6fc34f9" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1ga99c0597b4736ae61ccee231e3ee128f2" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga3db2438b6d6dd98c4b6a06775c388370" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>SceneSettings</name></member>
-      <member refid="group__GeneralGroup_1ga51aaea6eb63ecc588e48c5dc225d6f37" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>set</name></member>
-      <member refid="group__GeneralGroup_1ga68b57eea600905333d751706f1d51652" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>set</name></member>
-      <member refid="group__GeneralGroup_1ga74e917fd6f8f3e450de96469896b2bf1" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>setCNCMachineSettings</name></member>
-      <member refid="group__GeneralGroup_1gac1d2767ac82804a0b2c0d7e9204ec4c4" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>setDefaultShadingMode</name></member>
+      <member refid="group__GeneralGroup_1ga894fcc815298b0aebea325e64d09c495" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gabb107126e0510fa95451b5471436d2d6" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>SceneSettings</name></member>
+      <member refid="group__GeneralGroup_1gab78f12b36390bcda6254817a9d7247b6" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1gab33c04442675301bb7cf035e494dd33f" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1gaeeec7a68a9468bf16f9a6de3ab6566bf" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1gafca3894ccff66bbec70307b98b8b79cd" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>setDefaultShadingMode</name></member>
       <member refid="group__GeneralGroup_1ga308e72dcfc90ae1a9370ca7c7bc3290c" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>ShadingMode</name></member>
       <member refid="group__GeneralGroup_1ga833e6c4ea6089cdfa4dbddf1706b3016" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>~SceneSettings</name></member>
     </listofallmembers>

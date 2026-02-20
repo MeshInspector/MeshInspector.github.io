@@ -2,32 +2,30 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRRibbonSceneObjectsListDrawer_8h" kind="file" language="C++">
     <compoundname>MRRibbonSceneObjectsListDrawer.h</compoundname>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRSceneObjectsListDrawer_8h" local="yes">MRSceneObjectsListDrawer.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <incdepgraph>
-      <node id="11">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="12" relation="include">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MRRibbonSceneObjectsListDrawer.h</label>
-        <link refid="MRRibbonSceneObjectsListDrawer_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRSceneObjectsListDrawer.h</label>
-        <link refid="MRSceneObjectsListDrawer_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -35,37 +33,100 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="5">
+      <node id="20">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRRibbonSceneObjectsListDrawer.h</label>
+        <link refid="MRRibbonSceneObjectsListDrawer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRSceneObjectsListDrawer.h</label>
+        <link refid="MRSceneObjectsListDrawer_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
         <label>MRSceneReorder.h</label>
         <link refid="MRSceneReorder_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMesh/MRMeshFwd.h</label>
+      <node id="16">
+        <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
       </node>
       <node id="6">
-        <label>MRViewerFwd.h</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="12">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="21">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="4">
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
         <label>exports.h</label>
       </node>
-      <node id="8">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="18">
         <label>memory</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
         <label>string</label>
       </node>
-      <node id="10">
+      <node id="19">
         <label>unordered_map</label>
       </node>
-      <node id="7">
+      <node id="8">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -78,7 +139,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSceneObjectsListDrawer_8h" kindref="compound">MRSceneObjectsListDrawer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSignal_8h" kindref="compound">MRMesh/MRSignal.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
@@ -91,23 +152,23 @@
 <codeline lineno="15" refid="classMR_1_1RibbonSceneObjectsListDrawer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1RibbonSceneObjectsListDrawer" kindref="compound">RibbonSceneObjectsListDrawer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SceneObjectsListDrawer" kindref="compound">SceneObjectsListDrawer</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1gaea709a4c7f86169aed34caaf2005e834" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaea709a4c7f86169aed34caaf2005e834" kindref="member">draw</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga0d0fb4bcc7b0ecaab3c3c6e316f9c934" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0d0fb4bcc7b0ecaab3c3c6e316f9c934" kindref="member">draw</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga6fccd91d7785e8df8425ed250c606137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6fccd91d7785e8df8425ed250c606137" kindref="member">initRibbonMenu</ref>(<sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu<sp/>);</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga04abc3de8e718d6580a97c614043ea6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga04abc3de8e718d6580a97c614043ea6f" kindref="member">initRibbonMenu</ref>(<sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga7b203ae37c12d09d2d98e86766a46fe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7b203ae37c12d09d2d98e86766a46fe5" kindref="member">setCloseContextOnChange</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deselect<sp/>)<sp/>{<sp/>closeContextOnChange_<sp/>=<sp/>deselect;<sp/>}</highlight></codeline>
 <codeline lineno="25" refid="group__GeneralGroup_1ga76b557373659019c5f9ce857d437e84a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga76b557373659019c5f9ce857d437e84a" kindref="member">getCloseContextOnChange</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>closeContextOnChange_;<sp/>}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="group__GeneralGroup_1gaa3fac069d87e7b77317f8987e5a591f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void()&gt;<sp/><ref refid="group__GeneralGroup_1gaa3fac069d87e7b77317f8987e5a591f0" kindref="member">onDrawContextSignal</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga4e8a6cc8c1d5b8b6f4f05011f6887688" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4e8a6cc8c1d5b8b6f4f05011f6887688" kindref="member">drawCustomObjectPrefixInScene_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>opened<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga1032f9f59d910e1113385182e182986b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1032f9f59d910e1113385182e182986b" kindref="member">drawSceneContextMenu_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1gad86a3587a045aae766a1ba386a398763" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad86a3587a045aae766a1ba386a398763" kindref="member">collapsingHeader_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueName,<sp/><ref refid="group__GeneralGroup_1gadef3ad4d7054ccf6e99aba195fc29cf8" kindref="member">ImGuiTreeNodeFlags</ref><sp/>flags<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gab26146ff0bb7a4ec8340a72dbfbc296f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab26146ff0bb7a4ec8340a72dbfbc296f" kindref="member">drawCustomObjectPrefixInScene_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>opened<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga843b49589f2763533269ca87249c2d4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga843b49589f2763533269ca87249c2d4d" kindref="member">drawSceneContextMenu_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>selected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga6786c6530d025a1e9acab79910d8a114" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6786c6530d025a1e9acab79910d8a114" kindref="member">collapsingHeader_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueName,<sp/><ref refid="group__GeneralGroup_1gadef3ad4d7054ccf6e99aba195fc29cf8" kindref="member">ImGuiTreeNodeFlags</ref><sp/>flags<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gace8f2d89b5482ae8137036f4d38ed4fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gace8f2d89b5482ae8137036f4d38ed4fa" kindref="member">objectLineStrId_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gaea128d37e7d7035f849f1569b931a56a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaea128d37e7d7035f849f1569b931a56a" kindref="member">objectLineStrId_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga9edde88675685e22f89f455241fd1eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9edde88675685e22f89f455241fd1eef" kindref="member">drawObject_</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1ga93c05ad6cbe137ae91506d25d990e5f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga93c05ad6cbe137ae91506d25d990e5f6" kindref="member">drawSkippedObject_</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gaa81e3e39a235a0ffc8c1b9b5bea06713" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa81e3e39a235a0ffc8c1b9b5bea06713" kindref="member">drawObject_</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga33348170cfbfd40b37ebd1de4aaf6a2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33348170cfbfd40b37ebd1de4aaf6a2a" kindref="member">drawSkippedObject_</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uniqueStr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>getSceneItemIconByTypeName_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>typeName<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>

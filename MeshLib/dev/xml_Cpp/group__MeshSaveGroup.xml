@@ -5,9 +5,9 @@
     <title>Mesh Save</title>
     <innerclass refid="classMR_1_1MeshSave_1_1BinaryStlSaver" prot="public">MR::MeshSave::BinaryStlSaver</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga62df62b4aee4263089fc3ef0f91c7405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toMrmesh</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga9513ef1ff3f501a7e44ca11e8020add4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toMrmesh</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toMrmesh</name>
         <qualifiedname>MR::MeshSave::toMrmesh</qualifiedname>
@@ -31,11 +31,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="22" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="22" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="22" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="22" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga2aee8eeae26cae66b90a61ce4f15aea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toMrmesh</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gaca2f6357ec8494d5605359f1605f00b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toMrmesh</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toMrmesh</name>
         <qualifiedname>MR::MeshSave::toMrmesh</qualifiedname>
@@ -58,11 +58,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="24" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="24" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="24" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="24" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga307b06c1c3ead50a2d460fa37bc1b409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toOff</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga9493b59b63946b2427188aed7ceae256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toOff</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toOff</name>
         <qualifiedname>MR::MeshSave::toOff</qualifiedname>
@@ -86,11 +86,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="28" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="28" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="28" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="28" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga056deefee77d34a164a0f2c6d1097c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toOff</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga5cab07cbc5369d18fca71011228d33b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toOff</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toOff</name>
         <qualifiedname>MR::MeshSave::toOff</qualifiedname>
@@ -113,11 +113,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="30" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="30" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1gab760df35b57e01e8dcd026dfd57d832c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toObj</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga4b9585f48a225b83d863e0e82383aa9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toObj</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings, int firstVertId)</argsstring>
         <name>toObj</name>
         <qualifiedname>MR::MeshSave::toObj</qualifiedname>
@@ -153,11 +153,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="35" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="35" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="35" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga9dd32c07ebafcd2509bc67da23006001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toObj</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga4fcb5ab4105d39961204edb69866a87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toObj</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings, int firstVertId)</argsstring>
         <name>toObj</name>
         <qualifiedname>MR::MeshSave::toObj</qualifiedname>
@@ -183,11 +183,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="37" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="37" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="37" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="37" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga08bceb44c2939fa849e458cad1b68c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toObj</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga99361f5e73fcec76e460fe7153442d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toObj</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toObj</name>
         <qualifiedname>MR::MeshSave::toObj</qualifiedname>
@@ -210,11 +210,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="39" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="39" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="39" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga732572455c51035ed09a0baeb640168c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toObj</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga885ca3bf0f9f521539eca3f1bc82950c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toObj</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toObj</name>
         <qualifiedname>MR::MeshSave::toObj</qualifiedname>
@@ -237,11 +237,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="40" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="40" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="40" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="40" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga4ddea26e586be2e647b4043145fc48bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toBinaryStl</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga4f968ed54c31feadebfa02f4171cfa95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toBinaryStl</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toBinaryStl</name>
         <qualifiedname>MR::MeshSave::toBinaryStl</qualifiedname>
@@ -265,11 +265,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="44" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="44" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="44" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="44" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga576e952344d47f7eee7db3c7c4a58d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toBinaryStl</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga850d272bef2b55dd5a298f29e36b2862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toBinaryStl</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toBinaryStl</name>
         <qualifiedname>MR::MeshSave::toBinaryStl</qualifiedname>
@@ -292,11 +292,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="45" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="45" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="45" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga276bcc52bbcffca1496916fbadf625d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toAsciiStl</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga1968a9ae2414592ce8ddd9065a03cb5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toAsciiStl</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toAsciiStl</name>
         <qualifiedname>MR::MeshSave::toAsciiStl</qualifiedname>
@@ -320,11 +320,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="74" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="74" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="74" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1gad5bc630fe647582bd23c680ca809dc88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toAsciiStl</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga47d9eeebccc75c931f9cff81eb676f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toAsciiStl</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toAsciiStl</name>
         <qualifiedname>MR::MeshSave::toAsciiStl</qualifiedname>
@@ -347,11 +347,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="75" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="75" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="75" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga9a03e471984e089dcc7bffccaad21232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toPly</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga1a0796b03ec2e8205ec985cb2214c362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toPly</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toPly</name>
         <qualifiedname>MR::MeshSave::toPly</qualifiedname>
@@ -375,11 +375,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="78" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="78" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="78" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="78" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga14b6127d4b32affdeb1d2dc85ad8ef82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toPly</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga620714cb8a5706d3ec0694c34dfa83db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toPly</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toPly</name>
         <qualifiedname>MR::MeshSave::toPly</qualifiedname>
@@ -402,11 +402,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="79" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="79" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="79" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="79" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga2c28b431b51d43f8242e88cff3336d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toModel3mf</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gac7864ffe508d7d2a043b6e5006080939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toModel3mf</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toModel3mf</name>
         <qualifiedname>MR::MeshSave::toModel3mf</qualifiedname>
@@ -430,11 +430,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="82" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="82" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="82" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="82" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga5aab4d79369ecf5ebc3c896db040e950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toModel3mf</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gaa35cc232c4f90c198d7e92339daee858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toModel3mf</definition>
         <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toModel3mf</name>
         <qualifiedname>MR::MeshSave::toModel3mf</qualifiedname>
@@ -457,11 +457,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="83" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="83" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="83" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga243e1f662be38defccfbb68793ca9f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::to3mf</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga8c9353b4703d4a74cbc6abf109e2f329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::to3mf</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>to3mf</name>
         <qualifiedname>MR::MeshSave::to3mf</qualifiedname>
@@ -485,11 +485,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="86" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="86" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="86" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="86" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga6f98b4f73676fa32a7e3573939cb76b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1ga8c3547484d9f9d64e8d1d967225e190f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toAnySupportedFormat</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR::MeshSave::toAnySupportedFormat</qualifiedname>
@@ -513,11 +513,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="89" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="89" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="89" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1gad4a68b822ce0f6ca3a4ad05b0a9d3fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::toAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gae312c46875e32db543db5c77bdc1d1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::MeshSave::toAnySupportedFormat</definition>
         <argsstring>(const Mesh &amp;mesh, const std::string &amp;extension, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR::MeshSave::toAnySupportedFormat</qualifiedname>
@@ -545,7 +545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="91" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="91" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="91" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" declline="91" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

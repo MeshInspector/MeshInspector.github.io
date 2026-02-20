@@ -2,15 +2,21 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRFillHoleNicely_8h" kind="file" language="C++">
     <compoundname>MRFillHoleNicely.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMeshFillHole_8h" local="yes">MRMeshFillHole.h</includes>
     <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
     <incdepgraph>
-      <node id="10">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="21">
+      <node id="27">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
@@ -21,71 +27,59 @@
         <link refid="MRFillHoleNicely_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="25">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRMacros.h</label>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRMeshFillHole.h</label>
         <link refid="MRMeshFillHole_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMeshMetrics.h</label>
-        <link refid="MRMeshMetrics_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -93,50 +87,97 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+      </node>
+      <node id="14">
+        <label>MRMeshMetrics.h</label>
+        <link refid="MRMeshMetrics_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="11">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="12">
-        <label>algorithm</label>
-      </node>
-      <node id="19">
-        <label>cassert</label>
-      </node>
-      <node id="13">
-        <label>cmath</label>
-      </node>
-      <node id="8">
-        <label>cstddef</label>
-      </node>
-      <node id="14">
-        <label>cstring</label>
-      </node>
-      <node id="17">
-        <label>functional</label>
+      <node id="16">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
       </node>
       <node id="15">
-        <label>iosfwd</label>
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cstddef</label>
+      </node>
+      <node id="22">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="26">
         <label>memory</label>
       </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="18">
         <label>type_traits</label>
       </node>
-      <node id="16">
+      <node id="24">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1FillHoleNicelySettings" prot="public">MR::FillHoleNicelySettings</innerclass>
@@ -148,7 +189,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFillHole_8h" kindref="compound">MRMeshFillHole.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -189,7 +230,7 @@
 <codeline lineno="58" refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceColors<sp/>*<sp/><ref refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" kindref="member">faceColors</ref><sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga336e1461bdc97f5a14465c6571e7f492" refkind="member"><highlight class="normal">MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga336e1461bdc97f5a14465c6571e7f492" kindref="member">fillHoleNicely</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" kindref="member">fillHoleNicely</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>holeEdge,<sp/></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>

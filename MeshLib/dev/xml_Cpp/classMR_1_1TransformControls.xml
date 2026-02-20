@@ -15,28 +15,28 @@
       <member refid="group__GeneralGroup_1gace81b5df58dfd17967020f4b0cfcb856" kind="variable"><name>hoveredObject_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga3a7df5875b5301404b9e5d70f327b3ae" kind="function"><name>setVisualParams</name></member>
+      <member refid="group__GeneralGroup_1gab02273ceef7209cd43865b6a9324f7e7" kind="function"><name>setVisualParams</name></member>
       <member refid="group__GeneralGroup_1ga83e142fd9ad486f5f722ccb590064a7b" kind="function"><name>getVisualParams</name></member>
-      <member refid="group__GeneralGroup_1ga6e2a9b27f44bb930e9a41be1f8fd7a06" kind="function"><name>~TransformControls</name></member>
-      <member refid="group__GeneralGroup_1ga07676f9267cb76aea3e3ae26ca04494c" kind="function"><name>init</name></member>
-      <member refid="group__GeneralGroup_1gaa465cae8f8f64791763879ce0edb9f5b" kind="function"><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga23a9c4ebc9d70b27959f4692445d6956" kind="function"><name>~TransformControls</name></member>
+      <member refid="group__GeneralGroup_1ga0245fd8074446a03f3fa0ab2f5198561" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga5a255364f622ee6544e002c543061611" kind="function"><name>update</name></member>
       <member refid="group__GeneralGroup_1ga40e18d7c493840cc01d3164d427a66bb" kind="function"><name>getRadius</name></member>
-      <member refid="group__GeneralGroup_1ga1810cd6d6011cc4ce0cb10bc2aa2519b" kind="function"><name>setRadius</name></member>
+      <member refid="group__GeneralGroup_1gae0dd247a8f4ffcd47035742b211315c2" kind="function"><name>setRadius</name></member>
       <member refid="group__GeneralGroup_1gae1893daa3862766a61b29d129d73db45" kind="function"><name>getWidth</name></member>
-      <member refid="group__GeneralGroup_1gaaf863f472ade960e2930c519a9576d1c" kind="function"><name>setWidth</name></member>
-      <member refid="group__GeneralGroup_1gab96ec3ff92c62092535e1ea90a28e90b" kind="function"><name>setSizeType</name></member>
-      <member refid="group__GeneralGroup_1ga9d26f5b660354ee7807cd3201bdc05a2" kind="function"><name>updateSizeInPixel</name></member>
-      <member refid="group__GeneralGroup_1gab01fb623bf0489a958d77ceeb3b27ff7" kind="function"><name>updateTranslation</name></member>
-      <member refid="group__GeneralGroup_1gae75c88d7e57fc69be5c277b6d055b7aa" kind="function"><name>updateRotation</name></member>
+      <member refid="group__GeneralGroup_1ga1327ff529f099eb80ad8ebe88f2b81a3" kind="function"><name>setWidth</name></member>
+      <member refid="group__GeneralGroup_1gafc08fc4ed87e77b70b7a0881ef7be0c6" kind="function"><name>setSizeType</name></member>
+      <member refid="group__GeneralGroup_1ga86a41765e2cded4cd582e0bba0ac7b3a" kind="function"><name>updateSizeInPixel</name></member>
+      <member refid="group__GeneralGroup_1ga653a8318e61a32bd43194d37bc22087d" kind="function"><name>updateTranslation</name></member>
+      <member refid="group__GeneralGroup_1gaba270ef68dc54c5fe9b1092c53b974cd" kind="function"><name>updateRotation</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1ga7dc05fbb9dfc7a527a3678ae7c516456" kind="function"><name>ThresholdDotValidator</name></member>
+      <member refid="group__GeneralGroup_1gaefa2389b91822b75c0fdbec1a441276a" kind="function"><name>ThresholdDotValidator</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga66d40ceb52719d92d045290bafa8e3e3" kind="function"><name>resetSizeInPixel_</name></member>
-      <member refid="group__GeneralGroup_1gaad89dd29d5bda97ccac6728ddf2e6d31" kind="function"><name>hover_</name></member>
-      <member refid="group__GeneralGroup_1gab5ef9ff7d74383e2d91975432b5d5063" kind="function"><name>stopModify_</name></member>
-      <member refid="group__GeneralGroup_1ga6ce362af7279c9a232e38a50dc44ebc6" kind="function"><name>updateVisualTransformMode_</name></member>
+      <member refid="group__GeneralGroup_1gaa1732818af673a13b5872664c9574285" kind="function"><name>hover_</name></member>
+      <member refid="group__GeneralGroup_1ga7461a16e11f410dab68ff65d7cb19a8c" kind="function"><name>stopModify_</name></member>
+      <member refid="group__GeneralGroup_1gae12ff73299ac278a4826799072e4848a" kind="function"><name>updateVisualTransformMode_</name></member>
       <member refid="group__GeneralGroup_1ga5e795f2b8097d3ce430e9bd4bdf3283f" kind="function"><name>findHoveredIndex_</name></member>
       <member refid="group__GeneralGroup_1gac12ba0c09f31ca1570d323f948929e6e" kind="function"><name>setActiveLineFromPoints_</name></member>
     </sectiondef>
@@ -80,34 +80,34 @@
       <member refid="group__GeneralGroup_1ga83e142fd9ad486f5f722ccb590064a7b" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>getVisualParams</name></member>
       <member refid="group__GeneralGroup_1gae1893daa3862766a61b29d129d73db45" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>getWidth</name></member>
       <member refid="group__GeneralGroup_1ga18436dfbd4ff243fc8bd07d0a3f36b73" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>hover</name></member>
-      <member refid="group__GeneralGroup_1gaad89dd29d5bda97ccac6728ddf2e6d31" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>hover_</name></member>
+      <member refid="group__GeneralGroup_1gaa1732818af673a13b5872664c9574285" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>hover_</name></member>
       <member refid="group__GeneralGroup_1gace81b5df58dfd17967020f4b0cfcb856" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>hoveredObject_</name></member>
-      <member refid="group__GeneralGroup_1ga07676f9267cb76aea3e3ae26ca04494c" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga0245fd8074446a03f3fa0ab2f5198561" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1ga1b059680e24d210457de414b627f2507" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>params_</name></member>
       <member refid="group__GeneralGroup_1ga66d40ceb52719d92d045290bafa8e3e3" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>resetSizeInPixel_</name></member>
       <member refid="group__GeneralGroup_1gac7cf8d665733ea5faf3ce5ae049c1d58" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>rotateControls_</name></member>
       <member refid="group__GeneralGroup_1gac20403e03174e045bb782057f104eb06" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>rotateLines_</name></member>
       <member refid="group__GeneralGroup_1gac12ba0c09f31ca1570d323f948929e6e" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>setActiveLineFromPoints_</name></member>
-      <member refid="group__GeneralGroup_1ga9603cd25e26df7d1c6fe9171d0335997" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setCenter</name></member>
+      <member refid="group__GeneralGroup_1ga808053311f7578b9199e4b3f33d53c3a" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setCenter</name></member>
       <member refid="group__GeneralGroup_1ga6c067680512671636e7975d37ba24bdd" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setPickThrough</name></member>
-      <member refid="group__GeneralGroup_1ga1810cd6d6011cc4ce0cb10bc2aa2519b" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setRadius</name></member>
-      <member refid="group__GeneralGroup_1gab96ec3ff92c62092535e1ea90a28e90b" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setSizeType</name></member>
+      <member refid="group__GeneralGroup_1gae0dd247a8f4ffcd47035742b211315c2" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setRadius</name></member>
+      <member refid="group__GeneralGroup_1gafc08fc4ed87e77b70b7a0881ef7be0c6" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setSizeType</name></member>
       <member refid="group__GeneralGroup_1ga7ae4eb78f83ef31cb1fb11184c3eca6d" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setTransformModesValidator</name></member>
-      <member refid="group__GeneralGroup_1ga3a7df5875b5301404b9e5d70f327b3ae" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setVisualParams</name></member>
-      <member refid="group__GeneralGroup_1gaaf863f472ade960e2930c519a9576d1c" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setWidth</name></member>
+      <member refid="group__GeneralGroup_1gab02273ceef7209cd43865b6a9324f7e7" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setVisualParams</name></member>
+      <member refid="group__GeneralGroup_1ga1327ff529f099eb80ad8ebe88f2b81a3" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setWidth</name></member>
       <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>stopModify</name></member>
-      <member refid="group__GeneralGroup_1gab5ef9ff7d74383e2d91975432b5d5063" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>stopModify_</name></member>
-      <member refid="group__GeneralGroup_1ga7dc05fbb9dfc7a527a3678ae7c516456" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>ThresholdDotValidator</name></member>
+      <member refid="group__GeneralGroup_1ga7461a16e11f410dab68ff65d7cb19a8c" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>stopModify_</name></member>
+      <member refid="group__GeneralGroup_1gaefa2389b91822b75c0fdbec1a441276a" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>ThresholdDotValidator</name></member>
       <member refid="group__GeneralGroup_1ga8a08651a580cbbfd8c11522c2327aec3" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>translateControls_</name></member>
       <member refid="group__GeneralGroup_1gac6f39b43d24a207b1b58d4ece04afb8b" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>translateLines_</name></member>
-      <member refid="group__GeneralGroup_1gaa465cae8f8f64791763879ce0edb9f5b" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>update</name></member>
-      <member refid="group__GeneralGroup_1gae75c88d7e57fc69be5c277b6d055b7aa" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>updateRotation</name></member>
-      <member refid="group__GeneralGroup_1ga9d26f5b660354ee7807cd3201bdc05a2" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>updateSizeInPixel</name></member>
-      <member refid="group__GeneralGroup_1gab01fb623bf0489a958d77ceeb3b27ff7" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>updateTranslation</name></member>
-      <member refid="group__GeneralGroup_1ga62f6fd6ec96955e73fecfa08474af010" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>updateVisualTransformMode</name></member>
-      <member refid="group__GeneralGroup_1ga6ce362af7279c9a232e38a50dc44ebc6" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>updateVisualTransformMode_</name></member>
+      <member refid="group__GeneralGroup_1ga5a255364f622ee6544e002c543061611" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1gaba270ef68dc54c5fe9b1092c53b974cd" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>updateRotation</name></member>
+      <member refid="group__GeneralGroup_1ga86a41765e2cded4cd582e0bba0ac7b3a" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>updateSizeInPixel</name></member>
+      <member refid="group__GeneralGroup_1ga653a8318e61a32bd43194d37bc22087d" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>updateTranslation</name></member>
+      <member refid="group__GeneralGroup_1ga40fae0e672b2463e378a9403a9dbc242" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>updateVisualTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gae12ff73299ac278a4826799072e4848a" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>updateVisualTransformMode_</name></member>
       <member refid="group__GeneralGroup_1gaf0fa6a664e8f0a43bbb41adf37fe296a" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>~ITransformControls</name></member>
-      <member refid="group__GeneralGroup_1ga6e2a9b27f44bb930e9a41be1f8fd7a06" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>~TransformControls</name></member>
+      <member refid="group__GeneralGroup_1ga23a9c4ebc9d70b27959f4692445d6956" prot="public" virt="virtual"><scope>MR::TransformControls</scope><name>~TransformControls</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

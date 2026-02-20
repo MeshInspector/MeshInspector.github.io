@@ -2,41 +2,92 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRIterativeSampling_8h" kind="file" language="C++">
     <compoundname>MRIterativeSampling.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRIterativeSampling.h</label>
         <link refid="MRIterativeSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="3">
+      <node id="13">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>cassert</label>
-      </node>
-      <node id="5">
-        <label>cmath</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="15">
         <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -47,7 +98,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -55,7 +106,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga418834f2ad787242c43b22fd331d69d7" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga418834f2ad787242c43b22fd331d69d7" kindref="member">pointIterativeSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" kindref="member">pointIterativeSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

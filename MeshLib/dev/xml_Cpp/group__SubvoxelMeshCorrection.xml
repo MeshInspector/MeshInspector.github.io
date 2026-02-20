@@ -5,16 +5,16 @@
     <title>Subvoxel Mesh Correction</title>
     <innerclass refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" prot="public">MR::MoveMeshToVoxelMaxDerivSettings</innerclass>
     <innerclass refid="classMR_1_1MeshOnVoxelsT" prot="public">MR::MeshOnVoxelsT</innerclass>
-    <sectiondef kind="func">
-      <memberdef kind="function" id="group__SubvoxelMeshCorrection_1gaaa03e36604e9587df674801bac3a653f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__SubvoxelMeshCorrection_1ga1e8644361ce63a01cc5bf2f55019c438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename VolumeType</type>
             <defval>VdbVolume</defval>
           </param>
         </templateparamlist>
-        <type>MRVOXELS_API Expected&lt; VertBitSet &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv</definition>
+        <type>Expected&lt; VertBitSet &gt;</type>
+        <definition>Expected&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv</definition>
         <argsstring>(Mesh &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;volume, const AffineXf3f &amp;volumeXf, const MoveMeshToVoxelMaxDerivSettings &amp;settings, ProgressCallback callback={})</argsstring>
         <name>moveMeshToVoxelMaxDeriv</name>
         <qualifiedname>MR::moveMeshToVoxelMaxDeriv</qualifiedname>
@@ -53,14 +53,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="111" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="113" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="113" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Precise automatic mesh correction or/and smoothing based on reference voxel (volume) data. </para>
     </briefdescription>
     <detaileddescription>
-<para>This group provides highlevel interface of the algorithm: <ref refid="group__SubvoxelMeshCorrection_1gaaa03e36604e9587df674801bac3a653f" kindref="member">moveMeshToVoxelMaxDeriv</ref> configurable through <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref> and the low-level structure <ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref> that allows creation of custom correction strategy.</para>
+<para>This group provides highlevel interface of the algorithm: <ref refid="group__SubvoxelMeshCorrection_1ga1e8644361ce63a01cc5bf2f55019c438" kindref="member">moveMeshToVoxelMaxDeriv</ref> configurable through <ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref> and the low-level structure <ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref> that allows creation of custom correction strategy.</para>
 <sect4 id="group__SubvoxelMeshCorrection_1description">
 <title>Description of the algorithm.</title><para><orderedlist>
 <listitem><para><bold>Input</bold>: <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> and VdbVolume with corresponding transforms. The objects must be aligned.</para>

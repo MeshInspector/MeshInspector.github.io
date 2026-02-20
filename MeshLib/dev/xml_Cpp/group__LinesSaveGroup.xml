@@ -4,9 +4,9 @@
     <compoundname>LinesSaveGroup</compoundname>
     <title>Lines Save</title>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__LinesSaveGroup_1ga802f6247e04cbaf42586219ff7ac82ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toMrLines</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga6bd676acca9a8fe3ec659b703669f321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toMrLines</definition>
         <argsstring>(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toMrLines</name>
         <qualifiedname>MR::LinesSave::toMrLines</qualifiedname>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="21" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="21" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="21" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="21" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1ga4b7e9d630f170ae31e5bd907deb81e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toMrLines</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1gab00f1e05eaea68c2afb85cd9709cc46a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toMrLines</definition>
         <argsstring>(const Polyline3 &amp;polyline, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toMrLines</name>
         <qualifiedname>MR::LinesSave::toMrLines</qualifiedname>
@@ -57,11 +57,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="22" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="22" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="22" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="22" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1gacc61869c3919edab3a7ba6f1c319dd20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toPts</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga8796df4e1757da747c1f6db193357992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toPts</definition>
         <argsstring>(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toPts</name>
         <qualifiedname>MR::LinesSave::toPts</qualifiedname>
@@ -85,11 +85,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="26" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="26" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="26" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1ga5c820510729d56008737085405a76399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toPts</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1gadc0623d3fbe1b2b811d213efa44865f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toPts</definition>
         <argsstring>(const Polyline3 &amp;polyline, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toPts</name>
         <qualifiedname>MR::LinesSave::toPts</qualifiedname>
@@ -112,11 +112,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="27" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="27" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="27" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1gadbd1551d2a728738185c2a7b126509cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toDxf</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1gab5ac33ce79f72afba947855895820c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toDxf</definition>
         <argsstring>(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toDxf</name>
         <qualifiedname>MR::LinesSave::toDxf</qualifiedname>
@@ -140,11 +140,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="31" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="31" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="31" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="31" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1gaf9e24deee77823271019b388fedada34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toDxf</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga61e52dcd6b3a31f040d8a6eb3cc5d162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toDxf</definition>
         <argsstring>(const Polyline3 &amp;polyline, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toDxf</name>
         <qualifiedname>MR::LinesSave::toDxf</qualifiedname>
@@ -167,11 +167,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="32" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="32" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="32" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="32" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1ga8582df77b31c46c45c89a69bc125e25b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toPly</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga01229be4b88eb4ed4c1ebdf81d987598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toPly</definition>
         <argsstring>(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toPly</name>
         <qualifiedname>MR::LinesSave::toPly</qualifiedname>
@@ -195,11 +195,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="35" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="35" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="35" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1gaf4108e691fa648cb77a81978a2da87ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toPly</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga2c4fcc4280bb872144bbfe198f280ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toPly</definition>
         <argsstring>(const Polyline3 &amp;polyline, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toPly</name>
         <qualifiedname>MR::LinesSave::toPly</qualifiedname>
@@ -222,11 +222,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="36" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="36" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="36" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1ga7daab131397a83e2aceac630038c48c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga949f34442cb0887f15b53b74d3db3bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toAnySupportedFormat</definition>
         <argsstring>(const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR::LinesSave::toAnySupportedFormat</qualifiedname>
@@ -250,11 +250,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="39" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="39" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="39" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__LinesSaveGroup_1gaea08a483f07d8b0d2f12e86c10596f80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; void &gt;</type>
-        <definition>MRMESH_API Expected&lt; void &gt; MR::LinesSave::toAnySupportedFormat</definition>
+      <memberdef kind="function" id="group__LinesSaveGroup_1ga898bea8515e1d001f42894ee4fb6c304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::LinesSave::toAnySupportedFormat</definition>
         <argsstring>(const Polyline3 &amp;polyline, const std::string &amp;extension, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR::LinesSave::toAnySupportedFormat</qualifiedname>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="41" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="41" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" line="41" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesSave.h" declline="41" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

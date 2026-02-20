@@ -140,12 +140,12 @@
     <value><![CDATA[../MeshLib/source/MRDotNet*]]></value>
     <value><![CDATA[../MeshLib/source/MRMeshC]]></value>
     <value><![CDATA[../MeshLib/source/MeshLibC2]]></value>
+    <value><![CDATA[../MeshLib/source/MRViewer/MRGladGlfw.h]]></value>
   </option>
   <option  id='EXCLUDE_SYMLINKS' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXCLUDE_PATTERNS' default='no' type='stringlist'>
     <value><![CDATA[imgui*]]></value>
     <value><![CDATA[MRPch*]]></value>
-    <value><![CDATA[*Fwd.h]]></value>
     <value><![CDATA[exports.h]]></value>
     <value><![CDATA[resource.h]]></value>
     <value><![CDATA[*/MRTest*/*]]></value>
@@ -314,14 +314,21 @@
   <option  id='PERLMOD_PRETTY' default='yes' type='bool'><value>YES</value></option>
   <option  id='PERLMOD_MAKEVAR_PREFIX' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='ENABLE_PREPROCESSING' default='yes' type='bool'><value>YES</value></option>
-  <option  id='MACRO_EXPANSION' default='yes' type='bool'><value>NO</value></option>
-  <option  id='EXPAND_ONLY_PREDEF' default='yes' type='bool'><value>NO</value></option>
+  <option  id='MACRO_EXPANSION' default='no' type='bool'><value>YES</value></option>
+  <option  id='EXPAND_ONLY_PREDEF' default='no' type='bool'><value>YES</value></option>
   <option  id='SEARCH_INCLUDES' default='yes' type='bool'><value>YES</value></option>
   <option  id='INCLUDE_PATH' default='yes' type='stringlist'>
   </option>
   <option  id='INCLUDE_FILE_PATTERNS' default='yes' type='stringlist'>
   </option>
-  <option  id='PREDEFINED' default='yes' type='stringlist'>
+  <option  id='PREDEFINED' default='no' type='stringlist'>
+    <value><![CDATA[MR_BIND_PREFERRED_NAME]]></value>
+    <value><![CDATA[MR_CANONICAL_TYPEDEFS]]></value>
+    <value><![CDATA[MRMESH_API]]></value>
+    <value><![CDATA[MRSYMBOLMESH_API]]></value>
+    <value><![CDATA[MRVIEWER_API]]></value>
+    <value><![CDATA[MRIOEXTRAS_API]]></value>
+    <value><![CDATA[MRVOXELS_API]]></value>
   </option>
   <option  id='EXPAND_AS_DEFINED' default='yes' type='stringlist'>
   </option>

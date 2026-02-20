@@ -163,16 +163,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ga5e5227909627529a3be4a85ba613d565" id="r_ga5e5227909627529a3be4a85ba613d565"><td class="memItemLeft" align="right" valign="top">MRMESH_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5e5227909627529a3be4a85ba613d565">TbbThreadMutex</a> (std::thread::id id=std::this_thread::get_id())</td></tr>
-<tr class="separator:ga5e5227909627529a3be4a85ba613d565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga90d44121dc83fee14538cf016ad521ee" id="r_ga90d44121dc83fee14538cf016ad521ee"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; <a class="el" href="classMR_1_1TbbThreadMutex_1_1LockGuard.html">LockGuard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga90d44121dc83fee14538cf016ad521ee">tryLock</a> ()</td></tr>
-<tr class="separator:ga90d44121dc83fee14538cf016ad521ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e630cbbab6778f00b0ce87c5a65a538" id="r_ga9e630cbbab6778f00b0ce87c5a65a538"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9e630cbbab6778f00b0ce87c5a65a538">TbbThreadMutex</a> (std::thread::id id=std::this_thread::get_id())</td></tr>
+<tr class="separator:ga9e630cbbab6778f00b0ce87c5a65a538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf62d178d9fee21afe07b33f021a5a3e2" id="r_gaf62d178d9fee21afe07b33f021a5a3e2"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classMR_1_1TbbThreadMutex_1_1LockGuard.html">LockGuard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf62d178d9fee21afe07b33f021a5a3e2">tryLock</a> ()</td></tr>
+<tr class="separator:gaf62d178d9fee21afe07b33f021a5a3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>helper class used to ensure that the specific thread is not re-used by TBB use it if you have nested TBB operations (e.g. parallel_for inside another parallel_for) </p><div class="fragment"><div class="line"><a class="code hl_class" href="classMR_1_1TbbThreadMutex.html">TbbThreadMutex</a> reportThreadMutex;</div>
 <div class="line">tbb::parallel_for( range, [&amp;] ( <span class="keyword">auto</span>&amp;&amp; range )</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> reportThreadLock = reportThreadMutex.<a class="code hl_function" href="group__GeneralGroup.html#ga90d44121dc83fee14538cf016ad521ee">tryLock</a>();</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> reportThreadLock = reportThreadMutex.<a class="code hl_function" href="group__GeneralGroup.html#gaf62d178d9fee21afe07b33f021a5a3e2">tryLock</a>();</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = range.begin(); i != range.end(); ++i )</div>
 <div class="line">    {</div>
 <div class="line">        tbb::parallel_for( ... );</div>
@@ -181,7 +181,7 @@ Public Member Functions</h2></td></tr>
 <div class="line">    }</div>
 <div class="line">} );</div>
 <div class="ttc" id="aclassMR_1_1TbbThreadMutex_html"><div class="ttname"><a href="classMR_1_1TbbThreadMutex.html">MR::TbbThreadMutex</a></div><div class="ttdef"><b>Definition</b> MRTbbThreadMutex.h:35</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga90d44121dc83fee14538cf016ad521ee"><div class="ttname"><a href="group__GeneralGroup.html#ga90d44121dc83fee14538cf016ad521ee">MR::TbbThreadMutex::tryLock</a></div><div class="ttdeci">MRMESH_API std::optional&lt; LockGuard &gt; tryLock()</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf62d178d9fee21afe07b33f021a5a3e2"><div class="ttname"><a href="group__GeneralGroup.html#gaf62d178d9fee21afe07b33f021a5a3e2">MR::TbbThreadMutex::tryLock</a></div><div class="ttdeci">std::optional&lt; LockGuard &gt; tryLock()</div></div>
 </div><!-- fragment --> </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRTbbThreadMutex_8h_source.html">MRTbbThreadMutex.h</a></li>
 </ul>

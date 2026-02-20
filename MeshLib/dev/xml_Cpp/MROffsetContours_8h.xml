@@ -2,26 +2,58 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MROffsetContours_8h" kind="file" language="C++">
     <compoundname>MROffsetContours.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">functional</includes>
     <includes local="no">string</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="4">
+      <node id="14">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -29,29 +61,42 @@
         <link refid="MROffsetContours_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="15">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="8">
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
         <label>functional</label>
       </node>
-      <node id="7">
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1OffsetContourIndex" prot="public">MR::OffsetContourIndex</innerclass>
@@ -65,7 +110,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRConstants_8h" kindref="compound">MRConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -124,25 +169,25 @@
 <codeline lineno="79" refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kindref="member">OffsetContoursVertMaps</ref>*<sp/><ref refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" kindref="member">indicesMap</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87" refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kindref="member">ContoursVariableOffset</ref><sp/>=<sp/>std::function&lt;float(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)&gt;;</highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1ga27899d08f51f8b1106ec145d7a116f9f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours2f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,<sp/></highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1ga37d160a0ced942b7139aafba1321e8f0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kindref="member">ContoursVariableOffset</ref><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="93" refid="structMR_1_1OffsetContoursRestoreZParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OffsetContoursRestoreZParams" kindref="compound">OffsetContoursRestoreZParams</ref></highlight></codeline>
 <codeline lineno="94"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="97" refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref><sp/>=<sp/>std::function&lt;float(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>offsetCont,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref>&amp;<sp/>offsetIndex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref>&amp;<sp/>origingContourMapoing)&gt;;</highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref><sp/>=<sp/>std::function&lt;float(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>offsetCont,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref>&amp;<sp/>offsetIndex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref>&amp;<sp/>origingContourMapoing)&gt;;</highlight></codeline>
 <codeline lineno="98" refid="group__GeneralGroup_1ga438c80b5404a4c86a8a262af5bf56945" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kindref="member">OriginZCallback</ref><sp/><ref refid="group__GeneralGroup_1ga438c80b5404a4c86a8a262af5bf56945" kindref="member">zCallback</ref>;</highlight></codeline>
 <codeline lineno="100" refid="group__GeneralGroup_1gad56a82055a6779969941251b8ad56f97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad56a82055a6779969941251b8ad56f97" kindref="member">relaxIterations</ref><sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="group__GeneralGroup_1ga5603e7e0bf45735134643ec3745b0573" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours3f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours3f&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1ga132f18e77a51cf27dfa56d8b0101c6bb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OffsetContoursRestoreZParams&amp;<sp/>zParmas<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1gaade58963fb6a70bd69db550185bd5af7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Contours3f<sp/><ref refid="group__GeneralGroup_1ga13fd7f6f4c21ca10264a68af45c700bd" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours3f&amp;<sp/>contours,</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1ga24775cda4bf6c1d82342273ec197768b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kindref="member">offsetContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kindref="member">ContoursVariableOffset</ref><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetContoursParams" kindref="compound">OffsetContoursParams</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OffsetContoursRestoreZParams&amp;<sp/>zParmas<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal">}</highlight></codeline>

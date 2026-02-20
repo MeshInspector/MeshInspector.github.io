@@ -4,7 +4,7 @@
     <compoundname>MR::ObjectLoad</compoundname>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" prot="public" static="no">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;(*)(const std::filesystem::path &amp;, const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;)</type>
         <definition>using MR::ObjectLoad::ObjectLoader =  Expected&lt;LoadedObjects&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
         <argsstring></argsstring>
         <name>ObjectLoader</name>

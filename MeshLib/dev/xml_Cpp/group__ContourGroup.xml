@@ -3,6 +3,193 @@
   <compounddef id="group__ContourGroup" kind="group">
     <compoundname>ContourGroup</compoundname>
     <title>Contour</title>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__ContourGroup_1ga2781b4d5e5bf7cc617f8a0eba5a524f6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contour2f</type>
+        <definition>Contour2f MR::convertContourTo2f</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContourTo2f</name>
+        <qualifiedname>MR::convertContourTo2f</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>Instantiate the templates when generating bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="134" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1gaa4ceecc8e73e44a2e6581d55a462f1ea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contour3f</type>
+        <definition>Contour3f MR::convertContourTo3f</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContourTo3f</name>
+        <qualifiedname>MR::convertContourTo3f</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="135" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1gaba764c41a940b36b3557d7cfd2dfa4a2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contour2d</type>
+        <definition>Contour2d MR::convertContourTo2d</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContourTo2d</name>
+        <qualifiedname>MR::convertContourTo2d</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="136" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1gace9504b6b71c3d36b4f5b44b333fe7c4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contour3d</type>
+        <definition>Contour3d MR::convertContourTo3d</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContourTo3d</name>
+        <qualifiedname>MR::convertContourTo3d</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="137" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1ga69641f0e5e3836b15c6e1a31f8a419b6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contours2f</type>
+        <definition>Contours2f MR::convertContoursTo2f</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContoursTo2f</name>
+        <qualifiedname>MR::convertContoursTo2f</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="139" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1gaa10491e865bfcc7b0b92278a06a0773a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contours3f</type>
+        <definition>Contours3f MR::convertContoursTo3f</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContoursTo3f</name>
+        <qualifiedname>MR::convertContoursTo3f</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="140" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1ga37394dbbccf94a8952c58ec583819bee" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contours2d</type>
+        <definition>Contours2d MR::convertContoursTo2d</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContoursTo2d</name>
+        <qualifiedname>MR::convertContoursTo2d</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="141" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ContourGroup_1gae6b021b9aa296238fa47d7443aa5c680" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>Contours3d</type>
+        <definition>Contours3d MR::convertContoursTo3d</definition>
+        <argsstring>(const From &amp;from)</argsstring>
+        <name>convertContoursTo3d</name>
+        <qualifiedname>MR::convertContoursTo3d</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" line="142" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContour.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__ContourGroup_1ga63c4064b2101e045fff282197ff239c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>

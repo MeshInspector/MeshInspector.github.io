@@ -5,24 +5,24 @@
     <includes refid="MRMeshEigen_8h" local="yes">MRMeshEigen.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRAffineXf3.h</includes>
     <incdepgraph>
-      <node id="19">
+      <node id="27">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -30,27 +30,33 @@
         <link refid="MRBestFitQuadric_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="8">
-        <label>MRMacros.h</label>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="7">
+      <node id="16">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -58,72 +64,113 @@
         <link refid="MRMeshEigen_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MREigenCore.h</label>
-      </node>
-      <node id="14">
-        <label>algorithm</label>
-      </node>
-      <node id="15">
-        <label>cmath</label>
-      </node>
-      <node id="11">
-        <label>cstddef</label>
-      </node>
-      <node id="16">
-        <label>cstring</label>
-      </node>
-      <node id="17">
-        <label>iosfwd</label>
-      </node>
-      <node id="12">
-        <label>type_traits</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="18">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="14">
+        <label>MRPch/MREigenCore.h</label>
+      </node>
+      <node id="22">
+        <label>algorithm</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="19">
+        <label>cstddef</label>
+      </node>
+      <node id="24">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="25">
+        <label>iosfwd</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="20">
+        <label>type_traits</label>
+      </node>
+      <node id="26">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1QuadricApprox" prot="public">MR::QuadricApprox</innerclass>
@@ -144,13 +191,13 @@
 <codeline lineno="14" refid="classMR_1_1QuadricApprox" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1QuadricApprox" kindref="compound">QuadricApprox</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gae270ffda4cb41173e3c68cdc4f52ad51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gae270ffda4cb41173e3c68cdc4f52ad51" kindref="member">QuadricApprox</ref>();</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga1451826f5c7e17f9abe54c74b26052dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga1451826f5c7e17f9abe54c74b26052dd" kindref="member">QuadricApprox</ref>();</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga342756aa48e8673901de34a1d494a186" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga342756aa48e8673901de34a1d494a186" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>point,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>weight<sp/>=<sp/>1.0<sp/>);</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga4c491c30846d6d6051ac64bc66374e9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c491c30846d6d6051ac64bc66374e9f" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>point,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>weight<sp/>=<sp/>1.0<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga0cea7a7005e02a997a52d3b6cb12c0e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>Eigen::Matrix&lt;double,<sp/>6,<sp/>1&gt;<sp/><ref refid="group__GeneralGroup_1ga0cea7a7005e02a997a52d3b6cb12c0e3" kindref="member">calcBestCoefficients</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gab4c7110c71267480e00a1c55e9d226dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Eigen::Matrix&lt;double,<sp/>6,<sp/>1&gt;<sp/><ref refid="group__GeneralGroup_1gab4c7110c71267480e00a1c55e9d226dc" kindref="member">calcBestCoefficients</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga3b30fafd105b242617b7b762edfad5e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga3b30fafd105b242617b7b762edfad5e6" kindref="member">findZeroProjection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;double,<sp/>6,<sp/>1&gt;&amp;<sp/>coefs<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga03fe60ea7e0abbe26829708ba3bc971c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga03fe60ea7e0abbe26829708ba3bc971c" kindref="member">findZeroProjection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;double,<sp/>6,<sp/>1&gt;&amp;<sp/>coefs<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;double,<sp/>6,<sp/>6&gt;<sp/>accumA_;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;double,<sp/>6,<sp/>1&gt;<sp/>accumB_;</highlight></codeline>

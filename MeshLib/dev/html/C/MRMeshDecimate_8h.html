@@ -994,7 +994,9 @@ Functions</h2></td></tr>
 
 <p>Defines the order of edge collapses inside Decimate algorithm. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5" name="a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5"></a>MR_DecimateStrategy_MinimizeError&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5" name="a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5"></a>MR_DecimateStrategy_MinimizeError&#160;</td><td class="fielddoc"><p>the next edge to collapse will be the one that introduced minimal error to the surface </p>
+<p>the next edge to collapse will be the shortest one </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893" name="a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893"></a>MR_DecimateStrategy_ShortestEdgeFirst&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -3813,7 +3815,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code>MR::remesh</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </p>
+<p>Splits too long and eliminates too short edges from the mesh Generated from function <code>MR::remesh</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -3,7 +3,7 @@
   <compounddef id="MRCreateShader_8h" kind="file" language="C++">
     <compoundname>MRCreateShader.h</compoundname>
     <includes local="yes">exports.h</includes>
-    <includes refid="MRGladGlfw_8h" local="yes">MRGladGlfw.h</includes>
+    <includes local="yes">MRGladGlfw.h</includes>
     <includes local="no">string</includes>
     <includes local="no">vector</includes>
     <incdepgraph>
@@ -14,37 +14,21 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRGladGlfw.h</label>
-        <link refid="MRGladGlfw_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
-      <node id="6">
-        <label>GLFW/glfw3.h</label>
-      </node>
-      <node id="4">
-        <label>MRViewerFwd.h</label>
+      <node id="3">
+        <label>MRGladGlfw.h</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="5">
-        <label>glad/glad.h</label>
-      </node>
-      <node id="7">
+      <node id="4">
         <label>string</label>
       </node>
-      <node id="8">
+      <node id="5">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -57,7 +41,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRGladGlfw_8h" kindref="compound">MRGladGlfw.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRGladGlfw.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -74,13 +58,13 @@
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1gaf32258fa43e72bfbd6c42df4283b25db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf32258fa43e72bfbd6c42df4283b25db" kindref="member">DisabledWarnings</ref><sp/>=<sp/>std::vector&lt;ShaderWarning&gt;;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ga9afa144203c32fd7ae42043bee1a6aa7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9afa144203c32fd7ae42043bee1a6aa7" kindref="member">createShader</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>shader_name,</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" kindref="member">createShader</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>shader_name,</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>vert_source,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>frag_source,</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>GLuint&amp;<sp/>prog_id,</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf32258fa43e72bfbd6c42df4283b25db" kindref="member">DisabledWarnings</ref>&amp;<sp/>suppressedWarns<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga01df447cdd25031a9480868f3a237070" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01df447cdd25031a9480868f3a237070" kindref="member">destroyShader</ref>(<sp/>GLuint<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" kindref="member">destroyShader</ref>(<sp/>GLuint<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h"/>

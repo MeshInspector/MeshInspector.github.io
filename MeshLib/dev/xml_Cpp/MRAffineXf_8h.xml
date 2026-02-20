@@ -3,7 +3,7 @@
   <compounddef id="MRAffineXf_8h" kind="file" language="C++">
     <compoundname>MRAffineXf.h</compoundname>
     <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="no">iosfwd</includes>
     <includes local="no">type_traits</includes>
     <includedby refid="MR2to3_8h" local="yes">MR2to3.h</includedby>
@@ -24,9 +24,15 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -35,12 +41,56 @@
       </node>
       <node id="3">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="13">
         <label>iosfwd</label>
       </node>
-      <node id="5">
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="14">
         <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -1467,7 +1517,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMacros_8h" kindref="compound">MRMacros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iosfwd&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -1529,9 +1579,9 @@
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>AffineXf&lt;V&gt;<sp/>AffineXf&lt;V&gt;::inverse()<sp/>const<sp/>noexcept<sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kindref="member">AffineXf&lt;V&gt;</ref><sp/>AffineXf&lt;V&gt;::inverse()<sp/>const<sp/>noexcept<sp/><ref refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf&lt;V&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kindref="member">AffineXf&lt;V&gt;</ref><sp/>res;</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>res.A<sp/>=<sp/>A.inverse();</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>res.b<sp/>=<sp/>-(<sp/>res.A<sp/>*<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>

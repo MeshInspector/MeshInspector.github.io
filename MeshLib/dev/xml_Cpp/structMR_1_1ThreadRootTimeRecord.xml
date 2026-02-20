@@ -71,7 +71,7 @@
         <argsstring></argsstring>
         <name>loggerHandle</name>
         <qualifiedname>MR::ThreadRootTimeRecord::loggerHandle</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" kindref="member">Logger::instance</ref>().getSpdLogger()</initializer>
+        <initializer>= <ref refid="classMR_1_1Logger_1a17cd4b1f33ef615f3f1dedeef3c963bc" kindref="member">Logger::instance</ref>().getSpdLogger()</initializer>
         <briefdescription>
 <para>prolong logger life </para>
         </briefdescription>
@@ -83,9 +83,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a4c09c418632cc98c124ec0bf7ad1c6de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::ThreadRootTimeRecord::ThreadRootTimeRecord</definition>
+      <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a55f08ba4c3004342030e8bf710484e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ThreadRootTimeRecord::ThreadRootTimeRecord</definition>
         <argsstring>(const char *tdName)</argsstring>
         <name>ThreadRootTimeRecord</name>
         <qualifiedname>MR::ThreadRootTimeRecord::ThreadRootTimeRecord</qualifiedname>
@@ -99,11 +99,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="43" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="43" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1ab1a1265af16cac54bd16adf7e8c44c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API void</type>
-        <definition>MRMESH_API void MR::ThreadRootTimeRecord::printTree</definition>
+      <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a3e5ba8456a90bb0fad95117f932b88b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ThreadRootTimeRecord::printTree</definition>
         <argsstring>()</argsstring>
         <name>printTree</name>
         <qualifiedname>MR::ThreadRootTimeRecord::printTree</qualifiedname>
@@ -113,11 +113,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="44" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="44" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a3651985f131934c6036be279a0f01b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API</type>
-        <definition>MRMESH_API MR::ThreadRootTimeRecord::~ThreadRootTimeRecord</definition>
+      <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a8369b56e3b80eadaad7c4d75eae4ea14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ThreadRootTimeRecord::~ThreadRootTimeRecord</definition>
         <argsstring>()</argsstring>
         <name>~ThreadRootTimeRecord</name>
         <qualifiedname>MR::ThreadRootTimeRecord::~ThreadRootTimeRecord</qualifiedname>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="45" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="45" column="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -176,21 +176,21 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" bodystart="36" bodyend="46"/>
     <listofallmembers>
       <member refid="structMR_1_1TimeRecord_1aefc29a1b393cb4e47eec9c964a56b8f9" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>children</name></member>
-      <member refid="structMR_1_1TimeRecord_1a7fcf403676ad98c8772e03ebec6d37de" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>childTime</name></member>
+      <member refid="structMR_1_1TimeRecord_1aa1636ed4f889fa0058dc49ddbf33c8ff" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>childTime</name></member>
       <member refid="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>count</name></member>
       <member refid="structMR_1_1ThreadRootTimeRecord_1aeda7fbd28acbffe32fb39f0fd9098965" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>loggerHandle</name></member>
       <member refid="structMR_1_1ThreadRootTimeRecord_1afcc5ed565036ccc1c8fb6062fe2b4405" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>minTimeSec</name></member>
       <member refid="structMR_1_1TimeRecord_1a80d3da8e260d6c62716855a674a2bc46" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>mySeconds</name></member>
       <member refid="structMR_1_1TimeRecord_1ae2011c61063c65e0a8f63688cb97f6af" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>myTime</name></member>
       <member refid="structMR_1_1TimeRecord_1aa4ecd25889d637813c8abcc75610cf51" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>parent</name></member>
-      <member refid="structMR_1_1ThreadRootTimeRecord_1ab1a1265af16cac54bd16adf7e8c44c27" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>printTree</name></member>
+      <member refid="structMR_1_1ThreadRootTimeRecord_1a3e5ba8456a90bb0fad95117f932b88b7" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>printTree</name></member>
       <member refid="structMR_1_1ThreadRootTimeRecord_1a5de581b2d12ca1b28b07d904c6bc000b" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>printTreeInDtor</name></member>
       <member refid="structMR_1_1SimpleTimeRecord_1a5bc2244721bb50d4a1d54c4d3cedd459" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>seconds</name></member>
       <member refid="structMR_1_1ThreadRootTimeRecord_1ab11d7cc5223e4f0ed8b6d247c3eb5f88" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>started</name></member>
       <member refid="structMR_1_1ThreadRootTimeRecord_1ae29d85986eb71cbb8e09862f174fee16" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>threadName</name></member>
-      <member refid="structMR_1_1ThreadRootTimeRecord_1a4c09c418632cc98c124ec0bf7ad1c6de" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>ThreadRootTimeRecord</name></member>
+      <member refid="structMR_1_1ThreadRootTimeRecord_1a55f08ba4c3004342030e8bf710484e25" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>ThreadRootTimeRecord</name></member>
       <member refid="structMR_1_1SimpleTimeRecord_1a783bd5b3455191ffcbf6c59363d9e81e" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>time</name></member>
-      <member refid="structMR_1_1ThreadRootTimeRecord_1a3651985f131934c6036be279a0f01b58" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>~ThreadRootTimeRecord</name></member>
+      <member refid="structMR_1_1ThreadRootTimeRecord_1a8369b56e3b80eadaad7c4d75eae4ea14" prot="public" virt="non-virtual"><scope>MR::ThreadRootTimeRecord</scope><name>~ThreadRootTimeRecord</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

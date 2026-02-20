@@ -1,7 +1,7 @@
 var MRTextureColors_8h =
 [
-    [ "findVertexUV", "MRTextureColors_8h.html#ga228fd3f15dfd62cae2cd96578e019c9d", null ],
-    [ "findVertexUVs", "MRTextureColors_8h.html#ga66d4d2959eb1a39fea41beb266bc070f", null ],
-    [ "sampleVertexColor", "MRTextureColors_8h.html#gaec77a6bfc580adda65939479fe650ed3", null ],
-    [ "sampleVertexColors", "MRTextureColors_8h.html#gabcc85ae5479c89af9d661cb1b69408b2", null ]
+    [ "findVertexUV", "MRTextureColors_8h.html#gac11e11e244aac02b0b69506b6657c706", null ],
+    [ "findVertexUVs", "MRTextureColors_8h.html#ga5428c2a5d40a3d0e09c57ea16c47701b", null ],
+    [ "sampleVertexColor", "MRTextureColors_8h.html#ga3d51a6426ec702d816828da6e6660c9e", null ],
+    [ "sampleVertexColors", "MRTextureColors_8h.html#gad43e808664575f49147711c1ad69534d", null ]
 ];

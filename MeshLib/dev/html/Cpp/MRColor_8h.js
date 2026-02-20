@@ -1,6 +1,6 @@
 var MRColor_8h =
 [
-    [ "blend", "MRColor_8h.html#gaec04b300d1c828ca3458af875f62ac7a", null ],
+    [ "blend", "MRColor_8h.html#ga4b04ff1161b2c5a217772a5c848f98dc", null ],
     [ "operator!=", "MRColor_8h.html#ga5534d2437ed57cabae82ae75a441b224", null ],
     [ "operator*", "MRColor_8h.html#gaac5fb6c59ce62feddc3ac64b13643c67", null ],
     [ "operator*", "MRColor_8h.html#ga74faa3fac803f77476aefb0300f66b51", null ],

@@ -14,10 +14,10 @@
       <member refid="group__GeneralGroup_1ga1f40e63a88ac062dbcd07f76bbc2efab" kind="variable"><name>thread_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga339e38c56c4709ed12f877a0b026a659" kind="function"><name>SplashWindow</name></member>
-      <member refid="group__GeneralGroup_1gaa8219c57ea7f0cab0fb236ab58fbcb5f" kind="function"><name>~SplashWindow</name></member>
-      <member refid="group__GeneralGroup_1gaf0ce424272b846ce5f6cf1f9116f1742" kind="function"><name>start</name></member>
-      <member refid="group__GeneralGroup_1ga12f3e91e4d3acf7a279458baf304721a" kind="function"><name>stop</name></member>
+      <member refid="group__GeneralGroup_1gaea6b0a8d8e0e9d21c3475f3a64700c36" kind="function"><name>SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1ga2e2d88abadc2e779f1e461c4d0cf8bdd" kind="function"><name>~SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gaf01c48a73b53806678acaf24c3a270db" kind="function"><name>start</name></member>
+      <member refid="group__GeneralGroup_1gab48855fcfc4227b2e7cf197229389efb" kind="function"><name>stop</name></member>
       <member refid="group__GeneralGroup_1ga017a42c7599e421ba51d913f9c9c0a5c" kind="function"><name>minimumTimeSec</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -62,13 +62,13 @@
       <member refid="group__GeneralGroup_1ga8ddf57c3eb6791c039aaff160e45799b" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>preDestruct_</name></member>
       <member refid="group__GeneralGroup_1ga8df117e45139f3e0d3df906ddbd2fd8d" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>reloadFont_</name></member>
       <member refid="group__GeneralGroup_1ga68785afa9476337fc0590f5c79157794" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>setup_</name></member>
-      <member refid="group__GeneralGroup_1ga339e38c56c4709ed12f877a0b026a659" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>SplashWindow</name></member>
-      <member refid="group__GeneralGroup_1gaf0ce424272b846ce5f6cf1f9116f1742" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>start</name></member>
-      <member refid="group__GeneralGroup_1ga12f3e91e4d3acf7a279458baf304721a" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>stop</name></member>
+      <member refid="group__GeneralGroup_1gaea6b0a8d8e0e9d21c3475f3a64700c36" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gaf01c48a73b53806678acaf24c3a270db" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>start</name></member>
+      <member refid="group__GeneralGroup_1gab48855fcfc4227b2e7cf197229389efb" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>stop</name></member>
       <member refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>terminate_</name></member>
       <member refid="group__GeneralGroup_1ga1f40e63a88ac062dbcd07f76bbc2efab" prot="private" virt="non-virtual"><scope>MR::SplashWindow</scope><name>thread_</name></member>
       <member refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>window_</name></member>
-      <member refid="group__GeneralGroup_1gaa8219c57ea7f0cab0fb236ab58fbcb5f" prot="public" virt="virtual"><scope>MR::SplashWindow</scope><name>~SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1ga2e2d88abadc2e779f1e461c4d0cf8bdd" prot="public" virt="virtual"><scope>MR::SplashWindow</scope><name>~SplashWindow</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

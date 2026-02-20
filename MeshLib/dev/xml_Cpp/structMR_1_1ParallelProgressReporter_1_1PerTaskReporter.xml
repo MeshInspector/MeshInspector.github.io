@@ -8,7 +8,7 @@
       <member refid="group__GeneralGroup_1ga8a3bbfef3276f1831b2a645909a93a94" kind="variable"><name>task_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaf373a60a30b69ecccf117ed007327929" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga86ddf92193dd592a4f6b78b9df17f094" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -39,7 +39,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="34" bodyend="38"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gaf373a60a30b69ecccf117ed007327929" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga86ddf92193dd592a4f6b78b9df17f094" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1gaf7f58457a6816a15728067d8fb9ae549" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>reporter_</name></member>
       <member refid="group__GeneralGroup_1ga8a3bbfef3276f1831b2a645909a93a94" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>task_</name></member>
     </listofallmembers>

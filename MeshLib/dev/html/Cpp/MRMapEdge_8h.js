@@ -7,7 +7,7 @@ var MRMapEdge_8h =
     [ "mapEdge", "MRMapEdge_8h.html#ga1c9ee18db6997f756ef3a076307fd9ee", null ],
     [ "mapEdge", "MRMapEdge_8h.html#ga0718e473bb43501639504b5b1fef2daa", null ],
     [ "mapEdge", "MRMapEdge_8h.html#gaada1ce79ef0fe414ee9299507e1b4e0b", null ],
-    [ "mapEdges", "MRMapEdge_8h.html#gadf5f3f9dc915185233a22089c90665eb", null ],
-    [ "mapEdges", "MRMapEdge_8h.html#ga32139a9d419606425485a064d381a8ce", null ],
-    [ "mapEdges", "MRMapEdge_8h.html#gab1d2f80b1c61df595390f0a811296879", null ]
+    [ "mapEdges", "MRMapEdge_8h.html#ga5fa902572c40e4b500498cfe34367d6b", null ],
+    [ "mapEdges", "MRMapEdge_8h.html#ga128f989edebd50fec29f7edb4d62457e", null ],
+    [ "mapEdges", "MRMapEdge_8h.html#gad8acd3dd7b2ecf6d848dcdc75ad5d8e9", null ]
 ];

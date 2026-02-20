@@ -1,5 +1,5 @@
 var classMR_1_1RenderDistanceObject =
 [
-    [ "RenderDistanceObject", "group__GeneralGroup.html#ga89012b958d80898ade371042c8cdf25e", null ],
-    [ "renderUi", "group__GeneralGroup.html#gad9844fa43c48be4e012ac940a46ab685", null ]
+    [ "RenderDistanceObject", "group__GeneralGroup.html#ga6070d047f88d9b0c043777aa9e7b436c", null ],
+    [ "renderUi", "group__GeneralGroup.html#ga8761f109ea6c853dbc796ddb02567d89", null ]
 ];

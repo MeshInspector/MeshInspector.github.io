@@ -9,14 +9,14 @@
       <member refid="group__GeneralGroup_1gae54bd88edd9807412b8b7dd6f347fff6" kind="variable"><name>basisXfInv_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga7c79113a97744efd6bcbc544553fe582" kind="function"><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1gad18654ddb91781bc8e4d1417ce19a08e" kind="function"><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1ga38590d0d422769798b0be5129be63d55" kind="function"><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1gaee07541d158133fc4c85e7170de4d3e7" kind="function"><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1gaac374ad90e2a96d261ba863c1d6f46e2" kind="function"><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1ga7efc7b0a63b1e8c7737349454066d83f" kind="function"><name>center</name></member>
-      <member refid="group__GeneralGroup_1gae15fa3079fbe1aae94cb52176e59e802" kind="function"><name>corner</name></member>
-      <member refid="group__GeneralGroup_1gad6e0ec24db49e4d651459703603a3e4d" kind="function"><name>contains</name></member>
+      <member refid="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga4585db9e756fe2049a698a2845f731d4" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga44dab18e1c0d6202ae231a1815202361" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga6daa35be773bc76c0b406d9503effe5f" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga100a05419714fd2f5addccffddaba1f2" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga1b7bb0bf641dd2361eb4b05a663560c9" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1gaf59c75ab8e961b02d3bb5a6230b6f3ce" kind="function"><name>corner</name></member>
+      <member refid="group__GeneralGroup_1ga5d54da8e42492b766a660eef3f7d8489" kind="function"><name>contains</name></member>
       <member refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kind="function"><name>box</name></member>
       <member refid="group__GeneralGroup_1ga941ca605a35dc828fc9b0e7c5358c7e9" kind="function"><name>basisXf</name></member>
       <member refid="group__GeneralGroup_1ga1d968d6262ca4a19b4f5610ef49dfdee" kind="function"><name>basisXfInv</name></member>
@@ -31,7 +31,7 @@
     </briefdescription>
     <detaileddescription>
 <para>Structure to hold and work with dense box</para>
-<para>Scalar operations that are not provided in this struct can be called via <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref></computeroutput> For example <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size()</ref></computeroutput>, <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.diagonal()</computeroutput> or <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume()</ref></computeroutput> Non const operations are not allowed for dense box because it can spoil density </para>
+<para>Scalar operations that are not provided in this struct can be called via <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref></computeroutput> For example <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size()</ref></computeroutput>, <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.diagonal()</computeroutput> or <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume()</ref></computeroutput> Non const operations are not allowed for dense box because it can spoil density </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="18" bodyend="60"/>
     <listofallmembers>
@@ -41,14 +41,14 @@
       <member refid="group__GeneralGroup_1gae54bd88edd9807412b8b7dd6f347fff6" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXfInv_</name></member>
       <member refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>box</name></member>
       <member refid="group__GeneralGroup_1ga6086c46946d7a35114b263a9dd4d59e2" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>box_</name></member>
-      <member refid="group__GeneralGroup_1ga7efc7b0a63b1e8c7737349454066d83f" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>center</name></member>
-      <member refid="group__GeneralGroup_1gad6e0ec24db49e4d651459703603a3e4d" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>contains</name></member>
-      <member refid="group__GeneralGroup_1gae15fa3079fbe1aae94cb52176e59e802" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>corner</name></member>
-      <member refid="group__GeneralGroup_1ga7c79113a97744efd6bcbc544553fe582" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1gad18654ddb91781bc8e4d1417ce19a08e" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1ga38590d0d422769798b0be5129be63d55" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1gaee07541d158133fc4c85e7170de4d3e7" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
-      <member refid="group__GeneralGroup_1gaac374ad90e2a96d261ba863c1d6f46e2" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga1b7bb0bf641dd2361eb4b05a663560c9" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga5d54da8e42492b766a660eef3f7d8489" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>contains</name></member>
+      <member refid="group__GeneralGroup_1gaf59c75ab8e961b02d3bb5a6230b6f3ce" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>corner</name></member>
+      <member refid="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga4585db9e756fe2049a698a2845f731d4" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga44dab18e1c0d6202ae231a1815202361" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga6daa35be773bc76c0b406d9503effe5f" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga100a05419714fd2f5addccffddaba1f2" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
       <member refid="group__GeneralGroup_1gaee8123ab811e77321069f3d08c790b94" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
       <member refid="group__GeneralGroup_1ga5df205af7e02e059dd8686549f7a1708" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
       <member refid="group__GeneralGroup_1ga719c140bf1ea5e824566ae7a79718287" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>

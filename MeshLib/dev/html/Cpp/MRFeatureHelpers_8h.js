@@ -11,10 +11,10 @@ var MRFeatureHelpers_8h =
       [ "_count", "MRFeatureHelpers_8h.html#gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "forEachObjectKind", "MRFeatureHelpers_8h.html#ga5c9fd829c3ac9510359b4250c4afa70b", null ],
-    [ "getFeatureDirection", "MRFeatureHelpers_8h.html#ga04713a302796cba586c7e4caa99b88a3", null ],
-    [ "getFeatureNormal", "MRFeatureHelpers_8h.html#ga161bbd3a2147b79505e87110d929c90f", null ],
-    [ "getFeaturesTypeWithDirections", "MRFeatureHelpers_8h.html#ga1cea967678dc1380181a3337893ebf96", null ],
-    [ "getFeaturesTypeWithNormals", "MRFeatureHelpers_8h.html#ga9c700488babfd327228e53e26abd88e2", null ],
+    [ "getFeatureDirection", "MRFeatureHelpers_8h.html#ga6056ccb214c16e5c6bc5b1845f07c569", null ],
+    [ "getFeatureNormal", "MRFeatureHelpers_8h.html#ga580cd76132a0024f0b6ff340cceec94e", null ],
+    [ "getFeaturesTypeWithDirections", "MRFeatureHelpers_8h.html#ga6c5fffc5ac0116cdc082f529360d02b3", null ],
+    [ "getFeaturesTypeWithNormals", "MRFeatureHelpers_8h.html#ga9afd7553d631902b64fd0b83afe94733", null ],
     [ "makeObjectFromClassName", "MRFeatureHelpers_8h.html#gae69d6d886eeae936d8c70e983d245cd5", null ],
     [ "makeObjectFromEnum", "MRFeatureHelpers_8h.html#gaa21f89f30d57138088912b6cf0d2215e", null ]
 ];

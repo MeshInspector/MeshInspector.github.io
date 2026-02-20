@@ -161,9 +161,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1ad36daa50d771e787011f42e1d74ef4fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ImGuiMeasurementIndicators::point</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1a6ef5d71c48a4e7485fa77f40c981eab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ImGuiMeasurementIndicators::point</definition>
         <argsstring>(Element elem, const Params &amp;params, ImVec2 point)</argsstring>
         <name>point</name>
         <qualifiedname>MR::ImGuiMeasurementIndicators::point</qualifiedname>
@@ -186,11 +186,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="107" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="107" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="107" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="107" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" kindref="compound">TextResult</ref> &gt;</type>
-        <definition>MRVIEWER_API std::optional&lt; TextResult &gt; MR::ImGuiMeasurementIndicators::text</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1ab99fb146ee19534728c21de96d621c49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" kindref="compound">TextResult</ref> &gt;</type>
+        <definition>std::optional&lt; TextResult &gt; MR::ImGuiMeasurementIndicators::text</definition>
         <argsstring>(Element elem, const Params &amp;params, ImVec2 pos, const Text &amp;text, const TextParams &amp;textParams={}, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</argsstring>
         <name>text</name>
         <qualifiedname>MR::ImGuiMeasurementIndicators::text</qualifiedname>
@@ -232,11 +232,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="320" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="320" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="320" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="320" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1a8c5e10a09f814d534e98407570061530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ImGuiMeasurementIndicators::arrowTriangle</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1a71248914dc84117569c4980bc4906a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ImGuiMeasurementIndicators::arrowTriangle</definition>
         <argsstring>(Element elem, const Params &amp;params, ImVec2 point, ImVec2 dir)</argsstring>
         <name>arrowTriangle</name>
         <qualifiedname>MR::ImGuiMeasurementIndicators::arrowTriangle</qualifiedname>
@@ -263,11 +263,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="327" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="327" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="327" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1a5eeca0f9dda534003c2bd14f598dd27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" kindref="compound">LineResult</ref> &gt;</type>
-        <definition>MRVIEWER_API std::optional&lt; LineResult &gt; MR::ImGuiMeasurementIndicators::line</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1a10f8eed093365dade4b8f37a4bdf05fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" kindref="compound">LineResult</ref> &gt;</type>
+        <definition>std::optional&lt; LineResult &gt; MR::ImGuiMeasurementIndicators::line</definition>
         <argsstring>(Element elem, const Params &amp;params, ImVec2 a, ImVec2 b, const LineParams &amp;lineParams={})</argsstring>
         <name>line</name>
         <qualifiedname>MR::ImGuiMeasurementIndicators::line</qualifiedname>
@@ -299,11 +299,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="352" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="352" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="352" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="352" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1adde528adacd6500e6e542902d77f3690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" kindref="compound">DistanceResult</ref> &gt;</type>
-        <definition>MRVIEWER_API std::optional&lt; DistanceResult &gt; MR::ImGuiMeasurementIndicators::distance</definition>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1a491df75b1eafcddfde28b6ed4dd4c88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" kindref="compound">DistanceResult</ref> &gt;</type>
+        <definition>std::optional&lt; DistanceResult &gt; MR::ImGuiMeasurementIndicators::distance</definition>
         <argsstring>(Element elem, const Params &amp;params, ImVec2 a, ImVec2 b, const Text &amp;text, const DistanceParams &amp;distanceParams={})</argsstring>
         <name>distance</name>
         <qualifiedname>MR::ImGuiMeasurementIndicators::distance</qualifiedname>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="370" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="370" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="370" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" declline="370" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1ImGuiMeasurementIndicators_1aa8511657c2ed1cc63ff209a6ede1c0f9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -397,7 +397,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculates points for a custom curve, from a function you provide. You can then draw this curve as a <computeroutput><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a5eeca0f9dda534003c2bd14f598dd27c" kindref="member">line()</ref></computeroutput>. The points are appended into <computeroutput>pointBuffer</computeroutput> (and for convenience the new points are also returned as <computeroutput>.midPoints</computeroutput>; the first and the last point are not inserted into the vector and are not included in <computeroutput>.midPoints</computeroutput>, they sit in <computeroutput>.a</computeroutput> and <computeroutput>.b</computeroutput>). You should reuse <computeroutput>pointBuffer</computeroutput> between calls for better performance (and <computeroutput>.clear()</computeroutput> it each time you finish drawing the resulting curve, which conveniently preserves vector capacity). Or, if you don&apos;t care, just pass an empty vector, and keep it alive as long as you need the curve. <computeroutput>stateA</computeroutput> and <computeroutput>stateB</computeroutput> can have any type, they describe the beginning and the end of the curve respectively. They might often be <computeroutput>0.f</computeroutput> and <computeroutput>1.f</computeroutput>. Let <computeroutput>S</computeroutput> be the type of <computeroutput>stateA</computeroutput>/<computeroutput>stateB</computeroutput> (more on that belw). <computeroutput>stateToPoint</computeroutput> is a lambda <computeroutput>(const S &amp;s) -&gt; ImVec2</computeroutput>. It converts a state into a curve point coordinates. <computeroutput>bisectState</computeroutput> is a lambda <computeroutput>(const S &amp;a, const S &amp;b, int depth) -&gt; S</computeroutput>. Given two states, it produces the state between them. <computeroutput>depth</computeroutput> starts at <computeroutput>0</computeroutput>. <computeroutput>onInsertPoint</computeroutput>, if specified, is a lambda <computeroutput>(ImVec2 point, const S &amp;state) -&gt; void</computeroutput>. It&apos;s called right before a point is added into the list. It&apos;s actually possible to have multiple state types instead of a single <computeroutput>S</computeroutput>, and template your functions (e.g. to track bisection depth in the type system, etc). Example usage: prepareCurve( params, buf, 0, PI*2, [](float x){return std::sin(x);}, [](float a, float b, int /<zwj/>** depth*<zwj/>/){return (a+b)/2;} ) </para>
+<para>Calculates points for a custom curve, from a function you provide. You can then draw this curve as a <computeroutput><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a10f8eed093365dade4b8f37a4bdf05fb" kindref="member">line()</ref></computeroutput>. The points are appended into <computeroutput>pointBuffer</computeroutput> (and for convenience the new points are also returned as <computeroutput>.midPoints</computeroutput>; the first and the last point are not inserted into the vector and are not included in <computeroutput>.midPoints</computeroutput>, they sit in <computeroutput>.a</computeroutput> and <computeroutput>.b</computeroutput>). You should reuse <computeroutput>pointBuffer</computeroutput> between calls for better performance (and <computeroutput>.clear()</computeroutput> it each time you finish drawing the resulting curve, which conveniently preserves vector capacity). Or, if you don&apos;t care, just pass an empty vector, and keep it alive as long as you need the curve. <computeroutput>stateA</computeroutput> and <computeroutput>stateB</computeroutput> can have any type, they describe the beginning and the end of the curve respectively. They might often be <computeroutput>0.f</computeroutput> and <computeroutput>1.f</computeroutput>. Let <computeroutput>S</computeroutput> be the type of <computeroutput>stateA</computeroutput>/<computeroutput>stateB</computeroutput> (more on that belw). <computeroutput>stateToPoint</computeroutput> is a lambda <computeroutput>(const S &amp;s) -&gt; ImVec2</computeroutput>. It converts a state into a curve point coordinates. <computeroutput>bisectState</computeroutput> is a lambda <computeroutput>(const S &amp;a, const S &amp;b, int depth) -&gt; S</computeroutput>. Given two states, it produces the state between them. <computeroutput>depth</computeroutput> starts at <computeroutput>0</computeroutput>. <computeroutput>onInsertPoint</computeroutput>, if specified, is a lambda <computeroutput>(ImVec2 point, const S &amp;state) -&gt; void</computeroutput>. It&apos;s called right before a point is added into the list. It&apos;s actually possible to have multiple state types instead of a single <computeroutput>S</computeroutput>, and template your functions (e.g. to track bisection depth in the type system, etc). Example usage: prepareCurve( params, buf, 0, PI*2, [](float x){return std::sin(x);}, [](float a, float b, int /<zwj/>** depth*<zwj/>/){return (a+b)/2;} ) </para>
         </detaileddescription>
         <inbodydescription>
 <para>Check if we need to subdivide.</para>

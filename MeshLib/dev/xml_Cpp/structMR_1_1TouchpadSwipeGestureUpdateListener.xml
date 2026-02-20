@@ -7,7 +7,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga56753f530eab33ccb8f1c7c34ec618fa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga22afe5fdd5b2015b479bc26a6e200972" kind="function"><name>~TouchpadSwipeGestureUpdateListener</name></member>
-      <member refid="group__GeneralGroup_1ga699126c1c4c296d0dcfd76964121d306" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga42fca7ac955292ab426e9c0c04c5b1be" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gaef526e0582b51edc407c765caedd0b9b" kind="function"><name>touchpadSwipeGestureUpdate_</name></member>
@@ -55,7 +55,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="350" bodyend="356"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga699126c1c4c296d0dcfd76964121d306" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga42fca7ac955292ab426e9c0c04c5b1be" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga56753f530eab33ccb8f1c7c34ec618fa" prot="public" virt="non-virtual"><scope>MR::TouchpadSwipeGestureUpdateListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

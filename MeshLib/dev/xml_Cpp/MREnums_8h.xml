@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MREnums_8h" kind="file" language="C++">
     <compoundname>MREnums.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includedby refid="MRDirMax_8h" local="yes">MRDirMax.h</includedby>
     <includedby refid="MRExtractIsolines_8h" local="yes">MRExtractIsolines.h</includedby>
     <includedby refid="MRFillHoleNicely_8h" local="yes">MRFillHoleNicely.h</includedby>
@@ -23,14 +23,68 @@
     <includedby refid="MRSurfacePath_8h" local="yes">MRSurfacePath.h</includedby>
     <includedby refid="MRVisualObject_8h" local="yes">MRVisualObject.h</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -877,7 +931,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
@@ -947,7 +1001,7 @@
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd" kindref="member">VertsColorMap</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="group__GeneralGroup_1gaacea1a148219f6a3a63f157178a7ee08" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="group__GeneralGroup_1gaacea1a148219f6a3a63f157178a7ee08" kindref="member">asString</ref>(<sp/><ref refid="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref><sp/>ct<sp/>);</highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1ga82943f2d7704ee3a9f35c06b8d43ccf5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="group__GeneralGroup_1ga82943f2d7704ee3a9f35c06b8d43ccf5" kindref="member">asString</ref>(<sp/><ref refid="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref><sp/>ct<sp/>);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" kindref="member">UseAABBTree</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal">{</highlight></codeline>

@@ -6,50 +6,97 @@
     <includes local="no">cassert</includes>
     <includes local="no">utility</includes>
     <incdepgraph>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRUnorientedTriangle.h</label>
         <link refid="MRUnorientedTriangle_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
-        <label>cassert</label>
-      </node>
-      <node id="6">
-        <label>cstddef</label>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="7">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="16">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1UnorientedTriangle" prot="public">MR::UnorientedTriangle</innerclass>
@@ -71,9 +118,9 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="structMR_1_1UnorientedTriangle" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ThreeVertIds<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>{};</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>{};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" kindref="member">UnorientedTriangle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ThreeVertIds<sp/>&amp;<sp/>inVs,</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" kindref="member">UnorientedTriangle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/>&amp;<sp/>inVs,</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<sp/>outFlipped<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>(<sp/>inVs<sp/>)</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -95,10 +142,10 @@
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*outFlipped<sp/>=<sp/>flipped;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga74d6d544ece458f69514e02465ea0a1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ThreeVertIds<sp/><ref refid="group__GeneralGroup_1ga74d6d544ece458f69514e02465ea0a1e" kindref="member">getFlipped</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[0],<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[2],<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[1]<sp/>};<sp/>}<sp/></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga74d6d544ece458f69514e02465ea0a1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/><ref refid="group__GeneralGroup_1ga74d6d544ece458f69514e02465ea0a1e" kindref="member">getFlipped</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[0],<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[2],<sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[1]<sp/>};<sp/>}<sp/></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga2acb7c3b59143a9bddbe412c01ec2489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ThreeVertIds<sp/>&amp;()<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>;<sp/>}</highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga45e593296b33c08794467bccc48dc9ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ThreeVertIds<sp/>&amp;()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga2acb7c3b59143a9bddbe412c01ec2489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/>&amp;()<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga45e593296b33c08794467bccc48dc9ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/>&amp;()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47" refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>&amp;<ref refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" kindref="member">operator[]</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[i];<sp/>}</highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertId<sp/>&amp;<ref refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" kindref="member">operator[]</ref>(<sp/>std::size_t<sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[i];<sp/>}</highlight></codeline>

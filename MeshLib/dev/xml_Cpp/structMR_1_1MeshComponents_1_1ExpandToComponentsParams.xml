@@ -69,7 +69,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="71" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1aee9c119e10ee9a63b219e9db0061a578" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::MeshComponents::ExpandToComponentsParams::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

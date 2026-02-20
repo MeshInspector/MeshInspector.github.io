@@ -1,6 +1,6 @@
 var MRPointCloudRelax_8h =
 [
-    [ "relax", "MRPointCloudRelax_8h.html#ga6ba9ffdcab693b6baea21220474723b3", null ],
-    [ "relaxApprox", "MRPointCloudRelax_8h.html#ga6aed8553ea931bbcc8e56d557e037f83", null ],
-    [ "relaxKeepVolume", "MRPointCloudRelax_8h.html#ga43e77151f7880a37daf34ec986060115", null ]
+    [ "relax", "MRPointCloudRelax_8h.html#gab9585f4e631931775325d348d2b41f9b", null ],
+    [ "relaxApprox", "MRPointCloudRelax_8h.html#gaf730c446bd16a9211e90506d85c35757", null ],
+    [ "relaxKeepVolume", "MRPointCloudRelax_8h.html#ga98ac77273eb374aff599b70216768f96", null ]
 ];

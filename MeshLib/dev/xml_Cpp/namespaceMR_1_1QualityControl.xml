@@ -3,9 +3,9 @@
   <compounddef id="namespaceMR_1_1QualityControl" kind="namespace" language="C++">
     <compoundname>MR::QualityControl</compoundname>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1QualityControl_1ae3ef1665822bfc51bccf4cb39ea88a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::QualityControl::inputTolerance</definition>
+      <memberdef kind="function" id="namespaceMR_1_1QualityControl_1a33943e0e66b7b658ae4c5489310a4ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::QualityControl::inputTolerance</definition>
         <argsstring>(const char *label, ObjectComparableWithReference &amp;object, std::size_t index)</argsstring>
         <name>inputTolerance</name>
         <qualifiedname>MR::QualityControl::inputTolerance</qualifiedname>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIQualityControl.h" line="14" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIQualityControl.h" declline="14" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIQualityControl.h" line="14" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIQualityControl.h" declline="14" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -5,7 +5,7 @@
     <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
     <templateparamlist>
       <param>
-        <type>std::constructible_from&lt; NoInit &gt;</type>
+        <type>std::constructible_from&lt; <ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref> &gt;</type>
         <declname>T</declname>
         <defname>T</defname>
       </param>

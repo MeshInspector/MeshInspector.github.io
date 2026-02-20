@@ -7,7 +7,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaf86a1cfaae2446a6124adbf0d57fcd22" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gacd3f5e69f0f54f180e1d5d937f1257b7" kind="function"><name>~KeyDownListener</name></member>
-      <member refid="group__GeneralGroup_1gad90d70016988ac82ce6f4ee19c20c0ab" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gace0096542e0a818ccf48d4d2097b0dc5" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1ga0034f6f91ff28edcc1b9e1ea43825698" kind="function"><name>onKeyDown_</name></member>
@@ -54,7 +54,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="144" bodyend="150"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gad90d70016988ac82ce6f4ee19c20c0ab" prot="public" virt="virtual"><scope>MR::KeyDownListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gace0096542e0a818ccf48d4d2097b0dc5" prot="public" virt="virtual"><scope>MR::KeyDownListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::KeyDownListener</scope><name>connection_</name></member>
       <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::KeyDownListener</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1gaf86a1cfaae2446a6124adbf0d57fcd22" prot="public" virt="non-virtual"><scope>MR::KeyDownListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>

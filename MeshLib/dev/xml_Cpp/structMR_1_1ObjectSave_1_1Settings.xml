@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" line="13" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ObjectSave_1_1Settings_1abaac448dc025a46f3ebc884adacb58ab" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::ObjectSave::Settings::progress</definition>
         <argsstring></argsstring>
         <name>progress</name>

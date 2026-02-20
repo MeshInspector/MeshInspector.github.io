@@ -1,8 +1,8 @@
 var MRTiffIO_8h =
 [
-    [ "isTIFFFile", "MRTiffIO_8h.html#ga30561e9335c9081843e4c982a0553366", null ],
-    [ "readRawTiff", "MRTiffIO_8h.html#ga16911b1d8c2b28200b6a2cb7d97f4bf8", null ],
-    [ "readTiffParameters", "MRTiffIO_8h.html#ga7c49de97d655fd498b5741311c3c1bcf", null ],
+    [ "isTIFFFile", "MRTiffIO_8h.html#ga82a781ae507923635d45a1044e8983bb", null ],
+    [ "readRawTiff", "MRTiffIO_8h.html#ga279ac3e2a1324201295c03e901942929", null ],
+    [ "readTiffParameters", "MRTiffIO_8h.html#ga2d9f515a128f5399a3bb2d923eac2a0a", null ],
     [ "writeRawTiff", "MRTiffIO_8h.html#gae22fd2b15bcc1e528cb2eb3c7650d520", null ],
-    [ "writeRawTiff", "MRTiffIO_8h.html#gac268df8c3099a020a757e22b3722ece2", null ]
+    [ "writeRawTiff", "MRTiffIO_8h.html#ga0f1dc59ecc48a433652dd5d6fa7f86cc", null ]
 ];

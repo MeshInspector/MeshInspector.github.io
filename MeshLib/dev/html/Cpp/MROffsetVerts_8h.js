@@ -1,8 +1,8 @@
 var MROffsetVerts_8h =
 [
-    [ "findZcompensatedPositions", "MROffsetVerts_8h.html#ga20373caf5716c8954478743f6d0d7238", null ],
-    [ "findZcompensationShifts", "MROffsetVerts_8h.html#gacbe3ddcb19f5fe435a1a58b74c833314", null ],
-    [ "makeThickMesh", "MROffsetVerts_8h.html#ga676dff9eff2ba59b0e881d73f18900fe", null ],
-    [ "offsetVerts", "MROffsetVerts_8h.html#gab541c8fc31d1c7ee3daa4d9f935ffc33", null ],
-    [ "zCompensate", "MROffsetVerts_8h.html#ga08ac3fca0ca82a431356f09a83cde032", null ]
+    [ "findZcompensatedPositions", "MROffsetVerts_8h.html#gad3160267e2d1fe91584968a7cf1387ff", null ],
+    [ "findZcompensationShifts", "MROffsetVerts_8h.html#gab60b2b674f93f1b88bde77124b374cea", null ],
+    [ "makeThickMesh", "MROffsetVerts_8h.html#ga34f71b57fc7b583b62d9b1eac40249b7", null ],
+    [ "offsetVerts", "MROffsetVerts_8h.html#gac39b0804e4160d2ed3ff676025af03bd", null ],
+    [ "zCompensate", "MROffsetVerts_8h.html#ga54b1cc2d39c3846c72ff586818e3647d", null ]
 ];

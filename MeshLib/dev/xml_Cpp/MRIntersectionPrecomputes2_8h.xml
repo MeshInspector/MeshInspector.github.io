@@ -5,6 +5,12 @@
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
     <includedby refid="MRRayBoxIntersection2_8h" local="yes">MRRayBoxIntersection2.h</includedby>
     <incdepgraph>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRIntersectionPrecomputes2.h</label>
         <link refid="MRIntersectionPrecomputes2_8h"/>
@@ -14,6 +20,28 @@
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRMesh/MRUnsigned.h</label>
@@ -32,45 +60,64 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
       <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="9">
-        <label>algorithm</label>
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="18">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="11">
+      <node id="19">
         <label>cstring</label>
       </node>
-      <node id="12">
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="20">
         <label>iosfwd</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -114,7 +161,7 @@
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="34" refid="structMR_1_1IntersectionPrecomputes2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IntersectionPrecomputes2" kindref="compound">IntersectionPrecomputes2</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">IntersectionPrecomputes2</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="37" refid="structMR_1_1IntersectionPrecomputes2_1aa9162110be6b5840cd870eb551a292fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="structMR_1_1IntersectionPrecomputes2_1aa9162110be6b5840cd870eb551a292fd" kindref="member">invDir</ref>;</highlight></codeline>
 <codeline lineno="40" refid="structMR_1_1IntersectionPrecomputes2_1a97745f96da021de236ed1d33cc89c73f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes2_1a97745f96da021de236ed1d33cc89c73f" kindref="member">maxDimIdxY</ref><sp/>=<sp/>1;</highlight></codeline>

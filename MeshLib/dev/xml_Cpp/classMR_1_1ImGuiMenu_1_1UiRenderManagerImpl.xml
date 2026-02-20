@@ -8,11 +8,11 @@
       <member refid="group__GeneralGroup_1ga810c0bc5c84d12f69dbbdd1510c7ea20" kind="variable"><name>consumedInteractions</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga7347c1740073a409a4350f361af9b816" kind="function"><name>preRenderViewport</name></member>
-      <member refid="group__GeneralGroup_1ga40f36215f485498d7757d2473e6d2d64" kind="function"><name>postRenderViewport</name></member>
-      <member refid="group__GeneralGroup_1ga1aa058b02893d9bc3fd3589e0dc7bf21" kind="function"><name>beginBackwardPass</name></member>
-      <member refid="group__GeneralGroup_1ga6eae746d6778e271123fb43ad2f8f4e2" kind="function"><name>finishBackwardPass</name></member>
-      <member refid="group__GeneralGroup_1ga51953f10f06ecbdf36131c6711172452" kind="function"><name>canConsumeEvent</name></member>
+      <member refid="group__GeneralGroup_1ga393e611425f8e0700c6a66af14fc700b" kind="function"><name>preRenderViewport</name></member>
+      <member refid="group__GeneralGroup_1ga88f44b8b52e3dc0e7e3c125b45cdb7c9" kind="function"><name>postRenderViewport</name></member>
+      <member refid="group__GeneralGroup_1ga0d422ddb23c790808aa9288b25363482" kind="function"><name>beginBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gadfffa8dc5a661a4fb5936ad8b3858b77" kind="function"><name>finishBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" kind="function"><name>canConsumeEvent</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -44,12 +44,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="420" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="421" bodyend="434"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga1aa058b02893d9bc3fd3589e0dc7bf21" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>beginBackwardPass</name></member>
-      <member refid="group__GeneralGroup_1ga51953f10f06ecbdf36131c6711172452" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>canConsumeEvent</name></member>
+      <member refid="group__GeneralGroup_1ga0d422ddb23c790808aa9288b25363482" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>beginBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>canConsumeEvent</name></member>
       <member refid="group__GeneralGroup_1ga810c0bc5c84d12f69dbbdd1510c7ea20" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>consumedInteractions</name></member>
-      <member refid="group__GeneralGroup_1ga6eae746d6778e271123fb43ad2f8f4e2" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>finishBackwardPass</name></member>
-      <member refid="group__GeneralGroup_1ga40f36215f485498d7757d2473e6d2d64" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>postRenderViewport</name></member>
-      <member refid="group__GeneralGroup_1ga7347c1740073a409a4350f361af9b816" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>preRenderViewport</name></member>
+      <member refid="group__GeneralGroup_1gadfffa8dc5a661a4fb5936ad8b3858b77" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>finishBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1ga88f44b8b52e3dc0e7e3c125b45cdb7c9" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>postRenderViewport</name></member>
+      <member refid="group__GeneralGroup_1ga393e611425f8e0700c6a66af14fc700b" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>preRenderViewport</name></member>
       <member refid="group__GeneralGroup_1ga068f0178b855d81e92b613b5872c99ee" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>~UiRenderManager</name></member>
     </listofallmembers>
   </compounddef>

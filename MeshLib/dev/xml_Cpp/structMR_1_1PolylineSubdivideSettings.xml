@@ -115,7 +115,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="31" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1afd1b05e15df328d6581de39d05ef0ba2" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::PolylineSubdivideSettings::progressCallback</definition>
         <argsstring></argsstring>
         <name>progressCallback</name>

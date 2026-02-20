@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRCNCMachineSettings_8h" kind="file" language="C++">
     <compoundname>MRCNCMachineSettings.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
     <includes local="no">array</includes>
@@ -15,61 +15,39 @@
         <link refid="MRCNCMachineSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="15">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+      </node>
+      <node id="17">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -81,43 +59,109 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="9">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="10">
-        <label>algorithm</label>
-      </node>
-      <node id="16">
-        <label>array</label>
-      </node>
-      <node id="11">
-        <label>cmath</label>
-      </node>
-      <node id="6">
-        <label>cstddef</label>
-      </node>
-      <node id="12">
-        <label>cstring</label>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
       <node id="13">
-        <label>iosfwd</label>
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
-      <node id="17">
-        <label>optional</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="21">
+        <label>iosfwd</label>
+      </node>
+      <node id="24">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
         <label>type_traits</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -152,7 +196,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
@@ -165,7 +209,7 @@
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1CNCMachineSettings" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRMESH_CLASS<sp/><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1CNCMachineSettings" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref></highlight></codeline>
@@ -179,22 +223,22 @@
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" kindref="member">getAxesCount</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>int(<sp/>RotationAxisName::C<sp/>)<sp/>+<sp/>1;<sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gaf43358e48d8585153010284ae8573894" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf43358e48d8585153010284ae8573894" kindref="member">setRotationAxis</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>rotationAxis<sp/>);</highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga9b8cd0d699837ae1b90931ef9e94812e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1ga9b8cd0d699837ae1b90931ef9e94812e" kindref="member">getRotationAxis</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38" refid="group__GeneralGroup_1gacc7183caf6c3269e59180f362ef83258" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc7183caf6c3269e59180f362ef83258" kindref="member">setRotationLimits</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref>&amp;<sp/>rotationLimits<sp/>);</highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1gae955523fc216f1375b25477a94ebc629" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gae955523fc216f1375b25477a94ebc629" kindref="member">getRotationLimits</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1gac2d2ccfe7fd64c3498a251b0a0d33223" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2d2ccfe7fd64c3498a251b0a0d33223" kindref="member">setRotationOrder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" kindref="member">RotationAxesOrder</ref>&amp;<sp/>rotationAxesOrder<sp/>);</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gab0c174a2f36a533ce629dca7cf6e6eac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0c174a2f36a533ce629dca7cf6e6eac" kindref="member">setRotationAxis</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>rotationAxis<sp/>);</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga44ec4b3bf8446bb3e22d9dd5c0627e85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1ga44ec4b3bf8446bb3e22d9dd5c0627e85" kindref="member">getRotationAxis</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1gabbbfa47c944c1612a9b3fbbeb424a204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabbbfa47c944c1612a9b3fbbeb424a204" kindref="member">setRotationLimits</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref>&amp;<sp/>rotationLimits<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1gae1ae1c8b922440cabdf5040ab6344c46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gae1ae1c8b922440cabdf5040ab6344c46" kindref="member">getRotationLimits</ref>(<sp/><ref refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref><sp/>paramName<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga9f9240fae66c1ffd476ce6f4a0ac2c78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f9240fae66c1ffd476ce6f4a0ac2c78" kindref="member">setRotationOrder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" kindref="member">RotationAxesOrder</ref>&amp;<sp/>rotationAxesOrder<sp/>);</highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1gac0c13922a14bfc3a6a3a9add38676b04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" kindref="member">RotationAxesOrder</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac0c13922a14bfc3a6a3a9add38676b04" kindref="member">getRotationOrder</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rotationAxesOrder_;<sp/>}</highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1gae22e552af6d9f1dc0260d0da9fac1245" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae22e552af6d9f1dc0260d0da9fac1245" kindref="member">setFeedrateIdle</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>feedrateIdle<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga7f8f67aa74dd08ad6e89563cdada3b2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7f8f67aa74dd08ad6e89563cdada3b2f" kindref="member">setFeedrateIdle</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>feedrateIdle<sp/>);</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gaa86d3a2352dd1da528e0b0e02259cb2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa86d3a2352dd1da528e0b0e02259cb2a" kindref="member">getFeedrateIdle</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>feedrateIdle_;<sp/>}</highlight></codeline>
 <codeline lineno="47" refid="group__GeneralGroup_1gaeec12ba988b385f03ee2ab59df0bdd18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeec12ba988b385f03ee2ab59df0bdd18" kindref="member">setHomePosition</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>homePosition<sp/>)<sp/>{<sp/>homePosition_<sp/>=<sp/>homePosition;<sp/>}</highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga404671f36c19d091b007337e8c67f052" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1ga404671f36c19d091b007337e8c67f052" kindref="member">getHomePosition</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>homePosition_;<sp/>}</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga278d2f6aa58def219645069a531f5bcb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga278d2f6aa58def219645069a531f5bcb" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga25e8983ad44914045326621d9d950b5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga25e8983ad44914045326621d9d950b5d" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
 <codeline lineno="51" refid="group__GeneralGroup_1ga0bbceb8d92b2fa4d3b6ef276385f4859" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0bbceb8d92b2fa4d3b6ef276385f4859" kindref="member">operator!=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref>&amp;<sp/>rhs<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>rhs);<sp/>}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="group__GeneralGroup_1gaefee9fbee599870c51626aa983b8a978" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>Json::Value<sp/><ref refid="group__GeneralGroup_1gaefee9fbee599870c51626aa983b8a978" kindref="member">saveToJson</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54" refid="group__GeneralGroup_1gaea3e8581cae26f91618ddedf27079e5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaea3e8581cae26f91618ddedf27079e5b" kindref="member">loadFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>jsonValue<sp/>);</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1ga93b72268ca2fc8327768a6650adb6ff1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Json::Value<sp/><ref refid="group__GeneralGroup_1ga93b72268ca2fc8327768a6650adb6ff1" kindref="member">saveToJson</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1gaba12a3656ff9917b57e05ff69286af64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba12a3656ff9917b57e05ff69286af64" kindref="member">loadFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>jsonValue<sp/>);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>rotationAxes_<sp/>=<sp/>{<sp/>Vector3f::minusX(),<sp/>Vector3f::minusY(),<sp/>Vector3f::plusZ()<sp/>};</highlight></codeline>

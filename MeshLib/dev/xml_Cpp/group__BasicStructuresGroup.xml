@@ -9,9 +9,26 @@
     <innerclass refid="classMR_1_1SceneSettings" prot="public">MR::SceneSettings</innerclass>
     <innerclass refid="classMR_1_1FloatGrid" prot="public">MR::FloatGrid</innerclass>
     <innerclass refid="structMR_1_1OpenVdbFloatGrid" prot="public">MR::OpenVdbFloatGrid</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" prot="public" static="no">
+        <type>std::function&lt; bool(float)&gt;</type>
+        <definition>typedef std::function&lt;bool( float )&gt; MR::ProgressCallback</definition>
+        <argsstring></argsstring>
+        <name>ProgressCallback</name>
+        <qualifiedname>MR::ProgressCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Argument value - progress in [0,1]; returns true to continue the operation and returns false to stop the operation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="746" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="746" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="var">
       <memberdef kind="variable" id="group__BasicStructuresGroup_1gaaa4989f3d8e88d20b6cbebc9f51db434" prot="public" static="no" mutable="no">
-        <type>struct MRVOXELS_CLASS</type>
+        <type>struct <ref refid="MRVoxelsFwd_8h_1a9f036b05518b862a538b52711d41d242" kindref="member">MRVOXELS_CLASS</ref></type>
         <definition>struct MRVOXELS_CLASS MR::OpenVdbFloatGrid</definition>
         <argsstring></argsstring>
         <name>OpenVdbFloatGrid</name>
@@ -26,9 +43,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga0f1e6296451691269fc538aad8088557" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API size_t</type>
-        <definition>MRVOXELS_API size_t MR::heapBytes</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gad25133daa392d9efb6b5e349e8ba7e5f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::heapBytes</definition>
         <argsstring>(const FloatGrid &amp;grid)</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::heapBytes</qualifiedname>
@@ -43,11 +60,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="43" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="43" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="43" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="43" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga1ca037d5840cb55f43edc7af7164ee53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::resampled</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga1bfdecc867ada4fd3525c717441a44ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::resampled</definition>
         <argsstring>(const FloatGrid &amp;grid, float voxelScale, ProgressCallback cb={})</argsstring>
         <name>resampled</name>
         <qualifiedname>MR::resampled</qualifiedname>
@@ -71,11 +88,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="46" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="46" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="46" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="46" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga7d757a1fbd48e0e4c6268f3637ba631c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::resampled</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gaf17bb94ba9fe8bf6f01de2334d8be119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::resampled</definition>
         <argsstring>(const FloatGrid &amp;grid, const Vector3f &amp;voxelScale, ProgressCallback cb={})</argsstring>
         <name>resampled</name>
         <qualifiedname>MR::resampled</qualifiedname>
@@ -99,11 +116,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="49" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="49" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="49" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="49" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1gaaa65eb4d7a6f3cf6b9682a32de1e0915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::cropped</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gafe5c0e6c9a49fbd709c7243c3892e270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::cropped</definition>
         <argsstring>(const FloatGrid &amp;grid, const Box3i &amp;box, ProgressCallback cb={})</argsstring>
         <name>cropped</name>
         <qualifiedname>MR::cropped</qualifiedname>
@@ -127,11 +144,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="52" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="52" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="52" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="52" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga770032fe42da0bb15fcc90bf40d219a1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API size_t</type>
-        <definition>MRVOXELS_API size_t MR::countVoxelsWithValuePred</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga5ccf9f11a87d554ea33bc5ee074032f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::countVoxelsWithValuePred</definition>
         <argsstring>(const FloatGrid &amp;grid, const std::function&lt; bool(float)&gt; &amp;pred)</argsstring>
         <name>countVoxelsWithValuePred</name>
         <qualifiedname>MR::countVoxelsWithValuePred</qualifiedname>
@@ -150,11 +167,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="55" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="55" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="55" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="55" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1gac9943628cd64b8a75e368ce9d38efd82" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API size_t</type>
-        <definition>MRVOXELS_API size_t MR::countVoxelsWithValueLess</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga1322ac706e673ed930bc4c32c05fa2d3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::countVoxelsWithValueLess</definition>
         <argsstring>(const FloatGrid &amp;grid, float value)</argsstring>
         <name>countVoxelsWithValueLess</name>
         <qualifiedname>MR::countVoxelsWithValueLess</qualifiedname>
@@ -173,11 +190,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="58" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="58" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="58" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="58" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga5712e78d9d4422fcdcd7dfed32c2c17e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API size_t</type>
-        <definition>MRVOXELS_API size_t MR::countVoxelsWithValueGreater</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga31ae4b6e3ced3e32c00e186c5888dbd6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::countVoxelsWithValueGreater</definition>
         <argsstring>(const FloatGrid &amp;grid, float value)</argsstring>
         <name>countVoxelsWithValueGreater</name>
         <qualifiedname>MR::countVoxelsWithValueGreater</qualifiedname>
@@ -196,11 +213,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="61" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="61" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="61" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="61" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga5124238a8f9f74cadab3bc8dcc4438e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::gaussianFilter</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga5c9d5ece99325ae854e7ea6641867e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::gaussianFilter</definition>
         <argsstring>(FloatGrid &amp;grid, int width, int iters, ProgressCallback cb={})</argsstring>
         <name>gaussianFilter</name>
         <qualifiedname>MR::gaussianFilter</qualifiedname>
@@ -228,11 +245,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="64" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="64" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="64" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="64" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1gafc2d64e9f6eb7deafd50ee83fd764989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::gaussianFiltered</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga228e41b0a57baa8fb525f4aeec502554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::gaussianFiltered</definition>
         <argsstring>(const FloatGrid &amp;grid, int width, int iters, ProgressCallback cb={})</argsstring>
         <name>gaussianFiltered</name>
         <qualifiedname>MR::gaussianFiltered</qualifiedname>
@@ -259,11 +276,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="65" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="65" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="65" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="65" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga4de97d8976ba9d3103b0d84d94214861" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API float</type>
-        <definition>MRVOXELS_API float MR::getValue</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gab91d72c223381e73edff31cc3b8405e4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::getValue</definition>
         <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;p)</argsstring>
         <name>getValue</name>
         <qualifiedname>MR::getValue</qualifiedname>
@@ -282,11 +299,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="68" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="68" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="68" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga28830151316f69a9dfd4e1fa94ccf465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::setValue</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga24e9cfbbad1dbef4e985c5351f7863fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::setValue</definition>
         <argsstring>(FloatGrid &amp;grid, const Vector3i &amp;p, float value)</argsstring>
         <name>setValue</name>
         <qualifiedname>MR::setValue</qualifiedname>
@@ -311,11 +328,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="72" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="72" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="72" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="72" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1gac5781724903abd08d021ac04b898a862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::setValue</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga4b8a485f1c34582e929fb3123f84de8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::setValue</definition>
         <argsstring>(FloatGrid &amp;grid, const VoxelBitSet &amp;region, float value)</argsstring>
         <name>setValue</name>
         <qualifiedname>MR::setValue</qualifiedname>
@@ -340,11 +357,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="76" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="76" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="76" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="76" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga4396f48fae80f4ac64117dec83d0de9b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API Box3i</type>
-        <definition>MRVOXELS_API Box3i MR::findActiveBounds</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gae4a0d8b7bd4d17ddbbfe338314714867" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Box3i</type>
+        <definition>Box3i MR::findActiveBounds</definition>
         <argsstring>(const FloatGrid &amp;grid)</argsstring>
         <name>findActiveBounds</name>
         <qualifiedname>MR::findActiveBounds</qualifiedname>
@@ -359,11 +376,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="81" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="81" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="81" declcolumn="9"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga81533ed0f1aef464f77c39b18acf4956" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::setValues</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga1d3651fa5e9662f55a9a4512df2f3faf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::setValues</definition>
         <argsstring>(FloatGrid &amp;grid, const VoxelBitSet &amp;region, const std::vector&lt; float &gt; &amp;values)</argsstring>
         <name>setValues</name>
         <qualifiedname>MR::setValues</qualifiedname>
@@ -388,11 +405,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="85" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="85" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="85" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="85" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga87e6e60c5605c5450f4bd815128674c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API void</type>
-        <definition>MRVOXELS_API void MR::setLevelSetType</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga9a2627798d685fc7e535ab8f8d9daced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::setLevelSetType</definition>
         <argsstring>(FloatGrid &amp;grid)</argsstring>
         <name>setLevelSetType</name>
         <qualifiedname>MR::setLevelSetType</qualifiedname>
@@ -407,11 +424,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="88" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="88" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="88" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="88" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1gaf5d37fb097aca732b859a5d55970fd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::operator+=</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gaffeefc19c16dfc736abf14edb6cee834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::operator+=</definition>
         <argsstring>(FloatGrid &amp;a, FloatGrid &amp;&amp;b)</argsstring>
         <name>operator+=</name>
         <qualifiedname>MR::operator+=</qualifiedname>
@@ -432,11 +449,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="92" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="92" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="92" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="92" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga2773336d5184520990f578bafed5d06b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::operator-=</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga2c64eb34f40157199ec9339b67a68c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::operator-=</definition>
         <argsstring>(FloatGrid &amp;a, FloatGrid &amp;&amp;b)</argsstring>
         <name>operator-=</name>
         <qualifiedname>MR::operator-=</qualifiedname>
@@ -457,11 +474,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="96" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="96" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="96" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="96" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga38ae01a5dcb7ca4579b8a5bedc1a87af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::operator*=</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga5f56c86c89163056f639520e5586c53b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::operator*=</definition>
         <argsstring>(FloatGrid &amp;a, FloatGrid &amp;&amp;b)</argsstring>
         <name>operator*=</name>
         <qualifiedname>MR::operator*=</qualifiedname>
@@ -482,11 +499,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="100" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="100" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="100" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="100" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga27aa276f1eb4382e060c5c2f4b9549d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::operator+</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga77f85359ff4407f9d67e76e38dd20bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::operator+</definition>
         <argsstring>(const FloatGrid &amp;a, const FloatGrid &amp;b)</argsstring>
         <name>operator+</name>
         <qualifiedname>MR::operator+</qualifiedname>
@@ -507,11 +524,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="104" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="104" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="104" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="104" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1ga29aa00cf3d9e6271529f5e91d41a0c40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::operator-</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga7e5914a3cd2ce8b03c5af9f9a7a389d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::operator-</definition>
         <argsstring>(const FloatGrid &amp;a, const FloatGrid &amp;b)</argsstring>
         <name>operator-</name>
         <qualifiedname>MR::operator-</qualifiedname>
@@ -532,11 +549,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="108" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="108" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="108" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="108" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicStructuresGroup_1gad706177987608a6f19bc71c513db2ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVOXELS_API FloatGrid</type>
-        <definition>MRVOXELS_API FloatGrid MR::operator*</definition>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1gaf5da868ff81726bd747e54deb6b87009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FloatGrid</type>
+        <definition>FloatGrid MR::operator*</definition>
         <argsstring>(const FloatGrid &amp;a, const FloatGrid &amp;b)</argsstring>
         <name>operator*</name>
         <qualifiedname>MR::operator*</qualifiedname>
@@ -557,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="112" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="112" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="112" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="112" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga12f92e71b639968eb7a4ffb4cbe51291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE openvdb::FloatGrid &amp;</type>

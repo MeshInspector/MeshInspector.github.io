@@ -14,7 +14,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaf0fa6a664e8f0a43bbb41adf37fe296a" kind="function"><name>~ITransformControls</name></member>
       <member refid="group__GeneralGroup_1ga053e821953dbcafc94e913961cdbc94a" kind="function"><name>getCenter</name></member>
-      <member refid="group__GeneralGroup_1ga9603cd25e26df7d1c6fe9171d0335997" kind="function"><name>setCenter</name></member>
+      <member refid="group__GeneralGroup_1ga808053311f7578b9199e4b3f33d53c3a" kind="function"><name>setCenter</name></member>
       <member refid="group__GeneralGroup_1gaf95856a61b1ace2e76600c292a4965c7" kind="function"><name>getRadius</name></member>
       <member refid="group__GeneralGroup_1gad18cade1f93573f1300cbdd29ea07518" kind="function"><name>updateSizeInPixel</name></member>
       <member refid="group__GeneralGroup_1ga7ae4eb78f83ef31cb1fb11184c3eca6d" kind="function"><name>setTransformModesValidator</name></member>
@@ -25,7 +25,7 @@
       <member refid="group__GeneralGroup_1ga786c7692ef96e6c97a0da7ae332b5597" kind="function"><name>update</name></member>
       <member refid="group__GeneralGroup_1ga18436dfbd4ff243fc8bd07d0a3f36b73" kind="function"><name>hover</name></member>
       <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" kind="function"><name>stopModify</name></member>
-      <member refid="group__GeneralGroup_1ga62f6fd6ec96955e73fecfa08474af010" kind="function"><name>updateVisualTransformMode</name></member>
+      <member refid="group__GeneralGroup_1ga40fae0e672b2463e378a9403a9dbc242" kind="function"><name>updateVisualTransformMode</name></member>
       <member refid="group__GeneralGroup_1ga26636938df550b48cbff6e634f95ba4e" kind="function"><name>updateTranslation</name></member>
       <member refid="group__GeneralGroup_1ga60452f38e7767aed4b34990197332ee1" kind="function"><name>updateRotation</name></member>
     </sectiondef>
@@ -63,7 +63,7 @@
       <member refid="group__GeneralGroup_1ga13dc47597605ef2c156edd91925af072" prot="private" virt="non-virtual"><scope>MR::ITransformControls</scope><name>hoveredControl_</name></member>
       <member refid="group__GeneralGroup_1ga907d92df55bd4c1c24eb99b0ac884d77" prot="public" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1gaee8117525c2a2b8e2d42d4fb8f81fa40" prot="private" virt="non-virtual"><scope>MR::ITransformControls</scope><name>pickThrough_</name></member>
-      <member refid="group__GeneralGroup_1ga9603cd25e26df7d1c6fe9171d0335997" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setCenter</name></member>
+      <member refid="group__GeneralGroup_1ga808053311f7578b9199e4b3f33d53c3a" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setCenter</name></member>
       <member refid="group__GeneralGroup_1ga6c067680512671636e7975d37ba24bdd" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setPickThrough</name></member>
       <member refid="group__GeneralGroup_1ga7ae4eb78f83ef31cb1fb11184c3eca6d" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setTransformModesValidator</name></member>
       <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>stopModify</name></member>
@@ -72,7 +72,7 @@
       <member refid="group__GeneralGroup_1ga60452f38e7767aed4b34990197332ee1" prot="public" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>updateRotation</name></member>
       <member refid="group__GeneralGroup_1gad18cade1f93573f1300cbdd29ea07518" prot="public" virt="virtual"><scope>MR::ITransformControls</scope><name>updateSizeInPixel</name></member>
       <member refid="group__GeneralGroup_1ga26636938df550b48cbff6e634f95ba4e" prot="public" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>updateTranslation</name></member>
-      <member refid="group__GeneralGroup_1ga62f6fd6ec96955e73fecfa08474af010" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>updateVisualTransformMode</name></member>
+      <member refid="group__GeneralGroup_1ga40fae0e672b2463e378a9403a9dbc242" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>updateVisualTransformMode</name></member>
       <member refid="group__GeneralGroup_1ga0d120f469e40e2447167300bc95c9d91" prot="protected" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>updateVisualTransformMode_</name></member>
       <member refid="group__GeneralGroup_1ga84f3fc97cc342864187dbccc5b5be0e9" prot="private" virt="non-virtual"><scope>MR::ITransformControls</scope><name>validator_</name></member>
       <member refid="group__GeneralGroup_1gaf0fa6a664e8f0a43bbb41adf37fe296a" prot="public" virt="virtual"><scope>MR::ITransformControls</scope><name>~ITransformControls</name></member>

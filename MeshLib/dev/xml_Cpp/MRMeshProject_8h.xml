@@ -13,25 +13,31 @@
     <includedby refid="MRMeshThickness_8h" local="yes">MRMeshThickness.h</includedby>
     <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRProjectionMeshAttribute.h</includedby>
     <incdepgraph>
-      <node id="9">
+      <node id="10">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="22">
+      <node id="29">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="31">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="24">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="8" relation="include">
@@ -44,14 +50,36 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="23">
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="8" relation="include">
@@ -62,27 +90,27 @@
         <link refid="MRMeshProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
         <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRMeshTriPoint.h</label>
+        <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MRMeshTriPoint.h</label>
-        <link refid="MRMeshTriPoint_8h"/>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -90,29 +118,29 @@
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="27">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="26">
         <label>MRTriPoint.h</label>
         <link refid="MRTriPoint_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -132,62 +160,75 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="10">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="9">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="11">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="19">
         <label>algorithm</label>
+      </node>
+      <node id="12">
+        <label>array</label>
       </node>
       <node id="17">
         <label>cassert</label>
       </node>
-      <node id="25">
+      <node id="32">
         <label>cfloat</label>
       </node>
-      <node id="12">
+      <node id="20">
         <label>cmath</label>
       </node>
       <node id="6">
         <label>cstddef</label>
       </node>
-      <node id="13">
+      <node id="21">
         <label>cstring</label>
       </node>
-      <node id="27">
+      <node id="16">
         <label>functional</label>
       </node>
-      <node id="14">
+      <node id="22">
         <label>iosfwd</label>
       </node>
-      <node id="21">
+      <node id="28">
         <label>limits</label>
       </node>
-      <node id="26">
+      <node id="33">
         <label>optional</label>
+      </node>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
       </node>
       <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="15">
+      <node id="23">
         <label>utility</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -395,30 +436,30 @@
 <codeline lineno="36" refid="structMR_1_1MeshProjectionTransforms_1ac7e30a3a60e0e50ecf202b7761b16e8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1MeshProjectionTransforms_1ac7e30a3a60e0e50ecf202b7761b16e8d" kindref="member">nonRigidXfTree</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="group__AABBTreeGroup_1ga2574b6170fb044d2038e7fa9c0e2e4c1" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1MeshProjectionTransforms" kindref="compound">MeshProjectionTransforms</ref><sp/><ref refid="group__AABBTreeGroup_1ga2574b6170fb044d2038e7fa9c0e2e4c1" kindref="member">createProjectionTransforms</ref>(<sp/>AffineXf3f&amp;<sp/>storageXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>pointXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>treeXf<sp/>);</highlight></codeline>
+<codeline lineno="46" refid="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshProjectionTransforms" kindref="compound">MeshProjectionTransforms</ref><sp/><ref refid="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" kindref="member">createProjectionTransforms</ref>(<sp/>AffineXf3f&amp;<sp/>storageXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>pointXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>treeXf<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="group__AABBTreeGroup_1gaa20d785f3f82fad58fb659bc0009563d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gaa20d785f3f82fad58fb659bc0009563d" kindref="member">findProjection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,</highlight></codeline>
+<codeline lineno="56" refid="group__AABBTreeGroup_1gadd58047c34992dde1fd3d7f854ca6d97" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gadd58047c34992dde1fd3d7f854ca6d97" kindref="member">findProjection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FacePredicate<sp/>&amp;<sp/>validFaces<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref><sp/>&amp;<sp/>validFaces<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;bool(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshProjectionResult&amp;)&gt;<sp/>&amp;<sp/>validProjections<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__AABBTreeGroup_1ga415d472754b9db893c0765c00951faad" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1ga415d472754b9db893c0765c00951faad" kindref="member">findProjectionSubtree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>pt,</highlight></codeline>
+<codeline lineno="72" refid="group__AABBTreeGroup_1gafbb2d7a2190e5d13b47162ac1bc2df96" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gafbb2d7a2190e5d13b47162ac1bc2df96" kindref="member">findProjectionSubtree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>pt,</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;<sp/>tree,</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FacePredicate<sp/>&amp;<sp/>validFaces<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref><sp/>&amp;<sp/>validFaces<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;bool(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshProjectionResult&amp;)&gt;<sp/>&amp;<sp/>validProjections<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" kindref="member">FoundBoxedTriCallback</ref><sp/>=<sp/>std::function&lt;<ref refid="group__GeneralGroup_1gae9fc4543eb3302ae33b7843707485149" kindref="member">Processing</ref>(<sp/>FaceId<sp/>found,<sp/>Ball3f<sp/>&amp;<sp/>ball<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="group__AABBTreeGroup_1ga565cdeaec23b7bd65c3776723571fac0" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga565cdeaec23b7bd65c3776723571fac0" kindref="member">findBoxedTrisInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/>Ball3f<sp/>ball,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" kindref="member">FoundBoxedTriCallback</ref>&amp;<sp/>foundCallback<sp/>);</highlight></codeline>
+<codeline lineno="87" refid="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" kindref="member">findBoxedTrisInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/>Ball3f<sp/>ball,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" kindref="member">FoundBoxedTriCallback</ref>&amp;<sp/>foundCallback<sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90" refid="group__AABBTreeGroup_1ga3fa10deed3f5f765a28d62f2a9667c0f" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga3fa10deed3f5f765a28d62f2a9667c0f" kindref="member">FoundTriCallback</ref><sp/>=<sp/>std::function&lt;<ref refid="group__GeneralGroup_1gae9fc4543eb3302ae33b7843707485149" kindref="member">Processing</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref><sp/>&amp;<sp/>found,<sp/>Ball3f<sp/>&amp;<sp/>ball<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="group__AABBTreeGroup_1ga354aa28c5105859923d024949d724b5f" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga354aa28c5105859923d024949d724b5f" kindref="member">findTrisInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Ball3f&amp;<sp/>ball,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga3fa10deed3f5f765a28d62f2a9667c0f" kindref="member">FoundTriCallback</ref>&amp;<sp/>foundCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FacePredicate<sp/>&amp;<sp/>validFaces<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="94" refid="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" kindref="member">findTrisInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Ball3f&amp;<sp/>ball,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga3fa10deed3f5f765a28d62f2a9667c0f" kindref="member">FoundTriCallback</ref>&amp;<sp/>foundCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref><sp/>&amp;<sp/>validFaces<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96" refid="structMR_1_1SignedDistanceToMeshResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SignedDistanceToMeshResult" kindref="compound">SignedDistanceToMeshResult</ref></highlight></codeline>
 <codeline lineno="97"><highlight class="normal">{</highlight></codeline>
@@ -427,7 +468,7 @@
 <codeline lineno="103" refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" kindref="member">dist</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="group__AABBTreeGroup_1ga44d0cb5151cae38d27130277c50301bc" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;SignedDistanceToMeshResult&gt;<sp/><ref refid="group__AABBTreeGroup_1ga23c1ed1442e2de62ef49a64b7179d809" kindref="member">findSignedDistance</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,</highlight></codeline>
+<codeline lineno="112" refid="group__AABBTreeGroup_1gaa589ad702e6b1f7b5abcdba92a673997" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;SignedDistanceToMeshResult&gt;<sp/><ref refid="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" kindref="member">findSignedDistance</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>

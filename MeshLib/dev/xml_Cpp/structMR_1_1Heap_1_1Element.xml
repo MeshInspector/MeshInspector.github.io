@@ -5,7 +5,7 @@
     <includes refid="MRHeap_8h" local="no">MRHeap.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1Heap_1_1Element_1af5f2ab7653bc95405d4e20891982a46b" prot="public" static="no" mutable="no">
-        <type>I</type>
+        <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
         <definition>I MR::Heap&lt; T, I, P &gt;::Element::id</definition>
         <argsstring></argsstring>
         <name>id</name>

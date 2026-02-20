@@ -188,9 +188,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="53" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="53" bodyend="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RectIndexer_1ac517f36a12430a41779b1e7fd847684b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API PixelId</type>
-        <definition>MRMESH_API PixelId MR::RectIndexer::getNeighbor</definition>
+      <memberdef kind="function" id="classMR_1_1RectIndexer_1a8b4fcc40aa58630eebf389ef808451df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PixelId</type>
+        <definition>PixelId MR::RectIndexer::getNeighbor</definition>
         <argsstring>(PixelId v, const Vector2i &amp;pos, OutEdge2 toNei) const</argsstring>
         <name>getNeighbor</name>
         <qualifiedname>MR::RectIndexer::getNeighbor</qualifiedname>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="54" column="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="54" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -245,7 +245,7 @@
       <member refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>dims</name></member>
       <member refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" prot="protected" virt="non-virtual"><scope>MR::RectIndexer</scope><name>dims_</name></member>
       <member refid="classMR_1_1RectIndexer_1a3405e1ad7d3f9cb6d72845e41f3232bc" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>getNeighbor</name></member>
-      <member refid="classMR_1_1RectIndexer_1ac517f36a12430a41779b1e7fd847684b" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1RectIndexer_1a8b4fcc40aa58630eebf389ef808451df" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>getNeighbor</name></member>
       <member refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>RectIndexer</name></member>
       <member refid="group__DistanceMapGroup_1ga239b9939936c38ad89df91dd649ab13d" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>RectIndexer</name></member>
       <member refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>resize</name></member>

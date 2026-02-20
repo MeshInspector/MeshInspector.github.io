@@ -51,7 +51,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" prot="public" static="no" mutable="no">
-        <type>ProgressCallback</type>
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::CompressZipSettings::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

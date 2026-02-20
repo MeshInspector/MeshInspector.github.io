@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="29" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="31" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResult_1a9e97978ae79fbc9acc8c2bdb8ef40c12" prot="public" static="no" mutable="no">
         <type>FaceBitSet</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="31" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="33" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResult_1a5158c930dad94ff45198508c2b01788a" prot="public" static="no" mutable="no">
         <type>FaceBitSet</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="33" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="35" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResult_1a78e59aeca9497a9c74d7512157fcf5df" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="35" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="37" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="37" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="37" bodyend="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResult_1ac0af7e2df53a77da2787428be4cc77d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="38" bodyend="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="40" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResult_1ac98caba27fe5a9fdbaa3e4aafff41f2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="39" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="39" bodyend="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResult_1aa632af00548f4dfb2a5e70d9518e874f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="40" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="40" bodyend="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="42" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResult_1ad2591d2b1ef80f9dc169034f419d83e4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="41" bodyend="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="43" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResult_1ab6a130e652e944be8b2d65e3ea1c273a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="42" bodyend="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="44" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="44" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -157,7 +157,7 @@
     </briefdescription>
     <detaileddescription>
 <para>Structure with parameters for boolean call.</para>
-<para>This structure store result mesh of <ref refid="group__BooleanGroup_1ga5dc229b89588f1a3416aca4910e460d9" kindref="member">MR::boolean</ref> or some error info </para>
+<para>This structure store result mesh of <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> or some error info </para>
     </detaileddescription>
     <collaborationgraph>
       <node id="1">
@@ -179,7 +179,7 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="26" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="28" column="1"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanResult_1a78e59aeca9497a9c74d7512157fcf5df" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>errorString</name></member>
       <member refid="structMR_1_1BooleanResult_1a2d3a10c35e289abf78a95bd3005b9486" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>mesh</name></member>

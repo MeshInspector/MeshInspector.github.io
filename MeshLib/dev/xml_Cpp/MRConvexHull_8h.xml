@@ -2,16 +2,70 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRConvexHull_8h" kind="file" language="C++">
     <compoundname>MRConvexHull.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRConvexHull.h</label>
         <link refid="MRConvexHull_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
       <node id="2">
         <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -22,17 +76,17 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validPoints<sp/>);</highlight></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1ga2b1ae8facc8f4e9e09073b91da0f9949" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>in<sp/>);</highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1gad4f2e7823d67de1684e13a3829315dc2" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>in<sp/>);</highlight></codeline>
+<codeline lineno="12" refid="group__GeneralGroup_1gaafaf6eda20cfbdb74c1d71bf4fbca786" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gaafaf6eda20cfbdb74c1d71bf4fbca786" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validPoints<sp/>);</highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga264ecfcf14be5a241cc2a31c31848233" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gaafaf6eda20cfbdb74c1d71bf4fbca786" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>in<sp/>);</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga8437be9d27ff52dac4cec1227876fa15" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gaafaf6eda20cfbdb74c1d71bf4fbca786" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>in<sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gadd9e75db45f7b7d636d5f5f70d48c1a5" refkind="member"><highlight class="normal">MRMESH_API<sp/>Contour2f<sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/>Contour2f<sp/>points<sp/>);</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga52e29018942644589858cabc2d6ff05a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref><sp/><ref refid="group__GeneralGroup_1gaafaf6eda20cfbdb74c1d71bf4fbca786" kindref="member">makeConvexHull</ref>(<sp/><ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref><sp/>points<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

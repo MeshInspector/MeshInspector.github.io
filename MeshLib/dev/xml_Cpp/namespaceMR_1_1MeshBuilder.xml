@@ -11,16 +11,16 @@
     <innerclass refid="classMR_1_1MeshBuilder_1_1VertexIdentifier" prot="public">MR::MeshBuilder::VertexIdentifier</innerclass>
     <innerclass refid="structMR_1_1MeshBuilder_1_1VertSpan" prot="public">MR::MeshBuilder::VertSpan</innerclass>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1gad94b16318381f04c306f214d07b59c3d" kind="function"><name>fromTriangles</name></member>
-      <member refid="group__GeneralGroup_1ga66c0589162941f3fb069c0c629d26137" kind="function"><name>duplicateNonManifoldVertices</name></member>
-      <member refid="group__GeneralGroup_1gaa308a697fa44ab178932733fdab79f16" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
-      <member refid="group__GeneralGroup_1ga787b6d63581b071cba69cde55f211cdf" kind="function"><name>fromPointTriples</name></member>
-      <member refid="group__GeneralGroup_1gac89608a8862a7f497172398df6ccaf30" kind="function"><name>fromDisjointMeshPieces</name></member>
-      <member refid="group__GeneralGroup_1ga338de61ac0a911470d50fe0f14af05d5" kind="function"><name>addTriangles</name></member>
-      <member refid="group__GeneralGroup_1gaffd71ea7a77ed4c02be34778c0923804" kind="function"><name>addTriangles</name></member>
-      <member refid="group__GeneralGroup_1gab4643e01cde45551cee54cc59f539e61" kind="function"><name>fromFaceSoup</name></member>
-      <member refid="group__GeneralGroup_1gadbca7caa523fcdb27f944a48e8ed220a" kind="function"><name>uniteCloseVertices</name></member>
-      <member refid="group__GeneralGroup_1gaa50e77069b62348920b62f3484a265a3" kind="function"><name>uniteCloseVertices</name></member>
+      <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
+      <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
+      <member refid="group__GeneralGroup_1gad7aadd8fa3e3563ab86c041794e832e7" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="group__GeneralGroup_1ga1d81a265f58e40e49884915932ef03cc" kind="function"><name>fromPointTriples</name></member>
+      <member refid="group__GeneralGroup_1ga51252985fc7d4c2804d4d268a2800d40" kind="function"><name>fromDisjointMeshPieces</name></member>
+      <member refid="group__GeneralGroup_1ga578ce0a6e5511e9becd729984a2adf53" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1gaddfd35d380df5345cbda74b4bdfeff6f" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1gabb87fb2cc9c28dca88cac5adbb077bc2" kind="function"><name>fromFaceSoup</name></member>
+      <member refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kind="function"><name>uniteCloseVertices</name></member>
+      <member refid="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" kind="function"><name>uniteCloseVertices</name></member>
     </sectiondef>
     <briefdescription>
 <para>Building topologies by triangles. </para>
@@ -30,7 +30,7 @@
 <para>Simple example with key steps <programlisting><codeline><highlight class="normal">MR::Triangulation<sp/>t;</highlight></codeline>
 <codeline><highlight class="normal">t.push_back({0_v,1_v,2_v});<sp/></highlight></codeline>
 <codeline><highlight class="normal">t.push_back({2_v,1_v,3_v});<sp/></highlight></codeline>
-<codeline><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>topology<sp/>=<sp/><ref refid="group__GeneralGroup_1gad94b16318381f04c306f214d07b59c3d" kindref="member">MR::MeshBuilder::fromTriangles</ref>(t);</highlight></codeline>
+<codeline><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>topology<sp/>=<sp/><ref refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kindref="member">MR::MeshBuilder::fromTriangles</ref>(t);</highlight></codeline>
 </programlisting></para>
 <para><simplesect kind="warning"><para>Vertices of triangles should have consistent bypass direction</para>
 </simplesect>

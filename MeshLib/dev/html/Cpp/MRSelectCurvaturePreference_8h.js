@@ -5,5 +5,5 @@ var MRSelectCurvaturePreference_8h =
       [ "Convex", "MRSelectCurvaturePreference_8h.html#ggad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3", null ],
       [ "Concave", "MRSelectCurvaturePreference_8h.html#ggad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192", null ]
     ] ],
-    [ "SelectCurvaturePreference", "MRSelectCurvaturePreference_8h.html#gac0b91539ada635d196a67afe2f39fe5d", null ]
+    [ "SelectCurvaturePreference", "MRSelectCurvaturePreference_8h.html#gac00a59cfbebecb4b57bf00a5edffb993", null ]
 ];

@@ -1,8 +1,8 @@
 var group__MeshSegmentationGroup =
 [
-    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gadea0ef926186e71514bcaf05a50aa51d", null ],
-    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#ga192299a4f8520a8867c43c89651f4304", null ],
-    [ "MR::segmentByGraphCut", "group__MeshSegmentationGroup.html#ga90e052f4d7cc9dd0c2e2d004cda6abeb", null ],
-    [ "MR::surroundingContour", "group__MeshSegmentationGroup.html#ga92dbf357e425dd6e8d7f76ab544250c5", null ],
-    [ "MR::surroundingContour", "group__MeshSegmentationGroup.html#ga0f96f1d3fde9a79a2d6925cf6ba77f8d", null ]
+    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gab3e1164ebf68822aab118be88463559f", null ],
+    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#ga60ce8ecdf324e3ba1847b97a26909194", null ],
+    [ "MR::segmentByGraphCut", "group__MeshSegmentationGroup.html#ga83df6392f2ec180519c0977c7c2a0db7", null ],
+    [ "MR::surroundingContour", "group__MeshSegmentationGroup.html#ga523c39ef67221263d3946ae1621fa9e4", null ],
+    [ "MR::surroundingContour", "group__MeshSegmentationGroup.html#ga46d905801bbc9f1713086eceb50f7799", null ]
 ];

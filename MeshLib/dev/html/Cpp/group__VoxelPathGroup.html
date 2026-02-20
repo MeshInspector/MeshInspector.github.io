@@ -187,15 +187,15 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga149abd6a892e1284e051e285396c94c6" id="r_ga149abd6a892e1284e051e285396c94c6"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga149abd6a892e1284e051e285396c94c6">MR::voxelsExponentMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
-<tr class="memdesc:ga149abd6a892e1284e051e285396c94c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <br /></td></tr>
-<tr class="separator:ga149abd6a892e1284e051e285396c94c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaffc0e3988ac89d7c4ed030de11be4b80" id="r_gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffc0e3988ac89d7c4ed030de11be4b80">MR::voxelsSumDiffsMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
-<tr class="memdesc:gaffc0e3988ac89d7c4ed030de11be4b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <br /></td></tr>
-<tr class="separator:gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad1772070c201609ff1aac3958e6b9005" id="r_gad1772070c201609ff1aac3958e6b9005"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, ProgressCallback cb={})</td></tr>
-<tr class="memdesc:gad1772070c201609ff1aac3958e6b9005"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <br /></td></tr>
-<tr class="separator:gad1772070c201609ff1aac3958e6b9005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71893ed176bf05baf89d6e5a3e42c3f8" id="r_ga71893ed176bf05baf89d6e5a3e42c3f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga71893ed176bf05baf89d6e5a3e42c3f8">MR::voxelsExponentMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
+<tr class="memdesc:ga71893ed176bf05baf89d6e5a3e42c3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <br /></td></tr>
+<tr class="separator:ga71893ed176bf05baf89d6e5a3e42c3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26f2d73245508897220a463898d518ae" id="r_ga26f2d73245508897220a463898d518ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26f2d73245508897220a463898d518ae">MR::voxelsSumDiffsMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
+<tr class="memdesc:ga26f2d73245508897220a463898d518ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <br /></td></tr>
+<tr class="separator:ga26f2d73245508897220a463898d518ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4966f63c7b2037c5dd9048a7103e382" id="r_gae4966f63c7b2037c5dd9048a7103e382"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4966f63c7b2037c5dd9048a7103e382">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:gae4966f63c7b2037c5dd9048a7103e382"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <br /></td></tr>
+<tr class="separator:gae4966f63c7b2037c5dd9048a7103e382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -276,8 +276,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gad1772070c201609ff1aac3958e6b9005" name="gad1772070c201609ff1aac3958e6b9005"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1772070c201609ff1aac3958e6b9005">&#9670;&#160;</a></span>buildSmallestMetricPath()</h2>
+<a id="gae4966f63c7b2037c5dd9048a7103e382" name="gae4966f63c7b2037c5dd9048a7103e382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4966f63c7b2037c5dd9048a7103e382">&#9670;&#160;</a></span>buildSmallestMetricPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +286,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVOXELS_API std::vector&lt; size_t &gt; MR::buildSmallestMetricPath </td>
+          <td class="memname">std::vector&lt; size_t &gt; MR::buildSmallestMetricPath </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
@@ -308,7 +308,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ProgressCallback</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -324,8 +324,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga149abd6a892e1284e051e285396c94c6" name="ga149abd6a892e1284e051e285396c94c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga149abd6a892e1284e051e285396c94c6">&#9670;&#160;</a></span>voxelsExponentMetric()</h2>
+<a id="ga71893ed176bf05baf89d6e5a3e42c3f8" name="ga71893ed176bf05baf89d6e5a3e42c3f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga71893ed176bf05baf89d6e5a3e42c3f8">&#9670;&#160;</a></span>voxelsExponentMetric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +334,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsExponentMetric </td>
+          <td class="memname"><a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsExponentMetric </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
@@ -362,8 +362,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaffc0e3988ac89d7c4ed030de11be4b80" name="gaffc0e3988ac89d7c4ed030de11be4b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaffc0e3988ac89d7c4ed030de11be4b80">&#9670;&#160;</a></span>voxelsSumDiffsMetric()</h2>
+<a id="ga26f2d73245508897220a463898d518ae" name="ga26f2d73245508897220a463898d518ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26f2d73245508897220a463898d518ae">&#9670;&#160;</a></span>voxelsSumDiffsMetric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +372,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsSumDiffsMetric </td>
+          <td class="memname"><a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsSumDiffsMetric </td>
           <td>(</td>
           <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>

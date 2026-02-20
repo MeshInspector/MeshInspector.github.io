@@ -8,7 +8,7 @@ var classMR_1_1ITransformControls =
     [ "hover", "group__GeneralGroup.html#ga18436dfbd4ff243fc8bd07d0a3f36b73", null ],
     [ "hover_", "group__GeneralGroup.html#ga866a780325d0337774ee4fc21b430da4", null ],
     [ "init", "group__GeneralGroup.html#ga907d92df55bd4c1c24eb99b0ac884d77", null ],
-    [ "setCenter", "group__GeneralGroup.html#ga9603cd25e26df7d1c6fe9171d0335997", null ],
+    [ "setCenter", "group__GeneralGroup.html#ga808053311f7578b9199e4b3f33d53c3a", null ],
     [ "setPickThrough", "group__GeneralGroup.html#ga6c067680512671636e7975d37ba24bdd", null ],
     [ "setTransformModesValidator", "group__GeneralGroup.html#ga7ae4eb78f83ef31cb1fb11184c3eca6d", null ],
     [ "stopModify", "group__GeneralGroup.html#ga4e00cf9a8a073e2d8964dbbd10f60b6f", null ],
@@ -17,6 +17,6 @@ var classMR_1_1ITransformControls =
     [ "updateRotation", "group__GeneralGroup.html#ga60452f38e7767aed4b34990197332ee1", null ],
     [ "updateSizeInPixel", "group__GeneralGroup.html#gad18cade1f93573f1300cbdd29ea07518", null ],
     [ "updateTranslation", "group__GeneralGroup.html#ga26636938df550b48cbff6e634f95ba4e", null ],
-    [ "updateVisualTransformMode", "group__GeneralGroup.html#ga62f6fd6ec96955e73fecfa08474af010", null ],
+    [ "updateVisualTransformMode", "group__GeneralGroup.html#ga40fae0e672b2463e378a9403a9dbc242", null ],
     [ "updateVisualTransformMode_", "group__GeneralGroup.html#ga0d120f469e40e2447167300bc95c9d91", null ]
 ];

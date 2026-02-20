@@ -8,7 +8,7 @@
       <member refid="group__GeneralGroup_1ga9b0d4fbbd62e01d4b16227197b081191" kind="variable"><name>sizeVerts_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga081d0a8f3933dd73ee062863c3644aa1" kind="function"><name>VertRenumber</name></member>
+      <member refid="group__GeneralGroup_1ga296563a7c9d31763b73b5f44a2dd5424" kind="function"><name>VertRenumber</name></member>
       <member refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" kind="function"><name>saveValidOnly</name></member>
       <member refid="group__GeneralGroup_1ga1804a1dca0466765918892c65d9436f0" kind="function"><name>sizeVerts</name></member>
       <member refid="group__GeneralGroup_1ga4180132d13f552ef422f73a2ad0c6bdc" kind="function"><name>operator()</name></member>
@@ -25,7 +25,7 @@
       <member refid="group__GeneralGroup_1ga1804a1dca0466765918892c65d9436f0" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts</name></member>
       <member refid="group__GeneralGroup_1ga9b0d4fbbd62e01d4b16227197b081191" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts_</name></member>
       <member refid="group__GeneralGroup_1gabdf80f030d8484369854ab50eba8c9cf" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>vert2packed_</name></member>
-      <member refid="group__GeneralGroup_1ga081d0a8f3933dd73ee062863c3644aa1" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+      <member refid="group__GeneralGroup_1ga296563a7c9d31763b73b5f44a2dd5424" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -36,9 +36,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1Entry_1abb71bca53888829df56285ca657ddb72" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::string_view</type>
-        <definition>MRVIEWER_API std::string_view MR::UI::TestEngine::Entry::getKindName</definition>
+      <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1Entry_1a68d70160ceaaa2bb77d20e98d1458235" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::UI::TestEngine::Entry::getKindName</definition>
         <argsstring>() const</argsstring>
         <name>getKindName</name>
         <qualifiedname>MR::UI::TestEngine::Entry::getKindName</qualifiedname>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="167" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="167" column="24"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1Entry_1af990d8e37018eb62dd57a502b644717c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -102,9 +102,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1Entry_1a509dd73bfad9ed2ea9d4924c5ccb44cb" prot="private" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kindref="member">Unexpected</ref>&lt; std::string &gt;</type>
-        <definition>MRVIEWER_API Unexpected&lt; std::string &gt; MR::UI::TestEngine::Entry::unexpected_</definition>
+      <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1Entry_1ab17ed88e1509137f844ca1ab924715cb" prot="private" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kindref="member">Unexpected</ref>&lt; std::string &gt;</type>
+        <definition>Unexpected&lt; std::string &gt; MR::UI::TestEngine::Entry::unexpected_</definition>
         <argsstring>(std::string_view selfName, std::string_view tKindName)</argsstring>
         <name>unexpected_</name>
         <qualifiedname>MR::UI::TestEngine::Entry::unexpected_</qualifiedname>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="187" column="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="187" column="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -133,8 +133,8 @@
     <listofallmembers>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1af990d8e37018eb62dd57a502b644717c" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>getAs</name></member>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1ab746b066f53a20f78e0fb97a552fb166" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>getAs</name></member>
-      <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1abb71bca53888829df56285ca657ddb72" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>getKindName</name></member>
-      <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1a509dd73bfad9ed2ea9d4924c5ccb44cb" prot="private" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>unexpected_</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1a68d70160ceaaa2bb77d20e98d1458235" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>getKindName</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1ab17ed88e1509137f844ca1ab924715cb" prot="private" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>unexpected_</name></member>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1a3309a8b2efa0022bdc883adca847c9ae" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>value</name></member>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1af1c045de66225bb1643e95fe69e9c370" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Entry</scope><name>visitedOnThisFrame</name></member>
     </listofallmembers>

@@ -6,8 +6,8 @@ var classMR_1_1MarkedVoxelSlice =
       [ "Segment", "group__GeneralGroup.html#ggaf7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702", null ],
       [ "Count", "group__GeneralGroup.html#ggaf7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c", null ]
     ] ],
-    [ "MarkedVoxelSlice", "group__GeneralGroup.html#gad8db7482eea8aa284e25701a769f2fd1", null ],
-    [ "forceUpdate", "group__GeneralGroup.html#ga8cfc8efe67bed7ab6770d8952e75c6b6", null ],
+    [ "MarkedVoxelSlice", "group__GeneralGroup.html#gac8d7275a12a28b42fb8bff1a00e1aa63", null ],
+    [ "forceUpdate", "group__GeneralGroup.html#gab8bf2135df35477f4d27ebc4c38d9a84", null ],
     [ "getActiveBox", "group__GeneralGroup.html#ga3eb57f66e35c3ad6e95531620e2e40fa", null ],
     [ "getActivePlane", "group__GeneralGroup.html#ga21bf4ef527270ad0d69f992c4378f606", null ],
     [ "getActiveVoxel", "group__GeneralGroup.html#ga64f919f38e1712b774646be9eb857f99", null ],

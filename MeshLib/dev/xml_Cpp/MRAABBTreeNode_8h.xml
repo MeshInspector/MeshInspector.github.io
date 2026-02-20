@@ -15,31 +15,31 @@
         <link refid="MRAABBTreeNode_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="26">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="14">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -49,156 +49,197 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="23">
+      <node id="29">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="6">
+      <node id="15">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
       </node>
-      <node id="8">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-      </node>
-      <node id="24">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+      </node>
+      <node id="17">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+      </node>
+      <node id="30">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-      </node>
-      <node id="19">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-      </node>
-      <node id="20">
-        <label>MRMesh/MRMeshFwd.h</label>
-      </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="12">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="13">
-        <label>algorithm</label>
-      </node>
-      <node id="21">
-        <label>cassert</label>
-      </node>
-      <node id="14">
-        <label>cmath</label>
-      </node>
-      <node id="9">
-        <label>cstddef</label>
-      </node>
-      <node id="15">
-        <label>cstring</label>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
       <node id="16">
-        <label>iosfwd</label>
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="21">
+        <label>algorithm</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
       </node>
       <node id="22">
+        <label>cmath</label>
+      </node>
+      <node id="18">
+        <label>cstddef</label>
+      </node>
+      <node id="23">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="24">
+        <label>iosfwd</label>
+      </node>
+      <node id="28">
         <label>limits</label>
       </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="10">
+        <label>string</label>
+      </node>
+      <node id="19">
         <label>type_traits</label>
       </node>
-      <node id="17">
+      <node id="25">
         <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -264,7 +305,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>L,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1AABBTreeTraits" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRMESH_CLASS<sp/><ref refid="structMR_1_1AABBTreeTraits" kindref="compound">AABBTreeTraits</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1AABBTreeTraits" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="structMR_1_1AABBTreeTraits" kindref="compound">AABBTreeTraits</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="structMR_1_1AABBTreeTraits_1a0a4c21a59ab274d8edaf4ecf3702bb7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AABBTreeTraits_1a0a4c21a59ab274d8edaf4ecf3702bb7a" kindref="member">LeafTag</ref><sp/>=<sp/>L;</highlight></codeline>
 <codeline lineno="18" refid="structMR_1_1AABBTreeTraits_1a50bc8c0ccee7f3a7a6f9292ef97447f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Id" kindref="compound">LeafId</ref><sp/>=<sp/><ref refid="classMR_1_1Id" kindref="compound">Id&lt;L&gt;</ref>;</highlight></codeline>

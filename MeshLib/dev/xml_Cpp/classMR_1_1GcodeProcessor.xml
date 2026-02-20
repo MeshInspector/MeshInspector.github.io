@@ -40,11 +40,11 @@
       <member refid="group__GeneralGroup_1ga6958642231fb6adb71db79f39cbc0d13" kind="variable"><name>rotationAxesOrderMap_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1gaab85326426858f8da3d65ca24a5e1a6e" kind="function"><name>reset</name></member>
-      <member refid="group__GeneralGroup_1gace829c3782f4685968c82c32de66a4d0" kind="function"><name>setGcodeSource</name></member>
-      <member refid="group__GeneralGroup_1gac70b156fa41443a361dc92797369d6dd" kind="function"><name>processSource</name></member>
-      <member refid="group__GeneralGroup_1ga3330329ae3c98ae35d632ae247a6dd4b" kind="function"><name>processLine</name></member>
-      <member refid="group__GeneralGroup_1gaa7d0067f2ea9fa17e9e56e625539e534" kind="function"><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1gaac3c3659ce152745f2daae131d72fa66" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaa4177911717e7b17f59c1e5c3fca9e7c" kind="function"><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga13d46f271c407f554a7ee95de2aa6820" kind="function"><name>processSource</name></member>
+      <member refid="group__GeneralGroup_1gaf9d3821f5999c61b5577a1224611e68c" kind="function"><name>processLine</name></member>
+      <member refid="group__GeneralGroup_1ga312584cee1beba19ccf7a52a380504e1" kind="function"><name>setCNCMachineSettings</name></member>
       <member refid="group__GeneralGroup_1ga3d142a8122850941639d6ac3b62e425c" kind="function"><name>getCNCMachineSettings</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -114,16 +114,16 @@
       <member refid="group__GeneralGroup_1ga709663cb497cc2f837aee1f5ca4100f2" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>MoveMode</name></member>
       <member refid="group__GeneralGroup_1gad5979fbeb95661f7edd243b824fc50ad" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveMode_</name></member>
       <member refid="group__GeneralGroup_1ga007e0b93251d35fa9eef521871e5c7c1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>parseFrame_</name></member>
-      <member refid="group__GeneralGroup_1ga3330329ae3c98ae35d632ae247a6dd4b" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processLine</name></member>
-      <member refid="group__GeneralGroup_1gac70b156fa41443a361dc92797369d6dd" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processSource</name></member>
+      <member refid="group__GeneralGroup_1gaf9d3821f5999c61b5577a1224611e68c" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processLine</name></member>
+      <member refid="group__GeneralGroup_1ga13d46f271c407f554a7ee95de2aa6820" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processSource</name></member>
       <member refid="group__GeneralGroup_1ga6b1c0d967d1fd8f892b2f9c5b9290cd3" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>radius_</name></member>
-      <member refid="group__GeneralGroup_1gaab85326426858f8da3d65ca24a5e1a6e" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaac3c3659ce152745f2daae131d72fa66" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1gab730b1c37c5541eb84c482a2bf5e7426" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>resetTemporaryStates_</name></member>
       <member refid="group__GeneralGroup_1gabc85c77453e5d3ea6914b727f441482e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAngles_</name></member>
       <member refid="group__GeneralGroup_1ga6958642231fb6adb71db79f39cbc0d13" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAxesOrderMap_</name></member>
       <member refid="group__GeneralGroup_1gace5d39e8c0f2c0ecaca25d8b51d66734" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>scaling_</name></member>
-      <member refid="group__GeneralGroup_1gaa7d0067f2ea9fa17e9e56e625539e534" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
-      <member refid="group__GeneralGroup_1gace829c3782f4685968c82c32de66a4d0" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga312584cee1beba19ccf7a52a380504e1" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1gaa4177911717e7b17f59c1e5c3fca9e7c" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setGcodeSource</name></member>
       <member refid="group__GeneralGroup_1ga10fb586ed5cb13178937ee7bcb9ed2a1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>toWorkPlaneXf_</name></member>
       <member refid="group__GeneralGroup_1ga67e936d39fcf18ddf090967c63976c66" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>translationPos_</name></member>
       <member refid="group__GeneralGroup_1ga1ba5399a492480aad8a37c6f62b9639c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateRotationAngleAndMatrix_</name></member>

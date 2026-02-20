@@ -1,4 +1,4 @@
 var MRMeshBoundary_8h =
 [
-    [ "straightenBoundary", "MRMeshBoundary_8h.html#gabd2f9988108fabef913d835c6c1385cc", null ]
+    [ "straightenBoundary", "MRMeshBoundary_8h.html#ga85f120484f51a420267e45c05af90e90", null ]
 ];

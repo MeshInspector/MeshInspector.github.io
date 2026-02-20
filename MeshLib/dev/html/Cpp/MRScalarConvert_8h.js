@@ -16,6 +16,6 @@ var MRScalarConvert_8h =
       [ "Unknown", "MRScalarConvert_8h.html#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Count", "MRScalarConvert_8h.html#gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "getTypeConverter", "MRScalarConvert_8h.html#ga2f36bcb1427ce8363c183d6c6be900c0", null ],
+    [ "getTypeConverter", "MRScalarConvert_8h.html#ga6fb38ee2f7f333262ea9c3b4a561489e", null ],
     [ "visitScalarType", "MRScalarConvert_8h.html#gae86505f58081c90fd8f92538bff1673b", null ]
 ];

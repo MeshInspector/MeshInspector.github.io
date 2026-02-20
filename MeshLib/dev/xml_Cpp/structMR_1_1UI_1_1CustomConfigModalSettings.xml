@@ -14,10 +14,10 @@
       <member refid="group__GeneralGroup_1gac6eb89011818ae44b18a521011c7ba02" kind="variable"><name>onSave</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga53d5fbf42a4e448c9913451533392082" kind="function"><name>popupName</name></member>
+      <member refid="group__GeneralGroup_1gad4225a9395aba6680bfe4c48f8091ee5" kind="function"><name>popupName</name></member>
     </sectiondef>
     <briefdescription>
-<para>Settings required for <computeroutput><ref refid="group__GeneralGroup_1gac87e004a565fe8b0a9d822499a594fb7" kindref="member">UI::saveCustomConfigModal</ref></computeroutput> </para>
+<para>Settings required for <computeroutput><ref refid="group__GeneralGroup_1ga0ccb8c76d1cf02640ffb750f83373ef8" kindref="member">UI::saveCustomConfigModal</ref></computeroutput> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -29,7 +29,7 @@
       <member refid="group__GeneralGroup_1gac8f21dd8acbc5b82e94cd24be7d5f52b" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>inputName</name></member>
       <member refid="group__GeneralGroup_1gac23225fd924b723514e8bc5ff54d228e" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>inputNameDialog</name></member>
       <member refid="group__GeneralGroup_1gac6eb89011818ae44b18a521011c7ba02" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>onSave</name></member>
-      <member refid="group__GeneralGroup_1ga53d5fbf42a4e448c9913451533392082" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>popupName</name></member>
+      <member refid="group__GeneralGroup_1gad4225a9395aba6680bfe4c48f8091ee5" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>popupName</name></member>
       <member refid="group__GeneralGroup_1ga9ac324551327f5c00a9ba0ac4df87360" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>triggerSave</name></member>
       <member refid="group__GeneralGroup_1gac55baa3802814b3443d7f4fc22349bd6" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>warnExisting</name></member>
     </listofallmembers>

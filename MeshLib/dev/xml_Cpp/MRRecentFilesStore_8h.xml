@@ -2,45 +2,112 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRRecentFilesStore_8h" kind="file" language="C++">
     <compoundname>MRRecentFilesStore.h</compoundname>
-    <includes local="yes">MRViewerFwd.h</includes>
+    <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">string</includes>
     <includes local="no">vector</includes>
     <includes local="no">filesystem</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="7">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
         <label>MRMesh/MRSignal.h</label>
         <link refid="MRSignal_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRRecentFilesStore.h</label>
         <link refid="MRRecentFilesStore_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRViewerFwd.h</label>
+        <link refid="MRViewerFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="4">
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>array</label>
+      </node>
+      <node id="17">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="7">
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="4">
+        <label>exports.h</label>
+      </node>
+      <node id="18">
         <label>filesystem</label>
       </node>
-      <node id="5">
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="13">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="12">
         <label>string</label>
       </node>
-      <node id="6">
+      <node id="11">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -53,7 +120,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSignal_8h" kindref="compound">MRMesh/MRSignal.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -72,13 +139,13 @@
 <codeline lineno="25" refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" kindref="member">RecentFilesStore</ref>(<sp/>std::string<sp/>appName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>capacity<sp/>=<sp/>10<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>appName_{std::move(appName)},<sp/>capacity_{capacity}<sp/>{}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" kindref="member">storeFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gaf325fa995ff9551866e03d07958c41db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf325fa995ff9551866e03d07958c41db" kindref="member">storeFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;std::filesystem::path&gt;<sp/><ref refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" kindref="member">getStoredFiles</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga2b477d298bbd9cf6c9461c91516ac972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>std::vector&lt;std::filesystem::path&gt;<sp/><ref refid="group__GeneralGroup_1ga2b477d298bbd9cf6c9461c91516ac972" kindref="member">getStoredFiles</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" kindref="member">getCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>capacity_;<sp/>}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>boost::signals2::connection<sp/><ref refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" kindref="member">onUpdate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref>&amp;<sp/>files<sp/>)&gt;<sp/>&amp;<sp/>slot,<sp/>boost::signals2::connect_position<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref><sp/>=<sp/>boost::signals2::at_back<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>boost::signals2::connection<sp/><ref refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" kindref="member">onUpdate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref>&amp;<sp/>files<sp/>)&gt;<sp/>&amp;<sp/>slot,<sp/>boost::signals2::connect_position<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref><sp/>=<sp/>boost::signals2::at_back<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>appName_;</highlight></codeline>

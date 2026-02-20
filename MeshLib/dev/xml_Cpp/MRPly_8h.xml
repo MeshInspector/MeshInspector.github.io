@@ -2,33 +2,49 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRPly_8h" kind="file" language="C++">
     <compoundname>MRPly.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">iostream</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
-      <node id="6">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRPly.h</label>
-        <link refid="MRPly_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -37,42 +53,71 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="1">
+        <label>MRPly.h</label>
+        <link refid="MRPly_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="8">
+      <node id="16">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="4">
-        <label>cassert</label>
-      </node>
-      <node id="5">
-        <label>cmath</label>
-      </node>
-      <node id="11">
-        <label>filesystem</label>
-      </node>
-      <node id="10">
-        <label>iostream</label>
+      <node id="7">
+        <label>array</label>
       </node>
       <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="18">
+        <label>filesystem</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>iostream</label>
+      </node>
+      <node id="19">
         <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1PlyLoadParams" prot="public">MR::PlyLoadParams</innerclass>
@@ -84,7 +129,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -107,11 +152,11 @@
 <codeline lineno="26" refid="group__GeneralGroup_1ga0da01188c983c86875fdd5d0b6471fa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>*<sp/><ref refid="group__GeneralGroup_1ga0da01188c983c86875fdd5d0b6471fa5" kindref="member">texture</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="group__GeneralGroup_1ga5084f3891463b6886fc10c57dbce63af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga5084f3891463b6886fc10c57dbce63af" kindref="member">dir</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" kindref="member">callback</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" kindref="member">callback</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1ga9ad593a784aa6436f4c2c6a5ba87b9ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9ad593a784aa6436f4c2c6a5ba87b9ca" kindref="member">telemetrySignal</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga098aaeed524d08781169a29e090d9c94" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertCoords&gt;</ref><sp/><ref refid="namespaceMR_1a09b7d6190d7b1f760a8974de6ad4b5ee" kindref="member">loadPly</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga7ba16427d8162112c46bbda9267aeec3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertCoords&gt;</ref><sp/><ref refid="group__MeshLoadGroup_1gac969ce40799ae4283a46b06d658aa9d8" kindref="member">loadPly</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>

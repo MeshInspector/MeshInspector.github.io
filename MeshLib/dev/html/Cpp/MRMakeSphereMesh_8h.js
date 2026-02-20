@@ -1,5 +1,5 @@
 var MRMakeSphereMesh_8h =
 [
-    [ "makeSphere", "MRMakeSphereMesh_8h.html#ga63679b306dbff600a8f7c5008a489d9d", null ],
-    [ "makeUVSphere", "MRMakeSphereMesh_8h.html#ga669b6772939a2427c2564e7a4a66b25e", null ]
+    [ "makeSphere", "MRMakeSphereMesh_8h.html#ga1c2da48497693f219de4c05f49173277", null ],
+    [ "makeUVSphere", "MRMakeSphereMesh_8h.html#ga29f3d30ae626be1279cda802a881e045", null ]
 ];

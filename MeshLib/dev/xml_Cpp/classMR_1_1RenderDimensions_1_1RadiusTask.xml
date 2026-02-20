@@ -11,9 +11,9 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga44b4da055074668472c0c6167666a668" kind="function"><name>RadiusTask</name></member>
-      <member refid="group__GeneralGroup_1ga30249fdc01e8ba2c00b5d79d76a11d65" kind="function"><name>RadiusTask</name></member>
-      <member refid="group__GeneralGroup_1ga92a6cd4467f318bc11276902ed2cdc6a" kind="function"><name>renderPass</name></member>
-      <member refid="group__GeneralGroup_1ga66cde8c6627ff073cd168f2378752c14" kind="function"><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1gadb1f74746ee1210936d37cd44200f101" kind="function"><name>RadiusTask</name></member>
+      <member refid="group__GeneralGroup_1ga17b5f31f49248eb32d13addfdd81404f" kind="function"><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga69c417a438be2306e1a47a9e3e5412d5" kind="function"><name>onClick</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -65,19 +65,19 @@
       <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>clickableCornerA</name></member>
       <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>clickableCornerB</name></member>
       <member refid="group__GeneralGroup_1ga97e0d58aed41180535441978005193bf" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>color_</name></member>
-      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gae05bf19b46876470cef45cd15178099f" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>earlyBackwardPass</name></member>
       <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>enabled</name></member>
       <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>InteractionMask</name></member>
       <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>isHovered</name></member>
-      <member refid="group__GeneralGroup_1ga66cde8c6627ff073cd168f2378752c14" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga69c417a438be2306e1a47a9e3e5412d5" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>onClick</name></member>
       <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::RadiusTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::RadiusTask</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga79c3174102aa3b2522545dd3c830e399" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>params_</name></member>
       <member refid="group__GeneralGroup_1ga44b4da055074668472c0c6167666a668" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>RadiusTask</name></member>
-      <member refid="group__GeneralGroup_1ga30249fdc01e8ba2c00b5d79d76a11d65" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>RadiusTask</name></member>
-      <member refid="group__GeneralGroup_1ga92a6cd4467f318bc11276902ed2cdc6a" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1gadb1f74746ee1210936d37cd44200f101" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>RadiusTask</name></member>
+      <member refid="group__GeneralGroup_1ga17b5f31f49248eb32d13addfdd81404f" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>renderPass</name></member>
       <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>renderTaskDepth</name></member>
       <member refid="group__GeneralGroup_1gac56785bf8f23f397f8ea18f078c71291" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>viewport_</name></member>
       <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>~BasicClickableRectUiRenderTask</name></member>

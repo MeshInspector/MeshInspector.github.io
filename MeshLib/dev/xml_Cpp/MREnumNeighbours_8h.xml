@@ -2,21 +2,51 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MREnumNeighbours_8h" kind="file" language="C++">
     <compoundname>MREnumNeighbours.h</compoundname>
-    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="13">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MREnumNeighbours.h</label>
+        <link refid="MREnumNeighbours_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -25,20 +55,16 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>MREnumNeighbours.h</label>
-        <link refid="MREnumNeighbours_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>MRId.h</label>
-        <link refid="MRId_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -48,67 +74,82 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="12">
+      <node id="20">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="19">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="10">
-        <label>MRphmap.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
-        <label>cassert</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="13">
-        <label>concepts</label>
+      <node id="18">
+        <label>MRphmap.h</label>
       </node>
       <node id="7">
-        <label>cstddef</label>
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>concepts</label>
       </node>
       <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="11">
         <label>functional</label>
       </node>
-      <node id="16">
+      <node id="22">
         <label>iosfwd</label>
       </node>
-      <node id="17">
+      <node id="23">
         <label>iterator</label>
       </node>
-      <node id="8">
-        <label>type_traits</label>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="17">
         <label>utility</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1EnumNeihbourVertices" prot="public">MR::EnumNeihbourVertices</innerclass>
@@ -121,7 +162,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
@@ -131,22 +172,22 @@
 <codeline lineno="12" refid="classMR_1_1EnumNeihbourVertices" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1EnumNeihbourVertices" kindref="compound">EnumNeihbourVertices</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gaa6216d158e1f9f47eb52c1e8662e8ce7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa6216d158e1f9f47eb52c1e8662e8ce7" kindref="member">run</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertId<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertPredicate<sp/>&amp;<sp/>pred<sp/>);</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga82eaa1eebaf7fc188b2c9ab048fc745a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga82eaa1eebaf7fc188b2c9ab048fc745a" kindref="member">run</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertPredicate&amp;<sp/>pred<sp/>);</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga0f5eb553cbf47775aa2a9325696ca9da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0f5eb553cbf47775aa2a9325696ca9da" kindref="member">run</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertId<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertPredicate<sp/>&amp;<sp/>pred<sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gab1421ec24db86f8e4775fee7e41e8ecc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab1421ec24db86f8e4775fee7e41e8ecc" kindref="member">run</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertPredicate&amp;<sp/>pred<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertPredicate&amp;<sp/>pred<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>VertBitSet<sp/>visited_;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;VertId&gt;<sp/>bd_;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga94117671036cf6c2bf6bc33547519d1a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1ga94117671036cf6c2bf6bc33547519d1a" kindref="member">computeSpaceDistances</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga9e8830660926d34e3892489e81919bd3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1ga9e8830660926d34e3892489e81919bd3" kindref="member">computeSpaceDistances</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref><sp/>&amp;<sp/>start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1gad803f39e74d5d4e2388cd7b981d606da" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1gad803f39e74d5d4e2388cd7b981d606da" kindref="member">findNeighborVerts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rangeSq<sp/>);</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1gae0cc9a186e07d77672ce8c5a7c20df51" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1gae0cc9a186e07d77672ce8c5a7c20df51" kindref="member">findNeighborVerts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rangeSq<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="classMR_1_1EnumNeihbourFaces" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1EnumNeihbourFaces" kindref="compound">EnumNeihbourFaces</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga85f07106265d0d9ea1a93a7fd8ba1973" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85f07106265d0d9ea1a93a7fd8ba1973" kindref="member">run</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertId<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FacePredicate<sp/>&amp;<sp/>pred<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga64b329cfce6e97b4dbf37b031815e913" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga64b329cfce6e97b4dbf37b031815e913" kindref="member">run</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/>VertId<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref><sp/>&amp;<sp/>pred<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet<sp/>visited_;</highlight></codeline>

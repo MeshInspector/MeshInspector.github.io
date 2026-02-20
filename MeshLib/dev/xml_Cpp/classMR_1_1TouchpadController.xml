@@ -14,10 +14,10 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gad0f513aeef09165ba19524a946af3791" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="group__GeneralGroup_1ga7f99ad050f7c266930af4bf9ffc13c37" kind="function"><name>initialize</name></member>
-      <member refid="group__GeneralGroup_1ga292836207ea4150fceeb391f08d81325" kind="function"><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga121e3e4c7338e5a23e70168c51c0063d" kind="function"><name>getParameters</name></member>
-      <member refid="group__GeneralGroup_1gaf572d21cf0454aafce3a201783fcf2dd" kind="function"><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1ga28e436c01d418ee35f2c34370fac094d" kind="function"><name>initialize</name></member>
+      <member refid="group__GeneralGroup_1ga18d55ba22afde13793929c7ce4511358" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga9a75d1a40e05b7e033b6da2ceb48c6c4" kind="function"><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1gadaa5224396ede17a8e54ce5c4716422d" kind="function"><name>setParameters</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga820677be0f5d83e1641c2b6972d13e79" kind="function"><name>touchpadRotateGestureBegin_</name></member>
@@ -81,15 +81,15 @@
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchpadController</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga9b2b49ef6184285f55682bded96e6114" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>currentSwipeMode_</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::TouchpadController</scope><name>disconnect</name></member>
-      <member refid="group__GeneralGroup_1ga121e3e4c7338e5a23e70168c51c0063d" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1ga9a75d1a40e05b7e033b6da2ceb48c6c4" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>getParameters</name></member>
       <member refid="group__GeneralGroup_1ga212d93bd698ebe95a4743f2aea37a2e2" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>handler_</name></member>
-      <member refid="group__GeneralGroup_1ga7f99ad050f7c266930af4bf9ffc13c37" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initialize</name></member>
+      <member refid="group__GeneralGroup_1ga28e436c01d418ee35f2c34370fac094d" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initialize</name></member>
       <member refid="group__GeneralGroup_1gaabe77ba580e35135b6f006b47c433e7f" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initRotateParams_</name></member>
       <member refid="group__GeneralGroup_1ga5ec4cf352d82d570c881a4375fde3e91" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initZoomParams_</name></member>
       <member refid="group__GeneralGroup_1gad0f513aeef09165ba19524a946af3791" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga9621499e89e3e2fe4bfaf75e1038d159" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>parameters_</name></member>
-      <member refid="group__GeneralGroup_1ga292836207ea4150fceeb391f08d81325" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>reset</name></member>
-      <member refid="group__GeneralGroup_1gaf572d21cf0454aafce3a201783fcf2dd" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1ga18d55ba22afde13793929c7ce4511358" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gadaa5224396ede17a8e54ce5c4716422d" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>setParameters</name></member>
       <member refid="group__GeneralGroup_1ga820677be0f5d83e1641c2b6972d13e79" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadRotateGestureBegin_</name></member>
       <member refid="group__GeneralGroup_1gadbdb8fe0ad430bcf20e7eb2cdc690a3f" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadRotateGestureEnd_</name></member>
       <member refid="group__GeneralGroup_1ga5ef18a889e0eb5b1f2999771ab56f852" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadRotateGestureUpdate_</name></member>

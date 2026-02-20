@@ -12,43 +12,49 @@
         <link refid="MRAggregateFlow_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
         <childnode refid="29" relation="include">
         </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="27">
+      <node id="34">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="6">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="21">
+      <node id="28">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -56,230 +62,265 @@
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRLineSegm.h</label>
+        <link refid="MRLineSegm_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-      </node>
-      <node id="34">
-        <label>MRLineSegm.h</label>
-        <link refid="MRLineSegm_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRMeshTriPoint.h</label>
         <link refid="MRMeshTriPoint_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MRPolyline.h</label>
+        <link refid="MRPolyline_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="33">
-        <label>MRPlane3.h</label>
-        <link refid="MRPlane3_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>MRPolyline.h</label>
-        <link refid="MRPolyline_8h"/>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="26">
         <label>MRPolylineTopology.h</label>
         <link refid="MRPolylineTopology_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="30">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="26">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="37">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRTriPoint.h</label>
-        <link refid="MRTriPoint_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="22">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="35">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
+      </node>
+      <node id="18">
+        <label>MRTriPoint.h</label>
+        <link refid="MRTriPoint_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="28">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="15">
-        <label>algorithm</label>
-      </node>
-      <node id="6">
-        <label>cassert</label>
-      </node>
-      <node id="16">
-        <label>cmath</label>
-      </node>
-      <node id="24">
-        <label>concepts</label>
-      </node>
-      <node id="7">
-        <label>cstddef</label>
-      </node>
-      <node id="17">
-        <label>cstring</label>
       </node>
       <node id="29">
-        <label>functional</label>
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="18">
-        <label>iosfwd</label>
+      <node id="41">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="30">
-        <label>iterator</label>
+      <node id="19">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="20">
-        <label>limits</label>
-      </node>
-      <node id="32">
-        <label>memory</label>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="8">
-        <label>type_traits</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="35">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="22">
+        <label>algorithm</label>
       </node>
       <node id="9">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="31">
+        <label>concepts</label>
+      </node>
+      <node id="15">
+        <label>cstddef</label>
+      </node>
+      <node id="24">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>functional</label>
+      </node>
+      <node id="25">
+        <label>iosfwd</label>
+      </node>
+      <node id="36">
+        <label>iterator</label>
+      </node>
+      <node id="27">
+        <label>limits</label>
+      </node>
+      <node id="38">
+        <label>memory</label>
+      </node>
+      <node id="12">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="17">
         <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1FlowOrigin" prot="public">MR::FlowOrigin</innerclass>
@@ -319,11 +360,11 @@
 <codeline lineno="33" refid="classMR_1_1FlowAggregator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FlowAggregator" kindref="compound">FlowAggregator</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1gadd4233affa5197236315d5efb16311a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gadd4233affa5197236315d5efb16311a7" kindref="member">FlowAggregator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>heights<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kindref="member">FlowAggregator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>heights<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1gaf309ebefeb0b0100add0123e82cbafdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gaf309ebefeb0b0100add0123e82cbafdb" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga8d5145cec269402a1a63fc6da262cc81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1ga8d5145cec269402a1a63fc6da262cc81" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="46" refid="group__GeneralGroup_1ga364cc219b9e12c0113e48d3ea18c886d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1ga364cc219b9e12c0113e48d3ea18c886d" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1gab7af4ab803d8e13ab2d6b3cdf826648a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gab7af4ab803d8e13ab2d6b3cdf826648a" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga1ff594631e7f2613f960b1accd919a4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1ga1ff594631e7f2613f960b1accd919a4a" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1gad973bc140aae43a67d88cbd496f5ae14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gad973bc140aae43a67d88cbd496f5ae14" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;<ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>startById,<sp/></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>amountById,</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>regionById,<sp/></highlight></codeline>
@@ -335,13 +376,13 @@
 <codeline lineno="55" refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UndirectedEdgeScalars<sp/><ref refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" kindref="member">flowPerEdge</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="group__GeneralGroup_1ga7234a41d4570f6f8501446c4b7af87a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>HashMap&lt;VertId,<sp/>Flows&gt;<sp/><ref refid="group__GeneralGroup_1ga7234a41d4570f6f8501446c4b7af87a2" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="63" refid="group__GeneralGroup_1gad0e556ea9f008ea75d723c36bed3fa4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>HashMap&lt;VertId,<sp/>Flows&gt;<sp/><ref refid="group__GeneralGroup_1gad0e556ea9f008ea75d723c36bed3fa4e" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga83e4e9d4e05b0025e65c0b7c2cf64d44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>HashMap&lt;VertId,<sp/>Flows&gt;<sp/><ref refid="group__GeneralGroup_1ga83e4e9d4e05b0025e65c0b7c2cf64d44" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1gacdcf96da369668f2f1cd2e2bf65a9a95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1gacdcf96da369668f2f1cd2e2bf65a9a95" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga73c23a20bf2ee3dbcebbc0ea365f79be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga73c23a20bf2ee3dbcebbc0ea365f79be" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1gabcff879c84b9503831511a75aa6314f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabcff879c84b9503831511a75aa6314f2" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;<ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>startById,<sp/></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>amountById<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="group__GeneralGroup_1ga2384bcaaf2bbf8e865fb2a1e4df9c443" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga2384bcaaf2bbf8e865fb2a1e4df9c443" kindref="member">computeCatchmentDelineation</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1gabb62c012ed7b9e65547b67fad43bd838" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gabb62c012ed7b9e65547b67fad43bd838" kindref="member">computeCatchmentDelineation</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh_;</highlight></codeline>

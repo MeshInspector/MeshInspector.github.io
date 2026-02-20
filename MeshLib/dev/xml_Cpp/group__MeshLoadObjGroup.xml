@@ -216,9 +216,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshLoadObjGroup_1gab52f28ac17e79efc94fc00389e683c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga78eb3db4a38b8df457c09a8f74b126a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, bool combineAllObjects, const ObjLoadSettings &amp;settings={})</argsstring>
         <name>fromSceneObjFile</name>
         <qualifiedname>MR::MeshLoad::fromSceneObjFile</qualifiedname>
@@ -242,11 +242,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="60" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="60" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="60" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga0a0e35247ea58005627d346e49a5de82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga084c68bf6ed27f70de50de85900bd2bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
         <argsstring>(std::istream &amp;in, bool combineAllObjects, const std::filesystem::path &amp;dir, const ObjLoadSettings &amp;settings={})</argsstring>
         <name>fromSceneObjFile</name>
         <qualifiedname>MR::MeshLoad::fromSceneObjFile</qualifiedname>
@@ -283,11 +283,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="66" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="66" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="66" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga11ad7be5532b39f13f4f6df8f2b49fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
-        <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1gafe70d87753142e4f6d767910ecdbdc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
         <argsstring>(const char *data, size_t size, bool combineAllObjects, const std::filesystem::path &amp;dir, const ObjLoadSettings &amp;settings={})</argsstring>
         <name>fromSceneObjFile</name>
         <qualifiedname>MR::MeshLoad::fromSceneObjFile</qualifiedname>
@@ -328,11 +328,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="71" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="71" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="71" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshLoadObjGroup_1gae5d6ebb9bff1143f8f529031d34001f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRMESH_API Expected&lt; LoadedObjects &gt;</type>
-        <definition>MRMESH_API Expected&lt; LoadedObjects &gt; MR::MeshLoad::loadObjectFromObj</definition>
+      <memberdef kind="function" id="group__MeshLoadObjGroup_1ga1050c330b0ab72a1f904d39a3297d93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; LoadedObjects &gt;</type>
+        <definition>Expected&lt; LoadedObjects &gt; MR::MeshLoad::loadObjectFromObj</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>loadObjectFromObj</name>
         <qualifiedname>MR::MeshLoad::loadObjectFromObj</qualifiedname>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="75" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="75" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="75" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

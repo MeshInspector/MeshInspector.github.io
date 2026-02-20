@@ -2,19 +2,25 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRFixSelfIntersections_8h" kind="file" language="C++">
     <compoundname>MRFixSelfIntersections.h</compoundname>
-    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
     <incdepgraph>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -22,23 +28,62 @@
         <link refid="MRFixSelfIntersections_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="2">
         <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-      </node>
-      <node id="5">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="14">
         <label>MRPch/MRExpected.h</label>
       </node>
       <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
         <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1SelfIntersections_1_1Settings" prot="public">MR::SelfIntersections::Settings</innerclass>
@@ -51,7 +96,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
@@ -73,12 +118,12 @@
 <codeline lineno="30" refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kindref="member">relaxIterations</ref><sp/>=<sp/>5;</highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga7798ca5ce166d10f94b4f994252918f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7798ca5ce166d10f94b4f994252918f8" kindref="member">maxExpand</ref><sp/>=<sp/>3;</highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1ga27581dba0d20048070937e95346b4224" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga27581dba0d20048070937e95346b4224" kindref="member">subdivideEdgeLen</ref><sp/>=<sp/>0.0f;</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" kindref="member">callback</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" kindref="member">callback</ref><sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1ga24ad77f8c120ef0bda1b37e38b622319" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga24ad77f8c120ef0bda1b37e38b622319" kindref="member">getFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga069e732f3fcc74e807a5de08736596cd" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga069e732f3fcc74e807a5de08736596cd" kindref="member">getFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga31221cba193e98804d912de6685cd94a" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga31221cba193e98804d912de6685cd94a" kindref="member">fix</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SelfIntersections_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga2c684aa402a06902dc7ed561e1af613f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2c684aa402a06902dc7ed561e1af613f" kindref="member">fix</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SelfIntersections_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>

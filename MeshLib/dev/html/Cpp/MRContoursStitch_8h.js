@@ -1,6 +1,6 @@
 var MRContoursStitch_8h =
 [
-    [ "cutAlongEdgeLoop", "MRContoursStitch_8h.html#ga258dab429d2f02547f23733ef9f17226", null ],
-    [ "cutAlongEdgeLoop", "MRContoursStitch_8h.html#gaac15fd2f716831caecb8b6a05b61b7ea", null ],
-    [ "stitchContours", "MRContoursStitch_8h.html#gab62a14eac8cd30402d6f5181a02096ad", null ]
+    [ "cutAlongEdgeLoop", "MRContoursStitch_8h.html#ga94992ac4ac435a830f6ae3bd1c62cd60", null ],
+    [ "cutAlongEdgeLoop", "MRContoursStitch_8h.html#ga800a7215f19eb459e13c87d65a08d34d", null ],
+    [ "stitchContours", "MRContoursStitch_8h.html#ga87506fc61d2601b4f1eb46cda6f84fd6", null ]
 ];
