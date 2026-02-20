@@ -210,31 +210,6 @@ important on Windows: in stream must be open in binary mode
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26187" bodyend="26190"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoad_1a29fcdc08f3447b14570ece6b1926a47e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
-        <definition> Polyline3 mrmeshpy.LinesLoad.fromSvg</definition>
-        <argsstring>(os.PathLike|str|bytes file, LinesLoadSettings settings=...)</argsstring>
-        <name>fromSvg</name>
-        <qualifiedname>mrmeshpy.LinesLoad.fromSvg</qualifiedname>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>loads shapes (polylines, paths, etc.) from file in .SVG format
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26193" bodyend="26196"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1LinesLoad_1a8791142c0aa7b0e236c5d8e8d625e764" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
         <definition> Polyline3 mrmeshpy.LinesLoad.fromSvg</definition>
@@ -260,7 +235,32 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26199" bodyend="26200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26193" bodyend="26194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoad_1a29fcdc08f3447b14570ece6b1926a47e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.LinesLoad.fromSvg</definition>
+        <argsstring>(os.PathLike|str|bytes file, LinesLoadSettings settings=...)</argsstring>
+        <name>fromSvg</name>
+        <qualifiedname>mrmeshpy.LinesLoad.fromSvg</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads shapes (polylines, paths, etc.) from file in .SVG format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26197" bodyend="26200"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1LinesLoad_1a6171276a266d0678ce65180e49edc570" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
@@ -302,8 +302,8 @@ important on Windows: in stream must be open in binary mode
       <member refid="classmrmeshpy_1_1LinesLoad_1a1ef503f5f408d77ad69e88d6d3bb3d8f" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromPly</name></member>
       <member refid="classmrmeshpy_1_1LinesLoad_1ad8e5a8dcb778666430925ab934e36109" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromPts</name></member>
       <member refid="classmrmeshpy_1_1LinesLoad_1aa1200be4943b7c34445501784e053fcf" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromPts</name></member>
-      <member refid="classmrmeshpy_1_1LinesLoad_1a29fcdc08f3447b14570ece6b1926a47e" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromSvg</name></member>
       <member refid="classmrmeshpy_1_1LinesLoad_1a8791142c0aa7b0e236c5d8e8d625e764" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromSvg</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoad_1a29fcdc08f3447b14570ece6b1926a47e" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromSvg</name></member>
       <member refid="classmrmeshpy_1_1LinesLoad_1a6171276a266d0678ce65180e49edc570" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoad</scope><name>fromSvg</name></member>
     </listofallmembers>
   </compounddef>

@@ -11176,6 +11176,7 @@
     <member refid="classMR_1a111aa6fde349ac423d4946e6273e0705" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="classMR_1abb86fb6317892be1111e7900800a98bc" kind="function"><name>fillPlanarHole</name></member>
     <member refid="classMR_1a7ff588f0e066365a484a0e2c8c23b977" kind="function"><name>fillHoleNicely</name></member>
+    <member refid="classMR_1ad93363d0ca3628c1e9a5dce10e34ab5f" kind="function"><name>stitchHolesNicely</name></member>
     <member refid="classMR_1ac43e4992dd2440441e2d829e30fc7d3c" kind="function"><name>filterCreaseEdges</name></member>
     <member refid="classMR_1a0a66432b3b35d22d9df2f74ae081a52f" kind="function"><name>makeFreeFormOriginGrid</name></member>
     <member refid="classMR_1a349c695b6ff571802027d1671ce96c54" kind="function"><name>findBestFreeformDeformation</name></member>
@@ -16312,6 +16313,21 @@
     <member refid="classMR_1_1Src2TgtMaps_1afeb4501454205c739291ad3a5d68bf76" kind="function"><name>Src2TgtMaps</name></member>
     <member refid="classMR_1_1Src2TgtMaps_1adcde982780e6df30db8b042f650f794a" kind="function"><name>Src2TgtMaps</name></member>
     <member refid="classMR_1_1Src2TgtMaps_1acc5600fda77163d37ab2a67b82a3f329" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1StitchHolesNicelySettings" kind="class"><name>MR::StitchHolesNicelySettings</name>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a27be56eb1f840312c053e99a5e8dc3d2" kind="property"><name>triangulateParams</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a01e7ad6e8048190e883ab32d7f210ca6" kind="property"><name>triangulateOnly</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a2f4063e4a01ffc350ae0c307687818a1" kind="property"><name>subdivideSettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a69e40dafa8462dee8c60117ca33e6b3a" kind="property"><name>smoothCurvature</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1ad45b6289b6ab69c5506342a483e2d77c" kind="property"><name>smoothSeettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a20aea49d81f45b59008b74510417a9ca" kind="property"><name>outAttributes</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1aeb91d0b526838c0829d276065055c12b" kind="function"><name>StitchHolesNicelySettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a679e65fdb416cf2f7d501fa681d9b4fd" kind="function"><name>StitchHolesNicelySettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1ac66e5a4ba218d72ecf2b81ad33222cf2" kind="function"><name>StitchHolesNicelySettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1ab81713f781a13243a89af4a09402aa3d" kind="function"><name>StitchHolesNicelySettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1ab6c8f324a69037e0d6b3102f300621a9" kind="function"><name>StitchHolesNicelySettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1ab415fdb1e5b25f9b399542289b1e701b" kind="function"><name>StitchHolesNicelySettings</name></member>
+    <member refid="classMR_1_1StitchHolesNicelySettings_1a00264f11aea5b56e3c03ada3fb79ffcc" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1StitchHolesParams" kind="class"><name>MR::StitchHolesParams</name>
     <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" kind="property"><name>metric</name></member>

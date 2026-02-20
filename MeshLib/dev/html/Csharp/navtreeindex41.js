@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1NoDefInit__MRGraphVertId.html#a7cda7df0970d66557440ecff2ccbc585":[6,3,0,0,0,569,2],
 "classMR_1_1NoDefInit__MRGraphVertId.html#a81f988f2ab8d551b360102472a973d57":[6,3,0,0,0,569,7],
 "classMR_1_1NoDefInit__MRGraphVertId.html#a91555ce8ac44295b55102956a06deaf4":[6,3,0,0,0,569,0],
 "classMR_1_1NoDefInit__MRGraphVertId.html#adf9b96b1345d079f608974ba70778560":[6,3,0,0,0,569,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a26ef775df386ae4b014f97fb8f84705d":[6,3,0,0,0,611,2],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a72f4c001738f56ab3aafba4c9fa71b93":[6,3,0,0,0,611,3],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a9131c007ee449df559137668e602a9c4":[6,3,0,0,0,611,0],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#acb996392d844d0046e526caceef509ba":[6,3,0,0,0,611,1],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html":[6,3,0,0,0,612]
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#acb996392d844d0046e526caceef509ba":[6,3,0,0,0,611,1]
 };

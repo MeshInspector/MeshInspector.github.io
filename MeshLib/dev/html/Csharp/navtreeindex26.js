@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1ConstBox__VoxelId.html#a93db3c19b27b790b43da06de0866aa40":[6,3,0,0,0,273,16],
 "classMR_1_1ConstBox__VoxelId.html#a9d44c9ef98934be541371be1317e9259":[6,3,0,0,0,273,21],
 "classMR_1_1ConstBox__VoxelId.html#aa525d21951681a59bbb74de099a1cfe2":[6,3,0,0,0,273,13],
 "classMR_1_1ConstBox__VoxelId.html#ab4760e4de8d697a492e7447f7e360ed8":[6,3,0,0,0,273,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a091322056865ca6e2db6e05f31ef02d6":[6,3,0,0,0,290,4],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a0e134506a5044ff2d17926e673f20aef":[6,3,0,0,0,290,8],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2bcfc0595393ab797145d7dc8b9a4fd3":[6,3,0,0,0,290,0],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a555c62b0ba744b230515983e1afbe753":[6,3,0,0,0,290,11],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a5911008bde3042e75c6b5e5f8beaa711":[6,3,0,0,0,290,13]
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a555c62b0ba744b230515983e1afbe753":[6,3,0,0,0,290,11]
 };

@@ -683,6 +683,7 @@
     <innerclass refid="classMR_1_1Src2TgtMaps" prot="public">MR::Src2TgtMaps</innerclass>
     <innerclass refid="classMR_1_1StateBasePlugin" prot="public">MR::StateBasePlugin</innerclass>
     <innerclass refid="classMR_1_1StateListenerPlugin" prot="public">MR::StateListenerPlugin</innerclass>
+    <innerclass refid="structMR_1_1StitchHolesNicelySettings" prot="public">MR::StitchHolesNicelySettings</innerclass>
     <innerclass refid="structMR_1_1StitchHolesParams" prot="public">MR::StitchHolesParams</innerclass>
     <innerclass refid="structMR_1_1StopOnTrueCombiner" prot="public">MR::StopOnTrueCombiner</innerclass>
     <innerclass refid="structMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
@@ -1969,6 +1970,7 @@
       <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
       <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>
       <member refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" kind="function"><name>fillHoleNicely</name></member>
+      <member refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" kind="function"><name>stitchHolesNicely</name></member>
       <member refid="group__GeneralGroup_1gad903feed64243051f5347b7fab87f04d" kind="function"><name>filterCreaseEdges</name></member>
       <member refid="group__GeneralGroup_1ga6c7c9b7158d19c16a538796d96742fe2" kind="function"><name>makeFreeFormOriginGrid</name></member>
       <member refid="group__GeneralGroup_1ga3b44cbf37beff319f6d4fe9f0a12024f" kind="function"><name>findBestFreeformDeformation</name></member>

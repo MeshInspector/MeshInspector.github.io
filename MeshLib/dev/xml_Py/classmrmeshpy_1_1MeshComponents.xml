@@ -952,6 +952,30 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32095" bodyend="32099"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
+        <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(Mesh mesh, UndirectedEdgeBitSet edges)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets union-find structure for vertices, considering connections by given undirected edges only
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32102" bodyend="32105"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
         <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
@@ -975,7 +999,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32102" bodyend="32105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32108" bodyend="32111"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -998,7 +1022,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32108" bodyend="32109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32114" bodyend="32115"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aa6a97d11d80dd53dae9bbc11638b1acd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1018,30 +1042,6 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </briefdescription>
         <detaileddescription>
 <para><verbatim>gets union-find structure for vertices, considering connections by given edges only
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32112" bodyend="32115"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
-        <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
-        <argsstring>(Mesh mesh, UndirectedEdgeBitSet edges)</argsstring>
-        <name>getUnionFindStructureVerts</name>
-        <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVerts</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
-          <declname>edges</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets union-find structure for vertices, considering connections by given undirected edges only
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -1216,10 +1216,10 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
       <member refid="classmrmeshpy_1_1MeshComponents_1ad6ea3a19eda04ef661c0c0512c986e89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1af90a7d958a2d4b7a18b9d2e8fa5002" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a50f7037c672042546d6d0d81fbff8b75" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureUndirectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aa6a97d11d80dd53dae9bbc11638b1acd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a78f0cb19a56353b7c77d0cf4ba5cd952" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsEx</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a160673de7369769db9c212722aa6ed0f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPath</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aad92358b1133cef73925d1cca000522b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPaths</name></member>

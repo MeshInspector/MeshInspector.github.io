@@ -10556,6 +10556,14 @@
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" kind="variable"><name>patternLength</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1ae57c16098d513998573613bc01be95d3" kind="variable"><name>segments</name></member>
   </compound>
+  <compound refid="structMR_1_1StitchHolesNicelySettings" kind="struct"><name>MR::StitchHolesNicelySettings</name>
+    <member refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" kind="variable"><name>triangulateParams</name></member>
+    <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kind="variable"><name>triangulateOnly</name></member>
+    <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kind="variable"><name>subdivideSettings</name></member>
+    <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kind="variable"><name>smoothCurvature</name></member>
+    <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kind="variable"><name>outAttributes</name></member>
+  </compound>
   <compound refid="structMR_1_1StitchHolesParams" kind="struct"><name>MR::StitchHolesParams</name>
     <member refid="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" kind="variable"><name>metric</name></member>
     <member refid="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" kind="variable"><name>outNewFaces</name></member>
@@ -14068,6 +14076,7 @@
     <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>
     <member refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" kind="function"><name>fillHoleNicely</name></member>
+    <member refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" kind="function"><name>stitchHolesNicely</name></member>
     <member refid="group__GeneralGroup_1gad903feed64243051f5347b7fab87f04d" kind="function"><name>filterCreaseEdges</name></member>
     <member refid="group__GeneralGroup_1ga6c7c9b7158d19c16a538796d96742fe2" kind="function"><name>makeFreeFormOriginGrid</name></member>
     <member refid="group__GeneralGroup_1ga3b44cbf37beff319f6d4fe9f0a12024f" kind="function"><name>findBestFreeformDeformation</name></member>
@@ -20989,6 +20998,12 @@
     <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kind="variable"><name>smoothCurvature</name></member>
     <member refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" kind="variable"><name>smoothSeettings</name></member>
     <member refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" kind="variable"><name>outAttributes</name></member>
+    <member refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" kind="variable"><name>triangulateParams</name></member>
+    <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kind="variable"><name>triangulateOnly</name></member>
+    <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kind="variable"><name>subdivideSettings</name></member>
+    <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kind="variable"><name>smoothCurvature</name></member>
+    <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kind="variable"><name>outAttributes</name></member>
     <member refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" kind="variable"><name>touchIsIntersection</name></member>
     <member refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" kind="variable"><name>method</name></member>
     <member refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kind="variable"><name>relaxIterations</name></member>
@@ -24895,6 +24910,7 @@
     <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>
     <member refid="group__GeneralGroup_1gab840077428711c450df977dffcef0380" kind="function"><name>fillHoleNicely</name></member>
+    <member refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" kind="function"><name>stitchHolesNicely</name></member>
     <member refid="group__GeneralGroup_1gad903feed64243051f5347b7fab87f04d" kind="function"><name>filterCreaseEdges</name></member>
     <member refid="group__GeneralGroup_1ga069e732f3fcc74e807a5de08736596cd" kind="function"><name>getFaces</name></member>
     <member refid="group__GeneralGroup_1ga2c684aa402a06902dc7ed561e1af613f" kind="function"><name>fix</name></member>

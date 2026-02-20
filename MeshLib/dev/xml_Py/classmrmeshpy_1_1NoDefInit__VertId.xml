@@ -143,7 +143,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::VertId&gt;
-Aliases:  Buffer_VertId.const_iterator, Buffer_VertId_VertId.T, Buffer_VertId_VertId.iterator, Buffer_VertId.iterator, NoCtor_VertId.type, Buffer_VertId_VertId.reference, Buffer_VertId.reference, Buffer_VertId.T, Buffer_VertId.const_reference, Buffer_VertId_VertId.const_iterator, Buffer_VertId_VertId.const_reference
+Aliases:  Buffer_VertId.reference, Buffer_VertId.const_iterator, Buffer_VertId_VertId.T, Buffer_VertId_VertId.iterator, NoCtor_VertId.type, Buffer_VertId_VertId.reference, Buffer_VertId.iterator, Buffer_VertId.const_reference, Buffer_VertId_VertId.const_iterator, Buffer_VertId.T, Buffer_VertId_VertId.const_reference
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

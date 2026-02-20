@@ -953,6 +953,7 @@ var annotated_dup =
       [ "Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", "classMR_1_1Src2TgtMaps" ],
       [ "StateBasePlugin", "classMR_1_1StateBasePlugin.html", "classMR_1_1StateBasePlugin" ],
       [ "StateListenerPlugin", "classMR_1_1StateListenerPlugin.html", "classMR_1_1StateListenerPlugin" ],
+      [ "StitchHolesNicelySettings", "structMR_1_1StitchHolesNicelySettings.html", "structMR_1_1StitchHolesNicelySettings" ],
       [ "StitchHolesParams", "structMR_1_1StitchHolesParams.html", "structMR_1_1StitchHolesParams" ],
       [ "StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", "structMR_1_1StopOnTrueCombiner" ],
       [ "SubdivideFillingSettings", "structMR_1_1SubdivideFillingSettings.html", "structMR_1_1SubdivideFillingSettings" ],

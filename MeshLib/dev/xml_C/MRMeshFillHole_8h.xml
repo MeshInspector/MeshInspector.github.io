@@ -251,7 +251,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="50" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" prot="public" static="no">
-        <type>struct <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref></type>
+        <type>struct <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref></type>
         <definition>typedef struct MR_StitchHolesParams MR_StitchHolesParams</definition>
         <argsstring></argsstring>
         <name>MR_StitchHolesParams</name>
@@ -951,7 +951,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <argsstring>(const MR_StitchHolesParams *_this)</argsstring>
         <name>MR_StitchHolesParams_Get_metric</name>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -972,7 +972,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(MR_StitchHolesParams *_this, MR_PassBy value_pass_by, MR_FillHoleMetric *value)</argsstring>
         <name>MR_StitchHolesParams_Set_metric</name>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1001,7 +1001,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(MR_StitchHolesParams *_this)</argsstring>
         <name>MR_StitchHolesParams_GetMutable_metric</name>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1022,7 +1022,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(const MR_StitchHolesParams *_this)</argsstring>
         <name>MR_StitchHolesParams_Get_outNewFaces</name>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1040,7 +1040,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(MR_StitchHolesParams *_this, MR_FaceBitSet *value)</argsstring>
         <name>MR_StitchHolesParams_Set_outNewFaces</name>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1062,7 +1062,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(MR_StitchHolesParams *_this)</argsstring>
         <name>MR_StitchHolesParams_GetMutable_outNewFaces</name>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1075,7 +1075,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="355" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="355" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1a5f5d291cec37eae242d0f5930bbd21f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API MR_StitchHolesParams * MR_StitchHolesParams_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_StitchHolesParams_DefaultConstruct</name>
@@ -1092,7 +1092,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="359" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="359" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1a3c6429de11d394e8b969982621ec5023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API MR_StitchHolesParams * MR_StitchHolesParams_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_StitchHolesParams_DefaultConstructArray</name>
@@ -1110,7 +1110,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="364" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="364" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1a3a0b391cb6bcdf7fab916473cb26a3cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API MR_StitchHolesParams * MR_StitchHolesParams_ConstructFrom</definition>
         <argsstring>(MR_PassBy metric_pass_by, MR_FillHoleMetric *metric, MR_FaceBitSet *outNewFaces)</argsstring>
         <name>MR_StitchHolesParams_ConstructFrom</name>
@@ -1136,12 +1136,12 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="371" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="371" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1ad56a23469ea2e4e89264582d9f6ee4fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API const MR_StitchHolesParams * MR_StitchHolesParams_OffsetPtr</definition>
         <argsstring>(const MR_StitchHolesParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_StitchHolesParams_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -1158,12 +1158,12 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="375" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="375" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1a24ef1e87d3e6ba7dc1c5c2f560d35985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API MR_StitchHolesParams * MR_StitchHolesParams_OffsetMutablePtr</definition>
         <argsstring>(MR_StitchHolesParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_StitchHolesParams_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -1180,7 +1180,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="379" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="379" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1ad01b1902c5e1559ad9b1754e77aba728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API MR_StitchHolesParams * MR_StitchHolesParams_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_StitchHolesParams *_other)</argsstring>
         <name>MR_StitchHolesParams_ConstructFromAnother</name>
@@ -1189,7 +1189,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -1207,7 +1207,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(const MR_StitchHolesParams *_this)</argsstring>
         <name>MR_StitchHolesParams_Destroy</name>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1225,7 +1225,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <argsstring>(const MR_StitchHolesParams *_this)</argsstring>
         <name>MR_StitchHolesParams_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1238,12 +1238,12 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" line="390" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFillHole.h" declline="390" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1a4d4c6a108e2cae8455f6d1ab593da381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
         <definition>MRC_API MR_StitchHolesParams * MR_StitchHolesParams_AssignFromAnother</definition>
         <argsstring>(MR_StitchHolesParams *_this, MR_PassBy _other_pass_by, MR_StitchHolesParams *_other)</argsstring>
         <name>MR_StitchHolesParams_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1251,7 +1251,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -1281,7 +1281,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
           <declname>b</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
@@ -1358,7 +1358,7 @@ default metric: ComplexStitchMetric</para>
           <declname>b</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
@@ -1380,7 +1380,7 @@ default metric: ComplexStitchMetric</para>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
@@ -1402,7 +1402,7 @@ default metric: ComplexStitchMetric</para>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const <ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
@@ -3070,7 +3070,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRMeshFillHole_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref>;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref>;</highlight></codeline>
+<codeline lineno="61" refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref>;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65" refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref><sp/><ref refid="MRMeshFillHole_8h_1a039a949821c4ea7cec351f4c38109fdf" kindref="member">MR_FillHoleItem</ref>;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
@@ -3138,45 +3138,45 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
 <codeline lineno="304" refid="MRMeshFillHole_8h_1abfb1d6461c18a63c4e42200d680f3d5a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1abfb1d6461c18a63c4e42200d680f3d5a" kindref="member">MR_FillHoleParams_AssignFromAnother</ref>(<ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="MRMeshFillHole_8h_1ab42646ad3e891206417b57f0fc3067b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshFillHole_8h_1ab42646ad3e891206417b57f0fc3067b7" kindref="member">MR_StitchHolesParams_Get_metric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="314" refid="MRMeshFillHole_8h_1ab42646ad3e891206417b57f0fc3067b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshFillHole_8h_1ab42646ad3e891206417b57f0fc3067b7" kindref="member">MR_StitchHolesParams_Get_metric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324" refid="MRMeshFillHole_8h_1ae98d5ca89a23219a04191765299ddbbb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1ae98d5ca89a23219a04191765299ddbbb" kindref="member">MR_StitchHolesParams_Set_metric</ref>(<ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="324" refid="MRMeshFillHole_8h_1ae98d5ca89a23219a04191765299ddbbb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1ae98d5ca89a23219a04191765299ddbbb" kindref="member">MR_StitchHolesParams_Set_metric</ref>(<ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="334" refid="MRMeshFillHole_8h_1a1fdcb6eec50d31769b59668709495598" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a1fdcb6eec50d31769b59668709495598" kindref="member">MR_StitchHolesParams_GetMutable_metric</ref>(<ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="334" refid="MRMeshFillHole_8h_1a1fdcb6eec50d31769b59668709495598" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a1fdcb6eec50d31769b59668709495598" kindref="member">MR_StitchHolesParams_GetMutable_metric</ref>(<ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="341" refid="MRMeshFillHole_8h_1a8432a6f185df68ec7b772566d3023911" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshFillHole_8h_1a8432a6f185df68ec7b772566d3023911" kindref="member">MR_StitchHolesParams_Get_outNewFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="341" refid="MRMeshFillHole_8h_1a8432a6f185df68ec7b772566d3023911" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshFillHole_8h_1a8432a6f185df68ec7b772566d3023911" kindref="member">MR_StitchHolesParams_Get_outNewFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348" refid="MRMeshFillHole_8h_1a97838e7eeae096319b53c2fc21437ee8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a97838e7eeae096319b53c2fc21437ee8" kindref="member">MR_StitchHolesParams_Set_outNewFaces</ref>(<ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="348" refid="MRMeshFillHole_8h_1a97838e7eeae096319b53c2fc21437ee8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a97838e7eeae096319b53c2fc21437ee8" kindref="member">MR_StitchHolesParams_Set_outNewFaces</ref>(<ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355" refid="MRMeshFillHole_8h_1a9091f3efde8ae505dfa54ccd2626f00e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshFillHole_8h_1a9091f3efde8ae505dfa54ccd2626f00e" kindref="member">MR_StitchHolesParams_GetMutable_outNewFaces</ref>(<ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="355" refid="MRMeshFillHole_8h_1a9091f3efde8ae505dfa54ccd2626f00e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshFillHole_8h_1a9091f3efde8ae505dfa54ccd2626f00e" kindref="member">MR_StitchHolesParams_GetMutable_outNewFaces</ref>(<ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="MRMeshFillHole_8h_1a5f5d291cec37eae242d0f5930bbd21f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a5f5d291cec37eae242d0f5930bbd21f2" kindref="member">MR_StitchHolesParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="359" refid="MRMeshFillHole_8h_1a5f5d291cec37eae242d0f5930bbd21f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a5f5d291cec37eae242d0f5930bbd21f2" kindref="member">MR_StitchHolesParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MRMeshFillHole_8h_1a3c6429de11d394e8b969982621ec5023" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a3c6429de11d394e8b969982621ec5023" kindref="member">MR_StitchHolesParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="364" refid="MRMeshFillHole_8h_1a3c6429de11d394e8b969982621ec5023" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a3c6429de11d394e8b969982621ec5023" kindref="member">MR_StitchHolesParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="371" refid="MRMeshFillHole_8h_1a3a0b391cb6bcdf7fab916473cb26a3cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a3a0b391cb6bcdf7fab916473cb26a3cc" kindref="member">MR_StitchHolesParams_ConstructFrom</ref>(MR_PassBy<sp/>metric_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*metric,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outNewFaces);</highlight></codeline>
+<codeline lineno="371" refid="MRMeshFillHole_8h_1a3a0b391cb6bcdf7fab916473cb26a3cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a3a0b391cb6bcdf7fab916473cb26a3cc" kindref="member">MR_StitchHolesParams_ConstructFrom</ref>(MR_PassBy<sp/>metric_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1a6ada8b7c6797cc0bd90970cb9b243afa" kindref="member">MR_FillHoleMetric</ref><sp/>*metric,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outNewFaces);</highlight></codeline>
 <codeline lineno="372"><highlight class="normal"></highlight></codeline>
-<codeline lineno="375" refid="MRMeshFillHole_8h_1ad56a23469ea2e4e89264582d9f6ee4fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1ad56a23469ea2e4e89264582d9f6ee4fb" kindref="member">MR_StitchHolesParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="375" refid="MRMeshFillHole_8h_1ad56a23469ea2e4e89264582d9f6ee4fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1ad56a23469ea2e4e89264582d9f6ee4fb" kindref="member">MR_StitchHolesParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="376"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379" refid="MRMeshFillHole_8h_1a24ef1e87d3e6ba7dc1c5c2f560d35985" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a24ef1e87d3e6ba7dc1c5c2f560d35985" kindref="member">MR_StitchHolesParams_OffsetMutablePtr</ref>(<ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="379" refid="MRMeshFillHole_8h_1a24ef1e87d3e6ba7dc1c5c2f560d35985" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a24ef1e87d3e6ba7dc1c5c2f560d35985" kindref="member">MR_StitchHolesParams_OffsetMutablePtr</ref>(<ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight></codeline>
-<codeline lineno="384" refid="MRMeshFillHole_8h_1ad01b1902c5e1559ad9b1754e77aba728" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1ad01b1902c5e1559ad9b1754e77aba728" kindref="member">MR_StitchHolesParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="384" refid="MRMeshFillHole_8h_1ad01b1902c5e1559ad9b1754e77aba728" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1ad01b1902c5e1559ad9b1754e77aba728" kindref="member">MR_StitchHolesParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="385"><highlight class="normal"></highlight></codeline>
-<codeline lineno="387" refid="MRMeshFillHole_8h_1aa6654c3b1cbd7e4932b7270a00868f1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa6654c3b1cbd7e4932b7270a00868f1a" kindref="member">MR_StitchHolesParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="387" refid="MRMeshFillHole_8h_1aa6654c3b1cbd7e4932b7270a00868f1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa6654c3b1cbd7e4932b7270a00868f1a" kindref="member">MR_StitchHolesParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="390" refid="MRMeshFillHole_8h_1aef861cda82b7ad4add20bd2ec5e95890" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aef861cda82b7ad4add20bd2ec5e95890" kindref="member">MR_StitchHolesParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="390" refid="MRMeshFillHole_8h_1aef861cda82b7ad4add20bd2ec5e95890" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aef861cda82b7ad4add20bd2ec5e95890" kindref="member">MR_StitchHolesParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397" refid="MRMeshFillHole_8h_1a4d4c6a108e2cae8455f6d1ab593da381" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a4d4c6a108e2cae8455f6d1ab593da381" kindref="member">MR_StitchHolesParams_AssignFromAnother</ref>(<ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="397" refid="MRMeshFillHole_8h_1a4d4c6a108e2cae8455f6d1ab593da381" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a4d4c6a108e2cae8455f6d1ab593da381" kindref="member">MR_StitchHolesParams_AssignFromAnother</ref>(<ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="398"><highlight class="normal"></highlight></codeline>
-<codeline lineno="426" refid="MRMeshFillHole_8h_1ac4b92ae79801cde28f25889e77ff3bc3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1ac4b92ae79801cde28f25889e77ff3bc3" kindref="member">MR_stitchHoles_4</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="426" refid="MRMeshFillHole_8h_1ac4b92ae79801cde28f25889e77ff3bc3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1ac4b92ae79801cde28f25889e77ff3bc3" kindref="member">MR_stitchHoles_4</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
 <codeline lineno="432"><highlight class="normal">MRC_DEPRECATED_REASON(</highlight><highlight class="stringliteral">&quot;Use<sp/>stitchHoles(<sp/>mesh,<sp/>a,<sp/>b,<sp/>params<sp/>)&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="433" refid="MRMeshFillHole_8h_1a7f3e17319c8051786af783b7c341f240" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a7f3e17319c8051786af783b7c341f240" kindref="member">MR_buildCylinderBetweenTwoHoles_4</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>b,<sp/>const<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="433" refid="MRMeshFillHole_8h_1a7f3e17319c8051786af783b7c341f240" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a7f3e17319c8051786af783b7c341f240" kindref="member">MR_buildCylinderBetweenTwoHoles_4</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>b,<sp/>const<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="434"><highlight class="normal"></highlight></codeline>
-<codeline lineno="440" refid="MRMeshFillHole_8h_1a1cc97943dbb30a708c283cc0865ba6dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a1cc97943dbb30a708c283cc0865ba6dc" kindref="member">MR_stitchHoles_2</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="440" refid="MRMeshFillHole_8h_1a1cc97943dbb30a708c283cc0865ba6dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a1cc97943dbb30a708c283cc0865ba6dc" kindref="member">MR_stitchHoles_2</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="441"><highlight class="normal"></highlight></codeline>
 <codeline lineno="446"><highlight class="normal">MRC_DEPRECATED_REASON(&quot;Use<sp/>stitchHoles(<sp/>mesh,<sp/>params<sp/>)&quot;)</highlight></codeline>
-<codeline lineno="447" refid="MRMeshFillHole_8h_1a2d5baa17cf2b7f5cb69237f5e4ae0457" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a2d5baa17cf2b7f5cb69237f5e4ae0457" kindref="member">MR_buildCylinderBetweenTwoHoles_2</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRMeshFillHole_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="447" refid="MRMeshFillHole_8h_1a2d5baa17cf2b7f5cb69237f5e4ae0457" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a2d5baa17cf2b7f5cb69237f5e4ae0457" kindref="member">MR_buildCylinderBetweenTwoHoles_2</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRFillHoleNicely_8h_1aa1607d8c8b544880832ed215c4cd000d" kindref="member">MR_StitchHolesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="448"><highlight class="normal"></highlight></codeline>
 <codeline lineno="475" refid="MRMeshFillHole_8h_1aacb6e8956c70256df406685442c141ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1aacb6e8956c70256df406685442c141ab" kindref="member">MR_fillHole</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/>const<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="476"><highlight class="normal"></highlight></codeline>

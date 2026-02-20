@@ -184,6 +184,7 @@
     <innerclass refid="structMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="structMR_1_1OutAttributesFillingSettings" prot="public">MR::OutAttributesFillingSettings</innerclass>
     <innerclass refid="structMR_1_1FillHoleNicelySettings" prot="public">MR::FillHoleNicelySettings</innerclass>
+    <innerclass refid="structMR_1_1StitchHolesNicelySettings" prot="public">MR::StitchHolesNicelySettings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -252,7 +253,27 @@
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>holeEdge,<sp/></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="87" refid="structMR_1_1StitchHolesNicelySettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1StitchHolesNicelySettings" kindref="compound">StitchHolesNicelySettings</ref></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref><sp/><ref refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" kindref="member">triangulateParams</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kindref="member">triangulateOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kindref="member">subdivideSettings</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kindref="member">smoothCurvature</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kindref="member">smoothSeettings</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref><sp/><ref refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kindref="member">outAttributes</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga5b7046fd268a56376489379737381aee" kindref="member">stitchHolesNicely</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>hole0Edge,<sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>hole1Edge,<sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1StitchHolesNicelySettings" kindref="compound">StitchHolesNicelySettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h"/>
   </compounddef>

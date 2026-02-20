@@ -1569,6 +1569,14 @@ var group__GeneralGroup =
       [ "triangulateOnly", "group__GeneralGroup.html#ga62e34964b014489a6f1d3f2e324759ff", null ],
       [ "triangulateParams", "group__GeneralGroup.html#ga2ead937ed1df084dc6a43160e17df2c2", null ]
     ] ],
+    [ "MR::StitchHolesNicelySettings", "structMR_1_1StitchHolesNicelySettings.html", [
+      [ "outAttributes", "group__GeneralGroup.html#gaa0918f73a5da8336e98604cadd4373b1", null ],
+      [ "smoothCurvature", "group__GeneralGroup.html#ga45ec4f63aa8dff81d3ed1c6c8ac1fefd", null ],
+      [ "smoothSeettings", "group__GeneralGroup.html#ga574c3df036ce8c752e88ed337c0e06e2", null ],
+      [ "subdivideSettings", "group__GeneralGroup.html#ga41a8d4e28e645afe297f2d7450ae6a3d", null ],
+      [ "triangulateOnly", "group__GeneralGroup.html#ga4d6a2b64ba35e979aaf98098d6f34be3", null ],
+      [ "triangulateParams", "group__GeneralGroup.html#ga83e24c3d8730be6202659fcb65549581", null ]
+    ] ],
     [ "MR::SelfIntersections::Settings", "structMR_1_1SelfIntersections_1_1Settings.html", [
       [ "Method", "group__GeneralGroup.html#ga89959b4882d33598d9220db080145bc5", [
         [ "Relax", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4", null ],
@@ -15137,6 +15145,7 @@ var group__GeneralGroup =
     [ "MR::SceneRootObject::StaticTypeName", "group__GeneralGroup.html#ga8dd94e3f37cf1c2dc3e53bebcfbd6367", null ],
     [ "MR::SphereObject::StaticTypeName", "group__GeneralGroup.html#gac9805c0c087427d7b88cb5296c0a517d", null ],
     [ "MR::stitchContours", "group__GeneralGroup.html#ga87506fc61d2601b4f1eb46cda6f84fd6", null ],
+    [ "MR::stitchHolesNicely", "group__GeneralGroup.html#ga5b7046fd268a56376489379737381aee", null ],
     [ "MR::SplashWindow::stop", "group__GeneralGroup.html#gab48855fcfc4227b2e7cf197229389efb", null ],
     [ "MR::Viewer::stopEventLoop", "group__GeneralGroup.html#gae29c947bfa15c43f777ab468990ff716", null ],
     [ "MR::ITransformControls::stopModify", "group__GeneralGroup.html#ga4e00cf9a8a073e2d8964dbbd10f60b6f", null ],
@@ -17056,6 +17065,7 @@ var group__GeneralGroup =
     [ "MR::TrimOptionalOutput::otherPart", "group__GeneralGroup.html#ga913d446d93ee465bae6bc24cdfcb9287", null ],
     [ "MR::FaceDistancesSettings::out", "group__GeneralGroup.html#ga712f07635ebe5270dd2a58473ca7a7cb", null ],
     [ "MR::FillHoleNicelySettings::outAttributes", "group__GeneralGroup.html#gae228d6f67e070cb9c4323dd57a421c73", null ],
+    [ "MR::StitchHolesNicelySettings::outAttributes", "group__GeneralGroup.html#gaa0918f73a5da8336e98604cadd4373b1", null ],
     [ "MR::DenoiseViaNormalsSettings::outCreases", "group__GeneralGroup.html#gad7f7b82ea225f8e0f9a358b607d7fead", null ],
     [ "MR::TrimOptionalOutput::outCutContours", "group__GeneralGroup.html#gad716fbc89b71f32103375687ec684177", null ],
     [ "MR::TrimOptionalOutput::outCutEdges", "group__GeneralGroup.html#gab2764c07e0136d9d3309b44b8bf8eca7", null ],
@@ -17478,7 +17488,9 @@ var group__GeneralGroup =
     [ "MR::FixUndercuts::FixParams::smooth", "group__GeneralGroup.html#ga86fb3b02eb0f9d3df9cdeb8e1b66ca22", null ],
     [ "MR::ObjectLinesHolder::smoothConnections_", "group__GeneralGroup.html#ga5e2decefeb68afc04d745403e70da92f", null ],
     [ "MR::FillHoleNicelySettings::smoothCurvature", "group__GeneralGroup.html#gaac4ecae12eb97ad05b204ac14de42cb8", null ],
+    [ "MR::StitchHolesNicelySettings::smoothCurvature", "group__GeneralGroup.html#ga45ec4f63aa8dff81d3ed1c6c8ac1fefd", null ],
     [ "MR::FillHoleNicelySettings::smoothSeettings", "group__GeneralGroup.html#gacefa7bb069740dbb24ec548f52178ecf", null ],
+    [ "MR::StitchHolesNicelySettings::smoothSeettings", "group__GeneralGroup.html#ga574c3df036ce8c752e88ed337c0e06e2", null ],
     [ "MR::BaseFitParams::snapView", "group__GeneralGroup.html#ga1ba0fadee2fc4bad0655f2b0f15211ab", null ],
     [ "MR::CurvePoint::snorm", "group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920", null ],
     [ "MR::SaveSettings::solidColor", "group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649", null ],
@@ -17538,6 +17550,7 @@ var group__GeneralGroup =
     [ "MR::FeatureObject::subAlphaPoints_", "group__GeneralGroup.html#gad7fbf06bb7ae7e9d6d048ae16629ccc3", null ],
     [ "MR::SelfIntersections::Settings::subdivideEdgeLen", "group__GeneralGroup.html#ga27581dba0d20048070937e95346b4224", null ],
     [ "MR::FillHoleNicelySettings::subdivideSettings", "group__GeneralGroup.html#ga7b05b181968c758ebe172bd27457185b", null ],
+    [ "MR::StitchHolesNicelySettings::subdivideSettings", "group__GeneralGroup.html#ga41a8d4e28e645afe297f2d7450ae6a3d", null ],
     [ "Subfeatures", "group__GeneralGroup.html#ga8c52a38cab104b53c714ff2ce176546f", null ],
     [ "MR::FeatureObject::subfeatureVisibility_", "group__GeneralGroup.html#gabd213076dcde954e6f1f26d06fa6d2fa", null ],
     [ "MR::FeatureObject::subLineWidth_", "group__GeneralGroup.html#gac8ea614a47b17098054cd1859b24f70c", null ],
@@ -17686,7 +17699,9 @@ var group__GeneralGroup =
     [ "MR::TransformControls::VisualParams::translationColors", "group__GeneralGroup.html#ga263e10cb84fcd843581cc2aeea08d6a2", null ],
     [ "MR::ModelRenderParams::transparencyMode", "group__GeneralGroup.html#ga8f1f5a646cc1017f006a43ff0ce0e457", null ],
     [ "MR::FillHoleNicelySettings::triangulateOnly", "group__GeneralGroup.html#ga62e34964b014489a6f1d3f2e324759ff", null ],
+    [ "MR::StitchHolesNicelySettings::triangulateOnly", "group__GeneralGroup.html#ga4d6a2b64ba35e979aaf98098d6f34be3", null ],
     [ "MR::FillHoleNicelySettings::triangulateParams", "group__GeneralGroup.html#ga2ead937ed1df084dc6a43160e17df2c2", null ],
+    [ "MR::StitchHolesNicelySettings::triangulateParams", "group__GeneralGroup.html#ga83e24c3d8730be6202659fcb65549581", null ],
     [ "MR::PlyLoadParams::triCornerUvCoords", "group__GeneralGroup.html#ga2e08ddf614c8b881ce551b6810228501", null ],
     [ "MR::UI::CustomConfigModalSettings::triggerSave", "group__GeneralGroup.html#ga9ac324551327f5c00a9ba0ac4df87360", null ],
     [ "MR::TriPoint", "group__GeneralGroup.html#gab4b475d1cfb4a2c8cdef119f5570a9d6", null ],

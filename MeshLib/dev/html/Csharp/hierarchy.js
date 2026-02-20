@@ -1937,6 +1937,9 @@ var hierarchy =
       [ "MR.Const_Src2TgtMaps", null, [
         [ "MR.Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ]
       ] ],
+      [ "MR.Const_StitchHolesNicelySettings", null, [
+        [ "MR.StitchHolesNicelySettings", "classMR_1_1StitchHolesNicelySettings.html", null ]
+      ] ],
       [ "MR.Const_SubdivideFillingSettings", null, [
         [ "MR.SubdivideFillingSettings", "classMR_1_1SubdivideFillingSettings.html", null ]
       ] ],
@@ -3496,6 +3499,7 @@ var hierarchy =
       [ "MR.Const_SphereParams", null, null ],
       [ "MR.Const_SplineSettings", null, null ],
       [ "MR.Const_Src2TgtMaps", null, null ],
+      [ "MR.Const_StitchHolesNicelySettings", null, null ],
       [ "MR.Const_SubdivideFillingSettings", null, null ],
       [ "MR.Const_SubdivideSettings", null, null ],
       [ "MR.Const_SurfaceDistanceBuilder", null, null ],

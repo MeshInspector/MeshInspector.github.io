@@ -513,35 +513,6 @@ important on Windows: in stream must be open in binary mode
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32547" bodyend="32551"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
-        <definition> std_vector_MeshLoad_NamedMesh mrmeshpy.MeshLoad.fromSceneObjFile</definition>
-        <argsstring>(os.PathLike|str|bytes file, bool combineAllObjects, MeshLoad.ObjLoadSettings settings=...)</argsstring>
-        <name>fromSceneObjFile</name>
-        <qualifiedname>mrmeshpy.MeshLoad.fromSceneObjFile</qualifiedname>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>combineAllObjects</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" kindref="compound">MeshLoad.ObjLoadSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>loads meshes from .obj file
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32554" bodyend="32557"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3d3183ae68bebe86bfb635c28b3a614a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
         <definition> std_vector_MeshLoad_NamedMesh mrmeshpy.MeshLoad.fromSceneObjFile</definition>
@@ -578,7 +549,36 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32560" bodyend="32564"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32554" bodyend="32558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
+        <definition> std_vector_MeshLoad_NamedMesh mrmeshpy.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(os.PathLike|str|bytes file, bool combineAllObjects, MeshLoad.ObjLoadSettings settings=...)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" kindref="compound">MeshLoad.ObjLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads meshes from .obj file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32561" bodyend="32564"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1abe2511ea871a1b54921944b1d14a5259" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
@@ -765,8 +765,8 @@ important on Windows: in stream must be open in binary mode
       <member refid="classmrmeshpy_1_1MeshLoad_1ae607b8fa878d06cbed98865eb7ec00de" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromOff</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a52f65a7c3f35e4fa71a4918db1bf91e8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromPly</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a3fd6d5f438d166bed0ed43dd8960bb54" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromPly</name></member>
-      <member refid="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a3d3183ae68bebe86bfb635c28b3a614a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1abe2511ea871a1b54921944b1d14a5259" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a88917fac1c89a4c0e51521ef615307ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a432c80e27f4d3110d78eef215de5ecbc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1Box__Matrix4f.html#a92b65e3fcf41ce5455a769bdfb56bf6b":[6,3,0,0,0,104,19],
 "classMR_1_1Box__Matrix4f.html#ab7d7f87ed3771a330937c84d66183ec6":[6,3,0,0,0,104,11],
 "classMR_1_1Box__Matrix4f.html#abd4b34e8a423b50da335aecf4b7e3ed4":[6,3,0,0,0,104,20],
 "classMR_1_1Box__Matrix4f.html#ac422ffc0d4fc746d120424e1cd12356e":[6,3,0,0,0,104,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1Box__Vector3d.html#a6f972919e8e64274ff61d4a76acf325b":[6,3,0,0,0,121,9],
 "classMR_1_1Box__Vector3d.html#a7cf253ebec7359419340a0fcd530b327":[6,3,0,0,0,121,11],
 "classMR_1_1Box__Vector3d.html#a81bc87c5db36b2a16072ac142019a48f":[6,3,0,0,0,121,6],
-"classMR_1_1Box__Vector3d.html#a9a91729c1b4ff744ed1531b0402197e2":[6,3,0,0,0,121,1],
-"classMR_1_1Box__Vector3d.html#ad519243d8c2c7c0b1867e7c77977843e":[6,3,0,0,0,121,8]
+"classMR_1_1Box__Vector3d.html#a9a91729c1b4ff744ed1531b0402197e2":[6,3,0,0,0,121,1]
 };

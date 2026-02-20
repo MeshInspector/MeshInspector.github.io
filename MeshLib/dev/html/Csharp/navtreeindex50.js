@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Polynomial__Double__3.html#a81ed32eff912c06427daa8b78fe543cb":[6,3,0,0,0,691,4],
 "classMR_1_1Polynomial__Double__3.html#adcd627dc029b1b4e6421ef018587299d":[6,3,0,0,0,691,0],
 "classMR_1_1Polynomial__Double__3.html#afd201b7428bfa4b38105a1f0e76419c1":[6,3,0,0,0,691,1],
 "classMR_1_1Polynomial__Double__4.html":[6,3,0,0,0,692],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1RadiusMeasurementObject.html#a7a6c90397742f35026998ce6ed9a60f3":[6,3,0,0,0,718,2],
 "classMR_1_1RadiusMeasurementObject.html#a887d94d14dc2586d0673052d3560776b":[6,3,0,0,0,718,0],
 "classMR_1_1RadiusMeasurementObject.html#a8e1cc7165410c622bfae4e10c8ff4b05":[6,3,0,0,0,718,52],
-"classMR_1_1RadiusMeasurementObject.html#a93016a52df56f396f9b5a049f76e85a7":[6,3,0,0,0,718,57],
-"classMR_1_1RadiusMeasurementObject.html#a93ab3526ebf085a5e9684f4789b1da8a":[6,3,0,0,0,718,40]
+"classMR_1_1RadiusMeasurementObject.html#a93016a52df56f396f9b5a049f76e85a7":[6,3,0,0,0,718,57]
 };
