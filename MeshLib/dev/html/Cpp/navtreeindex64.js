@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7":[6,0,0,1,28,2],
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html":[6,0,0,20,81],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,31,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,2,19,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,31,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SphereParams.html":[6,0,0,20,288],
 "structMR_1_1SplineSettings.html":[6,0,0,20,291],
 "structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
-"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[6,0,0,20,671]
+"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1]
 };

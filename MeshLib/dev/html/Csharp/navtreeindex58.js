@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1UnitInfo.html#a710c96c6df2553e98848e1e6350ff5ab":[6,3,0,0,0,843,6],
+"classMR_1_1UnitInfo.html#a93de24e4e60b6fcad23581c0f6878e64":[6,3,0,0,0,843,2],
 "classMR_1_1UnitInfo.html#ae151fc98f81abb8509bb879ceec87cb7":[6,3,0,0,0,843,4],
 "classMR_1_1UnitInfo.html#af78ba14b8817c3c8e1e0189e7925b192":[6,3,0,0,0,843,1],
 "classMR_1_1UniteManyMeshesParams.html":[6,3,0,0,0,842],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1Vector__Int__MRVertId.html#aa500960eb46bb4365791ffa022cde98a":[6,3,0,0,0,869,8],
 "classMR_1_1Vector__Int__MRVertId.html#aa9e5a5e5627260e660eae61ddd84037e":[6,3,0,0,0,869,14],
 "classMR_1_1Vector__Int__MRVertId.html#aaf1325bc91e9e97b7d34585f21eb8aef":[6,3,0,0,0,869,20],
-"classMR_1_1Vector__Int__MRVertId.html#aaf25d5df3fb548a717f7695558fed0bc":[6,3,0,0,0,869,3],
-"classMR_1_1Vector__Int__MRVertId.html#ab33d2a546b52562d80ef026d85ae4a7c":[6,3,0,0,0,869,6],
-"classMR_1_1Vector__Int__MRVertId.html#ab4813345c57fafd4f9eb7dccc69827b2":[6,3,0,0,0,869,17]
+"classMR_1_1Vector__Int__MRVertId.html#aaf25d5df3fb548a717f7695558fed0bc":[6,3,0,0,0,869,3]
 };

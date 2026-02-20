@@ -2579,6 +2579,8 @@ var classMR =
     [ "sqr", "classMR.html#adaa707cf38ff9aa9f4f76621ee9aa643", null ],
     [ "sqr", "classMR.html#abcb6232da612113a3d13316152666638", null ],
     [ "stitchContours", "classMR.html#a12b00e36cf48ad83fe06eb98f39d3131", null ],
+    [ "stitchHoles", "classMR.html#a676137af5f039808fa6e86cd815a603e", null ],
+    [ "stitchHoles", "classMR.html#a4d6b7ee98d4541f1ce78ac9eaa4c8e7c", null ],
     [ "straightenBoundary", "classMR.html#ad29f8f9047cd986f316b90af7cc09c25", null ],
     [ "subdivideLoneContours", "classMR.html#af3ad6765c337a784a95f2642f23def90", null ],
     [ "subdivideMesh", "classMR.html#a4904df8a3d344d723b6c9732d0f82c95", null ],

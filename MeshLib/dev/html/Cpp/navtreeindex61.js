@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[6,0,1,0,1,16,7],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[6,0,2,0,2,7,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[6,0,1,0,1,16,7,11],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[6,0,2,0,2,7,7,11],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[6,0,1,0,1,16,7,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1IteratorRange.html":[6,0,0,3,0,0],
 "structMR_1_1IteratorRange.html":[6,0,0,20,313],
 "structMR_1_1IteratorRange.html#a2cbe8082c7fec924d06a467c19260390":[6,0,0,3,0,0,1],
-"structMR_1_1IteratorRange.html#a2cbe8082c7fec924d06a467c19260390":[6,0,0,20,313,1],
-"structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3":[6,0,0,3,0,0,3],
-"structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3":[6,0,0,20,313,3]
+"structMR_1_1IteratorRange.html#a2cbe8082c7fec924d06a467c19260390":[6,0,0,20,313,1]
 };

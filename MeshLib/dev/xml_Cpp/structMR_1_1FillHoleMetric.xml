@@ -51,11 +51,11 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<linebreak/>
+<para>Holds metrics for fillHole and stitchHoles triangulation<linebreak/>
 . </para>
     </briefdescription>
     <detaileddescription>
-<para>This is struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions<linebreak/>
+<para>This is struct used as optimization metric of fillHole and stitchHoles functions<linebreak/>
  <simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gac1a269fbec429d33258983bff4019f39" kindref="member">getCircumscribedMetric</ref> </para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga4a6a9b162031e7a619eb316d702a3b0e" kindref="member">getPlaneFillMetric</ref> </para>
@@ -68,7 +68,7 @@
 </simplesect>
 <simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kindref="member">fillHole</ref> </para>
 </simplesect>
-<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">stitchHoles</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>

@@ -325,9 +325,9 @@
 <para><verbatim>Generated from:  MR::FillHoleMetric
 
 \\struct MR::FillHoleMetric
-\\brief Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation\\n
+\\brief Holds metrics for fillHole and stitchHoles triangulation\\n
 
-This is struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions\\n
+This is struct used as optimization metric of fillHole and stitchHoles functions\\n
 
 \\sa \\ref getCircumscribedMetric
 \\sa \\ref getPlaneFillMetric
@@ -335,7 +335,7 @@ This is struct used as optimization metric of fillHole and buildCylinderBetweenT
 \\sa \\ref getEdgeLengthStitchMetric
 \\sa \\ref getComplexStitchMetric
 \\sa \\ref fillHole
-\\sa \\ref buildCylinderBetweenTwoHoles
+\\sa \\ref stitchHoles
 </verbatim> </para>
     </detaileddescription>
     <collaborationgraph>

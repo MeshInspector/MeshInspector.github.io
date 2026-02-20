@@ -14,7 +14,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Specifies triangulation metric<linebreak/>
-default for <ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">MR.buildCylinderBetweenTwoHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para>FillHoleMetric </para>
+default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para>FillHoleMetric </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -179,15 +179,15 @@ default for <ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="mem
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Parameters structure for <ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">MR.buildCylinderBetweenTwoHoles</ref><linebreak/>
-Structure has some options to control <ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">MR.buildCylinderBetweenTwoHoles</ref>. </para>
+<para>Parameters structure for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref><linebreak/>
+Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+<para><simplesect kind="see"><para><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">stitchHoles</ref> </para>
 </simplesect>
 <simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.StitchHolesParams</computeroutput>. This is the const half of the class.</para>
 </simplesect>
-<simplesect kind="see"><para><ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+<simplesect kind="see"><para><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">stitchHoles</ref> </para>
 </simplesect>
 <simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.StitchHolesParams</computeroutput>. This is the non-const half of the class. </para>
 </simplesect>

@@ -3168,6 +3168,8 @@ var namespaceMR =
     [ "splitQuad", "group__FillHoleGroup.html#ga71fca5b809e46f918e1bc23c90c3201e", null ],
     [ "sqr", "group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976", null ],
     [ "stitchContours", "group__GeneralGroup.html#ga87506fc61d2601b4f1eb46cda6f84fd6", null ],
+    [ "stitchHoles", "group__FillHoleGroup.html#ga1d5c1c9ce33580b95bdf4834f022ed3e", null ],
+    [ "stitchHoles", "group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108", null ],
     [ "straightenBoundary", "group__MeshAlgorithmGroup.html#ga85f120484f51a420267e45c05af90e90", null ],
     [ "stringOperationCanceled", "group__GeneralGroup.html#gadaeda128e3a2e131a28e25934de4203c", null ],
     [ "stringUnsupportedFileExtension", "group__GeneralGroup.html#ga1544b69f030c536c35a2d00c154caaf6", null ],

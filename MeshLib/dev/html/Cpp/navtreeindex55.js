@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"group__SerializerGroup.html#gab38fd79e2d110978e8ce8d11feeb7a7e":[6,0,0,2,15,20],
+"group__SerializerGroup.html#gac0f762bfae301303b158a3660b2c22c7":[6,0,0,2,15,25],
 "group__SerializerGroup.html#gacbdc25612bacee827ee57b24ba6d5b9b":[6,0,0,2,15,53],
 "group__SerializerGroup.html#gacbf16137ea3050956402665855f5b92f":[6,0,0,2,15,32],
 "group__SerializerGroup.html#gad7c57d19dac8fe5222101baac7ae164c":[6,0,0,2,15,46],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "group__VolumeIndexerGroup.html":[6,0,0,17,0],
 "group__VolumeIndexerGroup.html#ga051634fee494f975b01af37644de2b2a":[6,0,0,17,0,5],
 "group__VolumeIndexerGroup.html#ga4e89cddf49bc51a6caa983ba3b84c461":[6,0,0,17,0,4],
-"group__VolumeIndexerGroup.html#ga91147207103fdc2c344ad18106a8599a":[6,0,0,17,0,6],
-"group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e":[6,0,0,17,0,2],
-"group__VolumeIndexerGroup.html#gaf4165e1b4387ead4958e16c2ffebdf4b":[6,0,0,17,0,3]
+"group__VolumeIndexerGroup.html#ga91147207103fdc2c344ad18106a8599a":[6,0,0,17,0,6]
 };

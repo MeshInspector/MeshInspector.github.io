@@ -76,5 +76,7 @@ var group__FillHoleGroup =
     [ "MR::makeQuadBridge", "group__FillHoleGroup.html#ga4ca9c35a40fd933fbfd31883e3a1c76a", null ],
     [ "MR::makeSmoothBridge", "group__FillHoleGroup.html#gaeb585e92175777d0104f7cb7bad9215f", null ],
     [ "MR::splitQuad", "group__FillHoleGroup.html#ga71fca5b809e46f918e1bc23c90c3201e", null ],
+    [ "MR::stitchHoles", "group__FillHoleGroup.html#ga1d5c1c9ce33580b95bdf4834f022ed3e", null ],
+    [ "MR::stitchHoles", "group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108", null ],
     [ "MR::BadTriangulationMetric", "group__FillHoleGroup.html#gad6e60cb1116257e53229b6ee7ee22351", null ]
 ];

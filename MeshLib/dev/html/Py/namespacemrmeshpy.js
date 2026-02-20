@@ -2404,6 +2404,8 @@ var namespacemrmeshpy =
     [ "sqr", "namespacemrmeshpy.html#a42c07abe9f17ca984deb56454e1d34fc", null ],
     [ "sqr", "namespacemrmeshpy.html#a537d7b5f8c18ff5b3730ab2c3737fe62", null ],
     [ "stitchContours", "namespacemrmeshpy.html#ad020baa30c00084547b180821ff3bda0", null ],
+    [ "stitchHoles", "namespacemrmeshpy.html#a5c94bb70f2730a4fc37e14c0206a5c6a", null ],
+    [ "stitchHoles", "namespacemrmeshpy.html#a9ddab45769d08007043a921e5d4bdc7c", null ],
     [ "straightenBoundary", "namespacemrmeshpy.html#a2b3d8b175824d57ca8c3ac20d0f42de8", null ],
     [ "subdivideLoneContours", "namespacemrmeshpy.html#a4c2d41c2b5fa01da5ab4c9b91b875c04", null ],
     [ "subdivideMesh", "namespacemrmeshpy.html#a74369e0f36897fe8c2417ecee4db1d27", null ],

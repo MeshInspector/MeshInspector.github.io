@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1ArcInterpolationParams.html#a789dc798f5e71150410e8bc69e2c1c89":[6,3,0,0,0,26,1],
+"classMR_1_1ArcInterpolationParams.html#a7b08becbaf0a29e247c7f1a0e3741cb5":[6,3,0,0,0,26,8],
 "classMR_1_1ArcInterpolationParams.html#a843a6b500f0606b83fafbe1db975a602":[6,3,0,0,0,26,7],
 "classMR_1_1ArcInterpolationParams.html#a85070e607deb5fe2f48492578342e32a":[6,3,0,0,0,26,6],
 "classMR_1_1ArcInterpolationParams.html#ab5feeb59997872df7436810d1425635c":[6,3,0,0,0,26,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1BitSet.html#ae37fea547dbed41ae122c7b8ec18c699":[6,3,0,0,0,42,10],
 "classMR_1_1BitSet.html#ae6b90de471d576c9e1561439e05df047":[6,3,0,0,0,42,27],
 "classMR_1_1BooleanInternalParameters.html":[6,3,0,0,0,55],
-"classMR_1_1BooleanInternalParameters.html#a2d47ecf9fd1f635559cdf74cc7600cb6":[6,3,0,0,0,55,3],
-"classMR_1_1BooleanInternalParameters.html#a40469601d1e1f038cac4f91f99c02d3f":[6,3,0,0,0,55,4],
-"classMR_1_1BooleanInternalParameters.html#a5423bc6d9385efe02231a7b3e89cbd72":[6,3,0,0,0,55,1]
+"classMR_1_1BooleanInternalParameters.html#a2d47ecf9fd1f635559cdf74cc7600cb6":[6,3,0,0,0,55,3]
 };

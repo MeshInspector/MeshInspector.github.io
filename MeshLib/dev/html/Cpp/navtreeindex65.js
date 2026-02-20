@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
+"structMR_1_1StopOnTrueCombiner.html":[6,0,0,20,671],
 "structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
 "structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,9],
 "structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[6,0,0,9,7,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[6,0,0,1,18,10],
 "structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[6,0,0,1,18,7],
 "structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad":[6,0,0,1,18,9],
-"structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c":[6,0,0,1,18,3],
-"structMR_1_1VarEdgeTri.html#a9823b1d64efd1d93070b51f01ffa10c6":[6,0,0,1,18,1],
-"structMR_1_1VarEdgeTri.html#a9ff04d23bee5568116250292fe986af6":[6,0,0,1,18,11]
+"structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c":[6,0,0,1,18,3]
 };

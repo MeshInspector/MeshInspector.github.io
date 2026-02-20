@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"MRWeightedPointsShell_8h.html#aa319738c95f0bbde075b7ef777cf2665":[6,2,1,0,0,0,3,39,6],
+"MRWeightedPointsShell_8h.html#aa3a3d2a4498a60d3710cf27722d5bf22":[6,2,1,0,0,0,3,39,108],
 "MRWeightedPointsShell_8h.html#aa5247cabb855289fe6e813f1e7221499":[6,2,1,0,0,0,3,39,102],
 "MRWeightedPointsShell_8h.html#aa5ff82e0a2a2d54ee9ba534036fff230":[6,2,1,0,0,0,3,39,83],
 "MRWeightedPointsShell_8h.html#aaa30d3d931693ee148b6f45278308efb":[6,2,1,0,0,0,3,39,126],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "structMR__ObjId.html":[6,2,0,0,37],
 "structMR__ObjId.html#a08194a8c893360a4078b989ba601875a":[6,2,0,0,37,0],
 "structMR__ObjVertId.html":[6,2,0,0,38],
-"structMR__ObjVertId.html#a5194402ad6a70672d7753e5afd7a4fcb":[6,2,0,0,38,1],
-"structMR__ObjVertId.html#a6de37a93e460841b4edc20c46b5435c0":[6,2,0,0,38,0],
-"structMR__PixelId.html":[6,2,0,0,39]
+"structMR__ObjVertId.html#a5194402ad6a70672d7753e5afd7a4fcb":[6,2,0,0,38,1]
 };

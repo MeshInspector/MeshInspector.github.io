@@ -74,12 +74,12 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MR::buildCylinderBetweenTwoHoles</definition>
+        <definition>void MR::stitchHoles</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</argsstring>
-        <name>buildCylinderBetweenTwoHoles</name>
-        <qualifiedname>MR::buildCylinderBetweenTwoHoles</qualifiedname>
+        <name>stitchHoles</name>
+        <qualifiedname>MR::stitchHoles</qualifiedname>
         <param>
           <type>Mesh &amp;</type>
           <declname>mesh</declname>
@@ -153,12 +153,43 @@ default metric: ComplexStitchMetric</para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="117" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="117" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::buildCylinderBetweenTwoHoles</definition>
-        <argsstring>(Mesh &amp;mesh, const StitchHolesParams &amp;params={})</argsstring>
+      <memberdef kind="function" id="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::buildCylinderBetweenTwoHoles</definition>
+        <argsstring>(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</argsstring>
         <name>buildCylinderBetweenTwoHoles</name>
         <qualifiedname>MR::buildCylinderBetweenTwoHoles</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const StitchHolesParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="119" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="119" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::stitchHoles</definition>
+        <argsstring>(Mesh &amp;mesh, const StitchHolesParams &amp;params={})</argsstring>
+        <name>stitchHoles</name>
+        <qualifiedname>MR::stitchHoles</qualifiedname>
         <param>
           <type>Mesh &amp;</type>
           <declname>mesh</declname>
@@ -175,7 +206,30 @@ default metric: ComplexStitchMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="120" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="120" declcolumn="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="122" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="122" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::buildCylinderBetweenTwoHoles</definition>
+        <argsstring>(Mesh &amp;mesh, const StitchHolesParams &amp;params={})</argsstring>
+        <name>buildCylinderBetweenTwoHoles</name>
+        <qualifiedname>MR::buildCylinderBetweenTwoHoles</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const StitchHolesParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="124" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="124" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -234,7 +288,7 @@ default metric: CircumscribedFillMetric</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">stitchHoles</ref> </para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" kindref="member">fillHoleTrivially</ref> </para>
 </simplesect>
@@ -244,7 +298,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="145" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="145" declcolumn="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="149" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="149" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -282,7 +336,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="148" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="148" declcolumn="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="152" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="152" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga3e708a001bfa14982547301df2e42e83" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -309,7 +363,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="154" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="154" declcolumn="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="158" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="158" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga907cc2793d8772f4a33613433633f419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>HoleFillPlan</type>
@@ -337,7 +391,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="172" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="172" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="176" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="176" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4d08e81c1e94219012fdb2a30693f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; HoleFillPlan &gt;</type>
@@ -365,7 +419,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="176" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="180" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>HoleFillPlan</type>
@@ -388,7 +442,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="180" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="180" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="184" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="184" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa4f6f304ac87174ff7ad7b84c9c8400e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; HoleFillPlan &gt;</type>
@@ -411,7 +465,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="184" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="188" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9c0d16866c22ddd9f9a804ceaafa6def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -443,7 +497,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="187" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="187" declcolumn="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="191" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="191" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -509,7 +563,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="210" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="210" declcolumn="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="214" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="214" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga244a805b5382fa02935a6196bbe11cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -543,7 +597,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="215" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="215" declcolumn="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="219" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="219" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaba3046572685dab52de61c3dcf252303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeId &gt;</type>
@@ -573,7 +627,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="219" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="219" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="223" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa350b72dbcd48b11d06c127fce0fb7fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -607,7 +661,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="224" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="224" declcolumn="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="228" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="228" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gad9d00d278b9f0d856d31227faa8500d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -645,7 +699,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="229" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="229" declcolumn="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="233" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="233" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9e749cbb6ab9c3bdac4609b89a586100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -675,7 +729,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="233" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="233" declcolumn="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="237" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="237" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4ca9c35a40fd933fbfd31883e3a1c76a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -709,7 +763,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="251" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="251" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="255" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="255" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gab3e60c9de18875e78ea96106adbacc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -743,7 +797,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="256" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="256" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="260" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="260" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaeb585e92175777d0104f7cb7bad9215f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -790,7 +844,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="263" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="263" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="267" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="267" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga22925ca42a37db6c68a9101867744a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -819,7 +873,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="267" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="267" declcolumn="9"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="271" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="271" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -847,7 +901,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="270" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="270" declcolumn="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="274" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="274" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>

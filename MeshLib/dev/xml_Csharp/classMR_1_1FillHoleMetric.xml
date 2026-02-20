@@ -195,8 +195,8 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<linebreak/>
-This is struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions<linebreak/>
+<para>Holds metrics for fillHole and stitchHoles triangulation<linebreak/>
+This is struct used as optimization metric of fillHole and stitchHoles functions<linebreak/>
 . </para>
     </briefdescription>
     <detaileddescription>
@@ -212,7 +212,7 @@ This is struct used as optimization metric of fillHole and buildCylinderBetweenT
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
 </simplesect>
-<simplesect kind="see"><para><ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">buildCylinderBetweenTwoHoles</ref> Generated from class <computeroutput>MR.FillHoleMetric</computeroutput>. This is the const half of the class.</para>
+<simplesect kind="see"><para><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">stitchHoles</ref> Generated from class <computeroutput>MR.FillHoleMetric</computeroutput>. This is the const half of the class.</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1a8fbee874f996a1a36ee398f58a90bb42" kindref="member">getCircumscribedMetric</ref> </para>
 </simplesect>
@@ -226,7 +226,7 @@ This is struct used as optimization metric of fillHole and buildCylinderBetweenT
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
 </simplesect>
-<simplesect kind="see"><para><ref refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" kindref="member">buildCylinderBetweenTwoHoles</ref> Generated from class <computeroutput>MR.FillHoleMetric</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">stitchHoles</ref> Generated from class <computeroutput>MR.FillHoleMetric</computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>

@@ -120,6 +120,8 @@ var MRMeshFillHole_8h =
     [ "MR_makeQuadBridge", "MRMeshFillHole_8h.html#a9c1c7bdf563afe3ca4eb86831e4041b8", null ],
     [ "MR_makeSmoothBridge", "MRMeshFillHole_8h.html#a53d474a75180346e7c8f171b4518011a", null ],
     [ "MR_splitQuad", "MRMeshFillHole_8h.html#a42ea0a4fee75a0495d5d9ca0ec3e6ae3", null ],
+    [ "MR_stitchHoles_2", "MRMeshFillHole_8h.html#a1cc97943dbb30a708c283cc0865ba6dc", null ],
+    [ "MR_stitchHoles_4", "MRMeshFillHole_8h.html#ac4b92ae79801cde28f25889e77ff3bc3", null ],
     [ "MR_StitchHolesParams_AssignFromAnother", "MRMeshFillHole_8h.html#a4d4c6a108e2cae8455f6d1ab593da381", null ],
     [ "MR_StitchHolesParams_ConstructFrom", "MRMeshFillHole_8h.html#a3a0b391cb6bcdf7fab916473cb26a3cc", null ],
     [ "MR_StitchHolesParams_ConstructFromAnother", "MRMeshFillHole_8h.html#ad01b1902c5e1559ad9b1754e77aba728", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1VertBitSet.html#a48f70ce55631d1bb5e33289fc3764fe6":[6,3,0,0,0,912,31],
+"classMR_1_1VertBitSet.html#a5af11293c6525574c80755ed06e1232b":[6,3,0,0,0,912,0],
 "classMR_1_1VertBitSet.html#a5ddfe0d859731534167ec5c0e78384be":[6,3,0,0,0,912,6],
 "classMR_1_1VertBitSet.html#a6151f67acbe2bb9f8d31fb54cc6aef15":[6,3,0,0,0,912,30],
 "classMR_1_1VertBitSet.html#a6b9b509a9bfefabacd9d3994ca3771bd":[6,3,0,0,0,912,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1ViewportMask.html#a7a9cfe26786e26cee1e7829839551106":[6,3,0,0,0,928,4],
 "classMR_1_1ViewportMask.html#acc5ff9296adeb8a9f4ac492ed36b568f":[6,3,0,0,0,928,8],
 "classMR_1_1ViewportMask.html#acdcaef4841668450ee7c578bd46a08f0":[6,3,0,0,0,928,7],
-"classMR_1_1ViewportMask.html#ad65cf7590eb081e3f4097e5e0cbc3abf":[6,3,0,0,0,928,9],
-"classMR_1_1ViewportMask.html#ada23b6be8968c5fed6b04dde3f4855ef":[6,3,0,0,0,928,2],
-"classMR_1_1ViewportProperty__MRAffineXf3f.html":[6,3,0,0,0,929]
+"classMR_1_1ViewportMask.html#ad65cf7590eb081e3f4097e5e0cbc3abf":[6,3,0,0,0,928,9]
 };

@@ -187,7 +187,7 @@
         </briefdescription>
         <detaileddescription>
 <para><verbatim>Specifies triangulation metric\\n
-default for MR::buildCylinderBetweenTwoHoles: getComplexStitchMetric
+default for MR::stitchHoles: getComplexStitchMetric
 \\sa \\ref FillHoleMetric
 </verbatim> </para>
         </detaileddescription>
@@ -266,10 +266,10 @@ default for MR::buildCylinderBetweenTwoHoles: getComplexStitchMetric
 <para><verbatim>Generated from:  MR::StitchHolesParams
 
 \\struct MR::StitchHolesParams
-\\brief Parameters structure for MR::buildCylinderBetweenTwoHoles\\n
-Structure has some options to control MR::buildCylinderBetweenTwoHoles
+\\brief Parameters structure for MR::stitchHoles\\n
+Structure has some options to control MR::stitchHoles
 
-\\sa \\ref buildCylinderBetweenTwoHoles
+\\sa \\ref stitchHoles
 \\sa \\ref FillHoleMetric
 </verbatim> </para>
     </detaileddescription>

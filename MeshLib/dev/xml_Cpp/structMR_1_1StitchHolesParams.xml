@@ -14,7 +14,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Specifies triangulation metric<linebreak/>
-default for <ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">MR::buildCylinderBetweenTwoHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
+default for <ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">MR::stitchHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -40,11 +40,11 @@ default for <ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Parameters structure for <ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">MR::buildCylinderBetweenTwoHoles</ref><linebreak/>
-Structure has some options to control <ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">MR::buildCylinderBetweenTwoHoles</ref>. </para>
+<para>Parameters structure for <ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">MR::stitchHoles</ref><linebreak/>
+Structure has some options to control <ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">MR::stitchHoles</ref>. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+<para><simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">stitchHoles</ref> </para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
 </simplesect>

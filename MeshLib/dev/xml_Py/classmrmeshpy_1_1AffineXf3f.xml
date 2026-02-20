@@ -213,30 +213,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1435" bodyend="1436"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.AffineXf3f.__init__</definition>
-        <argsstring>(self, DistanceMapToWorld arg0)</argsstring>
-        <name>__init__</name>
-        <qualifiedname>mrmeshpy.AffineXf3f.__init__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
-          <declname>arg0</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>converts in transformation X: X(p) == toWorld( p.x, p.y, p.z )
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1438" bodyend="1441"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1ad3dcae92c23f98a11d43b22318d6a910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.AffineXf3f.__init__</definition>
@@ -259,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1443" bodyend="1446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1438" bodyend="1441"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1aea725136fc7d8c391a47e7cd6b2468b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -277,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1448" bodyend="1449"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1443" bodyend="1444"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1a0efb26c0dd25906e9f684454dd754cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -303,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1451" bodyend="1452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1446" bodyend="1447"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1a6f0d881d560ded18c49e81bd249f08d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -328,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1454" bodyend="1458"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1449" bodyend="1453"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1a585f0e7ad5d9ebd3d5f05720771f9265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -352,7 +328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1460" bodyend="1463"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1455" bodyend="1458"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1af92acb6a5ccdb3da3dc5587b590c86d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -374,7 +350,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1465" bodyend="1466"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1460" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1460" bodyend="1461"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AffineXf3f.__init__</definition>
+        <argsstring>(self, DistanceMapToWorld arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AffineXf3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>converts in transformation X: X(p) == toWorld( p.x, p.y, p.z )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1463" bodyend="1466"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AffineXf3f_1aae8e2b2931f32ea71508eb317cfc472f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -582,13 +582,13 @@ affine transformation: y = A*x + b, where A in VxV, and b in V
       <member refid="classmrmeshpy_1_1AffineXf3f_1ab7756c1e6881162a357a5022e5a8a391" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1a96f2818d052e51d888d2bae700b9f3f6" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1ad2f3a606736e80f0441dda2fc7b1f051" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1ad3dcae92c23f98a11d43b22318d6a910" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1aea725136fc7d8c391a47e7cd6b2468b6" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1a0efb26c0dd25906e9f684454dd754cee" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1a6f0d881d560ded18c49e81bd249f08d9" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1a585f0e7ad5d9ebd3d5f05720771f9265" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1af92acb6a5ccdb3da3dc5587b590c86d8" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1aae8e2b2931f32ea71508eb317cfc472f" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1a42a0e2f2cba755672b8f0272bfeb156a" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__mul__</name></member>
       <member refid="classmrmeshpy_1_1AffineXf3f_1a4d28122a78c72fececc0ff32abf955c6" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf3f</scope><name>__ne__</name></member>
