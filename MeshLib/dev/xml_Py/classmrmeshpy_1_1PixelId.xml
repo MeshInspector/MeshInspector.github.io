@@ -494,7 +494,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::PixelId
-Aliases:  Vector_PixelId_PixelId.reference, TypedBitSet_PixelId_IndexType, Vector_PixelId_PixelId.const_reference, Vector_PixelId_PixelId.value_type
+Aliases:  Vector_PixelId_PixelId.const_reference, Vector_PixelId_PixelId.reference, TypedBitSet_PixelId_IndexType, Vector_PixelId_PixelId.value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

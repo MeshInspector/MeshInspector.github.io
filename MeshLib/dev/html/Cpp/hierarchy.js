@@ -1296,6 +1296,7 @@ var hierarchy =
     [ "Ts...", null, [
       [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
     ] ],
+    [ "MR::TwoLineSegmClosestPoints< T >", "structMR_1_1TwoLineSegmClosestPoints.html", null ],
     [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [
       [ "MR::ImGuiMenu::UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", null ]

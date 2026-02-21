@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1FindOutliersParams.html#ac44467beec2aeb25c4fc67154e94e982":[6,3,0,0,0,362,9],
+"classMR_1_1FindOutliersParams.html#acbaaa933910fe18e1988d9c736f63435":[6,3,0,0,0,362,2],
+"classMR_1_1FindOutliersParams.html#ae8b4bbed4f42e77aecf594c6e35821b3":[6,3,0,0,0,362,8],
 "classMR_1_1FindOverhangsSettings.html":[6,3,0,0,0,363],
 "classMR_1_1FindOverhangsSettings.html#a1a866ba24f0327bb984c53fb8c78611f":[6,3,0,0,0,363,8],
 "classMR_1_1FindOverhangsSettings.html#a20ab788b0cb0f559a201601bcc08cd2d":[6,3,0,0,0,363,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1GeodesicPath.html#ac174e2aee8c5fbe146290d7b8222793c":[6,3,0,0,0,381,3],
 "classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb":[6,3,0,0,0,381,2],
 "classMR_1_1GeodesicPath.html#af400498025204fdb1e2c0093e498c86d":[6,3,0,0,0,381,8],
-"classMR_1_1Graph.html":[6,3,0,0,0,382],
-"classMR_1_1Graph.html#a0c4502a8250c814fe00a4a4767d8b2a5":[6,3,0,0,0,382,0],
-"classMR_1_1Graph.html#a2d8a6bfa2beb3fac553dd930eb973e9c":[6,3,0,0,0,382,1],
-"classMR_1_1Graph.html#aa1f730e5fd495318789eca6a3ab840dd":[6,3,0,0,0,382,3]
+"classMR_1_1Graph.html":[6,3,0,0,0,382]
 };

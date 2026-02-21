@@ -739,6 +739,7 @@
     <innerclass refid="structMR_1_1TrimWithPlaneParams" prot="public">MR::TrimWithPlaneParams</innerclass>
     <innerclass refid="structMR_1_1TriPoint" prot="public">MR::TriPoint</innerclass>
     <innerclass refid="structMR_1_1TrivialMetricToPenalty" prot="public">MR::TrivialMetricToPenalty</innerclass>
+    <innerclass refid="structMR_1_1TwoLineSegmClosestPoints" prot="public">MR::TwoLineSegmClosestPoints</innerclass>
     <innerclass refid="classMR_1_1TypedBitSet" prot="public">MR::TypedBitSet</innerclass>
     <innerclass refid="structMR_1_1TypedFlatTree" prot="public">MR::TypedFlatTree</innerclass>
     <innerclass refid="structMR_1_1UiRenderManager" prot="public">MR::UiRenderManager</innerclass>
@@ -1500,6 +1501,8 @@
       <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
       <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
       <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
+      <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
+      <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
       <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
       <member refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kind="typedef"><name>AllVisualizeProperties</name></member>
       <member refid="group__GeneralGroup_1ga200de30e6095463279bfb030e610864b" kind="typedef"><name>Time</name></member>
@@ -2918,6 +2921,8 @@
       <member refid="group__TunnelDetectorGroup_1gaacda8ac164232c8d91b8801a72a192f5" kind="function"><name>findSmallestMetricEquivalentLoops</name></member>
       <member refid="group__TunnelDetectorGroup_1ga557063bbcff132d2836603e69593b565" kind="function"><name>findShortestEquivalentLoops</name></member>
       <member refid="group__TunnelDetectorGroup_1ga9c2c318e4e6ea35933bf2653c0bdf2ae" kind="function"><name>detectTunnelFaces</name></member>
+      <member refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
+      <member refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
       <member refid="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" kind="function"><name>pointUniformSampling</name></member>
       <member refid="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" kind="function"><name>makeUniformSampledCloud</name></member>
       <member refid="group__GeneralGroup_1gaf95a05a5035d21be2ce1964b8337f638" kind="function"><name>findRootsBitSet</name></member>

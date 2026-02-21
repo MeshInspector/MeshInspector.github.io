@@ -1311,6 +1311,8 @@ var hierarchy =
     [ "mrmeshpy.GridSettings.TriType", "classmrmeshpy_1_1GridSettings_1_1TriType.html", null ],
     [ "mrmeshpy.TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", null ],
     [ "mrmeshpy.Turn", "classmrmeshpy_1_1Turn.html", null ],
+    [ "mrmeshpy.TwoLineSegmClosestPoints_double", "classmrmeshpy_1_1TwoLineSegmClosestPoints__double.html", null ],
+    [ "mrmeshpy.TwoLineSegmClosestPoints_float", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html", null ],
     [ "mrmeshpy.ChangeObjectColorAction.Type", "classmrmeshpy_1_1ChangeObjectColorAction_1_1Type.html", null ],
     [ "mrmeshpy.ChangeSceneAction.Type", "classmrmeshpy_1_1ChangeSceneAction_1_1Type.html", null ],
     [ "mrmeshpy.EndMillCutter.Type", "classmrmeshpy_1_1EndMillCutter_1_1Type.html", null ],

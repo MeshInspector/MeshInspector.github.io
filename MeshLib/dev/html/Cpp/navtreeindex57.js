@@ -1,5 +1,14 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1GcodeLoad.html":[6,0,1,0,1,11],
+"namespaceMR_1_1ImGuiMV.html":[6,0,1,0,1,17],
+"namespaceMR_1_1ImGuiMV.html#a25c1731b42aaa9848d5fd54a996c4caf":[6,0,1,0,1,17,3],
+"namespaceMR_1_1ImGuiMV.html#a464e08d5846c86602aed1e51df3620c6":[6,0,1,0,1,17,1],
+"namespaceMR_1_1ImGuiMV.html#a4bfc293b58aa7eb9c7e7308496660a3b":[6,0,1,0,1,17,6],
+"namespaceMR_1_1ImGuiMV.html#a52ab9dbc6c779ff4c7b8dca408f8de06":[6,0,1,0,1,17,4],
+"namespaceMR_1_1ImGuiMV.html#a5ea1a941122a7e9c9ceca44ffc79fada":[6,0,1,0,1,17,0],
+"namespaceMR_1_1ImGuiMV.html#a686d401cae6028ca53aa9f6e664daca0":[6,0,1,0,1,17,2],
+"namespaceMR_1_1ImGuiMV.html#a83483c6c798515d1196d5d30e064aef8":[6,0,1,0,1,17,5],
 "namespaceMR_1_1ImGuiMath.html":[6,0,1,0,1,15],
 "namespaceMR_1_1ImGuiMath.html#a12ab63056037f694d9ccdffda8ddb013":[6,0,1,0,1,15,14],
 "namespaceMR_1_1ImGuiMath.html#a1b10073d5f904b51b53263f742597596":[6,0,1,0,1,15,16],
@@ -240,14 +249,5 @@ var NAVTREEINDEX57 =
 "namespaceMR_1_1WeightedShell.html#a1828e77e08ab2c06e1b4bffe5866270f":[6,0,1,0,1,49,10],
 "namespaceMR_1_1WeightedShell.html#a27dc07084bd9d7ba531af503ee26ecaa":[6,0,1,0,1,49,12],
 "namespaceMR_1_1WeightedShell.html#a2d9e4d1c9f007cc1087818a3740c5653":[6,0,1,0,1,49,11],
-"namespaceMR_1_1WeightedShell.html#a31f9c85adfd5e2b5553fb5dcb97384f0":[6,0,1,0,1,49,7],
-"namespaceMR_1_1WeightedShell.html#a521af3e40765a04b00069fa14da9a3fa":[6,0,1,0,1,49,5],
-"namespaceMR_1_1WeightedShell.html#a6c11500f809bc486096500b727e6cbbe":[6,0,1,0,1,49,6],
-"namespaceMR_1_1WeightedShell.html#a8154f94a6793c43fd049a5bf549bf75f":[6,0,1,0,1,49,8],
-"namespaceMR_1_1WeightedShell.html#aa73cc71df322e6863d94e7f237875475":[6,0,1,0,1,49,9],
-"namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8":[6,0,1,0,1,49,13],
-"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,49,4],
-"namespaceMR_1_1detail.html":[6,0,0,20,16],
-"namespaceMR_1_1detail.html#a1a02e764be7c54f9177025ee42b915d0":[6,0,1,0,1,3,6],
-"namespaceMR_1_1detail.html#a4b40e1222b8df2660b25e4942deb39fb":[6,0,1,0,1,3,4]
+"namespaceMR_1_1WeightedShell.html#a31f9c85adfd5e2b5553fb5dcb97384f0":[6,0,1,0,1,49,7]
 };

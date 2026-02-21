@@ -8,6 +8,7 @@
     <includedby refid="MRLineSegm3_8h" local="yes">MRLineSegm3.h</includedby>
     <includedby refid="MRPolyline_8h" local="yes">MRPolyline.h</includedby>
     <includedby refid="MRTriangleIntersection_8h" local="yes">MRTriangleIntersection.h</includedby>
+    <includedby refid="MRTwoLineSegmDist_8h" local="yes">MRTwoLineSegmDist.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -200,6 +201,8 @@
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRLineSegm3.h</label>
@@ -230,6 +233,10 @@
       <node id="22">
         <label>MRTriangleIntersection.h</label>
         <link refid="MRTriangleIntersection_8h"/>
+      </node>
+      <node id="23">
+        <label>MRTwoLineSegmDist.h</label>
+        <link refid="MRTwoLineSegmDist_8h"/>
       </node>
       <node id="19">
         <label>MRCudaAccessor.h</label>

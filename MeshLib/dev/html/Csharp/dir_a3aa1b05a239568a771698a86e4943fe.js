@@ -340,6 +340,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRTripleFaceIntersections.cs", "MRTripleFaceIntersections_8cs.html", "MRTripleFaceIntersections_8cs" ],
     [ "MRTriPoint.cs", "MRTriPoint_8cs.html", "MRTriPoint_8cs" ],
     [ "MRTunnelDetector.cs", "MRTunnelDetector_8cs.html", "MRTunnelDetector_8cs" ],
+    [ "MRTwoLineSegmDist.cs", "MRTwoLineSegmDist_8cs.html", "MRTwoLineSegmDist_8cs" ],
     [ "MRUniformSampling.cs", "MRUniformSampling_8cs.html", "MRUniformSampling_8cs" ],
     [ "MRUnionFind.cs", "MRUnionFind_8cs.html", "MRUnionFind_8cs" ],
     [ "MRUniqueTemporaryFolder.cs", "MRUniqueTemporaryFolder_8cs.html", "MRUniqueTemporaryFolder_8cs" ],

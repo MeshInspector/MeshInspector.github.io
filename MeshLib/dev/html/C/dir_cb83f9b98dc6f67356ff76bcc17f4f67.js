@@ -340,6 +340,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRTripleFaceIntersections.h", "MRTripleFaceIntersections_8h.html", "MRTripleFaceIntersections_8h" ],
     [ "MRTriPoint.h", "MRTriPoint_8h.html", "MRTriPoint_8h" ],
     [ "MRTunnelDetector.h", "MRTunnelDetector_8h.html", "MRTunnelDetector_8h" ],
+    [ "MRTwoLineSegmDist.h", "MRTwoLineSegmDist_8h.html", "MRTwoLineSegmDist_8h" ],
     [ "MRUniformSampling.h", "MRUniformSampling_8h.html", "MRUniformSampling_8h" ],
     [ "MRUnionFind.h", "MRUnionFind_8h.html", "MRUnionFind_8h" ],
     [ "MRUniqueTemporaryFolder.h", "MRUniqueTemporaryFolder_8h.html", "MRUniqueTemporaryFolder_8h" ],

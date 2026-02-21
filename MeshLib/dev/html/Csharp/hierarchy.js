@@ -2081,6 +2081,12 @@ var hierarchy =
       [ "MR.Const_TrivialMetricToPenalty", null, [
         [ "MR.TrivialMetricToPenalty", "classMR_1_1TrivialMetricToPenalty.html", null ]
       ] ],
+      [ "MR.Const_TwoLineSegmClosestPoints_Double", null, [
+        [ "MR.TwoLineSegmClosestPoints_Double", "classMR_1_1TwoLineSegmClosestPoints__Double.html", null ]
+      ] ],
+      [ "MR.Const_TwoLineSegmClosestPoints_Float", null, [
+        [ "MR.TwoLineSegmClosestPoints_Float", "classMR_1_1TwoLineSegmClosestPoints__Float.html", null ]
+      ] ],
       [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", null, [
         [ "MR.TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html", null ]
       ] ],
@@ -3547,6 +3553,8 @@ var hierarchy =
       [ "MR.Const_TrimOptionalOutput", null, null ],
       [ "MR.Const_TrimWithPlaneParams", null, null ],
       [ "MR.Const_TrivialMetricToPenalty", null, null ],
+      [ "MR.Const_TwoLineSegmClosestPoints_Double", null, null ],
+      [ "MR.Const_TwoLineSegmClosestPoints_Float", null, null ],
       [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", null, null ],
       [ "MR.Const_UiRenderManager", null, null ],
       [ "MR.Const_UiRenderParams", null, null ],

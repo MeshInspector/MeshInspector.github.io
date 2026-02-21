@@ -494,7 +494,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::RegionId
-Aliases:  Vector_RegionId_VertId_const_reference, Vector_RegionId_UndirectedEdgeId_const_reference, Vector_RegionId_FaceId_const_reference, Vector_RegionId_RegionId.const_reference, Vector_RegionId_VertId_value_type, Vector_RegionId_UndirectedEdgeId_reference, Vector_RegionId_UndirectedEdgeId_value_type, Vector_RegionId_RegionId.value_type, Vector_RegionId_RegionId.reference, Vector_RegionId_VertId_reference, TypedBitSet_RegionId_IndexType, Vector_RegionId_FaceId_reference, Vector_RegionId_FaceId_value_type
+Aliases:  Vector_RegionId_UndirectedEdgeId_reference, Vector_RegionId_FaceId_const_reference, Vector_RegionId_VertId_const_reference, Vector_RegionId_RegionId.const_reference, Vector_RegionId_UndirectedEdgeId_const_reference, Vector_RegionId_VertId_value_type, Vector_RegionId_UndirectedEdgeId_value_type, Vector_RegionId_RegionId.value_type, Vector_RegionId_VertId_reference, TypedBitSet_RegionId_IndexType, Vector_RegionId_RegionId.reference, Vector_RegionId_FaceId_reference, Vector_RegionId_FaceId_value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

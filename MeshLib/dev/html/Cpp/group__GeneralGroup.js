@@ -4377,6 +4377,11 @@ var group__GeneralGroup =
       [ "a", "group__GeneralGroup.html#ga8b3c5d2f52bedd379a12737883685b69", null ],
       [ "b", "group__GeneralGroup.html#ga7ad9a3fd75d2c4414e75599a4eb0d497", null ]
     ] ],
+    [ "MR::TwoLineSegmClosestPoints< T >", "structMR_1_1TwoLineSegmClosestPoints.html", [
+      [ "a", "group__GeneralGroup.html#ga42d3b98a66ca10b8a23f540ff55dee07", null ],
+      [ "b", "group__GeneralGroup.html#ga74973d963ba6b88826bc0f458b08e827", null ],
+      [ "dir", "group__GeneralGroup.html#gaddc230cf7b6ca522ae070d068c79091b", null ]
+    ] ],
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", [
       [ "distance", "group__GeneralGroup.html#ga010165bed75fd690071dbe15b50f8c58", null ],
       [ "lexicographicalOrder", "group__GeneralGroup.html#ga7c7a861d6d96b26592bb64ac801d6f43", null ],
@@ -8944,6 +8949,8 @@ var group__GeneralGroup =
     [ "MR::Triangle3f", "group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf", null ],
     [ "MR::Triangle3i", "group__GeneralGroup.html#ga712806ee9f8b1b9a53133ddba57f7da7", null ],
     [ "MR::TrianglesRepetitions", "group__GeneralGroup.html#ga2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
+    [ "MR::TwoLineSegmClosestPointsd", "group__GeneralGroup.html#ga37603199e9b0e5eb2e0cdbe36a2b315d", null ],
+    [ "MR::TwoLineSegmClosestPointsf", "group__GeneralGroup.html#ga9453ee50cc6e6c976f8db90c84096ff8", null ],
     [ "MR::TwoVertIds", "group__GeneralGroup.html#ga18500a3df20aa256325c44e2c5b2b499", null ],
     [ "MR::NoCtor< T >::type", "group__GeneralGroup.html#ga5ad36941cb49b13cf04d17446b102370", null ],
     [ "MR::NoCtor< T >::type", "group__GeneralGroup.html#ga9043c90869c007f7262a6c843c881219", null ],
@@ -11530,6 +11537,8 @@ var group__GeneralGroup =
     [ "MR::findTwinUndirectedEdgeHashMap", "group__GeneralGroup.html#ga68c8c9caa070992eb8b7ac550d12cae9", null ],
     [ "MR::findTwinUndirectedEdges", "group__GeneralGroup.html#ga6ea77d16b7c8f5f36880e82fe07ccb89", null ],
     [ "MR::findTwinUndirectedEdges", "group__GeneralGroup.html#ga8ccdf8d51db1a5dc91a13ef13d29e30c", null ],
+    [ "MR::findTwoLineSegmClosestPoints", "group__GeneralGroup.html#ga27edd44c5ee52110bd1f260a4abde138", null ],
+    [ "MR::findTwoLineSegmClosestPoints", "group__GeneralGroup.html#ga555aff6ecaadce652e996b4de62a0d8c", null ],
     [ "MR::findTwoSegmentsIntersection", "group__GeneralGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd", null ],
     [ "MR::FixUndercuts::findUndercuts", "group__GeneralGroup.html#gaa7b18d3b26604915077ca1adfff52cd9", null ],
     [ "MR::FixUndercuts::findUndercuts", "group__GeneralGroup.html#ga658b5ff275186d8fc13692aba99c967d", null ],
@@ -15860,6 +15869,7 @@ var group__GeneralGroup =
     [ "MR::SegmEndColors::a", "group__GeneralGroup.html#ga074d144106e966fd84ea6ac76b9a172b", null ],
     [ "MR::SegmPoint::a", "group__GeneralGroup.html#ga5473b25338c8b8b27c9d38f2b6bb8f89", null ],
     [ "MR::TriPoint::a", "group__GeneralGroup.html#ga8b3c5d2f52bedd379a12737883685b69", null ],
+    [ "MR::TwoLineSegmClosestPoints::a", "group__GeneralGroup.html#ga42d3b98a66ca10b8a23f540ff55dee07", null ],
     [ "MR::Viewport::TriCornerColors::a", "group__GeneralGroup.html#ga52ef91aaa0208aa1e90b238eef7bbee9", null ],
     [ "MR::AABBTree", "group__GeneralGroup.html#gabe7cfa4da2fbf3567857cea149030590", null ],
     [ "MR::MultiwayICPSamplingParameters::AABBTreeBased", "group__GeneralGroup.html#gae06a2f568227da83fff1138c53d0fc30", null ],
@@ -15941,6 +15951,7 @@ var group__GeneralGroup =
     [ "MR::RigidXf3::b", "group__GeneralGroup.html#ga1c18eb2cefaafa045ec3e26dc9948f71", null ],
     [ "MR::SegmEndColors::b", "group__GeneralGroup.html#ga34ba656028d463bdd70196ca015bdeab", null ],
     [ "MR::TriPoint::b", "group__GeneralGroup.html#ga7ad9a3fd75d2c4414e75599a4eb0d497", null ],
+    [ "MR::TwoLineSegmClosestPoints::b", "group__GeneralGroup.html#ga74973d963ba6b88826bc0f458b08e827", null ],
     [ "MR::Viewport::TriCornerColors::b", "group__GeneralGroup.html#ga4bb6813b4c01f5510e20837676efa7ae", null ],
     [ "MR::MovementBuildBodyParams::b2tXf", "group__GeneralGroup.html#gadcac10de1f9f5decb27a76bc24ea210d", null ],
     [ "MR::VertPathInfo::back", "group__GeneralGroup.html#ga7a3153da84d3b829b564f595cd7d7a7e", null ],
@@ -16306,6 +16317,7 @@ var group__GeneralGroup =
     [ "MR::Features::Primitives::ConeSegment::dir", "group__GeneralGroup.html#ga9f603438a2e12d81289b9696c05cdcd4", null ],
     [ "MR::PlyLoadParams::dir", "group__GeneralGroup.html#ga5084f3891463b6886fc10c57dbce63af", null ],
     [ "MR::SkyPatch::dir", "group__GeneralGroup.html#gab2ea86c9173f3228c1adec10b4b8c48a", null ],
+    [ "MR::TwoLineSegmClosestPoints::dir", "group__GeneralGroup.html#gaddc230cf7b6ca522ae070d068c79091b", null ],
     [ "MR::Features::MeasureResult::Angle::dirA", "group__GeneralGroup.html#ga6f5eba0221416eca918dea71f64ad70d", null ],
     [ "MR::Dipole::dirArea", "group__GeneralGroup.html#ga804c3991b7713194228966805194c66a", null ],
     [ "MR::Features::MeasureResult::Angle::dirB", "group__GeneralGroup.html#gae7cbce0a25261174c06274fcaffe2a0f", null ],

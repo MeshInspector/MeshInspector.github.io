@@ -1095,6 +1095,8 @@ var annotated_dup =
       [ "TriPointf", "classmrmeshpy_1_1TriPointf.html", "classmrmeshpy_1_1TriPointf" ],
       [ "TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", "classmrmeshpy_1_1TrivialMetricToPenalty" ],
       [ "Turn", "classmrmeshpy_1_1Turn.html", "classmrmeshpy_1_1Turn" ],
+      [ "TwoLineSegmClosestPoints_double", "classmrmeshpy_1_1TwoLineSegmClosestPoints__double.html", "classmrmeshpy_1_1TwoLineSegmClosestPoints__double" ],
+      [ "TwoLineSegmClosestPoints_float", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float" ],
       [ "TypedBitSet_Id_ICPElemtTag", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag" ],
       [ "UiRenderManager", "classmrmeshpy_1_1UiRenderManager.html", "classmrmeshpy_1_1UiRenderManager" ],
       [ "UiRenderParams", "classmrmeshpy_1_1UiRenderParams.html", "classmrmeshpy_1_1UiRenderParams" ],

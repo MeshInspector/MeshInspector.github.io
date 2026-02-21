@@ -11379,6 +11379,11 @@
   <compound refid="structMR_1_1TrivialMetricToPenalty" kind="struct"><name>MR::TrivialMetricToPenalty</name>
     <member refid="group__GeneralGroup_1gac520c15e54c74fc25c2c0d3a0bdd18a6" kind="function"><name>operator()</name></member>
   </compound>
+  <compound refid="structMR_1_1TwoLineSegmClosestPoints" kind="struct"><name>MR::TwoLineSegmClosestPoints</name>
+    <member refid="group__GeneralGroup_1ga42d3b98a66ca10b8a23f540ff55dee07" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga74973d963ba6b88826bc0f458b08e827" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1gaddc230cf7b6ca522ae070d068c79091b" kind="variable"><name>dir</name></member>
+  </compound>
   <compound refid="classMR_1_1TypedBitSet" kind="class"><name>MR::TypedBitSet</name>
     <member refid="classMR_1_1TypedBitSet_1af6d08ef86011fef8bb77807a324470dc" kind="typedef"><name>base</name></member>
     <member refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kind="typedef"><name>IndexType</name></member>
@@ -13150,7 +13155,7 @@
   </compound>
   <compound refid="conceptMR_1_1UnitEnum" kind="concept"><name>MR::UnitEnum</name>
   </compound>
-  <compound refid="namespace_0d561" kind="namespace"><name>@561</name>
+  <compound refid="namespace_0d562" kind="namespace"><name>@562</name>
   </compound>
   <compound refid="namespaceboost" kind="namespace"><name>boost</name>
   </compound>
@@ -13623,6 +13628,8 @@
     <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
     <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
     <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
+    <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
+    <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
     <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
     <member refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kind="typedef"><name>AllVisualizeProperties</name></member>
     <member refid="group__GeneralGroup_1ga200de30e6095463279bfb030e610864b" kind="typedef"><name>Time</name></member>
@@ -15024,6 +15031,8 @@
     <member refid="group__TunnelDetectorGroup_1gaacda8ac164232c8d91b8801a72a192f5" kind="function"><name>findSmallestMetricEquivalentLoops</name></member>
     <member refid="group__TunnelDetectorGroup_1ga557063bbcff132d2836603e69593b565" kind="function"><name>findShortestEquivalentLoops</name></member>
     <member refid="group__TunnelDetectorGroup_1ga9c2c318e4e6ea35933bf2653c0bdf2ae" kind="function"><name>detectTunnelFaces</name></member>
+    <member refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
+    <member refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
     <member refid="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" kind="function"><name>pointUniformSampling</name></member>
     <member refid="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" kind="function"><name>makeUniformSampledCloud</name></member>
     <member refid="group__GeneralGroup_1gaf95a05a5035d21be2ce1964b8337f638" kind="function"><name>findRootsBitSet</name></member>
@@ -17132,6 +17141,8 @@
   <compound refid="MRTunnelDetector_8h" kind="file"><name>MRTunnelDetector.h</name>
   </compound>
   <compound refid="MRTupleBindings_8h" kind="file"><name>MRTupleBindings.h</name>
+  </compound>
+  <compound refid="MRTwoLineSegmDist_8h" kind="file"><name>MRTwoLineSegmDist.h</name>
   </compound>
   <compound refid="MRUniformSampling_8h" kind="file"><name>MRUniformSampling.h</name>
   </compound>
@@ -20299,6 +20310,8 @@
     <member refid="group__GeneralGroup_1ga49b04ca33ea170c1047b150bbc712509" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1ga8d09737a54e0acef8b37f43c20c7dff5" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1gadca67651e9ad888aca1f1b9fd171366d" kind="typedef"><name>SystemFontPaths</name></member>
+    <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
+    <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
     <member refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kind="typedef"><name>SizeType</name></member>
     <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
     <member refid="group__GeneralGroup_1gaec57db09655986b2ed959d498edc6f2a" kind="typedef"><name>MakeFloatingPoint</name></member>
@@ -21936,6 +21949,9 @@
     <member refid="group__GeneralGroup_1ga8b3c5d2f52bedd379a12737883685b69" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1ga7ad9a3fd75d2c4414e75599a4eb0d497" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1ga6ade05d6ba59ed946b54c792822949e4" kind="variable"><name>eps</name></member>
+    <member refid="group__GeneralGroup_1ga42d3b98a66ca10b8a23f540ff55dee07" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga74973d963ba6b88826bc0f458b08e827" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1gaddc230cf7b6ca522ae070d068c79091b" kind="variable"><name>dir</name></member>
     <member refid="group__GeneralGroup_1ga010165bed75fd690071dbe15b50f8c58" kind="variable"><name>distance</name></member>
     <member refid="group__GeneralGroup_1ga4952e332cfe108e00f967d412a6aba88" kind="variable"><name>minNormalDot</name></member>
     <member refid="group__GeneralGroup_1ga7c7a861d6d96b26592bb64ac801d6f43" kind="variable"><name>lexicographicalOrder</name></member>
@@ -27043,6 +27059,8 @@
     <member refid="group__GeneralGroup_1ga4d5a222417a7c162c44bb932b91cdd7a" kind="function"><name>inVertex</name></member>
     <member refid="group__GeneralGroup_1ga8cc175bbb2037eebe6e8f2ced01a4b10" kind="function"><name>onEdge</name></member>
     <member refid="group__GeneralGroup_1gaaebb5e3d0837bb5c59e39b23498ccaa2" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
+    <member refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
     <member refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" kind="function"><name>UnionFind</name></member>
     <member refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" kind="function"><name>UnionFind</name></member>
     <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>

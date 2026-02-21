@@ -1,0 +1,980 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRTwoLineSegmDist_8h" kind="file" language="C++">
+    <compoundname>MRTwoLineSegmDist.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRTwoLineSegmDist.h</label>
+        <link refid="MRTwoLineSegmDist_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1a438f2f50208ff37150a7ac5a2725ac05" prot="public" static="no">
+        <type>struct <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref></type>
+        <definition>typedef struct MR_LineSegm3d MR_LineSegm3d</definition>
+        <argsstring></argsstring>
+        <name>MR_LineSegm3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1a39540ed403db4865d7d6ce134f7654c1" prot="public" static="no">
+        <type>struct <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></type>
+        <definition>typedef struct MR_LineSegm3f MR_LineSegm3f</definition>
+        <argsstring></argsstring>
+        <name>MR_LineSegm3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" prot="public" static="no">
+        <type>struct <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref></type>
+        <definition>typedef struct MR_TwoLineSegmClosestPoints_float MR_TwoLineSegmClosestPoints_float</definition>
+        <argsstring></argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="18" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" prot="public" static="no">
+        <type>struct <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref></type>
+        <definition>typedef struct MR_TwoLineSegmClosestPoints_double MR_TwoLineSegmClosestPoints_double</definition>
+        <argsstring></argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="22" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ad5b2c6b7021b057c3cc036e4c6b7b34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_TwoLineSegmClosestPoints_float_Get_a</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Get_a</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="29" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="29" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a5a329a6feff2ef5f22d807260534dbee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_float_Set_a</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this, MR_Vector3f value)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Set_a</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ae05c14bc2a94bc25eb6a29fdcdbf53bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_TwoLineSegmClosestPoints_float_GetMutable_a</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a mutable pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="43" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1aef41cf04af299016b1ddb0408befa5c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_TwoLineSegmClosestPoints_float_Get_b</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Get_b</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="50" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="50" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a0a95dfba4c003f1ac0d954d71eee1c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_float_Set_b</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this, MR_Vector3f value)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Set_b</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1af2ec62924a4687078be47513c1b018bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_TwoLineSegmClosestPoints_float_GetMutable_b</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a mutable pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="64" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="64" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a5ad2bd94c24a5ed4eac24a34b1337d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_TwoLineSegmClosestPoints_float_Get_dir</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Get_dir</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="73" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="73" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1abe827bf33443506fe4fa6624faef71f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_float_Set_dir</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this, MR_Vector3f value)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Set_dir</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="82" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a7e4eb433b2f5fec57e1648c4092fc98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_TwoLineSegmClosestPoints_float_GetMutable_dir</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_GetMutable_dir</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="91" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="91" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ab7a3426757ef715e9947f0c104a662b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="95" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="95" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a70cd6b2acde92bc86f1e7a9359c83695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a296b9454c6ac1d08fd332bf96e37e905" kindref="member">MR_TwoLineSegmClosestPoints_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ae030ff7b269e250ea2dd534fb72868e3" kindref="member">MR_TwoLineSegmClosestPoints_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a61f802b939e7dbee91113cb791578206" kindref="member">MR_TwoLineSegmClosestPoints_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="100" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="100" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ae37b3f16559224b07ea11a3be46f827a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_ConstructFrom</definition>
+        <argsstring>(MR_Vector3f a, MR_Vector3f b, MR_Vector3f dir)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="108" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="108" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a61f802b939e7dbee91113cb791578206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API const MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_OffsetPtr</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="112" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="112" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ae030ff7b269e250ea2dd534fb72868e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="116" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="116" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a8560d386d75d93bcfd3ada44d6813e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_ConstructFromAnother</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *_other)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;::TwoLineSegmClosestPoints</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="122" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="122" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_float_Destroy</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TwoLineSegmClosestPoints_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a296b9454c6ac1d08fd332bf96e37e905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_float_DestroyArray</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_float *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TwoLineSegmClosestPoints_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="128" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a4c3697e436c3bf6a44204fe72b8d8456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_TwoLineSegmClosestPoints_float_AssignFromAnother</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_float *_this, const MR_TwoLineSegmClosestPoints_float *_other)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="136" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="136" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a5c2d92665ae8d6d7af9a8a5250570cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_TwoLineSegmClosestPoints_double_Get_a</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Get_a</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="143" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="143" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a435bc0dee2a3233bfd2d78c5352a0a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_double_Set_a</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this, MR_Vector3d value)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Set_a</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a36ad72e4dc2769d112e670e99058575f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_TwoLineSegmClosestPoints_double_GetMutable_a</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a mutable pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="157" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="157" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1abf6931cdc5ae263e97ee7c5eef94bb11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_TwoLineSegmClosestPoints_double_Get_b</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Get_b</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="164" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="164" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a739d72ec438cc858a450ae837779f831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_double_Set_b</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this, MR_Vector3d value)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Set_b</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ace264df2571ae2e0d803a9d15c120336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_TwoLineSegmClosestPoints_double_GetMutable_b</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the closest points each from its respective segment Returns a mutable pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="178" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="178" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ac937bfbba5b49af27ec35864ceaf2a88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_TwoLineSegmClosestPoints_double_Get_dir</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Get_dir</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="187" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="187" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1afbf890d25e03d328dd1762fd9109d8b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_double_Set_dir</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this, MR_Vector3d value)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Set_dir</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="196" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a75ead5a7443e4f275562e8fe1070f637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_TwoLineSegmClosestPoints_double_GetMutable_dir</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_GetMutable_dir</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="205" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="205" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a40c9737a5288aaeddde7be184ecd708a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="209" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="209" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a696d129a147fba061ff25434573d42ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a1955e1a9e922bc6ce633cd15bdd1aace" kindref="member">MR_TwoLineSegmClosestPoints_double_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a085b094892bfee456ac7b74f692c8fe7" kindref="member">MR_TwoLineSegmClosestPoints_double_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a35bb0b810871311bc5fe007c5fd2ae5b" kindref="member">MR_TwoLineSegmClosestPoints_double_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="214" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="214" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a1705e26250e466416d53eed2900617f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_ConstructFrom</definition>
+        <argsstring>(MR_Vector3d a, MR_Vector3d b, MR_Vector3d dir)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="222" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="222" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a35bb0b810871311bc5fe007c5fd2ae5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API const MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_OffsetPtr</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="226" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="226" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a085b094892bfee456ac7b74f692c8fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_OffsetMutablePtr</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="230" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="230" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a2100b5ba5b653e7239b4403ec3626750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_ConstructFromAnother</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *_other)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::TwoLineSegmClosestPoints</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="236" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="236" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_double_Destroy</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TwoLineSegmClosestPoints_double</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="239" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a1955e1a9e922bc6ce633cd15bdd1aace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TwoLineSegmClosestPoints_double_DestroyArray</definition>
+        <argsstring>(const MR_TwoLineSegmClosestPoints_double *_this)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TwoLineSegmClosestPoints_double</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="242" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="242" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1ac41d78bf8c35c21d0207438d716a5a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_TwoLineSegmClosestPoints_double_AssignFromAnother</definition>
+        <argsstring>(MR_TwoLineSegmClosestPoints_double *_this, const MR_TwoLineSegmClosestPoints_double *_other)</argsstring>
+        <name>MR_TwoLineSegmClosestPoints_double_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="250" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="250" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a4facef9938a62091ab960ca2cf36cf15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_float * MR_findTwoLineSegmClosestPoints_MR_LineSegm3f</definition>
+        <argsstring>(const MR_LineSegm3f *a, const MR_LineSegm3f *b)</argsstring>
+        <name>MR_findTwoLineSegmClosestPoints_MR_LineSegm3f</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the closest points on two line segments Generated from function <computeroutput>MR::findTwoLineSegmClosestPoints</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="257" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="257" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTwoLineSegmDist_8h_1a3f1f058f2030daf8616f9ff93f0061e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref> *</type>
+        <definition>MRC_API MR_TwoLineSegmClosestPoints_double * MR_findTwoLineSegmClosestPoints_MR_LineSegm3d</definition>
+        <argsstring>(const MR_LineSegm3d *a, const MR_LineSegm3d *b)</argsstring>
+        <name>MR_findTwoLineSegmClosestPoints_MR_LineSegm3d</name>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::findTwoLineSegmClosestPoints</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="263" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" declline="263" declcolumn="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRTwoLineSegmDist_8h_1a438f2f50208ff37150a7ac5a2725ac05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRTwoLineSegmDist_8h_1a39540ed403db4865d7d6ce134f7654c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRTwoLineSegmDist_8h_1ad5b2c6b7021b057c3cc036e4c6b7b34f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ad5b2c6b7021b057c3cc036e4c6b7b34f" kindref="member">MR_TwoLineSegmClosestPoints_float_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRTwoLineSegmDist_8h_1a5a329a6feff2ef5f22d807260534dbee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a5a329a6feff2ef5f22d807260534dbee" kindref="member">MR_TwoLineSegmClosestPoints_float_Set_a</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRTwoLineSegmDist_8h_1ae05c14bc2a94bc25eb6a29fdcdbf53bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ae05c14bc2a94bc25eb6a29fdcdbf53bd" kindref="member">MR_TwoLineSegmClosestPoints_float_GetMutable_a</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRTwoLineSegmDist_8h_1aef41cf04af299016b1ddb0408befa5c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1aef41cf04af299016b1ddb0408befa5c5" kindref="member">MR_TwoLineSegmClosestPoints_float_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRTwoLineSegmDist_8h_1a0a95dfba4c003f1ac0d954d71eee1c13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a0a95dfba4c003f1ac0d954d71eee1c13" kindref="member">MR_TwoLineSegmClosestPoints_float_Set_b</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRTwoLineSegmDist_8h_1af2ec62924a4687078be47513c1b018bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1af2ec62924a4687078be47513c1b018bc" kindref="member">MR_TwoLineSegmClosestPoints_float_GetMutable_b</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="73" refid="MRTwoLineSegmDist_8h_1a5ad2bd94c24a5ed4eac24a34b1337d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a5ad2bd94c24a5ed4eac24a34b1337d9e" kindref="member">MR_TwoLineSegmClosestPoints_float_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="82" refid="MRTwoLineSegmDist_8h_1abe827bf33443506fe4fa6624faef71f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1abe827bf33443506fe4fa6624faef71f2" kindref="member">MR_TwoLineSegmClosestPoints_float_Set_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="91" refid="MRTwoLineSegmDist_8h_1a7e4eb433b2f5fec57e1648c4092fc98a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a7e4eb433b2f5fec57e1648c4092fc98a" kindref="member">MR_TwoLineSegmClosestPoints_float_GetMutable_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRTwoLineSegmDist_8h_1ab7a3426757ef715e9947f0c104a662b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ab7a3426757ef715e9947f0c104a662b0" kindref="member">MR_TwoLineSegmClosestPoints_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRTwoLineSegmDist_8h_1a70cd6b2acde92bc86f1e7a9359c83695" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a70cd6b2acde92bc86f1e7a9359c83695" kindref="member">MR_TwoLineSegmClosestPoints_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRTwoLineSegmDist_8h_1ae37b3f16559224b07ea11a3be46f827a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ae37b3f16559224b07ea11a3be46f827a" kindref="member">MR_TwoLineSegmClosestPoints_float_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>a,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>b,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>dir);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRTwoLineSegmDist_8h_1a61f802b939e7dbee91113cb791578206" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a61f802b939e7dbee91113cb791578206" kindref="member">MR_TwoLineSegmClosestPoints_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRTwoLineSegmDist_8h_1ae030ff7b269e250ea2dd534fb72868e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ae030ff7b269e250ea2dd534fb72868e3" kindref="member">MR_TwoLineSegmClosestPoints_float_OffsetMutablePtr</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRTwoLineSegmDist_8h_1a8560d386d75d93bcfd3ada44d6813e6b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a8560d386d75d93bcfd3ada44d6813e6b" kindref="member">MR_TwoLineSegmClosestPoints_float_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRTwoLineSegmDist_8h_1a296b9454c6ac1d08fd332bf96e37e905" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a296b9454c6ac1d08fd332bf96e37e905" kindref="member">MR_TwoLineSegmClosestPoints_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRTwoLineSegmDist_8h_1a4c3697e436c3bf6a44204fe72b8d8456" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a4c3697e436c3bf6a44204fe72b8d8456" kindref="member">MR_TwoLineSegmClosestPoints_float_AssignFromAnother</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRTwoLineSegmDist_8h_1a5c2d92665ae8d6d7af9a8a5250570cef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a5c2d92665ae8d6d7af9a8a5250570cef" kindref="member">MR_TwoLineSegmClosestPoints_double_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRTwoLineSegmDist_8h_1a435bc0dee2a3233bfd2d78c5352a0a9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a435bc0dee2a3233bfd2d78c5352a0a9d" kindref="member">MR_TwoLineSegmClosestPoints_double_Set_a</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRTwoLineSegmDist_8h_1a36ad72e4dc2769d112e670e99058575f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a36ad72e4dc2769d112e670e99058575f" kindref="member">MR_TwoLineSegmClosestPoints_double_GetMutable_a</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRTwoLineSegmDist_8h_1abf6931cdc5ae263e97ee7c5eef94bb11" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1abf6931cdc5ae263e97ee7c5eef94bb11" kindref="member">MR_TwoLineSegmClosestPoints_double_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRTwoLineSegmDist_8h_1a739d72ec438cc858a450ae837779f831" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a739d72ec438cc858a450ae837779f831" kindref="member">MR_TwoLineSegmClosestPoints_double_Set_b</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRTwoLineSegmDist_8h_1ace264df2571ae2e0d803a9d15c120336" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ace264df2571ae2e0d803a9d15c120336" kindref="member">MR_TwoLineSegmClosestPoints_double_GetMutable_b</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="187" refid="MRTwoLineSegmDist_8h_1ac937bfbba5b49af27ec35864ceaf2a88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ac937bfbba5b49af27ec35864ceaf2a88" kindref="member">MR_TwoLineSegmClosestPoints_double_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="196" refid="MRTwoLineSegmDist_8h_1afbf890d25e03d328dd1762fd9109d8b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1afbf890d25e03d328dd1762fd9109d8b6" kindref="member">MR_TwoLineSegmClosestPoints_double_Set_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="205" refid="MRTwoLineSegmDist_8h_1a75ead5a7443e4f275562e8fe1070f637" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a75ead5a7443e4f275562e8fe1070f637" kindref="member">MR_TwoLineSegmClosestPoints_double_GetMutable_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRTwoLineSegmDist_8h_1a40c9737a5288aaeddde7be184ecd708a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a40c9737a5288aaeddde7be184ecd708a" kindref="member">MR_TwoLineSegmClosestPoints_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRTwoLineSegmDist_8h_1a696d129a147fba061ff25434573d42ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a696d129a147fba061ff25434573d42ed" kindref="member">MR_TwoLineSegmClosestPoints_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRTwoLineSegmDist_8h_1a1705e26250e466416d53eed2900617f5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a1705e26250e466416d53eed2900617f5" kindref="member">MR_TwoLineSegmClosestPoints_double_ConstructFrom</ref>(<ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>a,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>b,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>dir);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRTwoLineSegmDist_8h_1a35bb0b810871311bc5fe007c5fd2ae5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a35bb0b810871311bc5fe007c5fd2ae5b" kindref="member">MR_TwoLineSegmClosestPoints_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRTwoLineSegmDist_8h_1a085b094892bfee456ac7b74f692c8fe7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a085b094892bfee456ac7b74f692c8fe7" kindref="member">MR_TwoLineSegmClosestPoints_double_OffsetMutablePtr</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRTwoLineSegmDist_8h_1a2100b5ba5b653e7239b4403ec3626750" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a2100b5ba5b653e7239b4403ec3626750" kindref="member">MR_TwoLineSegmClosestPoints_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRTwoLineSegmDist_8h_1a1955e1a9e922bc6ce633cd15bdd1aace" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1a1955e1a9e922bc6ce633cd15bdd1aace" kindref="member">MR_TwoLineSegmClosestPoints_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MRTwoLineSegmDist_8h_1ac41d78bf8c35c21d0207438d716a5a49" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ac41d78bf8c35c21d0207438d716a5a49" kindref="member">MR_TwoLineSegmClosestPoints_double_AssignFromAnother</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRTwoLineSegmDist_8h_1a4facef9938a62091ab960ca2cf36cf15" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a4facef9938a62091ab960ca2cf36cf15" kindref="member">MR_findTwoLineSegmClosestPoints_MR_LineSegm3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRTwoLineSegmDist_8h_1a3f1f058f2030daf8616f9ff93f0061e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a3f1f058f2030daf8616f9ff93f0061e0" kindref="member">MR_findTwoLineSegmClosestPoints_MR_LineSegm3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h"/>
+  </compounddef>
+</doxygen>

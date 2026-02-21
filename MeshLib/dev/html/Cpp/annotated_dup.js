@@ -1009,6 +1009,7 @@ var annotated_dup =
       [ "TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", "structMR_1_1TrimWithPlaneParams" ],
       [ "TriPoint", "structMR_1_1TriPoint.html", "structMR_1_1TriPoint" ],
       [ "TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", "structMR_1_1TrivialMetricToPenalty" ],
+      [ "TwoLineSegmClosestPoints", "structMR_1_1TwoLineSegmClosestPoints.html", "structMR_1_1TwoLineSegmClosestPoints" ],
       [ "TypedBitSet", "classMR_1_1TypedBitSet.html", "classMR_1_1TypedBitSet" ],
       [ "TypedFlatTree", "structMR_1_1TypedFlatTree.html", "structMR_1_1TypedFlatTree" ],
       [ "UiRenderManager", "structMR_1_1UiRenderManager.html", "structMR_1_1UiRenderManager" ],

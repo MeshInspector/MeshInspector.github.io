@@ -398,6 +398,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRTriPoint.h", "MRTriPoint_8h.html", null ],
     [ "MRTunnelDetector.h", "MRTunnelDetector_8h.html", "MRTunnelDetector_8h" ],
     [ "MRTupleBindings.h", "MRTupleBindings_8h.html", "MRTupleBindings_8h" ],
+    [ "MRTwoLineSegmDist.h", "MRTwoLineSegmDist_8h.html", "MRTwoLineSegmDist_8h" ],
     [ "MRUniformSampling.h", "MRUniformSampling_8h.html", "MRUniformSampling_8h" ],
     [ "MRUnionFind.h", "MRUnionFind_8h.html", null ],
     [ "MRUnionFindParallel.h", "MRUnionFindParallel_8h.html", "MRUnionFindParallel_8h" ],

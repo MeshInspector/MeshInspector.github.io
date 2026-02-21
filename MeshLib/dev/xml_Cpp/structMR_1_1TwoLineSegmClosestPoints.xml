@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TwoLineSegmClosestPoints" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TwoLineSegmClosestPoints</compoundname>
+    <includes refid="MRTwoLineSegmDist_8h" local="no">MRTwoLineSegmDist.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga42d3b98a66ca10b8a23f540ff55dee07" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga74973d963ba6b88826bc0f458b08e827" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1gaddc230cf7b6ca522ae070d068c79091b" kind="variable"><name>dir</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTwoLineSegmDist.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTwoLineSegmDist.h" bodystart="14" bodyend="22"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga42d3b98a66ca10b8a23f540ff55dee07" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga74973d963ba6b88826bc0f458b08e827" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1gaddc230cf7b6ca522ae070d068c79091b" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints</scope><name>dir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
