@@ -494,7 +494,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::Id&lt;MR::ICPElemtTag&gt;
-Aliases:  std_vector_Id_ICPElemtTag_const_reference, Vector_Id_ICPElemtTag_Id_ICPElemtTag.const_reference, TypedBitSet_Id_ICPElemtTag.IndexType, std_vector_Id_ICPElemtTag_value_type, Vector_Id_ICPElemtTag_Id_ICPElemtTag.value_type, Vector_Id_ICPElemtTag_Id_ICPElemtTag.reference, std_vector_Id_ICPElemtTag_reference, ICPElementId
+Aliases:  std_vector_Id_ICPElemtTag_value_type, TypedBitSet_Id_ICPElemtTag.IndexType, std_vector_Id_ICPElemtTag_reference, std_vector_Id_ICPElemtTag_const_reference, Vector_Id_ICPElemtTag_Id_ICPElemtTag.value_type, Vector_Id_ICPElemtTag_Id_ICPElemtTag.const_reference, Vector_Id_ICPElemtTag_Id_ICPElemtTag.reference, ICPElementId
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

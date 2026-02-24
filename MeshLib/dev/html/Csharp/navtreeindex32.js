@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1FindOutliersParams.html#aa603fcda68b76482ab300b2d27701348":[6,3,0,0,0,362,7],
+"classMR_1_1FindOutliersParams.html#ab5779e70a072d5933d3c346f4306ac81":[6,3,0,0,0,362,3],
 "classMR_1_1FindOutliersParams.html#ac44467beec2aeb25c4fc67154e94e982":[6,3,0,0,0,362,9],
 "classMR_1_1FindOutliersParams.html#acbaaa933910fe18e1988d9c736f63435":[6,3,0,0,0,362,2],
 "classMR_1_1FindOutliersParams.html#ae8b4bbed4f42e77aecf594c6e35821b3":[6,3,0,0,0,362,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1GeodesicPath.html#a6a22753fc20ff717f9e3e3fa43eec994":[6,3,0,0,0,381,7],
 "classMR_1_1GeodesicPath.html#a91341dc06e908c798b1a186af909b4b2":[6,3,0,0,0,381,1],
 "classMR_1_1GeodesicPath.html#ac174e2aee8c5fbe146290d7b8222793c":[6,3,0,0,0,381,3],
-"classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb":[6,3,0,0,0,381,2],
-"classMR_1_1GeodesicPath.html#af400498025204fdb1e2c0093e498c86d":[6,3,0,0,0,381,8],
-"classMR_1_1Graph.html":[6,3,0,0,0,382]
+"classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb":[6,3,0,0,0,381,2]
 };

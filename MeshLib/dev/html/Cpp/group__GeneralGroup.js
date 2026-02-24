@@ -4348,6 +4348,12 @@ var group__GeneralGroup =
       [ "noData", "group__GeneralGroup.html#ga1317e078308acc1053202597ce0c7fc5", null ],
       [ "xf", "group__GeneralGroup.html#gaaed0d8c11f3aa7212b03821592cd28f0", null ]
     ] ],
+    [ "MR::TriTriDistanceResult< T >", "structMR_1_1TriTriDistanceResult.html", [
+      [ "a", "group__GeneralGroup.html#ga26c9f09ce86daf06e28972f128bd268a", null ],
+      [ "b", "group__GeneralGroup.html#ga2adde456867209868cd165e976db06d2", null ],
+      [ "distSq", "group__GeneralGroup.html#ga254fa3cf488a854853a6b959c1abb8e4", null ],
+      [ "overlap", "group__GeneralGroup.html#ga7b9368c23e58b3e92e87a03f3cd2d701", null ]
+    ] ],
     [ "MR::TriMesh", "structMR_1_1TriMesh.html", [
       [ "points", "group__GeneralGroup.html#ga2819cf8b07b6ca5bccb45dd61d9d7f9d", null ],
       [ "tris", "group__GeneralGroup.html#ga1063845cc2871f7dcae178304213db81", null ]
@@ -8949,6 +8955,8 @@ var group__GeneralGroup =
     [ "MR::Triangle3f", "group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf", null ],
     [ "MR::Triangle3i", "group__GeneralGroup.html#ga712806ee9f8b1b9a53133ddba57f7da7", null ],
     [ "MR::TrianglesRepetitions", "group__GeneralGroup.html#ga2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
+    [ "MR::TriTriDistanceResultd", "group__GeneralGroup.html#ga307f773bda9a64426a2d85875a9f7241", null ],
+    [ "MR::TriTriDistanceResultf", "group__GeneralGroup.html#ga9b40642439b0e49df514a79a4cc26a55", null ],
     [ "MR::TwoLineSegmClosestPointsd", "group__GeneralGroup.html#ga37603199e9b0e5eb2e0cdbe36a2b315d", null ],
     [ "MR::TwoLineSegmClosestPointsf", "group__GeneralGroup.html#ga9453ee50cc6e6c976f8db90c84096ff8", null ],
     [ "MR::TwoVertIds", "group__GeneralGroup.html#ga18500a3df20aa256325c44e2c5b2b499", null ],
@@ -11530,6 +11538,8 @@ var group__GeneralGroup =
     [ "MR::findTriangleSegmentIntersectionPrecise", "group__GeneralGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
     [ "MR::findTriExitPos", "group__GeneralGroup.html#ga50ad07fcc0f878c660e360bb5e342d0a", null ],
     [ "MR::findTripleFaceIntersections", "group__GeneralGroup.html#ga4c8a5717e585b662ba95f0a28e8cdf49", null ],
+    [ "MR::findTriTriDistance", "group__GeneralGroup.html#ga4733836a4778c54f7a8678486bb5648c", null ],
+    [ "MR::findTriTriDistance", "group__GeneralGroup.html#gaa6469f955ace9c075254c44fa826749c", null ],
     [ "MR::findTwinEdgePairs", "group__GeneralGroup.html#gad6fbfaa55add0cfefe87b27dfd6c9427", null ],
     [ "MR::findTwinEdges", "group__GeneralGroup.html#gaa3c6e2ebbe054249a9169f7c85a99528", null ],
     [ "MR::findTwinEdges", "group__GeneralGroup.html#gad5db1de53913184f447e3f8a25350ae3", null ],
@@ -15869,6 +15879,7 @@ var group__GeneralGroup =
     [ "MR::SegmEndColors::a", "group__GeneralGroup.html#ga074d144106e966fd84ea6ac76b9a172b", null ],
     [ "MR::SegmPoint::a", "group__GeneralGroup.html#ga5473b25338c8b8b27c9d38f2b6bb8f89", null ],
     [ "MR::TriPoint::a", "group__GeneralGroup.html#ga8b3c5d2f52bedd379a12737883685b69", null ],
+    [ "MR::TriTriDistanceResult::a", "group__GeneralGroup.html#ga26c9f09ce86daf06e28972f128bd268a", null ],
     [ "MR::TwoLineSegmClosestPoints::a", "group__GeneralGroup.html#ga42d3b98a66ca10b8a23f540ff55dee07", null ],
     [ "MR::Viewport::TriCornerColors::a", "group__GeneralGroup.html#ga52ef91aaa0208aa1e90b238eef7bbee9", null ],
     [ "MR::AABBTree", "group__GeneralGroup.html#gabe7cfa4da2fbf3567857cea149030590", null ],
@@ -15951,6 +15962,7 @@ var group__GeneralGroup =
     [ "MR::RigidXf3::b", "group__GeneralGroup.html#ga1c18eb2cefaafa045ec3e26dc9948f71", null ],
     [ "MR::SegmEndColors::b", "group__GeneralGroup.html#ga34ba656028d463bdd70196ca015bdeab", null ],
     [ "MR::TriPoint::b", "group__GeneralGroup.html#ga7ad9a3fd75d2c4414e75599a4eb0d497", null ],
+    [ "MR::TriTriDistanceResult::b", "group__GeneralGroup.html#ga2adde456867209868cd165e976db06d2", null ],
     [ "MR::TwoLineSegmClosestPoints::b", "group__GeneralGroup.html#ga74973d963ba6b88826bc0f458b08e827", null ],
     [ "MR::Viewport::TriCornerColors::b", "group__GeneralGroup.html#ga4bb6813b4c01f5510e20837676efa7ae", null ],
     [ "MR::MovementBuildBodyParams::b2tXf", "group__GeneralGroup.html#gadcac10de1f9f5decb27a76bc24ea210d", null ],
@@ -16341,6 +16353,7 @@ var group__GeneralGroup =
     [ "MR::FixUndercuts::DistMapImproveDirectionParameters::distanceMapResolution", "group__GeneralGroup.html#ga865b6dc16827bcf5024f2e675a74e8e0", null ],
     [ "MR::ICPPairData::distSq", "group__GeneralGroup.html#gafe05b997a712f074a3053f11dab0a7eb", null ],
     [ "MR::MeshOrPoints::ProjectionResult::distSq", "group__GeneralGroup.html#gab04e26fe4503fb08898aaeccad548f71", null ],
+    [ "MR::TriTriDistanceResult::distSq", "group__GeneralGroup.html#ga254fa3cf488a854853a6b959c1abb8e4", null ],
     [ "MR::ICPProperties::distThresholdSq", "group__GeneralGroup.html#ga43460c0d16c0f302226c8e09b6b98811", null ],
     [ "MR::SegmentSegmentIntersectResult::doIntersect", "group__GeneralGroup.html#gad55a194e9fc76257f3bb95f35d4495c5", null ],
     [ "MR::TriangleSegmentIntersectResult::doIntersect", "group__GeneralGroup.html#ga8676a2019b59ed30aa2204aef62a8ff8", null ],
@@ -17100,6 +17113,7 @@ var group__GeneralGroup =
     [ "MR::WatershedGraph::OverflowPoint::overflowTo", "group__GeneralGroup.html#ga4058c6bc93b43ba32fc92f1f336b7619", null ],
     [ "MR::WatershedGraph::BasinInfo::overflowVia", "group__GeneralGroup.html#gad87c8f736d8d1dea1c3085b690ddbab3", null ],
     [ "MR::ChunkIterator::overlap", "group__GeneralGroup.html#gae873581e7d1361e2837dad74512411f0", null ],
+    [ "MR::TriTriDistanceResult::overlap", "group__GeneralGroup.html#ga7b9368c23e58b3e92e87a03f3cd2d701", null ],
     [ "MR::ObjectMeshMergeOptions::overrideXfs", "group__GeneralGroup.html#ga768ff92a1b363f68475e9d27cfc1688a", null ],
     [ "MR::SurfaceManipulationWidget::ownMeshChangedSignal_", "group__GeneralGroup.html#gab48b92dfb4eab8bf8e44861c6b4d3751", null ],
     [ "MR::CubicBezierCurve::p", "group__GeneralGroup.html#ga253c4a44671e701720f11bb8c0078f06", null ],

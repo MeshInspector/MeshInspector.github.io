@@ -560,7 +560,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::FaceId
-Aliases:  Vector_FaceId_FaceId_reference, Vector_FaceId_FaceId_value_type, AABBTreeTraits_FaceTag_Box3f.LeafId, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f.LeafId, TypedBitSet_FaceId_IndexType, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafId, Vector_FaceId_FaceId_const_reference
+Aliases:  Vector_FaceId_FaceId_reference, Vector_FaceId_FaceId_value_type, TypedBitSet_FaceId_IndexType, AABBTreeTraits_FaceTag_Box3f.LeafId, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafId, AABBTreeNode_AABBTreeTraits_FaceTag_Box3f.LeafId, Vector_FaceId_FaceId_const_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

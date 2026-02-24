@@ -738,6 +738,7 @@
     <innerclass refid="structMR_1_1TrimOptionalOutput" prot="public">MR::TrimOptionalOutput</innerclass>
     <innerclass refid="structMR_1_1TrimWithPlaneParams" prot="public">MR::TrimWithPlaneParams</innerclass>
     <innerclass refid="structMR_1_1TriPoint" prot="public">MR::TriPoint</innerclass>
+    <innerclass refid="structMR_1_1TriTriDistanceResult" prot="public">MR::TriTriDistanceResult</innerclass>
     <innerclass refid="structMR_1_1TrivialMetricToPenalty" prot="public">MR::TrivialMetricToPenalty</innerclass>
     <innerclass refid="structMR_1_1TwoLineSegmClosestPoints" prot="public">MR::TwoLineSegmClosestPoints</innerclass>
     <innerclass refid="classMR_1_1TypedBitSet" prot="public">MR::TypedBitSet</innerclass>
@@ -1501,6 +1502,8 @@
       <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
       <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
       <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
+      <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
+      <member refid="group__GeneralGroup_1ga307f773bda9a64426a2d85875a9f7241" kind="typedef"><name>TriTriDistanceResultd</name></member>
       <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
       <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
       <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
@@ -2876,6 +2879,8 @@
       <member refid="group__TriangleIntersectionGroup_1ga3835ac264c4e97d644c22d7412117309" kind="function"><name>rayTriangleIntersect</name></member>
       <member refid="group__TriangleIntersectionGroup_1gaf5c17228b0533759ec08bc5a2c3e45ae" kind="function"><name>rayTriangleIntersect</name></member>
       <member refid="group__TriangleIntersectionGroup_1gae2d884d3111355ff558c2b7f34c314d0" kind="function"><name>doTrianglesOverlap</name></member>
+      <member refid="group__GeneralGroup_1gaa6469f955ace9c075254c44fa826749c" kind="function"><name>findTriTriDistance</name></member>
+      <member refid="group__GeneralGroup_1ga4733836a4778c54f7a8678486bb5648c" kind="function"><name>findTriTriDistance</name></member>
       <member refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" kind="function"><name>triDist</name></member>
       <member refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" kind="function"><name>triDist</name></member>
       <member refid="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" kind="function"><name>segPoints</name></member>

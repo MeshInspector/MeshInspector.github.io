@@ -11376,6 +11376,12 @@
     <member refid="group__GeneralGroup_1ga49b96d931ecbe6f88e3b838a6347d14e" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1gaae0ca13e381c0da0a32ffd38d5f8c346" kind="friend"><name>operator&gt;&gt;</name></member>
   </compound>
+  <compound refid="structMR_1_1TriTriDistanceResult" kind="struct"><name>MR::TriTriDistanceResult</name>
+    <member refid="group__GeneralGroup_1ga26c9f09ce86daf06e28972f128bd268a" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga254fa3cf488a854853a6b959c1abb8e4" kind="variable"><name>distSq</name></member>
+    <member refid="group__GeneralGroup_1ga7b9368c23e58b3e92e87a03f3cd2d701" kind="variable"><name>overlap</name></member>
+  </compound>
   <compound refid="structMR_1_1TrivialMetricToPenalty" kind="struct"><name>MR::TrivialMetricToPenalty</name>
     <member refid="group__GeneralGroup_1gac520c15e54c74fc25c2c0d3a0bdd18a6" kind="function"><name>operator()</name></member>
   </compound>
@@ -13628,6 +13634,8 @@
     <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
     <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
     <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
+    <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
+    <member refid="group__GeneralGroup_1ga307f773bda9a64426a2d85875a9f7241" kind="typedef"><name>TriTriDistanceResultd</name></member>
     <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
     <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
     <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
@@ -14986,6 +14994,8 @@
     <member refid="group__TriangleIntersectionGroup_1ga3835ac264c4e97d644c22d7412117309" kind="function"><name>rayTriangleIntersect</name></member>
     <member refid="group__TriangleIntersectionGroup_1gaf5c17228b0533759ec08bc5a2c3e45ae" kind="function"><name>rayTriangleIntersect</name></member>
     <member refid="group__TriangleIntersectionGroup_1gae2d884d3111355ff558c2b7f34c314d0" kind="function"><name>doTrianglesOverlap</name></member>
+    <member refid="group__GeneralGroup_1gaa6469f955ace9c075254c44fa826749c" kind="function"><name>findTriTriDistance</name></member>
+    <member refid="group__GeneralGroup_1ga4733836a4778c54f7a8678486bb5648c" kind="function"><name>findTriTriDistance</name></member>
     <member refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" kind="function"><name>triDist</name></member>
     <member refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" kind="function"><name>triDist</name></member>
     <member refid="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" kind="function"><name>segPoints</name></member>
@@ -20310,6 +20320,8 @@
     <member refid="group__GeneralGroup_1ga49b04ca33ea170c1047b150bbc712509" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1ga8d09737a54e0acef8b37f43c20c7dff5" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1gadca67651e9ad888aca1f1b9fd171366d" kind="typedef"><name>SystemFontPaths</name></member>
+    <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
+    <member refid="group__GeneralGroup_1ga307f773bda9a64426a2d85875a9f7241" kind="typedef"><name>TriTriDistanceResultd</name></member>
     <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
     <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
     <member refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kind="typedef"><name>SizeType</name></member>
@@ -21941,6 +21953,10 @@
     <member refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" kind="variable"><name>baseParams</name></member>
     <member refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" kind="variable"><name>xf</name></member>
     <member refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" kind="variable"><name>noData</name></member>
+    <member refid="group__GeneralGroup_1ga26c9f09ce86daf06e28972f128bd268a" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga254fa3cf488a854853a6b959c1abb8e4" kind="variable"><name>distSq</name></member>
+    <member refid="group__GeneralGroup_1ga7b9368c23e58b3e92e87a03f3cd2d701" kind="variable"><name>overlap</name></member>
     <member refid="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" kind="variable"><name>tris</name></member>
     <member refid="group__GeneralGroup_1ga2819cf8b07b6ca5bccb45dd61d9d7f9d" kind="variable"><name>points</name></member>
     <member refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kind="variable"><name>aFace</name></member>
@@ -27013,6 +27029,8 @@
     <member refid="group__GeneralGroup_1ga196a0dd004b8640ecf44ab19177397b8" kind="function"><name>makeTorusWithSpikes</name></member>
     <member refid="group__GeneralGroup_1ga57eb865bddfea0b83ba03d7d424a3589" kind="function"><name>makeTorusWithComponents</name></member>
     <member refid="group__GeneralGroup_1gaefe2a3413e9ffcfb9ee62b40c3eb6f90" kind="function"><name>makeTorusWithSelfIntersections</name></member>
+    <member refid="group__GeneralGroup_1gaa6469f955ace9c075254c44fa826749c" kind="function"><name>findTriTriDistance</name></member>
+    <member refid="group__GeneralGroup_1ga4733836a4778c54f7a8678486bb5648c" kind="function"><name>findTriTriDistance</name></member>
     <member refid="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" kind="function"><name>triDist</name></member>
     <member refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" kind="function"><name>triDist</name></member>
     <member refid="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" kind="function"><name>segPoints</name></member>

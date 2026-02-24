@@ -837,6 +837,8 @@
     <innerclass refid="classMR_1_1TrimWithPlaneParams" prot="public">MR::TrimWithPlaneParams</innerclass>
     <innerclass refid="classMR_1_1TriPointd" prot="public">MR::TriPointd</innerclass>
     <innerclass refid="classMR_1_1TriPointf" prot="public">MR::TriPointf</innerclass>
+    <innerclass refid="classMR_1_1TriTriDistanceResult__Double" prot="public">MR::TriTriDistanceResult_Double</innerclass>
+    <innerclass refid="classMR_1_1TriTriDistanceResult__Float" prot="public">MR::TriTriDistanceResult_Float</innerclass>
     <innerclass refid="classMR_1_1TrivialMetricToPenalty" prot="public">MR::TrivialMetricToPenalty</innerclass>
     <innerclass refid="classMR_1_1TwoLineSegmClosestPoints__Double" prot="public">MR::TwoLineSegmClosestPoints_Double</innerclass>
     <innerclass refid="classMR_1_1TwoLineSegmClosestPoints__Float" prot="public">MR::TwoLineSegmClosestPoints_Float</innerclass>
@@ -35587,6 +35589,52 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="534" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="534" bodyend="557"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a49d7ee8a60c901f7cb3d2424ce40af5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriTriDistanceResult__Float" kindref="compound">MR.TriTriDistanceResult_Float</ref></type>
+        <definition>static unsafe MR.TriTriDistanceResult_Float MR.findTriTriDistance</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 a, in MR.Std.Array_MRVector3f_3 b)</argsstring>
+        <name>findTriTriDistance</name>
+        <qualifiedname>MR.findTriTriDistance</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>computes the closest points on two triangles Generated from function <computeroutput><ref refid="classMR_1a49d7ee8a60c901f7cb3d2424ce40af5d" kindref="member">MR.findTriTriDistance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="513" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="513" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1acd6705de62740d1f74f68affb10b0151" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriTriDistanceResult__Double" kindref="compound">MR.TriTriDistanceResult_Double</ref></type>
+        <definition>static unsafe MR.TriTriDistanceResult_Double MR.findTriTriDistance</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 a, in MR.Std.Array_MRVector3d_3 b)</argsstring>
+        <name>findTriTriDistance</name>
+        <qualifiedname>MR.findTriTriDistance</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a49d7ee8a60c901f7cb3d2424ce40af5d" kindref="member">MR.findTriTriDistance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="529" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="529" bodyend="540"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a5deabeac137235334a845dd615a7a43c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
         <definition>static unsafe float MR.triDist</definition>
@@ -35610,24 +35658,13 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>computes the closest points on two triangles, and returns the squared distance between them. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a5deabeac137235334a845dd615a7a43c" kindref="member">MR.triDist</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>s</parametername>
-<parametername>t</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>are the triangles, stored tri[point][dimension].</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-If the triangles are disjoint, p and q give the closest points of s and t respectively. However, if the triangles overlap, p and q are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Generated from function <computeroutput><ref refid="classMR_1a5deabeac137235334a845dd615a7a43c" kindref="member">MR.triDist</ref></computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="14" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="14" bodyend="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="546" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="546" bodyend="563"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2c3c348aed536bce85261fa0f7822725" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -35670,7 +35707,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="37" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="37" bodyend="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="569" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="569" bodyend="595"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceFaceFace</type>
@@ -41733,6 +41770,8 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1a71bd685704076ae2dd9392400a27ec8d" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriangleSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" prot="public" virt="non-virtual"><scope>MR</scope><name>findTripleFaceIntersections</name></member>
       <member refid="classMR_1a2151ec3604de7017251e51844cbbd3c4" prot="public" virt="non-virtual"><scope>MR</scope><name>findTrisInBall</name></member>
+      <member refid="classMR_1a49d7ee8a60c901f7cb3d2424ce40af5d" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriTriDistance</name></member>
+      <member refid="classMR_1acd6705de62740d1f74f68affb10b0151" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriTriDistance</name></member>
       <member refid="classMR_1a37f9a9adf3f28c165932224cfc413ce9" prot="public" virt="non-virtual"><scope>MR</scope><name>findTwinEdgePairs</name></member>
       <member refid="classMR_1aa798b1976a367077b05fc0160d377f9d" prot="public" virt="non-virtual"><scope>MR</scope><name>findTwinEdges</name></member>
       <member refid="classMR_1ab45ca9655e6b2fd0cdb83b368eacf3f1" prot="public" virt="non-virtual"><scope>MR</scope><name>findTwinEdges</name></member>

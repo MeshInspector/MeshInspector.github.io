@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriTriDistanceResult__Float" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriTriDistanceResult_Float</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriTriDistanceResult_Float</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriTriDistanceResult__Float_1a5961d1bd790a173bb905add1f1e0ad09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.TriTriDistanceResult_Float.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="143" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriTriDistanceResult__Float_1a7c5379c3fac97bcb9198da6fcc4708df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.TriTriDistanceResult_Float.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="150" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriTriDistanceResult__Float_1a4f7f9c65d23b941309a54cf75315209f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.TriTriDistanceResult_Float.distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.distSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="155" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriTriDistanceResult__Float_1aba07788978c21c52f799bc3dc2d517b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.TriTriDistanceResult_Float.overlap</definition>
+        <argsstring></argsstring>
+        <name>overlap</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.overlap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="159" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriTriDistanceResult__Float_1a8b223452a7dbca78c47866f148e02669" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TriTriDistanceResult_Float</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="163" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="163" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriTriDistanceResult__Float_1a8c20946bb1e11c6c4e35597b38e92f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</definition>
+        <argsstring>()</argsstring>
+        <name>TriTriDistanceResult_Float</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="173" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="173" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriTriDistanceResult__Float_1a49f47a96e273446c0bfcdc3103f9f3ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</definition>
+        <argsstring>(MR.Vector3f a, MR.Vector3f b, float distSq, bool overlap)</argsstring>
+        <name>TriTriDistanceResult_Float</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overlap</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.TriTriDistanceResult&lt;float&gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="184" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="184" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriTriDistanceResult__Float_1a364f6deaeb1507fe09941d874d96f280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</definition>
+        <argsstring>(MR.Const_TriTriDistanceResult_Float _other)</argsstring>
+        <name>TriTriDistanceResult_Float</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</qualifiedname>
+        <param>
+          <type>MR.Const_TriTriDistanceResult_Float</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriTriDistanceResult&lt;float&gt;::TriTriDistanceResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="195" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="195" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriTriDistanceResult__Float_1aeb49ceabcf37d294b93a281720a8fccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</definition>
+        <argsstring>(TriTriDistanceResult_Float _other)</argsstring>
+        <name>TriTriDistanceResult_Float</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.TriTriDistanceResult_Float</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriTriDistanceResult__Float" kindref="compound">TriTriDistanceResult_Float</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriTriDistanceResult&lt;float&gt;::TriTriDistanceResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="207" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriTriDistanceResult__Float_1ae549cc5137f72f7ec2e6e5852cd3c3ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriTriDistanceResult__Float" kindref="compound">MR.TriTriDistanceResult_Float</ref></type>
+        <definition>unsafe MR.TriTriDistanceResult_Float MR.TriTriDistanceResult_Float.assign</definition>
+        <argsstring>(MR.Const_TriTriDistanceResult_Float _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TriTriDistanceResult_Float.assign</qualifiedname>
+        <param>
+          <type>MR.Const_TriTriDistanceResult_Float</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriTriDistanceResult&lt;float&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="212" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="212" bodyend="219"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.TriTriDistanceResult&lt;float&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TriTriDistanceResult_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriTriDistanceResult_Float</label>
+        <link refid="classMR_1_1TriTriDistanceResult__Float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriTriDistanceResult_Float &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TriTriDistanceResult_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriTriDistanceResult_Float</label>
+        <link refid="classMR_1_1TriTriDistanceResult__Float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriTriDistanceResult_Float &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="136" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="137" bodyend="220"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a5961d1bd790a173bb905add1f1e0ad09" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>a</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1ae549cc5137f72f7ec2e6e5852cd3c3ef" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>assign</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a7c5379c3fac97bcb9198da6fcc4708df" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>b</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a4f7f9c65d23b941309a54cf75315209f" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>distSq</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1aba07788978c21c52f799bc3dc2d517b7" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>overlap</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a8b223452a7dbca78c47866f148e02669" prot="package" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>TriTriDistanceResult_Float</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a8c20946bb1e11c6c4e35597b38e92f7d" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>TriTriDistanceResult_Float</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a49f47a96e273446c0bfcdc3103f9f3ef" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>TriTriDistanceResult_Float</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1a364f6deaeb1507fe09941d874d96f280" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>TriTriDistanceResult_Float</name></member>
+      <member refid="classMR_1_1TriTriDistanceResult__Float_1aeb49ceabcf37d294b93a281720a8fccc" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Float</scope><name>TriTriDistanceResult_Float</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

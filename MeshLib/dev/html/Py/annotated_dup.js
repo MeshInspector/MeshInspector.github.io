@@ -1093,6 +1093,8 @@ var annotated_dup =
       [ "TrimWithPlaneParams", "classmrmeshpy_1_1TrimWithPlaneParams.html", "classmrmeshpy_1_1TrimWithPlaneParams" ],
       [ "TriPointd", "classmrmeshpy_1_1TriPointd.html", "classmrmeshpy_1_1TriPointd" ],
       [ "TriPointf", "classmrmeshpy_1_1TriPointf.html", "classmrmeshpy_1_1TriPointf" ],
+      [ "TriTriDistanceResult_double", "classmrmeshpy_1_1TriTriDistanceResult__double.html", "classmrmeshpy_1_1TriTriDistanceResult__double" ],
+      [ "TriTriDistanceResult_float", "classmrmeshpy_1_1TriTriDistanceResult__float.html", "classmrmeshpy_1_1TriTriDistanceResult__float" ],
       [ "TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", "classmrmeshpy_1_1TrivialMetricToPenalty" ],
       [ "Turn", "classmrmeshpy_1_1Turn.html", "classmrmeshpy_1_1Turn" ],
       [ "TwoLineSegmClosestPoints_double", "classmrmeshpy_1_1TwoLineSegmClosestPoints__double.html", "classmrmeshpy_1_1TwoLineSegmClosestPoints__double" ],

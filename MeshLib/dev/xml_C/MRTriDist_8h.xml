@@ -2,8 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRTriDist_8h" kind="file" language="C++">
     <compoundname>MRTriDist.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
     <includes local="no">MRCMisc/common.h</includes>
     <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRTriDist.h</label>
@@ -12,27 +15,51 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="2">
-        <label>MRCMisc/common.h</label>
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
         <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRTriDist_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+      <memberdef kind="typedef" id="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" prot="public" static="no">
+        <type>struct <ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref></type>
+        <definition>typedef struct MR_std_array_MR_Vector3d_3 MR_std_array_MR_Vector3d_3</definition>
         <argsstring></argsstring>
-        <name>MR_Vector3f</name>
+        <name>MR_std_array_MR_Vector3d_3</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="10" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="10" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRTriDist_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" prot="public" static="no">
         <type>struct <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref></type>
@@ -45,10 +72,916 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="11" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="11" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="15" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" prot="public" static="no">
+        <type>struct <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref></type>
+        <definition>typedef struct MR_TriTriDistanceResult_float MR_TriTriDistanceResult_float</definition>
+        <argsstring></argsstring>
+        <name>MR_TriTriDistanceResult_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="20" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" prot="public" static="no">
+        <type>struct <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref></type>
+        <definition>typedef struct MR_TriTriDistanceResult_double MR_TriTriDistanceResult_double</definition>
+        <argsstring></argsstring>
+        <name>MR_TriTriDistanceResult_double</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="24" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
+      <memberdef kind="function" id="MRTriDist_8h_1a45f194e9c79c1c88e5d2f8d6990c2239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_TriTriDistanceResult_float_Get_a</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Get_a</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="35" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="35" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a3e2a65a1e69b638a0264bf1541d5746c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_float_Set_a</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this, MR_Vector3f value)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Set_a</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1afd6d06b10127708c8fcf14f05845c8a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_TriTriDistanceResult_float_GetMutable_a</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="57" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="57" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1aeab213c0999fa251beeb4f1c9458cb82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_TriTriDistanceResult_float_Get_b</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Get_b</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="68" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="68" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a762ad74a3745a30d3a07c7f1d1091a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_float_Set_b</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this, MR_Vector3f value)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Set_b</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a8434f5f9e395dd4d0a5feb956b6642b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_TriTriDistanceResult_float_GetMutable_b</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="90" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a72607076fa6140935e88ddd9e8d0033d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_TriTriDistanceResult_float_Get_distSq</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Get_distSq</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="99" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="99" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a519fa9fe11c658bb68e75d40d02fdd67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_float_Set_distSq</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this, float value)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Set_distSq</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a4e7f5db9e728e1b7941afd5c93945a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_TriTriDistanceResult_float_GetMutable_distSq</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_GetMutable_distSq</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="116" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="116" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1af8d2bd188d4b62c5ba3a70050c34696e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_TriTriDistanceResult_float_Get_overlap</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Get_overlap</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="124" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="124" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1ad756a635b42eb3a024740115fc48512c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_float_Set_overlap</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this, bool value)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Set_overlap</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>overlap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="131" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a677aab0e5f8ab49d7e0d4e03d12c52d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_TriTriDistanceResult_float_GetMutable_overlap</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_GetMutable_overlap</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a9b28d0187ace8467fb8b82a3de6eac82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_TriTriDistanceResult_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="143" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="143" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1aa48bcc37b4776de62505cac64ec83b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_TriTriDistanceResult_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRTriDist_8h_1a9adfa33cce896a5823b176d0815fda6d" kindref="member">MR_TriTriDistanceResult_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRTriDist_8h_1ac862a2cec9ca3abe064daffbdfdc7fcc" kindref="member">MR_TriTriDistanceResult_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRTriDist_8h_1a35996e4cf69bba6201b82ad9dccd0fb3" kindref="member">MR_TriTriDistanceResult_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="148" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="148" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a668c03b1c29128b7499812fb0f44bae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_ConstructFrom</definition>
+        <argsstring>(MR_Vector3f a, MR_Vector3f b, float distSq, bool overlap)</argsstring>
+        <name>MR_TriTriDistanceResult_float_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="155" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="155" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a35996e4cf69bba6201b82ad9dccd0fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API const MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_OffsetPtr</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TriTriDistanceResult_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="159" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="159" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1ac862a2cec9ca3abe064daffbdfdc7fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TriTriDistanceResult_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="163" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="163" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1ab3e66fd7b2373449cf16fb2e4fb299da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_ConstructFromAnother</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_other)</argsstring>
+        <name>MR_TriTriDistanceResult_float_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&lt;float&gt;::TriTriDistanceResult</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="169" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="169" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_float_Destroy</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TriTriDistanceResult_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="172" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a9adfa33cce896a5823b176d0815fda6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_float_DestroyArray</definition>
+        <argsstring>(const MR_TriTriDistanceResult_float *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TriTriDistanceResult_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="175" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1afceaf70f569ecd1ebfbaec2f4ba6596c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_TriTriDistanceResult_float_AssignFromAnother</definition>
+        <argsstring>(MR_TriTriDistanceResult_float *_this, const MR_TriTriDistanceResult_float *_other)</argsstring>
+        <name>MR_TriTriDistanceResult_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TriTriDistanceResult&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="183" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="183" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a79c2dee0f65eb31c850a77180313dee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_TriTriDistanceResult_double_Get_a</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Get_a</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="194" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="194" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a19d13697ddfcc1ea7155845a0a4b75df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_double_Set_a</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this, MR_Vector3d value)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Set_a</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="205" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a8d7e9be7685adf840f8aa806898d1a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_TriTriDistanceResult_double_GetMutable_a</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="216" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="216" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a7f01c2ac45593bd79ce94d74c2277896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_TriTriDistanceResult_double_Get_b</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Get_b</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="227" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="227" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a632c9dda4c477f12b3a29d4948a07320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_double_Set_b</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this, MR_Vector3d value)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Set_b</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="238" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a59717927245f4ae84e4c2be7d69768f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_TriTriDistanceResult_double_GetMutable_b</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="249" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="249" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1aa3b1e7f7543ff193d5ddb1ecc5dc2568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_TriTriDistanceResult_double_Get_distSq</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Get_distSq</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="258" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="258" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a6b232960d676aca46391e2574577ddb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_double_Set_distSq</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this, double value)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Set_distSq</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="266" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1adf9faf2734a7fff062f2ff6a84c7438d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_TriTriDistanceResult_double_GetMutable_distSq</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_GetMutable_distSq</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="275" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="275" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a89ea3b9ba6eba35063465a7b971d6bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_TriTriDistanceResult_double_Get_overlap</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Get_overlap</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Returns a pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="283" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="283" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a1c82340d7989fbe0f52501322e1c24a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_double_Set_overlap</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this, bool value)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Set_overlap</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>overlap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1ad4cd15999f01055299cb6e7f543e14c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_TriTriDistanceResult_double_GetMutable_overlap</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_GetMutable_overlap</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Returns a mutable pointer to a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="298" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="298" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a76154d8763e1699a599b78dbe8dbc60d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_TriTriDistanceResult_double_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="302" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="302" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a3e10511311cc4a3cc077796a74b05c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_TriTriDistanceResult_double_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRTriDist_8h_1a805b729ae2bb3cd97d001515b7bf22bb" kindref="member">MR_TriTriDistanceResult_double_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRTriDist_8h_1ae89e7cbae03da44aea1e77778a1c4fed" kindref="member">MR_TriTriDistanceResult_double_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRTriDist_8h_1a70fff9993f1b2d43b9b05d3a7dab2cee" kindref="member">MR_TriTriDistanceResult_double_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="307" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="307" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a09c33198a70e6b858d8f1f27fdb9fcd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_ConstructFrom</definition>
+        <argsstring>(MR_Vector3d a, MR_Vector3d b, double distSq, bool overlap)</argsstring>
+        <name>MR_TriTriDistanceResult_double_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="314" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="314" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a70fff9993f1b2d43b9b05d3a7dab2cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API const MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_OffsetPtr</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TriTriDistanceResult_double_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="318" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="318" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1ae89e7cbae03da44aea1e77778a1c4fed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_OffsetMutablePtr</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TriTriDistanceResult_double_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="322" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="322" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a91b3c48df87258e880fd9084fa46bbf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_ConstructFromAnother</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_other)</argsstring>
+        <name>MR_TriTriDistanceResult_double_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&lt;double&gt;::TriTriDistanceResult</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="328" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="328" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_double_Destroy</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TriTriDistanceResult_double</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a805b729ae2bb3cd97d001515b7bf22bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriTriDistanceResult_double_DestroyArray</definition>
+        <argsstring>(const MR_TriTriDistanceResult_double *_this)</argsstring>
+        <name>MR_TriTriDistanceResult_double_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TriTriDistanceResult_double</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="334" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="334" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a7d5dcfc4bc147febaf0176615ce602c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_TriTriDistanceResult_double_AssignFromAnother</definition>
+        <argsstring>(MR_TriTriDistanceResult_double *_this, const MR_TriTriDistanceResult_double *_other)</argsstring>
+        <name>MR_TriTriDistanceResult_double_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TriTriDistanceResult&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="342" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="342" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a451487122aad8b839771cfbd3ac80e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_float * MR_findTriTriDistance_std_array_MR_Vector3f_3</definition>
+        <argsstring>(const MR_std_array_MR_Vector3f_3 *a, const MR_std_array_MR_Vector3f_3 *b)</argsstring>
+        <name>MR_findTriTriDistance_std_array_MR_Vector3f_3</name>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the closest points on two triangles Generated from function <computeroutput>MR::findTriTriDistance</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="349" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="349" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriDist_8h_1a5cd75e151c1d2659051328d32d1ff0c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref> *</type>
+        <definition>MRC_API MR_TriTriDistanceResult_double * MR_findTriTriDistance_std_array_MR_Vector3d_3</definition>
+        <argsstring>(const MR_std_array_MR_Vector3d_3 *a, const MR_std_array_MR_Vector3d_3 *b)</argsstring>
+        <name>MR_findTriTriDistance_std_array_MR_Vector3d_3</name>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::findTriTriDistance</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="355" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="355" declcolumn="40"/>
+      </memberdef>
       <memberdef kind="function" id="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
         <definition>MRC_API float MR_triDist</definition>
@@ -71,24 +1004,13 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>computes the closest points on two triangles, and returns the squared distance between them. </para>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>s</parametername>
-<parametername>t</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>are the triangles, stored tri[point][dimension].</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-If the triangles are disjoint, p and q give the closest points of s and t respectively. However, if the triangles overlap, p and q are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Generated from function <computeroutput>MR::triDist</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>q</computeroutput> can not be null. It is a single object. Parameter <computeroutput>s</computeroutput> can not be null. It is a single object. Parameter <computeroutput>t</computeroutput> can not be null. It is a single object. </para>
+<para>Generated from function <computeroutput>MR::triDist</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>q</computeroutput> can not be null. It is a single object. Parameter <computeroutput>s</computeroutput> can not be null. It is a single object. Parameter <computeroutput>t</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="29" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="29" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="363" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="363" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -130,7 +1052,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="40" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="374" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" declline="374" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -140,25 +1062,122 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRTriDist_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRTriDist_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" kindref="member">MR_triDist</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*t);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">MRC_DEPRECATED_REASON(</highlight><highlight class="stringliteral">&quot;Use<sp/>findTwoLineSegmClosestPoints()<sp/>instead&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="40" refid="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" kindref="member">MR_segPoints</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*VEC,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*X,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*Y,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*P,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*A,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*Q,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*B);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="14" refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref><sp/><ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3d_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRTriDist_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRTriDist_8h_1a45f194e9c79c1c88e5d2f8d6990c2239" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTriDist_8h_1a45f194e9c79c1c88e5d2f8d6990c2239" kindref="member">MR_TriTriDistanceResult_float_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRTriDist_8h_1a3e2a65a1e69b638a0264bf1541d5746c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a3e2a65a1e69b638a0264bf1541d5746c" kindref="member">MR_TriTriDistanceResult_float_Set_a</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRTriDist_8h_1afd6d06b10127708c8fcf14f05845c8a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTriDist_8h_1afd6d06b10127708c8fcf14f05845c8a2" kindref="member">MR_TriTriDistanceResult_float_GetMutable_a</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRTriDist_8h_1aeab213c0999fa251beeb4f1c9458cb82" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTriDist_8h_1aeab213c0999fa251beeb4f1c9458cb82" kindref="member">MR_TriTriDistanceResult_float_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRTriDist_8h_1a762ad74a3745a30d3a07c7f1d1091a92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a762ad74a3745a30d3a07c7f1d1091a92" kindref="member">MR_TriTriDistanceResult_float_Set_b</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRTriDist_8h_1a8434f5f9e395dd4d0a5feb956b6642b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTriDist_8h_1a8434f5f9e395dd4d0a5feb956b6642b5" kindref="member">MR_TriTriDistanceResult_float_GetMutable_b</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRTriDist_8h_1a72607076fa6140935e88ddd9e8d0033d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1a72607076fa6140935e88ddd9e8d0033d" kindref="member">MR_TriTriDistanceResult_float_Get_distSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRTriDist_8h_1a519fa9fe11c658bb68e75d40d02fdd67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a519fa9fe11c658bb68e75d40d02fdd67" kindref="member">MR_TriTriDistanceResult_float_Set_distSq</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRTriDist_8h_1a4e7f5db9e728e1b7941afd5c93945a01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1a4e7f5db9e728e1b7941afd5c93945a01" kindref="member">MR_TriTriDistanceResult_float_GetMutable_distSq</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRTriDist_8h_1af8d2bd188d4b62c5ba3a70050c34696e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1af8d2bd188d4b62c5ba3a70050c34696e" kindref="member">MR_TriTriDistanceResult_float_Get_overlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRTriDist_8h_1ad756a635b42eb3a024740115fc48512c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ad756a635b42eb3a024740115fc48512c" kindref="member">MR_TriTriDistanceResult_float_Set_overlap</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRTriDist_8h_1a677aab0e5f8ab49d7e0d4e03d12c52d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1a677aab0e5f8ab49d7e0d4e03d12c52d5" kindref="member">MR_TriTriDistanceResult_float_GetMutable_overlap</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRTriDist_8h_1a9b28d0187ace8467fb8b82a3de6eac82" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1a9b28d0187ace8467fb8b82a3de6eac82" kindref="member">MR_TriTriDistanceResult_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRTriDist_8h_1aa48bcc37b4776de62505cac64ec83b83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1aa48bcc37b4776de62505cac64ec83b83" kindref="member">MR_TriTriDistanceResult_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRTriDist_8h_1a668c03b1c29128b7499812fb0f44bae3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1a668c03b1c29128b7499812fb0f44bae3" kindref="member">MR_TriTriDistanceResult_float_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>a,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overlap);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRTriDist_8h_1a35996e4cf69bba6201b82ad9dccd0fb3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1a35996e4cf69bba6201b82ad9dccd0fb3" kindref="member">MR_TriTriDistanceResult_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRTriDist_8h_1ac862a2cec9ca3abe064daffbdfdc7fcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1ac862a2cec9ca3abe064daffbdfdc7fcc" kindref="member">MR_TriTriDistanceResult_float_OffsetMutablePtr</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRTriDist_8h_1ab3e66fd7b2373449cf16fb2e4fb299da" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1ab3e66fd7b2373449cf16fb2e4fb299da" kindref="member">MR_TriTriDistanceResult_float_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRTriDist_8h_1a9adfa33cce896a5823b176d0815fda6d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a9adfa33cce896a5823b176d0815fda6d" kindref="member">MR_TriTriDistanceResult_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRTriDist_8h_1afceaf70f569ecd1ebfbaec2f4ba6596c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1afceaf70f569ecd1ebfbaec2f4ba6596c" kindref="member">MR_TriTriDistanceResult_float_AssignFromAnother</ref>(<ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRTriDist_8h_1a79c2dee0f65eb31c850a77180313dee6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTriDist_8h_1a79c2dee0f65eb31c850a77180313dee6" kindref="member">MR_TriTriDistanceResult_double_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRTriDist_8h_1a19d13697ddfcc1ea7155845a0a4b75df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a19d13697ddfcc1ea7155845a0a4b75df" kindref="member">MR_TriTriDistanceResult_double_Set_a</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRTriDist_8h_1a8d7e9be7685adf840f8aa806898d1a1e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTriDist_8h_1a8d7e9be7685adf840f8aa806898d1a1e" kindref="member">MR_TriTriDistanceResult_double_GetMutable_a</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRTriDist_8h_1a7f01c2ac45593bd79ce94d74c2277896" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTriDist_8h_1a7f01c2ac45593bd79ce94d74c2277896" kindref="member">MR_TriTriDistanceResult_double_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRTriDist_8h_1a632c9dda4c477f12b3a29d4948a07320" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a632c9dda4c477f12b3a29d4948a07320" kindref="member">MR_TriTriDistanceResult_double_Set_b</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRTriDist_8h_1a59717927245f4ae84e4c2be7d69768f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTriDist_8h_1a59717927245f4ae84e4c2be7d69768f1" kindref="member">MR_TriTriDistanceResult_double_GetMutable_b</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRTriDist_8h_1aa3b1e7f7543ff193d5ddb1ecc5dc2568" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1aa3b1e7f7543ff193d5ddb1ecc5dc2568" kindref="member">MR_TriTriDistanceResult_double_Get_distSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRTriDist_8h_1a6b232960d676aca46391e2574577ddb5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a6b232960d676aca46391e2574577ddb5" kindref="member">MR_TriTriDistanceResult_double_Set_distSq</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRTriDist_8h_1adf9faf2734a7fff062f2ff6a84c7438d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1adf9faf2734a7fff062f2ff6a84c7438d" kindref="member">MR_TriTriDistanceResult_double_GetMutable_distSq</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="MRTriDist_8h_1a89ea3b9ba6eba35063465a7b971d6bc5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1a89ea3b9ba6eba35063465a7b971d6bc5" kindref="member">MR_TriTriDistanceResult_double_Get_overlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRTriDist_8h_1a1c82340d7989fbe0f52501322e1c24a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a1c82340d7989fbe0f52501322e1c24a2" kindref="member">MR_TriTriDistanceResult_double_Set_overlap</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="MRTriDist_8h_1ad4cd15999f01055299cb6e7f543e14c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRTriDist_8h_1ad4cd15999f01055299cb6e7f543e14c4" kindref="member">MR_TriTriDistanceResult_double_GetMutable_overlap</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="MRTriDist_8h_1a76154d8763e1699a599b78dbe8dbc60d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a76154d8763e1699a599b78dbe8dbc60d" kindref="member">MR_TriTriDistanceResult_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRTriDist_8h_1a3e10511311cc4a3cc077796a74b05c18" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a3e10511311cc4a3cc077796a74b05c18" kindref="member">MR_TriTriDistanceResult_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRTriDist_8h_1a09c33198a70e6b858d8f1f27fdb9fcd8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a09c33198a70e6b858d8f1f27fdb9fcd8" kindref="member">MR_TriTriDistanceResult_double_ConstructFrom</ref>(<ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>a,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overlap);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="MRTriDist_8h_1a70fff9993f1b2d43b9b05d3a7dab2cee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a70fff9993f1b2d43b9b05d3a7dab2cee" kindref="member">MR_TriTriDistanceResult_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="MRTriDist_8h_1ae89e7cbae03da44aea1e77778a1c4fed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1ae89e7cbae03da44aea1e77778a1c4fed" kindref="member">MR_TriTriDistanceResult_double_OffsetMutablePtr</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRTriDist_8h_1a91b3c48df87258e880fd9084fa46bbf7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a91b3c48df87258e880fd9084fa46bbf7" kindref="member">MR_TriTriDistanceResult_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="MRTriDist_8h_1a805b729ae2bb3cd97d001515b7bf22bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a805b729ae2bb3cd97d001515b7bf22bb" kindref="member">MR_TriTriDistanceResult_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRTriDist_8h_1a7d5dcfc4bc147febaf0176615ce602c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a7d5dcfc4bc147febaf0176615ce602c5" kindref="member">MR_TriTriDistanceResult_double_AssignFromAnother</ref>(<ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="MRTriDist_8h_1a451487122aad8b839771cfbd3ac80e01" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*<ref refid="MRTriDist_8h_1a451487122aad8b839771cfbd3ac80e01" kindref="member">MR_findTriTriDistance_std_array_MR_Vector3f_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="MRTriDist_8h_1a5cd75e151c1d2659051328d32d1ff0c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/>*<ref refid="MRTriDist_8h_1a5cd75e151c1d2659051328d32d1ff0c3" kindref="member">MR_findTriTriDistance_std_array_MR_Vector3d_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal">MRC_DEPRECATED_REASON(</highlight><highlight class="stringliteral">&quot;Use<sp/>findDistance()<sp/>instead&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="363" refid="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" kindref="member">MR_triDist</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*q,<sp/>const<sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*s,<sp/>const<sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal">MRC_DEPRECATED_REASON(&quot;Use<sp/>findTwoLineSegmClosestPoints()<sp/>instead&quot;)</highlight></codeline>
+<codeline lineno="374" refid="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" kindref="member">MR_segPoints</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*VEC,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*X,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*Y,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*P,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*A,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*Q,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*B);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h"/>
   </compounddef>

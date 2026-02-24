@@ -11960,6 +11960,8 @@
     <member refid="classMR_1a7964ca3e5b3a73a51693acfb40f9d295" kind="function"><name>rayTriangleIntersect</name></member>
     <member refid="classMR_1a5b9d84d9d5c904cc0db8d9aeeebd919a" kind="function"><name>doTrianglesOverlap</name></member>
     <member refid="classMR_1aeb9face42f5462fbbfcaca4b84592a40" kind="function"><name>doTrianglesOverlap</name></member>
+    <member refid="classMR_1a49d7ee8a60c901f7cb3d2424ce40af5d" kind="function"><name>findTriTriDistance</name></member>
+    <member refid="classMR_1acd6705de62740d1f74f68affb10b0151" kind="function"><name>findTriTriDistance</name></member>
     <member refid="classMR_1a5deabeac137235334a845dd615a7a43c" kind="function"><name>triDist</name></member>
     <member refid="classMR_1a2c3c348aed536bce85261fa0f7822725" kind="function"><name>segPoints</name></member>
     <member refid="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" kind="function"><name>findTripleFaceIntersections</name></member>
@@ -17200,6 +17202,30 @@
     <member refid="classMR_1_1TriPointf_1a016ca1dabe179fac9c1bd3e55a4cbd73" kind="function"><name>TriPointf</name></member>
     <member refid="classMR_1_1TriPointf_1ab528626fcddc3893e782a473c1efac3e" kind="function"><name>TriPointf</name></member>
     <member refid="classMR_1_1TriPointf_1a6a8aabe92f2e67bfb882083f2c360728" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1TriTriDistanceResult__Double" kind="class"><name>MR::TriTriDistanceResult_Double</name>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1adf279b7e5e2d513333926fa0ddd70f62" kind="property"><name>a</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1a1f110790d0d0ea0fac71e6491bd27be0" kind="property"><name>b</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1aba05e48341bff4b60bbd496f1497209d" kind="property"><name>distSq</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1a34a85c84abeb100f5a652696cadfbaa5" kind="property"><name>overlap</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1a7ac52a68a308441d124b780162682826" kind="function"><name>TriTriDistanceResult_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1a19d3ae959a3b5521cc5c8e45898eb313" kind="function"><name>TriTriDistanceResult_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1a416e4c9210d8079204c4eff8d78cd879" kind="function"><name>TriTriDistanceResult_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1ab3526abe920a6e7540ab52fa4103e686" kind="function"><name>TriTriDistanceResult_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1a9fc23d9526aa775873d0b5ea9703a55e" kind="function"><name>TriTriDistanceResult_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Double_1abb52533c9fe7d97e391d2f667e1dcab9" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1TriTriDistanceResult__Float" kind="class"><name>MR::TriTriDistanceResult_Float</name>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a5961d1bd790a173bb905add1f1e0ad09" kind="property"><name>a</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a7c5379c3fac97bcb9198da6fcc4708df" kind="property"><name>b</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a4f7f9c65d23b941309a54cf75315209f" kind="property"><name>distSq</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1aba07788978c21c52f799bc3dc2d517b7" kind="property"><name>overlap</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a8b223452a7dbca78c47866f148e02669" kind="function"><name>TriTriDistanceResult_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a8c20946bb1e11c6c4e35597b38e92f7d" kind="function"><name>TriTriDistanceResult_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a49f47a96e273446c0bfcdc3103f9f3ef" kind="function"><name>TriTriDistanceResult_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1a364f6deaeb1507fe09941d874d96f280" kind="function"><name>TriTriDistanceResult_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1aeb49ceabcf37d294b93a281720a8fccc" kind="function"><name>TriTriDistanceResult_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceResult__Float_1ae549cc5137f72f7ec2e6e5852cd3c3ef" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1TrivialMetricToPenalty" kind="class"><name>MR::TrivialMetricToPenalty</name>
     <member refid="classMR_1_1TrivialMetricToPenalty_1afdb31327381ff976580e99b81718f584" kind="function"><name>TrivialMetricToPenalty</name></member>

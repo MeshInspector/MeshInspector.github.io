@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#a0e80c8ee5a26457aec9fc4094f35eeb0":[6,3,0,0,0,166,6],
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#a12a6ee7721be116ecf3a7c5707fbe73b":[6,3,0,0,0,166,2],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#a1336bd75958b55fa5e680b4877de7c8b":[6,3,0,0,0,166,1],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#a1377c4ec5de1b799f9db318967286e30":[6,3,0,0,0,166,5],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#a16b6496c22fd88fdebc5a0b655936bce":[6,3,0,0,0,166,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ChunkIterator.html":[6,3,0,0,0,193],
 "classMR_1_1ChunkIterator.html#a0404f64d5304553e1d6078d1838b8ac1":[6,3,0,0,0,193,1],
 "classMR_1_1ChunkIterator.html#a09b88432d8c951555b556c60d6773fbc":[6,3,0,0,0,193,2],
-"classMR_1_1ChunkIterator.html#a0e78dcb7eeb8852cc2e209e795484080":[6,3,0,0,0,193,3],
-"classMR_1_1ChunkIterator.html#a10c7ca60dcb510a6b3a393c704625199":[6,3,0,0,0,193,8],
-"classMR_1_1ChunkIterator.html#a61c979c805ab76bfe37b0f3927d6131d":[6,3,0,0,0,193,4]
+"classMR_1_1ChunkIterator.html#a0e78dcb7eeb8852cc2e209e795484080":[6,3,0,0,0,193,3]
 };

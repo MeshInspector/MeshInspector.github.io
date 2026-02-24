@@ -1308,6 +1308,8 @@ var hierarchy =
     [ "mrmeshpy.TrimWithPlaneParams", "classmrmeshpy_1_1TrimWithPlaneParams.html", null ],
     [ "mrmeshpy.TriPointd", "classmrmeshpy_1_1TriPointd.html", null ],
     [ "mrmeshpy.TriPointf", "classmrmeshpy_1_1TriPointf.html", null ],
+    [ "mrmeshpy.TriTriDistanceResult_double", "classmrmeshpy_1_1TriTriDistanceResult__double.html", null ],
+    [ "mrmeshpy.TriTriDistanceResult_float", "classmrmeshpy_1_1TriTriDistanceResult__float.html", null ],
     [ "mrmeshpy.GridSettings.TriType", "classmrmeshpy_1_1GridSettings_1_1TriType.html", null ],
     [ "mrmeshpy.TrivialMetricToPenalty", "classmrmeshpy_1_1TrivialMetricToPenalty.html", null ],
     [ "mrmeshpy.Turn", "classmrmeshpy_1_1Turn.html", null ],
