@@ -2440,6 +2440,7 @@ var classMR =
     [ "parseFirstNum", "classMR.html#a63bc825e61eba9f0d73095d13e2010fb", null ],
     [ "parsePolygon", "classMR.html#a590687549cc1c103e16b3636be3e510c", null ],
     [ "partialOffsetMesh", "classMR.html#aa27187b90e559803040ec098428714cb", null ],
+    [ "patchMesh", "classMR.html#ad577295ef33cf17ee466e4f4b3569ff2", null ],
     [ "planeMeshIntersect", "classMR.html#a4c71a4aaf9dee724ba0b0115706c9420", null ],
     [ "planeSectionsToContours2f", "classMR.html#ad685ad6e174e106301bcc9c78505301e", null ],
     [ "planeSectionToContour2f", "classMR.html#ae06ff67465e24d9a3a81a7c7b26e9e0c", null ],

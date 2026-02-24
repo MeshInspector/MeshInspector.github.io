@@ -11500,6 +11500,7 @@
     <member refid="classMR_1adf98ca5812a96f875f6b6233adc9545b" kind="function"><name>projectWorldPointOntoObject</name></member>
     <member refid="classMR_1a7b9391cb6319cef7907cdbc0ec6e8b9a" kind="function"><name>projectWorldPointOntoObjectsRecursive</name></member>
     <member refid="classMR_1a03492207be6dbd76f7eab7d2a2c4a08f" kind="function"><name>findOverhangs</name></member>
+    <member refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" kind="function"><name>patchMesh</name></member>
     <member refid="classMR_1a1b678b27b9acdd2acb802996f2fbd27b" kind="function"><name>createProjectionTransforms</name></member>
     <member refid="classMR_1a906956493509770ba6653c99a1403844" kind="function"><name>findProjection</name></member>
     <member refid="classMR_1af89d34cb4cb90f3930522492edf97900" kind="function"><name>findProjectionSubtree</name></member>
@@ -21167,6 +21168,8 @@
   <compound refid="MRMeshOverhangs_8cs" kind="file"><name>MRMeshOverhangs.cs</name>
   </compound>
   <compound refid="MRMeshPart_8cs" kind="file"><name>MRMeshPart.cs</name>
+  </compound>
+  <compound refid="MRMeshPatch_8cs" kind="file"><name>MRMeshPatch.cs</name>
   </compound>
   <compound refid="MRMeshProject_8cs" kind="file"><name>MRMeshProject.cs</name>
   </compound>

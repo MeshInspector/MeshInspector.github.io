@@ -2247,6 +2247,7 @@ var namespacemrmeshpy =
     [ "parseFirstNum", "namespacemrmeshpy.html#afda97c8c781983e28d88ada4c342ff89", null ],
     [ "parsePolygon", "namespacemrmeshpy.html#a6b7a835fa14dad27c18d770f608a5a1f", null ],
     [ "partialOffsetMesh", "namespacemrmeshpy.html#af47b7cfa76a93015bab4b5bc92991f8e", null ],
+    [ "patchMesh", "namespacemrmeshpy.html#aa38742913ff40b0a2fd57a2c116e7967", null ],
     [ "planeMeshIntersect", "namespacemrmeshpy.html#af9d04fb2b96793e7836465aaecda26dc", null ],
     [ "planeSectionsToContours2f", "namespacemrmeshpy.html#a708163d2b34e9c30f835b470ccb7f27b", null ],
     [ "planeSectionToContour2f", "namespacemrmeshpy.html#aa6d6a55e247fe40ffc1405e658056061", null ],

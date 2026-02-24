@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"classMR_1_1WeightedShell.html#ad8babcfcf4a060f9f9099d5063f06462":[6,3,0,0,0,968,8],
+"classMR_1_1WeightedShell.html#ae3595b4bcd950272f4aa52f03f698052":[6,3,0,0,0,968,7],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,3,0,0,0,968,0],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a0c22f38220e879d0bcd2cb86ae4f849d":[6,3,0,0,0,968,0,0],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a2802283c32fa712993fa8288b1958dac":[6,3,0,0,0,968,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1AffineXf2f.html#ab4e8e68b730d12f1738d167d515c3e6d":[6,3,0,0,0,20,11],
 "structMR_1_1AffineXf2f.html#ababcd902ada4a04a936021324d78ef0d":[6,3,0,0,0,20,16],
 "structMR_1_1AffineXf2f.html#ac45a936935b7edbd6604559e20077f2c":[6,3,0,0,0,20,9],
-"structMR_1_1AffineXf2f.html#ace4548b3b4dbe382235be5c3666c6883":[6,3,0,0,0,20,4],
-"structMR_1_1AffineXf2f.html#ad1abc8dcba032c2e4cfcf8b3831d252d":[6,3,0,0,0,20,1],
-"structMR_1_1AffineXf2f.html#ad7087522e0fae8e617c55df4f4e882c9":[6,3,0,0,0,20,6]
+"structMR_1_1AffineXf2f.html#ace4548b3b4dbe382235be5c3666c6883":[6,3,0,0,0,20,4]
 };

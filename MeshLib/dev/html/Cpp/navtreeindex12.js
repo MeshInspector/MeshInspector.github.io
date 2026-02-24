@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1SceneSettings.html":[6,0,0,20,450],
+"classMR_1_1SceneStateAndCheck.html":[6,0,0,20,670],
 "classMR_1_1SceneStateAtLeastCheck.html":[6,0,0,20,666],
 "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html":[6,0,0,20,668],
 "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html":[6,0,0,20,667],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1UniqueThreadSafeOwner.html#aac40ad5a280f9942e61b59df3599969d":[6,0,0,20,320,2],
 "classMR_1_1UniqueThreadSafeOwner.html#ad67258a7a3b8aeb188de6494661b2298":[6,0,0,1,37,9],
 "classMR_1_1UniqueThreadSafeOwner.html#ad67258a7a3b8aeb188de6494661b2298":[6,0,0,20,320,9],
-"classMR_1_1UniqueThreadSafeOwner.html#af22ff27ea4145d05864f9c70b8d4b355":[6,0,0,1,37,1],
-"classMR_1_1UniqueThreadSafeOwner.html#af22ff27ea4145d05864f9c70b8d4b355":[6,0,0,20,320,1],
-"classMR_1_1Vector.html":[6,0,0,3,16]
+"classMR_1_1UniqueThreadSafeOwner.html#af22ff27ea4145d05864f9c70b8d4b355":[6,0,0,1,37,1]
 };

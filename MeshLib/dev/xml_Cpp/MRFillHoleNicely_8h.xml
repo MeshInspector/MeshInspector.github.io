@@ -5,6 +5,7 @@
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMeshFillHole_8h" local="yes">MRMeshFillHole.h</includes>
     <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
+    <includedby refid="MRMeshPatch_8h" local="yes">MRMeshPatch.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -180,6 +181,18 @@
         <label>vector</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRFillHoleNicely.h</label>
+        <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshPatch.h</label>
+        <link refid="MRMeshPatch_8h"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="structMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
     <innerclass refid="structMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="structMR_1_1OutAttributesFillingSettings" prot="public">MR::OutAttributesFillingSettings</innerclass>

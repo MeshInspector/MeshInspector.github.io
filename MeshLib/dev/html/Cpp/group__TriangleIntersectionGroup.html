@@ -417,7 +417,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTriangleIntersection_8h.html">MRTriangleIntersection.h</a>&gt;</code></p>
-<p>checks whether triangles ABC and DEF intersect returns false if ABC and DEF are coplanar </p>
+<p>checks whether triangles ABC and DEF intersect returns false if ABC and DEF are coplanar; due to floating-point errors inside, the result can be wrong in case of various degenerations of input triangles, please consider using <a class="el" href="group__GeneralGroup.html#gaa6469f955ace9c075254c44fa826749c">findTriTriDistance</a> function instead that is more tolerant to floating-point errors </p>
 <p>triangle ABC is degenerate</p>
 <p>triangle DEF is degenerate</p>
 <p>segment DE is located at one side of the plane ABC</p>
@@ -479,7 +479,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTriangleIntersection_8h.html">MRTriangleIntersection.h</a>&gt;</code></p>
-<p>checks whether triangles ABC and DEF intersect; performs more checks to avoid false positives of simple doTrianglesIntersect </p>
+<p>checks whether triangles ABC and DEF intersect; it is designed to resolve false positives from <a class="el" href="#ga356b1104c8bddd98afba39fcbe5ee803">doTrianglesIntersect</a> function when two triangles are far apart but in one plane; please consider using <a class="el" href="group__GeneralGroup.html#gaa6469f955ace9c075254c44fa826749c">findTriTriDistance</a> function instead that is more tolerant to floating-point errors </p>
 <p>direction from center to center</p>
 
 </div>

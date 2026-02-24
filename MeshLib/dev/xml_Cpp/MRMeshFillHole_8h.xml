@@ -171,12 +171,18 @@
       <node id="2">
         <label>MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMeshFillHole.h</label>
         <link refid="MRMeshFillHole_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshPatch.h</label>
+        <link refid="MRMeshPatch_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1FillHoleParams" prot="public">MR::FillHoleParams</innerclass>

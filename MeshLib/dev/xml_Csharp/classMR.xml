@@ -20683,7 +20683,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points Generated from function <computeroutput><ref refid="classMR_1a5deaa5a8ef44bf6685c067e96db46668" kindref="member">MR.findDistance</ref></computeroutput>. Parameter <computeroutput>upDistLimitSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+<para>upper limit on the distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points Generated from function <computeroutput><ref refid="classMR_1a5deaa5a8ef44bf6685c067e96db46668" kindref="member">MR.findDistance</ref></computeroutput>. Parameter <computeroutput>upDistLimitSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -20734,7 +20734,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the positive distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points Generated from function <computeroutput><ref refid="classMR_1af11021efa4a8fbedde739d07af5b8cc5" kindref="member">MR.findSignedDistance</ref></computeroutput>. Parameter <computeroutput>upDistLimitSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+<para>upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points Generated from function <computeroutput><ref refid="classMR_1af11021efa4a8fbedde739d07af5b8cc5" kindref="member">MR.findSignedDistance</ref></computeroutput>. Parameter <computeroutput>upDistLimitSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -21479,6 +21479,52 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="338" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="338" bodyend="346"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.patchMesh</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_FaceBitSet patchBS, MR.Const_FillHoleNicelySettings? settings=null)</argsstring>
+        <name>patchMesh</name>
+        <qualifiedname>MR.patchMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>patchBS</declname>
+        </param>
+        <param>
+          <type>MR.Const_FillHoleNicelySettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>removes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>patchBS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>from</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>and fills it with new triangulation using \params settings if &apos;settings.subdivideSettings.maxEdgeLen&apos; &lt;= 0 uses patch boundary average edge length * 1.5f returns new faces Generated from function <computeroutput><ref refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" kindref="member">MR.patchMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" line="10" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a1b678b27b9acdd2acb802996f2fbd27b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MR.MeshProjectionTransforms</ref></type>
         <definition>static unsafe MR.MeshProjectionTransforms MR.createProjectionTransforms</definition>
@@ -21582,7 +21628,7 @@ Generated from function <computeroutput><ref refid="classMR_1a1b678b27b9acdd2acb
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </para>
+<para>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -21684,7 +21730,7 @@ Generated from function <computeroutput><ref refid="classMR_1a1b678b27b9acdd2acb
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </para>
+<para>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -27602,7 +27648,7 @@ Generated from function <computeroutput><ref refid="classMR_1a187ea37e366c7a20d5
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </para>
+<para>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -27684,7 +27730,7 @@ Generated from function <computeroutput><ref refid="classMR_1a187ea37e366c7a20d5
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </para>
+<para>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -42242,6 +42288,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a63bc825e61eba9f0d73095d13e2010fb" prot="public" virt="non-virtual"><scope>MR</scope><name>parseFirstNum</name></member>
       <member refid="classMR_1a590687549cc1c103e16b3636be3e510c" prot="public" virt="non-virtual"><scope>MR</scope><name>parsePolygon</name></member>
       <member refid="classMR_1aa27187b90e559803040ec098428714cb" prot="public" virt="non-virtual"><scope>MR</scope><name>partialOffsetMesh</name></member>
+      <member refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" prot="public" virt="non-virtual"><scope>MR</scope><name>patchMesh</name></member>
       <member refid="classMR_1af7e53b952434f8c498abce670fa14aae" prot="public" virt="non-virtual"><scope>MR</scope><name>PathError</name></member>
       <member refid="classMR_1a743e44071d03602617e933180226f550" prot="public" virt="non-virtual"><scope>MR</scope><name>PdfBuildinFont</name></member>
       <member refid="classMR_1a36f1edc43c5407065858904e1ca05008" prot="public" virt="non-virtual"><scope>MR</scope><name>PixelSizeUnit</name></member>

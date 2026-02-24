@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1DistanceMeasurementObject.html#a2e0015bc72c7521dab25a5929f4d2e93":[6,3,0,0,0,308,36],
+"classMR_1_1DistanceMeasurementObject.html#a2f20751438c8e5e402a8384b75df3f36":[6,3,0,0,0,308,26],
 "classMR_1_1DistanceMeasurementObject.html#a33adb5b6af7b1305603b6224ecc2485d":[6,3,0,0,0,308,40],
 "classMR_1_1DistanceMeasurementObject.html#a3718515ed5a5cc3741697ecf9064a04c":[6,3,0,0,0,308,23],
 "classMR_1_1DistanceMeasurementObject.html#a3970bb55f9b77768f2a5fb47d62e882a":[6,3,0,0,0,308,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a2373698c9cf45843446c28cee7817ebb":[6,3,0,0,0,322,2],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a3aeef77a65d13b1624430f74d02982dd":[6,3,0,0,0,322,4],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a463836bfe43fc15ca1cee315d1ad2294":[6,3,0,0,0,322,5],
-"classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a47132c9775cf57b1dd51021d0174bda1":[6,3,0,0,0,322,1],
-"classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a7b202808163d3dd5d9eb8cd6443dc60f":[6,3,0,0,0,322,8],
-"classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#aa0d4b7ae7640ad7bae71bbac0124eafc":[6,3,0,0,0,322,0]
+"classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a47132c9775cf57b1dd51021d0174bda1":[6,3,0,0,0,322,1]
 };

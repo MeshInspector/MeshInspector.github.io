@@ -186,6 +186,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRMeshOrPointsObject.cs", "MRMeshOrPointsObject_8cs.html", "MRMeshOrPointsObject_8cs" ],
     [ "MRMeshOverhangs.cs", "MRMeshOverhangs_8cs.html", "MRMeshOverhangs_8cs" ],
     [ "MRMeshPart.cs", "MRMeshPart_8cs.html", "MRMeshPart_8cs" ],
+    [ "MRMeshPatch.cs", "MRMeshPatch_8cs.html", "MRMeshPatch_8cs" ],
     [ "MRMeshProject.cs", "MRMeshProject_8cs.html", "MRMeshProject_8cs" ],
     [ "MRMeshRelax.cs", "MRMeshRelax_8cs.html", "MRMeshRelax_8cs" ],
     [ "MRMeshReplicate.cs", "MRMeshReplicate_8cs.html", "MRMeshReplicate_8cs" ],

@@ -186,6 +186,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRMeshOrPointsObject.h", "MRMeshOrPointsObject_8h.html", "MRMeshOrPointsObject_8h" ],
     [ "MRMeshOverhangs.h", "MRMeshOverhangs_8h.html", "MRMeshOverhangs_8h" ],
     [ "MRMeshPart.h", "MRMeshPart_8h.html", "MRMeshPart_8h" ],
+    [ "MRMeshPatch.h", "MRMeshPatch_8h.html", "MRMeshPatch_8h" ],
     [ "MRMeshProject.h", "MRMeshProject_8h.html", "MRMeshProject_8h" ],
     [ "MRMeshRelax.h", "MRMeshRelax_8h.html", "MRMeshRelax_8h" ],
     [ "MRMeshReplicate.h", "MRMeshReplicate_8h.html", "MRMeshReplicate_8h" ],

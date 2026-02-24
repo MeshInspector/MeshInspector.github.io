@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR_1_1VoxelsSave.html#aca5f59835f2efa7a8c951100ff32aef3":[6,0,1,0,1,48,18],
+"namespaceMR_1_1VoxelsSave.html#ace76e677d22f184c1690891c1f7f1733":[6,0,1,0,1,48,17],
+"namespaceMR_1_1VoxelsSave.html#adab85b9bc199dbc4168a30c1aaec5c67":[6,0,1,0,1,48,3],
 "namespaceMR_1_1VoxelsSave.html#ae97a9649f728491374a52c4f5822d109":[6,0,1,0,1,48,8],
 "namespaceMR_1_1VoxelsSave.html#af82f8c5775c7abc303399c0fdf9d8de5":[6,0,1,0,1,48,19],
 "namespaceMR_1_1VoxelsSave.html#afeecbc4eab76803974501a46e51234d6":[6,0,1,0,1,48,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[6,0,0,8,0,0,3],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[6,0,0,8,0,0,0],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[6,0,0,8,0,0,1],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803":[6,0,0,8,0,0,2],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[6,0,0,8,0,0,4],
-"structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,94]
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[6,0,0,8,0,0,1]
 };

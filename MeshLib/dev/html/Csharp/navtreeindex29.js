@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a7b202808163d3dd5d9eb8cd6443dc60f":[6,3,0,0,0,322,8],
+"classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#aa0d4b7ae7640ad7bae71bbac0124eafc":[6,3,0,0,0,322,0],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#aa510fa8ba0c864bdc58b314c92bde300":[6,3,0,0,0,322,7],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#acb050f90ea6e6d58a6016eae306576c1":[6,3,0,0,0,322,9],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#ad896daa77e2a000d966606c52f18f62c":[6,3,0,0,0,322,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1FaceColorMapAggregator.html#afadb0c11dcbaf0b951db432cc365ec71":[6,3,0,0,0,338,1],
 "classMR_1_1FaceColors.html":[6,3,0,0,0,339],
 "classMR_1_1FaceColors.html#a04a09126829f543d258548a5861612af":[6,3,0,0,0,339,17],
-"classMR_1_1FaceColors.html#a0730cc078adfd5d9b8dfd596468635bc":[6,3,0,0,0,339,23],
-"classMR_1_1FaceColors.html#a1956a01724e81d4a827fddc2e9339ec9":[6,3,0,0,0,339,22],
-"classMR_1_1FaceColors.html#a1efc3c58b9efa3de8dcc74321c8d952f":[6,3,0,0,0,339,7]
+"classMR_1_1FaceColors.html#a0730cc078adfd5d9b8dfd596468635bc":[6,3,0,0,0,339,23]
 };

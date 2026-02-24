@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a37b0bf2cf4c042ffe4a78515e1678539":[6,0,0,19,0,1,1],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a636d67f78f166efbfe9ac18cc9d0d530":[6,0,0,19,0,1,2],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[6,0,0,19,0,1,3],
 "structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
 "structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
 "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
 "structMR_1_1PointInAllSpaces.html":[6,0,0,20,582],
-"structMR_1_1PointOnFace.html":[6,0,0,20,405],
-"structMR_1_1PointOnObject.html":[6,0,0,20,406],
-"structMR_1_1PointPair.html":[6,0,0,20,253],
-"structMR_1_1PointPairs.html":[6,0,0,20,255]
+"structMR_1_1PointOnFace.html":[6,0,0,20,405]
 };

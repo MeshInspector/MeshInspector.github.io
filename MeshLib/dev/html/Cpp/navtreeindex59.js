@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803":[6,0,0,8,0,0,2],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[6,0,0,8,0,0,4],
+"structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,94],
 "structMR_1_1BooleanResultPoints.html":[6,0,2,0,2,76],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,94,2],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,2,76,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1EmbeddedStructureParameters.html":[6,0,0,20,190],
 "structMR_1_1EndMillCutter.html":[6,0,0,20,191],
 "structMR_1_1EndMillTool.html":[6,0,0,20,192],
-"structMR_1_1FaceDistancesSettings.html":[6,0,0,20,195],
-"structMR_1_1FaceFace.html":[6,0,0,1,12],
-"structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f":[6,0,0,1,12,2],
-"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[6,0,0,1,12,1]
+"structMR_1_1FaceDistancesSettings.html":[6,0,0,20,195]
 };

@@ -223,6 +223,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshOrPointsObject.h", "MRMeshOrPointsObject_8h.html", null ],
     [ "MRMeshOverhangs.h", "MRMeshOverhangs_8h.html", "MRMeshOverhangs_8h" ],
     [ "MRMeshPart.h", "MRMeshPart_8h.html", null ],
+    [ "MRMeshPatch.h", "MRMeshPatch_8h.html", "MRMeshPatch_8h" ],
     [ "MRMeshProject.h", "MRMeshProject_8h.html", "MRMeshProject_8h" ],
     [ "MRMeshRelax.h", "MRMeshRelax_8h.html", "MRMeshRelax_8h" ],
     [ "MRMeshReplicate.h", "MRMeshReplicate_8h.html", "MRMeshReplicate_8h" ],

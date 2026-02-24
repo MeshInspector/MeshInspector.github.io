@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1SliceInfoBase.html":[6,0,0,20,817],
+"structMR_1_1SmoothFillingSettings.html":[6,0,0,20,232],
+"structMR_1_1SomeLocalTriangulations.html":[6,0,0,20,290],
 "structMR_1_1SortIntersectionsData.html":[6,0,0,20,378],
 "structMR_1_1SpaceMouseDownListener.html":[6,0,0,20,747],
 "structMR_1_1SpaceMouseMoveListener.html":[6,0,0,20,746],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,1,0,1,44,2,4,1,0],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,2,0,2,28,0,4,1,0],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a39c3a6f5e5ed4c98cd30335902726b92":[6,0,1,0,1,44,2,4,1,2],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a39c3a6f5e5ed4c98cd30335902726b92":[6,0,2,0,2,28,0,4,1,2],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a75052a15d9676e842bbd866aa32fa037":[6,0,1,0,1,44,2,4,1,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a75052a15d9676e842bbd866aa32fa037":[6,0,2,0,2,28,0,4,1,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#ae87e1750cabd4b10198e82ed353eb4f1":[6,0,1,0,1,44,2,4,1,1]
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a39c3a6f5e5ed4c98cd30335902726b92":[6,0,2,0,2,28,0,4,1,2]
 };

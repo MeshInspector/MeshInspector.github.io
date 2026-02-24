@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1PointToPlaneAligningTransform.html#a4eb5e463d55efd8dafb0a8b5072b36b5":[6,0,0,0,8,1,2],
+"classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58":[6,0,0,0,8,1,9],
 "classMR_1_1PointToPlaneAligningTransform.html#a96303d3a4594c31c1b4db090f1d48043":[6,0,0,0,8,1,3],
 "classMR_1_1PointToPlaneAligningTransform.html#aa73beee9c704c6383e28a4f2ef68f1f9":[6,0,0,0,8,1,0],
 "classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347":[6,0,0,0,8,1,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1SceneRootObject.html":[6,0,0,20,448],
 "classMR_1_1SceneSelectionChangeClose.html":[6,0,0,20,659],
 "classMR_1_1SceneSelectionChangeRestart.html":[6,0,0,20,660],
-"classMR_1_1SceneSettings.html":[6,0,0,18,3],
-"classMR_1_1SceneSettings.html":[6,0,0,20,450],
-"classMR_1_1SceneStateAndCheck.html":[6,0,0,20,670]
+"classMR_1_1SceneSettings.html":[6,0,0,18,3]
 };

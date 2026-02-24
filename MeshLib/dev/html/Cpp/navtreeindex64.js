@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PointOnObject.html":[6,0,0,20,406],
+"structMR_1_1PointPair.html":[6,0,0,20,253],
+"structMR_1_1PointPairs.html":[6,0,0,20,255],
 "structMR_1_1PointsLoadSettings.html":[6,0,0,20,407],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[6,0,1,0,1,30,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[6,0,2,0,2,18,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459":[6,0,0,3,12,0],
 "structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[6,0,0,3,12,2],
 "structMR_1_1SkyPatch.html":[6,0,0,20,456],
-"structMR_1_1SliceInfo.html":[6,0,0,20,818],
-"structMR_1_1SliceInfoBase.html":[6,0,0,20,817],
-"structMR_1_1SmoothFillingSettings.html":[6,0,0,20,232],
-"structMR_1_1SomeLocalTriangulations.html":[6,0,0,20,290]
+"structMR_1_1SliceInfo.html":[6,0,0,20,818]
 };

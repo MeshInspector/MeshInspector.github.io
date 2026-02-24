@@ -136,6 +136,8 @@
       <node id="3">
         <label>MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRMeshFillHole.h</label>
@@ -148,6 +150,10 @@
         <link refid="MRMeshMetrics_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>MRMeshPatch.h</label>
+        <link refid="MRMeshPatch_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1FillHoleMetric" prot="public">MR::FillHoleMetric</innerclass>

@@ -767,7 +767,7 @@ Functions</h2></td></tr>
 <p>computes the closest point on point cloud to given point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </td></tr>
     <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">skipCb</td><td>callback to discard VertId projection candidate Generated from function <code>MR::findProjectionOnPoints</code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>pcp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>skipCb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
@@ -829,7 +829,7 @@ Functions</h2></td></tr>
 <p>computes the closest point on AABBTreePoints to given point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </td></tr>
     <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">region</td><td>if not nullptr, all points not from the given region will be ignored </td></tr>
