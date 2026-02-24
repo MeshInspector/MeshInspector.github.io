@@ -4354,6 +4354,12 @@ var group__GeneralGroup =
       [ "distSq", "group__GeneralGroup.html#ga254fa3cf488a854853a6b959c1abb8e4", null ],
       [ "overlap", "group__GeneralGroup.html#ga7b9368c23e58b3e92e87a03f3cd2d701", null ]
     ] ],
+    [ "MR::TriTriDistanceParams< T >", "structMR_1_1TriTriDistanceParams.html", [
+      [ "canExitEarlier", "group__GeneralGroup.html#ga6df4c26e656105a5ccfaafa11c449171", null ],
+      [ "canExitEarlier", "group__GeneralGroup.html#ga745b2861e9d719b9e27aa41804bdda11", null ],
+      [ "upDistLimitSq", "group__GeneralGroup.html#ga4c75a2d0e0280a86b4ec6f5f09d69d3e", null ],
+      [ "upLimitCheck", "group__GeneralGroup.html#ga76e2b79a6d1aacb9cb96489b3f725b01", null ]
+    ] ],
     [ "MR::TriMesh", "structMR_1_1TriMesh.html", [
       [ "points", "group__GeneralGroup.html#ga2819cf8b07b6ca5bccb45dd61d9d7f9d", null ],
       [ "tris", "group__GeneralGroup.html#ga1063845cc2871f7dcae178304213db81", null ]
@@ -8955,6 +8961,8 @@ var group__GeneralGroup =
     [ "MR::Triangle3f", "group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf", null ],
     [ "MR::Triangle3i", "group__GeneralGroup.html#ga712806ee9f8b1b9a53133ddba57f7da7", null ],
     [ "MR::TrianglesRepetitions", "group__GeneralGroup.html#ga2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
+    [ "MR::TriTriDistanceParamsd", "group__GeneralGroup.html#ga76982b24cc7c5ea26c870ff223e08493", null ],
+    [ "MR::TriTriDistanceParamsf", "group__GeneralGroup.html#ga74b84c1e75186c097b95643711a4c6c4", null ],
     [ "MR::TriTriDistanceResultd", "group__GeneralGroup.html#ga307f773bda9a64426a2d85875a9f7241", null ],
     [ "MR::TriTriDistanceResultf", "group__GeneralGroup.html#ga9b40642439b0e49df514a79a4cc26a55", null ],
     [ "MR::TwoLineSegmClosestPointsd", "group__GeneralGroup.html#ga37603199e9b0e5eb2e0cdbe36a2b315d", null ],
@@ -9985,6 +9993,10 @@ var group__GeneralGroup =
       [ "MR::Pdf::ImageParams::UniformScale::FromHeight", "group__GeneralGroup.html#ggac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406", null ],
       [ "MR::Pdf::ImageParams::UniformScale::Auto", "group__GeneralGroup.html#ggac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb", null ]
     ] ],
+    [ "MR::UpLimitCheck", "group__GeneralGroup.html#ga44bd35b44ad13ba0a8968ae8260539cd", [
+      [ "MR::UpLimitCheck::GreaterOrEqual", "group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda6f2f0aefb3d22da0f3839453add5f937", null ],
+      [ "MR::UpLimitCheck::Greater", "group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda8768a6821cd735aea4f5b0df88c1fc6a", null ]
+    ] ],
     [ "MR::UseAABBTree", "group__GeneralGroup.html#gafb67fe49bcb6006882e7b08e51b2eeff", [
       [ "MR::UseAABBTree::No", "group__GeneralGroup.html#ggafb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
       [ "MR::UseAABBTree::Yes", "group__GeneralGroup.html#ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
@@ -10557,6 +10569,8 @@ var group__GeneralGroup =
     [ "MR::MoveObjectByMouseImpl::cancel", "group__GeneralGroup.html#ga68ec037621662887baaa9c63759afcb9", null ],
     [ "MR::Historian::cancelAction", "group__GeneralGroup.html#ga7ab42ff05c89ab745c7cc2aec2b023db", null ],
     [ "MR::ImGuiMenu::UiRenderManagerImpl::canConsumeEvent", "group__GeneralGroup.html#gaa40348ce85a4b0c87fffec966a71d952", null ],
+    [ "MR::TriTriDistanceParams::canExitEarlier", "group__GeneralGroup.html#ga6df4c26e656105a5ccfaafa11c449171", null ],
+    [ "MR::TriTriDistanceParams::canExitEarlier", "group__GeneralGroup.html#ga745b2861e9d719b9e27aa41804bdda11", null ],
     [ "MR::canMinimizePolynomial", "group__GeneralGroup.html#ga074ffc418d95b187b57843611aef56d6", null ],
     [ "MR::MeshTriPoint::canonical", "group__GeneralGroup.html#ga8bf3926a4f57460a30d2012e2bb862fc", null ],
     [ "MR::canSolvePolynomial", "group__GeneralGroup.html#ga28db3c5e8ff0f5fe41f51c8376480d75", null ],
@@ -11538,8 +11552,8 @@ var group__GeneralGroup =
     [ "MR::findTriangleSegmentIntersectionPrecise", "group__GeneralGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
     [ "MR::findTriExitPos", "group__GeneralGroup.html#ga50ad07fcc0f878c660e360bb5e342d0a", null ],
     [ "MR::findTripleFaceIntersections", "group__GeneralGroup.html#ga4c8a5717e585b662ba95f0a28e8cdf49", null ],
-    [ "MR::findTriTriDistance", "group__GeneralGroup.html#ga4733836a4778c54f7a8678486bb5648c", null ],
-    [ "MR::findTriTriDistance", "group__GeneralGroup.html#gaa6469f955ace9c075254c44fa826749c", null ],
+    [ "MR::findTriTriDistance", "group__GeneralGroup.html#gaac4ce716b1bcfe02acfd83cf06380768", null ],
+    [ "MR::findTriTriDistance", "group__GeneralGroup.html#gaac3443060426dd9845f9a0a5ce1967bc", null ],
     [ "MR::findTwinEdgePairs", "group__GeneralGroup.html#gad6fbfaa55add0cfefe87b27dfd6c9427", null ],
     [ "MR::findTwinEdges", "group__GeneralGroup.html#gaa3c6e2ebbe054249a9169f7c85a99528", null ],
     [ "MR::findTwinEdges", "group__GeneralGroup.html#gad5db1de53913184f447e3f8a25350ae3", null ],
@@ -17773,6 +17787,8 @@ var group__GeneralGroup =
     [ "MR::ViewportGL::ScaledPickRes::updatedBox", "group__GeneralGroup.html#ga224b86e0fc476df4cd60410f71f7d516", null ],
     [ "MR::FixUndercuts::FindParams::upDirection", "group__GeneralGroup.html#gae2c7f6104befccb90b1d399429ba991a", null ],
     [ "MR::MeshProjectionParameters::upDistLimitSq", "group__GeneralGroup.html#ga93e080458c496f555a43b92f40f7e547", null ],
+    [ "MR::TriTriDistanceParams::upDistLimitSq", "group__GeneralGroup.html#ga4c75a2d0e0280a86b4ec6f5f09d69d3e", null ],
+    [ "MR::TriTriDistanceParams::upLimitCheck", "group__GeneralGroup.html#ga76e2b79a6d1aacb9cb96489b3f725b01", null ],
     [ "MR::OffsetContoursOrigins::uRatio", "group__GeneralGroup.html#gabafa00798fb1314aef0b80b10f1db15e", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo::uRatio", "group__GeneralGroup.html#ga486648a6478caadcce4b7e8b5ccfe262", null ],
     [ "MR::UniteManyMeshesParams::useRandomShifts", "group__GeneralGroup.html#gad905aa665d2879e62cb41d03eb580eab", null ],

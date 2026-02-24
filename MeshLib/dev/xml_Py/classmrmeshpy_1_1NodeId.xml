@@ -592,7 +592,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NodeId
-Aliases:  Vector_NodeId_NodeId.const_reference, TypedBitSet_NodeId_IndexType, Vector_NodeId_NodeId.value_type, Vector_NodeId_NodeId.reference
+Aliases:  Vector_NodeId_NodeId.value_type, TypedBitSet_NodeId_IndexType, Vector_NodeId_NodeId.const_reference, Vector_NodeId_NodeId.reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriTriDistanceParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriTriDistanceParams</compoundname>
+    <includes refid="MRTriDist_8h" local="no">MRTriDist.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4c75a2d0e0280a86b4ec6f5f09d69d3e" kind="variable"><name>upDistLimitSq</name></member>
+      <member refid="group__GeneralGroup_1ga76e2b79a6d1aacb9cb96489b3f725b01" kind="variable"><name>upLimitCheck</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga6df4c26e656105a5ccfaafa11c449171" kind="function"><name>canExitEarlier</name></member>
+      <member refid="group__GeneralGroup_1ga745b2861e9d719b9e27aa41804bdda11" kind="function"><name>canExitEarlier</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriDist.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriDist.h" bodystart="42" bodyend="59"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6df4c26e656105a5ccfaafa11c449171" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams</scope><name>canExitEarlier</name></member>
+      <member refid="group__GeneralGroup_1ga745b2861e9d719b9e27aa41804bdda11" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams</scope><name>canExitEarlier</name></member>
+      <member refid="group__GeneralGroup_1ga4c75a2d0e0280a86b4ec6f5f09d69d3e" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams</scope><name>upDistLimitSq</name></member>
+      <member refid="group__GeneralGroup_1ga76e2b79a6d1aacb9cb96489b3f725b01" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams</scope><name>upLimitCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

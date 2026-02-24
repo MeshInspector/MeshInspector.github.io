@@ -1,5 +1,8 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1PointsToMeshParameters.html#aad07539810301017bebf8d996fc64bd9":[6,3,0,0,0,667,2],
+"classMR_1_1PointsToMeshParameters.html#af0f8c78fe86d196cb36164132d7ea88e":[6,3,0,0,0,667,11],
+"classMR_1_1PointsToMeshParameters.html#affb338bbb532625c6377d3a5c08059b8":[6,3,0,0,0,667,8],
 "classMR_1_1PointsToMeshProjector.html":[6,3,0,0,0,668],
 "classMR_1_1PointsToMeshProjector.html#a0af5d32bde4db88d396b14d034a34f90":[6,3,0,0,0,668,1],
 "classMR_1_1PointsToMeshProjector.html#a2729f1c4ba34ebee45dc2ccf5cd3ea8c":[6,3,0,0,0,668,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Polynomial__Double__1.html#a16d0d4bd90305b741f6aab536706bcde":[6,3,0,0,0,689,1],
 "classMR_1_1Polynomial__Double__1.html#aa5cecb875a1d9b97dcc57fb4ce64c427":[6,3,0,0,0,689,0],
 "classMR_1_1Polynomial__Double__1.html#acd8d1043698b8261298f993f347ffb79":[6,3,0,0,0,689,4],
-"classMR_1_1Polynomial__Double__1.html#ad6ae465dba55024313acba2a0989c0e4":[6,3,0,0,0,689,3],
-"classMR_1_1Polynomial__Double__1.html#adcef1b4eeec65e6469d9f83730deef84":[6,3,0,0,0,689,2],
-"classMR_1_1Polynomial__Double__2.html":[6,3,0,0,0,690],
-"classMR_1_1Polynomial__Double__2.html#a0a1ca9efbef29c93c6ee400d25c8e739":[6,3,0,0,0,690,3]
+"classMR_1_1Polynomial__Double__1.html#ad6ae465dba55024313acba2a0989c0e4":[6,3,0,0,0,689,3]
 };

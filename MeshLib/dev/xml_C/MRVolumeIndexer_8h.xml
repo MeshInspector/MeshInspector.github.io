@@ -63,10 +63,10 @@
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ae20f61ace0e4dd747e791268dfb1b749" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388ae20f61ace0e4dd747e791268dfb1b749" prot="public">
           <name>MR_OutEdge_Invalid</name>
           <initializer>= -1</initializer>
           <briefdescription>
@@ -74,7 +74,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a5d76cb9691050cfc82f61d9d3a594868" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a5d76cb9691050cfc82f61d9d3a594868" prot="public">
           <name>MR_OutEdge_PlusZ</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -82,7 +82,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a625374dd4a579739bd4303e8e4c5c6d1" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a625374dd4a579739bd4303e8e4c5c6d1" prot="public">
           <name>MR_OutEdge_MinusZ</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -90,7 +90,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a7b070bf11e7642ac0f9d0033a0b82e1a" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a7b070bf11e7642ac0f9d0033a0b82e1a" prot="public">
           <name>MR_OutEdge_PlusY</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -98,7 +98,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57af8caf63972f5ce541e67ef04ca2dcdf3" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388af8caf63972f5ce541e67ef04ca2dcdf3" prot="public">
           <name>MR_OutEdge_MinusY</name>
           <initializer>= 3</initializer>
           <briefdescription>
@@ -106,7 +106,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ad36e52301b250140311827a65071830e" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388ad36e52301b250140311827a65071830e" prot="public">
           <name>MR_OutEdge_PlusX</name>
           <initializer>= 4</initializer>
           <briefdescription>
@@ -114,7 +114,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a6fb3759be5c853b5e7e8dc63d364a1a4" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a6fb3759be5c853b5e7e8dc63d364a1a4" prot="public">
           <name>MR_OutEdge_MinusX</name>
           <initializer>= 5</initializer>
           <briefdescription>
@@ -122,7 +122,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a09a2e381c93ab7fc487804a30792d937" prot="public">
+        <enumvalue id="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a09a2e381c93ab7fc487804a30792d937" prot="public">
           <name>MR_OutEdge_Count</name>
           <initializer>= 6</initializer>
           <briefdescription>
@@ -1165,14 +1165,14 @@
 <codeline lineno="18" refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_OutEdge</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ae20f61ace0e4dd747e791268dfb1b749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ae20f61ace0e4dd747e791268dfb1b749" kindref="member">MR_OutEdge_Invalid</ref><sp/>=<sp/>-1,</highlight></codeline>
-<codeline lineno="22" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a5d76cb9691050cfc82f61d9d3a594868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a5d76cb9691050cfc82f61d9d3a594868" kindref="member">MR_OutEdge_PlusZ</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="23" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a625374dd4a579739bd4303e8e4c5c6d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a625374dd4a579739bd4303e8e4c5c6d1" kindref="member">MR_OutEdge_MinusZ</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="24" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a7b070bf11e7642ac0f9d0033a0b82e1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a7b070bf11e7642ac0f9d0033a0b82e1a" kindref="member">MR_OutEdge_PlusY</ref><sp/>=<sp/>2,</highlight></codeline>
-<codeline lineno="25" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57af8caf63972f5ce541e67ef04ca2dcdf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57af8caf63972f5ce541e67ef04ca2dcdf3" kindref="member">MR_OutEdge_MinusY</ref><sp/>=<sp/>3,</highlight></codeline>
-<codeline lineno="26" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ad36e52301b250140311827a65071830e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ad36e52301b250140311827a65071830e" kindref="member">MR_OutEdge_PlusX</ref><sp/>=<sp/>4,</highlight></codeline>
-<codeline lineno="27" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a6fb3759be5c853b5e7e8dc63d364a1a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a6fb3759be5c853b5e7e8dc63d364a1a4" kindref="member">MR_OutEdge_MinusX</ref><sp/>=<sp/>5,</highlight></codeline>
-<codeline lineno="28" refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a09a2e381c93ab7fc487804a30792d937" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a09a2e381c93ab7fc487804a30792d937" kindref="member">MR_OutEdge_Count</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="21" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388ae20f61ace0e4dd747e791268dfb1b749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388ae20f61ace0e4dd747e791268dfb1b749" kindref="member">MR_OutEdge_Invalid</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="22" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a5d76cb9691050cfc82f61d9d3a594868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a5d76cb9691050cfc82f61d9d3a594868" kindref="member">MR_OutEdge_PlusZ</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="23" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a625374dd4a579739bd4303e8e4c5c6d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a625374dd4a579739bd4303e8e4c5c6d1" kindref="member">MR_OutEdge_MinusZ</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="24" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a7b070bf11e7642ac0f9d0033a0b82e1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a7b070bf11e7642ac0f9d0033a0b82e1a" kindref="member">MR_OutEdge_PlusY</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="25" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388af8caf63972f5ce541e67ef04ca2dcdf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388af8caf63972f5ce541e67ef04ca2dcdf3" kindref="member">MR_OutEdge_MinusY</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="26" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388ad36e52301b250140311827a65071830e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388ad36e52301b250140311827a65071830e" kindref="member">MR_OutEdge_PlusX</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="27" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a6fb3759be5c853b5e7e8dc63d364a1a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a6fb3759be5c853b5e7e8dc63d364a1a4" kindref="member">MR_OutEdge_MinusX</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="28" refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a09a2e381c93ab7fc487804a30792d937" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeIndexer_8h_1a385c44f6fb256e5716a2302a5b940388a09a2e381c93ab7fc487804a30792d937" kindref="member">MR_OutEdge_Count</ref><sp/>=<sp/>6,</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref>;</highlight></codeline>

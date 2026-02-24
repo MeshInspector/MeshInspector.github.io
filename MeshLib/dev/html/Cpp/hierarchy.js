@@ -1282,6 +1282,7 @@ var hierarchy =
     [ "MR::TrimOptionalOutput", "structMR_1_1TrimOptionalOutput.html", null ],
     [ "MR::TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", null ],
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],
+    [ "MR::TriTriDistanceParams< T >", "structMR_1_1TriTriDistanceParams.html", null ],
     [ "MR::TriTriDistanceResult< T >", "structMR_1_1TriTriDistanceResult.html", null ],
     [ "MR::TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", null ],
     [ "std::true_type", null, [

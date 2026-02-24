@@ -910,6 +910,7 @@ var namespaceMR =
     [ "TrimOptionalOutput", "structMR_1_1TrimOptionalOutput.html", "structMR_1_1TrimOptionalOutput" ],
     [ "TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", "structMR_1_1TrimWithPlaneParams" ],
     [ "TriPoint", "structMR_1_1TriPoint.html", "structMR_1_1TriPoint" ],
+    [ "TriTriDistanceParams", "structMR_1_1TriTriDistanceParams.html", "structMR_1_1TriTriDistanceParams" ],
     [ "TriTriDistanceResult", "structMR_1_1TriTriDistanceResult.html", "structMR_1_1TriTriDistanceResult" ],
     [ "TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", "structMR_1_1TrivialMetricToPenalty" ],
     [ "TwoLineSegmClosestPoints", "structMR_1_1TwoLineSegmClosestPoints.html", "structMR_1_1TwoLineSegmClosestPoints" ],
@@ -1176,6 +1177,8 @@ var namespaceMR =
     [ "TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
     [ "TriangleCornerNormals", "group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f", null ],
     [ "TrianglesRepetitions", "group__GeneralGroup.html#ga2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
+    [ "TriTriDistanceParamsd", "group__GeneralGroup.html#ga76982b24cc7c5ea26c870ff223e08493", null ],
+    [ "TriTriDistanceParamsf", "group__GeneralGroup.html#ga74b84c1e75186c097b95643711a4c6c4", null ],
     [ "TriTriDistanceResultd", "group__GeneralGroup.html#ga307f773bda9a64426a2d85875a9f7241", null ],
     [ "TriTriDistanceResultf", "group__GeneralGroup.html#ga9b40642439b0e49df514a79a4cc26a55", null ],
     [ "TwoLineSegmClosestPointsd", "group__GeneralGroup.html#ga37603199e9b0e5eb2e0cdbe36a2b315d", null ],
@@ -1663,6 +1666,10 @@ var namespaceMR =
     [ "Turn", "group__GeneralGroup.html#ga119ecb93af42f379f5a1462e9f9987ef", [
       [ "Leftmost", "group__GeneralGroup.html#gga119ecb93af42f379f5a1462e9f9987efa5313b10fe6ecec66888957ac38ee7f9b", null ],
       [ "Rightmost", "group__GeneralGroup.html#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9", null ]
+    ] ],
+    [ "UpLimitCheck", "group__GeneralGroup.html#ga44bd35b44ad13ba0a8968ae8260539cd", [
+      [ "GreaterOrEqual", "group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda6f2f0aefb3d22da0f3839453add5f937", null ],
+      [ "Greater", "group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda8768a6821cd735aea4f5b0df88c1fc6a", null ]
     ] ],
     [ "UseAABBTree", "group__GeneralGroup.html#gafb67fe49bcb6006882e7b08e51b2eeff", [
       [ "No", "group__GeneralGroup.html#ggafb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
@@ -2318,8 +2325,8 @@ var namespaceMR =
     [ "findTriExitPos", "group__GeneralGroup.html#ga50ad07fcc0f878c660e360bb5e342d0a", null ],
     [ "findTripleFaceIntersections", "group__GeneralGroup.html#ga4c8a5717e585b662ba95f0a28e8cdf49", null ],
     [ "findTrisInBall", "group__AABBTreeGroup.html#ga1d649a36ab13b6d880081a27f17b87dc", null ],
-    [ "findTriTriDistance", "group__GeneralGroup.html#ga4733836a4778c54f7a8678486bb5648c", null ],
-    [ "findTriTriDistance", "group__GeneralGroup.html#gaa6469f955ace9c075254c44fa826749c", null ],
+    [ "findTriTriDistance", "group__GeneralGroup.html#gaac4ce716b1bcfe02acfd83cf06380768", null ],
+    [ "findTriTriDistance", "group__GeneralGroup.html#gaac3443060426dd9845f9a0a5ce1967bc", null ],
     [ "findTwinEdgePairs", "group__GeneralGroup.html#gad6fbfaa55add0cfefe87b27dfd6c9427", null ],
     [ "findTwinEdges", "group__GeneralGroup.html#gaa3c6e2ebbe054249a9169f7c85a99528", null ],
     [ "findTwinEdges", "group__GeneralGroup.html#gad5db1de53913184f447e3f8a25350ae3", null ],

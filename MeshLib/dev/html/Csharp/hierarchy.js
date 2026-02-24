@@ -2063,6 +2063,12 @@ var hierarchy =
       [ "MR.Const_TriPointf", null, [
         [ "MR.TriPointf", "classMR_1_1TriPointf.html", null ]
       ] ],
+      [ "MR.Const_TriTriDistanceParams_Double", null, [
+        [ "MR.TriTriDistanceParams_Double", "classMR_1_1TriTriDistanceParams__Double.html", null ]
+      ] ],
+      [ "MR.Const_TriTriDistanceParams_Float", null, [
+        [ "MR.TriTriDistanceParams_Float", "classMR_1_1TriTriDistanceParams__Float.html", null ]
+      ] ],
       [ "MR.Const_TriTriDistanceResult_Double", null, [
         [ "MR.TriTriDistanceResult_Double", "classMR_1_1TriTriDistanceResult__Double.html", null ]
       ] ],
@@ -3553,6 +3559,8 @@ var hierarchy =
       [ "MR.Const_TriMesh", null, null ],
       [ "MR.Const_TriPointd", null, null ],
       [ "MR.Const_TriPointf", null, null ],
+      [ "MR.Const_TriTriDistanceParams_Double", null, null ],
+      [ "MR.Const_TriTriDistanceParams_Float", null, null ],
       [ "MR.Const_TriTriDistanceResult_Double", null, null ],
       [ "MR.Const_TriTriDistanceResult_Float", null, null ],
       [ "MR.Const_TriangleSegmentIntersectResult", null, null ],

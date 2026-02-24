@@ -149,17 +149,21 @@ $(function(){initNavTree('MRTriDist_8h.html',''); initResizable(true); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRTriDist.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
+<code>#include &lt;limits&gt;</code><br />
 </div>
 <p><a href="MRTriDist_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriTriDistanceResult.html">MR::TriTriDistanceResult&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriTriDistanceParams.html">MR::TriTriDistanceParams&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -174,14 +178,25 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga9b40642439b0e49df514a79a4cc26a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga307f773bda9a64426a2d85875a9f7241" id="r_ga307f773bda9a64426a2d85875a9f7241"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga307f773bda9a64426a2d85875a9f7241">MR::TriTriDistanceResultd</a> = <a class="el" href="structMR_1_1TriTriDistanceResult.html">TriTriDistanceResult</a>&lt;double&gt;</td></tr>
 <tr class="separator:ga307f773bda9a64426a2d85875a9f7241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74b84c1e75186c097b95643711a4c6c4" id="r_ga74b84c1e75186c097b95643711a4c6c4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga74b84c1e75186c097b95643711a4c6c4">MR::TriTriDistanceParamsf</a> = <a class="el" href="structMR_1_1TriTriDistanceParams.html">TriTriDistanceParams</a>&lt;float&gt;</td></tr>
+<tr class="separator:ga74b84c1e75186c097b95643711a4c6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76982b24cc7c5ea26c870ff223e08493" id="r_ga76982b24cc7c5ea26c870ff223e08493"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga76982b24cc7c5ea26c870ff223e08493">MR::TriTriDistanceParamsd</a> = <a class="el" href="structMR_1_1TriTriDistanceParams.html">TriTriDistanceParams</a>&lt;double&gt;</td></tr>
+<tr class="separator:ga76982b24cc7c5ea26c870ff223e08493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga44bd35b44ad13ba0a8968ae8260539cd" id="r_ga44bd35b44ad13ba0a8968ae8260539cd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga44bd35b44ad13ba0a8968ae8260539cd">MR::UpLimitCheck</a> : bool { <a class="el" href="group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda6f2f0aefb3d22da0f3839453add5f937">MR::UpLimitCheck::GreaterOrEqual</a>
+, <a class="el" href="group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda8768a6821cd735aea4f5b0df88c1fc6a">MR::UpLimitCheck::Greater</a>
+ }</td></tr>
+<tr class="separator:ga44bd35b44ad13ba0a8968ae8260539cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa6469f955ace9c075254c44fa826749c" id="r_gaa6469f955ace9c075254c44fa826749c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9b40642439b0e49df514a79a4cc26a55">TriTriDistanceResultf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa6469f955ace9c075254c44fa826749c">MR::findTriTriDistance</a> (const <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;a, const <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;b)</td></tr>
-<tr class="memdesc:gaa6469f955ace9c075254c44fa826749c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on two triangles  <br /></td></tr>
-<tr class="separator:gaa6469f955ace9c075254c44fa826749c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4733836a4778c54f7a8678486bb5648c" id="r_ga4733836a4778c54f7a8678486bb5648c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga307f773bda9a64426a2d85875a9f7241">TriTriDistanceResultd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4733836a4778c54f7a8678486bb5648c">MR::findTriTriDistance</a> (const <a class="el" href="group__GeneralGroup.html#ga9905362191a698597df6dca4bd2cc53b">Triangle3d</a> &amp;a, const <a class="el" href="group__GeneralGroup.html#ga9905362191a698597df6dca4bd2cc53b">Triangle3d</a> &amp;b)</td></tr>
-<tr class="separator:ga4733836a4778c54f7a8678486bb5648c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac3443060426dd9845f9a0a5ce1967bc" id="r_gaac3443060426dd9845f9a0a5ce1967bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9b40642439b0e49df514a79a4cc26a55">TriTriDistanceResultf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaac3443060426dd9845f9a0a5ce1967bc">MR::findTriTriDistance</a> (const <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;a, const <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;b, const <a class="el" href="group__GeneralGroup.html#ga74b84c1e75186c097b95643711a4c6c4">TriTriDistanceParamsf</a> &amp;params={})</td></tr>
+<tr class="memdesc:gaac3443060426dd9845f9a0a5ce1967bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on two triangles  <br /></td></tr>
+<tr class="separator:gaac3443060426dd9845f9a0a5ce1967bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac4ce716b1bcfe02acfd83cf06380768" id="r_gaac4ce716b1bcfe02acfd83cf06380768"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga307f773bda9a64426a2d85875a9f7241">TriTriDistanceResultd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaac4ce716b1bcfe02acfd83cf06380768">MR::findTriTriDistance</a> (const <a class="el" href="group__GeneralGroup.html#ga9905362191a698597df6dca4bd2cc53b">Triangle3d</a> &amp;a, const <a class="el" href="group__GeneralGroup.html#ga9905362191a698597df6dca4bd2cc53b">Triangle3d</a> &amp;b, const <a class="el" href="group__GeneralGroup.html#ga76982b24cc7c5ea26c870ff223e08493">TriTriDistanceParamsd</a> &amp;params={})</td></tr>
+<tr class="separator:gaac4ce716b1bcfe02acfd83cf06380768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac3ed6b876e79b7bacb3039ccacd336cd" id="r_gac3ed6b876e79b7bacb3039ccacd336cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac3ed6b876e79b7bacb3039ccacd336cd">MR::triDist</a> (Vector3f &amp;p, Vector3f &amp;q, const Vector3f s[3], const Vector3f t[3])</td></tr>
 <tr class="memdesc:gac3ed6b876e79b7bacb3039ccacd336cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This version is not in the bindings, because the pointer parameters are assumed to point to single objects, which is wrong here.  <br /></td></tr>
 <tr class="separator:gac3ed6b876e79b7bacb3039ccacd336cd"><td class="memSeparator" colspan="2">&#160;</td></tr>

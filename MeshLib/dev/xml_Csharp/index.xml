@@ -10753,6 +10753,9 @@
     <member refid="classMR_1af071c64fee1a9a767156db0412240540" kind="enum"><name>ExtremeEdgeType</name></member>
     <member refid="classMR_1af071c64fee1a9a767156db0412240540ae9eeca48aa5cccacde08760c6ec9dd5a" kind="enumvalue"><name>Ridge</name></member>
     <member refid="classMR_1af071c64fee1a9a767156db0412240540a90290d32b4deae8703b07bfcd17af5a4" kind="enumvalue"><name>Gorge</name></member>
+    <member refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17" kind="enum"><name>UpLimitCheck</name></member>
+    <member refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17a6f2f0aefb3d22da0f3839453add5f937" kind="enumvalue"><name>GreaterOrEqual</name></member>
+    <member refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17a8768a6821cd735aea4f5b0df88c1fc6a" kind="enumvalue"><name>Greater</name></member>
     <member refid="classMR_1a22adb75ebaff91cdb5159f104b26ea5e" kind="enum"><name>NestedComponenetsMode</name></member>
     <member refid="classMR_1a22adb75ebaff91cdb5159f104b26ea5ea1063e38cb53d94d386f21227fcd84717" kind="enumvalue"><name>Remove</name></member>
     <member refid="classMR_1a22adb75ebaff91cdb5159f104b26ea5ea68be4837f6c739877233e527a996dd00" kind="enumvalue"><name>Merge</name></member>
@@ -11961,8 +11964,8 @@
     <member refid="classMR_1a7964ca3e5b3a73a51693acfb40f9d295" kind="function"><name>rayTriangleIntersect</name></member>
     <member refid="classMR_1a5b9d84d9d5c904cc0db8d9aeeebd919a" kind="function"><name>doTrianglesOverlap</name></member>
     <member refid="classMR_1aeb9face42f5462fbbfcaca4b84592a40" kind="function"><name>doTrianglesOverlap</name></member>
-    <member refid="classMR_1a49d7ee8a60c901f7cb3d2424ce40af5d" kind="function"><name>findTriTriDistance</name></member>
-    <member refid="classMR_1acd6705de62740d1f74f68affb10b0151" kind="function"><name>findTriTriDistance</name></member>
+    <member refid="classMR_1a9864b29e25f20ea5182730fac7e6a2b4" kind="function"><name>findTriTriDistance</name></member>
+    <member refid="classMR_1a1178d5e06c4bdb7a87eae228f079ce68" kind="function"><name>findTriTriDistance</name></member>
     <member refid="classMR_1a5deabeac137235334a845dd615a7a43c" kind="function"><name>triDist</name></member>
     <member refid="classMR_1a2c3c348aed536bce85261fa0f7822725" kind="function"><name>segPoints</name></member>
     <member refid="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" kind="function"><name>findTripleFaceIntersections</name></member>
@@ -17203,6 +17206,26 @@
     <member refid="classMR_1_1TriPointf_1a016ca1dabe179fac9c1bd3e55a4cbd73" kind="function"><name>TriPointf</name></member>
     <member refid="classMR_1_1TriPointf_1ab528626fcddc3893e782a473c1efac3e" kind="function"><name>TriPointf</name></member>
     <member refid="classMR_1_1TriPointf_1a6a8aabe92f2e67bfb882083f2c360728" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1TriTriDistanceParams__Double" kind="class"><name>MR::TriTriDistanceParams_Double</name>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1ab09171862e177bbe02bd92d953cab638" kind="property"><name>upDistLimitSq</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1a5d13754ea9bf2cda981b82606468c349" kind="property"><name>upLimitCheck</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1a9c421277662df90c030a50c0bc55ee96" kind="function"><name>TriTriDistanceParams_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1a53a0ba50e31fe140a37f71f56b2383bb" kind="function"><name>TriTriDistanceParams_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1aaae9997fd16a4ef687103bd4990c43f8" kind="function"><name>TriTriDistanceParams_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1ab870d9f1ff386802a3d03d8ef4dc232c" kind="function"><name>TriTriDistanceParams_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1abe36fa34853ae6a9de4b4ddda5d01f12" kind="function"><name>TriTriDistanceParams_Double</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Double_1ab4f8104c8bb9769f054bacd97bb90e17" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1TriTriDistanceParams__Float" kind="class"><name>MR::TriTriDistanceParams_Float</name>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1a3ad99615ee201e2fd1954d3f16da271f" kind="property"><name>upDistLimitSq</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1afb301eba4b4bcff07ba07ef85b8d77ee" kind="property"><name>upLimitCheck</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1ae917b7bea50caa536c891b12c369de88" kind="function"><name>TriTriDistanceParams_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1adf9d0ad674ae7758c71976b948ee065e" kind="function"><name>TriTriDistanceParams_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1a45e213d7152604ecd6f8ace39901e58b" kind="function"><name>TriTriDistanceParams_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1a7530acae70c14b70d6d1154eb8e45099" kind="function"><name>TriTriDistanceParams_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1aea81af60550e409797ae8f65881c6257" kind="function"><name>TriTriDistanceParams_Float</name></member>
+    <member refid="classMR_1_1TriTriDistanceParams__Float_1a806577dc45003cde660f39e3f9cfcd76" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1TriTriDistanceResult__Double" kind="class"><name>MR::TriTriDistanceResult_Double</name>
     <member refid="classMR_1_1TriTriDistanceResult__Double_1adf279b7e5e2d513333926fa0ddd70f62" kind="property"><name>a</name></member>

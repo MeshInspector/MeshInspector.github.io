@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1MetricToAStarPenalty.html#af3ba5376cee8adf2478cca78a3dff7c3":[6,3,0,0,0,534,0],
+"classMR_1_1MinMaxArg__Float__MRVertId.html":[6,3,0,0,0,535],
+"classMR_1_1MinMaxArg__Float__MRVertId.html#a18ee707d0a21ffbf6ae19c9929a7621d":[6,3,0,0,0,535,10],
 "classMR_1_1MinMaxArg__Float__MRVertId.html#a2da7f9810e91055e5f18787db81d918f":[6,3,0,0,0,535,2],
 "classMR_1_1MinMaxArg__Float__MRVertId.html#a525b200de9e5d33448df1363ea306937":[6,3,0,0,0,535,3],
 "classMR_1_1MinMaxArg__Float__MRVertId.html#a593ae0df341b3e23f88c0290df4bf5b5":[6,3,0,0,0,535,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1NoDefInit__MRGraphEdgeId.html#a92e21cc427c472ec4a7eb0b02af28f14":[6,3,0,0,0,568,8],
 "classMR_1_1NoDefInit__MRGraphEdgeId.html#aaa69138ef4de93b9833a717f12ae4ccb":[6,3,0,0,0,568,0],
 "classMR_1_1NoDefInit__MRGraphEdgeId.html#ac586d21c43f3ccd32dbea3bee42072eb":[6,3,0,0,0,568,7],
-"classMR_1_1NoDefInit__MRGraphEdgeId.html#adceb0591aadd384e7c9307e0c8e448f6":[6,3,0,0,0,568,2],
-"classMR_1_1NoDefInit__MRGraphEdgeId.html#ae4054ea59ecd5664a6dbbed7af99e006":[6,3,0,0,0,568,3],
-"classMR_1_1NoDefInit__MRGraphEdgeId.html#af073a6bfa22550e2ae2701a351ddad00":[6,3,0,0,0,568,6],
-"classMR_1_1NoDefInit__MRGraphEdgeId.html#af71bf39446b527b30c54b34c401529ab":[6,3,0,0,0,568,1]
+"classMR_1_1NoDefInit__MRGraphEdgeId.html#adceb0591aadd384e7c9307e0c8e448f6":[6,3,0,0,0,568,2]
 };

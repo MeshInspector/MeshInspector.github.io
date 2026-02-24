@@ -824,6 +824,8 @@ var classMR =
     [ "TrimWithPlaneParams", "classMR_1_1TrimWithPlaneParams.html", "classMR_1_1TrimWithPlaneParams" ],
     [ "TriPointd", "classMR_1_1TriPointd.html", "classMR_1_1TriPointd" ],
     [ "TriPointf", "classMR_1_1TriPointf.html", "classMR_1_1TriPointf" ],
+    [ "TriTriDistanceParams_Double", "classMR_1_1TriTriDistanceParams__Double.html", "classMR_1_1TriTriDistanceParams__Double" ],
+    [ "TriTriDistanceParams_Float", "classMR_1_1TriTriDistanceParams__Float.html", "classMR_1_1TriTriDistanceParams__Float" ],
     [ "TriTriDistanceResult_Double", "classMR_1_1TriTriDistanceResult__Double.html", "classMR_1_1TriTriDistanceResult__Double" ],
     [ "TriTriDistanceResult_Float", "classMR_1_1TriTriDistanceResult__Float.html", "classMR_1_1TriTriDistanceResult__Float" ],
     [ "TrivialMetricToPenalty", "classMR_1_1TrivialMetricToPenalty.html", "classMR_1_1TrivialMetricToPenalty" ],
@@ -1370,6 +1372,10 @@ var classMR =
     [ "Turn", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13ead", [
       [ "Leftmost", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13eada5313b10fe6ecec66888957ac38ee7f9b", null ],
       [ "Rightmost", "classMR.html#a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9", null ]
+    ] ],
+    [ "UpLimitCheck", "classMR.html#a47fb0156f6ea44cf64bb6335199b0e17", [
+      [ "GreaterOrEqual", "classMR.html#a47fb0156f6ea44cf64bb6335199b0e17a6f2f0aefb3d22da0f3839453add5f937", null ],
+      [ "Greater", "classMR.html#a47fb0156f6ea44cf64bb6335199b0e17a8768a6821cd735aea4f5b0df88c1fc6a", null ]
     ] ],
     [ "UseAABBTree", "classMR.html#adc3b249d0ba364990f1bc96d27fa7d88", [
       [ "No", "classMR.html#adc3b249d0ba364990f1bc96d27fa7d88abafd7322c6e97d25b6299b5d6fe8920b", null ],
@@ -1991,8 +1997,8 @@ var classMR =
     [ "findTriangleSegmentIntersectionPrecise", "classMR.html#a71bd685704076ae2dd9392400a27ec8d", null ],
     [ "findTripleFaceIntersections", "classMR.html#a353cb88f7b6c29b24f5e398a978b8e96", null ],
     [ "findTrisInBall", "classMR.html#a2151ec3604de7017251e51844cbbd3c4", null ],
-    [ "findTriTriDistance", "classMR.html#acd6705de62740d1f74f68affb10b0151", null ],
-    [ "findTriTriDistance", "classMR.html#a49d7ee8a60c901f7cb3d2424ce40af5d", null ],
+    [ "findTriTriDistance", "classMR.html#a1178d5e06c4bdb7a87eae228f079ce68", null ],
+    [ "findTriTriDistance", "classMR.html#a9864b29e25f20ea5182730fac7e6a2b4", null ],
     [ "findTwinEdgePairs", "classMR.html#a37f9a9adf3f28c165932224cfc413ce9", null ],
     [ "findTwinEdges", "classMR.html#aa798b1976a367077b05fc0160d377f9d", null ],
     [ "findTwinEdges", "classMR.html#ab45ca9655e6b2fd0cdb83b368eacf3f1", null ],
