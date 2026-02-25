@@ -186,5 +186,6 @@ if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
 fi
 post_processing
+check_links
 #show_statistics
 
