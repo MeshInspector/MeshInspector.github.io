@@ -168,6 +168,10 @@ show_statistics() {
     cat log_time.txt
 }
 
+check_links() {
+    python3 ./scripts/check_links.py $TARGET_DIR
+}
+
 prepare_source_files
 prepare_setting_files
 if [[ $? -ne 0 ]]; then
@@ -183,3 +187,4 @@ if [[ $exit_code -ne 0 ]]; then
 fi
 post_processing
 #show_statistics
+

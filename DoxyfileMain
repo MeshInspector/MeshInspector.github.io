@@ -8,7 +8,8 @@ FILE_PATTERNS          = *.dox \
                          *.cpp
 EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
                          ../MeshLib/doxygen/APIPyPage.dox \
-                         ../MeshLib/doxygen/APICPage.dox
+                         ../MeshLib/doxygen/APICPage.dox \
+                         ../MeshLib/doxygen/APICsharpPage.dox
 EXAMPLE_PATH           = ../MeshLib/examples \
                          ../MeshLib/doxygen/common_files
 EXAMPLE_RECURSIVE      = YES
