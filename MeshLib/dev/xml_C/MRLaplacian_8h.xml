@@ -371,7 +371,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>initialize Laplacian for the region being deformed, here region properties are remembered and precomputed; <parameterlist kind="param"><parameteritem>
+<para>(re)initialize Laplacian for the region being deformed, here region properties are remembered and precomputed; <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>freeVerts</parametername>
 </parameternamelist>

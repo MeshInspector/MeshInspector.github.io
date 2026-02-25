@@ -231,7 +231,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>initialize Laplacian for the region being deformed, here region properties are remembered and precomputed;
+<para><verbatim>(re)initialize Laplacian for the region being deformed, here region properties are remembered and precomputed;
 \\param freeVerts must not include all vertices of a mesh connected component
 </verbatim> </para>
         </detaileddescription>

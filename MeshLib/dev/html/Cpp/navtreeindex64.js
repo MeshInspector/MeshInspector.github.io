@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PointCloud.html#ab8528785525982a60c9bb9ea1ddcc103":[6,0,0,12,0,11],
 "structMR_1_1PointCloud.html#ac58b0b5f3bf2f48f46f9fe30e054b7cb":[6,0,0,12,0,10],
 "structMR_1_1PointCloud.html#af70413bd36eefbb8ce26cf2a52addf33":[6,0,0,12,0,19],
 "structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ShortcutKey.html":[6,0,0,20,675],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html":[6,0,0,20,677],
 "structMR_1_1Signal.html":[6,0,0,20,455],
-"structMR_1_1SignedDistanceToMeshOptions.html":[6,0,0,20,177],
-"structMR_1_1SignedDistanceToMeshResult.html":[6,0,0,1,27]
+"structMR_1_1SignedDistanceToMeshOptions.html":[6,0,0,20,177]
 };

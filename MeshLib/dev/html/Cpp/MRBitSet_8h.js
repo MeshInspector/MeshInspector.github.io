@@ -6,6 +6,7 @@ var MRBitSet_8h =
     [ "contains", "MRBitSet_8h.html#ga84d3ef89997a21c7e28a95f9888e3a2e", null ],
     [ "end", "MRBitSet_8h.html#gaa162c3dc2622716a0b52d777abfe137a", null ],
     [ "end", "MRBitSet_8h.html#ga52b6833b699c3c42d4d252bc856d9440", null ],
+    [ "fillVectorWithSeqNums", "MRBitSet_8h.html#ga896279ee5bfa452079d99c123817842b", null ],
     [ "heapBytes", "MRBitSet_8h.html#gacfd51356fbcb71948b1ef3f058ac75c7", null ],
     [ "makeHashMapWithSeqNums", "MRBitSet_8h.html#ga2637b6b01910fbe8294a9f26f472f35f", null ],
     [ "makePredicate", "MRBitSet_8h.html#ga3057a729a683a6a8a6b4f097a0094d58", null ],

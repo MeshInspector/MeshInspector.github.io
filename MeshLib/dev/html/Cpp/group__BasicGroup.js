@@ -306,6 +306,7 @@ var group__BasicGroup =
     [ "MR::end", "group__BasicGroup.html#ga52b6833b699c3c42d4d252bc856d9440", null ],
     [ "MR::faceMapsComposition", "group__BasicGroup.html#gace9f90469164cb307af85f02d5249dc9", null ],
     [ "MR::faceMapsComposition", "group__BasicGroup.html#gae86e0a0b11af9b982cfed96b9802f710", null ],
+    [ "MR::fillVectorWithSeqNums", "group__BasicGroup.html#ga896279ee5bfa452079d99c123817842b", null ],
     [ "MR::findSubstringCaseInsensitive", "group__BasicGroup.html#gaeb60f1e48c3bb8f744d2fc283cee3473", null ],
     [ "MR::formatNoTrailingZeros", "group__BasicGroup.html#gadbca00999f687670e8df99bd12699bc1", null ],
     [ "MR::getCancelMessage", "group__BasicGroup.html#ga0f9f82f9571d4a67b586f1e38d93afe9", null ],

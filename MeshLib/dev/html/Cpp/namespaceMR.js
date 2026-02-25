@@ -2170,6 +2170,7 @@ var namespaceMR =
     [ "fillHolesWithExtraPoints", "group__PointCloudTriangulationGroup.html#ga667297e36f7837828ecea717d5be86ce", null ],
     [ "fillHoleTrivially", "group__FillHoleGroup.html#ga4cf35e5d941d2017efa3dbf1d9ac0c2f", null ],
     [ "fillPlanarHole", "group__GeneralGroup.html#gaf6bdf308d7a325fb349bc72dc306b788", null ],
+    [ "fillVectorWithSeqNums", "group__BasicGroup.html#ga896279ee5bfa452079d99c123817842b", null ],
     [ "filterCreaseEdges", "group__GeneralGroup.html#gad903feed64243051f5347b7fab87f04d", null ],
     [ "filterHistoryActionsVector", "group__GeneralGroup.html#gad816d7f5445309140db275f8f14c8ba1", null ],
     [ "FilterHistoryByCondition", "group__GeneralGroup.html#ga360161c9e0a5aff8602d7186b0975244", null ],

@@ -114,7 +114,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>initialize <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered and precomputed; </para>
+<para>(re)initialize <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered and precomputed; </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>

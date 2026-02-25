@@ -13892,6 +13892,7 @@
     <member refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kind="function"><name>end</name></member>
     <member refid="group__BasicGroup_1ga38c685d6a63eb8e03a7e70c795f56c69" kind="function"><name>begin</name></member>
     <member refid="group__BasicGroup_1ga52b6833b699c3c42d4d252bc856d9440" kind="function"><name>end</name></member>
+    <member refid="group__BasicGroup_1ga896279ee5bfa452079d99c123817842b" kind="function"><name>fillVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga68d5cff879ff5d9d841c1ecebfb71ed1" kind="function"><name>makeVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga2637b6b01910fbe8294a9f26f472f35f" kind="function"><name>makeHashMapWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga4383c7ccfb257c9434fe3e9e0b59a27b" kind="function"><name>operator&amp;</name></member>
@@ -16190,6 +16191,10 @@
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
   </compound>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRViewer/MRSceneControlMenuItems.h</name>
+  </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
   <compound refid="MROpenRawVoxelsPlugin_8h" kind="file"><name>MROpenRawVoxelsPlugin.h</name>
@@ -16249,16 +16254,6 @@
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
   </compound>
   <compound refid="MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>MRCuda/config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>MRIOExtras/config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>MRMesh/config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>MRViewer/config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>MRVoxels/config.h</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
@@ -17200,10 +17195,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRMesh/MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRViewer/MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
   </compound>
   <compound refid="MRViewportId_8h" kind="file"><name>MRViewportId.h</name>
@@ -17272,6 +17263,16 @@
   <compound refid="MRSymbolMeshFwd_8h" kind="file"><name>MRSymbolMeshFwd.h</name>
     <member refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kind="define"><name>MRSYMBOLMESH_API</name></member>
     <member refid="MRSymbolMeshFwd_8h_1acd35d2ca8d20c30530e2d38a9295f009" kind="define"><name>MRSYMBOLMESH_CLASS</name></member>
+  </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>MRCuda/config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>MRIOExtras/config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>MRMesh/config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>MRViewer/config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>MRVoxels/config.h</name>
   </compound>
   <compound refid="ImGuiHelpers_8h" kind="file"><name>ImGuiHelpers.h</name>
   </compound>
@@ -17497,10 +17498,6 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRViewer/MRSceneControlMenuItems.h</name>
-  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -17594,6 +17591,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRMesh/MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRViewer/MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -17938,6 +17939,7 @@
     <member refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kind="function"><name>end</name></member>
     <member refid="group__BasicGroup_1ga38c685d6a63eb8e03a7e70c795f56c69" kind="function"><name>begin</name></member>
     <member refid="group__BasicGroup_1ga52b6833b699c3c42d4d252bc856d9440" kind="function"><name>end</name></member>
+    <member refid="group__BasicGroup_1ga896279ee5bfa452079d99c123817842b" kind="function"><name>fillVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga68d5cff879ff5d9d841c1ecebfb71ed1" kind="function"><name>makeVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga2637b6b01910fbe8294a9f26f472f35f" kind="function"><name>makeHashMapWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga4383c7ccfb257c9434fe3e9e0b59a27b" kind="function"><name>operator&amp;</name></member>

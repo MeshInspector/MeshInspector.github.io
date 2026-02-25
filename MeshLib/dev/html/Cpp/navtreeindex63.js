@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,0,20,309],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,0,20,263],
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0],
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html#a3b52749445bbc0fec608f7f5449ad818":[6,0,0,19,0,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1PointCloud.html#a9fee9a45c5a54797c40fb2c7c9ed646e":[6,0,0,12,0,18],
 "structMR_1_1PointCloud.html#ab5cc9f05068553ba1033167bb6189fcf":[6,0,0,12,0,17],
 "structMR_1_1PointCloud.html#ab63b94ac2b31f8c2e5b7ee94bcfa2471":[6,0,0,12,0,12],
-"structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069":[6,0,0,12,0,16],
-"structMR_1_1PointCloud.html#ab8528785525982a60c9bb9ea1ddcc103":[6,0,0,12,0,11]
+"structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069":[6,0,0,12,0,16]
 };

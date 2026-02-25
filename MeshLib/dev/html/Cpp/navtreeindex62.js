@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1InflateSettings.html":[6,0,0,20,421],
 "structMR_1_1InterruptCloseListener.html":[6,0,0,20,742],
 "structMR_1_1IntersectionPrecomputes.html":[6,0,0,1,15],
 "structMR_1_1IntersectionPrecomputes.html":[6,0,0,20,316],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1MeshBuilder_1_1MeshPiece.html":[6,0,0,20,305],
 "structMR_1_1MeshBuilder_1_1Triangle.html":[6,0,0,20,307],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html":[6,0,0,20,306],
-"structMR_1_1MeshBuilder_1_1VertDuplication.html":[6,0,0,20,304],
-"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,0,20,309]
+"structMR_1_1MeshBuilder_1_1VertDuplication.html":[6,0,0,20,304]
 };
