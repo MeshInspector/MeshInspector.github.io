@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import List
 from collections import defaultdict
+import sys
 
 class DoxygenSearchDataProcessor:
     def __init__(self, root_dir="MeshLib/local"):
@@ -109,6 +110,53 @@ class DoxygenSearchDataProcessor:
         else:
             return link_title
 
+    def filter_duplicates_links(self, module_data):
+        unique_links = {}
+        for entry_idx, entry in enumerate(module_data):
+            for link_data_idx, link_data in enumerate(entry[1][1:]):
+                link_path = link_data[0]
+                entry_key_string = entry[0].rsplit("_", 1)[0]
+                entry_key_string_len = len(entry_key_string)
+                if unique_links.get(link_path) == None:
+                    unique_links[link_path] = [entry_idx, link_data_idx, entry_key_string_len]
+                else:
+                    if entry_key_string_len > unique_links[link_path][2]:
+                        unique_links[link_path] = [entry_idx, link_data_idx, entry_key_string_len]
+        print(f"Unique links count = {len(unique_links)}")
+
+        # sort unique_links by position in module_data
+        unique_links = dict(sorted(unique_links.items(), key=lambda item: item[1]))
+
+        new_module_data = []
+        for unique_link_key in unique_links:
+            unique_link = unique_links[unique_link_key]
+            entry = module_data[unique_link[0]]
+            link_data = entry[1][unique_link[1]+1]
+            key_string = entry[0]
+            if len(new_module_data) and new_module_data[-1][0] == key_string:
+                new_module_data[-1][1].append(link_data)
+            else:
+                new_entry = [ key_string, [ entry[1][0], link_data ] ]
+                new_module_data.append(new_entry)
+        return new_module_data
+
+    def filter_overloads(self, module_data):
+        for entry in module_data:
+            unique_names = set()
+            new_links_data = [entry[1][0]]
+            for link_data in entry[1][1:]:
+                if not '(' in link_data[2]:
+                    new_links_data.append(link_data)
+                    continue
+                clear_function_name = link_data[2].split('(')[0]
+                if clear_function_name in unique_names:
+                    continue
+                new_links_data.append(link_data)
+                unique_names.add(clear_function_name)
+            entry[1] = new_links_data
+
+        return module_data
+
     def load_entries(self):
         for key in self.all_entries:
             module = self.all_entries[key]
@@ -117,6 +165,11 @@ class DoxygenSearchDataProcessor:
                 content = f.read()
             module['entries'] = self.parse_js_array(content)
             print(f"Loaded {len(module['entries'])} entries from {key}")
+            
+            if key == "Main":
+                module['entries'] = self.filter_duplicates_links(module['entries'])
+            else:
+                module['entries'] = self.filter_overloads(module['entries'])
     
     def save_entries(self, module, entries):
         # Save entries in js file
@@ -139,7 +192,8 @@ class DoxygenSearchDataProcessor:
             if idx == None:
                 continue
             source_module = module_keys[i]
-            links = [self.all_entries[source_module]['entries'][idx][1][1].copy()] # add only one link for one name from one module
+            links = self.all_entries[source_module]['entries'][idx][1][1:]
+            links = [list(link) for link in links]
             for link_data in links:
                 link_data[0] = self.update_link(link_data[0], module, source_module)
                 link_data[2] = self.update_link_title(link_data[2], source_module)
