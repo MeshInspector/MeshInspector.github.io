@@ -6,5 +6,6 @@ var classMR_1_1EnumNeihbourVertices =
     [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html#a2b02bf22e693363e661c1d2c1bae67bd", null ],
     [ "assign", "classMR_1_1EnumNeihbourVertices.html#a851e1076361fb8ec917add02ed772809", null ],
     [ "run", "classMR_1_1EnumNeihbourVertices.html#a2eeb4e576ccf64f868dd58d3886a1253", null ],
+    [ "run", "classMR_1_1EnumNeihbourVertices.html#ae9fd6f9c55a9d2d39849f90725db924b", null ],
     [ "run", "classMR_1_1EnumNeihbourVertices.html#a2e38c0629b26b6c061cc4983be57983f", null ]
 ];

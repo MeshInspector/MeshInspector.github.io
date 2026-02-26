@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"MRRadiusMeasurementObject_8h.html#a062c20f96be8da381e801da5c7894c05":[6,2,1,0,0,0,1,289,101],
+"MRRadiusMeasurementObject_8h.html#a071bdee29f5cc11ac231de252a225329":[6,2,1,0,0,0,1,289,113],
 "MRRadiusMeasurementObject_8h.html#a087c43ecb49f6a742c6077a49b4489ab":[6,2,1,0,0,0,1,289,36],
 "MRRadiusMeasurementObject_8h.html#a08f59cc4704041d1ac012aad6831f464":[6,2,1,0,0,0,1,289,153],
 "MRRadiusMeasurementObject_8h.html#a093550ed08b4f764e70d9e290281aa8d":[6,2,1,0,0,0,1,289,145],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "MRRectIndexer_8h.html#a99bd26041e9f4b810bb537d152a466c1":[6,2,1,0,0,0,1,292,31],
 "MRRectIndexer_8h.html#a9c4d18935321ef3c5a4a722277791bca":[6,2,1,0,0,0,1,292,26],
 "MRRectIndexer_8h.html#a9da9bad660b3fc045413d2d5cfe0597b":[6,2,1,0,0,0,1,292,2],
-"MRRectIndexer_8h.html#abc2c9777792225a2964016594ab5bee0":[6,2,1,0,0,0,1,292,8],
-"MRRectIndexer_8h.html#abde9e7fc48fd8d657f7e250ad992023b":[6,2,1,0,0,0,1,292,10],
-"MRRectIndexer_8h.html#abf7b469b8c7ebb19c78aaf18c98bc3b9":[6,2,1,0,0,0,1,292,6]
+"MRRectIndexer_8h.html#abc2c9777792225a2964016594ab5bee0":[6,2,1,0,0,0,1,292,8]
 };

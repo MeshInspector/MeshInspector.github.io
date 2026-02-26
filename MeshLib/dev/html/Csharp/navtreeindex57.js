@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1TrivialMetricToPenalty.html#a5e6a08f363b119daf8bb9b346c38b145":[6,3,0,0,0,829,3],
 "classMR_1_1TwoLineSegmClosestPoints__Double.html":[6,3,0,0,0,830],
 "classMR_1_1TwoLineSegmClosestPoints__Double.html#a5094deef402e32037fa85c34de4bf3e0":[6,3,0,0,0,830,1],
 "classMR_1_1TwoLineSegmClosestPoints__Double.html#a51890143204d14aa4520681bcfbe640e":[6,3,0,0,0,830,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1UndirectedEdgeScalars.html#aa98b1bbad4bd812a6aefbecbc5dd6e2b":[6,3,0,0,0,842,3],
 "classMR_1_1UndirectedEdgeScalars.html#aaaab3ecdde26ac3dc81d2bfbd6c7d0bd":[6,3,0,0,0,842,26],
 "classMR_1_1UndirectedEdgeScalars.html#ab0bd941faa7e993bcc565ff2abd66fcb":[6,3,0,0,0,842,27],
-"classMR_1_1UndirectedEdgeScalars.html#ab1b77ab23dc311ee84c2dac24515ea7a":[6,3,0,0,0,842,17],
-"classMR_1_1UndirectedEdgeScalars.html#ab9025d751a8112846cc0dbe327b0fa7f":[6,3,0,0,0,842,0]
+"classMR_1_1UndirectedEdgeScalars.html#ab1b77ab23dc311ee84c2dac24515ea7a":[6,3,0,0,0,842,17]
 };

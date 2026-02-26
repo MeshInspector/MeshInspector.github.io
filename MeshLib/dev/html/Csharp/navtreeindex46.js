@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1OriginAndDimensions.html#ab0534c8315638aed689be02b6169c866":[6,3,0,0,0,625,3],
 "classMR_1_1OriginAndDimensions.html#abb60cb039d74845e35c678d372562daa":[6,3,0,0,0,625,4],
 "classMR_1_1OriginAndDimensions.html#ac189af2392fd9d159190454d88b01d35":[6,3,0,0,0,625,6],
 "classMR_1_1OutAttributesFillingSettings.html":[6,3,0,0,0,626],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#ac98ee8077f33d05b2a127f0d794e03a1":[6,3,0,0,0,643,2,0],
 "classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#acb8b30368aa83f26882ce807356e4b42":[6,3,0,0,0,643,2,5],
 "classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#aeda84e233bd888a510da5fe81c9160b7":[6,3,0,0,0,643,2,1],
-"classMR_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,3,0,0,0,643,3],
-"classMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a0f65a22b58d43adeb9abc293c1721591":[6,3,0,0,0,643,3,4]
+"classMR_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,3,0,0,0,643,3]
 };

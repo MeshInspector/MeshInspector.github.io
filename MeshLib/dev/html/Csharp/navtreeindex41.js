@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1NoDefInit__MRFaceId.html#a30127d0432ae23992da0f4dda8dbd4f0":[6,3,0,0,0,568,4],
 "classMR_1_1NoDefInit__MRFaceId.html#a3ed5c27df58a8154b15b10f882438866":[6,3,0,0,0,568,0],
 "classMR_1_1NoDefInit__MRFaceId.html#a506a6ab4a2a0140b5d7b237441861814":[6,3,0,0,0,568,2],
 "classMR_1_1NoDefInit__MRFaceId.html#a5b5848654b2741532a28e7672e4ec221":[6,3,0,0,0,568,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle.html#a7c1eef0903255cd018404f49286f93de":[6,3,0,0,0,607,0],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle.html#a8ebe657c5f0b964b415c94057ccf1fc9":[6,3,0,0,0,607,2],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle.html#ade60d974af7b1507de1cff8db243e85e":[6,3,0,0,0,607,1],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone.html":[6,3,0,0,0,608],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone.html#a0ba86e694bbe43c8933e456116ffed58":[6,3,0,0,0,608,3]
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone.html":[6,3,0,0,0,608]
 };

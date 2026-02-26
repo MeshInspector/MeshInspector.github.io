@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1FindDisorientationParams.html#ad2b59bbf468b95b034491daeed513270":[6,3,0,0,0,361,2],
 "classMR_1_1FindDisorientationParams.html#aec5c92f69d4cc5f579fd7a7c46ae4ba5":[6,3,0,0,0,361,3],
 "classMR_1_1FindInnerShellSettings.html":[6,3,0,0,0,362],
 "classMR_1_1FindInnerShellSettings.html#a07ef823825c6c4eca9db5b4d818150e3":[6,3,0,0,0,362,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1GeneralOffsetParameters.html#a518fc3f4a982b3f09ecf0dac94c4bbbc":[6,3,0,0,0,381,9],
 "classMR_1_1GeneralOffsetParameters.html#a54ea5302aa5ea344df8c4bdf69dd95f8":[6,3,0,0,0,381,15],
 "classMR_1_1GeneralOffsetParameters.html#a581fa165301fd0baf6c868d8e56a33b9":[6,3,0,0,0,381,17],
-"classMR_1_1GeneralOffsetParameters.html#a5a03e62af8b937c1066a020754320f65":[6,3,0,0,0,381,14],
-"classMR_1_1GeneralOffsetParameters.html#a6fd7ac52fa0839e241b0523646ecd935":[6,3,0,0,0,381,13]
+"classMR_1_1GeneralOffsetParameters.html#a5a03e62af8b937c1066a020754320f65":[6,3,0,0,0,381,14]
 };

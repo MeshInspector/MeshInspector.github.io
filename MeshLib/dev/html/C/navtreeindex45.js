@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"MRId_8h.html#a9a95824ce9c69fb5e7193b50bd2ebfbb":[6,2,1,0,0,0,1,113,335],
+"MRId_8h.html#a9ab33e4cdf2e0e54c077f982f7d43296":[6,2,1,0,0,0,1,113,198],
 "MRId_8h.html#a9acd837cb62f3d94360c48aa656c5b44":[6,2,1,0,0,0,1,113,58],
 "MRId_8h.html#a9ae7be896aeacfdb3c2de49eea1b10ea":[6,2,1,0,0,0,1,113,99],
 "MRId_8h.html#a9b0ddf4c46bc700d5af37feefaa3d523":[6,2,1,0,0,0,1,113,168],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "MRImproveSampling_8h.html#aeab9f39bdf22c062ff3f20fb322c098f":[6,2,1,0,0,0,1,119,23],
 "MRImproveSampling_8h.html#af807d5aebbd7f4f7a998aa2a95c455d9":[6,2,1,0,0,0,1,119,40],
 "MRImproveSampling_8h_source.html":[6,2,1,0,0,0,1,119],
-"MRInTreePathBuilder_8h.html":[6,2,1,0,0,0,1,125],
-"MRInTreePathBuilder_8h.html#a5e305376971abce6006c30a8b6aeae90":[6,2,1,0,0,0,1,125,4],
-"MRInTreePathBuilder_8h.html#a63c5ecf80e7646cecf8c92a1e43e6138":[6,2,1,0,0,0,1,125,7]
+"MRInTreePathBuilder_8h.html":[6,2,1,0,0,0,1,125]
 };

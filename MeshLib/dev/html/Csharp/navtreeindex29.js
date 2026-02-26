@@ -166,12 +166,13 @@ var NAVTREEINDEX29 =
 "classMR_1_1EnumNeihbourFaces.html#ac3da68189ac61d196e5f018af4fe8308":[6,3,0,0,0,334,2],
 "classMR_1_1EnumNeihbourVertices.html":[6,3,0,0,0,335],
 "classMR_1_1EnumNeihbourVertices.html#a2b02bf22e693363e661c1d2c1bae67bd":[6,3,0,0,0,335,3],
-"classMR_1_1EnumNeihbourVertices.html#a2e38c0629b26b6c061cc4983be57983f":[6,3,0,0,0,335,6],
+"classMR_1_1EnumNeihbourVertices.html#a2e38c0629b26b6c061cc4983be57983f":[6,3,0,0,0,335,7],
 "classMR_1_1EnumNeihbourVertices.html#a2eeb4e576ccf64f868dd58d3886a1253":[6,3,0,0,0,335,5],
 "classMR_1_1EnumNeihbourVertices.html#a2fbccad24de8aa6adba0983ec987d2f3":[6,3,0,0,0,335,0],
 "classMR_1_1EnumNeihbourVertices.html#a37e1beab4fc2ea96620b1d0c4a2779a0":[6,3,0,0,0,335,1],
 "classMR_1_1EnumNeihbourVertices.html#a851e1076361fb8ec917add02ed772809":[6,3,0,0,0,335,4],
 "classMR_1_1EnumNeihbourVertices.html#a90ac5cb46e88ceb3df3a32235003d400":[6,3,0,0,0,335,2],
+"classMR_1_1EnumNeihbourVertices.html#ae9fd6f9c55a9d2d39849f90725db924b":[6,3,0,0,0,335,6],
 "classMR_1_1Face2RegionMap.html":[6,3,0,0,0,336],
 "classMR_1_1Face2RegionMap.html#a090e7fed4688108fb309392e5408826f":[6,3,0,0,0,336,22],
 "classMR_1_1Face2RegionMap.html#a1b1ae22f3e1169aee24d1f5a362096d9":[6,3,0,0,0,336,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1FaceBitSet.html#aea0aa42feabf810fa25b43dc3ec0d393":[6,3,0,0,0,337,35],
 "classMR_1_1FaceBitSet.html#af111f3112de5c93d39762a533c65c961":[6,3,0,0,0,337,32],
 "classMR_1_1FaceColorMapAggregator.html":[6,3,0,0,0,339],
-"classMR_1_1FaceColorMapAggregator.html#a1563299567d6f797d8e499c4c2eebe79":[6,3,0,0,0,339,13],
-"classMR_1_1FaceColorMapAggregator.html#a2901b56b128a8fe2a6adbb04d4357525":[6,3,0,0,0,339,9]
+"classMR_1_1FaceColorMapAggregator.html#a1563299567d6f797d8e499c4c2eebe79":[6,3,0,0,0,339,13]
 };

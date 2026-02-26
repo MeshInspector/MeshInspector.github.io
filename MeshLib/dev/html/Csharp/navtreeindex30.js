@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1FaceColorMapAggregator.html#a2901b56b128a8fe2a6adbb04d4357525":[6,3,0,0,0,339,9],
 "classMR_1_1FaceColorMapAggregator.html#a2c8eda7cc32120c00680e75d6f688be3":[6,3,0,0,0,339,10],
 "classMR_1_1FaceColorMapAggregator.html#a3a467aabe6edfaac6ce14228eac6a46e":[6,3,0,0,0,339,5],
 "classMR_1_1FaceColorMapAggregator.html#a4d960c94bd42c5c55b35291f21f6cd49":[6,3,0,0,0,339,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1FeatureObject.html#acffc30879ff6f502a78aff5ba0399c23":[6,3,0,0,0,352,7],
 "classMR_1_1FeatureObject.html#ad2744b9b94fd80e67292d9a45c4e3ff5":[6,3,0,0,0,352,48],
 "classMR_1_1FeatureObject.html#ad9f1e1940d9b3fb6f9077b01e2b12283":[6,3,0,0,0,352,47],
-"classMR_1_1FeatureObject.html#adc42a5edc37c4cacc9b3b217d7a3dd2c":[6,3,0,0,0,352,3],
-"classMR_1_1FeatureObject.html#ade6ce70e0d7cd5f69cca21ed851856ab":[6,3,0,0,0,352,1]
+"classMR_1_1FeatureObject.html#adc42a5edc37c4cacc9b3b217d7a3dd2c":[6,3,0,0,0,352,3]
 };

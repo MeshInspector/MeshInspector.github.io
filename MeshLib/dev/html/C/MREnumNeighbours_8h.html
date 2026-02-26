@@ -174,6 +174,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a63aa216938f28c268d3a921062bf6621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d1658b7258dab72096c88486c6c84a" id="r_a64d1658b7258dab72096c88486c6c84a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a></td></tr>
 <tr class="separator:a64d1658b7258dab72096c88486c6c84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087d1afcc55aadc6e828d844329c9727" id="r_a087d1afcc55aadc6e828d844329c9727"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a></td></tr>
+<tr class="separator:a087d1afcc55aadc6e828d844329c9727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d2e13be2795d8b8139792311bdc8359" id="r_a8d2e13be2795d8b8139792311bdc8359"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8d2e13be2795d8b8139792311bdc8359">MR_EnumNeihbourVertices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d2e13be2795d8b8139792311bdc8359">MR_EnumNeihbourVertices</a></td></tr>
 <tr class="separator:a8d2e13be2795d8b8139792311bdc8359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91d12dec5a5e125bf17302298a3f5ff5" id="r_a91d12dec5a5e125bf17302298a3f5ff5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a91d12dec5a5e125bf17302298a3f5ff5">MR_EnumNeihbourFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91d12dec5a5e125bf17302298a3f5ff5">MR_EnumNeihbourFaces</a></td></tr>
@@ -203,6 +205,8 @@ Functions</h2></td></tr>
 <tr class="separator:a595327ba7d9c729e0a73fe7dca6d04b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc7f56c338325844f0869204ce59633d" id="r_acc7f56c338325844f0869204ce59633d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc7f56c338325844f0869204ce59633d">MR_EnumNeihbourVertices_run_MR_VertBitSet</a> (<a class="el" href="#a8d2e13be2795d8b8139792311bdc8359">MR_EnumNeihbourVertices</a> *_this, const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *start, const <a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> *pred)</td></tr>
 <tr class="separator:acc7f56c338325844f0869204ce59633d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91dbb87699928f0d570d6d59b4c2861c" id="r_a91dbb87699928f0d570d6d59b4c2861c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91dbb87699928f0d570d6d59b4c2861c">MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint</a> (<a class="el" href="#a8d2e13be2795d8b8139792311bdc8359">MR_EnumNeihbourVertices</a> *_this, const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *start, const <a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> *pred)</td></tr>
+<tr class="separator:a91dbb87699928f0d570d6d59b4c2861c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86fd3b32e8d63136c38bab31aa4e306d" id="r_a86fd3b32e8d63136c38bab31aa4e306d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86fd3b32e8d63136c38bab31aa4e306d">MR_computeSpaceDistances</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *start, float range)</td></tr>
 <tr class="separator:a86fd3b32e8d63136c38bab31aa4e306d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3359574e2038c5863952d6d0588fa3f" id="r_ac3359574e2038c5863952d6d0588fa3f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3359574e2038c5863952d6d0588fa3f">MR_findNeighborVerts</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *start, float rangeSq)</td></tr>
@@ -323,6 +327,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> <a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a087d1afcc55aadc6e828d844329c9727" name="a087d1afcc55aadc6e828d844329c9727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a087d1afcc55aadc6e828d844329c9727">&#9670;&#160;</a></span>MR_std_vector_MR_MeshTriPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -827,6 +845,38 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a91dbb87699928f0d570d6d59b4c2861c" name="a91dbb87699928f0d570d6d59b4c2861c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91dbb87699928f0d570d6d59b4c2861c">&#9670;&#160;</a></span>MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d2e13be2795d8b8139792311bdc8359">MR_EnumNeihbourVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>pred</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::EnumNeihbourVertices::run</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>pred</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

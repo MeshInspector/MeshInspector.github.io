@@ -22,10 +22,12 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1EnumNeihbourFaces.html#ae1f6c135bf3d4ea6c2d88372adc4d1e5":[6,1,1,0,1,239,2],
 "classmrmeshpy_1_1EnumNeihbourVertices.html":[6,1,0,0,2,240],
 "classmrmeshpy_1_1EnumNeihbourVertices.html":[6,1,1,0,1,240],
-"classmrmeshpy_1_1EnumNeihbourVertices.html#a1ae65412d10653a8db8b2f4e3b8f738a":[6,1,0,0,2,240,2],
-"classmrmeshpy_1_1EnumNeihbourVertices.html#a1ae65412d10653a8db8b2f4e3b8f738a":[6,1,1,0,1,240,2],
-"classmrmeshpy_1_1EnumNeihbourVertices.html#a434a1f1052855e94c64a64250086c142":[6,1,0,0,2,240,3],
-"classmrmeshpy_1_1EnumNeihbourVertices.html#a434a1f1052855e94c64a64250086c142":[6,1,1,0,1,240,3],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a10f902539316cf13aaa29e9f0312b070":[6,1,0,0,2,240,2],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a10f902539316cf13aaa29e9f0312b070":[6,1,1,0,1,240,2],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a1ae65412d10653a8db8b2f4e3b8f738a":[6,1,0,0,2,240,3],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a1ae65412d10653a8db8b2f4e3b8f738a":[6,1,1,0,1,240,3],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a434a1f1052855e94c64a64250086c142":[6,1,0,0,2,240,4],
+"classmrmeshpy_1_1EnumNeihbourVertices.html#a434a1f1052855e94c64a64250086c142":[6,1,1,0,1,240,4],
 "classmrmeshpy_1_1EnumNeihbourVertices.html#a57012db765760454218afad71ea9a3ff":[6,1,0,0,2,240,1],
 "classmrmeshpy_1_1EnumNeihbourVertices.html#a57012db765760454218afad71ea9a3ff":[6,1,1,0,1,240,1],
 "classmrmeshpy_1_1EnumNeihbourVertices.html#aa296267d23abf3231d716d259ef05869":[6,1,0,0,2,240,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1FaceBitSet.html#af85d10b6069037cb96e66cf56c70bdc1":[6,1,0,0,2,245,44],
 "classmrmeshpy_1_1FaceBitSet.html#af85d10b6069037cb96e66cf56c70bdc1":[6,1,1,0,1,245,44],
 "classmrmeshpy_1_1FaceBitSet.html#afbc1a015a36759b53c012c7991819d4d":[6,1,0,0,2,245,46],
-"classmrmeshpy_1_1FaceBitSet.html#afbc1a015a36759b53c012c7991819d4d":[6,1,1,0,1,245,46],
-"classmrmeshpy_1_1FaceColorMapAggregator.html":[6,1,0,0,2,247],
-"classmrmeshpy_1_1FaceColorMapAggregator.html":[6,1,1,0,1,247]
+"classmrmeshpy_1_1FaceBitSet.html#afbc1a015a36759b53c012c7991819d4d":[6,1,1,0,1,245,46]
 };

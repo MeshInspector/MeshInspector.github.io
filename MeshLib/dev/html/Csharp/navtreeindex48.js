@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1PointMeasurementObject.html#ae653d3bcea21ee7d81f4600928ebda37":[6,3,0,0,0,656,19],
 "classMR_1_1PointMeasurementObject.html#ae990f5b7c27423742fa4a816c57c0bd1":[6,3,0,0,0,656,42],
 "classMR_1_1PointMeasurementObject.html#aeb911f615306acbecf17f21935b8ef0a":[6,3,0,0,0,656,12],
 "classMR_1_1PointMeasurementObject.html#aee0af21054fb00574a0d7bafd476f7b6":[6,3,0,0,0,656,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1PointsToDistanceVolumeParams.html#a83f1609a45afd0aedef5f7b2d212ad0b":[6,3,0,0,0,667,3],
 "classMR_1_1PointsToDistanceVolumeParams.html#a889f580258530ca3392af7cb5c4a44bc":[6,3,0,0,0,667,14],
 "classMR_1_1PointsToDistanceVolumeParams.html#acb1ef65210623db843c66d65d307e196":[6,3,0,0,0,667,12],
-"classMR_1_1PointsToDistanceVolumeParams.html#ad5b32dadccfb86de157bc5d4a8a81893":[6,3,0,0,0,667,13],
-"classMR_1_1PointsToDistanceVolumeParams.html#adbef596027a558f43194134340ad1b25":[6,3,0,0,0,667,9]
+"classMR_1_1PointsToDistanceVolumeParams.html#ad5b32dadccfb86de157bc5d4a8a81893":[6,3,0,0,0,667,13]
 };

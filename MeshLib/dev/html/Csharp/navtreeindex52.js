@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#aad16c4276c518bfe6f4681f87159282c":[6,3,0,0,0,736,1],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#adca2fe4d8e9790d49d50d74009ed20e3":[6,3,0,0,0,736,2],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#ade31e5d5f76c3c7d105c8a8e61b36695":[6,3,0,0,0,736,0],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#af06f78952dca9d4c4ace87a437338107":[6,3,0,0,0,736,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1SimpleVolumeMinMax.html#a7257fe2dd5b4f34afbaa0a757957f604":[6,3,0,0,0,758,12],
 "classMR_1_1SimpleVolumeMinMax.html#a7d23100be34e54522523bb6f38fa5507":[6,3,0,0,0,758,7],
 "classMR_1_1SimpleVolumeMinMax.html#a80511b3be1bfb2705c43727c32ea296f":[6,3,0,0,0,758,6],
-"classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911":[6,3,0,0,0,758,1],
-"classMR_1_1SimpleVolumeMinMax.html#ab8565ab63a6e3ea603fbe1449275e4ed":[6,3,0,0,0,758,3]
+"classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911":[6,3,0,0,0,758,1]
 };

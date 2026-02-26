@@ -10,6 +10,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga0f5eb553cbf47775aa2a9325696ca9da" kind="function"><name>run</name></member>
       <member refid="group__GeneralGroup_1gab1421ec24db86f8e4775fee7e41e8ecc" kind="function"><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga65449d4756ca8415fcdee1a1cb68a390" kind="function"><name>run</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga7aa6ab8dfde5a3646a3ae177a35432ed" kind="function"><name>run_</name></member>
@@ -18,11 +19,12 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="13" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="13" bodyend="25"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafcc2be59d6d5a7f757d8641b760958d5" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>bd_</name></member>
       <member refid="group__GeneralGroup_1ga0f5eb553cbf47775aa2a9325696ca9da" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
       <member refid="group__GeneralGroup_1gab1421ec24db86f8e4775fee7e41e8ecc" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga65449d4756ca8415fcdee1a1cb68a390" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
       <member refid="group__GeneralGroup_1ga7aa6ab8dfde5a3646a3ae177a35432ed" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run_</name></member>
       <member refid="group__GeneralGroup_1ga55eae3546ffa50bb88a01b153bea8459" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>visited_</name></member>
     </listofallmembers>
