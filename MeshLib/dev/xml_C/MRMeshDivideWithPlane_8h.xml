@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshDivideWithPlane_8h" kind="file" language="C++">
+    <compoundname>MRMeshDivideWithPlane.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMeshDivideWithPlane.h</label>
+        <link refid="MRMeshDivideWithPlane_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshDivideWithPlane_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" prot="public" static="no">
+        <type>struct <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref></type>
+        <definition>typedef struct MR_ObjectMeshData MR_ObjectMeshData</definition>
+        <argsstring></argsstring>
+        <name>MR_ObjectMeshData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="12" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshDivideWithPlane_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
+        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Plane3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="13" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshDivideWithPlane_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
+        <type>struct <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
+        <definition>typedef struct MR_std_vector_std_string MR_std_vector_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" prot="public" static="no">
+        <type>struct <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref></type>
+        <definition>typedef struct MR_DivideMeshWithPlaneParams MR_DivideMeshWithPlaneParams</definition>
+        <argsstring></argsstring>
+        <name>MR_DivideMeshWithPlaneParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="19" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a1eaca3db4be190d8022160d29bd71749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DivideMeshWithPlaneParams_Get_eps</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Get_eps</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones Returns a pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="26" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a58fdc2480f5d166a6105ba1258d0a548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_Set_eps</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this, float value)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Set_eps</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones Modifies a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>eps</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="32" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1ac3f14ab9b0586789c562891d1cff80fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DivideMeshWithPlaneParams_GetMutable_eps</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_GetMutable_eps</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones Returns a mutable pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="39" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="39" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a4c105f33dd4535fc9b96bec3985845e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_DivideMeshWithPlaneParams_Get_fillCut</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Get_fillCut</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if set - function tries to fill cut after dividing (this operation might fail leading to &quot;params.errors&quot;) Returns a pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>fillCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="46" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="46" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a071226e2a8001f52976def311d05f538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_Set_fillCut</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this, bool value)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Set_fillCut</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if set - function tries to fill cut after dividing (this operation might fail leading to &quot;params.errors&quot;) Modifies a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>fillCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fillCut</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1aa03a7d76078297e25ad031b0ad27f530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_DivideMeshWithPlaneParams_GetMutable_fillCut</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_GetMutable_fillCut</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if set - function tries to fill cut after dividing (this operation might fail leading to &quot;params.errors&quot;) Returns a mutable pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>fillCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a0702ce82aae9397a8ea142b01892212e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_DivideMeshWithPlaneParams_Get_subdivideFilling</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Get_subdivideFilling</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if set and filled - function subdivides filling after cut Returns a pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>subdivideFilling</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="66" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="66" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1adb90cf7a4f7199711e67f1bc10a2a10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_Set_subdivideFilling</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this, bool value)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Set_subdivideFilling</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if set and filled - function subdivides filling after cut Modifies a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>subdivideFilling</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>subdivideFilling</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="72" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1af9b279f37179b8ad4712d6890849e4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_DivideMeshWithPlaneParams_GetMutable_subdivideFilling</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_GetMutable_subdivideFilling</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if set and filled - function subdivides filling after cut Returns a mutable pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>subdivideFilling</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1aa44e0462b5a6a1600ed7254b91df6f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *const *</type>
+        <definition>MRC_API MR_ObjectMeshData *const  * MR_DivideMeshWithPlaneParams_Get_otherPart</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Get_otherPart</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output other part of dividing (expected to be empty) Returns a pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="86" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="86" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1ae02458d83e4b2ae318a3fa4cb875b2e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_Set_otherPart</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this, MR_ObjectMeshData *value)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Set_otherPart</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output other part of dividing (expected to be empty) Modifies a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherPart</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="93" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1af9f6d11adb6be2f1db1b8464259fd749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> **</type>
+        <definition>MRC_API MR_ObjectMeshData ** MR_DivideMeshWithPlaneParams_GetMutable_otherPart</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_GetMutable_otherPart</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output other part of dividing (expected to be empty) Returns a mutable pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="100" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="100" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1affea44ff4d3458943bbc219b9c3ddaf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *const *</type>
+        <definition>MRC_API MR_std_vector_std_string *const  * MR_DivideMeshWithPlaneParams_Get_errors</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Get_errors</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output list of errors that could possibly happen during &apos;divideMeshWithPlane&apos; function call Returns a pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>errors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="107" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="107" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a624548a723ffd2458401b4fca1f9ffbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_Set_errors</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this, MR_std_vector_std_string *value)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Set_errors</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output list of errors that could possibly happen during &apos;divideMeshWithPlane&apos; function call Modifies a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>errors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>errors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>errors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a5e13847fdfd31ad0266cdca780d1f575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> **</type>
+        <definition>MRC_API MR_std_vector_std_string ** MR_DivideMeshWithPlaneParams_GetMutable_errors</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_GetMutable_errors</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output list of errors that could possibly happen during &apos;divideMeshWithPlane&apos; function call Returns a mutable pointer to a member variable of class <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> named <computeroutput>errors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="121" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="121" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a70d5be38c3a4267720b7d05eda2eeec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDivideWithPlane_8h_1a49f1575fd1a8eec330314c2ed0a14d22" kindref="member">MR_DivideMeshWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="125" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="125" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a8a714087056539770ae4b05bb29fed57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshDivideWithPlane_8h_1a2a6bd4bfd0d21fa514af66a18e8bd4ff" kindref="member">MR_DivideMeshWithPlaneParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshDivideWithPlane_8h_1a1444bdabf2c78d6f606802ca45649544" kindref="member">MR_DivideMeshWithPlaneParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshDivideWithPlane_8h_1a60909a1965e46a3751a3ea8cb087d725" kindref="member">MR_DivideMeshWithPlaneParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="130" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="130" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a824c162b352f7c95e834d1d6e7265d69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_ConstructFrom</definition>
+        <argsstring>(float eps, bool fillCut, bool subdivideFilling, MR_ObjectMeshData *otherPart, MR_std_vector_std_string *errors)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillCut</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>subdivideFilling</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
+          <declname>errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::DivideMeshWithPlaneParams</computeroutput> elementwise. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>errors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDivideWithPlane_8h_1a49f1575fd1a8eec330314c2ed0a14d22" kindref="member">MR_DivideMeshWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="137" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="137" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a60909a1965e46a3751a3ea8cb087d725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API const MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_OffsetPtr</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="141" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="141" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a1444bdabf2c78d6f606802ca45649544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="145" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="145" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a7750ede9ab8d13a4c65323423a14fcea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_other)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::DivideMeshWithPlaneParams::DivideMeshWithPlaneParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDivideWithPlane_8h_1a49f1575fd1a8eec330314c2ed0a14d22" kindref="member">MR_DivideMeshWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="151" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="151" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a49f1575fd1a8eec330314c2ed0a14d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_Destroy</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_DivideMeshWithPlaneParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a2a6bd4bfd0d21fa514af66a18e8bd4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DivideMeshWithPlaneParams_DestroyArray</definition>
+        <argsstring>(const MR_DivideMeshWithPlaneParams *_this)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_DivideMeshWithPlaneParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="157" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1aef0ecdf68576ddc94642495911faf7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+        <definition>MRC_API MR_DivideMeshWithPlaneParams * MR_DivideMeshWithPlaneParams_AssignFromAnother</definition>
+        <argsstring>(MR_DivideMeshWithPlaneParams *_this, const MR_DivideMeshWithPlaneParams *_other)</argsstring>
+        <name>MR_DivideMeshWithPlaneParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::DivideMeshWithPlaneParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="165" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="165" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshDivideWithPlane_8h_1a875fdcb97b4ecf285f1d630cbde19bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_divideMeshWithPlane</definition>
+        <argsstring>(MR_ObjectMeshData *data, const MR_Plane3f *plane, const MR_DivideMeshWithPlaneParams *divideParams)</argsstring>
+        <name>MR_divideMeshWithPlane</name>
+        <param>
+          <type><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref> *</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref> *</type>
+          <declname>divideParams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>divide mesh<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(with attributes) on two parts by given</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>plane</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optionally fills and subdivides cut area Generated from function <computeroutput>MR::divideMeshWithPlane</computeroutput>. Parameter <computeroutput>data</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>divideParams</computeroutput> is a single object. Parameter <computeroutput>divideParams</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h" declline="174" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRMeshDivideWithPlane_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRMeshDivideWithPlane_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMeshDivideWithPlane_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRMeshDivideWithPlane_8h_1a1eaca3db4be190d8022160d29bd71749" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a1eaca3db4be190d8022160d29bd71749" kindref="member">MR_DivideMeshWithPlaneParams_Get_eps</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRMeshDivideWithPlane_8h_1a58fdc2480f5d166a6105ba1258d0a548" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a58fdc2480f5d166a6105ba1258d0a548" kindref="member">MR_DivideMeshWithPlaneParams_Set_eps</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRMeshDivideWithPlane_8h_1ac3f14ab9b0586789c562891d1cff80fa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1ac3f14ab9b0586789c562891d1cff80fa" kindref="member">MR_DivideMeshWithPlaneParams_GetMutable_eps</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRMeshDivideWithPlane_8h_1a4c105f33dd4535fc9b96bec3985845e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a4c105f33dd4535fc9b96bec3985845e1" kindref="member">MR_DivideMeshWithPlaneParams_Get_fillCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRMeshDivideWithPlane_8h_1a071226e2a8001f52976def311d05f538" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a071226e2a8001f52976def311d05f538" kindref="member">MR_DivideMeshWithPlaneParams_Set_fillCut</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRMeshDivideWithPlane_8h_1aa03a7d76078297e25ad031b0ad27f530" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1aa03a7d76078297e25ad031b0ad27f530" kindref="member">MR_DivideMeshWithPlaneParams_GetMutable_fillCut</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRMeshDivideWithPlane_8h_1a0702ce82aae9397a8ea142b01892212e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a0702ce82aae9397a8ea142b01892212e" kindref="member">MR_DivideMeshWithPlaneParams_Get_subdivideFilling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRMeshDivideWithPlane_8h_1adb90cf7a4f7199711e67f1bc10a2a10d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1adb90cf7a4f7199711e67f1bc10a2a10d" kindref="member">MR_DivideMeshWithPlaneParams_Set_subdivideFilling</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRMeshDivideWithPlane_8h_1af9b279f37179b8ad4712d6890849e4a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1af9b279f37179b8ad4712d6890849e4a1" kindref="member">MR_DivideMeshWithPlaneParams_GetMutable_subdivideFilling</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRMeshDivideWithPlane_8h_1aa44e0462b5a6a1600ed7254b91df6f11" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1aa44e0462b5a6a1600ed7254b91df6f11" kindref="member">MR_DivideMeshWithPlaneParams_Get_otherPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRMeshDivideWithPlane_8h_1ae02458d83e4b2ae318a3fa4cb875b2e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1ae02458d83e4b2ae318a3fa4cb875b2e4" kindref="member">MR_DivideMeshWithPlaneParams_Set_otherPart</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRMeshDivideWithPlane_8h_1af9f6d11adb6be2f1db1b8464259fd749" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>**<ref refid="MRMeshDivideWithPlane_8h_1af9f6d11adb6be2f1db1b8464259fd749" kindref="member">MR_DivideMeshWithPlaneParams_GetMutable_otherPart</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRMeshDivideWithPlane_8h_1affea44ff4d3458943bbc219b9c3ddaf7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1affea44ff4d3458943bbc219b9c3ddaf7" kindref="member">MR_DivideMeshWithPlaneParams_Get_errors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRMeshDivideWithPlane_8h_1a624548a723ffd2458401b4fca1f9ffbd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a624548a723ffd2458401b4fca1f9ffbd" kindref="member">MR_DivideMeshWithPlaneParams_Set_errors</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRMeshDivideWithPlane_8h_1a5e13847fdfd31ad0266cdca780d1f575" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>**<ref refid="MRMeshDivideWithPlane_8h_1a5e13847fdfd31ad0266cdca780d1f575" kindref="member">MR_DivideMeshWithPlaneParams_GetMutable_errors</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRMeshDivideWithPlane_8h_1a70d5be38c3a4267720b7d05eda2eeec6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a70d5be38c3a4267720b7d05eda2eeec6" kindref="member">MR_DivideMeshWithPlaneParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRMeshDivideWithPlane_8h_1a8a714087056539770ae4b05bb29fed57" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a8a714087056539770ae4b05bb29fed57" kindref="member">MR_DivideMeshWithPlaneParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRMeshDivideWithPlane_8h_1a824c162b352f7c95e834d1d6e7265d69" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a824c162b352f7c95e834d1d6e7265d69" kindref="member">MR_DivideMeshWithPlaneParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fillCut,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>subdivideFilling,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*otherPart,<sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*errors);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRMeshDivideWithPlane_8h_1a60909a1965e46a3751a3ea8cb087d725" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a60909a1965e46a3751a3ea8cb087d725" kindref="member">MR_DivideMeshWithPlaneParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRMeshDivideWithPlane_8h_1a1444bdabf2c78d6f606802ca45649544" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a1444bdabf2c78d6f606802ca45649544" kindref="member">MR_DivideMeshWithPlaneParams_OffsetMutablePtr</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRMeshDivideWithPlane_8h_1a7750ede9ab8d13a4c65323423a14fcea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1a7750ede9ab8d13a4c65323423a14fcea" kindref="member">MR_DivideMeshWithPlaneParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRMeshDivideWithPlane_8h_1a49f1575fd1a8eec330314c2ed0a14d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a49f1575fd1a8eec330314c2ed0a14d22" kindref="member">MR_DivideMeshWithPlaneParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRMeshDivideWithPlane_8h_1a2a6bd4bfd0d21fa514af66a18e8bd4ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a2a6bd4bfd0d21fa514af66a18e8bd4ff" kindref="member">MR_DivideMeshWithPlaneParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRMeshDivideWithPlane_8h_1aef0ecdf68576ddc94642495911faf7d3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*<ref refid="MRMeshDivideWithPlane_8h_1aef0ecdf68576ddc94642495911faf7d3" kindref="member">MR_DivideMeshWithPlaneParams_AssignFromAnother</ref>(<ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRMeshDivideWithPlane_8h_1a875fdcb97b4ecf285f1d630cbde19bf5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a875fdcb97b4ecf285f1d630cbde19bf5" kindref="member">MR_divideMeshWithPlane</ref>(<ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDivideWithPlane_8h_1a4d3a4c82c58f6a810bddd36cf061cefa" kindref="member">MR_DivideMeshWithPlaneParams</ref><sp/>*divideParams);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDivideWithPlane.h"/>
+  </compounddef>
+</doxygen>

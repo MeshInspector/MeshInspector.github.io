@@ -170,6 +170,7 @@
     <innerclass refid="classMR_1_1DistanceMeasurementObject" prot="public">MR::DistanceMeasurementObject</innerclass>
     <innerclass refid="structMR_1_1DistanceToMeshOptions" prot="public">MR::DistanceToMeshOptions</innerclass>
     <innerclass refid="structMR_1_1DistanceVolumeParams" prot="public">MR::DistanceVolumeParams</innerclass>
+    <innerclass refid="structMR_1_1DivideMeshWithPlaneParams" prot="public">MR::DivideMeshWithPlaneParams</innerclass>
     <innerclass refid="structMR_1_1DividePointCloudOptionalOutput" prot="public">MR::DividePointCloudOptionalOutput</innerclass>
     <innerclass refid="structMR_1_1DividePolylineParameters" prot="public">MR::DividePolylineParameters</innerclass>
     <innerclass refid="structMR_1_1DoubleOffsetSettings" prot="public">MR::DoubleOffsetSettings</innerclass>
@@ -2146,6 +2147,7 @@
       <member refid="group__MeshDeloneGroup_1ga2e6a352161b72918ff6c063a095af16c" kind="function"><name>makeDeloneEdgeFlips</name></member>
       <member refid="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" kind="function"><name>processCloseTriangles</name></member>
       <member refid="group__AABBTreeGroup_1ga50fea0557381236d780b7ea113906a0f" kind="function"><name>signedDistanceToMesh</name></member>
+      <member refid="group__GeneralGroup_1ga8c57cab2b04c51e01b0eefd2dfdce8ca" kind="function"><name>divideMeshWithPlane</name></member>
       <member refid="group__GeneralGroup_1gac69f2cbf1961ebd6741f9b67431794df" kind="function"><name>findOuterLayer</name></member>
       <member refid="group__MeshEigenGroup_1ga0267bb7a55efaf30da7c464d5610ee99" kind="function"><name>topologyFromEigen</name></member>
       <member refid="group__MeshEigenGroup_1gac8c5bb3011d7c265fbfe5bfc5f03406b" kind="function"><name>meshFromEigen</name></member>

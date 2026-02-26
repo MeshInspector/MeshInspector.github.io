@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef":[6,0,0,0,27],
+"group__MathGroup.html#gad38e7e445e2b0faa925e3df9c0ee75a6":[6,0,0,0,50],
+"group__MathGroup.html#gad38e7e445e2b0faa925e3df9c0ee75a6":[6,0,0,20,6709],
+"group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb":[6,0,0,0,47],
+"group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb":[6,0,0,20,6706],
+"group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[6,0,0,0,37],
+"group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[6,0,0,20,3067],
+"group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826":[6,0,0,0,42],
 "group__MatrixGroup.html":[6,0,0,0,7],
 "group__MeshAlgorithmGroup.html":[6,0,0,9],
 "group__MeshAlgorithmGroup.html#ga85f120484f51a420267e45c05af90e90":[6,0,0,9,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "group__PolylineGroup.html":[6,0,0,14],
 "group__PolylineGroup.html#ga349201f5ba6a4ad7fe91d113e0d0d2ec":[6,0,0,14,3],
 "group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c":[6,0,0,14,4],
-"group__PolylineSubdivideGroup.html":[6,0,0,15],
-"group__PolylineSubdivideGroup.html#ga8f12328931f9ad5bb4f2a045c02c354a":[6,0,0,15,2],
-"group__PolylineSubdivideGroup.html#gab43831fc9496b5cfec6dabf33d82df2b":[6,0,0,15,1],
-"group__RayBoxIntersectionGroup.html":[6,0,0,0,9],
-"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1],
-"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2],
-"group__SerializerGroup.html":[6,0,0,2,15],
-"group__SerializerGroup.html#ga0554aaf11fa5c4fa1b0a2c12a280c591":[6,0,0,2,15,13],
-"group__SerializerGroup.html#ga088ca803854aa288993f4398ac0d329d":[6,0,0,2,15,47]
+"group__PolylineSubdivideGroup.html":[6,0,0,15]
 };

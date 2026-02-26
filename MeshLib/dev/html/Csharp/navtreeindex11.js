@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1BitSet.html#a90b29c78c8608ceb9ed2611e5e4cd81c":[6,3,0,0,0,42,29],
+"classMR_1_1BitSet.html#a9b7871e0923af1b677c0dd90b573264f":[6,3,0,0,0,42,4],
 "classMR_1_1BitSet.html#a9be29d55f98f19cb86e1abb9971e06fa":[6,3,0,0,0,42,0],
 "classMR_1_1BitSet.html#a9c80718c0a5f61d438898b7ee6599691":[6,3,0,0,0,42,11],
 "classMR_1_1BitSet.html#aab5127868c081567af702f786893297c":[6,3,0,0,0,42,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1Box__Color.html#a13a872de22c62792c8a3b8c4f8023679":[6,3,0,0,0,87,18],
 "classMR_1_1Box__Color.html#a2961407c54a6417eda9b7946215e2e40":[6,3,0,0,0,87,12],
 "classMR_1_1Box__Color.html#a2e8a497ad43bd80f20932ad3afaef0ef":[6,3,0,0,0,87,13],
-"classMR_1_1Box__Color.html#a358492971afaf90c631e985f22ff1529":[6,3,0,0,0,87,1],
-"classMR_1_1Box__Color.html#a36d241449191d12ea9f9ca1c0e279475":[6,3,0,0,0,87,11],
-"classMR_1_1Box__Color.html#a3a50803c7abf4109b8e0713a80451d45":[6,3,0,0,0,87,15]
+"classMR_1_1Box__Color.html#a358492971afaf90c631e985f22ff1529":[6,3,0,0,0,87,1]
 };

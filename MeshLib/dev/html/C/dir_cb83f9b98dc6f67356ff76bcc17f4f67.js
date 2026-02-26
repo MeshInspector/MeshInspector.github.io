@@ -169,6 +169,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRMeshDelone.h", "MRMeshDelone_8h.html", "MRMeshDelone_8h" ],
     [ "MRMeshDiff.h", "MRMeshDiff_8h.html", "MRMeshDiff_8h" ],
     [ "MRMeshDistance.h", "MRMeshDistance_8h.html", "MRMeshDistance_8h" ],
+    [ "MRMeshDivideWithPlane.h", "MRMeshDivideWithPlane_8h.html", "MRMeshDivideWithPlane_8h" ],
     [ "MRMeshDoubleLayer.h", "MRMeshDoubleLayer_8h.html", "MRMeshDoubleLayer_8h" ],
     [ "MRMeshExtrude.h", "MRMeshExtrude_8h.html", "MRMeshExtrude_8h" ],
     [ "MRMeshFillHole.h", "MRMeshFillHole_8h.html", "MRMeshFillHole_8h" ],

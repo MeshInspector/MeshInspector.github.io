@@ -223,6 +223,7 @@ var annotated_dup =
       [ "DistanceMeasurementObject", "classmrmeshpy_1_1DistanceMeasurementObject.html", "classmrmeshpy_1_1DistanceMeasurementObject" ],
       [ "DistanceToMeshOptions", "classmrmeshpy_1_1DistanceToMeshOptions.html", "classmrmeshpy_1_1DistanceToMeshOptions" ],
       [ "DistanceVolumeParams", "classmrmeshpy_1_1DistanceVolumeParams.html", "classmrmeshpy_1_1DistanceVolumeParams" ],
+      [ "DivideMeshWithPlaneParams", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html", "classmrmeshpy_1_1DivideMeshWithPlaneParams" ],
       [ "DividePointCloudOptionalOutput", "classmrmeshpy_1_1DividePointCloudOptionalOutput.html", "classmrmeshpy_1_1DividePointCloudOptionalOutput" ],
       [ "DividePolylineParameters", "classmrmeshpy_1_1DividePolylineParameters.html", "classmrmeshpy_1_1DividePolylineParameters" ],
       [ "double_output", "classmrmeshpy_1_1double__output.html", "classmrmeshpy_1_1double__output" ],

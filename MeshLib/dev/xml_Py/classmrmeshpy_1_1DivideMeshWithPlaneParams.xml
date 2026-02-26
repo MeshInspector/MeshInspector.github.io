@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DivideMeshWithPlaneParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DivideMeshWithPlaneParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a6336cae85aea4a6121b10d710bc8cc46" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DivideMeshWithPlaneParams::_offsetof_eps</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_eps</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams._offsetof_eps</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a2b937acd7c0f8bba41f4a591ee396450" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DivideMeshWithPlaneParams::_offsetof_errors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_errors</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams._offsetof_errors</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1aa206a8594a3de3501ee79450105f6580" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DivideMeshWithPlaneParams::_offsetof_fillCut</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fillCut</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams._offsetof_fillCut</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1aa855372173c39c36a843b711a7c87245" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DivideMeshWithPlaneParams::_offsetof_otherPart</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_otherPart</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams._offsetof_otherPart</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a29c89be0e999506bb1c021dbfb62ee5a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DivideMeshWithPlaneParams::_offsetof_subdivideFilling</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_subdivideFilling</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams._offsetof_subdivideFilling</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14222" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1af4e3172bcc633120b508c060a82e50cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14225" bodyend="14226"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a5c8d3c6fba91a895a5b370efff456292" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DivideMeshWithPlaneParams" kindref="compound">DivideMeshWithPlaneParams</ref></type>
+        <definition> DivideMeshWithPlaneParams mrmeshpy.DivideMeshWithPlaneParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14229" bodyend="14230"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a5c8d3c6fba91a895a5b370efff456292" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DivideMeshWithPlaneParams" kindref="compound">DivideMeshWithPlaneParams</ref></type>
+        <definition> DivideMeshWithPlaneParams mrmeshpy.DivideMeshWithPlaneParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14233" bodyend="14234"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1af3537a86b5784a9827d7c4ea8df99d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14236" bodyend="14237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a2b3e91c9f7d94791bdfa5e2d4c5c84cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.__init__</definition>
+        <argsstring>(self, DivideMeshWithPlaneParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DivideMeshWithPlaneParams" kindref="compound">DivideMeshWithPlaneParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14239" bodyend="14242"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a0edf71892e73a3804324026acf321d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.__init__</definition>
+        <argsstring>(self, float eps, bool fillCut, bool subdivideFilling, ObjectMeshData otherPart, std_vector_std_string errors)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillCut</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>subdivideFilling</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+          <declname>errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14244" bodyend="14247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a8c40eebec347fb7ed6d77898c559250e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DivideMeshWithPlaneParams.eps</definition>
+        <argsstring>(self)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14249" bodyend="14252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a58004b1b1e020b273a7d824439281f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.eps</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14254" bodyend="14255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a66037292b6c1a65832f48f270a397057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.DivideMeshWithPlaneParams.errors</definition>
+        <argsstring>(self)</argsstring>
+        <name>errors</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.errors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output list of errors that could possibly happen during &apos;divideMeshWithPlane&apos; function call
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14257" bodyend="14260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a51533b6d0c91c683d595d5068cdefde3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.errors</definition>
+        <argsstring>(self, std_vector_std_string arg1)</argsstring>
+        <name>errors</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.errors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14262" bodyend="14263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a7a64974426c4d13e5cc626c63c1b94c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DivideMeshWithPlaneParams.fillCut</definition>
+        <argsstring>(self)</argsstring>
+        <name>fillCut</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.fillCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if set - function tries to fill cut after dividing (this operation might fail leading to &quot;params.errors&quot;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14265" bodyend="14268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1afe07eb24f844beb40e14302be6d01d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.fillCut</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>fillCut</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.fillCut</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14270" bodyend="14271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1ac75a5844bacf262a3eccb9889a81cc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+        <definition> ObjectMeshData mrmeshpy.DivideMeshWithPlaneParams.otherPart</definition>
+        <argsstring>(self)</argsstring>
+        <name>otherPart</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.otherPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output other part of dividing (expected to be empty)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14273" bodyend="14276"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a9862063cc81b5e4183cf4429930aa202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.otherPart</definition>
+        <argsstring>(self, ObjectMeshData arg1)</argsstring>
+        <name>otherPart</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.otherPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14278" bodyend="14279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1afc886bc427f46eb80b4e516d11c8f1dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DivideMeshWithPlaneParams.subdivideFilling</definition>
+        <argsstring>(self)</argsstring>
+        <name>subdivideFilling</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.subdivideFilling</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if set and filled - function subdivides filling after cut
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14281" bodyend="14284"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a0c770c5c8a7f72e8292db9aa8308f4a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DivideMeshWithPlaneParams.subdivideFilling</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>subdivideFilling</name>
+        <qualifiedname>mrmeshpy.DivideMeshWithPlaneParams.subdivideFilling</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14286" bodyend="14287"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DivideMeshWithPlaneParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DivideMeshWithPlaneParams</label>
+        <link refid="classmrmeshpy_1_1DivideMeshWithPlaneParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_eps</edgelabel>
+          <edgelabel>_offsetof_errors</edgelabel>
+          <edgelabel>_offsetof_fillCut</edgelabel>
+          <edgelabel>_offsetof_otherPart</edgelabel>
+          <edgelabel>_offsetof_subdivideFilling</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14214" bodyend="14287"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1af4e3172bcc633120b508c060a82e50cb" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1af3537a86b5784a9827d7c4ea8df99d73" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a2b3e91c9f7d94791bdfa5e2d4c5c84cc" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a0edf71892e73a3804324026acf321d34" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a6336cae85aea4a6121b10d710bc8cc46" prot="protected" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>_offsetof_eps</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a2b937acd7c0f8bba41f4a591ee396450" prot="protected" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>_offsetof_errors</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1aa206a8594a3de3501ee79450105f6580" prot="protected" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>_offsetof_fillCut</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1aa855372173c39c36a843b711a7c87245" prot="protected" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>_offsetof_otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a29c89be0e999506bb1c021dbfb62ee5a" prot="protected" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>_offsetof_subdivideFilling</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a8c40eebec347fb7ed6d77898c559250e" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a58004b1b1e020b273a7d824439281f8e" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a66037292b6c1a65832f48f270a397057" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>errors</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a51533b6d0c91c683d595d5068cdefde3" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>errors</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a7a64974426c4d13e5cc626c63c1b94c1" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>fillCut</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1afe07eb24f844beb40e14302be6d01d66" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>fillCut</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a5c8d3c6fba91a895a5b370efff456292" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a5c8d3c6fba91a895a5b370efff456292" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1ac75a5844bacf262a3eccb9889a81cc6f" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a9862063cc81b5e4183cf4429930aa202" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>otherPart</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1afc886bc427f46eb80b4e516d11c8f1dc" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>subdivideFilling</name></member>
+      <member refid="classmrmeshpy_1_1DivideMeshWithPlaneParams_1a0c770c5c8a7f72e8292db9aa8308f4a2" prot="public" virt="non-virtual"><scope>mrmeshpy::DivideMeshWithPlaneParams</scope><name>subdivideFilling</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

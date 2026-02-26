@@ -2674,6 +2674,13 @@
   <compound refid="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kind="struct"><name>MR::FixUndercuts::DistMapImproveDirectionParameters</name>
     <member refid="group__GeneralGroup_1ga865b6dc16827bcf5024f2e675a74e8e0" kind="variable"><name>distanceMapResolution</name></member>
   </compound>
+  <compound refid="structMR_1_1DivideMeshWithPlaneParams" kind="struct"><name>MR::DivideMeshWithPlaneParams</name>
+    <member refid="group__GeneralGroup_1ga20a33b87ca2c2a4f88d39eebbd7cab8d" kind="variable"><name>eps</name></member>
+    <member refid="group__GeneralGroup_1ga6b07f61ba2e62fbea15a71fbc0fb499a" kind="variable"><name>fillCut</name></member>
+    <member refid="group__GeneralGroup_1gad0ee283f46fb5da51c8071394fcb4cb3" kind="variable"><name>subdivideFilling</name></member>
+    <member refid="group__GeneralGroup_1ga2f9dc36203cfe7e63482f518ca9b8ce5" kind="variable"><name>otherPart</name></member>
+    <member refid="group__GeneralGroup_1gadedb7fe0325b1310d6c666862f5be293" kind="variable"><name>errors</name></member>
+  </compound>
   <compound refid="structMR_1_1DividePointCloudOptionalOutput" kind="struct"><name>MR::DividePointCloudOptionalOutput</name>
     <member refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" kind="variable"><name>outVmap</name></member>
     <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" kind="variable"><name>otherPart</name></member>
@@ -13167,7 +13174,7 @@
   </compound>
   <compound refid="conceptMR_1_1UnitEnum" kind="concept"><name>MR::UnitEnum</name>
   </compound>
-  <compound refid="namespace_0d563" kind="namespace"><name>@563</name>
+  <compound refid="namespace_0d564" kind="namespace"><name>@564</name>
   </compound>
   <compound refid="namespaceboost" kind="namespace"><name>boost</name>
   </compound>
@@ -14266,6 +14273,7 @@
     <member refid="group__MeshDeloneGroup_1ga2e6a352161b72918ff6c063a095af16c" kind="function"><name>makeDeloneEdgeFlips</name></member>
     <member refid="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" kind="function"><name>processCloseTriangles</name></member>
     <member refid="group__AABBTreeGroup_1ga50fea0557381236d780b7ea113906a0f" kind="function"><name>signedDistanceToMesh</name></member>
+    <member refid="group__GeneralGroup_1ga8c57cab2b04c51e01b0eefd2dfdce8ca" kind="function"><name>divideMeshWithPlane</name></member>
     <member refid="group__GeneralGroup_1gac69f2cbf1961ebd6741f9b67431794df" kind="function"><name>findOuterLayer</name></member>
     <member refid="group__MeshEigenGroup_1ga0267bb7a55efaf30da7c464d5610ee99" kind="function"><name>topologyFromEigen</name></member>
     <member refid="group__MeshEigenGroup_1gac8c5bb3011d7c265fbfe5bfc5f03406b" kind="function"><name>meshFromEigen</name></member>
@@ -16732,6 +16740,8 @@
   <compound refid="MRMeshDirMax_8h" kind="file"><name>MRMeshDirMax.h</name>
   </compound>
   <compound refid="MRMeshDistance_8h" kind="file"><name>MRMeshDistance.h</name>
+  </compound>
+  <compound refid="MRMeshDivideWithPlane_8h" kind="file"><name>MRMeshDivideWithPlane.h</name>
   </compound>
   <compound refid="MRMeshDoubleLayer_8h" kind="file"><name>MRMeshDoubleLayer.h</name>
   </compound>
@@ -21296,6 +21306,11 @@
     <member refid="group__GeneralGroup_1gaea86de7be4e92fdec6f7f3157120dff1" kind="variable"><name>lastVertex</name></member>
     <member refid="group__GeneralGroup_1gae8ba62d9fd860d946081aab9ed0857ed" kind="variable"><name>pointsDiff_</name></member>
     <member refid="group__GeneralGroup_1ga255abe029dce6739c8a2765dae25727d" kind="variable"><name>topologyDiff_</name></member>
+    <member refid="group__GeneralGroup_1ga20a33b87ca2c2a4f88d39eebbd7cab8d" kind="variable"><name>eps</name></member>
+    <member refid="group__GeneralGroup_1ga6b07f61ba2e62fbea15a71fbc0fb499a" kind="variable"><name>fillCut</name></member>
+    <member refid="group__GeneralGroup_1gad0ee283f46fb5da51c8071394fcb4cb3" kind="variable"><name>subdivideFilling</name></member>
+    <member refid="group__GeneralGroup_1ga2f9dc36203cfe7e63482f518ca9b8ce5" kind="variable"><name>otherPart</name></member>
+    <member refid="group__GeneralGroup_1gadedb7fe0325b1310d6c666862f5be293" kind="variable"><name>errors</name></member>
     <member refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" kind="variable"><name>outNewFaces</name></member>
     <member refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" kind="variable"><name>outExtrudedEdges</name></member>
     <member refid="group__GeneralGroup_1gafc2056d17547f3244b2627054ffe02bf" kind="variable"><name>maxEdgeLength</name></member>
@@ -25488,6 +25503,7 @@
     <member refid="group__GeneralGroup_1ga0ca2efbedbc4a22640ef0e348d55bfaf" kind="function"><name>applyAndSwap</name></member>
     <member refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" kind="function"><name>any</name></member>
     <member refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" kind="function"><name>heapBytes</name></member>
+    <member refid="group__GeneralGroup_1ga8c57cab2b04c51e01b0eefd2dfdce8ca" kind="function"><name>divideMeshWithPlane</name></member>
     <member refid="group__GeneralGroup_1gac69f2cbf1961ebd6741f9b67431794df" kind="function"><name>findOuterLayer</name></member>
     <member refid="group__GeneralGroup_1gadd5038dba629ab9f09789d2855c2aa73" kind="function"><name>makeDegenerateBandAroundRegion</name></member>
     <member refid="group__GeneralGroup_1gac57068a3fb551792494c65dbbfc9880f" kind="function"><name>Id</name></member>

@@ -6547,6 +6547,19 @@
     <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1aec0bf1b42d2e9fa0a2e9a1d74b0c3be6" kind="function"><name>DistMapImproveDirectionParameters</name></member>
     <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a8476f7b7d2393967495d9fa5af65ceb1" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1DivideMeshWithPlaneParams" kind="class"><name>MR::DivideMeshWithPlaneParams</name>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a408c5490b1bd90d1347fe877b24ccf34" kind="property"><name>eps</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a5773ed631c2594193ea43fd9ff288fe8" kind="property"><name>fillCut</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a6bd9d2c0b8d6f3bfbeb71b3314bc1ff7" kind="property"><name>subdivideFilling</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a9d78fb68e4fd8f88b46c1e193f3c8404" kind="property"><name>otherPart</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1ad5607262dc92d5c5407a93bc5e4e8638" kind="property"><name>errors</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a3bbec929349e67b49a7115f6723f9fe4" kind="function"><name>DivideMeshWithPlaneParams</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1aae647a91251133c854985b77e9834781" kind="function"><name>DivideMeshWithPlaneParams</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a9aa87ef5d5b5b4a02dc4d4b09776ad62" kind="function"><name>DivideMeshWithPlaneParams</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1aaa5d11c1b4f9161c24ba393e0af05b9f" kind="function"><name>DivideMeshWithPlaneParams</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1abab69223f14caa98e2763039b255ed5f" kind="function"><name>DivideMeshWithPlaneParams</name></member>
+    <member refid="classMR_1_1DivideMeshWithPlaneParams_1a342b28d94ecfab96ca2c518df91eb054" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1DividePointCloudOptionalOutput" kind="class"><name>MR::DividePointCloudOptionalOutput</name>
     <member refid="classMR_1_1DividePointCloudOptionalOutput_1a7b5e5a5ad268bb5737c01e33bbe4ca2d" kind="property"><name>outVmap</name></member>
     <member refid="classMR_1_1DividePointCloudOptionalOutput_1afb1050a24b651515a2f32d283bc6833f" kind="property"><name>otherPart</name></member>
@@ -11333,6 +11346,7 @@
     <member refid="classMR_1a4cab29f905bbeb7d0a46761f4ac24269" kind="function"><name>makeDeloneEdgeFlips</name></member>
     <member refid="classMR_1a26102d7bb51637a4aba49aef9c7d1f84" kind="function"><name>processCloseTriangles</name></member>
     <member refid="classMR_1addf12d4a5d4d667a74f60a25e4078157" kind="function"><name>signedDistanceToMesh</name></member>
+    <member refid="classMR_1a4f6d98103bb12285cdc1e599ad250ddb" kind="function"><name>divideMeshWithPlane</name></member>
     <member refid="classMR_1af48f37249e20cece262e6dcf85e069be" kind="function"><name>findOuterLayer</name></member>
     <member refid="classMR_1a092fce2d448c0d374f0fe8a33aab5947" kind="function"><name>makeDegenerateBandAroundRegion</name></member>
     <member refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kind="function"><name>stitchHoles</name></member>
@@ -21157,6 +21171,8 @@
   <compound refid="MRMeshDiff_8cs" kind="file"><name>MRMeshDiff.cs</name>
   </compound>
   <compound refid="MRMeshDistance_8cs" kind="file"><name>MRMeshDistance.cs</name>
+  </compound>
+  <compound refid="MRMeshDivideWithPlane_8cs" kind="file"><name>MRMeshDivideWithPlane.cs</name>
   </compound>
   <compound refid="MRMeshDoubleLayer_8cs" kind="file"><name>MRMeshDoubleLayer.cs</name>
   </compound>

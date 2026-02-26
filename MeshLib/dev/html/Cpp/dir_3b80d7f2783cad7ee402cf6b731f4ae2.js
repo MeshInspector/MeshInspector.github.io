@@ -205,6 +205,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshDiff.h", "MRMeshDiff_8h.html", null ],
     [ "MRMeshDirMax.h", "MRMeshDirMax_8h.html", null ],
     [ "MRMeshDistance.h", "MRMeshDistance_8h.html", "MRMeshDistance_8h" ],
+    [ "MRMeshDivideWithPlane.h", "MRMeshDivideWithPlane_8h.html", "MRMeshDivideWithPlane_8h" ],
     [ "MRMeshDoubleLayer.h", "MRMeshDoubleLayer_8h.html", "MRMeshDoubleLayer_8h" ],
     [ "MRMeshEigen.h", "MRMeshEigen_8h.html", "MRMeshEigen_8h" ],
     [ "MRMeshExtrude.h", "MRMeshExtrude_8h.html", "MRMeshExtrude_8h" ],

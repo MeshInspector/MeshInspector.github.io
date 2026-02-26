@@ -1,5 +1,14 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[6,0,2,0,2,7,0,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,1,0,1,16,0,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,2,0,2,7,0,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,1,0,1,16,0,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,2,0,2,7,0,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,1,0,1,16,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,2,7,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,16,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,2,7,1,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,1,0,1,16,1,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,2,7,1,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#aac1e5fc1a4852b760eada1d33248608e":[6,0,2,0,2,7,10,2,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#acd9bfcf665d2d28338f5b05410ff74ac":[6,0,1,0,1,16,10,2,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#acd9bfcf665d2d28338f5b05410ff74ac":[6,0,2,0,2,7,10,2,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[6,0,1,0,1,16,10,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[6,0,2,0,2,7,10,2,1],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,0,20,509],
-"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[6,0,0,20,511],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[6,0,0,20,510],
-"structMR_1_1Image.html":[6,0,0,18,0],
-"structMR_1_1Image.html":[6,0,0,20,265],
-"structMR_1_1ImproveSamplingSettings.html":[6,0,0,20,266],
-"structMR_1_1InSphere.html":[6,0,0,20,333],
-"structMR_1_1InSphereSearchSettings.html":[6,0,0,20,332]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[6,0,1,0,1,16,10,2,1]
 };

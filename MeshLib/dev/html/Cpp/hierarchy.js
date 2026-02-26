@@ -357,6 +357,7 @@ var hierarchy =
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
       [ "MR::PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],
+    [ "MR::DivideMeshWithPlaneParams", "structMR_1_1DivideMeshWithPlaneParams.html", null ],
     [ "MR::DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", null ],
     [ "MR::DividePolylineParameters", "structMR_1_1DividePolylineParameters.html", null ],
     [ "MR::DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", null ],

@@ -249,6 +249,7 @@ var hierarchy =
     [ "mrmeshpy.DistanceVolumeParams", "classmrmeshpy_1_1DistanceVolumeParams.html", [
       [ "mrmeshpy.PointsToDistanceVolumeParams", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],
+    [ "mrmeshpy.DivideMeshWithPlaneParams", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html", null ],
     [ "mrmeshpy.DividePointCloudOptionalOutput", "classmrmeshpy_1_1DividePointCloudOptionalOutput.html", null ],
     [ "mrmeshpy.DividePolylineParameters", "classmrmeshpy_1_1DividePolylineParameters.html", null ],
     [ "mrmeshpy.double_output", "classmrmeshpy_1_1double__output.html", null ],

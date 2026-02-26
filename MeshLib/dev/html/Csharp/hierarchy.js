@@ -707,6 +707,9 @@ var hierarchy =
       [ "MR.Const_DistanceVolumeParams", null, [
         [ "MR.DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html", null ]
       ] ],
+      [ "MR.Const_DivideMeshWithPlaneParams", null, [
+        [ "MR.DivideMeshWithPlaneParams", "classMR_1_1DivideMeshWithPlaneParams.html", null ]
+      ] ],
       [ "MR.Const_DividePointCloudOptionalOutput", null, [
         [ "MR.DividePointCloudOptionalOutput", "classMR_1_1DividePointCloudOptionalOutput.html", null ]
       ] ],
@@ -3138,6 +3141,7 @@ var hierarchy =
       [ "MR.Const_DistanceMapToWorld", null, null ],
       [ "MR.Const_DistanceToMeshOptions", null, null ],
       [ "MR.Const_DistanceVolumeParams", null, null ],
+      [ "MR.Const_DivideMeshWithPlaneParams", null, null ],
       [ "MR.Const_DividePointCloudOptionalOutput", null, null ],
       [ "MR.Const_DividePolylineParameters", null, null ],
       [ "MR.Const_DoubleOffsetSettings", null, null ],
