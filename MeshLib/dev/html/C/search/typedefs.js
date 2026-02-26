@@ -405,7 +405,7 @@ var searchData=
   ['mr_5fgcodeprocessor_5fmoveaction_402',['MR_GcodeProcessor_MoveAction',['../MRGcodeProcessor_8h.html#a18a0e6711c9d545039e776ae8e7685b4',1,'MRGcodeProcessor.h']]],
   ['mr_5fgcommand_403',['MR_GCommand',['../MRToolPath_8h.html#ace59308137c86730185d551295ea9885',1,'MRToolPath.h']]],
   ['mr_5fgeneraloffsetparameters_404',['MR_GeneralOffsetParameters',['../MROffset_8h.html#a579d3b7b422b88465a53a5b8e3cb12c4',1,'MR_GeneralOffsetParameters:&#160;MROffset.h'],['../MRPartialOffset_8h.html#a579d3b7b422b88465a53a5b8e3cb12c4',1,'MR_GeneralOffsetParameters:&#160;MRPartialOffset.h']]],
-  ['mr_5fgeodesicpath_405',['MR_GeodesicPath',['../MRSurfacePath_8h.html#ac1634d1d822123ef12012bc7bf0bfa90',1,'MRSurfacePath.h']]],
+  ['mr_5fgeodesicpath_405',['MR_GeodesicPath',['../MRAlignContoursToMesh_8h.html#ac1634d1d822123ef12012bc7bf0bfa90',1,'MR_GeodesicPath:&#160;MRAlignContoursToMesh.h'],['../MRSurfacePath_8h.html#ac1634d1d822123ef12012bc7bf0bfa90',1,'MR_GeodesicPath:&#160;MRSurfacePath.h'],['../MRAlignTextToMesh_8h.html#ac1634d1d822123ef12012bc7bf0bfa90',1,'MR_GeodesicPath:&#160;MRAlignTextToMesh.h']]],
   ['mr_5fgeodesicpathapprox_406',['MR_GeodesicPathApprox',['../MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5',1,'MREnums.h']]],
   ['mr_5fgraph_407',['MR_Graph',['../MRGraph_8h.html#a5e638837d22d1028b724cc8f267c2762',1,'MR_Graph:&#160;MRGraph.h'],['../MRWatershedGraph_8h.html#a5e638837d22d1028b724cc8f267c2762',1,'MR_Graph:&#160;MRWatershedGraph.h']]],
   ['mr_5fgraph_5fendvertices_408',['MR_Graph_EndVertices',['../MRGraph_8h.html#a8c7bacba4378ff403f17cdff39d814a5',1,'MR_Graph_EndVertices:&#160;MRGraph.h'],['../MRVector_8h.html#a8c7bacba4378ff403f17cdff39d814a5',1,'MR_Graph_EndVertices:&#160;MRVector.h']]],

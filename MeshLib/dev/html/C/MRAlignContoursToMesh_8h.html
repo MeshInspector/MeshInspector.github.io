@@ -165,6 +165,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab736d01b412677bf61e955b279bb05c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08cf07c2015dfa50b949533e499c01d6" id="r_a08cf07c2015dfa50b949533e499c01d6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a08cf07c2015dfa50b949533e499c01d6">MR_CurvePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08cf07c2015dfa50b949533e499c01d6">MR_CurvePoint</a></td></tr>
 <tr class="separator:a08cf07c2015dfa50b949533e499c01d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1634d1d822123ef12012bc7bf0bfa90" id="r_ac1634d1d822123ef12012bc7bf0bfa90"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a></td></tr>
+<tr class="separator:ac1634d1d822123ef12012bc7bf0bfa90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
 <tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a741f5bb0872ea5dd2506146d0fd1afdc" id="r_a741f5bb0872ea5dd2506146d0fd1afdc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a></td></tr>
@@ -300,10 +302,10 @@ Functions</h2></td></tr>
 <tr class="separator:a345a286e43e066699681dccbc91f29bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd262bbf0f46f82f11fff2cf9080ee6d" id="r_afd262bbf0f46f82f11fff2cf9080ee6d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd262bbf0f46f82f11fff2cf9080ee6d">MR_bendContoursAlongCurve</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#ab736d01b412677bf61e955b279bb05c2">MR_CurveFunc</a> *curve, const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *params)</td></tr>
 <tr class="separator:afd262bbf0f46f82f11fff2cf9080ee6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4248f8830bbae0db47af1fbacaf8bfe9" id="r_a4248f8830bbae0db47af1fbacaf8bfe9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4248f8830bbae0db47af1fbacaf8bfe9">MR_bendContoursAlongSurfacePath_6</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *params)</td></tr>
-<tr class="separator:a4248f8830bbae0db47af1fbacaf8bfe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d9dfdc435f3ecc08a59c8c37e7e796a" id="r_a3d9dfdc435f3ecc08a59c8c37e7e796a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d9dfdc435f3ecc08a59c8c37e7e796a">MR_bendContoursAlongSurfacePath_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *params)</td></tr>
-<tr class="separator:a3d9dfdc435f3ecc08a59c8c37e7e796a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132275b9aeb6305cd11a86693e1d3380" id="r_a132275b9aeb6305cd11a86693e1d3380"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a132275b9aeb6305cd11a86693e1d3380">MR_bendContoursAlongSurfacePath_MR_GeodesicPath</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *path, const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *params)</td></tr>
+<tr class="separator:a132275b9aeb6305cd11a86693e1d3380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8403b1bb0c9cba177f2e71a4496c470b" id="r_a8403b1bb0c9cba177f2e71a4496c470b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8403b1bb0c9cba177f2e71a4496c470b">MR_bendContoursAlongSurfacePath_std_vector_MR_EdgePoint</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *params)</td></tr>
+<tr class="separator:a8403b1bb0c9cba177f2e71a4496c470b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedfb1df9e855f050b5aa78364dd28384" id="r_aedfb1df9e855f050b5aa78364dd28384"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c38e65b39b36a9f0520a4a3337ee5fc">MR_expected_std_vector_float_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedfb1df9e855f050b5aa78364dd28384">MR_findPartialLens</a> (const <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *cp, float *outCurveLen)</td></tr>
 <tr class="separator:aedfb1df9e855f050b5aa78364dd28384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacbd84414ca807838e88b5e1d63de093" id="r_aacbd84414ca807838e88b5e1d63de093"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a08cf07c2015dfa50b949533e499c01d6">MR_CurvePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbd84414ca807838e88b5e1d63de093">MR_getCurvePoint</a> (const <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *cp, const <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *lens, float p)</td></tr>
@@ -312,10 +314,10 @@ Functions</h2></td></tr>
 <tr class="separator:a173c754fe7efed5e29e6d84572fe3fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52cff24aa50b7ed01d02468fe1e55dcc" id="r_a52cff24aa50b7ed01d02468fe1e55dcc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad943b90bdb7fbda1ad954c00b95bd098">MR_expected_MR_CurveFunc_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52cff24aa50b7ed01d02468fe1e55dcc">MR_curveFromPoints_std_vector_MR_CurvePoint_rvalue_ref</a> (<a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *cp, float *outCurveLen)</td></tr>
 <tr class="separator:a52cff24aa50b7ed01d02468fe1e55dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f197ab7c57c4465f51a3b68275263c6" id="r_a5f197ab7c57c4465f51a3b68275263c6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f197ab7c57c4465f51a3b68275263c6">MR_meshPathCurvePoints_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
-<tr class="separator:a5f197ab7c57c4465f51a3b68275263c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6121ca9131d9265fb01ad863ac815be8" id="r_a6121ca9131d9265fb01ad863ac815be8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6121ca9131d9265fb01ad863ac815be8">MR_meshPathCurvePoints_2</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path)</td></tr>
-<tr class="separator:a6121ca9131d9265fb01ad863ac815be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2cf9df1294b80afe49770d116de117" id="r_a0a2cf9df1294b80afe49770d116de117"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a2cf9df1294b80afe49770d116de117">MR_meshPathCurvePoints_MR_GeodesicPath</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *path)</td></tr>
+<tr class="separator:a0a2cf9df1294b80afe49770d116de117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad198475bfed3efb7897648c9f5ed7fea" id="r_ad198475bfed3efb7897648c9f5ed7fea"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad198475bfed3efb7897648c9f5ed7fea">MR_meshPathCurvePoints_std_vector_MR_EdgePoint</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path)</td></tr>
+<tr class="separator:ad198475bfed3efb7897648c9f5ed7fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4271c63f3f59740a5f323801f6a4d39" id="r_ab4271c63f3f59740a5f323801f6a4d39"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4271c63f3f59740a5f323801f6a4d39">MR_addBaseToPlanarMesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float zOffset)</td></tr>
 <tr class="separator:ab4271c63f3f59740a5f323801f6a4d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -414,6 +416,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="#a7c38e65b39b36a9f0520a4a3337ee5fc">MR_expected_std_vector_float_std_string</a> <a class="el" href="#a7c38e65b39b36a9f0520a4a3337ee5fc">MR_expected_std_vector_float_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1634d1d822123ef12012bc7bf0bfa90" name="ac1634d1d822123ef12012bc7bf0bfa90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1634d1d822123ef12012bc7bf0bfa90">&#9670;&#160;</a></span>MR_GeodesicPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1066,14 +1082,46 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3d9dfdc435f3ecc08a59c8c37e7e796a" name="a3d9dfdc435f3ecc08a59c8c37e7e796a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d9dfdc435f3ecc08a59c8c37e7e796a">&#9670;&#160;</a></span>MR_bendContoursAlongSurfacePath_4()</h2>
+<a id="a132275b9aeb6305cd11a86693e1d3380" name="a132275b9aeb6305cd11a86693e1d3380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132275b9aeb6305cd11a86693e1d3380">&#9670;&#160;</a></span>MR_bendContoursAlongSurfacePath_MR_GeodesicPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_bendContoursAlongSurfacePath_4 </td>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_bendContoursAlongSurfacePath_MR_GeodesicPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts contours in thick mesh, and deforms it along given surface path: start-&gt;path-&gt;end Generated from function <code>MR::bendContoursAlongSurfacePath</code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8403b1bb0c9cba177f2e71a4496c470b" name="a8403b1bb0c9cba177f2e71a4496c470b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8403b1bb0c9cba177f2e71a4496c470b">&#9670;&#160;</a></span>MR_bendContoursAlongSurfacePath_std_vector_MR_EdgePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_bendContoursAlongSurfacePath_std_vector_MR_EdgePoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -1095,48 +1143,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Converts contours in thick mesh, and deforms it along given surface path Generated from function <code>MR::bendContoursAlongSurfacePath</code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="a4248f8830bbae0db47af1fbacaf8bfe9" name="a4248f8830bbae0db47af1fbacaf8bfe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4248f8830bbae0db47af1fbacaf8bfe9">&#9670;&#160;</a></span>MR_bendContoursAlongSurfacePath_6()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_bendContoursAlongSurfacePath_6 </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a7ec2269b4533eccc9fd7b50be0cc06c5">MR_BendContoursAlongCurveParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Converts contours in thick mesh, and deforms it along given surface path: start-&gt;path-&gt;end Generated from function <code>MR::bendContoursAlongSurfacePath</code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1791,14 +1797,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6121ca9131d9265fb01ad863ac815be8" name="a6121ca9131d9265fb01ad863ac815be8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6121ca9131d9265fb01ad863ac815be8">&#9670;&#160;</a></span>MR_meshPathCurvePoints_2()</h2>
+<a id="a0a2cf9df1294b80afe49770d116de117" name="a0a2cf9df1294b80afe49770d116de117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2cf9df1294b80afe49770d116de117">&#9670;&#160;</a></span>MR_meshPathCurvePoints_MR_GeodesicPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> * MR_meshPathCurvePoints_2 </td>
+          <td class="memname">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> * MR_meshPathCurvePoints_MR_GeodesicPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts polyline given as a number of MeshTriPoint/MeshEdgePoint into CurvePoints Generated from function <code>MR::meshPathCurvePoints</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad198475bfed3efb7897648c9f5ed7fea" name="ad198475bfed3efb7897648c9f5ed7fea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad198475bfed3efb7897648c9f5ed7fea">&#9670;&#160;</a></span>MR_meshPathCurvePoints_std_vector_MR_EdgePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> * MR_meshPathCurvePoints_std_vector_MR_EdgePoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1810,38 +1838,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <code>MR::meshPathCurvePoints</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="a5f197ab7c57c4465f51a3b68275263c6" name="a5f197ab7c57c4465f51a3b68275263c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f197ab7c57c4465f51a3b68275263c6">&#9670;&#160;</a></span>MR_meshPathCurvePoints_4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5fb03e93707418a937ebb703f9a455e3">MR_std_vector_MR_CurvePoint</a> * MR_meshPathCurvePoints_4 </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>converts polyline given as a number of MeshTriPoint/MeshEdgePoint into CurvePoints Generated from function <code>MR::meshPathCurvePoints</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

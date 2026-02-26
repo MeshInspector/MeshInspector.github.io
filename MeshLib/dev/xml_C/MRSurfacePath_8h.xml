@@ -297,7 +297,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="27" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" prot="public" static="no">
-        <type>struct <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref></type>
+        <type>struct <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref></type>
         <definition>typedef struct MR_GeodesicPath MR_GeodesicPath</definition>
         <argsstring></argsstring>
         <name>MR_GeodesicPath</name>
@@ -359,7 +359,7 @@
         <argsstring>(const MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_Get_start</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -377,7 +377,7 @@
         <argsstring>(MR_GeodesicPath *_this, const MR_MeshTriPoint *value)</argsstring>
         <name>MR_GeodesicPath_Set_start</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -399,7 +399,7 @@
         <argsstring>(MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_GetMutable_start</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -416,7 +416,7 @@
         <argsstring>(const MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_Get_mids</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -434,7 +434,7 @@
         <argsstring>(MR_GeodesicPath *_this, MR_PassBy value_pass_by, MR_std_vector_MR_EdgePoint *value)</argsstring>
         <name>MR_GeodesicPath_Set_mids</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -460,7 +460,7 @@
         <argsstring>(MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_GetMutable_mids</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -478,7 +478,7 @@
         <argsstring>(const MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_Get_end</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -496,7 +496,7 @@
         <argsstring>(MR_GeodesicPath *_this, const MR_MeshTriPoint *value)</argsstring>
         <name>MR_GeodesicPath_Set_end</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -518,7 +518,7 @@
         <argsstring>(MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_GetMutable_end</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -530,7 +530,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="117" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1a74b0a987e515401f3d6d33533344acd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API MR_GeodesicPath * MR_GeodesicPath_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_GeodesicPath_DefaultConstruct</name>
@@ -547,7 +547,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="121" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="121" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1ae7aa773f024f840dcd2510dbc6fa4ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API MR_GeodesicPath * MR_GeodesicPath_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_GeodesicPath_DefaultConstructArray</name>
@@ -565,7 +565,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="126" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="126" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1a26c57b1aa7ebace60cbd327dfbdf66e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API MR_GeodesicPath * MR_GeodesicPath_ConstructFrom</definition>
         <argsstring>(const MR_MeshTriPoint *start, MR_PassBy mids_pass_by, MR_std_vector_MR_EdgePoint *mids, const MR_MeshTriPoint *end)</argsstring>
         <name>MR_GeodesicPath_ConstructFrom</name>
@@ -595,12 +595,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="136" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="136" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1ab0af463a8210079369fc0482dea0272d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API const MR_GeodesicPath * MR_GeodesicPath_OffsetPtr</definition>
         <argsstring>(const MR_GeodesicPath *ptr, ptrdiff_t i)</argsstring>
         <name>MR_GeodesicPath_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -617,12 +617,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="140" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="140" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1aabb97ea43689af6680a8f76537913858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API MR_GeodesicPath * MR_GeodesicPath_OffsetMutablePtr</definition>
         <argsstring>(MR_GeodesicPath *ptr, ptrdiff_t i)</argsstring>
         <name>MR_GeodesicPath_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -639,7 +639,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="144" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="144" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1a029ff6e88bfc2359faaa870b4293da53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API MR_GeodesicPath * MR_GeodesicPath_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_GeodesicPath *_other)</argsstring>
         <name>MR_GeodesicPath_ConstructFromAnother</name>
@@ -648,7 +648,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -666,7 +666,7 @@
         <argsstring>(const MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_Destroy</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -684,7 +684,7 @@
         <argsstring>(const MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -697,12 +697,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfacePath.h" declline="155" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfacePath_8h_1a18f9103a2c3f297ca37ab0331c0da726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+        <type>MRC_API <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
         <definition>MRC_API MR_GeodesicPath * MR_GeodesicPath_AssignFromAnother</definition>
         <argsstring>(MR_GeodesicPath *_this, MR_PassBy _other_pass_by, MR_GeodesicPath *_other)</argsstring>
         <name>MR_GeodesicPath_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -710,7 +710,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -728,7 +728,7 @@
         <argsstring>(const MR_GeodesicPath *_this)</argsstring>
         <name>MR_GeodesicPath_numVertices</name>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -1523,7 +1523,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>path</declname>
         </param>
         <briefdescription>
@@ -1589,7 +1589,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const <ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref> *</type>
           <declname>path</declname>
         </param>
         <briefdescription>
@@ -1636,7 +1636,7 @@
 <codeline lineno="27" refid="MRSurfacePath_8h_1a79b88ecd897f6c27c8428cecc4a91f30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref>;</highlight></codeline>
+<codeline lineno="35" refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" kindref="member">MR_PathError</ref></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
@@ -1654,43 +1654,43 @@
 <codeline lineno="54" refid="MRSurfacePath_8h_1a5482c592eb1808b0577688ffe5ebcb76a15cd4c836bff03f19f6f62c39e0f3193" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSurfacePath_8h_1a5482c592eb1808b0577688ffe5ebcb76a15cd4c836bff03f19f6f62c39e0f3193" kindref="member">MR_ExtremeEdgeType_Gorge</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}<sp/><ref refid="MRSurfacePath_8h_1a5482c592eb1808b0577688ffe5ebcb76" kindref="member">MR_ExtremeEdgeType</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRSurfacePath_8h_1a69bc2368c200acb45236935d193fbf69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1a69bc2368c200acb45236935d193fbf69" kindref="member">MR_GeodesicPath_Get_start</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRSurfacePath_8h_1a69bc2368c200acb45236935d193fbf69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1a69bc2368c200acb45236935d193fbf69" kindref="member">MR_GeodesicPath_Get_start</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRSurfacePath_8h_1aa9cffe8f4a09b270b66c3409fa4eb325" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1aa9cffe8f4a09b270b66c3409fa4eb325" kindref="member">MR_GeodesicPath_Set_start</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="70" refid="MRSurfacePath_8h_1aa9cffe8f4a09b270b66c3409fa4eb325" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1aa9cffe8f4a09b270b66c3409fa4eb325" kindref="member">MR_GeodesicPath_Set_start</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRSurfacePath_8h_1a177afa2c5f6ebb7f59ccff55a1318d28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1a177afa2c5f6ebb7f59ccff55a1318d28" kindref="member">MR_GeodesicPath_GetMutable_start</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77" refid="MRSurfacePath_8h_1a177afa2c5f6ebb7f59ccff55a1318d28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1a177afa2c5f6ebb7f59ccff55a1318d28" kindref="member">MR_GeodesicPath_GetMutable_start</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRSurfacePath_8h_1ab1c0c12759d893114fe5f9feb8bf04d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1ab1c0c12759d893114fe5f9feb8bf04d3" kindref="member">MR_GeodesicPath_Get_mids</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83" refid="MRSurfacePath_8h_1ab1c0c12759d893114fe5f9feb8bf04d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1ab1c0c12759d893114fe5f9feb8bf04d3" kindref="member">MR_GeodesicPath_Get_mids</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRSurfacePath_8h_1a2c0b04781289189af8789e3d6611731a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a2c0b04781289189af8789e3d6611731a" kindref="member">MR_GeodesicPath_Set_mids</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="89" refid="MRSurfacePath_8h_1a2c0b04781289189af8789e3d6611731a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a2c0b04781289189af8789e3d6611731a" kindref="member">MR_GeodesicPath_Set_mids</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRSurfacePath_8h_1adbaeff0668da99dd1aab7e43404cf227" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1adbaeff0668da99dd1aab7e43404cf227" kindref="member">MR_GeodesicPath_GetMutable_mids</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="MRSurfacePath_8h_1adbaeff0668da99dd1aab7e43404cf227" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1adbaeff0668da99dd1aab7e43404cf227" kindref="member">MR_GeodesicPath_GetMutable_mids</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRSurfacePath_8h_1a51f69574611738a452ecfc5b6573ab5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1a51f69574611738a452ecfc5b6573ab5e" kindref="member">MR_GeodesicPath_Get_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102" refid="MRSurfacePath_8h_1a51f69574611738a452ecfc5b6573ab5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1a51f69574611738a452ecfc5b6573ab5e" kindref="member">MR_GeodesicPath_Get_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRSurfacePath_8h_1a8834d3d7bdc6abc61831bdfa862a7760" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a8834d3d7bdc6abc61831bdfa862a7760" kindref="member">MR_GeodesicPath_Set_end</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="110" refid="MRSurfacePath_8h_1a8834d3d7bdc6abc61831bdfa862a7760" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a8834d3d7bdc6abc61831bdfa862a7760" kindref="member">MR_GeodesicPath_Set_end</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRSurfacePath_8h_1ad3f6c5df9927911a3ed820cea68e701c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1ad3f6c5df9927911a3ed820cea68e701c" kindref="member">MR_GeodesicPath_GetMutable_end</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117" refid="MRSurfacePath_8h_1ad3f6c5df9927911a3ed820cea68e701c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRSurfacePath_8h_1ad3f6c5df9927911a3ed820cea68e701c" kindref="member">MR_GeodesicPath_GetMutable_end</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRSurfacePath_8h_1a74b0a987e515401f3d6d33533344acd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a74b0a987e515401f3d6d33533344acd6" kindref="member">MR_GeodesicPath_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121" refid="MRSurfacePath_8h_1a74b0a987e515401f3d6d33533344acd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a74b0a987e515401f3d6d33533344acd6" kindref="member">MR_GeodesicPath_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRSurfacePath_8h_1ae7aa773f024f840dcd2510dbc6fa4ffe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1ae7aa773f024f840dcd2510dbc6fa4ffe" kindref="member">MR_GeodesicPath_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="126" refid="MRSurfacePath_8h_1ae7aa773f024f840dcd2510dbc6fa4ffe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1ae7aa773f024f840dcd2510dbc6fa4ffe" kindref="member">MR_GeodesicPath_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRSurfacePath_8h_1a26c57b1aa7ebace60cbd327dfbdf66e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a26c57b1aa7ebace60cbd327dfbdf66e3" kindref="member">MR_GeodesicPath_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/>MR_PassBy<sp/>mids_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*mids,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end);</highlight></codeline>
+<codeline lineno="136" refid="MRSurfacePath_8h_1a26c57b1aa7ebace60cbd327dfbdf66e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a26c57b1aa7ebace60cbd327dfbdf66e3" kindref="member">MR_GeodesicPath_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/>MR_PassBy<sp/>mids_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*mids,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRSurfacePath_8h_1ab0af463a8210079369fc0482dea0272d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1ab0af463a8210079369fc0482dea0272d" kindref="member">MR_GeodesicPath_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="140" refid="MRSurfacePath_8h_1ab0af463a8210079369fc0482dea0272d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1ab0af463a8210079369fc0482dea0272d" kindref="member">MR_GeodesicPath_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRSurfacePath_8h_1aabb97ea43689af6680a8f76537913858" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1aabb97ea43689af6680a8f76537913858" kindref="member">MR_GeodesicPath_OffsetMutablePtr</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="144" refid="MRSurfacePath_8h_1aabb97ea43689af6680a8f76537913858" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1aabb97ea43689af6680a8f76537913858" kindref="member">MR_GeodesicPath_OffsetMutablePtr</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRSurfacePath_8h_1a029ff6e88bfc2359faaa870b4293da53" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a029ff6e88bfc2359faaa870b4293da53" kindref="member">MR_GeodesicPath_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="149" refid="MRSurfacePath_8h_1a029ff6e88bfc2359faaa870b4293da53" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a029ff6e88bfc2359faaa870b4293da53" kindref="member">MR_GeodesicPath_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRSurfacePath_8h_1a4646c176f90a65b7f8e794bd74e30100" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a4646c176f90a65b7f8e794bd74e30100" kindref="member">MR_GeodesicPath_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152" refid="MRSurfacePath_8h_1a4646c176f90a65b7f8e794bd74e30100" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a4646c176f90a65b7f8e794bd74e30100" kindref="member">MR_GeodesicPath_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRSurfacePath_8h_1a6f13b0b552213deb47de82d7a916241d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a6f13b0b552213deb47de82d7a916241d" kindref="member">MR_GeodesicPath_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="155" refid="MRSurfacePath_8h_1a6f13b0b552213deb47de82d7a916241d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a6f13b0b552213deb47de82d7a916241d" kindref="member">MR_GeodesicPath_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRSurfacePath_8h_1a18f9103a2c3f297ca37ab0331c0da726" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a18f9103a2c3f297ca37ab0331c0da726" kindref="member">MR_GeodesicPath_AssignFromAnother</ref>(<ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="162" refid="MRSurfacePath_8h_1a18f9103a2c3f297ca37ab0331c0da726" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*<ref refid="MRSurfacePath_8h_1a18f9103a2c3f297ca37ab0331c0da726" kindref="member">MR_GeodesicPath_AssignFromAnother</ref>(<ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRSurfacePath_8h_1a8416b8bcbfa76104b789b152864dcd2f" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRSurfacePath_8h_1a8416b8bcbfa76104b789b152864dcd2f" kindref="member">MR_GeodesicPath_numVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166" refid="MRSurfacePath_8h_1a8416b8bcbfa76104b789b152864dcd2f" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRSurfacePath_8h_1a8416b8bcbfa76104b789b152864dcd2f" kindref="member">MR_GeodesicPath_numVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="170" refid="MRSurfacePath_8h_1a146d7d212330b57a702e2c13aa99f33d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSurfacePath_8h_1a146d7d212330b57a702e2c13aa99f33d" kindref="member">MR_toString_MR_PathError</ref>(<ref refid="MRSurfacePath_8h_1a8bfed38b4b059ca6a135597d4cc8c7db" kindref="member">MR_PathError</ref><sp/>error);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
@@ -1756,13 +1756,13 @@
 <codeline lineno="398"><highlight class="normal"></highlight></codeline>
 <codeline lineno="403" refid="MRSurfacePath_8h_1a86a1971ed1f3a0ea0491c217a9fcce53" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a86a1971ed1f3a0ea0491c217a9fcce53" kindref="member">MR_surfacePathLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*surfacePath);</highlight></codeline>
 <codeline lineno="404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="409" refid="MRSurfacePath_8h_1a5a6f148e9f70062b4e7febabfdd0c266" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a5a6f148e9f70062b4e7febabfdd0c266" kindref="member">MR_geodesicPathLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*path);</highlight></codeline>
+<codeline lineno="409" refid="MRSurfacePath_8h_1a5a6f148e9f70062b4e7febabfdd0c266" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1a5a6f148e9f70062b4e7febabfdd0c266" kindref="member">MR_geodesicPathLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*path);</highlight></codeline>
 <codeline lineno="410"><highlight class="normal"></highlight></codeline>
 <codeline lineno="416" refid="MRSurfacePath_8h_1a8565496250e83ea07dc00bbfe10d50a1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRSurfacePath_8h_1a8565496250e83ea07dc00bbfe10d50a1" kindref="member">MR_surfacePathToContour3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*line);</highlight></codeline>
 <codeline lineno="417"><highlight class="normal"></highlight></codeline>
 <codeline lineno="422" refid="MRSurfacePath_8h_1ac5e949720de99c0a1e8142c8f0353122" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRSurfacePath_8h_1ac5e949720de99c0a1e8142c8f0353122" kindref="member">MR_surfacePathsToContours3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*lines);</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"></highlight></codeline>
-<codeline lineno="429" refid="MRSurfacePath_8h_1a2a29469af9ab76976374686bd7a727ab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRSurfacePath_8h_1a2a29469af9ab76976374686bd7a727ab" kindref="member">MR_geodesicPathToContour3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfacePath_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*path);</highlight></codeline>
+<codeline lineno="429" refid="MRSurfacePath_8h_1a2a29469af9ab76976374686bd7a727ab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRSurfacePath_8h_1a2a29469af9ab76976374686bd7a727ab" kindref="member">MR_geodesicPathToContour3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ac1634d1d822123ef12012bc7bf0bfa90" kindref="member">MR_GeodesicPath</ref><sp/>*path);</highlight></codeline>
 <codeline lineno="430"><highlight class="normal"></highlight></codeline>
 <codeline lineno="431"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="432"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

@@ -7,6 +7,7 @@ var MRAlignContoursToMesh_8h =
     [ "MR_expected_MR_CurveFunc_std_string", "MRAlignContoursToMesh_8h.html#ad943b90bdb7fbda1ad954c00b95bd098", null ],
     [ "MR_expected_MR_Mesh_std_string", "MRAlignContoursToMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
     [ "MR_expected_std_vector_float_std_string", "MRAlignContoursToMesh_8h.html#a7c38e65b39b36a9f0520a4a3337ee5fc", null ],
+    [ "MR_GeodesicPath", "MRAlignContoursToMesh_8h.html#ac1634d1d822123ef12012bc7bf0bfa90", null ],
     [ "MR_Mesh", "MRAlignContoursToMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshTriPoint", "MRAlignContoursToMesh_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
     [ "MR_std_vector_float", "MRAlignContoursToMesh_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
@@ -40,8 +41,8 @@ var MRAlignContoursToMesh_8h =
     [ "MR_BendContoursAlongCurveParams_Set_pivotBoxPoint", "MRAlignContoursToMesh_8h.html#aa3d7b5e6753255dbf47923228000f7c5", null ],
     [ "MR_BendContoursAlongCurveParams_Set_pivotCurveTime", "MRAlignContoursToMesh_8h.html#a57632b8ca11ed9a3e30cba9eb05b13f3", null ],
     [ "MR_BendContoursAlongCurveParams_Set_stretch", "MRAlignContoursToMesh_8h.html#a4e76cce13dd3603e53d68e4db4ba7238", null ],
-    [ "MR_bendContoursAlongSurfacePath_4", "MRAlignContoursToMesh_8h.html#a3d9dfdc435f3ecc08a59c8c37e7e796a", null ],
-    [ "MR_bendContoursAlongSurfacePath_6", "MRAlignContoursToMesh_8h.html#a4248f8830bbae0db47af1fbacaf8bfe9", null ],
+    [ "MR_bendContoursAlongSurfacePath_MR_GeodesicPath", "MRAlignContoursToMesh_8h.html#a132275b9aeb6305cd11a86693e1d3380", null ],
+    [ "MR_bendContoursAlongSurfacePath_std_vector_MR_EdgePoint", "MRAlignContoursToMesh_8h.html#a8403b1bb0c9cba177f2e71a4496c470b", null ],
     [ "MR_ContoursMeshAlignParams_AssignFromAnother", "MRAlignContoursToMesh_8h.html#aae1dcf0b88479671fa7bef445b98b3da", null ],
     [ "MR_ContoursMeshAlignParams_ConstructFrom", "MRAlignContoursToMesh_8h.html#aaf3ce25382ea2050723b081b3402192a", null ],
     [ "MR_ContoursMeshAlignParams_ConstructFromAnother", "MRAlignContoursToMesh_8h.html#a6c1e3cff4df8691a50aea700b7a2d402", null ],
@@ -73,6 +74,6 @@ var MRAlignContoursToMesh_8h =
     [ "MR_curveFromPoints_std_vector_MR_CurvePoint_rvalue_ref", "MRAlignContoursToMesh_8h.html#a52cff24aa50b7ed01d02468fe1e55dcc", null ],
     [ "MR_findPartialLens", "MRAlignContoursToMesh_8h.html#aedfb1df9e855f050b5aa78364dd28384", null ],
     [ "MR_getCurvePoint", "MRAlignContoursToMesh_8h.html#aacbd84414ca807838e88b5e1d63de093", null ],
-    [ "MR_meshPathCurvePoints_2", "MRAlignContoursToMesh_8h.html#a6121ca9131d9265fb01ad863ac815be8", null ],
-    [ "MR_meshPathCurvePoints_4", "MRAlignContoursToMesh_8h.html#a5f197ab7c57c4465f51a3b68275263c6", null ]
+    [ "MR_meshPathCurvePoints_MR_GeodesicPath", "MRAlignContoursToMesh_8h.html#a0a2cf9df1294b80afe49770d116de117", null ],
+    [ "MR_meshPathCurvePoints_std_vector_MR_EdgePoint", "MRAlignContoursToMesh_8h.html#ad198475bfed3efb7897648c9f5ed7fea", null ]
 ];

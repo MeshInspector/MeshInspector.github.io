@@ -13866,13 +13866,13 @@
     <member refid="group__MathGroup_1ga9ae923a2855ed035b5d5f74b3162c0da" kind="function"><name>lookAt</name></member>
     <member refid="group__GeneralGroup_1ga619ceff20b592c254a41645fbe14fa4e" kind="function"><name>alignContoursToMesh</name></member>
     <member refid="group__GeneralGroup_1ga324f968ceee854a2d5f17c3dc4469349" kind="function"><name>bendContoursAlongCurve</name></member>
-    <member refid="group__GeneralGroup_1ga3e09010e29f35bc1b8d5b60a0125d02c" kind="function"><name>bendContoursAlongSurfacePath</name></member>
+    <member refid="group__GeneralGroup_1gadcf7f557d5b40a4a9326d3163ef8a30c" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga272a969055e6b30cfbde573eed8bc793" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga90ef4b288f6ecb86d70d6880f84c64b5" kind="function"><name>findPartialLens</name></member>
     <member refid="group__GeneralGroup_1ga566496e96ba8734c19c089e80a10c81b" kind="function"><name>getCurvePoint</name></member>
     <member refid="group__GeneralGroup_1ga03488a62d1d82b3dc7cc15e4a8bba843" kind="function"><name>curveFromPoints</name></member>
     <member refid="group__GeneralGroup_1gadafdaf9e76faa0ae001eb5005b18e6be" kind="function"><name>curveFromPoints</name></member>
-    <member refid="group__GeneralGroup_1gad168f0b04c201481358a94da69caf4bb" kind="function"><name>meshPathCurvePoints</name></member>
+    <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="group__GeneralGroup_1gac2b90dbcd947fc75b0ac691f7eef6ee7" kind="function"><name>makeArrow</name></member>
@@ -15099,7 +15099,7 @@
     <member refid="group__GeneralGroup_1gaf0cf8947b30142d3ea7ba6feaeb04f98" kind="function"><name>alignTextToMesh</name></member>
     <member refid="group__GeneralGroup_1ga1162a869a8e727da19dfe23a45e17c49" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="group__GeneralGroup_1ga1cbcb91829637f3c3d7301a8e73c8517" kind="function"><name>bendTextAlongCurve</name></member>
-    <member refid="group__GeneralGroup_1ga18b7bf773f78a0b14349faffba3145e4" kind="function"><name>bendTextAlongSurfacePath</name></member>
+    <member refid="group__GeneralGroup_1ga9d1a70edca366bee2d315a6d49235a74" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1gac1d9d4418f32d043c0f153ffde0d9b95" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1gae2aa1d33734baaded9793f01c67d8a83" kind="function"><name>createSymbolContours</name></member>
     <member refid="group__GeneralGroup_1ga141a61d44641c538f45c2c292f7c2e59" kind="function"><name>createSymbolsMesh</name></member>
@@ -24178,13 +24178,13 @@
     <member refid="group__GeneralGroup_1gabb62c012ed7b9e65547b67fad43bd838" kind="function"><name>computeCatchmentDelineation</name></member>
     <member refid="group__GeneralGroup_1ga619ceff20b592c254a41645fbe14fa4e" kind="function"><name>alignContoursToMesh</name></member>
     <member refid="group__GeneralGroup_1ga324f968ceee854a2d5f17c3dc4469349" kind="function"><name>bendContoursAlongCurve</name></member>
-    <member refid="group__GeneralGroup_1ga3e09010e29f35bc1b8d5b60a0125d02c" kind="function"><name>bendContoursAlongSurfacePath</name></member>
+    <member refid="group__GeneralGroup_1gadcf7f557d5b40a4a9326d3163ef8a30c" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga272a969055e6b30cfbde573eed8bc793" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga90ef4b288f6ecb86d70d6880f84c64b5" kind="function"><name>findPartialLens</name></member>
     <member refid="group__GeneralGroup_1ga566496e96ba8734c19c089e80a10c81b" kind="function"><name>getCurvePoint</name></member>
     <member refid="group__GeneralGroup_1ga03488a62d1d82b3dc7cc15e4a8bba843" kind="function"><name>curveFromPoints</name></member>
     <member refid="group__GeneralGroup_1gadafdaf9e76faa0ae001eb5005b18e6be" kind="function"><name>curveFromPoints</name></member>
-    <member refid="group__GeneralGroup_1gad168f0b04c201481358a94da69caf4bb" kind="function"><name>meshPathCurvePoints</name></member>
+    <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" kind="function"><name>AngleMeasurementObject</name></member>
@@ -27302,7 +27302,7 @@
     <member refid="group__GeneralGroup_1gaf0cf8947b30142d3ea7ba6feaeb04f98" kind="function"><name>alignTextToMesh</name></member>
     <member refid="group__GeneralGroup_1ga1162a869a8e727da19dfe23a45e17c49" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="group__GeneralGroup_1ga1cbcb91829637f3c3d7301a8e73c8517" kind="function"><name>bendTextAlongCurve</name></member>
-    <member refid="group__GeneralGroup_1ga18b7bf773f78a0b14349faffba3145e4" kind="function"><name>bendTextAlongSurfacePath</name></member>
+    <member refid="group__GeneralGroup_1ga9d1a70edca366bee2d315a6d49235a74" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1gac1d9d4418f32d043c0f153ffde0d9b95" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" kind="function"><name>ChangeLabelAction</name></member>
     <member refid="group__GeneralGroup_1ga49b7949dc2497e15510dbf8c51c83e61" kind="function"><name>name</name></member>

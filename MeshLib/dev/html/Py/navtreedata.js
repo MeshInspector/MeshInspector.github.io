@@ -307,17 +307,17 @@ var NAVTREEINDEX =
 "mrmeshpy_8pyi.html#a34f738bcb81b360c95f3e2045f27fcf5",
 "mrmeshpy_8pyi.html#a535ebd3ea136c4fea9bd36ce5c75cb0e",
 "mrmeshpy_8pyi.html#a7906f2bd333a6ac75a4f934a5e8887ab",
-"mrmeshpy_8pyi.html#a9ddab45769d08007043a921e5d4bdc7c",
-"mrmeshpy_8pyi.html#abf33d7c83fec87392983c17e95c96132",
-"mrmeshpy_8pyi.html#adf4e45073318edf0ad52c1974060a488",
+"mrmeshpy_8pyi.html#a9de1427d594b12475cef10ead9d39998",
+"mrmeshpy_8pyi.html#abf3c44567a1d45e11e542ed9ab061fff",
+"mrmeshpy_8pyi.html#ae02121702a736857f5b897777cd89a76",
 "mrviewerpy_8pyi.html#a8be26b5f21b4c456d590c4f801f56896",
 "namespacemrmeshpy.html#a131de9483086e75dea75e4e47aa6688e",
 "namespacemrmeshpy.html#a376c6df6d887343f32a51600cb8ef337",
 "namespacemrmeshpy.html#a558342f22a8377b42b62d65f293bcda7",
 "namespacemrmeshpy.html#a7c314c708f30c0cca824bfc4c2e16fb6",
-"namespacemrmeshpy.html#a9f7d6c2d24c3797d6671fbff4add9f3d",
-"namespacemrmeshpy.html#ac07ffc398975927f92abaa155a483cfe",
-"namespacemrmeshpy.html#ae271d480982cb3a1fa0aea2475401b32",
+"namespacemrmeshpy.html#a9f9749222252fe0f56410f8ce8f377e8",
+"namespacemrmeshpy.html#ac0a35c4049049048a0e74a2c94ffeb2b",
+"namespacemrmeshpy.html#ae2c073f50a96d79c4863ea3d2708711b",
 "pages.html"
 ];
 
