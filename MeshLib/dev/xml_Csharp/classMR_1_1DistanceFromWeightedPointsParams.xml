@@ -4,9 +4,9 @@
     <compoundname>MR::DistanceFromWeightedPointsParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceFromWeightedPointsParams</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1DistanceFromWeightedPointsParams_1ab079b55a35702c543e77be19f113924f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_FloatFuncFromMRVertId</type>
-        <definition>new unsafe MR.Std.Function_FloatFuncFromMRVertId MR.DistanceFromWeightedPointsParams.pointWeight</definition>
+      <memberdef kind="property" id="classMR_1_1DistanceFromWeightedPointsParams_1a142e598a8cdd337004a5b90670da0180" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Float_From_MRVertId</type>
+        <definition>new unsafe MR.Std.Function_Float_From_MRVertId MR.DistanceFromWeightedPointsParams.pointWeight</definition>
         <argsstring></argsstring>
         <name>pointWeight</name>
         <qualifiedname>MR.DistanceFromWeightedPointsParams.pointWeight</qualifiedname>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="694" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="694" bodyend="694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="694" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="694" bodyend="694"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DistanceFromWeightedPointsParams_1a908977d4b79042b3adb3afbbaee12c2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -292,7 +292,7 @@
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a1d3e30c44af5d8e004a587ed0fd6d426" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>maxWeight</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1aa6f3702d082fd63d614e575e2a7d9780" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>maxWeightGrad</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a908977d4b79042b3adb3afbbaee12c2c" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>minWeight</name></member>
-      <member refid="classMR_1_1DistanceFromWeightedPointsParams_1ab079b55a35702c543e77be19f113924f" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>pointWeight</name></member>
+      <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a142e598a8cdd337004a5b90670da0180" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>pointWeight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

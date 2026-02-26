@@ -495,7 +495,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VertColorMapAggregator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VertColorMapAggregator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -763,7 +763,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorMap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -825,7 +825,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap</computeroutput> named <computeroutput>elements</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>elements</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>elements</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap</computeroutput> named <computeroutput>elements</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>elements</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>elements</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -908,7 +908,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap</computeroutput> elementwise. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>elements</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRColorMapAggregator_8h_1a624f61f2d5061355ee5dd4d83773cb7a" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap</computeroutput> elementwise. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>elements</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRColorMapAggregator_8h_1a624f61f2d5061355ee5dd4d83773cb7a" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1036,7 +1036,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1199,7 +1199,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UndirEdgeColorMapAggregator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UndirEdgeColorMapAggregator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1467,7 +1467,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorMap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1529,7 +1529,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap</computeroutput> named <computeroutput>elements</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>elements</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>elements</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap</computeroutput> named <computeroutput>elements</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>elements</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>elements</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1612,7 +1612,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap</computeroutput> elementwise. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>elements</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRColorMapAggregator_8h_1a869554d110e4b1351fd9aa694ea9b67b" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap</computeroutput> elementwise. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>elements</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRColorMapAggregator_8h_1a869554d110e4b1351fd9aa694ea9b67b" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1740,7 +1740,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::UndirectedEdgeTag&gt;::PartialColorMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1903,7 +1903,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FaceColorMapAggregator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FaceColorMapAggregator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2171,7 +2171,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorMap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2233,7 +2233,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap</computeroutput> named <computeroutput>elements</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>elements</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>elements</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap</computeroutput> named <computeroutput>elements</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>elements</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>elements</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2316,7 +2316,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap</computeroutput> elementwise. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>elements</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRColorMapAggregator_8h_1ab7e633b6d741fba718521aca6588c178" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap</computeroutput> elementwise. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>elements</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRColorMapAggregator_8h_1ab7e633b6d741fba718521aca6588c178" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2444,7 +2444,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

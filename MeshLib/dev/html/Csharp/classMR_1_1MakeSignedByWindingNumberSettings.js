@@ -8,7 +8,7 @@ var classMR_1_1MakeSignedByWindingNumberSettings =
     [ "assign", "classMR_1_1MakeSignedByWindingNumberSettings.html#a99cea99d7e1ee0fc2957d8f1ce582052", null ],
     [ "fwn", "classMR_1_1MakeSignedByWindingNumberSettings.html#adb9c56a991e95e26d4f4d20bfb8576e0", null ],
     [ "meshToGridXf", "classMR_1_1MakeSignedByWindingNumberSettings.html#aaac2b4e5767707d1ceb29f643e13cfe6", null ],
-    [ "progress", "classMR_1_1MakeSignedByWindingNumberSettings.html#afbdfc4fba1999b8cd8eee22998ff1614", null ],
+    [ "progress", "classMR_1_1MakeSignedByWindingNumberSettings.html#aeca9b88a112e4e8b505bcc4014eb0a57", null ],
     [ "windingNumberBeta", "classMR_1_1MakeSignedByWindingNumberSettings.html#a826f0c8215fd05df339d56e3c3071323", null ],
     [ "windingNumberThreshold", "classMR_1_1MakeSignedByWindingNumberSettings.html#a213bbc431fa0e7a9d35fc34333355c7f", null ]
 ];

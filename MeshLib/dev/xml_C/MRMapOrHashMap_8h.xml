@@ -350,7 +350,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>var</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>var</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -425,7 +425,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1a65cac1180e02af3fbb64fdcfbdf9084c" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1a65cac1180e02af3fbb64fdcfbdf9084c" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -553,7 +553,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -819,7 +819,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>var</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>var</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -894,7 +894,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1ae58c7f16a773fc1d273954c5df85ab31" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1ae58c7f16a773fc1d273954c5df85ab31" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1022,7 +1022,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1288,7 +1288,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>var</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>var</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1363,7 +1363,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1a813542dd5edfebd06c2cf8e11075287b" kindref="member">MR_MapOrHashMap_MR_EdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1a813542dd5edfebd06c2cf8e11075287b" kindref="member">MR_MapOrHashMap_MR_EdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1491,7 +1491,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1757,7 +1757,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>var</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>var</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1832,7 +1832,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1ad60bff3acfefdb737bb67a01d4474974" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_UndirectedEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1ad60bff3acfefdb737bb67a01d4474974" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_UndirectedEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1960,7 +1960,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2226,7 +2226,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>var</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</computeroutput> named <computeroutput>var</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>var</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>var</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2301,7 +2301,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1acb203d71734f245b71a336a889e3c84b" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>var</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMapOrHashMap_8h_1acb203d71734f245b71a336a889e3c84b" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2429,7 +2429,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

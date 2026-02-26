@@ -100,7 +100,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>points where to load point color map Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+<para>points where to load point color map Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -158,7 +158,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>transform for the loaded point cloud Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outXf</computeroutput>. </para>
+<para>transform for the loaded point cloud Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -216,7 +216,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -278,7 +278,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>telemetrySignal</computeroutput>. </para>
+<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>telemetrySignal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -386,7 +386,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PointsLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" kindref="member">MR_PointsLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PointsLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" kindref="member">MR_PointsLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -514,7 +514,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

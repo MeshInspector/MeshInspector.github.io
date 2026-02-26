@@ -124,7 +124,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshDistanceResult</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshDistanceResult</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -182,7 +182,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshDistanceResult</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshDistanceResult</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -240,7 +240,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance between a and b Modifies a member variable of class <computeroutput>MR::MeshMeshDistanceResult</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance between a and b Modifies a member variable of class <computeroutput>MR::MeshMeshDistanceResult</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -319,7 +319,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshMeshDistanceResult</computeroutput> elementwise. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMeshDistance_8h_1a422e88c7c82f6ef314e000f5dbde8335" kindref="member">MR_MeshMeshDistanceResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshMeshDistanceResult</computeroutput> elementwise. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMeshDistance_8h_1a422e88c7c82f6ef314e000f5dbde8335" kindref="member">MR_MeshMeshDistanceResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -439,7 +439,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshMeshDistanceResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshMeshDistanceResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -479,7 +479,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -537,7 +537,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>two closest points: from meshes A and B respectively Modifies a member variable of class <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -595,7 +595,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>signed distance between a and b, positive if meshes do not collide Modifies a member variable of class <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> named <computeroutput>signedDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>signedDist</computeroutput>. </para>
+<para>signed distance between a and b, positive if meshes do not collide Modifies a member variable of class <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> named <computeroutput>signedDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>signedDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -674,7 +674,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> elementwise. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMeshDistance_8h_1af2d9bf2e2e248d405bc03ab6dc2cb41a" kindref="member">MR_MeshMeshSignedDistanceResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshMeshSignedDistanceResult</computeroutput> elementwise. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMeshDistance_8h_1af2d9bf2e2e248d405bc03ab6dc2cb41a" kindref="member">MR_MeshMeshSignedDistanceResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -794,7 +794,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshMeshSignedDistanceResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshMeshSignedDistanceResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

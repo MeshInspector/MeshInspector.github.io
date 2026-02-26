@@ -737,7 +737,7 @@
         <detaileddescription>
 <para>expands only if seeds cover at least this ratio of the component area &lt;=0 - expands all seeds <blockquote><para><zwj/>1 - none </para>
 </blockquote></para>
-<para>Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>coverRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>coverRatio</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>coverRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>coverRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -797,7 +797,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>incidence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>incidence</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>incidence</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>incidence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>incidence</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>incidence</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -855,7 +855,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional predicate of boundaries between components Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>isCompBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isCompBd</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>isCompBd</computeroutput>. </para>
+<para>optional predicate of boundaries between components Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>isCompBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isCompBd</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>isCompBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -913,7 +913,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output number of components Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>optOutNumComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>optOutNumComponents</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>optOutNumComponents</computeroutput>. </para>
+<para>optional output number of components Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>optOutNumComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>optOutNumComponents</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>optOutNumComponents</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -975,7 +975,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1066,7 +1066,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> elementwise. The reference to the parameter <computeroutput>incidence</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isCompBd</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>optOutNumComponents</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshComponents_8h_1aae1d5fa0c3369bb6341f168e26eca5cb" kindref="member">MR_MeshComponents_ExpandToComponentsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshComponents::ExpandToComponentsParams</computeroutput> elementwise. The reference to the parameter <computeroutput>incidence</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isCompBd</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>optOutNumComponents</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshComponents_8h_1aae1d5fa0c3369bb6341f168e26eca5cb" kindref="member">MR_MeshComponents_ExpandToComponentsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1194,7 +1194,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshComponents::ExpandToComponentsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshComponents::ExpandToComponentsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1260,7 +1260,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>return at most given number of largest by area connected components Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>maxLargeComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxLargeComponents</computeroutput>. </para>
+<para>return at most given number of largest by area connected components Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>maxLargeComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxLargeComponents</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1318,7 +1318,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: the number of components in addition to returned ones Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>numSmallerComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>numSmallerComponents</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>numSmallerComponents</computeroutput>. </para>
+<para>optional output: the number of components in addition to returned ones Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>numSmallerComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>numSmallerComponents</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>numSmallerComponents</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1376,7 +1376,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>do not consider a component large if its area is below this value Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>minArea</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minArea</computeroutput>. </para>
+<para>do not consider a component large if its area is below this value Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>minArea</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minArea</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1434,7 +1434,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional predicate of boundaries between components Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>isCompBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isCompBd</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>isCompBd</computeroutput>. </para>
+<para>optional predicate of boundaries between components Modifies a member variable of class <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> named <computeroutput>isCompBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isCompBd</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>isCompBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1517,7 +1517,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>numSmallerComponents</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isCompBd</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshComponents_8h_1a770d8e39c743d8fd8f1a1274ff9bc283" kindref="member">MR_MeshComponents_LargeByAreaComponentsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>numSmallerComponents</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isCompBd</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshComponents_8h_1a770d8e39c743d8fd8f1a1274ff9bc283" kindref="member">MR_MeshComponents_LargeByAreaComponentsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1637,7 +1637,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

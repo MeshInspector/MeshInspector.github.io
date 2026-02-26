@@ -863,7 +863,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::FindProjectionOnPointsSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::FindProjectionOnPointsSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -910,7 +910,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::FindProjectionOnPointsSettings</code> elementwise. The reference to the parameter <code>valid</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac72c214b018ab5320946450d5aa03797" title="Destroys a heap-allocated instance of MR_FindProjectionOnPointsSettings. Does nothing if the pointer ...">MR_FindProjectionOnPointsSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::FindProjectionOnPointsSettings</code> elementwise. The reference to the parameter <code>valid</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac72c214b018ab5320946450d5aa03797" title="Destroys a heap-allocated instance of MR_FindProjectionOnPointsSettings. Does nothing if the pointer ...">MR_FindProjectionOnPointsSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1293,7 +1293,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>progress callback Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+<p>progress callback Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it held previously in <code>cb</code>. </p>
 
 </div>
 </div>
@@ -1315,7 +1315,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>loDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>loDistLimitSq</code>. </p>
+<p>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>loDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>loDistLimitSq</code>. </p>
 
 </div>
 </div>
@@ -1337,7 +1337,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, discards a projection candidate with the same index as the target point Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>skipSameIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>skipSameIndex</code>. </p>
+<p>if true, discards a projection candidate with the same index as the target point Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>skipSameIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>skipSameIndex</code>. </p>
 
 </div>
 </div>
@@ -1359,7 +1359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>upDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>upDistLimitSq</code>. </p>
+<p>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>upDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>upDistLimitSq</code>. </p>
 
 </div>
 </div>
@@ -1381,7 +1381,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>bitset of valid input points Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>valid</code>. When this function is called, this object will drop object references it had previously in <code>valid</code>. </p>
+<p>bitset of valid input points Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>valid</code>. When this function is called, this object will drop object references it held previously in <code>valid</code>. </p>
 
 </div>
 </div>
@@ -1403,7 +1403,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>affine transformation for input points Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it had previously in <code>xf</code>. </p>
+<p>affine transformation for input points Modifies a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it held previously in <code>xf</code>. </p>
 
 </div>
 </div>
@@ -1713,7 +1713,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::PointsProjectionResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::PointsProjectionResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1735,7 +1735,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::PointsProjectionResult</code> elementwise. The reference to the parameter <code>vId</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::PointsProjectionResult</code> elementwise. The reference to the parameter <code>vId</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a40f66526069140df6bb4d53c792e1882" title="Destroys a heap-allocated instance of MR_PointsProjectionResult. Does nothing if the pointer is null.">MR_PointsProjectionResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1965,7 +1965,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from pt to proj Modifies a member variable of class <code>MR::PointsProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>distSq</code>. </p>
+<p>squared distance from pt to proj Modifies a member variable of class <code>MR::PointsProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>distSq</code>. </p>
 
 </div>
 </div>
@@ -1987,7 +1987,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest vertex in point cloud Modifies a member variable of class <code>MR::PointsProjectionResult</code> named <code>vId</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vId</code>. When this function is called, this object will drop object references it had previously in <code>vId</code>. </p>
+<p>the closest vertex in point cloud Modifies a member variable of class <code>MR::PointsProjectionResult</code> named <code>vId</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vId</code>. When this function is called, this object will drop object references it held previously in <code>vId</code>. </p>
 
 </div>
 </div>
@@ -2014,7 +2014,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::PointsProjector::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::PointsProjector::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>

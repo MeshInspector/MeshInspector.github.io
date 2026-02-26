@@ -9,9 +9,9 @@ var classMR_1_1PolylineSubdivideSettings =
     [ "maxEdgeLen", "classMR_1_1PolylineSubdivideSettings.html#aef0e2b462d5e96efa9e91879401a1533", null ],
     [ "maxEdgeSplits", "classMR_1_1PolylineSubdivideSettings.html#a30786f743f4d38f16a5566df8e3595bd", null ],
     [ "newVerts", "classMR_1_1PolylineSubdivideSettings.html#a90181caf76b486252e075a52bf81b567", null ],
-    [ "onEdgeSplit", "classMR_1_1PolylineSubdivideSettings.html#ad73b66c619281385ebe6987aebdc24f4", null ],
-    [ "onVertCreated", "classMR_1_1PolylineSubdivideSettings.html#a1ccbdc920bde9b86a273c2e8262c4e2b", null ],
-    [ "progressCallback", "classMR_1_1PolylineSubdivideSettings.html#a55987c6e1e78c0509b2547e659758783", null ],
+    [ "onEdgeSplit", "classMR_1_1PolylineSubdivideSettings.html#a979554dc52c15d488b0f627072aaddda", null ],
+    [ "onVertCreated", "classMR_1_1PolylineSubdivideSettings.html#a424395adb75ae28f558b47069a29ac5b", null ],
+    [ "progressCallback", "classMR_1_1PolylineSubdivideSettings.html#ac5836b56bb1dfbcabdfb97915f5144e2", null ],
     [ "region", "classMR_1_1PolylineSubdivideSettings.html#ae4df253b46c53e0b39d79de30333fad0", null ],
     [ "useCurvature", "classMR_1_1PolylineSubdivideSettings.html#ae5954a531e884eb32fe4f89eeb979bee", null ]
 ];

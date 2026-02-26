@@ -164,7 +164,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out map from input points to output Modifies a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outVmap</computeroutput>. </para>
+<para>optional out map from input points to output Modifies a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outVmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -222,7 +222,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out other part of the point cloud Modifies a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherPart</computeroutput>. </para>
+<para>optional out other part of the point cloud Modifies a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherPart</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -280,7 +280,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out map from input points to other part output Modifies a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutVmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherOutVmap</computeroutput>. </para>
+<para>optional out map from input points to other part output Modifies a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutVmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherOutVmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -359,7 +359,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>outVmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutVmap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" kindref="member">MR_DividePointCloudOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>outVmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutVmap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" kindref="member">MR_DividePointCloudOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -479,7 +479,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DividePointCloudOptionalOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DividePointCloudOptionalOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

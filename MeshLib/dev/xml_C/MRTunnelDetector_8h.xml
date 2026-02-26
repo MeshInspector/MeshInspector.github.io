@@ -351,7 +351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal euclidean length of tunnel loops to detect Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxTunnelLength</computeroutput>. </para>
+<para>maximal euclidean length of tunnel loops to detect Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxTunnelLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -409,7 +409,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIters</computeroutput>. </para>
+<para>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -471,7 +471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+<para>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -529,7 +529,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>buildCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>buildCoLoops</computeroutput>. </para>
+<para>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>buildCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>buildCoLoops</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -587,7 +587,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>filterEquivalentCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>filterEquivalentCoLoops</computeroutput>. </para>
+<para>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>filterEquivalentCoLoops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>filterEquivalentCoLoops</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -649,7 +649,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report algorithm progress and cancel from outside Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report algorithm progress and cancel from outside Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -748,7 +748,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DetectTunnelSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" kindref="member">MR_DetectTunnelSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DetectTunnelSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTunnelDetector_8h_1acbeccc777d37b1d21bff2e46401d34c8" kindref="member">MR_DetectTunnelSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -876,7 +876,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DetectTunnelSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DetectTunnelSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

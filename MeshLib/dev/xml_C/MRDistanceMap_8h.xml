@@ -760,7 +760,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1890,7 +1890,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOffset</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOffset</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1948,7 +1948,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ContoursDistanceMapOffset</computeroutput> elementwise. Parameter <computeroutput>perEdgeOffset</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>perEdgeOffset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMap_8h_1ae18da42a9249a2872780e64db64442f6" kindref="member">MR_ContoursDistanceMapOffset_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ContoursDistanceMapOffset</computeroutput> elementwise. Parameter <computeroutput>perEdgeOffset</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>perEdgeOffset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMap_8h_1ae18da42a9249a2872780e64db64442f6" kindref="member">MR_ContoursDistanceMapOffset_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2068,7 +2068,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>signMethod</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMethod</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>signMethod</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>signMethod</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMethod</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>signMethod</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2126,7 +2126,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional input offset for each edges of polyline, find more on <computeroutput>ContoursDistanceMapOffset</computeroutput> structure description Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>offsetParameters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offsetParameters</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>offsetParameters</computeroutput>. </para>
+<para>optional input offset for each edges of polyline, find more on <computeroutput>ContoursDistanceMapOffset</computeroutput> structure description Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>offsetParameters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offsetParameters</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>offsetParameters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2184,7 +2184,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if pointer is valid, then only these pixels will be filled Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>if pointer is valid, then only these pixels will be filled Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2242,7 +2242,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output vector of closest polyline edge per each pixel of distance map Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>outClosestEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outClosestEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outClosestEdges</computeroutput>. </para>
+<para>optional output vector of closest polyline edge per each pixel of distance map Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>outClosestEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outClosestEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outClosestEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2300,7 +2300,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>minDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minDist</computeroutput>. </para>
+<para>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>minDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2358,7 +2358,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>maxDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDist</computeroutput>. </para>
+<para>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Modifies a member variable of class <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> named <computeroutput>maxDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2449,7 +2449,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> elementwise. The reference to the parameter <computeroutput>signMethod</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>offsetParameters</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outClosestEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMap_8h_1a94bb0cea09393f31524cfbfced255e16" kindref="member">MR_ContoursDistanceMapOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ContoursDistanceMapOptions</computeroutput> elementwise. The reference to the parameter <computeroutput>signMethod</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>offsetParameters</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outClosestEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMap_8h_1a94bb0cea09393f31524cfbfced255e16" kindref="member">MR_ContoursDistanceMapOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2569,7 +2569,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https://docs.micros
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ContoursDistanceMapOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ContoursDistanceMapOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

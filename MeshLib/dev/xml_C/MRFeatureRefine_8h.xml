@@ -168,7 +168,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum distance from the source model to the feature Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>distanceLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distanceLimit</computeroutput>. </para>
+<para>Maximum distance from the source model to the feature Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>distanceLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distanceLimit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -226,7 +226,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>normalTolerance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalTolerance</computeroutput>. </para>
+<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>normalTolerance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>normalTolerance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -284,7 +284,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>faceRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceRegion</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceRegion</computeroutput>. </para>
+<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>faceRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceRegion</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>faceRegion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -342,7 +342,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertRegion</computeroutput>. </para>
+<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertRegion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -400,7 +400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum amount of iterations performed until a stable set of points is found Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIterations</computeroutput>. </para>
+<para>Maximum amount of iterations performed until a stable set of points is found Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -462,7 +462,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>Progress callback Modifies a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -557,7 +557,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::RefineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>faceRegion</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" kindref="member">MR_RefineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::RefineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>faceRegion</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" kindref="member">MR_RefineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -685,7 +685,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::RefineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::RefineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

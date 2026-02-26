@@ -278,7 +278,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -336,7 +336,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -398,7 +398,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fwn</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fwn</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -485,7 +485,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" kindref="member">MR_MeshToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshToDistanceVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a7822d8778ead846f8dcb8f9f46cd63df" kindref="member">MR_MeshToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -613,7 +613,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -697,7 +697,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>closeDist</computeroutput>. </para>
+<para>a resulting voxel will get 1 if that voxel&apos;s center is not further than unsigned (closeDist) from the surface, and 0 otherwise Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>closeDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -759,7 +759,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>dimensions, location, and scaling in world space of the expected volume Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>dimensions, location, and scaling in world space of the expected volume Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -817,7 +817,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional transformation from mesh space to world space Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>meshToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshToWorld</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshToWorld</computeroutput>. </para>
+<para>optional transformation from mesh space to world space Modifies a member variable of class <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> named <computeroutput>meshToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshToWorld</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshToWorld</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -900,7 +900,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshToWorld</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" kindref="member">MR_CloseToMeshVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CloseToMeshVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshToWorld</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1adc4408de03764880d84e18d819814039" kindref="member">MR_CloseToMeshVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1028,7 +1028,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CloseToMeshVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CloseToMeshVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1124,7 +1124,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1182,7 +1182,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1244,7 +1244,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>projector</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>projector</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>projector</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>projector</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1331,7 +1331,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>projector</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" kindref="member">MR_MeshToDirectionVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshToDirectionVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>projector</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshToDistanceVolume_8h_1a0b5abf898365687bfd98941976f07218" kindref="member">MR_MeshToDirectionVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1459,7 +1459,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshToDirectionVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshToDirectionVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

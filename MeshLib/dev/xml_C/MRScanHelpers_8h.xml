@@ -136,7 +136,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>instance number Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>instanceNum</computeroutput>. </para>
+<para>instance number Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>instanceNum</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -194,7 +194,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>layer height Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>z</computeroutput>. </para>
+<para>layer height Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>z</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -252,7 +252,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>file index Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fileNum</computeroutput>. </para>
+<para>file index Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fileNum</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -331,7 +331,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SliceInfoBase</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" kindref="member">MR_SliceInfoBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SliceInfoBase</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" kindref="member">MR_SliceInfoBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -487,7 +487,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SliceInfoBase::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SliceInfoBase::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -527,7 +527,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>image position Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>imagePos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imagePos</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>imagePos</computeroutput>. </para>
+<para>image position Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>imagePos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imagePos</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>imagePos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -585,7 +585,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>instance number Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>instanceNum</computeroutput>. </para>
+<para>instance number Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>instanceNum</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -643,7 +643,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>layer height Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>z</computeroutput>. </para>
+<para>layer height Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>z</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -701,7 +701,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>file index Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fileNum</computeroutput>. </para>
+<para>file index Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fileNum</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -910,7 +910,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SliceInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SliceInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

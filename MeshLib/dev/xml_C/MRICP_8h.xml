@@ -382,7 +382,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinates of the source point after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>srcPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>srcPoint</computeroutput>. </para>
+<para>coordinates of the source point after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>srcPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>srcPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -440,7 +440,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>normal in source point after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>srcNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcNorm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>srcNorm</computeroutput>. </para>
+<para>normal in source point after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>srcNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcNorm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>srcNorm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -498,7 +498,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinates of the closest point on target after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>tgtPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgtPoint</computeroutput>. </para>
+<para>coordinates of the closest point on target after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>tgtPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgtPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -556,7 +556,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>normal in the target point after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>tgtNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtNorm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgtNorm</computeroutput>. </para>
+<para>normal in the target point after transforming in world space Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>tgtNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtNorm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgtNorm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -614,7 +614,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance between source and target points Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance between source and target points Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -672,7 +672,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>weight of the pair (to prioritize over other pairs) Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>weight</computeroutput>. </para>
+<para>weight of the pair (to prioritize over other pairs) Modifies a member variable of class <computeroutput>MR::ICPPairData</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>weight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -763,7 +763,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ICPPairData</computeroutput> elementwise. The reference to the parameter <computeroutput>srcPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>srcNorm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgtPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgtNorm</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRICP_8h_1a2e6b4e80f43bbb0a972f94195019dc8a" kindref="member">MR_ICPPairData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ICPPairData</computeroutput> elementwise. The reference to the parameter <computeroutput>srcPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>srcNorm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgtPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgtNorm</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRICP_8h_1a2e6b4e80f43bbb0a972f94195019dc8a" kindref="member">MR_ICPPairData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -955,7 +955,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ICPPairData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ICPPairData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1017,7 +1017,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>id of the source point Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>srcVertId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcVertId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>srcVertId</computeroutput>. </para>
+<para>id of the source point Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>srcVertId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcVertId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>srcVertId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1075,7 +1075,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for point clouds it is the closest vertex on target, for meshes it is the closest vertex of the triangle with the closest point on target Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtCloseVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtCloseVert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgtCloseVert</computeroutput>. </para>
+<para>for point clouds it is the closest vertex on target, for meshes it is the closest vertex of the triangle with the closest point on target Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtCloseVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtCloseVert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgtCloseVert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1133,7 +1133,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>cosine between normals in source and target points Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>normalsAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalsAngleCos</computeroutput>. </para>
+<para>cosine between normals in source and target points Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>normalsAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>normalsAngleCos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1191,7 +1191,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true if if the closest point on target is located on the boundary (only for meshes) Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>tgtOnBd</computeroutput>. </para>
+<para>true if if the closest point on target is located on the boundary (only for meshes) Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>tgtOnBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1249,7 +1249,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinates of the source point after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>srcPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>srcPoint</computeroutput>. </para>
+<para>coordinates of the source point after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>srcPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>srcPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1307,7 +1307,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>normal in source point after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>srcNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcNorm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>srcNorm</computeroutput>. </para>
+<para>normal in source point after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>srcNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcNorm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>srcNorm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1365,7 +1365,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinates of the closest point on target after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgtPoint</computeroutput>. </para>
+<para>coordinates of the closest point on target after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgtPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1423,7 +1423,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>normal in the target point after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtNorm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgtNorm</computeroutput>. </para>
+<para>normal in the target point after transforming in world space Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>tgtNorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgtNorm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgtNorm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1481,7 +1481,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance between source and target points Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance between source and target points Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1539,7 +1539,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>weight of the pair (to prioritize over other pairs) Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>weight</computeroutput>. </para>
+<para>weight of the pair (to prioritize over other pairs) Modifies a member variable of class <computeroutput>MR::PointPair</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>weight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1748,7 +1748,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointPair::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointPair::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1788,7 +1788,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether corresponding pair from vec must be considered during minimization Modifies a member variable of class <computeroutput>MR::IPointPairs</computeroutput> named <computeroutput>active</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>active</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>active</computeroutput>. </para>
+<para>whether corresponding pair from vec must be considered during minimization Modifies a member variable of class <computeroutput>MR::IPointPairs</computeroutput> named <computeroutput>active</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>active</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>active</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2207,7 +2207,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vector of all point pairs both active and not Modifies a member variable of class <computeroutput>MR::PointPairs</computeroutput> named <computeroutput>vec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vec</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vec</computeroutput>. </para>
+<para>vector of all point pairs both active and not Modifies a member variable of class <computeroutput>MR::PointPairs</computeroutput> named <computeroutput>vec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vec</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vec</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2269,7 +2269,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether corresponding pair from vec must be considered during minimization Modifies a member variable of class <computeroutput>MR::PointPairs</computeroutput> named <computeroutput>active</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>active</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>active</computeroutput>. </para>
+<para>whether corresponding pair from vec must be considered during minimization Modifies a member variable of class <computeroutput>MR::PointPairs</computeroutput> named <computeroutput>active</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>active</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>active</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2511,7 +2511,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointPairs::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointPairs::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2649,7 +2649,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NumSum</computeroutput> named <computeroutput>num</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>num</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NumSum</computeroutput> named <computeroutput>num</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>num</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2707,7 +2707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NumSum</computeroutput> named <computeroutput>sum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>sum</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NumSum</computeroutput> named <computeroutput>sum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>sum</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2782,7 +2782,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::NumSum</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRICP_8h_1aee8d8f8c88d3f1b12f79e6df241c3449" kindref="member">MR_NumSum_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::NumSum</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRICP_8h_1aee8d8f8c88d3f1b12f79e6df241c3449" kindref="member">MR_NumSum_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2902,7 +2902,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NumSum::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NumSum::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3118,7 +3118,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The method how to update transformation from point pairs, see description of each option in ICPMethod Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>method</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>method</computeroutput>. </para>
+<para>The method how to update transformation from point pairs, see description of each option in ICPMethod Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>method</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>method</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3176,7 +3176,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>p2plAngleLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>p2plAngleLimit</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>p2plAngleLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>p2plAngleLimit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3234,7 +3234,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>p2plScaleLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>p2plScaleLimit</computeroutput>. </para>
+<para>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>p2plScaleLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>p2plScaleLimit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3292,7 +3292,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>cosThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cosThreshold</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>cosThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>cosThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3350,7 +3350,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>distThresholdSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distThresholdSq</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>distThresholdSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distThresholdSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3408,7 +3408,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>farDistFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>farDistFactor</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>farDistFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>farDistFactor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3466,7 +3466,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>icpMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>icpMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>icpMode</computeroutput>. </para>
+<para>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>icpMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>icpMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>icpMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3524,7 +3524,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>fixedRotationAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fixedRotationAxis</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fixedRotationAxis</computeroutput>. </para>
+<para>Additional parameter for ICPMode::OrthogonalAxis and ICPMode::FixedAxis transformation groups. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>fixedRotationAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fixedRotationAxis</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fixedRotationAxis</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3582,7 +3582,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>iterLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterLimit</computeroutput>. </para>
+<para>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>iterLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterLimit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3640,7 +3640,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>badIterStopCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>badIterStopCount</computeroutput>. </para>
+<para>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>badIterStopCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>badIterStopCount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3698,7 +3698,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>exitVal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>exitVal</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>exitVal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>exitVal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3756,7 +3756,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>mutualClosest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>mutualClosest</computeroutput>. </para>
+<para>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>mutualClosest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>mutualClosest</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3871,7 +3871,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ICPProperties</computeroutput> elementwise. The reference to the parameter <computeroutput>method</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>icpMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fixedRotationAxis</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" kindref="member">MR_ICPProperties_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ICPProperties</computeroutput> elementwise. The reference to the parameter <computeroutput>method</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>icpMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fixedRotationAxis</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" kindref="member">MR_ICPProperties_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3991,7 +3991,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ICPProperties::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ICPProperties::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4397,7 +4397,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ICP::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ICP::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

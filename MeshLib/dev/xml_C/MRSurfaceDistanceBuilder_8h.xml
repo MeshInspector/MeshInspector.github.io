@@ -190,7 +190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vertex in question Modifies a member variable of class <computeroutput>MR::VertDistance</computeroutput> named <computeroutput>vert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vert</computeroutput>. </para>
+<para>vertex in question Modifies a member variable of class <computeroutput>MR::VertDistance</computeroutput> named <computeroutput>vert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -248,7 +248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>best known distance to reach this vertex Modifies a member variable of class <computeroutput>MR::VertDistance</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distance</computeroutput>. </para>
+<para>best known distance to reach this vertex Modifies a member variable of class <computeroutput>MR::VertDistance</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -443,7 +443,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VertDistance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VertDistance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

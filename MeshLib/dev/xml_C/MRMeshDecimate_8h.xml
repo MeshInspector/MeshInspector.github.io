@@ -394,7 +394,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>strategy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>strategy</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>strategy</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>strategy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>strategy</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>strategy</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -452,7 +452,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for DecimateStrategy::MinimizeError: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for DecimateStrategy::ShortestEdgeFirst only: stop the decimation as soon as the shortest edge in the mesh is greater than this value Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxError</computeroutput>. </para>
+<para>for DecimateStrategy::MinimizeError: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for DecimateStrategy::ShortestEdgeFirst only: stop the decimation as soon as the shortest edge in the mesh is greater than this value Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxError</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -510,7 +510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal possible edge length created during decimation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
+<para>Maximal possible edge length created during decimation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -568,7 +568,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal shift of a boundary during one edge collapse Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxBdShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxBdShift</computeroutput>. </para>
+<para>Maximal shift of a boundary during one edge collapse Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxBdShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxBdShift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -626,7 +626,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal possible aspect ratio of a triangle introduced during decimation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxTriangleAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxTriangleAspectRatio</computeroutput>. </para>
+<para>Maximal possible aspect ratio of a triangle introduced during decimation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxTriangleAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxTriangleAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -684,7 +684,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -742,7 +742,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
+<para>edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -800,7 +800,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -858,7 +858,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles; if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle) Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>angleWeightedDistToPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>angleWeightedDistToPlane</computeroutput>. </para>
+<para>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles; if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle) Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>angleWeightedDistToPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>angleWeightedDistToPlane</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -916,7 +916,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>optimizeVertexPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>optimizeVertexPos</computeroutput>. </para>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>optimizeVertexPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>optimizeVertexPos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -974,7 +974,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Limit on the number of deleted vertices Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxDeletedVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeletedVertices</computeroutput>. </para>
+<para>Limit on the number of deleted vertices Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxDeletedVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeletedVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1032,7 +1032,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Limit on the number of deleted faces Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxDeletedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeletedFaces</computeroutput>. </para>
+<para>Limit on the number of deleted faces Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxDeletedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeletedFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1090,7 +1090,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Region on mesh to be decimated, it is updated during the operation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Region on mesh to be decimated, it is updated during the operation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1148,7 +1148,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notFlippable</computeroutput>. </para>
+<para>Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notFlippable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1206,7 +1206,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether to allow collapse of edges incident to notFlippable edges, which can move vertices of notFlippable edges unless they are fixed Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>collapseNearNotFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>collapseNearNotFlippable</computeroutput>. </para>
+<para>Whether to allow collapse of edges incident to notFlippable edges, which can move vertices of notFlippable edges unless they are fixed Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>collapseNearNotFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>collapseNearNotFlippable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1264,7 +1264,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear); the algorithm updates this map during collapses, removing or replacing elements Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>edgesToCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgesToCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgesToCollapse</computeroutput>. </para>
+<para>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear); the algorithm updates this map during collapses, removing or replacing elements Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>edgesToCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgesToCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edgesToCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1322,7 +1322,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position); the algorithm updates this map during collapses, removing or replacing elements Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>twinMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>twinMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>twinMap</computeroutput>. </para>
+<para>if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position); the algorithm updates this map during collapses, removing or replacing elements Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>twinMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>twinMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>twinMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1380,7 +1380,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>touchNearBdEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>touchNearBdEdges</computeroutput>. </para>
+<para>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>touchNearBdEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>touchNearBdEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1438,7 +1438,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses; touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change; this setting is ignored if touchNearBdEdges=false Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>touchBdVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>touchBdVerts</computeroutput>. </para>
+<para>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses; touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change; this setting is ignored if touchNearBdEdges=false Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>touchBdVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>touchBdVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1496,7 +1496,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set; the algorithm updates this set if it packs the mesh Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>bdVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bdVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bdVerts</computeroutput>. </para>
+<para>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set; the algorithm updates this set if it packs the mesh Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>bdVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bdVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>bdVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1554,7 +1554,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChange</computeroutput>. </para>
+<para>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1618,7 +1618,7 @@
 <para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
         </briefdescription>
         <detaileddescription>
-<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>preCollapse</computeroutput>. </para>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>preCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1683,7 +1683,7 @@
 <para>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </para>
         </briefdescription>
         <detaileddescription>
-<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>adjustCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>adjustCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>adjustCollapse</computeroutput>. </para>
+<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>adjustCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>adjustCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>adjustCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1746,7 +1746,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time edge (del) is deleted; if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>onEdgeDel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeDel</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeDel</computeroutput>. </para>
+<para>this function is called each time edge (del) is deleted; if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>onEdgeDel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeDel</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeDel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1806,7 +1806,7 @@
 <para>If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there. </para>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>vertForms</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertForms</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertForms</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>vertForms</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertForms</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertForms</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1865,7 +1865,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to pack mesh at the end Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>packMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>packMesh</computeroutput>. </para>
+<para>whether to pack mesh at the end Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>packMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>packMesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1927,7 +1927,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCallback</computeroutput>. </para>
+<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1985,7 +1985,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>subdivideParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>subdivideParts</computeroutput>. </para>
+<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>subdivideParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>subdivideParts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2043,7 +2043,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>decimateBetweenParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>decimateBetweenParts</computeroutput>. </para>
+<para>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>decimateBetweenParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>decimateBetweenParts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2101,7 +2101,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>partFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>partFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>partFaces</computeroutput>. </para>
+<para>if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>partFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>partFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>partFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2159,7 +2159,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>minFacesInPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minFacesInPart</computeroutput>. </para>
+<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode Modifies a member variable of class <computeroutput>MR::DecimateSettings</computeroutput> named <computeroutput>minFacesInPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minFacesInPart</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2366,7 +2366,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DecimateSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>strategy</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgesToCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>twinMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>bdVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>adjustCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeDel</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertForms</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>partFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1aba4b49c1fc63bf6029d452bff2a12f37" kindref="member">MR_DecimateSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DecimateSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>strategy</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgesToCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>twinMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>bdVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>adjustCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeDel</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertForms</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>partFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1aba4b49c1fc63bf6029d452bff2a12f37" kindref="member">MR_DecimateSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2494,7 +2494,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DecimateSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. Number deleted verts. Same as the number of performed collapses Returns a pointer to a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::DecimateSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. Number deleted verts. Same as the number of performed collapses Returns a pointer to a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2512,7 +2512,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Number deleted verts. Same as the number of performed collapses Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>vertsDeleted</computeroutput>. </para>
+<para>Number deleted verts. Same as the number of performed collapses Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>vertsDeleted</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2570,7 +2570,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Number deleted faces Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>facesDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>facesDeleted</computeroutput>. </para>
+<para>Number deleted faces Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>facesDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>facesDeleted</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2649,7 +2649,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for DecimateStrategy::MinimizeError: estimated distance deviation of decimated mesh from the original mesh for DecimateStrategy::ShortestEdgeFirst: the shortest remaining edge in the mesh Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>errorIntroduced</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>errorIntroduced</computeroutput>. </para>
+<para>for DecimateStrategy::MinimizeError: estimated distance deviation of decimated mesh from the original mesh for DecimateStrategy::ShortestEdgeFirst: the shortest remaining edge in the mesh Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>errorIntroduced</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>errorIntroduced</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2707,7 +2707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the algorithm was cancelled by the callback Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>cancelled</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cancelled</computeroutput>. </para>
+<para>whether the algorithm was cancelled by the callback Modifies a member variable of class <computeroutput>MR::DecimateResult</computeroutput> named <computeroutput>cancelled</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>cancelled</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2790,7 +2790,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DecimateResult</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1aae88d6da898d1a97e1f9b7a9688b45e7" kindref="member">MR_DecimateResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DecimateResult</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1aae88d6da898d1a97e1f9b7a9688b45e7" kindref="member">MR_DecimateResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2910,7 +2910,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DecimateResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DecimateResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3117,7 +3117,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum permitted deviation from the original surface Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>maxDeviation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeviation</computeroutput>. </para>
+<para>maximum permitted deviation from the original surface Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>maxDeviation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeviation</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3175,7 +3175,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
+<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3233,7 +3233,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Permit edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChange</computeroutput>. </para>
+<para>Permit edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3291,7 +3291,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>criticalAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>criticalAspectRatio</computeroutput>. </para>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>criticalAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3349,7 +3349,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3407,7 +3407,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>degenerations will be fixed only in given region, which is updated during the processing Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>degenerations will be fixed only in given region, which is updated during the processing Modifies a member variable of class <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3498,7 +3498,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1a5938a1b7556107bfa306ac7840a2bbc3" kindref="member">MR_ResolveMeshDegenSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ResolveMeshDegenSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1a5938a1b7556107bfa306ac7840a2bbc3" kindref="member">MR_ResolveMeshDegenSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3618,7 +3618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ResolveMeshDegenSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ResolveMeshDegenSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3686,7 +3686,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>targetEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>targetEdgeLen</computeroutput>. </para>
+<para>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>targetEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>targetEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3744,7 +3744,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of edge splits allowed during subdivision Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
+<para>Maximum number of edge splits allowed during subdivision Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3802,7 +3802,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChangeAfterFlip</computeroutput>. </para>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChangeAfterFlip</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3860,7 +3860,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Allows or prohibits splitting and/or collapse boundary edges it recommended to keep default value here for better quality Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>frozenBoundary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>frozenBoundary</computeroutput>. </para>
+<para>Allows or prohibits splitting and/or collapse boundary edges it recommended to keep default value here for better quality Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>frozenBoundary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>frozenBoundary</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3918,7 +3918,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal shift of a boundary during one edge collapse only makes sense if <computeroutput>frozenBoundary=false</computeroutput> Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxBdShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxBdShift</computeroutput>. </para>
+<para>Maximal shift of a boundary during one edge collapse only makes sense if <computeroutput>frozenBoundary=false</computeroutput> Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxBdShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxBdShift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3976,7 +3976,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>useCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>useCurvature</computeroutput>. </para>
+<para>This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>useCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>useCurvature</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4034,7 +4034,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if frozenBoundary==true, otherwise many narrow triangles can appear near border Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxSplittableTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxSplittableTriAspectRatio</computeroutput>. </para>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if frozenBoundary==true, otherwise many narrow triangles can appear near border Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>maxSplittableTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxSplittableTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4092,7 +4092,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of iterations of final relaxation of mesh vertices; few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>finalRelaxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>finalRelaxIters</computeroutput>. </para>
+<para>the number of iterations of final relaxation of mesh vertices; few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>finalRelaxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>finalRelaxIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4150,7 +4150,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true prevents the surface from shrinkage after many iterations Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>finalRelaxNoShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>finalRelaxNoShrinkage</computeroutput>. </para>
+<para>if true prevents the surface from shrinkage after many iterations Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>finalRelaxNoShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>finalRelaxNoShrinkage</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4208,7 +4208,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Region on mesh to be changed, it is updated during the operation Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Region on mesh to be changed, it is updated during the operation Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4266,7 +4266,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation; also the vertices incident to these edges are excluded from relaxation Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notFlippable</computeroutput>. </para>
+<para>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation; also the vertices incident to these edges are excluded from relaxation Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notFlippable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4324,7 +4324,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to pack mesh at the end Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>packMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>packMesh</computeroutput>. </para>
+<para>whether to pack mesh at the end Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>packMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>packMesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4382,7 +4382,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing); this does not affect the vertices moved on other stages of the processing Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>projectOnOriginalMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>projectOnOriginalMesh</computeroutput>. </para>
+<para>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing); this does not affect the vertices moved on other stages of the processing Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>projectOnOriginalMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>projectOnOriginalMesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4444,7 +4444,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4506,7 +4506,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>onEdgeDel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeDel</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeDel</computeroutput>. </para>
+<para>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>onEdgeDel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeDel</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeDel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4570,7 +4570,7 @@
 <para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
         </briefdescription>
         <detaileddescription>
-<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>preCollapse</computeroutput>. </para>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>preCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4633,7 +4633,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCallback</computeroutput>. </para>
+<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::RemeshSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4784,7 +4784,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::RemeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeDel</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1a4f188df01f28466176a1dac76b4745e0" kindref="member">MR_RemeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::RemeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeDel</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDecimate_8h_1a4f188df01f28466176a1dac76b4745e0" kindref="member">MR_RemeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4912,7 +4912,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::RemeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::RemeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

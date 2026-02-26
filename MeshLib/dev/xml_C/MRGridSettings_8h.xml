@@ -232,7 +232,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>dim</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dim</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dim</computeroutput>. </para>
+<para>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>dim</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dim</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dim</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -294,7 +294,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>vertIds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertIds</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertIds</computeroutput>. </para>
+<para>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>vertIds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertIds</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertIds</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -356,7 +356,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>uedgeIds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uedgeIds</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uedgeIds</computeroutput>. </para>
+<para>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>uedgeIds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uedgeIds</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uedgeIds</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -418,7 +418,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>faceIds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceIds</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceIds</computeroutput>. </para>
+<para>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Modifies a member variable of class <computeroutput>MR::GridSettings</computeroutput> named <computeroutput>faceIds</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceIds</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>faceIds</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -513,7 +513,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::GridSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>dim</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertIds</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uedgeIds</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceIds</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" kindref="member">MR_GridSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::GridSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>dim</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertIds</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uedgeIds</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceIds</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" kindref="member">MR_GridSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -641,7 +641,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::GridSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::GridSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

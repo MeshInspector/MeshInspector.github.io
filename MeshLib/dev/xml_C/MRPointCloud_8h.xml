@@ -276,7 +276,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinates of points Modifies a member variable of class <computeroutput>MR::PointCloud</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>points</computeroutput>. </para>
+<para>coordinates of points Modifies a member variable of class <computeroutput>MR::PointCloud</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>points</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -338,7 +338,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unit normal directions of points (can be empty if no normals are known) Modifies a member variable of class <computeroutput>MR::PointCloud</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normals</computeroutput>. </para>
+<para>unit normal directions of points (can be empty if no normals are known) Modifies a member variable of class <computeroutput>MR::PointCloud</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normals</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -400,7 +400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only points and normals corresponding to set bits here are valid Modifies a member variable of class <computeroutput>MR::PointCloud</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>validPoints</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>validPoints</computeroutput>. </para>
+<para>only points and normals corresponding to set bits here are valid Modifies a member variable of class <computeroutput>MR::PointCloud</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>validPoints</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>validPoints</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -581,7 +581,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointCloud::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointCloud::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

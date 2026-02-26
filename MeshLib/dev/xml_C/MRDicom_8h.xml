@@ -433,7 +433,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -495,7 +495,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>name</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -553,7 +553,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -640,7 +640,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDicom_8h_1af7ba2f4e9f210c3d8014224fad4e9ba4" kindref="member">MR_VoxelsLoad_DicomVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VoxelsLoad::DicomVolume</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDicom_8h_1af7ba2f4e9f210c3d8014224fad4e9ba4" kindref="member">MR_VoxelsLoad_DicomVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -768,7 +768,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomVolume::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomVolume::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -812,7 +812,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -874,7 +874,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>name</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -932,7 +932,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1019,7 +1019,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDicom_8h_1ac98dac29cbb4f42e8f364ebfaca270ad" kindref="member">MR_VoxelsLoad_DicomVolumeAsVdb_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDicom_8h_1ac98dac29cbb4f42e8f364ebfaca270ad" kindref="member">MR_VoxelsLoad_DicomVolumeAsVdb_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1147,7 +1147,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomVolumeAsVdb::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1187,7 +1187,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomStatus</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>status</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomStatus</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>status</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1249,7 +1249,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomStatus</computeroutput> named <computeroutput>reason</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>reason</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>reason</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::DicomStatus</computeroutput> named <computeroutput>reason</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>reason</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>reason</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1439,7 +1439,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomStatus::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomStatus::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

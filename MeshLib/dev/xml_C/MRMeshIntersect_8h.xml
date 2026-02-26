@@ -425,7 +425,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores intersected face and global coordinates Modifies a member variable of class <computeroutput>MR::MeshIntersectionResult</computeroutput> named <computeroutput>proj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>proj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>proj</computeroutput>. </para>
+<para>stores intersected face and global coordinates Modifies a member variable of class <computeroutput>MR::MeshIntersectionResult</computeroutput> named <computeroutput>proj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>proj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>proj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -483,7 +483,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores barycentric coordinates Modifies a member variable of class <computeroutput>MR::MeshIntersectionResult</computeroutput> named <computeroutput>mtp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mtp</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mtp</computeroutput>. </para>
+<para>stores barycentric coordinates Modifies a member variable of class <computeroutput>MR::MeshIntersectionResult</computeroutput> named <computeroutput>mtp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mtp</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mtp</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -541,7 +541,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores the distance from ray origin to the intersection point in direction units Modifies a member variable of class <computeroutput>MR::MeshIntersectionResult</computeroutput> named <computeroutput>distanceAlongLine</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distanceAlongLine</computeroutput>. </para>
+<para>stores the distance from ray origin to the intersection point in direction units Modifies a member variable of class <computeroutput>MR::MeshIntersectionResult</computeroutput> named <computeroutput>distanceAlongLine</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distanceAlongLine</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -620,7 +620,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshIntersectionResult</computeroutput> elementwise. Parameter <computeroutput>proj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>proj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mtp</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mtp</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" kindref="member">MR_MeshIntersectionResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshIntersectionResult</computeroutput> elementwise. Parameter <computeroutput>proj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>proj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mtp</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mtp</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" kindref="member">MR_MeshIntersectionResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -794,7 +794,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshIntersectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshIntersectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -896,7 +896,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true if the ray has intersection with mesh part, false otherwise Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>intersectingRays</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersectingRays</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>intersectingRays</computeroutput>. </para>
+<para>true if the ray has intersection with mesh part, false otherwise Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>intersectingRays</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersectingRays</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intersectingRays</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -954,7 +954,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>distance along each ray till the intersection point or NaN if no intersection Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>rayDistances</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rayDistances</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rayDistances</computeroutput>. </para>
+<para>distance along each ray till the intersection point or NaN if no intersection Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>rayDistances</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rayDistances</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rayDistances</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1012,7 +1012,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>intersected triangles from mesh Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>isectFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isectFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>isectFaces</computeroutput>. </para>
+<para>intersected triangles from mesh Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>isectFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isectFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>isectFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1070,7 +1070,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>isectBary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isectBary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>isectBary</computeroutput>. </para>
+<para>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>isectBary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isectBary</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>isectBary</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1128,7 +1128,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>intersection points or NaNs if no intersection Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>isectPts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isectPts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>isectPts</computeroutput>. </para>
+<para>intersection points or NaNs if no intersection Modifies a member variable of class <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> named <computeroutput>isectPts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isectPts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>isectPts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1236,7 +1236,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> elementwise. The reference to the parameter <computeroutput>intersectingRays</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rayDistances</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isectFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isectBary</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isectPts</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" kindref="member">MR_MultiRayMeshIntersectResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MultiRayMeshIntersectResult</computeroutput> elementwise. The reference to the parameter <computeroutput>intersectingRays</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rayDistances</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isectFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isectBary</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isectPts</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" kindref="member">MR_MultiRayMeshIntersectResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1356,7 +1356,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MultiRayMeshIntersectResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MultiRayMeshIntersectResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1442,7 +1442,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the intersection found in this mesh Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>the intersection found in this mesh Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1500,7 +1500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores intersected face and global coordinates Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>proj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>proj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>proj</computeroutput>. </para>
+<para>stores intersected face and global coordinates Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>proj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>proj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>proj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1558,7 +1558,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores barycentric coordinates Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>mtp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mtp</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mtp</computeroutput>. </para>
+<para>stores barycentric coordinates Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>mtp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mtp</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mtp</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1616,7 +1616,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores the distance from ray origin to the intersection point in direction units Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>distanceAlongLine</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distanceAlongLine</computeroutput>. </para>
+<para>stores the distance from ray origin to the intersection point in direction units Modifies a member variable of class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput> named <computeroutput>distanceAlongLine</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distanceAlongLine</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1843,7 +1843,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MultiMeshIntersectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. in the reference frame of mesh Returns a pointer to a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::MultiMeshIntersectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. in the reference frame of mesh Returns a pointer to a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1861,7 +1861,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in the reference frame of mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>in the reference frame of mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1919,7 +1919,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>set it to a valid pointer for better performance Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>prec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prec</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>prec</computeroutput>. </para>
+<para>set it to a valid pointer for better performance Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>prec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prec</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>prec</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1977,7 +1977,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2035,7 +2035,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>tree</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tree</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tree</computeroutput>. </para>
+<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>tree</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tree</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tree</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2093,7 +2093,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>may remain nullptr, meaning all mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>may remain nullptr, meaning all mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2201,7 +2201,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> elementwise. Parameter <computeroutput>line</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>prec</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tree</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1a5ee3e51d3e5d4cad774126de61c896ea" kindref="member">MR_Line3Mesh_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Line3Mesh&lt;float&gt;</computeroutput> elementwise. Parameter <computeroutput>line</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>prec</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tree</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1a5ee3e51d3e5d4cad774126de61c896ea" kindref="member">MR_Line3Mesh_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2321,7 +2321,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Line3Mesh&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. in the reference frame of mesh Returns a pointer to a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::Line3Mesh&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. in the reference frame of mesh Returns a pointer to a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2339,7 +2339,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in the reference frame of mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>in the reference frame of mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2397,7 +2397,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>set it to a valid pointer for better performance Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>prec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prec</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>prec</computeroutput>. </para>
+<para>set it to a valid pointer for better performance Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>prec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prec</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>prec</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2455,7 +2455,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2513,7 +2513,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>tree</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tree</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tree</computeroutput>. </para>
+<para>must be set a valid pointer before use Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>tree</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tree</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tree</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2571,7 +2571,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>may remain nullptr, meaning all mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>may remain nullptr, meaning all mesh Modifies a member variable of class <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2679,7 +2679,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> elementwise. Parameter <computeroutput>line</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>prec</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tree</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1adc347f943beed965b99a0f5ca48cc4f5" kindref="member">MR_Line3Mesh_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Line3Mesh&lt;double&gt;</computeroutput> elementwise. Parameter <computeroutput>line</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>prec</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tree</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshIntersect_8h_1adc347f943beed965b99a0f5ca48cc4f5" kindref="member">MR_Line3Mesh_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2799,7 +2799,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Line3Mesh&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Line3Mesh&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

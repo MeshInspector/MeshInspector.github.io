@@ -802,7 +802,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MeshOrPoints::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MeshOrPoints::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1145,7 +1145,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MeshOrPoints::ProjectionResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MeshOrPoints::ProjectionResult::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1182,7 +1182,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::MeshOrPoints::ProjectionResult</code> elementwise. The reference to the parameter <code>point</code> might be preserved in the constructed object. Parameter <code>normal</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>normal</code> might be preserved in the constructed object. The reference to the parameter <code>closestVert</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5aff1645a2691a42da0352408145f0bd" title="Destroys a heap-allocated instance of MR_MeshOrPoints_ProjectionResult. Does nothing if the pointer i...">MR_MeshOrPoints_ProjectionResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshOrPoints::ProjectionResult</code> elementwise. The reference to the parameter <code>point</code> might be preserved in the constructed object. Parameter <code>normal</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>normal</code> might be preserved in the constructed object. The reference to the parameter <code>closestVert</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5aff1645a2691a42da0352408145f0bd" title="Destroys a heap-allocated instance of MR_MeshOrPoints_ProjectionResult. Does nothing if the pointer i...">MR_MeshOrPoints_ProjectionResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1538,7 +1538,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>closestVert</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>closestVert</code>. When this function is called, this object will drop object references it had previously in <code>closestVert</code>. </p>
+<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>closestVert</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>closestVert</code>. When this function is called, this object will drop object references it held previously in <code>closestVert</code>. </p>
 
 </div>
 </div>
@@ -1560,7 +1560,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from query point to the closest point Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>distSq</code>. </p>
+<p>squared distance from query point to the closest point Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>distSq</code>. </p>
 
 </div>
 </div>
@@ -1582,7 +1582,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>isBd</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>isBd</code>. </p>
+<p>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>isBd</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>isBd</code>. </p>
 
 </div>
 </div>
@@ -1604,7 +1604,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>normal</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>normal</code>. When this function is called, this object will drop object references it had previously in <code>normal</code>. </p>
+<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>normal</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>normal</code>. When this function is called, this object will drop object references it held previously in <code>normal</code>. </p>
 
 </div>
 </div>
@@ -1626,7 +1626,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>found closest point Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>point</code>. When this function is called, this object will drop object references it had previously in <code>point</code>. </p>
+<p>found closest point Modifies a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>point</code>. When this function is called, this object will drop object references it held previously in <code>point</code>. </p>
 
 </div>
 </div>
@@ -1720,7 +1720,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MeshOrPointsXf::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MeshOrPointsXf::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1742,7 +1742,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::MeshOrPointsXf</code> elementwise. Parameter <code>obj</code> can not be null. It is a single object. The reference to the parameter <code>obj</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af49a1e3d76cdf0a15c4be70c3ac954b7" title="Destroys a heap-allocated instance of MR_MeshOrPointsXf. Does nothing if the pointer is null.">MR_MeshOrPointsXf_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshOrPointsXf</code> elementwise. Parameter <code>obj</code> can not be null. It is a single object. The reference to the parameter <code>obj</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af49a1e3d76cdf0a15c4be70c3ac954b7" title="Destroys a heap-allocated instance of MR_MeshOrPointsXf. Does nothing if the pointer is null.">MR_MeshOrPointsXf_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1972,7 +1972,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshOrPointsXf</code> named <code>obj</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>obj</code>. When this function is called, this object will drop object references it had previously in <code>obj</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshOrPointsXf</code> named <code>obj</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>obj</code>. When this function is called, this object will drop object references it held previously in <code>obj</code>. </p>
 
 </div>
 </div>
@@ -1994,7 +1994,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshOrPointsXf</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it had previously in <code>xf</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshOrPointsXf</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it held previously in <code>xf</code>. </p>
 
 </div>
 </div>

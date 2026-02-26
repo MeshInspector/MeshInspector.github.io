@@ -64,9 +64,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="174" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="175" bodyend="184"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1UniformSamplingSettings_1ac6d53a00c6f6f7fa04785906f39e990b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.UniformSamplingSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1UniformSamplingSettings_1a1d6d33be1f4e3d2c57b68c6798093559" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.UniformSamplingSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.UniformSamplingSettings.progress</qualifiedname>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="187" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="187" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="187" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="187" bodyend="187"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -286,7 +286,7 @@
       <member refid="classMR_1_1UniformSamplingSettings_1a00fbf05d8d09fc77a57c9700609f5be0" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a5c1e6f8646dc6d75c051fe27fb0cea69" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>minNormalDot</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1aa68380082bc7ff41e43932b27b7a0186" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>pNormals</name></member>
-      <member refid="classMR_1_1UniformSamplingSettings_1ac6d53a00c6f6f7fa04785906f39e990b" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1UniformSamplingSettings_1a1d6d33be1f4e3d2c57b68c6798093559" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a792fd6776e3351102fa2bf846c2f7d1d" prot="package" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a3045ea3f4884c106ab5978240bf0bf52" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a7ea098a4ad321de43a48932fa31910df" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>

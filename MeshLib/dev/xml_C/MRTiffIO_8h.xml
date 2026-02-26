@@ -306,7 +306,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>sampleType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sampleType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sampleType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>sampleType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sampleType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>sampleType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -364,7 +364,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>valueType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>valueType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>valueType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>valueType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>valueType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>valueType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -422,7 +422,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>bytesPerSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bytesPerSample</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>bytesPerSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bytesPerSample</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -480,7 +480,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>imageSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imageSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>imageSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BaseTiffParameters</computeroutput> named <computeroutput>imageSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imageSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>imageSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -563,7 +563,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BaseTiffParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>sampleType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>valueType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>imageSize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTiffIO_8h_1addfdd73b1f32026727ca57420c7ab2f4" kindref="member">MR_BaseTiffParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BaseTiffParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>sampleType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>valueType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>imageSize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTiffIO_8h_1addfdd73b1f32026727ca57420c7ab2f4" kindref="member">MR_BaseTiffParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -719,7 +719,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BaseTiffParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BaseTiffParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -781,7 +781,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>tiled</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>tiled</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>tiled</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>tiled</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -839,7 +839,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>tileSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tileSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tileSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>tileSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tileSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tileSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -897,7 +897,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>layers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>layers</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>layers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>layers</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -955,7 +955,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>depth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>depth</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>depth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>depth</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1013,7 +1013,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>sampleType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sampleType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sampleType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>sampleType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sampleType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>sampleType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1071,7 +1071,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>valueType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>valueType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>valueType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>valueType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>valueType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>valueType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1129,7 +1129,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>bytesPerSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bytesPerSample</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>bytesPerSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bytesPerSample</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1187,7 +1187,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>imageSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imageSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>imageSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TiffParameters</computeroutput> named <computeroutput>imageSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imageSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>imageSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1396,7 +1396,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TiffParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TiffParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1502,7 +1502,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>bytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bytes</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bytes</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>bytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bytes</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>bytes</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1560,7 +1560,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>size</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>size</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1618,7 +1618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>params</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>params</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>params</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>params</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>params</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>params</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1676,7 +1676,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>p2wXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>p2wXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>p2wXf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>p2wXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>p2wXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>p2wXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1734,7 +1734,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>convertToFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>convertToFloat</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>convertToFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>convertToFloat</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1792,7 +1792,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>min</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>min</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>min</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>min</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>min</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>min</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1850,7 +1850,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>max</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>max</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>max</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RawTiffOutput</computeroutput> named <computeroutput>max</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>max</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>max</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1945,7 +1945,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::RawTiffOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>bytes</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>params</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>p2wXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>min</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>max</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTiffIO_8h_1a5c7a3f2a5af85bf52b0e78a89268efa0" kindref="member">MR_RawTiffOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::RawTiffOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>bytes</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>params</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>p2wXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>min</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>max</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTiffIO_8h_1a5c7a3f2a5af85bf52b0e78a89268efa0" kindref="member">MR_RawTiffOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2065,7 +2065,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::RawTiffOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::RawTiffOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2131,7 +2131,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WriteRawTiffParams</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>baseParams</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>baseParams</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WriteRawTiffParams</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>baseParams</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>baseParams</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2189,7 +2189,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WriteRawTiffParams</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WriteRawTiffParams</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2251,7 +2251,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WriteRawTiffParams</computeroutput> named <computeroutput>noData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>noData</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>noData</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WriteRawTiffParams</computeroutput> named <computeroutput>noData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>noData</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>noData</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2334,7 +2334,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WriteRawTiffParams</computeroutput> elementwise. Parameter <computeroutput>baseParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>baseParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>noData</computeroutput> can not be null. If <computeroutput>noData_end</computeroutput> is null, then <computeroutput>noData</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>noData</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTiffIO_8h_1a877ef23ce66a66c1de001125c374e0d3" kindref="member">MR_WriteRawTiffParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WriteRawTiffParams</computeroutput> elementwise. Parameter <computeroutput>baseParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>baseParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>noData</computeroutput> can not be null. If <computeroutput>noData_end</computeroutput> is null, then <computeroutput>noData</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>noData</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTiffIO_8h_1a877ef23ce66a66c1de001125c374e0d3" kindref="member">MR_WriteRawTiffParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2462,7 +2462,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WriteRawTiffParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WriteRawTiffParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

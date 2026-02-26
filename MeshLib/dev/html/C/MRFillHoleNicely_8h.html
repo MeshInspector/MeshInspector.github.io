@@ -765,7 +765,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>smoothCurvature</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>smoothCurvature</code>. </p>
+<p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>smoothCurvature</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>smoothCurvature</code>. </p>
 
 </div>
 </div>
@@ -788,7 +788,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling / Returns a pointer to a member variable of class</code>MR::FillHoleNicelySettings<code>named</code>smoothSeettings<code>. / Parameter</code>_this` can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API const MR_SmoothFillingSettings *MR_FillHoleNicelySettings_Get_smoothSeettings(const MR_FillHoleNicelySettings *_this);</p>
-<p>/ if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling Modifies a member variable of class</code>MR::FillHoleNicelySettings<code>named</code>smoothSeettings<code>. Parameter</code>_this<code>can not be null. It is a single object. Parameter</code>value<code>can not be null. It is a single object. The reference to the parameter</code>value<code>might be preserved in this object in element</code>smoothSeettings<code>. When this function is called, this object will drop object references it had previously in</code>smoothSeettings`. </p>
+<p>/ if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling Modifies a member variable of class</code>MR::FillHoleNicelySettings<code>named</code>smoothSeettings<code>. Parameter</code>_this<code>can not be null. It is a single object. Parameter</code>value<code>can not be null. It is a single object. The reference to the parameter</code>value<code>might be preserved in this object in element</code>smoothSeettings<code>. When this function is called, this object will drop object references it held previously in</code>smoothSeettings`. </p>
 
 </div>
 </div>
@@ -815,7 +815,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if <code>triangulateOnly</code> is false - this settings are used to subdivide new filling Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>subdivideSettings</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>subdivideSettings</code>. When this function is called, this object will drop object references it had previously in <code>subdivideSettings</code>. </p>
+<p>if <code>triangulateOnly</code> is false - this settings are used to subdivide new filling Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>subdivideSettings</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>subdivideSettings</code>. When this function is called, this object will drop object references it held previously in <code>subdivideSettings</code>. </p>
 
 </div>
 </div>
@@ -837,7 +837,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If false then additional vertices are created inside the patch for best mesh quality Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>triangulateOnly</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>triangulateOnly</code>. </p>
+<p>If false then additional vertices are created inside the patch for best mesh quality Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>triangulateOnly</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>triangulateOnly</code>. </p>
 
 </div>
 </div>
@@ -864,7 +864,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how to triangulate the hole, must be specified by the user Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>triangulateParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>triangulateParams</code>. When this function is called, this object will drop object references it had previously in <code>triangulateParams</code>. </p>
+<p>how to triangulate the hole, must be specified by the user Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>triangulateParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>triangulateParams</code>. When this function is called, this object will drop object references it held previously in <code>triangulateParams</code>. </p>
 
 </div>
 </div>
@@ -886,7 +886,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::OutAttributesFillingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::OutAttributesFillingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -913,7 +913,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::OutAttributesFillingSettings</code> elementwise. The reference to the parameter <code>uvCoords</code> might be preserved in the constructed object. The reference to the parameter <code>colorMap</code> might be preserved in the constructed object. The reference to the parameter <code>faceColors</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae9aaa1b4bac6278c5d2b66496ffe5a18" title="Destroys a heap-allocated instance of MR_OutAttributesFillingSettings. Does nothing if the pointer is...">MR_OutAttributesFillingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::OutAttributesFillingSettings</code> elementwise. The reference to the parameter <code>uvCoords</code> might be preserved in the constructed object. The reference to the parameter <code>colorMap</code> might be preserved in the constructed object. The reference to the parameter <code>faceColors</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae9aaa1b4bac6278c5d2b66496ffe5a18" title="Destroys a heap-allocated instance of MR_OutAttributesFillingSettings. Does nothing if the pointer is...">MR_OutAttributesFillingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <code>MR::OutAttributesFillingSettings</code> named <code>colorMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>colorMap</code>. When this function is called, this object will drop object references it had previously in <code>colorMap</code>. </p>
+<p>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <code>MR::OutAttributesFillingSettings</code> named <code>colorMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>colorMap</code>. When this function is called, this object will drop object references it held previously in <code>colorMap</code>. </p>
 
 </div>
 </div>
@@ -1201,7 +1201,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional colors of faces; if provided then elements corresponding to new faces will be added there Modifies a member variable of class <code>MR::OutAttributesFillingSettings</code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceColors</code>. When this function is called, this object will drop object references it had previously in <code>faceColors</code>. </p>
+<p>optional colors of faces; if provided then elements corresponding to new faces will be added there Modifies a member variable of class <code>MR::OutAttributesFillingSettings</code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceColors</code>. When this function is called, this object will drop object references it held previously in <code>faceColors</code>. </p>
 
 </div>
 </div>
@@ -1223,7 +1223,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <code>MR::OutAttributesFillingSettings</code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uvCoords</code>. When this function is called, this object will drop object references it had previously in <code>uvCoords</code>. </p>
+<p>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <code>MR::OutAttributesFillingSettings</code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uvCoords</code>. When this function is called, this object will drop object references it held previously in <code>uvCoords</code>. </p>
 
 </div>
 </div>
@@ -1245,7 +1245,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::SmoothFillingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::SmoothFillingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1272,7 +1272,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::SmoothFillingSettings</code> elementwise. The reference to the parameter <code>edgeWeights</code> might be preserved in the constructed object. The reference to the parameter <code>vmass</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a90be342afe71da11562ab4f162b9603d" title="Destroys a heap-allocated instance of MR_SmoothFillingSettings. Does nothing if the pointer is null.">MR_SmoothFillingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SmoothFillingSettings</code> elementwise. The reference to the parameter <code>edgeWeights</code> might be preserved in the constructed object. The reference to the parameter <code>vmass</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a90be342afe71da11562ab4f162b9603d" title="Destroys a heap-allocated instance of MR_SmoothFillingSettings. Does nothing if the pointer is null.">MR_SmoothFillingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1538,7 +1538,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge weighting scheme for smoothCurvature mode Modifies a member variable of class <code>MR::SmoothFillingSettings</code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>edgeWeights</code>. When this function is called, this object will drop object references it had previously in <code>edgeWeights</code>. </p>
+<p>edge weighting scheme for smoothCurvature mode Modifies a member variable of class <code>MR::SmoothFillingSettings</code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>edgeWeights</code>. When this function is called, this object will drop object references it held previously in <code>edgeWeights</code>. </p>
 
 </div>
 </div>
@@ -1560,7 +1560,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Modifies a member variable of class <code>MR::SmoothFillingSettings</code> named <code>naturalSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>naturalSmooth</code>. </p>
+<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Modifies a member variable of class <code>MR::SmoothFillingSettings</code> named <code>naturalSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>naturalSmooth</code>. </p>
 
 </div>
 </div>
@@ -1582,7 +1582,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertex mass scheme for smoothCurvature mode Modifies a member variable of class <code>MR::SmoothFillingSettings</code> named <code>vmass</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vmass</code>. When this function is called, this object will drop object references it had previously in <code>vmass</code>. </p>
+<p>vertex mass scheme for smoothCurvature mode Modifies a member variable of class <code>MR::SmoothFillingSettings</code> named <code>vmass</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vmass</code>. When this function is called, this object will drop object references it held previously in <code>vmass</code>. </p>
 
 </div>
 </div>
@@ -1641,7 +1641,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::StitchHolesNicelySettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::StitchHolesNicelySettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1693,7 +1693,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::StitchHolesNicelySettings</code> elementwise. The reference to the parameter <code>triangulateParams</code> might be preserved in the constructed object. The reference to the parameter <code>subdivideSettings</code> might be preserved in the constructed object. Parameter <code>smoothSeettings</code> can not be null. It is a single object. The reference to the parameter <code>smoothSeettings</code> might be preserved in the constructed object. Parameter <code>outAttributes</code> can not be null. It is a single object. The reference to the parameter <code>outAttributes</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac2f54351316e81b2db72bc04ce4dc672" title="Destroys a heap-allocated instance of MR_StitchHolesNicelySettings. Does nothing if the pointer is nu...">MR_StitchHolesNicelySettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::StitchHolesNicelySettings</code> elementwise. The reference to the parameter <code>triangulateParams</code> might be preserved in the constructed object. The reference to the parameter <code>subdivideSettings</code> might be preserved in the constructed object. Parameter <code>smoothSeettings</code> can not be null. It is a single object. The reference to the parameter <code>smoothSeettings</code> might be preserved in the constructed object. Parameter <code>outAttributes</code> can not be null. It is a single object. The reference to the parameter <code>outAttributes</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac2f54351316e81b2db72bc04ce4dc672" title="Destroys a heap-allocated instance of MR_StitchHolesNicelySettings. Does nothing if the pointer is nu...">MR_StitchHolesNicelySettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1827,29 +1827,29 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling / Returns a mutable pointer to a member variable of class</code>MR::FillHoleNicelySettings<code>named</code>smoothSeettings<code>. / Parameter</code>_this` can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API MR_SmoothFillingSettings *MR_FillHoleNicelySettings_GetMutable_smoothSeettings(MR_FillHoleNicelySettings *_this);</p>
 <p>/ structure with optional output attributes / Returns a pointer to a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>outAttributes</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API const MR_OutAttributesFillingSettings *MR_FillHoleNicelySettings_Get_outAttributes(const MR_FillHoleNicelySettings *_this);</p>
-<p>/ structure with optional output attributes / Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>outAttributes</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Parameter <code>value</code> can not be null. It is a single object. / The reference to the parameter <code>value</code> might be preserved in this object in element <code>outAttributes</code>. / When this function is called, this object will drop object references it had previously in <code>outAttributes</code>. MRC_API void MR_FillHoleNicelySettings_Set_outAttributes(MR_FillHoleNicelySettings *_this, const MR_OutAttributesFillingSettings *value);</p>
+<p>/ structure with optional output attributes / Modifies a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>outAttributes</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Parameter <code>value</code> can not be null. It is a single object. / The reference to the parameter <code>value</code> might be preserved in this object in element <code>outAttributes</code>. / When this function is called, this object will drop object references it held previously in <code>outAttributes</code>. MRC_API void MR_FillHoleNicelySettings_Set_outAttributes(MR_FillHoleNicelySettings *_this, const MR_OutAttributesFillingSettings *value);</p>
 <p>/ structure with optional output attributes / Returns a mutable pointer to a member variable of class <code>MR::FillHoleNicelySettings</code> named <code>outAttributes</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API MR_OutAttributesFillingSettings *MR_FillHoleNicelySettings_GetMutable_outAttributes(MR_FillHoleNicelySettings *_this);</p>
 <p>/ Constructs an empty (default-constructed) instance. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_FillHoleNicelySettings_Destroy()</code> to free it when you're done using it. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_DefaultConstruct(void);</p>
 <p>/ Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. / The array must be destroyed using <code>MR_FillHoleNicelySettings_DestroyArray()</code>. / Use <code>MR_FillHoleNicelySettings_OffsetMutablePtr()</code> and <code>MR_FillHoleNicelySettings_OffsetPtr()</code> to access the array elements. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_DefaultConstructArray(size_t num_elems);</p>
-<p>/ Constructs <code>MR::FillHoleNicelySettings</code> elementwise. / The reference to the parameter <code>triangulateParams</code> might be preserved in the constructed object. / The reference to the parameter <code>subdivideSettings</code> might be preserved in the constructed object. / Parameter <code>smoothSeettings</code> can not be null. It is a single object. / The reference to the parameter <code>smoothSeettings</code> might be preserved in the constructed object. / Parameter <code>outAttributes</code> can not be null. It is a single object. / The reference to the parameter <code>outAttributes</code> might be preserved in the constructed object. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_FillHoleNicelySettings_Destroy()</code> to free it when you're done using it. / When this function is called, this object will drop any object references it had previously. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_ConstructFrom(MR_PassBy triangulateParams_pass_by, MR_FillHoleParams *triangulateParams, bool triangulateOnly, MR_PassBy subdivideSettings_pass_by, MR_SubdivideFillingSettings *subdivideSettings, bool smoothCurvature, const MR_SmoothFillingSettings *smoothSeettings, const MR_OutAttributesFillingSettings *outAttributes);</p>
+<p>/ Constructs <code>MR::FillHoleNicelySettings</code> elementwise. / The reference to the parameter <code>triangulateParams</code> might be preserved in the constructed object. / The reference to the parameter <code>subdivideSettings</code> might be preserved in the constructed object. / Parameter <code>smoothSeettings</code> can not be null. It is a single object. / The reference to the parameter <code>smoothSeettings</code> might be preserved in the constructed object. / Parameter <code>outAttributes</code> can not be null. It is a single object. / The reference to the parameter <code>outAttributes</code> might be preserved in the constructed object. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_FillHoleNicelySettings_Destroy()</code> to free it when you're done using it. / When this function is called, this object will drop any object references it held previously. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_ConstructFrom(MR_PassBy triangulateParams_pass_by, MR_FillHoleParams *triangulateParams, bool triangulateOnly, MR_PassBy subdivideSettings_pass_by, MR_SubdivideFillingSettings *subdivideSettings, bool smoothCurvature, const MR_SmoothFillingSettings *smoothSeettings, const MR_OutAttributesFillingSettings *outAttributes);</p>
 <p>/ Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. / The reference to the parameter <code>ptr</code> might be preserved in the return value. MRC_API const MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_OffsetPtr(const MR_FillHoleNicelySettings *ptr, ptrdiff_t i);</p>
 <p>/ Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. / The reference to the parameter <code>ptr</code> might be preserved in the return value. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_OffsetMutablePtr(MR_FillHoleNicelySettings *ptr, ptrdiff_t i);</p>
 <p>/ Generated from constructor <code>MR::FillHoleNicelySettings::FillHoleNicelySettings</code>. / The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_FillHoleNicelySettings_Destroy()</code> to free it when you're done using it. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_ConstructFromAnother(MR_PassBy _other_pass_by, MR_FillHoleNicelySettings *_other);</p>
 <p>/ Destroys a heap-allocated instance of <code>MR_FillHoleNicelySettings</code>. Does nothing if the pointer is null. MRC_API void MR_FillHoleNicelySettings_Destroy(const MR_FillHoleNicelySettings *_this);</p>
 <p>/ Destroys a heap-allocated array of <code>MR_FillHoleNicelySettings</code>. Does nothing if the pointer is null. MRC_API void MR_FillHoleNicelySettings_DestroyArray(const MR_FillHoleNicelySettings *_this);</p>
-<p>/ Generated from method <code>MR::FillHoleNicelySettings::operator=</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / When this function is called, this object will drop any object references it had previously. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_AssignFromAnother(MR_FillHoleNicelySettings *_this, MR_PassBy _other_pass_by, MR_FillHoleNicelySettings *_other);</p>
+<p>/ Generated from method <code>MR::FillHoleNicelySettings::operator=</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / When this function is called, this object will drop any object references it held previously. MRC_API MR_FillHoleNicelySettings *MR_FillHoleNicelySettings_AssignFromAnother(MR_FillHoleNicelySettings *_this, MR_PassBy _other_pass_by, MR_FillHoleNicelySettings *_other);</p>
 <p>/ fills a hole in mesh specified by one of its edge, / optionally subdivides new patch on smaller triangles, / optionally make smooth connection with existing triangles outside the hole / </p><dl class="section return"><dt>Returns</dt><dd>triangles of the patch / Generated from function <code>MR::fillHoleNicely</code>. / Parameter <code>mesh</code> can not be null. It is a single object. / Parameter <code>settings</code> can not be null. It is a single object. / Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. MRC_API MR_FaceBitSet *MR_fillHoleNicely(MR_Mesh *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> holeEdge, const MR_FillHoleNicelySettings *settings);</dd></dl>
 <p>/ how to triangulate the cylinder between holes, must be specified by the user / Returns a pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateParams</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API const MR_StitchHolesParams *MR_StitchHolesNicelySettings_Get_triangulateParams(const MR_StitchHolesNicelySettings *_this);</p>
-<p>/ how to triangulate the cylinder between holes, must be specified by the user / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateParams</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The reference to the parameter <code>value</code> might be preserved in this object in element <code>triangulateParams</code>. / When this function is called, this object will drop object references it had previously in <code>triangulateParams</code>. MRC_API void MR_StitchHolesNicelySettings_Set_triangulateParams(MR_StitchHolesNicelySettings *_this, MR_PassBy value_pass_by, MR_StitchHolesParams *value);</p>
+<p>/ how to triangulate the cylinder between holes, must be specified by the user / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateParams</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The reference to the parameter <code>value</code> might be preserved in this object in element <code>triangulateParams</code>. / When this function is called, this object will drop object references it held previously in <code>triangulateParams</code>. MRC_API void MR_StitchHolesNicelySettings_Set_triangulateParams(MR_StitchHolesNicelySettings *_this, MR_PassBy value_pass_by, MR_StitchHolesParams *value);</p>
 <p>/ how to triangulate the cylinder between holes, must be specified by the user / Returns a mutable pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateParams</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API MR_StitchHolesParams *MR_StitchHolesNicelySettings_GetMutable_triangulateParams(MR_StitchHolesNicelySettings *_this);</p>
 <p>/ If false then additional vertices are created inside the patch for best mesh quality / Returns a pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateOnly</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API const bool *MR_StitchHolesNicelySettings_Get_triangulateOnly(const MR_StitchHolesNicelySettings *_this);</p>
-<p>/ If false then additional vertices are created inside the patch for best mesh quality / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateOnly</code>. / Parameter <code>_this</code> can not be null. It is a single object. / When this function is called, this object will drop object references it had previously in <code>triangulateOnly</code>. MRC_API void MR_StitchHolesNicelySettings_Set_triangulateOnly(MR_StitchHolesNicelySettings *_this, bool value);</p>
+<p>/ If false then additional vertices are created inside the patch for best mesh quality / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateOnly</code>. / Parameter <code>_this</code> can not be null. It is a single object. / When this function is called, this object will drop object references it held previously in <code>triangulateOnly</code>. MRC_API void MR_StitchHolesNicelySettings_Set_triangulateOnly(MR_StitchHolesNicelySettings *_this, bool value);</p>
 <p>/ If false then additional vertices are created inside the patch for best mesh quality / Returns a mutable pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>triangulateOnly</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API bool *MR_StitchHolesNicelySettings_GetMutable_triangulateOnly(MR_StitchHolesNicelySettings *_this);</p>
 <p>/ if <code>triangulateOnly</code> is false - this settings are used to subdivide new filling / Returns a pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>subdivideSettings</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API const MR_SubdivideFillingSettings *MR_StitchHolesNicelySettings_Get_subdivideSettings(const MR_StitchHolesNicelySettings *_this);</p>
-<p>/ if <code>triangulateOnly</code> is false - this settings are used to subdivide new filling / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>subdivideSettings</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The reference to the parameter <code>value</code> might be preserved in this object in element <code>subdivideSettings</code>. / When this function is called, this object will drop object references it had previously in <code>subdivideSettings</code>. MRC_API void MR_StitchHolesNicelySettings_Set_subdivideSettings(MR_StitchHolesNicelySettings *_this, MR_PassBy value_pass_by, MR_SubdivideFillingSettings *value);</p>
+<p>/ if <code>triangulateOnly</code> is false - this settings are used to subdivide new filling / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>subdivideSettings</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The reference to the parameter <code>value</code> might be preserved in this object in element <code>subdivideSettings</code>. / When this function is called, this object will drop object references it held previously in <code>subdivideSettings</code>. MRC_API void MR_StitchHolesNicelySettings_Set_subdivideSettings(MR_StitchHolesNicelySettings *_this, MR_PassBy value_pass_by, MR_SubdivideFillingSettings *value);</p>
 <p>/ if <code>triangulateOnly</code> is false - this settings are used to subdivide new filling / Returns a mutable pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>subdivideSettings</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API MR_SubdivideFillingSettings *MR_StitchHolesNicelySettings_GetMutable_subdivideSettings(MR_StitchHolesNicelySettings *_this);</p>
 <p>/ Whether to make patch over the hole smooth both inside and on its boundary with existed surface / Returns a pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>smoothCurvature</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API const bool *MR_StitchHolesNicelySettings_Get_smoothCurvature(const MR_StitchHolesNicelySettings *_this);</p>
-<p>/ Whether to make patch over the hole smooth both inside and on its boundary with existed surface / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>smoothCurvature</code>. / Parameter <code>_this</code> can not be null. It is a single object. / When this function is called, this object will drop object references it had previously in <code>smoothCurvature</code>. MRC_API void MR_StitchHolesNicelySettings_Set_smoothCurvature(MR_StitchHolesNicelySettings *_this, bool value);</p>
+<p>/ Whether to make patch over the hole smooth both inside and on its boundary with existed surface / Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>smoothCurvature</code>. / Parameter <code>_this</code> can not be null. It is a single object. / When this function is called, this object will drop object references it held previously in <code>smoothCurvature</code>. MRC_API void MR_StitchHolesNicelySettings_Set_smoothCurvature(MR_StitchHolesNicelySettings *_this, bool value);</p>
 <p>/ Whether to make patch over the hole smooth both inside and on its boundary with existed surface / Returns a mutable pointer to a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>smoothCurvature</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. / The reference to this object might be preserved as the return value. MRC_API bool *MR_StitchHolesNicelySettings_GetMutable_smoothCurvature(MR_StitchHolesNicelySettings *_this);</p>
 <p>/ if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling Returns a pointer to a member variable of class</code>MR::StitchHolesNicelySettings<code>named</code>smoothSeettings<code>. Parameter</code>_this` can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
@@ -1887,7 +1887,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling / Modifies a member variable of class</code>MR::StitchHolesNicelySettings<code>named</code>smoothSeettings<code>. / Parameter</code>_this<code>can not be null. It is a single object. / Parameter</code>value<code>can not be null. It is a single object. / The reference to the parameter</code>value<code>might be preserved in this object in element</code>smoothSeettings<code>. / When this function is called, this object will drop object references it had previously in</code>smoothSeettings`. MRC_API void MR_StitchHolesNicelySettings_Set_smoothSeettings(MR_StitchHolesNicelySettings *_this, const MR_SmoothFillingSettings *value);</p>
+<p>if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling / Modifies a member variable of class</code>MR::StitchHolesNicelySettings<code>named</code>smoothSeettings<code>. / Parameter</code>_this<code>can not be null. It is a single object. / Parameter</code>value<code>can not be null. It is a single object. / The reference to the parameter</code>value<code>might be preserved in this object in element</code>smoothSeettings<code>. / When this function is called, this object will drop object references it held previously in</code>smoothSeettings`. MRC_API void MR_StitchHolesNicelySettings_Set_smoothSeettings(MR_StitchHolesNicelySettings *_this, const MR_SmoothFillingSettings *value);</p>
 <p>/ if <code>smoothCurvature</code> is true and <code>triangulateOnly is false - these settings are used to smooth new filling Returns a mutable pointer to a member variable of class</code>MR::StitchHolesNicelySettings<code>named</code>smoothSeettings<code>. Parameter</code>_this` can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
@@ -1954,7 +1954,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>structure with optional output attributes Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>outAttributes</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outAttributes</code>. When this function is called, this object will drop object references it had previously in <code>outAttributes</code>. </p>
+<p>structure with optional output attributes Modifies a member variable of class <code>MR::StitchHolesNicelySettings</code> named <code>outAttributes</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outAttributes</code>. When this function is called, this object will drop object references it held previously in <code>outAttributes</code>. </p>
 
 </div>
 </div>
@@ -1981,7 +1981,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::SubdivideFillingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::SubdivideFillingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -2033,7 +2033,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::SubdivideFillingSettings</code> elementwise. The reference to the parameter <code>notFlippable</code> might be preserved in the constructed object. The reference to the parameter <code>beforeEdgeSplit</code> might be preserved in the constructed object. The reference to the parameter <code>onEdgeSplit</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a99bfc49986abd973962118145209c9ba" title="Destroys a heap-allocated instance of MR_SubdivideFillingSettings. Does nothing if the pointer is nul...">MR_SubdivideFillingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SubdivideFillingSettings</code> elementwise. The reference to the parameter <code>notFlippable</code> might be preserved in the constructed object. The reference to the parameter <code>beforeEdgeSplit</code> might be preserved in the constructed object. The reference to the parameter <code>onEdgeSplit</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a99bfc49986abd973962118145209c9ba" title="Destroys a heap-allocated instance of MR_SubdivideFillingSettings. Does nothing if the pointer is nul...">MR_SubdivideFillingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -2416,7 +2416,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>beforeEdgeSplit</code>. When this function is called, this object will drop object references it had previously in <code>beforeEdgeSplit</code>. </p>
+<p>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>beforeEdgeSplit</code>. When this function is called, this object will drop object references it held previously in <code>beforeEdgeSplit</code>. </p>
 
 </div>
 </div>
@@ -2438,7 +2438,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxAngleChangeAfterFlip</code>. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxAngleChangeAfterFlip</code>. </p>
 
 </div>
 </div>
@@ -2460,7 +2460,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxEdgeLen</code>. </p>
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxEdgeLen</code>. </p>
 
 </div>
 </div>
@@ -2482,7 +2482,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum number of edge splits allowed during subdivision Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxEdgeSplits</code>. </p>
+<p>Maximum number of edge splits allowed during subdivision Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxEdgeSplits</code>. </p>
 
 </div>
 </div>
@@ -2504,7 +2504,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>notFlippable</code>. When this function is called, this object will drop object references it had previously in <code>notFlippable</code>. </p>
+<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>notFlippable</code>. When this function is called, this object will drop object references it held previously in <code>notFlippable</code>. </p>
 
 </div>
 </div>
@@ -2531,7 +2531,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>onEdgeSplit</code>. When this function is called, this object will drop object references it had previously in <code>onEdgeSplit</code>. </p>
+<p>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <code>MR::SubdivideFillingSettings</code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>onEdgeSplit</code>. When this function is called, this object will drop object references it held previously in <code>onEdgeSplit</code>. </p>
 
 </div>
 </div>

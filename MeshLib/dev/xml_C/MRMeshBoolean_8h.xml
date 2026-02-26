@@ -326,7 +326,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Result mesh of boolean operation, if error occurred it would be empty Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>Result mesh of boolean operation, if error occurred it would be empty Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -388,7 +388,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If input contours have intersections, this face bit set presents faces of mesh <computeroutput>A</computeroutput> on which contours intersect Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>meshABadContourFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshABadContourFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshABadContourFaces</computeroutput>. </para>
+<para>If input contours have intersections, this face bit set presents faces of mesh <computeroutput>A</computeroutput> on which contours intersect Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>meshABadContourFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshABadContourFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshABadContourFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -450,7 +450,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If input contours have intersections, this face bit set presents faces of mesh <computeroutput>B</computeroutput> on which contours intersect Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>meshBBadContourFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshBBadContourFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshBBadContourFaces</computeroutput>. </para>
+<para>If input contours have intersections, this face bit set presents faces of mesh <computeroutput>B</computeroutput> on which contours intersect Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>meshBBadContourFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshBBadContourFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshBBadContourFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -512,7 +512,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Holds error message, empty if boolean succeed Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>errorString</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>errorString</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>errorString</computeroutput>. </para>
+<para>Holds error message, empty if boolean succeed Modifies a member variable of class <computeroutput>MR::BooleanResult</computeroutput> named <computeroutput>errorString</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>errorString</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>errorString</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -611,7 +611,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BooleanResult</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshABadContourFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshBBadContourFaces</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>errorString</computeroutput> can not be null. If <computeroutput>errorString_end</computeroutput> is null, then <computeroutput>errorString</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>errorString</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1a3b9c761f0eea4cbe5cc080324d19b602" kindref="member">MR_BooleanResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BooleanResult</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshABadContourFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshBBadContourFaces</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>errorString</computeroutput> can not be null. If <computeroutput>errorString_end</computeroutput> is null, then <computeroutput>errorString</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>errorString</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1a3b9c761f0eea4cbe5cc080324d19b602" kindref="member">MR_BooleanResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -757,7 +757,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BooleanResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BooleanResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1022,7 +1022,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BooleanPreCutResult</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BooleanPreCutResult</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1084,7 +1084,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BooleanPreCutResult</computeroutput> named <computeroutput>contours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>contours</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>contours</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BooleanPreCutResult</computeroutput> named <computeroutput>contours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>contours</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>contours</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1167,7 +1167,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BooleanPreCutResult</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>contours</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1ab8b2f9a803670c813cdc0cf693346754" kindref="member">MR_BooleanPreCutResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BooleanPreCutResult</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>contours</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1ab8b2f9a803670c813cdc0cf693346754" kindref="member">MR_BooleanPreCutResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1295,7 +1295,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BooleanPreCutResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BooleanPreCutResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1335,7 +1335,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>rigidB2A</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rigidB2A</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rigidB2A</computeroutput>. </para>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>rigidB2A</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rigidB2A</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rigidB2A</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1393,7 +1393,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>mapper</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mapper</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mapper</computeroutput>. </para>
+<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>mapper</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mapper</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mapper</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1451,7 +1451,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional precut output of meshA, if present - does not perform boolean and just return them Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>outPreCutA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outPreCutA</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outPreCutA</computeroutput>. </para>
+<para>Optional precut output of meshA, if present - does not perform boolean and just return them Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>outPreCutA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outPreCutA</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outPreCutA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1509,7 +1509,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional precut output of meshB, if present - does not perform boolean and just return them Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>outPreCutB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outPreCutB</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outPreCutB</computeroutput>. </para>
+<para>Optional precut output of meshB, if present - does not perform boolean and just return them Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>outPreCutB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outPreCutB</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outPreCutB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1567,7 +1567,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional output cut edges of booleaned meshes Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutEdges</computeroutput>. </para>
+<para>Optional output cut edges of booleaned meshes Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outCutEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1625,7 +1625,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>By default produce valid operation on disconnected components if set merge all non-intersecting components Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>mergeAllNonIntersectingComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>mergeAllNonIntersectingComponents</computeroutput>. </para>
+<para>By default produce valid operation on disconnected components if set merge all non-intersecting components Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>mergeAllNonIntersectingComponents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>mergeAllNonIntersectingComponents</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1685,7 +1685,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>forceCut</computeroutput>. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>forceCut</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1751,7 +1751,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1854,7 +1854,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BooleanParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>rigidB2A</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mapper</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outPreCutA</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outPreCutB</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1a295175190dc6baacbd5171ea357ee852" kindref="member">MR_BooleanParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BooleanParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>rigidB2A</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mapper</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outPreCutA</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outPreCutB</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1a295175190dc6baacbd5171ea357ee852" kindref="member">MR_BooleanParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1982,7 +1982,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BooleanParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BooleanParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2130,7 +2130,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BooleanResultPoints</computeroutput> named <computeroutput>meshAVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshAVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshAVerts</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BooleanResultPoints</computeroutput> named <computeroutput>meshAVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshAVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshAVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2192,7 +2192,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BooleanResultPoints</computeroutput> named <computeroutput>meshBVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshBVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshBVerts</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BooleanResultPoints</computeroutput> named <computeroutput>meshBVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshBVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshBVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2254,7 +2254,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BooleanResultPoints</computeroutput> named <computeroutput>intersectionPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersectionPoints</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>intersectionPoints</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BooleanResultPoints</computeroutput> named <computeroutput>intersectionPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersectionPoints</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intersectionPoints</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2345,7 +2345,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BooleanResultPoints</computeroutput> elementwise. The reference to the parameter <computeroutput>meshAVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshBVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>intersectionPoints</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" kindref="member">MR_BooleanResultPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BooleanResultPoints</computeroutput> elementwise. The reference to the parameter <computeroutput>meshAVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshBVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>intersectionPoints</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" kindref="member">MR_BooleanResultPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2473,7 +2473,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BooleanResultPoints::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BooleanResultPoints::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

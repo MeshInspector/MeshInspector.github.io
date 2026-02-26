@@ -142,7 +142,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NoiseSettings</computeroutput> named <computeroutput>sigma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>sigma</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NoiseSettings</computeroutput> named <computeroutput>sigma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>sigma</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -200,7 +200,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NoiseSettings</computeroutput> named <computeroutput>seed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>seed</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>seed</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NoiseSettings</computeroutput> named <computeroutput>seed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>seed</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>seed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -262,7 +262,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NoiseSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NoiseSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -345,7 +345,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::NoiseSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>seed</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" kindref="member">MR_NoiseSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::NoiseSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>seed</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" kindref="member">MR_NoiseSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -473,7 +473,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoiseSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoiseSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge length will be magnified by the squared difference of normals at edge&apos;s ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>curvaturePriority</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>curvaturePriority</computeroutput>. </para>
+<para>edge length will be magnified by the squared difference of normals at edge&apos;s ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>curvaturePriority</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>curvaturePriority</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -355,7 +355,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of edge splits allowed Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
+<para>Maximum number of edge splits allowed Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -413,7 +413,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxDeviationAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeviationAfterFlip</computeroutput>. </para>
+<para>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxDeviationAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeviationAfterFlip</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -471,7 +471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChangeAfterFlip</computeroutput>. </para>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChangeAfterFlip</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -529,7 +529,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>criticalAspectRatioFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>criticalAspectRatioFlip</computeroutput>. </para>
+<para>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>criticalAspectRatioFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalAspectRatioFlip</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -587,7 +587,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Region on mesh to be subdivided, it is updated during the operation Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Region on mesh to be subdivided, it is updated during the operation Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -645,7 +645,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <computeroutput>region</computeroutput>, so it might be necessary to update another region Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maintainRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maintainRegion</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maintainRegion</computeroutput>. </para>
+<para>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <computeroutput>region</computeroutput>, so it might be necessary to update another region Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maintainRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maintainRegion</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>maintainRegion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -703,7 +703,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notFlippable</computeroutput>. </para>
+<para>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notFlippable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -761,7 +761,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>New vertices appeared during subdivision will be added here Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>newVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>newVerts</computeroutput>. </para>
+<para>New vertices appeared during subdivision will be added here Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>newVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>newVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -821,7 +821,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a pointer to a membe
         </briefdescription>
         <detaileddescription>
 <para>If false do not touch border edges (cannot subdivide lone faces)<linebreak/>
-use MR::findRegionOuterFaces to find boundary faces Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>subdivideBorder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>subdivideBorder</computeroutput>. </para>
+use MR::findRegionOuterFaces to find boundary faces Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>subdivideBorder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>subdivideBorder</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -880,7 +880,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxTriAspectRatio</computeroutput>. </para>
+<para>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -938,7 +938,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxSplittableTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxSplittableTriAspectRatio</computeroutput>. </para>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>maxSplittableTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxSplittableTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -996,7 +996,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>smoothMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>smoothMode</computeroutput>. </para>
+<para>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>smoothMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>smoothMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1054,7 +1054,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>minSharpDihedralAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minSharpDihedralAngle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>minSharpDihedralAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minSharpDihedralAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1112,7 +1112,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, then every new vertex will be projected on the original mesh (before smoothing) Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>projectOnOriginalMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>projectOnOriginalMesh</computeroutput>. </para>
+<para>if true, then every new vertex will be projected on the original mesh (before smoothing) Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>projectOnOriginalMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>projectOnOriginalMesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1174,7 +1174,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>beforeEdgeSplit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>beforeEdgeSplit</computeroutput>. </para>
+<para>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>beforeEdgeSplit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>beforeEdgeSplit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1236,7 +1236,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time a new vertex has been created, but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>onVertCreated</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onVertCreated</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onVertCreated</computeroutput>. </para>
+<para>this function is called each time a new vertex has been created, but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>onVertCreated</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onVertCreated</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onVertCreated</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1298,7 +1298,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1360,7 +1360,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCallback</computeroutput>. </para>
+<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::SubdivideSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1523,7 +1523,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SubdivideSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maintainRegion</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>beforeEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onVertCreated</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshSubdivide_8h_1ab08b059d0114547dd8304e23fc1f2913" kindref="member">MR_SubdivideSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SubdivideSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maintainRegion</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>beforeEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onVertCreated</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshSubdivide_8h_1ab08b059d0114547dd8304e23fc1f2913" kindref="member">MR_SubdivideSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1651,7 +1651,7 @@ use MR::findRegionOuterFaces to find boundary faces Returns a mutable pointer to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SubdivideSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SubdivideSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

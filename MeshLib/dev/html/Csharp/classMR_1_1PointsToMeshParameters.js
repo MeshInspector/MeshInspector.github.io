@@ -7,7 +7,7 @@ var classMR_1_1PointsToMeshParameters =
     [ "assign", "classMR_1_1PointsToMeshParameters.html#a465bd035b1b7fe5b3da9277b1382ae90", null ],
     [ "invSigmaModifier", "classMR_1_1PointsToMeshParameters.html#aa61a7dd4cb2710f70845c9b3795b9e8d", null ],
     [ "minWeight", "classMR_1_1PointsToMeshParameters.html#a5ff8455f44ce9ed6c9b7fd3496d854d3", null ],
-    [ "progress", "classMR_1_1PointsToMeshParameters.html#a390fdb484b83c77269e7fa1889e8ca0c", null ],
+    [ "progress", "classMR_1_1PointsToMeshParameters.html#a03c758b506378397697042f5b387acca", null ],
     [ "ptColors", "classMR_1_1PointsToMeshParameters.html#affb338bbb532625c6377d3a5c08059b8", null ],
     [ "sigma", "classMR_1_1PointsToMeshParameters.html#a58a4f83b2417d6c88131a6d0c43b1f57", null ],
     [ "sqrtAngleWeight", "classMR_1_1PointsToMeshParameters.html#a10bb4252fcde94c4eb0b5cff47961e4f", null ],

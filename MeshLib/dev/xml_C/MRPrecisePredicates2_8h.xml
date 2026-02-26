@@ -198,7 +198,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unique id of the vertex (in both contours) Modifies a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>id</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>id</computeroutput>. </para>
+<para>unique id of the vertex (in both contours) Modifies a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>id</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>id</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -256,7 +256,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinate Modifies a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>pt</computeroutput>. </para>
+<para>coordinate Modifies a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>pt</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -352,7 +352,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PreciseVertCoord</computeroutput> elementwise. The reference to the parameter <computeroutput>id</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" kindref="member">MR_PreciseVertCoord_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PreciseVertCoord</computeroutput> elementwise. The reference to the parameter <computeroutput>id</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" kindref="member">MR_PreciseVertCoord_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -472,7 +472,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PreciseVertCoord::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PreciseVertCoord::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -560,7 +560,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unique id of the vertex (in both contours) Modifies a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>id</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>id</computeroutput>. </para>
+<para>unique id of the vertex (in both contours) Modifies a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>id</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>id</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -618,7 +618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>integer coordinates of the vertex Modifies a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pt</computeroutput>. </para>
+<para>integer coordinates of the vertex Modifies a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pt</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -714,7 +714,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PreciseVertCoords2</computeroutput> elementwise. The reference to the parameter <computeroutput>id</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pt</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" kindref="member">MR_PreciseVertCoords2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PreciseVertCoords2</computeroutput> elementwise. The reference to the parameter <computeroutput>id</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pt</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" kindref="member">MR_PreciseVertCoords2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -834,7 +834,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PreciseVertCoords2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PreciseVertCoords2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -999,7 +999,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the segments intersect Modifies a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>doIntersect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>doIntersect</computeroutput>. </para>
+<para>whether the segments intersect Modifies a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>doIntersect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>doIntersect</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1057,7 +1057,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the directed line AB has C point at the left Modifies a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>cIsLeftFromAB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cIsLeftFromAB</computeroutput>. </para>
+<para>whether the directed line AB has C point at the left Modifies a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>cIsLeftFromAB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>cIsLeftFromAB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1153,7 +1153,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" kindref="member">MR_SegmentSegmentIntersectResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" kindref="member">MR_SegmentSegmentIntersectResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1291,7 +1291,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SegmentSegmentIntersectResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SegmentSegmentIntersectResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1353,7 +1353,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toInt</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>toInt</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toInt</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>toInt</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1415,7 +1415,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toFloat</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>toFloat</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toFloat</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>toFloat</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1498,7 +1498,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CoordinateConverters2</computeroutput> elementwise. The reference to the parameter <computeroutput>toInt</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>toFloat</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" kindref="member">MR_CoordinateConverters2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CoordinateConverters2</computeroutput> elementwise. The reference to the parameter <computeroutput>toInt</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>toFloat</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" kindref="member">MR_CoordinateConverters2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1626,7 +1626,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CoordinateConverters2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CoordinateConverters2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

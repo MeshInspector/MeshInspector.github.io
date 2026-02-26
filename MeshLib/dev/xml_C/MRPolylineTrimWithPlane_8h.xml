@@ -260,7 +260,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplitCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplitCallback</computeroutput>. </para>
+<para>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplitCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeSplitCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -318,7 +318,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>closeLineAfterCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>closeLineAfterCut</computeroutput>. </para>
+<para>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>closeLineAfterCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>closeLineAfterCut</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -376,7 +376,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>map from input polyline verts to output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outVmap</computeroutput>. </para>
+<para>map from input polyline verts to output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outVmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -434,7 +434,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>map from input polyline edges to output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>outEmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outEmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outEmap</computeroutput>. </para>
+<para>map from input polyline edges to output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>outEmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outEmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outEmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -492,7 +492,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>otherPart Optional return, polyline composed from edges on the negative side of the plane Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherPart</computeroutput>. </para>
+<para>otherPart Optional return, polyline composed from edges on the negative side of the plane Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherPart</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -550,7 +550,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>map from input polyline verts to other output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutVmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherOutVmap</computeroutput>. </para>
+<para>map from input polyline verts to other output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutVmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherOutVmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -608,7 +608,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>map from input polyline edges to other output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>otherOutEmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutEmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherOutEmap</computeroutput>. </para>
+<para>map from input polyline edges to other output Modifies a member variable of class <computeroutput>MR::DividePolylineParameters</computeroutput> named <computeroutput>otherOutEmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutEmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherOutEmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -707,7 +707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DividePolylineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>onEdgeSplitCallback</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outVmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outEmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutVmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutEmap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" kindref="member">MR_DividePolylineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DividePolylineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>onEdgeSplitCallback</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outVmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outEmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutVmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutEmap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" kindref="member">MR_DividePolylineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -835,7 +835,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DividePolylineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DividePolylineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

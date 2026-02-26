@@ -49,9 +49,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="364" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="364" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ZCompensateParams_1a3f1b0148393f8db7af5d7c985cdc7477" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ZCompensateParams.progress</definition>
+      <memberdef kind="property" id="classMR_1_1ZCompensateParams_1a56098b858916cb24c0fc96902f20d45f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.ZCompensateParams.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.ZCompensateParams.progress</qualifiedname>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="367" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="367" bodyend="367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="367" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="367" bodyend="367"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -265,7 +265,7 @@
       <member refid="classMR_1_1ZCompensateParams_1a58900502a72256ca9db2ad16512b3e10" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>assign</name></member>
       <member refid="classMR_1_1ZCompensateParams_1add0c6a404bef78e4b7e20ec0f9ec688e" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>maxShift</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a6b19a4dde59c64bcbc07bc3f44e6e5ea" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>minThickness</name></member>
-      <member refid="classMR_1_1ZCompensateParams_1a3f1b0148393f8db7af5d7c985cdc7477" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>progress</name></member>
+      <member refid="classMR_1_1ZCompensateParams_1a56098b858916cb24c0fc96902f20d45f" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>progress</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a7151ed5110bf1981af95debb4d3f9c04" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>reduceSelfIntersections</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a57321c23bcefb28ef0799ab23fd9e6d6" prot="package" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a78417a5d20ab8cf7989c8d53005e18a9" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>

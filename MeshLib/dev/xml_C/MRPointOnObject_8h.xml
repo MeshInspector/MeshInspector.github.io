@@ -147,7 +147,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>3D location on the object in local coordinates Modifies a member variable of class <computeroutput>MR::PointOnObject</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>3D location on the object in local coordinates Modifies a member variable of class <computeroutput>MR::PointOnObject</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -205,7 +205,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>z buffer value Modifies a member variable of class <computeroutput>MR::PointOnObject</computeroutput> named <computeroutput>zBuffer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>zBuffer</computeroutput>. </para>
+<para>z buffer value Modifies a member variable of class <computeroutput>MR::PointOnObject</computeroutput> named <computeroutput>zBuffer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>zBuffer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -396,7 +396,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointOnObject::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointOnObject::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -1491,7 +1491,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1918,7 +1918,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::FaceId, MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::FaceId, MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2345,7 +2345,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::VertId, MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::VertId, MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2772,7 +2772,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3199,7 +3199,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3626,7 +3626,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4053,7 +4053,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4480,7 +4480,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;unsigned char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;unsigned char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4907,7 +4907,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::EdgeId, MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::EdgeId, MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5334,7 +5334,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::EdgeId, MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::EdgeId, MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5761,7 +5761,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::ObjId, MR::ObjId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::ObjId, MR::ObjId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6188,7 +6188,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::GraphVertId, MR::GraphVertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::GraphVertId, MR::GraphVertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6615,7 +6615,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -7042,7 +7042,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::VoxelId, MR::VoxelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::VoxelId, MR::VoxelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -7469,7 +7469,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::PixelId, MR::PixelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::PixelId, MR::PixelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -7896,7 +7896,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::RegionId, MR::RegionId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::RegionId, MR::RegionId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -8323,7 +8323,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::NodeId, MR::NodeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::NodeId, MR::NodeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -8750,7 +8750,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::TextureId, MR::TextureId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::TextureId, MR::TextureId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9177,7 +9177,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9467,7 +9467,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FaceBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FaceBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9503,7 +9503,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::FaceBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::FaceBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9603,7 +9603,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FaceBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a09e7b2cc726cfefd783953e61944c526" kindref="member">MR_FaceBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FaceBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a09e7b2cc726cfefd783953e61944c526" kindref="member">MR_FaceBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9731,7 +9731,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FaceBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FaceBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9775,7 +9775,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VertBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VertBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9811,7 +9811,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::VertBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::VertBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9911,7 +9911,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VertBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a7417ddb717d3b01173df376f3514a97a" kindref="member">MR_VertBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VertBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a7417ddb717d3b01173df376f3514a97a" kindref="member">MR_VertBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10039,7 +10039,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VertBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VertBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10083,7 +10083,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EdgeBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EdgeBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10119,7 +10119,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::EdgeBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::EdgeBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10219,7 +10219,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EdgeBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1adad2602d2a1815a233cda93a1f2b7575" kindref="member">MR_EdgeBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EdgeBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1adad2602d2a1815a233cda93a1f2b7575" kindref="member">MR_EdgeBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10347,7 +10347,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EdgeBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EdgeBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10391,7 +10391,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UndirectedEdgeBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UndirectedEdgeBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10427,7 +10427,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::UndirectedEdgeBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::UndirectedEdgeBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10527,7 +10527,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::UndirectedEdgeBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a49a767113a5fcce338ea2f2cc9f02d22" kindref="member">MR_UndirectedEdgeBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::UndirectedEdgeBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a49a767113a5fcce338ea2f2cc9f02d22" kindref="member">MR_UndirectedEdgeBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10655,7 +10655,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UndirectedEdgeBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10699,7 +10699,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WholeEdgeBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WholeEdgeBMap</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10735,7 +10735,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::WholeEdgeBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::WholeEdgeBMap</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10835,7 +10835,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WholeEdgeBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a0a7ca3dc69c7d4a9bbff503a6ebb0621" kindref="member">MR_WholeEdgeBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WholeEdgeBMap</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a0a7ca3dc69c7d4a9bbff503a6ebb0621" kindref="member">MR_WholeEdgeBMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -10963,7 +10963,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WholeEdgeBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WholeEdgeBMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11007,7 +11007,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11043,7 +11043,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11143,7 +11143,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a64245996c94d860ace10ee9340d145f3" kindref="member">MR_BMap_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a64245996c94d860ace10ee9340d145f3" kindref="member">MR_BMap_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11271,7 +11271,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11315,7 +11315,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11351,7 +11351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11451,7 +11451,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a66907085fe4f86b0f65633346c10bd0d" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a66907085fe4f86b0f65633346c10bd0d" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11579,7 +11579,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11623,7 +11623,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11659,7 +11659,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11759,7 +11759,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ab7ef9254ddd92d0ecca8595828ae8b48" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ab7ef9254ddd92d0ecca8595828ae8b48" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11887,7 +11887,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11931,7 +11931,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -11967,7 +11967,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12067,7 +12067,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a45d1f144677fbe002eb496fa60870611" kindref="member">MR_BMap_MR_VertId_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a45d1f144677fbe002eb496fa60870611" kindref="member">MR_BMap_MR_VertId_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12195,7 +12195,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::VertId, MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12239,7 +12239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12275,7 +12275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12375,7 +12375,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ac43f306d5129fbb94a65f391684347b6" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ac43f306d5129fbb94a65f391684347b6" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12503,7 +12503,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::UndirectedEdgeId, MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12547,7 +12547,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12583,7 +12583,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12683,7 +12683,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ad8287cfcb8215e5472e2ff47387bbded" kindref="member">MR_BMap_MR_FaceId_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ad8287cfcb8215e5472e2ff47387bbded" kindref="member">MR_BMap_MR_FaceId_uint64_t_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12811,7 +12811,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::FaceId, MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12855,7 +12855,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12891,7 +12891,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -12991,7 +12991,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a3fe63dd96519e9d7f06b45eee2c18baf" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a3fe63dd96519e9d7f06b45eee2c18baf" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13119,7 +13119,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13163,7 +13163,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13199,7 +13199,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13299,7 +13299,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ab606226ab30734f70ed6f6456771203b" kindref="member">MR_BMap_MR_PixelId_MR_PixelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ab606226ab30734f70ed6f6456771203b" kindref="member">MR_BMap_MR_PixelId_MR_PixelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13427,7 +13427,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13471,7 +13471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13507,7 +13507,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13607,7 +13607,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a3d5b3d879536bd91eb7d2ac314285033" kindref="member">MR_BMap_MR_RegionId_MR_RegionId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a3d5b3d879536bd91eb7d2ac314285033" kindref="member">MR_BMap_MR_RegionId_MR_RegionId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13735,7 +13735,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13779,7 +13779,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13815,7 +13815,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -13915,7 +13915,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a04153c9e924bfda906d5ae9f5eb8212b" kindref="member">MR_BMap_MR_NodeId_MR_NodeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a04153c9e924bfda906d5ae9f5eb8212b" kindref="member">MR_BMap_MR_NodeId_MR_NodeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14043,7 +14043,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14087,7 +14087,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14123,7 +14123,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14223,7 +14223,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ab9518557a3a93fe95bc8b4ba9fdc4907" kindref="member">MR_BMap_MR_TextureId_MR_TextureId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1ab9518557a3a93fe95bc8b4ba9fdc4907" kindref="member">MR_BMap_MR_TextureId_MR_TextureId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14351,7 +14351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14395,7 +14395,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14431,7 +14431,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tsize</computeroutput>. </para>
+<para>target size, all values inside b must be less than this value Modifies a member variable of class <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> named <computeroutput>tsize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tsize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tsize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14531,7 +14531,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a10ce632d4f374fff8eeaa222414cbcd3" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tsize</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1a10ce632d4f374fff8eeaa222414cbcd3" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14659,7 +14659,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14699,7 +14699,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ZeroOnMove&lt;MR_uint64_t&gt;</computeroutput> named <computeroutput>val</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>val</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>val</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ZeroOnMove&lt;MR_uint64_t&gt;</computeroutput> named <computeroutput>val</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>val</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>val</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -14880,7 +14880,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ZeroOnMove&lt;MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>z</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ZeroOnMove&lt;MR_uint64_t&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>z</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15035,7 +15035,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15190,7 +15190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15345,7 +15345,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15500,7 +15500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;unsigned char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;unsigned char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15655,7 +15655,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15810,7 +15810,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::EdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15965,7 +15965,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::ObjId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::ObjId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -16120,7 +16120,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::GraphVertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::GraphVertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -16275,7 +16275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::GraphEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::GraphEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -16430,7 +16430,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::VoxelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::VoxelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -16585,7 +16585,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::PixelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::PixelId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -16740,7 +16740,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::RegionId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::RegionId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -16895,7 +16895,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::NodeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::NodeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17050,7 +17050,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::TextureId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::TextureId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17205,7 +17205,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17275,7 +17275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PackMapping</computeroutput> named <computeroutput>e</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>e</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>e</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PackMapping</computeroutput> named <computeroutput>e</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>e</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>e</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17337,7 +17337,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PackMapping</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>f</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>f</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PackMapping</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>f</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>f</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17399,7 +17399,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PackMapping</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>v</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PackMapping</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>v</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17490,7 +17490,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PackMapping</computeroutput> elementwise. The reference to the parameter <computeroutput>e</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>f</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1aec228a45718ccd43be851dd4e8359620" kindref="member">MR_PackMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PackMapping</computeroutput> elementwise. The reference to the parameter <computeroutput>e</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>f</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBuffer_8h_1aec228a45718ccd43be851dd4e8359620" kindref="member">MR_PackMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -17618,7 +17618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PackMapping::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PackMapping::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

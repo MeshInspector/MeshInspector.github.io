@@ -123,7 +123,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvCoords</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uvCoords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -181,7 +181,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorMap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texturePerFace</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>texturePerFace</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceColors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshAttributesToUpdate</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>faceColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -380,7 +380,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshAttributesToUpdate</computeroutput> elementwise. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" kindref="member">MR_MeshAttributesToUpdate_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshAttributesToUpdate</computeroutput> elementwise. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" kindref="member">MR_MeshAttributesToUpdate_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -500,7 +500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshAttributesToUpdate::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshAttributesToUpdate::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

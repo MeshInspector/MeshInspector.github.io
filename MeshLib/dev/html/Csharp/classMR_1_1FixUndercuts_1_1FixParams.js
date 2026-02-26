@@ -7,7 +7,7 @@ var classMR_1_1FixUndercuts_1_1FixParams =
     [ "FixParams", "classMR_1_1FixUndercuts_1_1FixParams.html#a32aa7bfc65eed369c13b0fbf3cb4904e", null ],
     [ "assign", "classMR_1_1FixUndercuts_1_1FixParams.html#a685b149e70b08995f64d2e9eba1f4536", null ],
     [ "bottomExtension", "classMR_1_1FixUndercuts_1_1FixParams.html#a9a9a5fc1340288e9351b0d8398c15b9b", null ],
-    [ "cb", "classMR_1_1FixUndercuts_1_1FixParams.html#a0391b46d16ee9d5f8c74b12fdea85ee1", null ],
+    [ "cb", "classMR_1_1FixUndercuts_1_1FixParams.html#acee266d3797bc18adae5a6f4a9e1711f", null ],
     [ "findParameters", "classMR_1_1FixUndercuts_1_1FixParams.html#af24dfe8f4b1d0b15ec63bdb8392b2d7c", null ],
     [ "region", "classMR_1_1FixUndercuts_1_1FixParams.html#a085c11922282a52b9e318c989d48b04a", null ],
     [ "smooth", "classMR_1_1FixUndercuts_1_1FixParams.html#a858f43e9bd3ba22bf28a72ae40bb786f", null ],

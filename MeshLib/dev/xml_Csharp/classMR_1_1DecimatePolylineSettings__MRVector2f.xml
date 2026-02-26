@@ -109,9 +109,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="283" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="283" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector2f_1a555c62b0ba744b230515983e1afbe753" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector2fRef</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector2fRef MR.DecimatePolylineSettings_MRVector2f.preCollapse</definition>
+      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector2f_1a133cf8a04c1fc6fde4e87f0ec3cd0c37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector2fRef</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector2fRef MR.DecimatePolylineSettings_MRVector2f.preCollapse</definition>
         <argsstring></argsstring>
         <name>preCollapse</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector2f.preCollapse</qualifiedname>
@@ -123,11 +123,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="291" column="80" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="291" bodyend="291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="291" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="291" bodyend="291"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector2f_1a03da7ab0c1cf7fd9319e93f8baa30850" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector2fRef MR.DecimatePolylineSettings_MRVector2f.adjustCollapse</definition>
+      <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector2f_1a2559b6eed510406317ae45c8c6c229bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector2fRef</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector2fRef MR.DecimatePolylineSettings_MRVector2f.adjustCollapse</definition>
         <argsstring></argsstring>
         <name>adjustCollapse</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector2f.adjustCollapse</qualifiedname>
@@ -377,7 +377,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="246" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="247" bodyend="410"/>
     <listofallmembers>
-      <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a03da7ab0c1cf7fd9319e93f8baa30850" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>adjustCollapse</name></member>
+      <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a2559b6eed510406317ae45c8c6c229bd" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>adjustCollapse</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a63f609f1311dd5e2b400bfb71458cd30" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>assign</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a4c9637bfa95e840516e28ab7562bd04a" prot="package" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a2bcfc0595393ab797145d7dc8b9a4fd3" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
@@ -389,7 +389,7 @@
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a0e134506a5044ff2d17926e673f20aef" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>maxEdgeLen</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1adfe2f7f259750db385c221ee73646953" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>maxError</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a8005a11cbf87cdf5f029f7399e592513" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>optimizeVertexPos</name></member>
-      <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a555c62b0ba744b230515983e1afbe753" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>preCollapse</name></member>
+      <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a133cf8a04c1fc6fde4e87f0ec3cd0c37" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>preCollapse</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a86e3ba9c065b871d771933789324a94f" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>region</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a5911008bde3042e75c6b5e5f8beaa711" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>stabilizer</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a9f4212263545464b6517c614684657c7" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>touchBdVertices</name></member>

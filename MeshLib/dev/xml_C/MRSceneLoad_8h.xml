@@ -199,7 +199,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>targetUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>targetUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>targetUnit</computeroutput>. </para>
+<para>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>targetUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>targetUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>targetUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -261,7 +261,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report loading progress and allow the user to cancel it Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report loading progress and allow the user to cancel it Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -323,7 +323,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>openFolder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>openFolder</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>openFolder</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Settings</computeroutput> named <computeroutput>openFolder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>openFolder</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>openFolder</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -410,7 +410,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SceneLoad::Settings</computeroutput> elementwise. Parameter <computeroutput>targetUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>targetUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>openFolder</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" kindref="member">MR_SceneLoad_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SceneLoad::Settings</computeroutput> elementwise. Parameter <computeroutput>targetUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>targetUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>openFolder</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1ae62bc8e8742a81b037d260b86175e07c" kindref="member">MR_SceneLoad_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -538,7 +538,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SceneLoad::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SceneLoad::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -582,7 +582,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The loaded scene or empty object Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>scene</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>scene</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>scene</computeroutput>. </para>
+<para>The loaded scene or empty object Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>scene</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>scene</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>scene</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -640,7 +640,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>isSceneConstructed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isSceneConstructed</computeroutput>. </para>
+<para>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>isSceneConstructed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>isSceneConstructed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -702,7 +702,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>List of successfully loaded files Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>loadedFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>loadedFiles</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>loadedFiles</computeroutput>. </para>
+<para>List of successfully loaded files Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>loadedFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>loadedFiles</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>loadedFiles</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -766,7 +766,7 @@
 <para>Error summary text. </para>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>errorSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>errorSummary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>errorSummary</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>errorSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>errorSummary</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>errorSummary</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -831,7 +831,7 @@
 <para>Warning summary text. </para>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>warningSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warningSummary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warningSummary</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SceneLoad::Result</computeroutput> named <computeroutput>warningSummary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warningSummary</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warningSummary</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -935,7 +935,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SceneLoad::Result</computeroutput> elementwise. The reference to the parameter <computeroutput>scene</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>loadedFiles</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>errorSummary</computeroutput> can not be null. If <computeroutput>errorSummary_end</computeroutput> is null, then <computeroutput>errorSummary</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>errorSummary</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warningSummary</computeroutput> can not be null. If <computeroutput>warningSummary_end</computeroutput> is null, then <computeroutput>warningSummary</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warningSummary</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SceneLoad::Result</computeroutput> elementwise. The reference to the parameter <computeroutput>scene</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>loadedFiles</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>errorSummary</computeroutput> can not be null. If <computeroutput>errorSummary_end</computeroutput> is null, then <computeroutput>errorSummary</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>errorSummary</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warningSummary</computeroutput> can not be null. If <computeroutput>warningSummary_end</computeroutput> is null, then <computeroutput>warningSummary</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warningSummary</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSceneLoad_8h_1a51f419ab4a8ed27de7d3ac55828d5a3a" kindref="member">MR_SceneLoad_Result_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1063,7 +1063,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SceneLoad::Result::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SceneLoad::Result::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

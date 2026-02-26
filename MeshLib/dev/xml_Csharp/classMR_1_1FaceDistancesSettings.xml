@@ -33,9 +33,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="147" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="148" bodyend="157"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1FaceDistancesSettings_1a373966763684da65a5aad18acecea24c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FaceDistancesSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1FaceDistancesSettings_1a10655db51c0721652b4d91fe30ff8ec3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.FaceDistancesSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.FaceDistancesSettings.progress</qualifiedname>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="160" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="160" bodyend="160"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="160" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="160" bodyend="160"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -251,7 +251,7 @@
       <member refid="classMR_1_1FaceDistancesSettings_1a99bf1a5a726ff8cae98616b686a9b58d" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a25d0db10c99903c8c3b4381820bed608" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>maxDist</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a56c525691d6073b793ca78b36d2b7a35" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>out_</name></member>
-      <member refid="classMR_1_1FaceDistancesSettings_1a373966763684da65a5aad18acecea24c" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1FaceDistancesSettings_1a10655db51c0721652b4d91fe30ff8ec3" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>progress</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

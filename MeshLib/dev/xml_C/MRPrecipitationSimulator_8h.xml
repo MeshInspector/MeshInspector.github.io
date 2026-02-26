@@ -313,7 +313,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>event</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>event</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>event</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>event</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>event</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>event</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -349,7 +349,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>amount of precipitation (in same units as mesh coordinates and water level) Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>amount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>amount</computeroutput>. </para>
+<para>amount of precipitation (in same units as mesh coordinates and water level) Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>amount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>amount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -407,7 +407,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>BasinFull: this basin just became full Merge: this basin just absorbed the other basin Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>basin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>basin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>basin</computeroutput>. </para>
+<para>BasinFull: this basin just became full Merge: this basin just absorbed the other basin Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>basin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>basin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>basin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -465,7 +465,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>BasinFull: the flow from full basin will first go here (may be not the last destination) Merge: this basin was just absorbed Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>neiBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>neiBasin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>neiBasin</computeroutput>. </para>
+<para>BasinFull: the flow from full basin will first go here (may be not the last destination) Merge: this basin was just absorbed Modifies a member variable of class <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> named <computeroutput>neiBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>neiBasin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>neiBasin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -569,7 +569,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> elementwise. The reference to the parameter <computeroutput>event</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>basin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>neiBasin</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecipitationSimulator_8h_1ae71733065fb8a04408b6e1bdd4564236" kindref="member">MR_PrecipitationSimulator_SimulationStep_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PrecipitationSimulator::SimulationStep</computeroutput> elementwise. The reference to the parameter <computeroutput>event</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>basin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>neiBasin</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPrecipitationSimulator_8h_1ae71733065fb8a04408b6e1bdd4564236" kindref="member">MR_PrecipitationSimulator_SimulationStep_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -689,7 +689,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PrecipitationSimulator::SimulationStep::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PrecipitationSimulator::SimulationStep::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

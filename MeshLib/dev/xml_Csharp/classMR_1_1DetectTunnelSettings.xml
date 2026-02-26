@@ -34,9 +34,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="165" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="165" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a0b8b5c85abf9db87e7e2ad0e89b21e9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_FloatFuncFromMREdgeId</type>
-        <definition>new unsafe MR.Std.Function_FloatFuncFromMREdgeId MR.DetectTunnelSettings.metric</definition>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1ab75976ae55daff384a370f30b59a8499" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Float_From_MREdgeId</type>
+        <definition>new unsafe MR.Std.Function_Float_From_MREdgeId MR.DetectTunnelSettings.metric</definition>
         <argsstring></argsstring>
         <name>metric</name>
         <qualifiedname>MR.DetectTunnelSettings.metric</qualifiedname>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="171" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="171" bodyend="171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="171" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="171" bodyend="171"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1ab53170b70a40416d5373a5b135d2febe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -79,9 +79,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="179" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="179" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a894196449b15605733a65f2f2ca90eec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DetectTunnelSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a89a2ae6df6229c7107ba7d3f23342ac3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.DetectTunnelSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.DetectTunnelSettings.progress</qualifiedname>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="182" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="182" bodyend="182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="182" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="182" bodyend="182"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -311,8 +311,8 @@
       <member refid="classMR_1_1DetectTunnelSettings_1a68b007c4eb80865d90ec5a5cdc284098" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>filterEquivalentCoLoops</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1adc555b54ed2e8763296a62b1572e7a81" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>maxIters</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a98dbdacb703cc7a992cbe17953669c9e" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>maxTunnelLength</name></member>
-      <member refid="classMR_1_1DetectTunnelSettings_1a0b8b5c85abf9db87e7e2ad0e89b21e9f" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>metric</name></member>
-      <member refid="classMR_1_1DetectTunnelSettings_1a894196449b15605733a65f2f2ca90eec" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1ab75976ae55daff384a370f30b59a8499" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>metric</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a89a2ae6df6229c7107ba7d3f23342ac3" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>progress</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

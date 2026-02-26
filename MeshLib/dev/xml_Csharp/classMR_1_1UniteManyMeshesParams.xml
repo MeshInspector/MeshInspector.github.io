@@ -126,9 +126,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="254" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="254" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1UniteManyMeshesParams_1a0a0d3bb22b9c02cccea76404fc0aa805" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.UniteManyMeshesParams.progressCb</definition>
+      <memberdef kind="property" id="classMR_1_1UniteManyMeshesParams_1a889b5c11505f7b0c1df647f60880b9f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.UniteManyMeshesParams.progressCb</definition>
         <argsstring></argsstring>
         <name>progressCb</name>
         <qualifiedname>MR.UniteManyMeshesParams.progressCb</qualifiedname>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="256" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="256" bodyend="256"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="256" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="256" bodyend="256"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -365,7 +365,7 @@
       <member refid="classMR_1_1UniteManyMeshesParams_1ae93092130f5b30c67d6c629d540f154c" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>mergeOnFail</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1a2014be6b9bf8e2fbe8b405a0d483379f" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>nestedComponentsMode</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1a61c647b6c2129970cc1cda7c7aae6c60" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>newFaces</name></member>
-      <member refid="classMR_1_1UniteManyMeshesParams_1a0a0d3bb22b9c02cccea76404fc0aa805" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>progressCb</name></member>
+      <member refid="classMR_1_1UniteManyMeshesParams_1a889b5c11505f7b0c1df647f60880b9f9" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>progressCb</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1a668909b2d53ed0fad4957214adb83e45" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>randomShiftsSeed</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1ad571777e46a424457c6361622fffff0a" prot="package" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1afa81deffca82f58a806d5086eb3d60f8" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>

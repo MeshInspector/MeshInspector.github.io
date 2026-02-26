@@ -533,7 +533,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -591,7 +591,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>surfaceOffset</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>surfaceOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -649,7 +649,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -707,7 +707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>worldXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>worldXf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>worldXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>worldXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -765,7 +765,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outXf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -827,7 +827,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshToVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -922,7 +922,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshToVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>worldXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1ac37bcb9a81cc136c9e4a49792f78ce24" kindref="member">MR_MeshToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshToVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>worldXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1ac37bcb9a81cc136c9e4a49792f78ce24" kindref="member">MR_MeshToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1050,7 +1050,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshToVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshToVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1384,7 +1384,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the size of each voxel in the grid Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>the size of each voxel in the grid Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1442,7 +1442,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>isoValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isoValue</computeroutput>. </para>
+<para>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>isoValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>isoValue</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1500,7 +1500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>adaptivity</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>adaptivity</computeroutput>. </para>
+<para>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>adaptivity</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>adaptivity</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1558,7 +1558,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if the mesh exceeds this number of faces, an error returns Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>maxFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxFaces</computeroutput>. </para>
+<para>if the mesh exceeds this number of faces, an error returns Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>maxFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1616,7 +1616,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if the mesh exceeds this number of vertices, an error returns Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>maxVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxVertices</computeroutput>. </para>
+<para>if the mesh exceeds this number of vertices, an error returns Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>maxVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1674,7 +1674,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>relaxDisorientedTriangles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxDisorientedTriangles</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>relaxDisorientedTriangles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>relaxDisorientedTriangles</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1736,7 +1736,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to receive progress and request cancellation Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>to receive progress and request cancellation Modifies a member variable of class <computeroutput>MR::GridToMeshSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1835,7 +1835,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::GridToMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1a6dfeafb0cd0478be3e88411958c5a7b3" kindref="member">MR_GridToMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::GridToMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1a6dfeafb0cd0478be3e88411958c5a7b3" kindref="member">MR_GridToMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1963,7 +1963,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::GridToMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::GridToMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2047,7 +2047,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>defines the mapping from mesh reference from to grid reference frame Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>meshToGridXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshToGridXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshToGridXf</computeroutput>. </para>
+<para>defines the mapping from mesh reference from to grid reference frame Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>meshToGridXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshToGridXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshToGridXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2109,7 +2109,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fwn</computeroutput>. </para>
+<para>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fwn</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2167,7 +2167,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2225,7 +2225,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+<para>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2287,7 +2287,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report algorithm&apos;s progress and to cancel it Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report algorithm&apos;s progress and to cancel it Modifies a member variable of class <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2382,7 +2382,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>meshToGridXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1a631a1dc16d5b940f04e18df389fd800b" kindref="member">MR_MakeSignedByWindingNumberSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MakeSignedByWindingNumberSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>meshToGridXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1a631a1dc16d5b940f04e18df389fd800b" kindref="member">MR_MakeSignedByWindingNumberSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2510,7 +2510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MakeSignedByWindingNumberSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MakeSignedByWindingNumberSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2580,7 +2580,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the size of voxel in intermediate voxel grid representation Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>the size of voxel in intermediate voxel grid representation Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2638,7 +2638,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of first offset Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>offsetA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offsetA</computeroutput>. </para>
+<para>the amount of first offset Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>offsetA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offsetA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2696,7 +2696,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of second offset Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>offsetB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offsetB</computeroutput>. </para>
+<para>the amount of second offset Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>offsetB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offsetB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2754,7 +2754,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>adaptivity</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>adaptivity</computeroutput>. </para>
+<para>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>adaptivity</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>adaptivity</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2816,7 +2816,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fwn</computeroutput>. </para>
+<para>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fwn</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2874,7 +2874,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2932,7 +2932,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+<para>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2994,7 +2994,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report algorithm&apos;s progress and to cancel it Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report algorithm&apos;s progress and to cancel it Modifies a member variable of class <computeroutput>MR::DoubleOffsetSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3101,7 +3101,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DoubleOffsetSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1a8735a6bcd90743a570f9d77145a14563" kindref="member">MR_DoubleOffsetSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DoubleOffsetSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVDBConversions_8h_1a8735a6bcd90743a570f9d77145a14563" kindref="member">MR_DoubleOffsetSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3229,7 +3229,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DoubleOffsetSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DoubleOffsetSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

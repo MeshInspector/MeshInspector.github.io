@@ -491,7 +491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::AABBTreePoints::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::AABBTreePoints::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -751,7 +751,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::AABBTreePoints::Node::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::AABBTreePoints::Node::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -778,7 +778,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::AABBTreePoints::Node</code> elementwise. The reference to the parameter <code>box</code> might be preserved in the constructed object. The reference to the parameter <code>l</code> might be preserved in the constructed object. The reference to the parameter <code>r</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4bede6aa491182a19658c87330916c23" title="Destroys a heap-allocated instance of MR_AABBTreePoints_Node. Does nothing if the pointer is null.">MR_AABBTreePoints_Node_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::AABBTreePoints::Node</code> elementwise. The reference to the parameter <code>box</code> might be preserved in the constructed object. The reference to the parameter <code>l</code> might be preserved in the constructed object. The reference to the parameter <code>r</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4bede6aa491182a19658c87330916c23" title="Destroys a heap-allocated instance of MR_AABBTreePoints_Node. Does nothing if the pointer is null.">MR_AABBTreePoints_Node_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -888,7 +888,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>bounding box of whole subtree Modifies a member variable of class <code>MR::AABBTreePoints::Node</code> named <code>box</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>box</code>. When this function is called, this object will drop object references it had previously in <code>box</code>. </p>
+<p>bounding box of whole subtree Modifies a member variable of class <code>MR::AABBTreePoints::Node</code> named <code>box</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>box</code>. When this function is called, this object will drop object references it held previously in <code>box</code>. </p>
 
 </div>
 </div>
@@ -906,7 +906,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node Modifies a member variable of class <code>MR::AABBTreePoints::Node</code> named <code>l</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>l</code>. When this function is called, this object will drop object references it had previously in <code>l</code>. </p>
+<p>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node Modifies a member variable of class <code>MR::AABBTreePoints::Node</code> named <code>l</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>l</code>. When this function is called, this object will drop object references it held previously in <code>l</code>. </p>
 
 </div>
 </div>
@@ -924,7 +924,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node Modifies a member variable of class <code>MR::AABBTreePoints::Node</code> named <code>r</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>r</code>. When this function is called, this object will drop object references it had previously in <code>r</code>. </p>
+<p>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node Modifies a member variable of class <code>MR::AABBTreePoints::Node</code> named <code>r</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>r</code>. When this function is called, this object will drop object references it held previously in <code>r</code>. </p>
 
 </div>
 </div>
@@ -1252,7 +1252,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::AABBTreePoints::Point::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::AABBTreePoints::Point::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1274,7 +1274,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::AABBTreePoints::Point</code> elementwise. The reference to the parameter <code>coord</code> might be preserved in the constructed object. The reference to the parameter <code>id</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3063556c4ecbb7a37e2c73027a72b6c1" title="Destroys a heap-allocated instance of MR_AABBTreePoints_Point. Does nothing if the pointer is null.">MR_AABBTreePoints_Point_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::AABBTreePoints::Point</code> elementwise. The reference to the parameter <code>coord</code> might be preserved in the constructed object. The reference to the parameter <code>id</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3063556c4ecbb7a37e2c73027a72b6c1" title="Destroys a heap-allocated instance of MR_AABBTreePoints_Point. Does nothing if the pointer is null.">MR_AABBTreePoints_Point_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1504,7 +1504,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::AABBTreePoints::Point</code> named <code>coord</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>coord</code>. When this function is called, this object will drop object references it had previously in <code>coord</code>. </p>
+<p>Modifies a member variable of class <code>MR::AABBTreePoints::Point</code> named <code>coord</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>coord</code>. When this function is called, this object will drop object references it held previously in <code>coord</code>. </p>
 
 </div>
 </div>
@@ -1526,7 +1526,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::AABBTreePoints::Point</code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>id</code>. When this function is called, this object will drop object references it had previously in <code>id</code>. </p>
+<p>Modifies a member variable of class <code>MR::AABBTreePoints::Point</code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>id</code>. When this function is called, this object will drop object references it held previously in <code>id</code>. </p>
 
 </div>
 </div>

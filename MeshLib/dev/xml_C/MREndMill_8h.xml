@@ -171,7 +171,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -229,7 +229,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(bull nose) corner radius Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cornerRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cornerRadius</computeroutput>. </para>
+<para>(bull nose) corner radius Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cornerRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>cornerRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -287,7 +287,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(chamfer) cutting angle Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cuttingAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cuttingAngle</computeroutput>. </para>
+<para>(chamfer) cutting angle Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>cuttingAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>cuttingAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -345,7 +345,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(chamfer) end diameter Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>endDiameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>endDiameter</computeroutput>. </para>
+<para>(chamfer) end diameter Modifies a member variable of class <computeroutput>MR::EndMillCutter</computeroutput> named <computeroutput>endDiameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>endDiameter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -428,7 +428,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EndMillCutter</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" kindref="member">MR_EndMillCutter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EndMillCutter</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1ac357ec87451e04b87382169c92365271" kindref="member">MR_EndMillCutter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -548,7 +548,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EndMillCutter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EndMillCutter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -588,7 +588,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overall tool length Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>length</computeroutput>. </para>
+<para>overall tool length Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>length</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -646,7 +646,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>tool diameter Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>diameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>diameter</computeroutput>. </para>
+<para>tool diameter Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>diameter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>diameter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -704,7 +704,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>cutter Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>cutter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cutter</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cutter</computeroutput>. </para>
+<para>cutter Modifies a member variable of class <computeroutput>MR::EndMillTool</computeroutput> named <computeroutput>cutter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cutter</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cutter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -783,7 +783,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EndMillTool</computeroutput> elementwise. Parameter <computeroutput>cutter</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>cutter</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" kindref="member">MR_EndMillTool_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EndMillTool</computeroutput> elementwise. Parameter <computeroutput>cutter</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>cutter</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREndMill_8h_1a1fa44ca891d00455721ae2f853ee75e3" kindref="member">MR_EndMillTool_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -903,7 +903,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EndMillTool::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EndMillTool::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

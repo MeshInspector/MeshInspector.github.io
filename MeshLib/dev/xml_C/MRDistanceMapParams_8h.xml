@@ -261,7 +261,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Cartesian range vector between distance map borders in X direction Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>xRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xRange</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xRange</computeroutput>. </para>
+<para>Cartesian range vector between distance map borders in X direction Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>xRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xRange</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xRange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -319,7 +319,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Cartesian range vector between distance map borders in Y direction Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>yRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>yRange</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>yRange</computeroutput>. </para>
+<para>Cartesian range vector between distance map borders in Y direction Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>yRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>yRange</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>yRange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -377,7 +377,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>direction of intersection ray Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>direction</computeroutput>. </para>
+<para>direction of intersection ray Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>direction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -435,7 +435,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>location of (0,0) pixel with value 0.f Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>orgPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>orgPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>orgPoint</computeroutput>. </para>
+<para>location of (0,0) pixel with value 0.f Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>orgPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>orgPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>orgPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -493,7 +493,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>out of limits intersections will be set to non-valid Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>useDistanceLimits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>useDistanceLimits</computeroutput>. </para>
+<para>out of limits intersections will be set to non-valid Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>useDistanceLimits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>useDistanceLimits</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -551,7 +551,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>allows to find intersections in backward to direction vector with negative values Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>allowNegativeValues</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>allowNegativeValues</computeroutput>. </para>
+<para>allows to find intersections in backward to direction vector with negative values Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>allowNegativeValues</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>allowNegativeValues</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -609,7 +609,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Using of this parameter depends on useDistanceLimits Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>minValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minValue</computeroutput>. </para>
+<para>Using of this parameter depends on useDistanceLimits Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>minValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minValue</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -667,7 +667,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Using of this parameter depends on useDistanceLimits Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>maxValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxValue</computeroutput>. </para>
+<para>Using of this parameter depends on useDistanceLimits Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>maxValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxValue</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -725,7 +725,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>resolution of distance map Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>resolution</computeroutput>. </para>
+<para>resolution of distance map Modifies a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>resolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1139,7 +1139,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshToDistanceMapParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshToDistanceMapParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1201,7 +1201,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>pixel size Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>pixelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixelSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pixelSize</computeroutput>. </para>
+<para>pixel size Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>pixelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pixelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1259,7 +1259,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>distance map size Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>resolution</computeroutput>. </para>
+<para>distance map size Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>resolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1317,7 +1317,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinates of origin area corner Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>orgPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>orgPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>orgPoint</computeroutput>. </para>
+<para>coordinates of origin area corner Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>orgPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>orgPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>orgPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1375,7 +1375,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours) Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>withSign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>withSign</computeroutput>. </para>
+<para>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours) Modifies a member variable of class <computeroutput>MR::ContourToDistanceMapParams</computeroutput> named <computeroutput>withSign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>withSign</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1721,7 +1721,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ContourToDistanceMapParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ContourToDistanceMapParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1801,7 +1801,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>world coordinates of distance map origin corner Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>orgPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>orgPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>orgPoint</computeroutput>. </para>
+<para>world coordinates of distance map origin corner Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>orgPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>orgPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>orgPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1861,7 +1861,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vector in world space of pixel x positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelYVec</computeroutput> Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>pixelXVec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixelXVec</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pixelXVec</computeroutput>. </para>
+<para>vector in world space of pixel x positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelYVec</computeroutput> Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>pixelXVec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixelXVec</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pixelXVec</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1925,7 +1925,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vector in world space of pixel y positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelXVec</computeroutput> Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>pixelYVec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixelYVec</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pixelYVec</computeroutput>. </para>
+<para>vector in world space of pixel y positive direction length is equal to pixel size <simplesect kind="note"><para>typically it should be orthogonal to <computeroutput>pixelXVec</computeroutput> Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>pixelYVec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixelYVec</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pixelYVec</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1989,7 +1989,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vector of depth direction <simplesect kind="note"><para>typically it should be normalized and orthogonal to <computeroutput>pixelXVec</computeroutput> <computeroutput>pixelYVec</computeroutput> plane Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>direction</computeroutput>. </para>
+<para>vector of depth direction <simplesect kind="note"><para>typically it should be normalized and orthogonal to <computeroutput>pixelXVec</computeroutput> <computeroutput>pixelYVec</computeroutput> plane Modifies a member variable of class <computeroutput>MR::DistanceMapToWorld</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>direction</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -2238,7 +2238,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceMapToWorld::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceMapToWorld::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2326,7 +2326,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: distance map to world transform Modifies a member variable of class <computeroutput>MR::DistanceMapLoadSettings</computeroutput> named <computeroutput>distanceMapToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>distanceMapToWorld</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>distanceMapToWorld</computeroutput>. </para>
+<para>optional output: distance map to world transform Modifies a member variable of class <computeroutput>MR::DistanceMapLoadSettings</computeroutput> named <computeroutput>distanceMapToWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>distanceMapToWorld</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>distanceMapToWorld</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2388,7 +2388,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report load progress and cancel loading if user desires Modifies a member variable of class <computeroutput>MR::DistanceMapLoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report load progress and cancel loading if user desires Modifies a member variable of class <computeroutput>MR::DistanceMapLoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2467,7 +2467,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DistanceMapLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>distanceMapToWorld</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMapParams_8h_1ae456ec158b0241bbfb94c5c554d91f7b" kindref="member">MR_DistanceMapLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DistanceMapLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>distanceMapToWorld</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMapParams_8h_1ae456ec158b0241bbfb94c5c554d91f7b" kindref="member">MR_DistanceMapLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2595,7 +2595,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceMapLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceMapLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2635,7 +2635,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional distance map to world transform Modifies a member variable of class <computeroutput>MR::DistanceMapSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>optional distance map to world transform Modifies a member variable of class <computeroutput>MR::DistanceMapSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2697,7 +2697,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::DistanceMapSaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::DistanceMapSaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2776,7 +2776,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DistanceMapSaveSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMapParams_8h_1a0631830385d59dbe3e289cf854eb811d" kindref="member">MR_DistanceMapSaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DistanceMapSaveSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceMapParams_8h_1a0631830385d59dbe3e289cf854eb811d" kindref="member">MR_DistanceMapSaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2904,7 +2904,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceMapSaveSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceMapSaveSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

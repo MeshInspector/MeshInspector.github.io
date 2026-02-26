@@ -129,7 +129,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -187,7 +187,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal dot product of one triangle and another overlapping triangle normals Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxNormalDot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNormalDot</computeroutput>. </para>
+<para>maximal dot product of one triangle and another overlapping triangle normals Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>maxNormalDot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxNormalDot</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -245,7 +245,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle&apos;s area Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>minAreaFraction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAreaFraction</computeroutput>. </para>
+<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle&apos;s area Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>minAreaFraction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minAreaFraction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -307,7 +307,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if predicate is present it should return true for pair of faces that should be considered as overlap Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>pred</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pred</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pred</computeroutput>. </para>
+<para>if predicate is present it should return true for pair of faces that should be considered as overlap Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>pred</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pred</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pred</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -369,7 +369,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for reporting current progress and allowing the user to cancel the algorithm Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>for reporting current progress and allowing the user to cancel the algorithm Modifies a member variable of class <computeroutput>MR::FindOverlappingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -464,7 +464,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindOverlappingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pred</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" kindref="member">MR_FindOverlappingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindOverlappingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pred</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROverlappingTris_8h_1aac02fc197b9d221160dbadf81ace2ea1" kindref="member">MR_FindOverlappingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -592,7 +592,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindOverlappingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindOverlappingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

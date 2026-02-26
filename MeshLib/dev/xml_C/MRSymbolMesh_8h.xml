@@ -244,7 +244,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>text</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>text</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>text</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>text</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -302,7 +302,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontDetalization</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontDetalization</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -360,7 +360,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -418,7 +418,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -476,7 +476,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>align</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>align</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>align</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>align</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -538,7 +538,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pathToFontFile</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pathToFontFile</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pathToFontFile</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pathToFontFile</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -637,7 +637,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SymbolMeshParams</computeroutput> elementwise. Parameter <computeroutput>text</computeroutput> can not be null. If <computeroutput>text_end</computeroutput> is null, then <computeroutput>text</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>text</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>symbolsDistanceAdditionalOffset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>align</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>pathToFontFile</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>pathToFontFile</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" kindref="member">MR_SymbolMeshParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SymbolMeshParams</computeroutput> elementwise. Parameter <computeroutput>text</computeroutput> can not be null. If <computeroutput>text_end</computeroutput> is null, then <computeroutput>text</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>text</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>symbolsDistanceAdditionalOffset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>align</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>pathToFontFile</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>pathToFontFile</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" kindref="member">MR_SymbolMeshParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -801,7 +801,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SymbolMeshParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SymbolMeshParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

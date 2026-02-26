@@ -267,7 +267,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Point coordinate on mesh, represent position of contours box &apos;pivotPoint&apos; on mesh Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>meshPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshPoint</computeroutput>. </para>
+<para>Point coordinate on mesh, represent position of contours box &apos;pivotPoint&apos; on mesh Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>meshPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -325,7 +325,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Relative position of &apos;meshPoint&apos; in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>pivotPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pivotPoint</computeroutput>. </para>
+<para>Relative position of &apos;meshPoint&apos; in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>pivotPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pivotPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -383,7 +383,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Represents 2d contours xDirection in mesh space Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>xDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xDirection</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xDirection</computeroutput>. </para>
+<para>Represents 2d contours xDirection in mesh space Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>xDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xDirection</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xDirection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -441,7 +441,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Represents contours normal in mesh space if nullptr - use mesh normal at &apos;meshPoint&apos; Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>zDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>zDirection</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>zDirection</computeroutput>. </para>
+<para>Represents contours normal in mesh space if nullptr - use mesh normal at &apos;meshPoint&apos; Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>zDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>zDirection</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>zDirection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -499,7 +499,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Contours extrusion in +z and -z direction Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>extrusion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>extrusion</computeroutput>. </para>
+<para>Contours extrusion in +z and -z direction Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>extrusion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>extrusion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -557,7 +557,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum allowed shift along &apos;zDirection&apos; for alignment Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>maximumShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maximumShift</computeroutput>. </para>
+<para>Maximum allowed shift along &apos;zDirection&apos; for alignment Modifies a member variable of class <computeroutput>MR::ContoursMeshAlignParams</computeroutput> named <computeroutput>maximumShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maximumShift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -648,7 +648,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ContoursMeshAlignParams</computeroutput> elementwise. Parameter <computeroutput>meshPoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>meshPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pivotPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xDirection</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>zDirection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a7519956613d60ba488d5ff25a2f62099" kindref="member">MR_ContoursMeshAlignParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ContoursMeshAlignParams</computeroutput> elementwise. Parameter <computeroutput>meshPoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>meshPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pivotPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xDirection</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>zDirection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a7519956613d60ba488d5ff25a2f62099" kindref="member">MR_ContoursMeshAlignParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -768,7 +768,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ContoursMeshAlignParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ContoursMeshAlignParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -834,7 +834,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Position on the curve, where bounding box&apos;s pivot point is mapped (0) - start of the curve, (1) - end of the curve Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>pivotCurveTime</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>pivotCurveTime</computeroutput>. </para>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped (0) - start of the curve, (1) - end of the curve Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>pivotCurveTime</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>pivotCurveTime</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -892,7 +892,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Position of the curve(pivotCurveTime) in the contours&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>pivotBoxPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotBoxPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pivotBoxPoint</computeroutput>. </para>
+<para>Position of the curve(pivotCurveTime) in the contours&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>pivotBoxPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotBoxPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pivotBoxPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -950,7 +950,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength ) Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>periodicCurve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>periodicCurve</computeroutput>. </para>
+<para>if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength ) Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>periodicCurve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>periodicCurve</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1008,7 +1008,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stretch all contours along curve to fit in curve.totalLength Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>stretch</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stretch</computeroutput>. </para>
+<para>stretch all contours along curve to fit in curve.totalLength Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>stretch</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stretch</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1066,7 +1066,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Contours extrusion outside of curve level Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>extrusion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>extrusion</computeroutput>. </para>
+<para>Contours extrusion outside of curve level Modifies a member variable of class <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> named <computeroutput>extrusion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>extrusion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1153,7 +1153,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> elementwise. The reference to the parameter <computeroutput>pivotBoxPoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlignContoursToMesh_8h_1ab454044e79f66dc81c5cc547dbf10567" kindref="member">MR_BendContoursAlongCurveParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BendContoursAlongCurveParams</computeroutput> elementwise. The reference to the parameter <computeroutput>pivotBoxPoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlignContoursToMesh_8h_1ab454044e79f66dc81c5cc547dbf10567" kindref="member">MR_BendContoursAlongCurveParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1273,7 +1273,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BendContoursAlongCurveParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BendContoursAlongCurveParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

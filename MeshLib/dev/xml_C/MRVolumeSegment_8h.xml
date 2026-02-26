@@ -317,7 +317,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>buildPathExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>buildPathExponentModifier</computeroutput>. </para>
+<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>buildPathExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>buildPathExponentModifier</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -375,7 +375,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>segmentationExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>segmentationExponentModifier</computeroutput>. </para>
+<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>segmentationExponentModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>segmentationExponentModifier</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -433,7 +433,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>voxelsExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelsExpansion</computeroutput>. </para>
+<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Modifies a member variable of class <computeroutput>MR::VolumeSegmentationParameters</computeroutput> named <computeroutput>voxelsExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelsExpansion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -512,7 +512,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VolumeSegmentationParameters</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" kindref="member">MR_VolumeSegmentationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VolumeSegmentationParameters</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVolumeSegment_8h_1adab0e4ae4ccbc0a2d4838dda6d1ecec2" kindref="member">MR_VolumeSegmentationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -632,7 +632,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VolumeSegmentationParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VolumeSegmentationParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

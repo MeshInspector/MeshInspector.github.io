@@ -255,7 +255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>hardSmoothTetrahedrons</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hardSmoothTetrahedrons</computeroutput>. </para>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>hardSmoothTetrahedrons</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hardSmoothTetrahedrons</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -313,7 +313,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>weights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>weights</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>weights</computeroutput>. </para>
+<para>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>weights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>weights</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>weights</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -371,7 +371,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of iterations Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -429,7 +429,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>region to relax Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -487,7 +487,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>force</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -545,7 +545,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>limitNearInitial</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -603,7 +603,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::MeshRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxInitialDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -884,7 +884,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1038,7 +1038,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>noShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>noShrinkage</computeroutput>. </para>
+<para>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>noShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>noShrinkage</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1096,7 +1096,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>hardSmoothTetrahedrons</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hardSmoothTetrahedrons</computeroutput>. </para>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>hardSmoothTetrahedrons</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hardSmoothTetrahedrons</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1154,7 +1154,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>weights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>weights</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>weights</computeroutput>. </para>
+<para>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>weights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>weights</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>weights</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1212,7 +1212,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of iterations Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1270,7 +1270,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>region to relax Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1328,7 +1328,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>force</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1386,7 +1386,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>limitNearInitial</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1444,7 +1444,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxInitialDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1689,7 +1689,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshEqualizeTriAreasParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshEqualizeTriAreasParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1846,7 +1846,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>surfaceDilateRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>surfaceDilateRadius</computeroutput>. </para>
+<para>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>surfaceDilateRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>surfaceDilateRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1904,7 +1904,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1962,7 +1962,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>hardSmoothTetrahedrons</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hardSmoothTetrahedrons</computeroutput>. </para>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>hardSmoothTetrahedrons</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hardSmoothTetrahedrons</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2020,7 +2020,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>weights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>weights</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>weights</computeroutput>. </para>
+<para>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>weights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>weights</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>weights</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2078,7 +2078,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of iterations Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2136,7 +2136,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>region to relax Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2194,7 +2194,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>force</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2252,7 +2252,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>limitNearInitial</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2310,7 +2310,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::MeshApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxInitialDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2555,7 +2555,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshApproxRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshApproxRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

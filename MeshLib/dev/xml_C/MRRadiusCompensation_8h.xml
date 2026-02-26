@@ -147,7 +147,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Z direction of milling tool Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>direction</computeroutput>. </para>
+<para>Z direction of milling tool Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>direction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -205,7 +205,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>radius of spherical tool Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>toolRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>toolRadius</computeroutput>. </para>
+<para>radius of spherical tool Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>toolRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>toolRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -263,7 +263,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -321,7 +321,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum iteration of applying algorithm (each iteration improves result a little bit) Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIterations</computeroutput>. </para>
+<para>maximum iteration of applying algorithm (each iteration improves result a little bit) Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -379,7 +379,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>how many hops to expand around each moved vertex for relaxation Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxExpansion</computeroutput>. </para>
+<para>how many hops to expand around each moved vertex for relaxation Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>relaxExpansion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -437,7 +437,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>how many iterations of relax is applied on each compensation iteration Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxIterations</computeroutput>. </para>
+<para>how many iterations of relax is applied on each compensation iteration Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>relaxIterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -495,7 +495,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>force of relaxations on each compensation iteration Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxForce</computeroutput>. </para>
+<para>force of relaxations on each compensation iteration Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>relaxForce</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -557,7 +557,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -660,7 +660,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CompensateRadiusParams</computeroutput> elementwise. The reference to the parameter <computeroutput>direction</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" kindref="member">MR_CompensateRadiusParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CompensateRadiusParams</computeroutput> elementwise. The reference to the parameter <computeroutput>direction</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" kindref="member">MR_CompensateRadiusParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -788,7 +788,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CompensateRadiusParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CompensateRadiusParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

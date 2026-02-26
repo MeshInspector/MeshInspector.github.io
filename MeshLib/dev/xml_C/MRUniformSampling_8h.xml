@@ -148,7 +148,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimal distance between samples Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distance</computeroutput>. </para>
+<para>minimal distance between samples Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -206,7 +206,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>minNormalDot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minNormalDot</computeroutput>. </para>
+<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>minNormalDot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minNormalDot</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -264,7 +264,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>lexicographicalOrder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lexicographicalOrder</computeroutput>. </para>
+<para>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>lexicographicalOrder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lexicographicalOrder</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -322,7 +322,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>pNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pNormals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pNormals</computeroutput>. </para>
+<para>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>pNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pNormals</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pNormals</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -384,7 +384,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report progress and cancel processing Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report progress and cancel processing Modifies a member variable of class <computeroutput>MR::UniformSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -475,7 +475,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::UniformSamplingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pNormals</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUniformSampling_8h_1af4f9b574647a0c9e3ade5bd00d334878" kindref="member">MR_UniformSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::UniformSamplingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pNormals</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUniformSampling_8h_1af4f9b574647a0c9e3ade5bd00d334878" kindref="member">MR_UniformSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -603,7 +603,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UniformSamplingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UniformSamplingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

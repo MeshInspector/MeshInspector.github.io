@@ -363,7 +363,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>use approximated computation, which is much faster than precise solution Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>fastIndicatorComputation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fastIndicatorComputation</computeroutput>. </para>
+<para>use approximated computation, which is much faster than precise solution Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>fastIndicatorComputation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fastIndicatorComputation</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -421,7 +421,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>beta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>beta</computeroutput>. </para>
+<para>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>beta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>beta</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -479,7 +479,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>gamma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>gamma</computeroutput>. </para>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>gamma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>gamma</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -537,7 +537,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>normalIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalIters</computeroutput>. </para>
+<para>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>normalIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>normalIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -595,7 +595,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>pointIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>pointIters</computeroutput>. </para>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>pointIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>pointIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -653,7 +653,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>guideWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>guideWeight</computeroutput>. </para>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>guideWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>guideWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -711,7 +711,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>limitNearInitial</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -769,7 +769,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxInitialDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -827,7 +827,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optionally returns creases found during smoothing Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>outCreases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCreases</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCreases</computeroutput>. </para>
+<para>optionally returns creases found during smoothing Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>outCreases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCreases</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outCreases</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -889,7 +889,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to get the progress and optionally cancel Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>to get the progress and optionally cancel Modifies a member variable of class <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1000,7 +1000,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outCreases</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" kindref="member">MR_DenoiseViaNormalsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DenoiseViaNormalsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outCreases</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRNormalDenoising_8h_1ae60240200999e782e0b45d31a369fc78" kindref="member">MR_DenoiseViaNormalsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1128,7 +1128,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DenoiseViaNormalsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DenoiseViaNormalsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -153,7 +153,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a in [0,1], a=0 =&gt; point is on [v2,v0] edge, a=1 =&gt; point is in v1 Modifies a member variable of class <computeroutput>MR::TriPointf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>a in [0,1], a=0 =&gt; point is on [v2,v0] edge, a=1 =&gt; point is in v1 Modifies a member variable of class <computeroutput>MR::TriPointf</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -211,7 +211,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>b in [0,1], b=0 =&gt; point is on [v0,v1] edge, b=1 =&gt; point is in v2 Modifies a member variable of class <computeroutput>MR::TriPointf</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>b in [0,1], b=0 =&gt; point is on [v0,v1] edge, b=1 =&gt; point is in v2 Modifies a member variable of class <computeroutput>MR::TriPointf</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -501,7 +501,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriPointf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriPointf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -656,7 +656,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a in [0,1], a=0 =&gt; point is on [v2,v0] edge, a=1 =&gt; point is in v1 Modifies a member variable of class <computeroutput>MR::TriPointd</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>a in [0,1], a=0 =&gt; point is on [v2,v0] edge, a=1 =&gt; point is in v1 Modifies a member variable of class <computeroutput>MR::TriPointd</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -714,7 +714,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>b in [0,1], b=0 =&gt; point is on [v0,v1] edge, b=1 =&gt; point is in v2 Modifies a member variable of class <computeroutput>MR::TriPointd</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>b in [0,1], b=0 =&gt; point is on [v0,v1] edge, b=1 =&gt; point is in v2 Modifies a member variable of class <computeroutput>MR::TriPointd</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1004,7 +1004,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriPointd::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriPointd::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -19,9 +19,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="129" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="129" bodyend="129"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Settings_1a3994b2cd9058f1446419994bf1d2cdef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.SceneLoad.Settings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Settings_1a2c1bfc7f4068995138b8bd6fad728953" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.SceneLoad.Settings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.SceneLoad.Settings.progress</qualifiedname>
@@ -32,11 +32,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="132" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="132" bodyend="132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="132" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="132" bodyend="132"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Settings_1af322d5653f3ca3c7f0068e59bcccc326" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef</type>
-        <definition>new unsafe MR.Std.Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef MR.SceneLoad.Settings.openFolder</definition>
+      <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Settings_1a8504c186ad858ebc3bbd41eb0decdfed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_ExpectedMRLoadedObjectsStdString_From_ConstStdFilesystemPathRef_ConstStdFunctionBoolFromFloatRef</type>
+        <definition>new unsafe MR.Std.Function_ExpectedMRLoadedObjectsStdString_From_ConstStdFilesystemPathRef_ConstStdFunctionBoolFromFloatRef MR.SceneLoad.Settings.openFolder</definition>
         <argsstring></argsstring>
         <name>openFolder</name>
         <qualifiedname>MR.SceneLoad.Settings.openFolder</qualifiedname>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="134" column="147" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="134" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="134" column="142" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="134" bodyend="134"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -89,10 +89,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="177" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="177" bodyend="183"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Settings_1a10472014112b9aa2f68b4d5692238876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Settings_1a18c8a5c17549e5cf3e812f20530ca255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SceneLoad.Settings.Settings</definition>
-        <argsstring>(MR.LengthUnit? targetUnit, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef openFolder)</argsstring>
+        <argsstring>(MR.LengthUnit? targetUnit, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFromFloatRef openFolder)</argsstring>
         <name>Settings</name>
         <qualifiedname>MR.SceneLoad.Settings.Settings</qualifiedname>
         <param>
@@ -104,7 +104,7 @@
           <declname>progress</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFuncFromFloatRef</type>
+          <type>MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFromFloatRef</type>
           <declname>openFolder</declname>
         </param>
         <briefdescription>
@@ -243,11 +243,11 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="125" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="126" bodyend="232"/>
     <listofallmembers>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1aa01bde15ff72db69df54ea78fed1e74c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>assign</name></member>
-      <member refid="classMR_1_1SceneLoad_1_1Settings_1af322d5653f3ca3c7f0068e59bcccc326" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>openFolder</name></member>
-      <member refid="classMR_1_1SceneLoad_1_1Settings_1a3994b2cd9058f1446419994bf1d2cdef" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>progress</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Settings_1a8504c186ad858ebc3bbd41eb0decdfed" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>openFolder</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Settings_1a2c1bfc7f4068995138b8bd6fad728953" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>progress</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1aa5dce7799b76500abc6183846914f749" prot="package" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1ab645bde17dfeeaa045d69ebe647d01f8" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
-      <member refid="classMR_1_1SceneLoad_1_1Settings_1a10472014112b9aa2f68b4d5692238876" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Settings_1a18c8a5c17549e5cf3e812f20530ca255" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1ab6a517bdff5a2f0324f8188c16b7854b" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1af942ad7435f00d2a5f3292ee66cc3d5f" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1a09ee222fc4b78c510099400ff128528a" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>

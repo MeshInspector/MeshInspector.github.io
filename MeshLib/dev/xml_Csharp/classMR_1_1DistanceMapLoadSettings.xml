@@ -19,9 +19,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1592" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1593" bodyend="1602"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DistanceMapLoadSettings_1a5a9d7bf6b4e30b3287b6b2d9fc03e222" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DistanceMapLoadSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1DistanceMapLoadSettings_1acc3fa000e7cfd08ee22dee4337ffa449" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.DistanceMapLoadSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.DistanceMapLoadSettings.progress</qualifiedname>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1605" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1605" bodyend="1605"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1605" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1605" bodyend="1605"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -232,7 +232,7 @@
       <member refid="classMR_1_1DistanceMapLoadSettings_1ac3a3475c13d56c84d0de716ecedae55b" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1a56684daf977dd1a85c7c46acffa7b3d2" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1ab67dafb04467db1c9aa9fa909f838080" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>distanceMapToWorld</name></member>
-      <member refid="classMR_1_1DistanceMapLoadSettings_1a5a9d7bf6b4e30b3287b6b2d9fc03e222" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1DistanceMapLoadSettings_1acc3fa000e7cfd08ee22dee4337ffa449" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>progress</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

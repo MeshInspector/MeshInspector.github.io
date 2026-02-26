@@ -149,14 +149,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="143" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="143" bodyend="149"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a9a91e3a957826ecacdd72da03cff8512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a10b5c522aa467cc7a4ded98abd0804bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AABBTree" kindref="compound">MR.AABBTree</ref></type>
         <definition>unsafe MR.AABBTree MR.UniqueThreadSafeOwner_MRAABBTree.getOrCreate</definition>
-        <argsstring>(MR.Std.Const_Function_MRAABBTreeFunc creator)</argsstring>
+        <argsstring>(MR.Std.Const_Function_MRAABBTree creator)</argsstring>
         <name>getOrCreate</name>
         <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTree.getOrCreate</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_MRAABBTreeFunc</type>
+          <type>MR.Std.Const_Function_MRAABBTree</type>
           <declname>creator</declname>
         </param>
         <briefdescription>
@@ -168,14 +168,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="155" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="155" bodyend="160"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a3775f2a32c009643132c79493f2a603b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1ac147e2e4c33e2dea0b92c59262c504d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.UniqueThreadSafeOwner_MRAABBTree.update</definition>
-        <argsstring>(MR.Std.Const_Function_VoidFuncFromMRAABBTreeRef updater)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Void_From_MRAABBTreeRef updater)</argsstring>
         <name>update</name>
         <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTree.update</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_VoidFuncFromMRAABBTreeRef</type>
+          <type>MR.Std.Const_Function_Void_From_MRAABBTreeRef</type>
           <declname>updater</declname>
         </param>
         <briefdescription>
@@ -239,14 +239,14 @@
     <listofallmembers>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a2aae0d8011d9dcdef79a6a92ded8b4ff" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>assign</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a72593dfc446687194d638191142126c3" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>get</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a9a91e3a957826ecacdd72da03cff8512" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>getOrCreate</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a10b5c522aa467cc7a4ded98abd0804bc" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>getOrCreate</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1aa647194492b8c7a80e5be9187651dcfe" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>reset</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a8726989269f93ceaaa6920e30efeaf2b" prot="package" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>UniqueThreadSafeOwner_MRAABBTree</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a62c59f217cdc7a5d9bae6c289e7e695c" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>UniqueThreadSafeOwner_MRAABBTree</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1ad730dbec9cdf36a817c9f41a5e3b9ae6" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>UniqueThreadSafeOwner_MRAABBTree</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a00bbc7849f34d049a715f8507b8153a4" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>UniqueThreadSafeOwner_MRAABBTree</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1ac28fc7453eff7a4310e992c7186c7891" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>UniqueThreadSafeOwner_MRAABBTree</name></member>
-      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1a3775f2a32c009643132c79493f2a603b" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>update</name></member>
+      <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTree_1ac147e2e4c33e2dea0b92c59262c504d9" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTree</scope><name>update</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

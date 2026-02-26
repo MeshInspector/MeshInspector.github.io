@@ -743,7 +743,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>conversionFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>conversionFactor</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>conversionFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>conversionFactor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -805,7 +805,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>prettyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prettyName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>prettyName</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>prettyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prettyName</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>prettyName</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -867,7 +867,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>unitSuffix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>unitSuffix</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>unitSuffix</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>unitSuffix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>unitSuffix</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>unitSuffix</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -954,7 +954,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::UnitInfo</computeroutput> elementwise. Parameter <computeroutput>prettyName</computeroutput> can not be null. If <computeroutput>prettyName_end</computeroutput> is null, then <computeroutput>prettyName</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>prettyName</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>unitSuffix</computeroutput> can not be null. If <computeroutput>unitSuffix_end</computeroutput> is null, then <computeroutput>unitSuffix</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>unitSuffix</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" kindref="member">MR_UnitInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::UnitInfo</computeroutput> elementwise. Parameter <computeroutput>prettyName</computeroutput> can not be null. If <computeroutput>prettyName_end</computeroutput> is null, then <computeroutput>prettyName</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>prettyName</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>unitSuffix</computeroutput> can not be null. If <computeroutput>unitSuffix_end</computeroutput> is null, then <computeroutput>unitSuffix</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>unitSuffix</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" kindref="member">MR_UnitInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1074,7 +1074,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UnitInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UnitInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -9,6 +9,6 @@ var classMR_1_1WeightedShell_1_1ParametersMetric =
     [ "dist", "classMR_1_1WeightedShell_1_1ParametersMetric.html#a4ada3a35f14b03bba83920f726f39ca4", null ],
     [ "numLayers", "classMR_1_1WeightedShell_1_1ParametersMetric.html#a7de848ed9ad5d6bb182ec2f87885856f", null ],
     [ "offset", "classMR_1_1WeightedShell_1_1ParametersMetric.html#aed23b668a2f6acf1cbcb446ce2c047c6", null ],
-    [ "progress", "classMR_1_1WeightedShell_1_1ParametersMetric.html#a4acc2e2316f21b26ac52ad25db130932", null ],
+    [ "progress", "classMR_1_1WeightedShell_1_1ParametersMetric.html#ac84edd9957b85c5628d8227863afb45a", null ],
     [ "voxelSize", "classMR_1_1WeightedShell_1_1ParametersMetric.html#a89334b4528722951fe6d1171f2b3a81b", null ]
 ];

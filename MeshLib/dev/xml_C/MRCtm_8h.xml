@@ -497,7 +497,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>meshCompression</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshCompression</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshCompression</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>meshCompression</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshCompression</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshCompression</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -555,7 +555,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>vertexPrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>vertexPrecision</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>vertexPrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>vertexPrecision</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -613,7 +613,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>compressionLevel</computeroutput>. </para>
+<para>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>compressionLevel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -671,7 +671,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>comment saved in the file Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>comment</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>comment</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>comment</computeroutput>. </para>
+<para>comment saved in the file Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>comment</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>comment</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>comment</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -729,7 +729,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>onlyValidPoints</computeroutput>. </para>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>onlyValidPoints</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -787,7 +787,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>packPrimitives</computeroutput>. </para>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>packPrimitives</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -845,7 +845,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional per-vertex color to save with the geometry Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+<para>optional per-vertex color to save with the geometry Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -903,7 +903,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>primitiveColors</computeroutput>. </para>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>primitiveColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -961,7 +961,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvMap</computeroutput>. </para>
+<para>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uvMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1019,7 +1019,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>saveTriCornerUVCoords</computeroutput>. </para>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>saveTriCornerUVCoords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1077,7 +1077,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional texture to save with the geometry Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texture</computeroutput>. </para>
+<para>optional texture to save with the geometry Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>texture</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1139,7 +1139,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>materialName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>materialName</computeroutput>. </para>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>materialName</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>materialName</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1197,7 +1197,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1255,7 +1255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1313,7 +1313,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the color of whole object Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>solidColor</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>solidColor</computeroutput>. </para>
+<para>the color of whole object Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>solidColor</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>solidColor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1375,7 +1375,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1592,7 +1592,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshSave::CtmSaveOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshSave::CtmSaveOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1792,7 +1792,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>compressionLevel</computeroutput>. </para>
+<para>0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>compressionLevel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1850,7 +1850,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>comment saved in the file Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>comment</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>comment</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>comment</computeroutput>. </para>
+<para>comment saved in the file Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>comment</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>comment</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>comment</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1908,7 +1908,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>onlyValidPoints</computeroutput>. </para>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>onlyValidPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>onlyValidPoints</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1966,7 +1966,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>packPrimitives</computeroutput>. </para>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>packPrimitives</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>packPrimitives</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2024,7 +2024,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional per-vertex color to save with the geometry Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+<para>optional per-vertex color to save with the geometry Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2082,7 +2082,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>primitiveColors</computeroutput>. </para>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>primitiveColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>primitiveColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2140,7 +2140,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvMap</computeroutput>. </para>
+<para>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>uvMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uvMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2198,7 +2198,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>saveTriCornerUVCoords</computeroutput>. </para>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>saveTriCornerUVCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>saveTriCornerUVCoords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2256,7 +2256,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional texture to save with the geometry Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texture</computeroutput>. </para>
+<para>optional texture to save with the geometry Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>texture</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2318,7 +2318,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>materialName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>materialName</computeroutput>. </para>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>materialName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>materialName</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>materialName</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2376,7 +2376,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2434,7 +2434,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2492,7 +2492,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the color of whole object Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>solidColor</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>solidColor</computeroutput>. </para>
+<para>the color of whole object Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>solidColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>solidColor</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>solidColor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2554,7 +2554,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2771,7 +2771,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsSave::CtmSavePointsOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsSave::CtmSavePointsOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

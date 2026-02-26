@@ -859,7 +859,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>path</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>path</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>path</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>path</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -921,7 +921,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>format</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>format</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>format</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>format</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>format</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>format</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -979,7 +979,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>slicePlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>slicePlane</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>slicePlane</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>slicePlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>slicePlane</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>slicePlane</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1041,7 +1041,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1136,7 +1136,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> elementwise. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>path</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>format</computeroutput> can not be null. If <computeroutput>format_end</computeroutput> is null, then <computeroutput>format</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>format</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>slicePlane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" kindref="member">MR_VoxelsSave_SavingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> elementwise. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>path</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>format</computeroutput> can not be null. If <computeroutput>format_end</computeroutput> is null, then <computeroutput>format</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>format</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>slicePlane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" kindref="member">MR_VoxelsSave_SavingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1264,7 +1264,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelsSave::SavingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelsSave::SavingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

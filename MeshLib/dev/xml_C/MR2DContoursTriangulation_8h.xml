@@ -331,7 +331,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>lOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lOrg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lOrg</computeroutput>. </para>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>lOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lOrg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lOrg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -389,7 +389,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>lDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lDest</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lDest</computeroutput>. </para>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>lDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lDest</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lDest</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -447,7 +447,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ids of upper intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>uOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uOrg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uOrg</computeroutput>. </para>
+<para>ids of upper intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>uOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uOrg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uOrg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -505,7 +505,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ids of upper intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>uDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uDest</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uDest</computeroutput>. </para>
+<para>ids of upper intersection edge vertices Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>uDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uDest</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uDest</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -563,7 +563,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>lRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lRatio</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>lRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -621,7 +621,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>uRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>uRatio</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> named <computeroutput>uRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>uRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -712,7 +712,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>lOrg</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>lDest</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uOrg</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uDest</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a6f252df0f0100267060ca16e99f8c5cf" kindref="member">MR_PlanarTriangulation_IntersectionInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PlanarTriangulation::IntersectionInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>lOrg</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>lDest</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uOrg</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uDest</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a6f252df0f0100267060ca16e99f8c5cf" kindref="member">MR_PlanarTriangulation_IntersectionInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -832,7 +832,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PlanarTriangulation::IntersectionInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PlanarTriangulation::IntersectionInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -890,7 +890,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shift of index Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionsMap</computeroutput> named <computeroutput>shift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>shift</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>shift</computeroutput>. </para>
+<para>shift of index Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionsMap</computeroutput> named <computeroutput>shift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>shift</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>shift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -952,7 +952,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>map[id-shift] = {lower intersection edge, upper intersection edge} Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionsMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>map</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>map</computeroutput>. </para>
+<para>map[id-shift] = {lower intersection edge, upper intersection edge} Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::IntersectionsMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>map</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>map</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1031,7 +1031,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PlanarTriangulation::IntersectionsMap</computeroutput> elementwise. The reference to the parameter <computeroutput>shift</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>map</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a78bac710ae3a42ced03927913dbe2436" kindref="member">MR_PlanarTriangulation_IntersectionsMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PlanarTriangulation::IntersectionsMap</computeroutput> elementwise. The reference to the parameter <computeroutput>shift</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>map</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a78bac710ae3a42ced03927913dbe2436" kindref="member">MR_PlanarTriangulation_IntersectionsMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1159,7 +1159,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PlanarTriangulation::IntersectionsMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. allow to merge vertices with same coordinates Returns a pointer to a member variable of class <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> named <computeroutput>allowMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::PlanarTriangulation::IntersectionsMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. allow to merge vertices with same coordinates Returns a pointer to a member variable of class <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> named <computeroutput>allowMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1177,7 +1177,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>allow to merge vertices with same coordinates Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> named <computeroutput>allowMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>allowMerge</computeroutput>. </para>
+<para>allow to merge vertices with same coordinates Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> named <computeroutput>allowMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>allowMerge</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1235,7 +1235,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>what to mark as inner part Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> named <computeroutput>innerType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>innerType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>innerType</computeroutput>. </para>
+<para>what to mark as inner part Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> named <computeroutput>innerType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>innerType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>innerType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1331,7 +1331,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>innerType</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a6e068ad6ff81625452b6648127af338d" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>innerType</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a6e068ad6ff81625452b6648127af338d" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1451,7 +1451,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PlanarTriangulation::BaseOutlineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1521,7 +1521,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output from result contour ids to input ones Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::OutlineParameters</computeroutput> named <computeroutput>indicesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>indicesMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>indicesMap</computeroutput>. </para>
+<para>optional output from result contour ids to input ones Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::OutlineParameters</computeroutput> named <computeroutput>indicesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>indicesMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>indicesMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1600,7 +1600,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::OutlineParameters</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>baseParams</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>baseParams</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PlanarTriangulation::OutlineParameters</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>baseParams</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>baseParams</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1675,7 +1675,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PlanarTriangulation::OutlineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>indicesMap</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>baseParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>baseParams</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1ad41ad47cb4b6c1ea06a63df166b24098" kindref="member">MR_PlanarTriangulation_OutlineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PlanarTriangulation::OutlineParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>indicesMap</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>baseParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>baseParams</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MR2DContoursTriangulation_8h_1ad41ad47cb4b6c1ea06a63df166b24098" kindref="member">MR_PlanarTriangulation_OutlineParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1795,7 +1795,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PlanarTriangulation::OutlineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PlanarTriangulation::OutlineParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

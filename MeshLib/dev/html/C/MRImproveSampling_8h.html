@@ -406,7 +406,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::ImproveSamplingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::ImproveSamplingSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -463,7 +463,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::ImproveSamplingSettings</code> elementwise. The reference to the parameter <code>pt2sm</code> might be preserved in the constructed object. The reference to the parameter <code>cloudOfSamples</code> might be preserved in the constructed object. The reference to the parameter <code>ptsInSm</code> might be preserved in the constructed object. The reference to the parameter <code>ptColors</code> might be preserved in the constructed object. The reference to the parameter <code>smColors</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1858356f3ef4d8fc94de81cf6b361a0d" title="Destroys a heap-allocated instance of MR_ImproveSamplingSettings. Does nothing if the pointer is null...">MR_ImproveSamplingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::ImproveSamplingSettings</code> elementwise. The reference to the parameter <code>pt2sm</code> might be preserved in the constructed object. The reference to the parameter <code>cloudOfSamples</code> might be preserved in the constructed object. The reference to the parameter <code>ptsInSm</code> might be preserved in the constructed object. The reference to the parameter <code>ptColors</code> might be preserved in the constructed object. The reference to the parameter <code>smColors</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1858356f3ef4d8fc94de81cf6b361a0d" title="Destroys a heap-allocated instance of MR_ImproveSamplingSettings. Does nothing if the pointer is null...">MR_ImproveSamplingSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -913,7 +913,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: new cloud containing averaged points and normals for each sample Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>cloudOfSamples</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cloudOfSamples</code>. When this function is called, this object will drop object references it had previously in <code>cloudOfSamples</code>. </p>
+<p>optional output: new cloud containing averaged points and normals for each sample Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>cloudOfSamples</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cloudOfSamples</code>. When this function is called, this object will drop object references it held previously in <code>cloudOfSamples</code>. </p>
 
 </div>
 </div>
@@ -935,7 +935,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>minPointsInSample</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minPointsInSample</code>. </p>
+<p>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>minPointsInSample</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>minPointsInSample</code>. </p>
 
 </div>
 </div>
@@ -957,7 +957,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of algorithm iterations to perform Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>numIters</code>. </p>
+<p>the number of algorithm iterations to perform Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>numIters</code>. </p>
 
 </div>
 </div>
@@ -984,7 +984,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>output progress status and receive cancel signal Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>output progress status and receive cancel signal Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it held previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -1006,7 +1006,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: mapping from input point id to sample id Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>pt2sm</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>pt2sm</code>. When this function is called, this object will drop object references it had previously in <code>pt2sm</code>. </p>
+<p>optional output: mapping from input point id to sample id Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>pt2sm</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>pt2sm</code>. When this function is called, this object will drop object references it held previously in <code>pt2sm</code>. </p>
 
 </div>
 </div>
@@ -1028,7 +1028,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: colors of input points Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptColors</code>. When this function is called, this object will drop object references it had previously in <code>ptColors</code>. </p>
+<p>optional input: colors of input points Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptColors</code>. When this function is called, this object will drop object references it held previously in <code>ptColors</code>. </p>
 
 </div>
 </div>
@@ -1050,7 +1050,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: the number of points in each sample Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>ptsInSm</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptsInSm</code>. When this function is called, this object will drop object references it had previously in <code>ptsInSm</code>. </p>
+<p>optional output: the number of points in each sample Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>ptsInSm</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptsInSm</code>. When this function is called, this object will drop object references it held previously in <code>ptsInSm</code>. </p>
 
 </div>
 </div>
@@ -1072,7 +1072,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: averaged colors of samples Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>smColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>smColors</code>. When this function is called, this object will drop object references it had previously in <code>smColors</code>. </p>
+<p>optional output: averaged colors of samples Modifies a member variable of class <code>MR::ImproveSamplingSettings</code> named <code>smColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>smColors</code>. When this function is called, this object will drop object references it held previously in <code>smColors</code>. </p>
 
 </div>
 </div>

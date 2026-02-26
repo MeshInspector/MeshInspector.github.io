@@ -190,7 +190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Image</computeroutput> named <computeroutput>pixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixels</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pixels</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Image</computeroutput> named <computeroutput>pixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixels</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pixels</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -248,7 +248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Image</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>resolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Image</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>resolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -327,7 +327,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Image</computeroutput> elementwise. The reference to the parameter <computeroutput>pixels</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>resolution</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImage_8h_1af06c9ac84a3ec96391104e08e3bd494b" kindref="member">MR_Image_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Image</computeroutput> elementwise. The reference to the parameter <computeroutput>pixels</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>resolution</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImage_8h_1af06c9ac84a3ec96391104e08e3bd494b" kindref="member">MR_Image_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -491,7 +491,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Image::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Image::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

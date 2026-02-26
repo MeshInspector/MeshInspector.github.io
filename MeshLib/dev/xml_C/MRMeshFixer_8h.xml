@@ -576,7 +576,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum permitted deviation from the original surface Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>maxDeviation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeviation</computeroutput>. </para>
+<para>maximum permitted deviation from the original surface Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>maxDeviation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeviation</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -634,7 +634,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
+<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -692,7 +692,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -750,7 +750,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Permit edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChange</computeroutput>. </para>
+<para>Permit edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -808,7 +808,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -866,7 +866,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>degenerations will be fixed only in given region, it is updated during the operation Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>degenerations will be fixed only in given region, it is updated during the operation Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -924,7 +924,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>mode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>mode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -986,7 +986,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1089,7 +1089,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFixer_8h_1a0db332c93f0c7b31840f4c61f2f59b3d" kindref="member">MR_FixMeshDegeneraciesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FixMeshDegeneraciesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFixer_8h_1a0db332c93f0c7b31840f4c61f2f59b3d" kindref="member">MR_FixMeshDegeneraciesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1217,7 +1217,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FixMeshDegeneraciesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FixMeshDegeneraciesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1522,7 +1522,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edges with dihedral angle sharper this will be considered as creases Modifies a member variable of class <computeroutput>MR::FixCreasesParams</computeroutput> named <computeroutput>creaseAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>creaseAngle</computeroutput>. </para>
+<para>edges with dihedral angle sharper this will be considered as creases Modifies a member variable of class <computeroutput>MR::FixCreasesParams</computeroutput> named <computeroutput>creaseAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>creaseAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1580,7 +1580,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>planar check is skipped for faces with worse aspect ratio Modifies a member variable of class <computeroutput>MR::FixCreasesParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
+<para>planar check is skipped for faces with worse aspect ratio Modifies a member variable of class <computeroutput>MR::FixCreasesParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1638,7 +1638,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum number of algorithm iterations Modifies a member variable of class <computeroutput>MR::FixCreasesParams</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIters</computeroutput>. </para>
+<para>maximum number of algorithm iterations Modifies a member variable of class <computeroutput>MR::FixCreasesParams</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1717,7 +1717,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FixCreasesParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFixer_8h_1a73fac2ae737ab1bd7a0a099cc9a5286d" kindref="member">MR_FixCreasesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FixCreasesParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFixer_8h_1a73fac2ae737ab1bd7a0a099cc9a5286d" kindref="member">MR_FixCreasesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1837,7 +1837,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FixCreasesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FixCreasesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1899,7 +1899,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FindDisorientationParams</computeroutput> named <computeroutput>mode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FindDisorientationParams</computeroutput> named <computeroutput>mode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1957,7 +1957,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Modifies a member variable of class <computeroutput>MR::FindDisorientationParams</computeroutput> named <computeroutput>virtualFillHoles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>virtualFillHoles</computeroutput>. </para>
+<para>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Modifies a member variable of class <computeroutput>MR::FindDisorientationParams</computeroutput> named <computeroutput>virtualFillHoles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>virtualFillHoles</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2019,7 +2019,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FindDisorientationParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FindDisorientationParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2102,7 +2102,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindDisorientationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>mode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFixer_8h_1a3cc39a057bd32d5cf822537966f53086" kindref="member">MR_FindDisorientationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindDisorientationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>mode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFixer_8h_1a3cc39a057bd32d5cf822537966f53086" kindref="member">MR_FindDisorientationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2230,7 +2230,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindDisorientationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindDisorientationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

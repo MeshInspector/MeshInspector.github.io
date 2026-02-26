@@ -191,10 +191,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1255" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1255" bodyend="1260"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4ec8e65e49f461f24fff09204cff91b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a0b5a8aa5f854f307af97aafe7cb3ab69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>unsafe MR.EdgeId MR.MeshTopology.collapseEdge</definition>
-        <argsstring>(MR.EdgeId e, MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel)</argsstring>
+        <argsstring>(MR.EdgeId e, MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId onEdgeDel)</argsstring>
         <name>collapseEdge</name>
         <qualifiedname>MR.MeshTopology.collapseEdge</qualifiedname>
         <param>
@@ -202,14 +202,14 @@
           <declname>e</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeDel</declname>
         </param>
         <briefdescription>
 <para>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>prev( e ) if it is still valid Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a4ec8e65e49f461f24fff09204cff91b8" kindref="member">MR.MeshTopology.collapseEdge</ref></computeroutput>. </para>
+<para><simplesect kind="return"><para>prev( e ) if it is still valid Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a0b5a8aa5f854f307af97aafe7cb3ab69" kindref="member">MR.MeshTopology.collapseEdge</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1140,7 +1140,7 @@
       <member refid="classMR_1_1MeshTopology_1aa909a6bd7c873592dc14277eac2df1d6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addVertId</name></member>
       <member refid="classMR_1_1MeshTopology_1a349c518750c2bda3d9dba761d2c87971" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshTopology_1a4d7b0e67841e8fbb5a530ca5a16bdb2d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>buildGridMesh</name></member>
-      <member refid="classMR_1_1MeshTopology_1a4ec8e65e49f461f24fff09204cff91b8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>collapseEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1a0b5a8aa5f854f307af97aafe7cb3ab69" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>collapseEdge</name></member>
       <member refid="classMR_1_1MeshTopology_1aa76b3349fea4ac31882ced318c027d43" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeValidsFromEdges</name></member>
       <member refid="classMR_1_1MeshTopology_1a02ab985393952c324537391d3a95b34b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFace</name></member>
       <member refid="classMR_1_1MeshTopology_1a877289bbfc2c5c17342785bfccba71f5" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFaces</name></member>

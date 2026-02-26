@@ -266,7 +266,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>obj</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>obj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -328,7 +328,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warnings</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warnings</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -386,7 +386,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -473,7 +473,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1aa33a6f93428c78b7748bdf57aec0ce13" kindref="member">MR_LoadedObjectT_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::LoadedObjectT&lt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1aa33a6f93428c78b7748bdf57aec0ce13" kindref="member">MR_LoadedObjectT_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -601,7 +601,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -645,7 +645,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>obj</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>obj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -707,7 +707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warnings</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warnings</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -765,7 +765,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -852,7 +852,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a8e199029b00d0fc7d78d8ee58c3813de" kindref="member">MR_LoadedObjectT_MR_ObjectMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a8e199029b00d0fc7d78d8ee58c3813de" kindref="member">MR_LoadedObjectT_MR_ObjectMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -980,7 +980,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectMesh&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1024,7 +1024,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>obj</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>obj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1086,7 +1086,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warnings</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warnings</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1144,7 +1144,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1231,7 +1231,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a13346ea172fec8730722c86d16b3c30e" kindref="member">MR_LoadedObjectT_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a13346ea172fec8730722c86d16b3c30e" kindref="member">MR_LoadedObjectT_MR_ObjectPoints_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1359,7 +1359,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectPoints&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1403,7 +1403,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>obj</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>obj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1465,7 +1465,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warnings</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warnings</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1523,7 +1523,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1610,7 +1610,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a7fc4e2825c40f7c72b53466aaed4fcdf" kindref="member">MR_LoadedObjectT_MR_ObjectLines_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a7fc4e2825c40f7c72b53466aaed4fcdf" kindref="member">MR_LoadedObjectT_MR_ObjectLines_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1738,7 +1738,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectLines&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1782,7 +1782,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>obj</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>obj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1844,7 +1844,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warnings</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warnings</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1902,7 +1902,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1989,7 +1989,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1aceb22e44ed864849e73bc96c8ae65c15" kindref="member">MR_LoadedObjectT_MR_ObjectVoxels_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1aceb22e44ed864849e73bc96c8ae65c15" kindref="member">MR_LoadedObjectT_MR_ObjectVoxels_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2117,7 +2117,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::LoadedObjectT&lt;MR::ObjectVoxels&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2161,7 +2161,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjects</computeroutput> named <computeroutput>objs</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>objs</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>objs</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjects</computeroutput> named <computeroutput>objs</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>objs</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>objs</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2223,7 +2223,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::LoadedObjects</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>warnings</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::LoadedObjects</computeroutput> named <computeroutput>warnings</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>warnings</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>warnings</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2281,7 +2281,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjects</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of object coordinates and transformations (if known) Modifies a member variable of class <computeroutput>MR::LoadedObjects</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2368,7 +2368,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::LoadedObjects</computeroutput> elementwise. The reference to the parameter <computeroutput>objs</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a742c1040de6a57ccba12c3bcce4ee0cd" kindref="member">MR_LoadedObjects_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::LoadedObjects</computeroutput> elementwise. The reference to the parameter <computeroutput>objs</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>warnings</computeroutput> can not be null. If <computeroutput>warnings_end</computeroutput> is null, then <computeroutput>warnings</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>warnings</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLoadedObjects_8h_1a742c1040de6a57ccba12c3bcce4ee0cd" kindref="member">MR_LoadedObjects_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2496,7 +2496,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::LoadedObjects::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::LoadedObjects::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -110,7 +110,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>src2tgtFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>src2tgtFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -168,7 +168,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>src2tgtVerts</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>src2tgtVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -226,7 +226,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>src2tgtEdges</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>src2tgtEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>src2tgtEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>src2tgtEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -284,7 +284,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgt2srcFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgt2srcFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -342,7 +342,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgt2srcVerts</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgt2srcVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -400,7 +400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tgt2srcEdges</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PartMapping</computeroutput> named <computeroutput>tgt2srcEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tgt2srcEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tgt2srcEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -491,7 +491,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PartMapping</computeroutput> elementwise. The reference to the parameter <computeroutput>src2tgtFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>src2tgtVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>src2tgtEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" kindref="member">MR_PartMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PartMapping</computeroutput> elementwise. The reference to the parameter <computeroutput>src2tgtFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>src2tgtVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>src2tgtEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tgt2srcEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPartMapping_8h_1a04d3717585c8d4cff0148dd33b1a0966" kindref="member">MR_PartMapping_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -611,7 +611,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PartMapping::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PartMapping::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

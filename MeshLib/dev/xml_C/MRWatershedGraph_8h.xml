@@ -893,7 +893,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in the whole basin Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lowestVert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lowestVert</computeroutput>. </para>
+<para>in the whole basin Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lowestVert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lowestVert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -951,7 +951,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>lowest level (z-coordinate of lowestVert) in the basin Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lowestLevel</computeroutput>. </para>
+<para>lowest level (z-coordinate of lowestVert) in the basin Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lowestLevel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1009,7 +1009,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precipitation area that flows in this basin (and if it is full, continue flowing next) Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>area</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>area</computeroutput>. </para>
+<para>precipitation area that flows in this basin (and if it is full, continue flowing next) Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>area</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>area</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1067,7 +1067,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>lowest position on the boundary of the basin Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestBdLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lowestBdLevel</computeroutput>. </para>
+<para>lowest position on the boundary of the basin Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestBdLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lowestBdLevel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1125,7 +1125,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>maxVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxVolume</computeroutput>. </para>
+<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>maxVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxVolume</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1183,7 +1183,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>accumulated water volume in the basin so far Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>accVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>accVolume</computeroutput>. </para>
+<para>accumulated water volume in the basin so far Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>accVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>accVolume</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1241,7 +1241,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount when accVolume was last updated Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastUpdateAmount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lastUpdateAmount</computeroutput>. </para>
+<para>the amount when accVolume was last updated Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastUpdateAmount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lastUpdateAmount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1299,7 +1299,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>water level in the basin when it was formed (by merge or creation) Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lastMergeLevel</computeroutput>. </para>
+<para>water level in the basin when it was formed (by merge or creation) Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lastMergeLevel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1357,7 +1357,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>water volume in the basin when it was formed (by merge or creation) Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lastMergeVolume</computeroutput>. </para>
+<para>water volume in the basin when it was formed (by merge or creation) Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lastMergeVolume</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1415,7 +1415,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>overflowVia</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overflowVia</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>overflowVia</computeroutput>. </para>
+<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary Modifies a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>overflowVia</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overflowVia</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>overflowVia</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1609,7 +1609,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WatershedGraph::BasinInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WatershedGraph::BasinInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1685,7 +1685,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>on this boundary Modifies a member variable of class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lowestVert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lowestVert</computeroutput>. </para>
+<para>on this boundary Modifies a member variable of class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lowestVert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lowestVert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1777,7 +1777,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>lowestVert</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" kindref="member">MR_WatershedGraph_BdInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>lowestVert</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" kindref="member">MR_WatershedGraph_BdInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1897,7 +1897,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WatershedGraph::BdInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WatershedGraph::BdInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1937,7 +1937,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>v</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>v</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1995,7 +1995,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>fullBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fullBasin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fullBasin</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>fullBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fullBasin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fullBasin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2053,7 +2053,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>overflowTo</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overflowTo</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>overflowTo</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>overflowTo</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overflowTo</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>overflowTo</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2132,7 +2132,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fullBasin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>overflowTo</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" kindref="member">MR_WatershedGraph_OverflowPoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fullBasin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>overflowTo</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" kindref="member">MR_WatershedGraph_OverflowPoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2252,7 +2252,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WatershedGraph::OverflowPoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WatershedGraph::OverflowPoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

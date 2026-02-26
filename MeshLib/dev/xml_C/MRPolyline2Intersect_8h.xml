@@ -247,7 +247,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>intersection point in polyline Modifies a member variable of class <computeroutput>MR::PolylineIntersectionResult2</computeroutput> named <computeroutput>edgePoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgePoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgePoint</computeroutput>. </para>
+<para>intersection point in polyline Modifies a member variable of class <computeroutput>MR::PolylineIntersectionResult2</computeroutput> named <computeroutput>edgePoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgePoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edgePoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -305,7 +305,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores the distance from ray origin to the intersection point in direction units Modifies a member variable of class <computeroutput>MR::PolylineIntersectionResult2</computeroutput> named <computeroutput>distanceAlongLine</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distanceAlongLine</computeroutput>. </para>
+<para>stores the distance from ray origin to the intersection point in direction units Modifies a member variable of class <computeroutput>MR::PolylineIntersectionResult2</computeroutput> named <computeroutput>distanceAlongLine</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distanceAlongLine</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -380,7 +380,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineIntersectionResult2</computeroutput> elementwise. Parameter <computeroutput>edgePoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>edgePoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolyline2Intersect_8h_1af9929c9298916f994f3ddbcbf3058b2f" kindref="member">MR_PolylineIntersectionResult2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineIntersectionResult2</computeroutput> elementwise. Parameter <computeroutput>edgePoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>edgePoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolyline2Intersect_8h_1af9929c9298916f994f3ddbcbf3058b2f" kindref="member">MR_PolylineIntersectionResult2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -500,7 +500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineIntersectionResult2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineIntersectionResult2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

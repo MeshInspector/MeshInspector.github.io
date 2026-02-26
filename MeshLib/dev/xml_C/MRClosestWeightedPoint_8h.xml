@@ -207,7 +207,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a cloud&apos;s point Modifies a member variable of class <computeroutput>MR::PointAndDistance</computeroutput> named <computeroutput>vId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vId</computeroutput>. </para>
+<para>a cloud&apos;s point Modifies a member variable of class <computeroutput>MR::PointAndDistance</computeroutput> named <computeroutput>vId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -265,7 +265,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the distance from input location to point vId considering point&apos;s weight Modifies a member variable of class <computeroutput>MR::PointAndDistance</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>the distance from input location to point vId considering point&apos;s weight Modifies a member variable of class <computeroutput>MR::PointAndDistance</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -340,7 +340,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PointAndDistance</computeroutput> elementwise. The reference to the parameter <computeroutput>vId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRClosestWeightedPoint_8h_1aa0997187637a37eef606131d58b1cca7" kindref="member">MR_PointAndDistance_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PointAndDistance</computeroutput> elementwise. The reference to the parameter <computeroutput>vId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRClosestWeightedPoint_8h_1aa0997187637a37eef606131d58b1cca7" kindref="member">MR_PointAndDistance_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -478,7 +478,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointAndDistance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointAndDistance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -536,7 +536,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>point location Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>loc</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>loc</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>loc</computeroutput>. </para>
+<para>point location Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>loc</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>loc</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>loc</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -594,7 +594,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the corresponding point on mesh in barycentric representation Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>mtp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mtp</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mtp</computeroutput>. </para>
+<para>the corresponding point on mesh in barycentric representation Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>mtp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mtp</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mtp</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -652,7 +652,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>euclidean distance from input location to mtp Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>eucledeanDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>eucledeanDist</computeroutput>. </para>
+<para>euclidean distance from input location to mtp Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>eucledeanDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>eucledeanDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -710,7 +710,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>point&apos;s weight Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>w</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>w</computeroutput>. </para>
+<para>point&apos;s weight Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>w</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>w</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -768,7 +768,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>either 1) bidirectional distances are computed, or 2) input location is locally outside of the surface (by pseudonormal) used for optimization Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>bidirectionalOrOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bidirectionalOrOutside</computeroutput>. </para>
+<para>either 1) bidirectional distances are computed, or 2) input location is locally outside of the surface (by pseudonormal) used for optimization Modifies a member variable of class <computeroutput>MR::MeshPointAndDistance</computeroutput> named <computeroutput>bidirectionalOrOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bidirectionalOrOutside</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -855,7 +855,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshPointAndDistance</computeroutput> elementwise. The reference to the parameter <computeroutput>loc</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mtp</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mtp</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a29faa6263afbf4043bc2ce1466c0c1a7" kindref="member">MR_MeshPointAndDistance_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshPointAndDistance</computeroutput> elementwise. The reference to the parameter <computeroutput>loc</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mtp</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mtp</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a29faa6263afbf4043bc2ce1466c0c1a7" kindref="member">MR_MeshPointAndDistance_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -993,7 +993,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshPointAndDistance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshPointAndDistance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1091,7 +1091,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>function returning the weight of each point, must be set by the user Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>pointWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointWeight</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pointWeight</computeroutput>. </para>
+<para>function returning the weight of each point, must be set by the user Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>pointWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointWeight</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pointWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1149,7 +1149,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>minWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minWeight</computeroutput>. </para>
+<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>minWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1207,7 +1207,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>maxWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxWeight</computeroutput>. </para>
+<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>maxWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1265,7 +1265,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal magnitude of gradient of points&apos; weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>maxWeightGrad</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxWeightGrad</computeroutput>. </para>
+<para>maximal magnitude of gradient of points&apos; weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>maxWeightGrad</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxWeightGrad</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1323,7 +1323,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>bidirectionalMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bidirectionalMode</computeroutput>. </para>
+<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> named <computeroutput>bidirectionalMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bidirectionalMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1414,7 +1414,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> elementwise. The reference to the parameter <computeroutput>pointWeight</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a39be7ccd78d702fedbf83c587b302dc1" kindref="member">MR_DistanceFromWeightedPointsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DistanceFromWeightedPointsParams</computeroutput> elementwise. The reference to the parameter <computeroutput>pointWeight</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a39be7ccd78d702fedbf83c587b302dc1" kindref="member">MR_DistanceFromWeightedPointsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1578,7 +1578,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceFromWeightedPointsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceFromWeightedPointsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1618,7 +1618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>minBidirDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minBidirDist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>minBidirDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minBidirDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1676,7 +1676,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>find the closest point only if weighted bidirectional distance to it is less than given value Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>maxBidirDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxBidirDist</computeroutput>. </para>
+<para>find the closest point only if weighted bidirectional distance to it is less than given value Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>maxBidirDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxBidirDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1738,7 +1738,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>function returning the weight of each point, must be set by the user Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>pointWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointWeight</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pointWeight</computeroutput>. </para>
+<para>function returning the weight of each point, must be set by the user Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>pointWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointWeight</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pointWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1796,7 +1796,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>minWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minWeight</computeroutput>. </para>
+<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>minWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1854,7 +1854,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>maxWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxWeight</computeroutput>. </para>
+<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>maxWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1912,7 +1912,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal magnitude of gradient of points&apos; weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>maxWeightGrad</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxWeightGrad</computeroutput>. </para>
+<para>maximal magnitude of gradient of points&apos; weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>maxWeightGrad</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxWeightGrad</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1970,7 +1970,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>bidirectionalMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bidirectionalMode</computeroutput>. </para>
+<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction Modifies a member variable of class <computeroutput>MR::DistanceFromWeightedPointsComputeParams</computeroutput> named <computeroutput>bidirectionalMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bidirectionalMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2187,7 +2187,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceFromWeightedPointsComputeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceFromWeightedPointsComputeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

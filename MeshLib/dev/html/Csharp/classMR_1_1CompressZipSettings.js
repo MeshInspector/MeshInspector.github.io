@@ -6,7 +6,7 @@ var classMR_1_1CompressZipSettings =
     [ "CompressZipSettings", "classMR_1_1CompressZipSettings.html#aed19ef0bd8a95c646e3f20bc2c2818de", null ],
     [ "CompressZipSettings", "classMR_1_1CompressZipSettings.html#a16e4c20b03f1bf4b1973f81e860a2609", null ],
     [ "assign", "classMR_1_1CompressZipSettings.html#a29a93ef8b54061a63a1e48b90f72df3b", null ],
-    [ "cb", "classMR_1_1CompressZipSettings.html#ab44d370f01c543007abcefd5d30d9234", null ],
+    [ "cb", "classMR_1_1CompressZipSettings.html#a79b7de174cb5512fcbbac3038cc4079b", null ],
     [ "compressionLevel", "classMR_1_1CompressZipSettings.html#aabec1ee43236cd7635fc23efaca93406", null ],
     [ "excludeFiles", "classMR_1_1CompressZipSettings.html#abe3840e1157574bdb901380c5eec2aac", null ],
     [ "password", "classMR_1_1CompressZipSettings.html#a5a3c0f7c66ffa6bea93cbf506d7d7267", null ]

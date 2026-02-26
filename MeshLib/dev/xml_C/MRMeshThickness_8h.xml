@@ -232,7 +232,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>relative position on mesh Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>triPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>triPoint</computeroutput>. </para>
+<para>relative position on mesh Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>triPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>triPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -290,7 +290,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>3d coordinates Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pt</computeroutput>. </para>
+<para>3d coordinates Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pt</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -348,7 +348,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unit direction inside the mesh = minus normal Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>inDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>inDir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>inDir</computeroutput>. </para>
+<para>unit direction inside the mesh = minus normal Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>inDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>inDir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>inDir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -406,7 +406,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>predicate that returns true for mesh faces not-incident to the point Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>notIncidentFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notIncidentFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notIncidentFaces</computeroutput>. </para>
+<para>predicate that returns true for mesh faces not-incident to the point Modifies a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>notIncidentFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notIncidentFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notIncidentFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -518,7 +518,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshPoint</computeroutput> elementwise. Parameter <computeroutput>triPoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>triPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pt</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>inDir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notIncidentFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" kindref="member">MR_MeshPoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshPoint</computeroutput> elementwise. Parameter <computeroutput>triPoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>triPoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pt</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>inDir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notIncidentFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" kindref="member">MR_MeshPoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -646,7 +646,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshPoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshPoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -764,7 +764,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>insideAndOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>insideAndOutside</computeroutput>. </para>
+<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>insideAndOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>insideAndOutside</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -822,7 +822,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxRadius</computeroutput>. </para>
+<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -880,7 +880,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum number of shrinking iterations for one triangle Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIters</computeroutput>. </para>
+<para>maximum number of shrinking iterations for one triangle Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -938,7 +938,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>iterations stop if next radius is larger than minShrinkage times previous radius Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minShrinkage</computeroutput>. </para>
+<para>iterations stop if next radius is larger than minShrinkage times previous radius Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minShrinkage</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -996,7 +996,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAngleCos</computeroutput>. </para>
+<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Modifies a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minAngleCos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1083,7 +1083,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::InSphereSearchSettings</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" kindref="member">MR_InSphereSearchSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::InSphereSearchSettings</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" kindref="member">MR_InSphereSearchSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1203,7 +1203,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::InSphereSearchSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::InSphereSearchSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1243,7 +1243,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1301,7 +1301,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radius</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1337,7 +1337,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center Modifies a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>oppositeTouchPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>oppositeTouchPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>oppositeTouchPoint</computeroutput>. </para>
+<para>excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center Modifies a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>oppositeTouchPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>oppositeTouchPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>oppositeTouchPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1437,7 +1437,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::InSphere</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>oppositeTouchPoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>oppositeTouchPoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" kindref="member">MR_InSphere_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::InSphere</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>oppositeTouchPoint</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>oppositeTouchPoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" kindref="member">MR_InSphere_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1557,7 +1557,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::InSphere::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::InSphere::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

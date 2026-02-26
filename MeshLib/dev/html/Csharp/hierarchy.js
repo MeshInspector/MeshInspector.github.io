@@ -2420,11 +2420,11 @@ var hierarchy =
       [ "MR.Const_VoxelTraits_MRVoxelBitSet", null, [
         [ "MR.VoxelTraits_MRVoxelBitSet", "classMR_1_1VoxelTraits__MRVoxelBitSet.html", null ]
       ] ],
-      [ "MR.Const_VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef", null, [
-        [ "MR.VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionFloatFuncFromConstMRVector3iRef.html", null ]
+      [ "MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", null, [
+        [ "MR.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", null ]
       ] ],
-      [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef", null, [
-        [ "MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef.html", null ]
+      [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef", null, [
+        [ "MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html", null ]
       ] ],
       [ "MR.Const_VoxelsVolumeAccessor_MRFunctionVolume", null, [
         [ "MR.VoxelsVolumeAccessor_MRFunctionVolume", "classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume.html", null ]
@@ -3677,8 +3677,8 @@ var hierarchy =
       [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", null, null ],
       [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", null, null ],
       [ "MR.Const_VoxelTraits_MRVoxelBitSet", null, null ],
-      [ "MR.Const_VoxelTraits_StdFunctionFloatFuncFromConstMRVector3iRef", null, null ],
-      [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef", null, null ],
+      [ "MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", null, null ],
+      [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef", null, null ],
       [ "MR.Const_VoxelsVolumeAccessor_MRFunctionVolume", null, null ],
       [ "MR.Const_VoxelsVolumeAccessor_MRSimpleVolume", null, null ],
       [ "MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax", null, null ],

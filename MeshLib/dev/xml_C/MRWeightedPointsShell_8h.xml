@@ -299,7 +299,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -361,7 +361,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -444,7 +444,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWeightedPointsShell_8h_1a596718171a4373b98dcd49604e6a8a70" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWeightedPointsShell_8h_1a596718171a4373b98dcd49604e6a8a70" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -572,7 +572,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -656,7 +656,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>build iso-surface of minimal distance to points corresponding to this value Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+<para>build iso-surface of minimal distance to points corresponding to this value Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -714,7 +714,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -772,7 +772,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of voxels to compute near the offset (should be left default unless used for debugging) Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>numLayers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numLayers</computeroutput>. </para>
+<para>number of voxels to compute near the offset (should be left default unless used for debugging) Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>numLayers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numLayers</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -834,7 +834,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>Progress callback Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -921,7 +921,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWeightedPointsShell_8h_1abc69bd9eaa1d3735082ec8826f23802f" kindref="member">MR_WeightedShell_ParametersBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WeightedShell::ParametersBase</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWeightedPointsShell_8h_1abc69bd9eaa1d3735082ec8826f23802f" kindref="member">MR_WeightedShell_ParametersBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1121,7 +1121,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WeightedShell::ParametersBase::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WeightedShell::ParametersBase::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1165,7 +1165,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>parameters of distance finding Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>parameters of distance finding Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1223,7 +1223,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>build iso-surface of minimal distance to points corresponding to this value Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+<para>build iso-surface of minimal distance to points corresponding to this value Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1281,7 +1281,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1339,7 +1339,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of voxels to compute near the offset (should be left default unless used for debugging) Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>numLayers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numLayers</computeroutput>. </para>
+<para>number of voxels to compute near the offset (should be left default unless used for debugging) Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>numLayers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numLayers</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1401,7 +1401,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>Progress callback Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersMetric</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1618,7 +1618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WeightedShell::ParametersMetric::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WeightedShell::ParametersMetric::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1662,7 +1662,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>list of regions (overlappings are allowed) with corresponding offsets the additional offset in overlaps is set to the average of the regions Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>regions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>regions</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>regions</computeroutput>. </para>
+<para>list of regions (overlappings are allowed) with corresponding offsets the additional offset in overlaps is set to the average of the regions Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>regions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>regions</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>regions</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1720,7 +1720,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>interpolation distance between the weights of the regions determines the sharpness of transitions between different regions Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>interpolationDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>interpolationDist</computeroutput>. </para>
+<para>interpolation distance between the weights of the regions determines the sharpness of transitions between different regions Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>interpolationDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>interpolationDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1778,7 +1778,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>bidirectionalMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bidirectionalMode</computeroutput>. </para>
+<para>if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>bidirectionalMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bidirectionalMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1836,7 +1836,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>build iso-surface of minimal distance to points corresponding to this value Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+<para>build iso-surface of minimal distance to points corresponding to this value Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1894,7 +1894,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1952,7 +1952,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of voxels to compute near the offset (should be left default unless used for debugging) Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>numLayers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numLayers</computeroutput>. </para>
+<para>number of voxels to compute near the offset (should be left default unless used for debugging) Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>numLayers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numLayers</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2014,7 +2014,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>Progress callback Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2231,7 +2231,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WeightedShell::ParametersRegions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WeightedShell::ParametersRegions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2275,7 +2275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions::Region</computeroutput> named <computeroutput>verts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>verts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>verts</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions::Region</computeroutput> named <computeroutput>verts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>verts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>verts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2333,7 +2333,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions::Region</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>weight</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WeightedShell::ParametersRegions::Region</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>weight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2412,7 +2412,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WeightedShell::ParametersRegions::Region</computeroutput> elementwise. The reference to the parameter <computeroutput>verts</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWeightedPointsShell_8h_1a59bf4b2f61e988b16a4fa603a0b94001" kindref="member">MR_WeightedShell_ParametersRegions_Region_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WeightedShell::ParametersRegions::Region</computeroutput> elementwise. The reference to the parameter <computeroutput>verts</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRWeightedPointsShell_8h_1a59bf4b2f61e988b16a4fa603a0b94001" kindref="member">MR_WeightedShell_ParametersRegions_Region_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2540,7 +2540,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WeightedShell::ParametersRegions::Region::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::WeightedShell::ParametersRegions::Region::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

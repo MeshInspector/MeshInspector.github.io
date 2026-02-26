@@ -181,7 +181,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If true then count touching faces as self-intersections Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>touchIsIntersection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>touchIsIntersection</computeroutput>. </para>
+<para>If true then count touching faces as self-intersections Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>touchIsIntersection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>touchIsIntersection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>method</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>method</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>method</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>method</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum relax iterations Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxIterations</computeroutput>. </para>
+<para>Maximum relax iterations Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>relaxIterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -355,7 +355,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>maxExpand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxExpand</computeroutput>. </para>
+<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>maxExpand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxExpand</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -413,7 +413,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>subdivideEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>subdivideEdgeLen</computeroutput>. </para>
+<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>subdivideEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>subdivideEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -475,7 +475,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Callback function Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>Callback function Modifies a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -570,7 +570,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SelfIntersections::Settings</computeroutput> elementwise. The reference to the parameter <computeroutput>method</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" kindref="member">MR_SelfIntersections_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SelfIntersections::Settings</computeroutput> elementwise. The reference to the parameter <computeroutput>method</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" kindref="member">MR_SelfIntersections_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -698,7 +698,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SelfIntersections::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SelfIntersections::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

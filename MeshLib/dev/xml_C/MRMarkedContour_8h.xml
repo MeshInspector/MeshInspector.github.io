@@ -127,7 +127,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>contour</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>contour</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>contour</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>contour</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>contour</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>contour</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -163,7 +163,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>indices of control (marked) points Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>marks</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>marks</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>marks</computeroutput>. </para>
+<para>indices of control (marked) points Modifies a member variable of class <computeroutput>MR::MarkedContour3f</computeroutput> named <computeroutput>marks</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>marks</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>marks</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -271,7 +271,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MarkedContour3f</computeroutput> elementwise. The reference to the parameter <computeroutput>contour</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>marks</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" kindref="member">MR_MarkedContour3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MarkedContour3f</computeroutput> elementwise. The reference to the parameter <computeroutput>contour</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>marks</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1a0e605d3322e4c90480c8c5e81dd12fae" kindref="member">MR_MarkedContour3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -399,7 +399,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MarkedContour3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MarkedContour3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -654,7 +654,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>samplingStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>samplingStep</computeroutput>. </para>
+<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>samplingStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>samplingStep</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -712,7 +712,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a positive value, the more the value the closer resulting spline will be to given control points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>controlStability</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>controlStability</computeroutput>. </para>
+<para>a positive value, the more the value the closer resulting spline will be to given control points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>controlStability</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>controlStability</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -770,7 +770,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -828,7 +828,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional parameter with the normals of input points that will be resampled to become normals of output points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normals</computeroutput>. </para>
+<para>optional parameter with the normals of input points that will be resampled to become normals of output points Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normals</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -886,7 +886,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normalsAffectShape</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalsAffectShape</computeroutput>. </para>
+<para>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Modifies a member variable of class <computeroutput>MR::SplineSettings</computeroutput> named <computeroutput>normalsAffectShape</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>normalsAffectShape</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -973,7 +973,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SplineSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>normals</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" kindref="member">MR_SplineSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SplineSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>normals</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarkedContour_8h_1ac56918e35bd289ac7114c82d697e0f33" kindref="member">MR_SplineSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1093,7 +1093,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SplineSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SplineSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -4,9 +4,9 @@
     <compoundname>MR::FillHoleMetric</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FillHoleMetric</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1FillHoleMetric_1a734ec8baa9dd4e281ebea296bee8d8eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_DoubleFuncFromMRVertIdMRVertIdMRVertId</type>
-        <definition>new unsafe MR.Std.Function_DoubleFuncFromMRVertIdMRVertIdMRVertId MR.FillHoleMetric.triangleMetric</definition>
+      <memberdef kind="property" id="classMR_1_1FillHoleMetric_1acf92ecae974ecd310a9f4e7a6f396aa8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Double_From_MRVertId_MRVertId_MRVertId</type>
+        <definition>new unsafe MR.Std.Function_Double_From_MRVertId_MRVertId_MRVertId MR.FillHoleMetric.triangleMetric</definition>
         <argsstring></argsstring>
         <name>triangleMetric</name>
         <qualifiedname>MR.FillHoleMetric.triangleMetric</qualifiedname>
@@ -19,9 +19,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="146" column="80" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="146" bodyend="146"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1FillHoleMetric_1a8b2ec125918c70fb099a071514f3ad36" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId</type>
-        <definition>new unsafe MR.Std.Function_DoubleFuncFromMRVertIdMRVertIdMRVertIdMRVertId MR.FillHoleMetric.edgeMetric</definition>
+      <memberdef kind="property" id="classMR_1_1FillHoleMetric_1ade172a7286bf9744edb23a7947471313" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Double_From_MRVertId_MRVertId_MRVertId_MRVertId</type>
+        <definition>new unsafe MR.Std.Function_Double_From_MRVertId_MRVertId_MRVertId_MRVertId MR.FillHoleMetric.edgeMetric</definition>
         <argsstring></argsstring>
         <name>edgeMetric</name>
         <qualifiedname>MR.FillHoleMetric.edgeMetric</qualifiedname>
@@ -32,11 +32,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="149" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="149" bodyend="149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="149" column="89" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="149" bodyend="149"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1FillHoleMetric_1afe30ca5cd4c03f79157cd0619a8f89db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_DoubleFuncFromDoubleDouble</type>
-        <definition>new unsafe MR.Std.Function_DoubleFuncFromDoubleDouble MR.FillHoleMetric.combineMetric</definition>
+      <memberdef kind="property" id="classMR_1_1FillHoleMetric_1a2c1ba55499bc9a972157bbdb33c658c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Double_From_Double_Double</type>
+        <definition>new unsafe MR.Std.Function_Double_From_Double_Double MR.FillHoleMetric.combineMetric</definition>
         <argsstring></argsstring>
         <name>combineMetric</name>
         <qualifiedname>MR.FillHoleMetric.combineMetric</qualifiedname>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="152" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="152" bodyend="152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="152" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="152" bodyend="152"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -273,15 +273,15 @@ This is struct used as optimization metric of fillHole and stitchHoles functions
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="143" column="11"/>
     <listofallmembers>
       <member refid="classMR_1_1FillHoleMetric_1aeddd033dedcb932237c8d8beecb47183" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>assign</name></member>
-      <member refid="classMR_1_1FillHoleMetric_1afe30ca5cd4c03f79157cd0619a8f89db" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>combineMetric</name></member>
-      <member refid="classMR_1_1FillHoleMetric_1a8b2ec125918c70fb099a071514f3ad36" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>edgeMetric</name></member>
+      <member refid="classMR_1_1FillHoleMetric_1a2c1ba55499bc9a972157bbdb33c658c7" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>combineMetric</name></member>
+      <member refid="classMR_1_1FillHoleMetric_1ade172a7286bf9744edb23a7947471313" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>edgeMetric</name></member>
       <member refid="classMR_1_1FillHoleMetric_1ab1c9fc4f8f7a4fbd7b92b0161991e4a7" prot="package" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>FillHoleMetric</name></member>
       <member refid="classMR_1_1FillHoleMetric_1ab2435bf1ca9e3e7908cbdbd44e1f4e8d" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>FillHoleMetric</name></member>
       <member refid="classMR_1_1FillHoleMetric_1a66827f6f093ec358db78dd304bd98090" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>FillHoleMetric</name></member>
       <member refid="classMR_1_1FillHoleMetric_1aa250f4e21f368d470f170aa0905da818" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>FillHoleMetric</name></member>
       <member refid="classMR_1_1FillHoleMetric_1aa18d0841694f6015f54f4b4dc354d570" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>FillHoleMetric</name></member>
       <member refid="classMR_1_1FillHoleMetric_1ae26bd891290e76641679deb0be321fe6" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>FillHoleMetric</name></member>
-      <member refid="classMR_1_1FillHoleMetric_1a734ec8baa9dd4e281ebea296bee8d8eb" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>triangleMetric</name></member>
+      <member refid="classMR_1_1FillHoleMetric_1acf92ecae974ecd310a9f4e7a6f396aa8" prot="public" virt="non-virtual"><scope>MR::FillHoleMetric</scope><name>triangleMetric</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

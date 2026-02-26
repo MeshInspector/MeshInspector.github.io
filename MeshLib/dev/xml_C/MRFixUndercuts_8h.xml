@@ -233,7 +233,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Primitives that are not visible from up direction are considered as undercuts (fix undercuts is performed downwards (in <computeroutput>-direction</computeroutput>)) Modifies a member variable of class <computeroutput>MR::FixUndercuts::FindParams</computeroutput> named <computeroutput>upDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>upDirection</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>upDirection</computeroutput>. </para>
+<para>Primitives that are not visible from up direction are considered as undercuts (fix undercuts is performed downwards (in <computeroutput>-direction</computeroutput>)) Modifies a member variable of class <computeroutput>MR::FixUndercuts::FindParams</computeroutput> named <computeroutput>upDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>upDirection</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>upDirection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -291,7 +291,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vertical angle of fixed undercut walls (note that this value is approximate - it defines &quot;camera&quot; position for internal projective transformation) 0 - strictly vertical walls of undercuts area positive - expanding downwards walls negative - shrinking downwards walls Modifies a member variable of class <computeroutput>MR::FixUndercuts::FindParams</computeroutput> named <computeroutput>wallAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>wallAngle</computeroutput>. </para>
+<para>vertical angle of fixed undercut walls (note that this value is approximate - it defines &quot;camera&quot; position for internal projective transformation) 0 - strictly vertical walls of undercuts area positive - expanding downwards walls negative - shrinking downwards walls Modifies a member variable of class <computeroutput>MR::FixUndercuts::FindParams</computeroutput> named <computeroutput>wallAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>wallAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -366,7 +366,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FixUndercuts::FindParams</computeroutput> elementwise. The reference to the parameter <computeroutput>upDirection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixUndercuts_8h_1ad9574191a7e32c85c1ccdf0c0fc83ecc" kindref="member">MR_FixUndercuts_FindParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FixUndercuts::FindParams</computeroutput> elementwise. The reference to the parameter <computeroutput>upDirection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixUndercuts_8h_1ad9574191a7e32c85c1ccdf0c0fc83ecc" kindref="member">MR_FixUndercuts_FindParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -486,7 +486,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FixUndercuts::FindParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FixUndercuts::FindParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -526,7 +526,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>parameters of what is considered as undercut Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>findParameters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>findParameters</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>findParameters</computeroutput>. </para>
+<para>parameters of what is considered as undercut Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>findParameters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>findParameters</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>findParameters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -584,7 +584,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>voxel size for internal computations: lower size - better precision but more system resources required Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>voxel size for internal computations: lower size - better precision but more system resources required Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -642,7 +642,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum extension of bottom part of the mesh Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>bottomExtension</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>bottomExtension</computeroutput>. </para>
+<para>minimum extension of bottom part of the mesh Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>bottomExtension</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>bottomExtension</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -700,7 +700,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if set - only this region will be fixed (but still all mesh will be rebuild) Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>if set - only this region will be fixed (but still all mesh will be rebuild) Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -758,7 +758,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true applies one iterations of gaussian filtering for voxels, useful if thin walls expected Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>smooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>smooth</computeroutput>. </para>
+<para>if true applies one iterations of gaussian filtering for voxels, useful if thin walls expected Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>smooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>smooth</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -820,7 +820,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::FixParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -915,7 +915,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FixUndercuts::FixParams</computeroutput> elementwise. Parameter <computeroutput>findParameters</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>findParameters</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixUndercuts_8h_1ad7ea283d87483dba03f8a6e1b8ffe9b2" kindref="member">MR_FixUndercuts_FixParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FixUndercuts::FixParams</computeroutput> elementwise. Parameter <computeroutput>findParameters</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>findParameters</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixUndercuts_8h_1ad7ea283d87483dba03f8a6e1b8ffe9b2" kindref="member">MR_FixUndercuts_FixParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1043,7 +1043,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FixUndercuts::FixParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FixUndercuts::FixParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1243,7 +1243,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>hintDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>hintDirection</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>hintDirection</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>hintDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>hintDirection</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>hintDirection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1301,7 +1301,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>baseAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>baseAngleStep</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>baseAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>baseAngleStep</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1359,7 +1359,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>maxBaseAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxBaseAngle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>maxBaseAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxBaseAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1417,7 +1417,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>polarAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>polarAngleStep</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> named <computeroutput>polarAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>polarAngleStep</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1500,7 +1500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>hintDirection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixUndercuts_8h_1a5f1beef483950374ee30842a02ec4683" kindref="member">MR_FixUndercuts_ImproveDirectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FixUndercuts::ImproveDirectionParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>hintDirection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFixUndercuts_8h_1a5f1beef483950374ee30842a02ec4683" kindref="member">MR_FixUndercuts_ImproveDirectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1656,7 +1656,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FixUndercuts::ImproveDirectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FixUndercuts::ImproveDirectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1696,7 +1696,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>distanceMapResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>distanceMapResolution</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>distanceMapResolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>distanceMapResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>distanceMapResolution</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>distanceMapResolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1754,7 +1754,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>hintDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>hintDirection</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>hintDirection</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>hintDirection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>hintDirection</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>hintDirection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1812,7 +1812,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>baseAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>baseAngleStep</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>baseAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>baseAngleStep</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1870,7 +1870,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>maxBaseAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxBaseAngle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>maxBaseAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxBaseAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1928,7 +1928,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>polarAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>polarAngleStep</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters</computeroutput> named <computeroutput>polarAngleStep</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>polarAngleStep</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2137,7 +2137,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

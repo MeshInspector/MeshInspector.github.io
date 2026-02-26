@@ -399,7 +399,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>converter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>converter</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>converter</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>converter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>converter</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>converter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -457,7 +457,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>rigidB2A</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rigidB2A</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rigidB2A</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>rigidB2A</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rigidB2A</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rigidB2A</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -515,7 +515,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>meshAVertsNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshAVertsNum</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>meshAVertsNum</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>meshAVertsNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>meshAVertsNum</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>meshAVertsNum</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -573,7 +573,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>isOtherA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isOtherA</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SortIntersectionsData</computeroutput> named <computeroutput>isOtherA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>isOtherA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -655,7 +655,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SortIntersectionsData</computeroutput> elementwise. Parameter <computeroutput>otherMesh</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>otherMesh</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>contours</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>contours</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>converter</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rigidB2A</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshAVertsNum</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a03b0ea3fa83a60b33550b6c82f27a52d" kindref="member">MR_SortIntersectionsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SortIntersectionsData</computeroutput> elementwise. Parameter <computeroutput>otherMesh</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>otherMesh</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>contours</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>contours</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>converter</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rigidB2A</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>meshAVertsNum</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a03b0ea3fa83a60b33550b6c82f27a52d" kindref="member">MR_SortIntersectionsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -775,7 +775,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OneMeshIntersection</computeroutput> named <computeroutput>primitiveId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>primitiveId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OneMeshIntersection</computeroutput> named <computeroutput>primitiveId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>primitiveId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>primitiveId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -833,7 +833,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OneMeshIntersection</computeroutput> named <computeroutput>coordinate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coordinate</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>coordinate</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OneMeshIntersection</computeroutput> named <computeroutput>coordinate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coordinate</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>coordinate</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -908,7 +908,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OneMeshIntersection</computeroutput> elementwise. Parameter <computeroutput>primitiveId</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>primitiveId</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>coordinate</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1aea4f62ba04fced4d22453dbfadbc384f" kindref="member">MR_OneMeshIntersection_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OneMeshIntersection</computeroutput> elementwise. Parameter <computeroutput>primitiveId</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>primitiveId</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>coordinate</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1aea4f62ba04fced4d22453dbfadbc384f" kindref="member">MR_OneMeshIntersection_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1028,7 +1028,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OneMeshIntersection::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OneMeshIntersection::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1072,7 +1072,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OneMeshContour</computeroutput> named <computeroutput>intersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersections</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>intersections</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OneMeshContour</computeroutput> named <computeroutput>intersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersections</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intersections</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1130,7 +1130,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OneMeshContour</computeroutput> named <computeroutput>closed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>closed</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OneMeshContour</computeroutput> named <computeroutput>closed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>closed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1209,7 +1209,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OneMeshContour</computeroutput> elementwise. The reference to the parameter <computeroutput>intersections</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a36e8392ba824e189685ffd74670bfc2b" kindref="member">MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OneMeshContour</computeroutput> elementwise. The reference to the parameter <computeroutput>intersections</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a36e8392ba824e189685ffd74670bfc2b" kindref="member">MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1337,7 +1337,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OneMeshContour::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OneMeshContour::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1479,7 +1479,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the algorithm to compute approximately geodesic path Modifies a member variable of class <computeroutput>MR::SearchPathSettings</computeroutput> named <computeroutput>geodesicPathApprox</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>geodesicPathApprox</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>geodesicPathApprox</computeroutput>. </para>
+<para>the algorithm to compute approximately geodesic path Modifies a member variable of class <computeroutput>MR::SearchPathSettings</computeroutput> named <computeroutput>geodesicPathApprox</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>geodesicPathApprox</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>geodesicPathApprox</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1537,7 +1537,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Modifies a member variable of class <computeroutput>MR::SearchPathSettings</computeroutput> named <computeroutput>maxReduceIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxReduceIters</computeroutput>. </para>
+<para>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Modifies a member variable of class <computeroutput>MR::SearchPathSettings</computeroutput> named <computeroutput>maxReduceIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxReduceIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1633,7 +1633,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SearchPathSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>geodesicPathApprox</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a884eedddae4cbc617fa65b0d5ea0341f" kindref="member">MR_SearchPathSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SearchPathSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>geodesicPathApprox</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a884eedddae4cbc617fa65b0d5ea0341f" kindref="member">MR_SearchPathSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1753,7 +1753,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SearchPathSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SearchPathSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

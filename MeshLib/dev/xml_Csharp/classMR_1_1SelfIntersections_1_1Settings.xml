@@ -78,9 +78,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="181" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="181" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1SelfIntersections_1_1Settings_1a6d5fb28de0351dd6c0f01b2c984046e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.SelfIntersections.Settings.callback</definition>
+      <memberdef kind="property" id="classMR_1_1SelfIntersections_1_1Settings_1aec99a28a17b6b1eb0dd0939ae2f96d60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.SelfIntersections.Settings.callback</definition>
         <argsstring></argsstring>
         <name>callback</name>
         <qualifiedname>MR.SelfIntersections.Settings.callback</qualifiedname>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="184" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="184" bodyend="184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="184" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="184" bodyend="184"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -300,7 +300,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="166" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="167" bodyend="266"/>
     <listofallmembers>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1ab5d37ca0ef1d537761afc2ef1ff6541f" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>assign</name></member>
-      <member refid="classMR_1_1SelfIntersections_1_1Settings_1a6d5fb28de0351dd6c0f01b2c984046e9" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>callback</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Settings_1aec99a28a17b6b1eb0dd0939ae2f96d60" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>callback</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1a3f1808353d0c3fb3fd149c5be4bb393b" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>maxExpand</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1aca027ac4e4873596c80ec488fe3bc2b9" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>method</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1ad7465e182463e34befdd374819b08e2c" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>relaxIterations</name></member>

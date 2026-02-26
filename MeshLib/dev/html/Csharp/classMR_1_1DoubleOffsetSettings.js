@@ -10,7 +10,7 @@ var classMR_1_1DoubleOffsetSettings =
     [ "fwn", "classMR_1_1DoubleOffsetSettings.html#a324d9f6d09eef2ad0413ea6a02c1278f", null ],
     [ "offsetA", "classMR_1_1DoubleOffsetSettings.html#a14d6af458c9b44f00eb966af1ac36dd6", null ],
     [ "offsetB", "classMR_1_1DoubleOffsetSettings.html#ad4a2f49ea855db13ffa05de40ac5bc6e", null ],
-    [ "progress", "classMR_1_1DoubleOffsetSettings.html#a6ba0e87d5ecb61bb73ad0c91c9464d7c", null ],
+    [ "progress", "classMR_1_1DoubleOffsetSettings.html#adfbe3a23d60fdf3d8cd5aef278679b07", null ],
     [ "voxelSize", "classMR_1_1DoubleOffsetSettings.html#a5cd5f6a010b99c09df87fb0aae2cd519", null ],
     [ "windingNumberBeta", "classMR_1_1DoubleOffsetSettings.html#ae98d1e82eb925021d2b35f64848c2d53", null ],
     [ "windingNumberThreshold", "classMR_1_1DoubleOffsetSettings.html#a2f6349bb80f304ef41106eb5a80ae0ef", null ]

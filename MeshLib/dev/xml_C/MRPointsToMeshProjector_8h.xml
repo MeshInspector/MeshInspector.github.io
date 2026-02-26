@@ -470,7 +470,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>loDistLimitSq</computeroutput>. </para>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>loDistLimitSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -528,7 +528,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -586,7 +586,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional reference mesh to world transformation Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>refXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>refXf</computeroutput>. </para>
+<para>optional reference mesh to world transformation Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>refXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>refXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -644,7 +644,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional test points to world transformation Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>optional test points to world transformation Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -727,7 +727,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshProjectionParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>refXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" kindref="member">MR_MeshProjectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshProjectionParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>refXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" kindref="member">MR_MeshProjectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -847,7 +847,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshProjectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshProjectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1110,7 +1110,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsToMeshProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsToMeshProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

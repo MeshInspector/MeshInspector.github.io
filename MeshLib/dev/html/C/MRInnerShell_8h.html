@@ -503,7 +503,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::FindInnerShellSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::FindInnerShellSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -540,7 +540,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::FindInnerShellSettings</code> elementwise. The reference to the parameter <code>side</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26b999f6eb8d2216b022b4e23e02dc4e" title="Destroys a heap-allocated instance of MR_FindInnerShellSettings. Does nothing if the pointer is null.">MR_FindInnerShellSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::FindInnerShellSettings</code> elementwise. The reference to the parameter <code>side</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26b999f6eb8d2216b022b4e23e02dc4e" title="Destroys a heap-allocated instance of MR_FindInnerShellSettings. Does nothing if the pointer is null.">MR_FindInnerShellSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -878,7 +878,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies maximum squared distance from shell parts of interest to source mesh Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxDistSq</code>. </p>
+<p>specifies maximum squared distance from shell parts of interest to source mesh Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxDistSq</code>. </p>
 
 </div>
 </div>
@@ -900,7 +900,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minVertsInComp</code>. </p>
+<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>minVertsInComp</code>. </p>
 
 </div>
 </div>
@@ -922,7 +922,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>side</code>. When this function is called, this object will drop object references it had previously in <code>side</code>. </p>
+<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>side</code>. When this function is called, this object will drop object references it held previously in <code>side</code>. </p>
 
 </div>
 </div>
@@ -944,7 +944,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>useWindingNumber</code>. </p>
+<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>useWindingNumber</code>. </p>
 
 </div>
 </div>
@@ -966,7 +966,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberThreshold</code>. </p>
+<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberThreshold</code>. </p>
 
 </div>
 </div>
@@ -1021,7 +1021,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::ShellVertexInfo::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::ShellVertexInfo::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1048,7 +1048,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::ShellVertexInfo</code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::ShellVertexInfo</code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1314,7 +1314,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true when shell vertex is within settings.maxDist from source mesh Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>inRange</code>. </p>
+<p>true when shell vertex is within settings.maxDist from source mesh Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>inRange</code>. </p>
 
 </div>
 </div>
@@ -1336,7 +1336,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>projOnBd</code>. </p>
+<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>projOnBd</code>. </p>
 
 </div>
 </div>
@@ -1358,7 +1358,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether shell vertex is on requested side of source mesh Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>rightSide</code>. </p>
+<p>whether shell vertex is on requested side of source mesh Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>rightSide</code>. </p>
 
 </div>
 </div>

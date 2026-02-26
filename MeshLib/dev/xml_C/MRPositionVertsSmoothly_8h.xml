@@ -302,7 +302,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -360,7 +360,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional additional shifts of each vertex relative to smooth position Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>vertShifts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertShifts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertShifts</computeroutput>. </para>
+<para>optional additional shifts of each vertex relative to smooth position Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>vertShifts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertShifts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertShifts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -418,7 +418,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the more the value, the bigger attraction of each vertex to its original position Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>the more the value, the bigger attraction of each vertex to its original position Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -480,7 +480,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if specified then it is used instead of <computeroutput>stabilizer</computeroutput> Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>vertStabilizers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertStabilizers</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertStabilizers</computeroutput>. </para>
+<para>if specified then it is used instead of <computeroutput>stabilizer</computeroutput> Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>vertStabilizers</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertStabilizers</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertStabilizers</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -542,7 +542,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if specified then it is used for edge weights instead of default 1 Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeWeights</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgeWeights</computeroutput>. </para>
+<para>if specified then it is used for edge weights instead of default 1 Modifies a member variable of class <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeWeights</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edgeWeights</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -637,7 +637,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertShifts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertStabilizers</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeWeights</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPositionVertsSmoothly_8h_1ab3751cfec47bcc96afd09ebfdf214d0e" kindref="member">MR_PositionVertsSmoothlyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PositionVertsSmoothlyParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertShifts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertStabilizers</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeWeights</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPositionVertsSmoothly_8h_1ab3751cfec47bcc96afd09ebfdf214d0e" kindref="member">MR_PositionVertsSmoothlyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -765,7 +765,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PositionVertsSmoothlyParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PositionVertsSmoothlyParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -875,7 +875,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vertices to be moved by the algorithm, nullptr means all valid vertices Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>vertices to be moved by the algorithm, nullptr means all valid vertices Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -937,7 +937,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -995,7 +995,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the algorithm is iterative, the more iterations the closer result to exact solution Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numIters</computeroutput>. </para>
+<para>the algorithm is iterative, the more iterations the closer result to exact solution Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1053,7 +1053,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>too small number here can lead to instability, too large - to slow convergence Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>too small number here can lead to instability, too large - to slow convergence Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1111,7 +1111,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>maxSumNegW</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxSumNegW</computeroutput>. </para>
+<para>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>maxSumNegW</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxSumNegW</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1173,7 +1173,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>isInverted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isInverted</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>isInverted</computeroutput>. </para>
+<para>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Modifies a member variable of class <computeroutput>MR::SpacingSettings</computeroutput> named <computeroutput>isInverted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>isInverted</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>isInverted</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1272,7 +1272,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SpacingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isInverted</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPositionVertsSmoothly_8h_1a7befd208800c27e60bf3922b1921de73" kindref="member">MR_SpacingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SpacingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>isInverted</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPositionVertsSmoothly_8h_1a7befd208800c27e60bf3922b1921de73" kindref="member">MR_SpacingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1400,7 +1400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SpacingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SpacingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1488,7 +1488,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>pressure</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>pressure</computeroutput>. </para>
+<para>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>pressure</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>pressure</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1546,7 +1546,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1604,7 +1604,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>preSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>preSmooth</computeroutput>. </para>
+<para>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>preSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>preSmooth</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1662,7 +1662,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to increase the pressure gradually during the iterations (recommended for best quality) Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>gradualPressureGrowth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>gradualPressureGrowth</computeroutput>. </para>
+<para>whether to increase the pressure gradually during the iterations (recommended for best quality) Modifies a member variable of class <computeroutput>MR::InflateSettings</computeroutput> named <computeroutput>gradualPressureGrowth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>gradualPressureGrowth</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1745,7 +1745,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::InflateSettings</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPositionVertsSmoothly_8h_1aa41768440da921917757eef958f8781c" kindref="member">MR_InflateSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::InflateSettings</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPositionVertsSmoothly_8h_1aa41768440da921917757eef958f8781c" kindref="member">MR_InflateSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1865,7 +1865,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::InflateSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::InflateSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

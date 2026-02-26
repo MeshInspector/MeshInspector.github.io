@@ -336,7 +336,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>origin point of voxels box in 3D space with output mesh Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>origin</computeroutput>. </para>
+<para>origin point of voxels box in 3D space with output mesh Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>origin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -398,7 +398,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>progress callback Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>progress callback Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -456,7 +456,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>target iso-value of the surface to be extracted from volume Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>iso</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iso</computeroutput>. </para>
+<para>target iso-value of the surface to be extracted from volume Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>iso</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iso</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -514,7 +514,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>should be false for dense volumes, and true for distance volume Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>lessInside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lessInside</computeroutput>. </para>
+<para>should be false for dense volumes, and true for distance volume Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>lessInside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lessInside</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -572,7 +572,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output map FaceId-&gt;VoxelId Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>outVoxelPerFaceMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVoxelPerFaceMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outVoxelPerFaceMap</computeroutput>. </para>
+<para>optional output map FaceId-&gt;VoxelId Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>outVoxelPerFaceMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVoxelPerFaceMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outVoxelPerFaceMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -634,7 +634,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>function to calculate position of result mesh points if the function isn&apos;t set, a linear positioner will be used note: this function is called in parallel from different threads Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>positioner</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>positioner</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>positioner</computeroutput>. </para>
+<para>function to calculate position of result mesh points if the function isn&apos;t set, a linear positioner will be used note: this function is called in parallel from different threads Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>positioner</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>positioner</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>positioner</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -692,7 +692,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if the mesh exceeds this number of vertices, an error returns Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>maxVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxVertices</computeroutput>. </para>
+<para>if the mesh exceeds this number of vertices, an error returns Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>maxVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -750,7 +750,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>cachingMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cachingMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cachingMode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>cachingMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cachingMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cachingMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -812,7 +812,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this optional function is called when volume is no longer needed to deallocate it and reduce peak memory consumption Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>freeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>freeVolume</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>freeVolume</computeroutput>. </para>
+<para>this optional function is called when volume is no longer needed to deallocate it and reduce peak memory consumption Modifies a member variable of class <computeroutput>MR::MarchingCubesParams</computeroutput> named <computeroutput>freeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>freeVolume</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>freeVolume</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -927,7 +927,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MarchingCubesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outVoxelPerFaceMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>positioner</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cachingMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>freeVolume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarchingCubes_8h_1a73cbed1a906ec2fa1d7cae5da1f0fe63" kindref="member">MR_MarchingCubesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MarchingCubesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outVoxelPerFaceMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>positioner</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cachingMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>freeVolume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMarchingCubes_8h_1a73cbed1a906ec2fa1d7cae5da1f0fe63" kindref="member">MR_MarchingCubesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1055,7 +1055,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MarchingCubesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MarchingCubesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1438,7 +1438,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MarchingCubesByParts::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>s</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MarchingCubesByParts::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>s</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

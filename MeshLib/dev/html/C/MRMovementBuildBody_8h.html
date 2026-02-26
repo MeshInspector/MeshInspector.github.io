@@ -356,7 +356,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MovementBuildBodyParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MovementBuildBodyParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::MovementBuildBodyParams</code> elementwise. Parameter <code>center</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>center</code> might be preserved in the constructed object. Parameter <code>bodyNormal</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>bodyNormal</code> might be preserved in the constructed object. Parameter <code>bodyUpDir</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>bodyUpDir</code> might be preserved in the constructed object. The reference to the parameter <code>trajectoryNormals</code> might be preserved in the constructed object. The reference to the parameter <code>b2tXf</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aed062124fe36110596a38f9b6662598a" title="Destroys a heap-allocated instance of MR_MovementBuildBodyParams. Does nothing if the pointer is null...">MR_MovementBuildBodyParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MovementBuildBodyParams</code> elementwise. Parameter <code>center</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>center</code> might be preserved in the constructed object. Parameter <code>bodyNormal</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>bodyNormal</code> might be preserved in the constructed object. Parameter <code>bodyUpDir</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>bodyUpDir</code> might be preserved in the constructed object. The reference to the parameter <code>trajectoryNormals</code> might be preserved in the constructed object. The reference to the parameter <code>b2tXf</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aed062124fe36110596a38f9b6662598a" title="Destroys a heap-allocated instance of MR_MovementBuildBodyParams. Does nothing if the pointer is null...">MR_MovementBuildBodyParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -813,7 +813,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>allowRotation</code>. </p>
+<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>allowRotation</code>. </p>
 
 </div>
 </div>
@@ -835,7 +835,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transform body space to trajectory space Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>b2tXf</code>. When this function is called, this object will drop object references it had previously in <code>b2tXf</code>. </p>
+<p>optional transform body space to trajectory space Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>b2tXf</code>. When this function is called, this object will drop object references it held previously in <code>b2tXf</code>. </p>
 
 </div>
 </div>
@@ -857,7 +857,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>bodyNormal</code>. When this function is called, this object will drop object references it had previously in <code>bodyNormal</code>. </p>
+<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>bodyNormal</code>. When this function is called, this object will drop object references it held previously in <code>bodyNormal</code>. </p>
 
 </div>
 </div>
@@ -879,7 +879,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>up direction of body contours corresponds with <code>trajectoryNormals</code> if both are present and <code>allowRotation</code> is set Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyUpDir</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>bodyUpDir</code>. When this function is called, this object will drop object references it had previously in <code>bodyUpDir</code>. </p>
+<p>up direction of body contours corresponds with <code>trajectoryNormals</code> if both are present and <code>allowRotation</code> is set Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyUpDir</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>bodyUpDir</code>. When this function is called, this object will drop object references it held previously in <code>bodyUpDir</code>. </p>
 
 </div>
 </div>
@@ -901,7 +901,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point in body space that follows trajectory if not set body bounding box center is used Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>center</code>. When this function is called, this object will drop object references it had previously in <code>center</code>. </p>
+<p>point in body space that follows trajectory if not set body bounding box center is used Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>center</code>. When this function is called, this object will drop object references it held previously in <code>center</code>. </p>
 
 </div>
 </div>
@@ -923,7 +923,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, then body-contours will be located exactly on resulting mesh Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>startMeshFromBody</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>startMeshFromBody</code>. </p>
+<p>if true, then body-contours will be located exactly on resulting mesh Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>startMeshFromBody</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>startMeshFromBody</code>. </p>
 
 </div>
 </div>
@@ -945,7 +945,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <code>allowRotation</code> is set Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>trajectoryNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>trajectoryNormals</code>. When this function is called, this object will drop object references it had previously in <code>trajectoryNormals</code>. </p>
+<p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <code>allowRotation</code> is set Modifies a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>trajectoryNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>trajectoryNormals</code>. When this function is called, this object will drop object references it held previously in <code>trajectoryNormals</code>. </p>
 
 </div>
 </div>

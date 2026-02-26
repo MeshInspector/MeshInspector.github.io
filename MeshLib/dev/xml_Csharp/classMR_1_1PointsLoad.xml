@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1298" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1298" bodyend="1310"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1302" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1302" bodyend="1314"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a44b48011a7c016b4d451251954b6e56b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1316" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1316" bodyend="1324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1320" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1320" bodyend="1328"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a7e527512ac9d84f26b1ef9b1ee6c611a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRPointsLoadNamedCloud</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="570" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="570" bodyend="582"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="574" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="574" bodyend="586"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1ad5bec718b73ec3b68699a6fe0aaa904a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="589" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="589" bodyend="601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="593" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="593" bodyend="605"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a1b9f0ece0fa4136c55f986719981f6c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
@@ -123,12 +123,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="607" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="607" bodyend="615"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="611" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="611" bodyend="619"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsLoad_1a42970dc9afb16615ea9164dab06f97c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1a198c64c21391cc861ff7dc711ca50c9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1LoadedObjects" kindref="compound">MR.LoadedObjects</ref></type>
         <definition>static unsafe MR.LoadedObjects MR.PointsLoad.loadObjectFromE57</definition>
-        <argsstring>(string path, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(string path, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>loadObjectFromE57</name>
         <qualifiedname>MR.PointsLoad.loadObjectFromE57</qualifiedname>
         <param>
@@ -136,18 +136,18 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsLoad_1a42970dc9afb16615ea9164dab06f97c7" kindref="member">MR.PointsLoad.loadObjectFromE57</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsLoad_1a198c64c21391cc861ff7dc711ca50c9d" kindref="member">MR.PointsLoad.loadObjectFromE57</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="621" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="621" bodyend="633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="625" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="625" bodyend="637"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a58a5f3fd2410f34afee84d233f757a2d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
@@ -494,7 +494,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1291" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoad.cs" bodystart="4" bodyend="206"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1295" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoad.cs" bodystart="4" bodyend="206"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsLoad_1a807e0acdc6797b2e9278c2612d13be55" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromAnySupportedFormat</name></member>
       <member refid="classMR_1_1PointsLoad_1ad3f6f9aefe03d5c1313483f26d459790" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromAnySupportedFormat</name></member>
@@ -515,7 +515,7 @@
       <member refid="classMR_1_1PointsLoad_1a7e527512ac9d84f26b1ef9b1ee6c611a" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromSceneE57File</name></member>
       <member refid="classMR_1_1PointsLoad_1a73e9d49a0aa7e22d6dab505ebd37d7d7" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromText</name></member>
       <member refid="classMR_1_1PointsLoad_1a3a21b059e2dc485b242ab4e75277d202" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromText</name></member>
-      <member refid="classMR_1_1PointsLoad_1a42970dc9afb16615ea9164dab06f97c7" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>loadObjectFromE57</name></member>
+      <member refid="classMR_1_1PointsLoad_1a198c64c21391cc861ff7dc711ca50c9d" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>loadObjectFromE57</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="932" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="932" bodyend="932"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="934" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="934" bodyend="934"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AllLocalTriangulations_1a8fbc72ea15447226ec93fc4c72311dab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Vector__MRFanRecord__MRVertId" kindref="compound">MR.Vector_MRFanRecord_MRVertId</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="934" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="934" bodyend="934"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="936" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="936" bodyend="936"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="960" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="960" bodyend="964"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="962" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="962" bodyend="966"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="970" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="970" bodyend="976"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="972" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="972" bodyend="978"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AllLocalTriangulations_1a81b136ff0fb13698a804619e51164024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="981" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="981" bodyend="989"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="983" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="983" bodyend="991"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AllLocalTriangulations_1a1b9cd903ada3e761764e31d8ac09accb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="994" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="994" bodyend="1001"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="996" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="996" bodyend="1003"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AllLocalTriangulations_1aeb8fb255c32c5ac4202037088bd3aa34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AllLocalTriangulations" kindref="compound">MR.AllLocalTriangulations</ref></type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="1006" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="1006" bodyend="1013"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="1008" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="1008" bodyend="1015"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -182,7 +182,7 @@
         <label>System::IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="930" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="931" bodyend="1014"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="932" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="933" bodyend="1016"/>
     <listofallmembers>
       <member refid="classMR_1_1AllLocalTriangulations_1aff5cc574a7d2337107ef80c93b3c8246" prot="package" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>AllLocalTriangulations</name></member>
       <member refid="classMR_1_1AllLocalTriangulations_1a02101b315bbacacf59102283f2b6c21a" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>AllLocalTriangulations</name></member>

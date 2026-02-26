@@ -50,9 +50,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="143" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="143" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1MeshPoint_1ad4e847a0772aac2f2379472907bc7dcd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromMRFaceId</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromMRFaceId MR.MeshPoint.notIncidentFaces</definition>
+      <memberdef kind="property" id="classMR_1_1MeshPoint_1add64f07e8fd123ac7390e92118981690" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_MRFaceId</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_MRFaceId MR.MeshPoint.notIncidentFaces</definition>
         <argsstring></argsstring>
         <name>notIncidentFaces</name>
         <qualifiedname>MR.MeshPoint.notIncidentFaces</qualifiedname>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="146" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="146" bodyend="146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="146" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="146" bodyend="146"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -293,7 +293,7 @@
       <member refid="classMR_1_1MeshPoint_1a1775ea98096a186c567c42eeb1f972d0" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>MeshPoint</name></member>
       <member refid="classMR_1_1MeshPoint_1af00a8cbc70e47c0ab31cc82892a83f82" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>MeshPoint</name></member>
       <member refid="classMR_1_1MeshPoint_1aea8a08cb2ff0e0028723f96bdf54d332" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>MeshPoint</name></member>
-      <member refid="classMR_1_1MeshPoint_1ad4e847a0772aac2f2379472907bc7dcd" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>notIncidentFaces</name></member>
+      <member refid="classMR_1_1MeshPoint_1add64f07e8fd123ac7390e92118981690" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>notIncidentFaces</name></member>
       <member refid="classMR_1_1MeshPoint_1adc1d53accdf14d78711402a6a9f57538" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>pt</name></member>
       <member refid="classMR_1_1MeshPoint_1a9a17581170d0b4a2bfd5fb931ab190c4" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>set</name></member>
       <member refid="classMR_1_1MeshPoint_1a2f1d929f6942b4a573467aa3b4760be1" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>triPoint</name></member>

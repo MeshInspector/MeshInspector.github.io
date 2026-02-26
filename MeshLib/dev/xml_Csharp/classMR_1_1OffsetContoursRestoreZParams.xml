@@ -4,9 +4,9 @@
     <compoundname>MR::OffsetContoursRestoreZParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContoursRestoreZParams</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1OffsetContoursRestoreZParams_1a07e5bf2e41f86f28bb9655921d110710" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef</type>
-        <definition>new unsafe MR.Std.Function_FloatFuncFromConstStdVectorStdVectorMRVector2fRefConstMROffsetContourIndexRefConstMROffsetContoursOriginsRef MR.OffsetContoursRestoreZParams.zCallback</definition>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursRestoreZParams_1ae6d8c64896790f543689b79710e3a0e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Float_From_ConstStdVectorStdVectorMRVector2fRef_ConstMROffsetContourIndexRef_ConstMROffsetContoursOriginsRef</type>
+        <definition>new unsafe MR.Std.Function_Float_From_ConstStdVectorStdVectorMRVector2fRef_ConstMROffsetContourIndexRef_ConstMROffsetContoursOriginsRef MR.OffsetContoursRestoreZParams.zCallback</definition>
         <argsstring></argsstring>
         <name>zCallback</name>
         <qualifiedname>MR.OffsetContoursRestoreZParams.zCallback</qualifiedname>
@@ -231,7 +231,7 @@
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1a0b572b474aa921a824a612a020f72bad" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1aa636bfd02f598b44e280a9325331cfb7" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1a1205e017a48c5fb39141381c4ee12a7c" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>relaxIterations</name></member>
-      <member refid="classMR_1_1OffsetContoursRestoreZParams_1a07e5bf2e41f86f28bb9655921d110710" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>zCallback</name></member>
+      <member refid="classMR_1_1OffsetContoursRestoreZParams_1ae6d8c64896790f543689b79710e3a0e6" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>zCallback</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

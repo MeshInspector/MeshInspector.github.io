@@ -343,7 +343,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Modifies a member variable of class <computeroutput>MR::FanRecord</computeroutput> named <computeroutput>border</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>border</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>border</computeroutput>. </para>
+<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Modifies a member variable of class <computeroutput>MR::FanRecord</computeroutput> named <computeroutput>border</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>border</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>border</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -401,7 +401,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the position of first neigbor in LocalTriangulations::neighbours Modifies a member variable of class <computeroutput>MR::FanRecord</computeroutput> named <computeroutput>firstNei</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>firstNei</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>firstNei</computeroutput>. </para>
+<para>the position of first neigbor in LocalTriangulations::neighbours Modifies a member variable of class <computeroutput>MR::FanRecord</computeroutput> named <computeroutput>firstNei</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>firstNei</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>firstNei</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -633,7 +633,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FanRecord::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FanRecord::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -673,7 +673,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>center point in the fan Modifies a member variable of class <computeroutput>MR::FanRecordWithCenter</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>center point in the fan Modifies a member variable of class <computeroutput>MR::FanRecordWithCenter</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -731,7 +731,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Modifies a member variable of class <computeroutput>MR::FanRecordWithCenter</computeroutput> named <computeroutput>border</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>border</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>border</computeroutput>. </para>
+<para>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Modifies a member variable of class <computeroutput>MR::FanRecordWithCenter</computeroutput> named <computeroutput>border</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>border</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>border</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -789,7 +789,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the position of first neigbor in LocalTriangulations::neighbours Modifies a member variable of class <computeroutput>MR::FanRecordWithCenter</computeroutput> named <computeroutput>firstNei</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>firstNei</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>firstNei</computeroutput>. </para>
+<para>the position of first neigbor in LocalTriangulations::neighbours Modifies a member variable of class <computeroutput>MR::FanRecordWithCenter</computeroutput> named <computeroutput>firstNei</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>firstNei</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>firstNei</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1025,7 +1025,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FanRecordWithCenter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FanRecordWithCenter::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1069,7 +1069,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SomeLocalTriangulations</computeroutput> named <computeroutput>neighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>neighbors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>neighbors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SomeLocalTriangulations</computeroutput> named <computeroutput>neighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>neighbors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>neighbors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1131,7 +1131,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SomeLocalTriangulations</computeroutput> named <computeroutput>fanRecords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fanRecords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fanRecords</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SomeLocalTriangulations</computeroutput> named <computeroutput>fanRecords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fanRecords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fanRecords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1189,7 +1189,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SomeLocalTriangulations</computeroutput> named <computeroutput>maxCenterId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxCenterId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maxCenterId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SomeLocalTriangulations</computeroutput> named <computeroutput>maxCenterId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxCenterId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>maxCenterId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1276,7 +1276,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SomeLocalTriangulations</computeroutput> elementwise. The reference to the parameter <computeroutput>neighbors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fanRecords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxCenterId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLocalTriangulations_8h_1a6c303b0e47c89c5205d4ac1f682f38f8" kindref="member">MR_SomeLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SomeLocalTriangulations</computeroutput> elementwise. The reference to the parameter <computeroutput>neighbors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fanRecords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxCenterId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLocalTriangulations_8h_1a6c303b0e47c89c5205d4ac1f682f38f8" kindref="member">MR_SomeLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1404,7 +1404,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SomeLocalTriangulations::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SomeLocalTriangulations::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1448,7 +1448,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::AllLocalTriangulations</computeroutput> named <computeroutput>neighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>neighbors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>neighbors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::AllLocalTriangulations</computeroutput> named <computeroutput>neighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>neighbors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>neighbors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1510,7 +1510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::AllLocalTriangulations</computeroutput> named <computeroutput>fanRecords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fanRecords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fanRecords</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::AllLocalTriangulations</computeroutput> named <computeroutput>fanRecords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fanRecords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fanRecords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1593,7 +1593,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::AllLocalTriangulations</computeroutput> elementwise. The reference to the parameter <computeroutput>neighbors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fanRecords</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLocalTriangulations_8h_1a67c6aa70641ec0e63aaec012bd0528da" kindref="member">MR_AllLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::AllLocalTriangulations</computeroutput> elementwise. The reference to the parameter <computeroutput>neighbors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fanRecords</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRLocalTriangulations_8h_1a67c6aa70641ec0e63aaec012bd0528da" kindref="member">MR_AllLocalTriangulations_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1721,7 +1721,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AllLocalTriangulations::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AllLocalTriangulations::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

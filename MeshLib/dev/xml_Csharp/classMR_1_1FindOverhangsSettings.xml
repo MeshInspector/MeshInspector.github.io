@@ -79,9 +79,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="180" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="181" bodyend="190"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1a683197eda04fd727ec902df147c6410b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FindOverhangsSettings.progressCb</definition>
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1a200b08baffa29e74765bb179c2369e17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.FindOverhangsSettings.progressCb</definition>
         <argsstring></argsstring>
         <name>progressCb</name>
         <qualifiedname>MR.FindOverhangsSettings.progressCb</qualifiedname>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="192" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="192" bodyend="192"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="192" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="192" bodyend="192"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -310,7 +310,7 @@
       <member refid="classMR_1_1FindOverhangsSettings_1af8d9bd5d2b40e20c1e1b0db3e40cc7b1" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>hops</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a1a866ba24f0327bb984c53fb8c78611f" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>layerHeight</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1aa59a13d235fa5ab20d2bc64563534ea6" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>maxOverhangDistance</name></member>
-      <member refid="classMR_1_1FindOverhangsSettings_1a683197eda04fd727ec902df147c6410b" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>progressCb</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a200b08baffa29e74765bb179c2369e17" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>progressCb</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a261030e974afdf4719be9ca9a1bae8e8" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>

@@ -147,7 +147,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>base axis marking the up direction Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>axis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>axis</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>axis</computeroutput>. </para>
+<para>base axis marking the up direction Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>axis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>axis</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>axis</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -205,7 +205,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>height of a layer Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>layerHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>layerHeight</computeroutput>. </para>
+<para>height of a layer Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>layerHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>layerHeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -263,7 +263,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum allowed overhang distance within a layer Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>maxOverhangDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxOverhangDistance</computeroutput>. </para>
+<para>maximum allowed overhang distance within a layer Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>maxOverhangDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxOverhangDistance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -321,7 +321,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of hops used to smooth out the overhang regions (0 - disable smoothing) Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>hops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hops</computeroutput>. </para>
+<para>number of hops used to smooth out the overhang regions (0 - disable smoothing) Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>hops</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hops</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -379,7 +379,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>mesh transform Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>mesh transform Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -441,7 +441,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>progressCb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FindOverhangsSettings</computeroutput> named <computeroutput>progressCb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -536,7 +536,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindOverhangsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>axis</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshOverhangs_8h_1afe1cc0c12c883c07e0c28c32b7ade898" kindref="member">MR_FindOverhangsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindOverhangsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>axis</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshOverhangs_8h_1afe1cc0c12c883c07e0c28c32b7ade898" kindref="member">MR_FindOverhangsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -664,7 +664,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindOverhangsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindOverhangsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

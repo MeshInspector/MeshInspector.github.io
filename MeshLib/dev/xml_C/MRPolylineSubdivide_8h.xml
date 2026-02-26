@@ -161,7 +161,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Subdivision is stopped when all edges are not longer than this value Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
+<para>Subdivision is stopped when all edges are not longer than this value Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -219,7 +219,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of edge splits allowed Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
+<para>Maximum number of edge splits allowed Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -277,7 +277,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Region on polyline to be subdivided: both edge vertices must be there to allow spitting, it is updated during the operation Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Region on polyline to be subdivided: both edge vertices must be there to allow spitting, it is updated during the operation Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -335,7 +335,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>New vertices appeared during subdivision will be added here Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>newVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newVerts</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>newVerts</computeroutput>. </para>
+<para>New vertices appeared during subdivision will be added here Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>newVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newVerts</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>newVerts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -393,7 +393,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This option works best for natural lines, where all segments have similar size, and no sharp angles in between Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>useCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>useCurvature</computeroutput>. </para>
+<para>This option works best for natural lines, where all segments have similar size, and no sharp angles in between Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>useCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>useCurvature</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -455,7 +455,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time a new vertex has been created Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>onVertCreated</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onVertCreated</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onVertCreated</computeroutput>. </para>
+<para>this function is called each time a new vertex has been created Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>onVertCreated</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onVertCreated</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onVertCreated</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -517,7 +517,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this function is called each time edge (e) is split into (e1-&gt;e) Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
+<para>this function is called each time edge (e) is split into (e1-&gt;e) Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -579,7 +579,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCallback</computeroutput>. </para>
+<para>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <computeroutput>MR::PolylineSubdivideSettings</computeroutput> named <computeroutput>progressCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -690,7 +690,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineSubdivideSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onVertCreated</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" kindref="member">MR_PolylineSubdivideSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineSubdivideSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newVerts</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onVertCreated</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" kindref="member">MR_PolylineSubdivideSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -818,7 +818,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineSubdivideSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineSubdivideSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

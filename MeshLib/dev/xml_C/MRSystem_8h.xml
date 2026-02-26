@@ -354,7 +354,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>total amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalTotal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>physicalTotal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>physicalTotal</computeroutput>. </para>
+<para>total amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalTotal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>physicalTotal</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>physicalTotal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -412,7 +412,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>available amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalAvailable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>physicalAvailable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>physicalAvailable</computeroutput>. </para>
+<para>available amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <computeroutput>MR::SystemMemory</computeroutput> named <computeroutput>physicalAvailable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>physicalAvailable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>physicalAvailable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -487,7 +487,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SystemMemory</computeroutput> elementwise. The reference to the parameter <computeroutput>physicalTotal</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>physicalAvailable</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SystemMemory</computeroutput> elementwise. The reference to the parameter <computeroutput>physicalTotal</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>physicalAvailable</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSystem_8h_1a4ec7c967b154bc64516948e2b4c24f8f" kindref="member">MR_SystemMemory_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -607,7 +607,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SystemMemory::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SystemMemory::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

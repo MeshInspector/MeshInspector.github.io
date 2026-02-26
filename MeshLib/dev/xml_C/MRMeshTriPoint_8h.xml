@@ -191,7 +191,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WeightedVertex</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>v</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WeightedVertex</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>v</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -249,7 +249,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::WeightedVertex</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>weight</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::WeightedVertex</computeroutput> named <computeroutput>weight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>weight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -324,7 +324,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::WeightedVertex</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" kindref="member">MR_WeightedVertex_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::WeightedVertex</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" kindref="member">MR_WeightedVertex_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -444,7 +444,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::WeightedVertex::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. left face of this edge is considered Returns a pointer to a member variable of class <computeroutput>MR::MeshTriPoint</computeroutput> named <computeroutput>e</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::WeightedVertex::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. left face of this edge is considered Returns a pointer to a member variable of class <computeroutput>MR::MeshTriPoint</computeroutput> named <computeroutput>e</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -462,7 +462,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>left face of this edge is considered Modifies a member variable of class <computeroutput>MR::MeshTriPoint</computeroutput> named <computeroutput>e</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>e</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>e</computeroutput>. </para>
+<para>left face of this edge is considered Modifies a member variable of class <computeroutput>MR::MeshTriPoint</computeroutput> named <computeroutput>e</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>e</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>e</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -543,7 +543,7 @@
         </briefdescription>
         <detaileddescription>
 <para>barycentric coordinates</para>
-<para>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge Modifies a member variable of class <computeroutput>MR::MeshTriPoint</computeroutput> named <computeroutput>bary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bary</computeroutput>. </para>
+<para>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge Modifies a member variable of class <computeroutput>MR::MeshTriPoint</computeroutput> named <computeroutput>bary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bary</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>bary</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -815,7 +815,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshTriPoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshTriPoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

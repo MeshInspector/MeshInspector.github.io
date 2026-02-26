@@ -360,7 +360,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::PointsToMeshParameters::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::PointsToMeshParameters::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>invSigmaModifier</code>. </p>
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>invSigmaModifier</code>. </p>
 
 </div>
 </div>
@@ -832,7 +832,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minWeight</code>. </p>
+<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>minWeight</code>. </p>
 
 </div>
 </div>
@@ -859,7 +859,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Progress callback Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>Progress callback Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it held previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -881,7 +881,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: colors of input points Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptColors</code>. When this function is called, this object will drop object references it had previously in <code>ptColors</code>. </p>
+<p>optional input: colors of input points Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptColors</code>. When this function is called, this object will drop object references it held previously in <code>ptColors</code>. </p>
 
 </div>
 </div>
@@ -903,7 +903,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sigma</code>. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>sigma</code>. </p>
 
 </div>
 </div>
@@ -925,7 +925,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sqrtAngleWeight</code>. </p>
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>sqrtAngleWeight</code>. </p>
 
 </div>
 </div>
@@ -947,7 +947,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: averaged colors of mesh vertices Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vColors</code>. When this function is called, this object will drop object references it had previously in <code>vColors</code>. </p>
+<p>optional output: averaged colors of mesh vertices Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vColors</code>. When this function is called, this object will drop object references it held previously in <code>vColors</code>. </p>
 
 </div>
 </div>
@@ -969,7 +969,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>voxelSize</code>. </p>
 
 </div>
 </div>

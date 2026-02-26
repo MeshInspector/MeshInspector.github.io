@@ -162,7 +162,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>neighborhoodRadius</computeroutput>. </para>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>neighborhoodRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -220,7 +220,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of iterations Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -278,7 +278,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>region to relax Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -336,7 +336,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>force</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -394,7 +394,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>limitNearInitial</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -452,7 +452,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::PointCloudRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxInitialDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -697,7 +697,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointCloudRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointCloudRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -801,7 +801,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -859,7 +859,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>neighborhoodRadius</computeroutput>. </para>
+<para>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>neighborhoodRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>neighborhoodRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -917,7 +917,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of iterations Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iterations</computeroutput>. </para>
+<para>number of iterations Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>iterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -975,7 +975,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>region to relax Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>region to relax Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1033,7 +1033,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>force</computeroutput>. </para>
+<para>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>force</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>force</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1091,7 +1091,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>limitNearInitial</computeroutput>. </para>
+<para>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>limitNearInitial</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>limitNearInitial</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1149,7 +1149,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxInitialDist</computeroutput>. </para>
+<para>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> named <computeroutput>maxInitialDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxInitialDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1394,7 +1394,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointCloudApproxRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointCloudApproxRelaxParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

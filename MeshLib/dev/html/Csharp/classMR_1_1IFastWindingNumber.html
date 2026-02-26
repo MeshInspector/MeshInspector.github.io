@@ -165,24 +165,24 @@ $(function(){initNavTree('classMR_1_1IFastWindingNumber.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad303d0d5ce9f9720b255f8227c53fa11" id="r_ad303d0d5ce9f9720b255f8227c53fa11"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad303d0d5ce9f9720b255f8227c53fa11">calcFromVector</a> (MR.Std.Vector_Float res, MR.Std.Const_Vector_MRVector3f points, float beta, MR._InOpt_FaceId skipFace=default, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:ad303d0d5ce9f9720b255f8227c53fa11"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
-<tr class="separator:ad303d0d5ce9f9720b255f8227c53fa11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35bf527fbd60a14cfcff602e8030a2cd" id="r_a35bf527fbd60a14cfcff602e8030a2cd"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35bf527fbd60a14cfcff602e8030a2cd">calcSelfIntersections</a> (<a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a> res, float beta, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a35bf527fbd60a14cfcff602e8030a2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
-<tr class="separator:a35bf527fbd60a14cfcff602e8030a2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c8eaa1d923c9751190563795afdea3e" id="r_a8c8eaa1d923c9751190563795afdea3e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8eaa1d923c9751190563795afdea3e">calcFromGrid</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, float beta, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a8c8eaa1d923c9751190563795afdea3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
-<tr class="separator:a8c8eaa1d923c9751190563795afdea3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3a528367bf75b600e2d61d9b09e065c" id="r_aa3a528367bf75b600e2d61d9b09e065c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a528367bf75b600e2d61d9b09e065c">calcFromGridWithDistances</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, MR.Const_DistanceToMeshOptions options, MR.Std.Const_Function_BoolFuncFromFloat cb)</td></tr>
-<tr class="memdesc:aa3a528367bf75b600e2d61d9b09e065c"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
-<tr class="separator:aa3a528367bf75b600e2d61d9b09e065c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be4494442bb65e1540bd88a91f552a7" id="r_a4be4494442bb65e1540bd88a91f552a7"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be4494442bb65e1540bd88a91f552a7">calcFromVector</a> (MR.Std.Vector_Float res, MR.Std.Const_Vector_MRVector3f points, float beta, MR._InOpt_FaceId skipFace=default, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a4be4494442bb65e1540bd88a91f552a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
+<tr class="separator:a4be4494442bb65e1540bd88a91f552a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec064322180d2377393218c4575950eb" id="r_aec064322180d2377393218c4575950eb"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec064322180d2377393218c4575950eb">calcSelfIntersections</a> (<a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a> res, float beta, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:aec064322180d2377393218c4575950eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
+<tr class="separator:aec064322180d2377393218c4575950eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbae3073bea7d77e49d7caab541680fa" id="r_adbae3073bea7d77e49d7caab541680fa"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbae3073bea7d77e49d7caab541680fa">calcFromGrid</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, float beta, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:adbae3073bea7d77e49d7caab541680fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
+<tr class="separator:adbae3073bea7d77e49d7caab541680fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3975d6faf2163a2966882ac4b54185a6" id="r_a3975d6faf2163a2966882ac4b54185a6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3975d6faf2163a2966882ac4b54185a6">calcFromGridWithDistances</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, MR.Const_DistanceToMeshOptions options, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:a3975d6faf2163a2966882ac4b54185a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
+<tr class="separator:a3975d6faf2163a2966882ac4b54185a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree) Generated from class <code><a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">MR.IFastWindingNumber</a></code>. Derived classes: Direct: (non-virtual) <code><a class="el" href="classMR_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note,...">MR.FastWindingNumber</a></code> This is the non-const half of the class. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8c8eaa1d923c9751190563795afdea3e" name="a8c8eaa1d923c9751190563795afdea3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c8eaa1d923c9751190563795afdea3e">&#9670;&#160;</a></span>calcFromGrid()</h2>
+<a id="adbae3073bea7d77e49d7caab541680fa" name="adbae3073bea7d77e49d7caab541680fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbae3073bea7d77e49d7caab541680fa">&#9670;&#160;</a></span>calcFromGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +213,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -233,12 +233,12 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <code><a class="el" href="#a8c8eaa1d923c9751190563795afdea3e" title="calculates winding numbers in each point from a three-dimensional grid">MR.IFastWindingNumber.calcFromGrid</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Generated from method <code><a class="el" href="#adbae3073bea7d77e49d7caab541680fa" title="calculates winding numbers in each point from a three-dimensional grid">MR.IFastWindingNumber.calcFromGrid</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="aa3a528367bf75b600e2d61d9b09e065c" name="aa3a528367bf75b600e2d61d9b09e065c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3a528367bf75b600e2d61d9b09e065c">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="a3975d6faf2163a2966882ac4b54185a6" name="a3975d6faf2163a2966882ac4b54185a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3975d6faf2163a2966882ac4b54185a6">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,7 +269,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -287,12 +287,12 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <code><a class="el" href="#aa3a528367bf75b600e2d61d9b09e065c" title="calculates distances with the sign obtained from generalized winding number in each point from a thre...">MR.IFastWindingNumber.calcFromGridWithDistances</a></code>. </p>
+<p>Generated from method <code><a class="el" href="#a3975d6faf2163a2966882ac4b54185a6" title="calculates distances with the sign obtained from generalized winding number in each point from a thre...">MR.IFastWindingNumber.calcFromGridWithDistances</a></code>. </p>
 
 </div>
 </div>
-<a id="ad303d0d5ce9f9720b255f8227c53fa11" name="ad303d0d5ce9f9720b255f8227c53fa11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad303d0d5ce9f9720b255f8227c53fa11">&#9670;&#160;</a></span>calcFromVector()</h2>
+<a id="a4be4494442bb65e1540bd88a91f552a7" name="a4be4494442bb65e1540bd88a91f552a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be4494442bb65e1540bd88a91f552a7">&#9670;&#160;</a></span>calcFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +323,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -343,12 +343,12 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <code><a class="el" href="#ad303d0d5ce9f9720b255f8227c53fa11" title="calculates winding numbers in the points from given vector">MR.IFastWindingNumber.calcFromVector</a></code>. Parameter <code>skipFace</code> defaults to <code>{}</code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Generated from method <code><a class="el" href="#a4be4494442bb65e1540bd88a91f552a7" title="calculates winding numbers in the points from given vector">MR.IFastWindingNumber.calcFromVector</a></code>. Parameter <code>skipFace</code> defaults to <code>{}</code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a35bf527fbd60a14cfcff602e8030a2cd" name="a35bf527fbd60a14cfcff602e8030a2cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35bf527fbd60a14cfcff602e8030a2cd">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="aec064322180d2377393218c4575950eb" name="aec064322180d2377393218c4575950eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec064322180d2377393218c4575950eb">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,7 +369,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -387,7 +387,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <code><a class="el" href="#a35bf527fbd60a14cfcff602e8030a2cd" title="calculates winding numbers for all centers of mesh&#39;s triangles. if winding number is less than 0 or g...">MR.IFastWindingNumber.calcSelfIntersections</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Generated from method <code><a class="el" href="#aec064322180d2377393218c4575950eb" title="calculates winding numbers for all centers of mesh&#39;s triangles. if winding number is less than 0 or g...">MR.IFastWindingNumber.calcSelfIntersections</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>

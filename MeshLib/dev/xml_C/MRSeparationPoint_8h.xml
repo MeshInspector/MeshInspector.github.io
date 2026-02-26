@@ -368,7 +368,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SeparationPointStorage::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SeparationPointStorage::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -544,7 +544,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>smap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>smap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>smap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>smap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>smap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>smap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -606,7 +606,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>coords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>coords</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>coords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>coords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -664,7 +664,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>after makeUniqueVids(), it is the unique id of first point in coords Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>shift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>shift</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>shift</computeroutput>. </para>
+<para>after makeUniqueVids(), it is the unique id of first point in coords Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>shift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>shift</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>shift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -726,7 +726,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tris</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tris</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tris</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tris</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -788,7 +788,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>faceMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceMap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::SeparationPointStorage::Block</computeroutput> named <computeroutput>faceMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>faceMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -891,7 +891,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SeparationPointStorage::Block</computeroutput> elementwise. The reference to the parameter <computeroutput>smap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>coords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>shift</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tris</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSeparationPoint_8h_1a3416e368cb21e8e8d3d657dd40cd899b" kindref="member">MR_SeparationPointStorage_Block_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SeparationPointStorage::Block</computeroutput> elementwise. The reference to the parameter <computeroutput>smap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>coords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>shift</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tris</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSeparationPoint_8h_1a3416e368cb21e8e8d3d657dd40cd899b" kindref="member">MR_SeparationPointStorage_Block_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1019,7 +1019,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SeparationPointStorage::Block::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SeparationPointStorage::Block::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

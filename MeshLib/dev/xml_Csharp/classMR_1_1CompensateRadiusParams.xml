@@ -109,9 +109,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="220" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="220" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1CompensateRadiusParams_1a089dcd468b5372899854d6e722f35705" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.CompensateRadiusParams.callback</definition>
+      <memberdef kind="property" id="classMR_1_1CompensateRadiusParams_1acd80e28334604285f18962790596ec3b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.CompensateRadiusParams.callback</definition>
         <argsstring></argsstring>
         <name>callback</name>
         <qualifiedname>MR.CompensateRadiusParams.callback</qualifiedname>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="222" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="222" bodyend="222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="222" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="222" bodyend="222"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -338,7 +338,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="187" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="188" bodyend="305"/>
     <listofallmembers>
       <member refid="classMR_1_1CompensateRadiusParams_1a71d47092139c33a007000b22236edb26" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>assign</name></member>
-      <member refid="classMR_1_1CompensateRadiusParams_1a089dcd468b5372899854d6e722f35705" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>callback</name></member>
+      <member refid="classMR_1_1CompensateRadiusParams_1acd80e28334604285f18962790596ec3b" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>callback</name></member>
       <member refid="classMR_1_1CompensateRadiusParams_1a89765de056c08d51fd90181da0acc5ba" prot="package" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>CompensateRadiusParams</name></member>
       <member refid="classMR_1_1CompensateRadiusParams_1a86a2bee9ea24a84cbd6d37b4a4abc9d6" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>CompensateRadiusParams</name></member>
       <member refid="classMR_1_1CompensateRadiusParams_1abb33db20f91ed2bc5827c4dbcdd309f3" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>CompensateRadiusParams</name></member>

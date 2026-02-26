@@ -165,7 +165,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>preCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCut</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>preCut</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>preCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCut</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>preCut</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -227,7 +227,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>postCut</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>postCut</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>postCut</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>postCut</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -289,7 +289,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>postMerge</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>postMerge</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>postMerge</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>postMerge</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -347,7 +347,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>mapping</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mapping</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mapping</computeroutput>. </para>
+<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>mapping</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mapping</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mapping</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -405,7 +405,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>origin</computeroutput>. </para>
+<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>origin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -504,7 +504,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MergeVolumePartSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>preCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>postCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>postMerge</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mapping</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mapping</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" kindref="member">MR_MergeVolumePartSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MergeVolumePartSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>preCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>postCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>postMerge</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mapping</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mapping</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" kindref="member">MR_MergeVolumePartSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -632,7 +632,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MergeVolumePartSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MergeVolumePartSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -672,7 +672,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>maxVolumePartMemoryUsage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxVolumePartMemoryUsage</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maxVolumePartMemoryUsage</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>maxVolumePartMemoryUsage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxVolumePartMemoryUsage</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>maxVolumePartMemoryUsage</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -730,7 +730,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overlap in voxels between two parts Modifies a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>stripeOverlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stripeOverlap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>stripeOverlap</computeroutput>. </para>
+<para>overlap in voxels between two parts Modifies a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>stripeOverlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stripeOverlap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>stripeOverlap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -805,7 +805,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>maxVolumePartMemoryUsage</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stripeOverlap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" kindref="member">MR_VolumeToMeshByPartsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>maxVolumePartMemoryUsage</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stripeOverlap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" kindref="member">MR_VolumeToMeshByPartsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -925,7 +925,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VolumeToMeshByPartsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VolumeToMeshByPartsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

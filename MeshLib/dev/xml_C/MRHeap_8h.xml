@@ -255,7 +255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -479,7 +479,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>id</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>id</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>id</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>id</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -537,7 +537,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</computeroutput> named <computeroutput>val</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>val</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</computeroutput> named <computeroutput>val</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>val</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -612,7 +612,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</computeroutput> elementwise. The reference to the parameter <computeroutput>id</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</computeroutput> elementwise. The reference to the parameter <computeroutput>id</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -732,7 +732,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

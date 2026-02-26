@@ -254,7 +254,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Limit from above on the maximum distance from moved vertices to original contour Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>maxError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxError</computeroutput>. </para>
+<para>Limit from above on the maximum distance from moved vertices to original contour Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>maxError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxError</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -312,7 +312,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal possible edge length created during decimation Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
+<para>Maximal possible edge length created during decimation Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -370,7 +370,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -428,7 +428,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>optimizeVertexPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>optimizeVertexPos</computeroutput>. </para>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>optimizeVertexPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>optimizeVertexPos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -486,7 +486,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Limit on the number of deleted vertices Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>maxDeletedVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeletedVertices</computeroutput>. </para>
+<para>Limit on the number of deleted vertices Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>maxDeletedVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeletedVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -544,7 +544,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -602,7 +602,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>touchBdVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>touchBdVertices</computeroutput>. </para>
+<para>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>touchBdVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>touchBdVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -666,7 +666,7 @@
 <para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
         </briefdescription>
         <detaileddescription>
-<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>preCollapse</computeroutput>. </para>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>preCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -731,7 +731,7 @@
 <para>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </para>
         </briefdescription>
         <detaileddescription>
-<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>adjustCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>adjustCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>adjustCollapse</computeroutput>. </para>
+<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>adjustCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>adjustCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>adjustCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -792,7 +792,7 @@
 <para>If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </para>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>vertForms</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertForms</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertForms</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> named <computeroutput>vertForms</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertForms</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertForms</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -908,7 +908,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>adjustCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertForms</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineDecimate_8h_1a75182aa8d359cf32073171a1c3f3e6eb" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>adjustCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertForms</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineDecimate_8h_1a75182aa8d359cf32073171a1c3f3e6eb" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1036,7 +1036,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1076,7 +1076,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Limit from above on the maximum distance from moved vertices to original contour Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>maxError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxError</computeroutput>. </para>
+<para>Limit from above on the maximum distance from moved vertices to original contour Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>maxError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxError</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1134,7 +1134,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal possible edge length created during decimation Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
+<para>Maximal possible edge length created during decimation Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1192,7 +1192,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stabilizer</computeroutput>. </para>
+<para>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>stabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stabilizer</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1250,7 +1250,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>optimizeVertexPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>optimizeVertexPos</computeroutput>. </para>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>optimizeVertexPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>optimizeVertexPos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1308,7 +1308,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Limit on the number of deleted vertices Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>maxDeletedVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeletedVertices</computeroutput>. </para>
+<para>Limit on the number of deleted vertices Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>maxDeletedVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeletedVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1366,7 +1366,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1424,7 +1424,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>touchBdVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>touchBdVertices</computeroutput>. </para>
+<para>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>touchBdVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>touchBdVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1488,7 +1488,7 @@
 <para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
         </briefdescription>
         <detaileddescription>
-<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>preCollapse</computeroutput>. </para>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>preCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>preCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1553,7 +1553,7 @@
 <para>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </para>
         </briefdescription>
         <detaileddescription>
-<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>adjustCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>adjustCollapse</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>adjustCollapse</computeroutput>. </para>
+<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>adjustCollapse</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>adjustCollapse</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>adjustCollapse</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1614,7 +1614,7 @@
 <para>If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </para>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>vertForms</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertForms</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertForms</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> named <computeroutput>vertForms</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertForms</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertForms</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1730,7 +1730,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>adjustCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertForms</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineDecimate_8h_1add8034c714617445577ec358b1708f2b" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>preCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>adjustCollapse</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertForms</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineDecimate_8h_1add8034c714617445577ec358b1708f2b" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1858,7 +1858,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. Number deleted verts. Same as the number of performed collapses Returns a pointer to a member variable of class <computeroutput>MR::DecimatePolylineResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. Number deleted verts. Same as the number of performed collapses Returns a pointer to a member variable of class <computeroutput>MR::DecimatePolylineResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1876,7 +1876,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Number deleted verts. Same as the number of performed collapses Modifies a member variable of class <computeroutput>MR::DecimatePolylineResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>vertsDeleted</computeroutput>. </para>
+<para>Number deleted verts. Same as the number of performed collapses Modifies a member variable of class <computeroutput>MR::DecimatePolylineResult</computeroutput> named <computeroutput>vertsDeleted</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>vertsDeleted</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1934,7 +1934,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Max different (as distance) between original contour and result contour Modifies a member variable of class <computeroutput>MR::DecimatePolylineResult</computeroutput> named <computeroutput>errorIntroduced</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>errorIntroduced</computeroutput>. </para>
+<para>Max different (as distance) between original contour and result contour Modifies a member variable of class <computeroutput>MR::DecimatePolylineResult</computeroutput> named <computeroutput>errorIntroduced</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>errorIntroduced</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2030,7 +2030,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DecimatePolylineResult</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineDecimate_8h_1a2264b386cf189c903cacd9468966bd1a" kindref="member">MR_DecimatePolylineResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DecimatePolylineResult</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineDecimate_8h_1a2264b386cf189c903cacd9468966bd1a" kindref="member">MR_DecimatePolylineResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2150,7 +2150,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DecimatePolylineResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DecimatePolylineResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

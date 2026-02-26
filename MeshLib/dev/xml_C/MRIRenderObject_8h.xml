@@ -637,7 +637,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BaseRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewportId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BaseRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewportId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -695,7 +695,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BaseRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewport</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BaseRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewport</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -761,7 +761,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BaseRenderParams</computeroutput> elementwise. Parameter <computeroutput>viewMatrix</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>viewMatrix</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>projMatrix</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>projMatrix</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>viewportId</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>viewport</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIRenderObject_8h_1a7da1fc45207c2597c7755d1903bdbf96" kindref="member">MR_BaseRenderParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BaseRenderParams</computeroutput> elementwise. Parameter <computeroutput>viewMatrix</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>viewMatrix</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>projMatrix</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>projMatrix</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>viewportId</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>viewport</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIRenderObject_8h_1a7da1fc45207c2597c7755d1903bdbf96" kindref="member">MR_BaseRenderParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1025,7 +1025,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelBaseRenderParams</computeroutput> named <computeroutput>depthFunction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>depthFunction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>depthFunction</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelBaseRenderParams</computeroutput> named <computeroutput>depthFunction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>depthFunction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>depthFunction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1119,7 +1119,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelBaseRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewportId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelBaseRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewportId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1177,7 +1177,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelBaseRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewport</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelBaseRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewport</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1405,7 +1405,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>normMatrixPtr</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normMatrixPtr</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normMatrixPtr</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>normMatrixPtr</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normMatrixPtr</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normMatrixPtr</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1463,7 +1463,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>lightPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lightPos</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lightPos</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>lightPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lightPos</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lightPos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1521,7 +1521,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>transparencyMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>transparencyMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>transparencyMode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>transparencyMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>transparencyMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>transparencyMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1579,7 +1579,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>passMask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>passMask</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>passMask</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>passMask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>passMask</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>passMask</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1673,7 +1673,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>depthFunction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>depthFunction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>depthFunction</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>depthFunction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>depthFunction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>depthFunction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1767,7 +1767,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewportId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewportId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1825,7 +1825,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewport</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ModelRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewport</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2053,7 +2053,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The tasks are sorted by this depth, descending (larger depth = further away). Modifies a member variable of class <computeroutput>MR::BasicUiRenderTask</computeroutput> named <computeroutput>renderTaskDepth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>renderTaskDepth</computeroutput>. </para>
+<para>The tasks are sorted by this depth, descending (larger depth = further away). Modifies a member variable of class <computeroutput>MR::BasicUiRenderTask</computeroutput> named <computeroutput>renderTaskDepth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>renderTaskDepth</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2403,7 +2403,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BasicUiRenderTask::BackwardPassParams</computeroutput> named <computeroutput>consumedInteractions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>consumedInteractions</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>consumedInteractions</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BasicUiRenderTask::BackwardPassParams</computeroutput> named <computeroutput>consumedInteractions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>consumedInteractions</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>consumedInteractions</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2474,7 +2474,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BasicUiRenderTask::BackwardPassParams</computeroutput> elementwise. The reference to the parameter <computeroutput>consumedInteractions</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIRenderObject_8h_1ac9765304e63f38e7a73f9c617be8b671" kindref="member">MR_BasicUiRenderTask_BackwardPassParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BasicUiRenderTask::BackwardPassParams</computeroutput> elementwise. The reference to the parameter <computeroutput>consumedInteractions</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIRenderObject_8h_1ac9765304e63f38e7a73f9c617be8b671" kindref="member">MR_BasicUiRenderTask_BackwardPassParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2594,7 +2594,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BasicUiRenderTask::BackwardPassParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BasicUiRenderTask::BackwardPassParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2652,7 +2652,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UiRenderParams</computeroutput> named <computeroutput>tasks</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tasks</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tasks</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UiRenderParams</computeroutput> named <computeroutput>tasks</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tasks</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tasks</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2746,7 +2746,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UiRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewportId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UiRenderParams</computeroutput> named <computeroutput>viewportId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewportId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewportId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2804,7 +2804,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UiRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>viewport</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UiRenderParams</computeroutput> named <computeroutput>viewport</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>viewport</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>viewport</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3119,7 +3119,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UiRenderManager::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UiRenderManager::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

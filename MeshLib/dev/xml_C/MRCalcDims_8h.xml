@@ -105,7 +105,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>origin</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>origin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -163,7 +163,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>dimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dimensions</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dimensions</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OriginAndDimensions</computeroutput> named <computeroutput>dimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dimensions</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dimensions</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -238,7 +238,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OriginAndDimensions</computeroutput> elementwise. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dimensions</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" kindref="member">MR_OriginAndDimensions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OriginAndDimensions</computeroutput> elementwise. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dimensions</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCalcDims_8h_1a3451d9bf3a4be1419ea670ff4b3df84a" kindref="member">MR_OriginAndDimensions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -358,7 +358,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OriginAndDimensions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OriginAndDimensions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

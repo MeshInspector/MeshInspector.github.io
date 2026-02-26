@@ -108,7 +108,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>invDir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>invDir</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>invDir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>invDir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -166,7 +166,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDimIdxY</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDimIdxY</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -224,7 +224,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>idxX</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>idxX</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -282,7 +282,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores signs of direction vector; Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sign</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sign</computeroutput>. </para>
+<para>stores signs of direction vector; Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sign</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>sign</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -340,7 +340,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sx</computeroutput>. </para>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>Sx</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -398,7 +398,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sy</computeroutput>. </para>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>Sy</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -589,7 +589,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -629,7 +629,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>invDir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>invDir</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>invDir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>invDir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -687,7 +687,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDimIdxY</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDimIdxY</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -745,7 +745,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>idxX</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>idxX</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -803,7 +803,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores signs of direction vector; Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sign</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sign</computeroutput>. </para>
+<para>stores signs of direction vector; Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sign</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>sign</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -861,7 +861,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sx</computeroutput>. </para>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>Sx</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -919,7 +919,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sy</computeroutput>. </para>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>Sy</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1110,7 +1110,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

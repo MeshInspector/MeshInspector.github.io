@@ -10,5 +10,5 @@ var classMR_1_1UniformSamplingSettings =
     [ "lexicographicalOrder", "classMR_1_1UniformSamplingSettings.html#a00fbf05d8d09fc77a57c9700609f5be0", null ],
     [ "minNormalDot", "classMR_1_1UniformSamplingSettings.html#a5c1e6f8646dc6d75c051fe27fb0cea69", null ],
     [ "pNormals", "classMR_1_1UniformSamplingSettings.html#aa68380082bc7ff41e43932b27b7a0186", null ],
-    [ "progress", "classMR_1_1UniformSamplingSettings.html#ac6d53a00c6f6f7fa04785906f39e990b", null ]
+    [ "progress", "classMR_1_1UniformSamplingSettings.html#a1d6d33be1f4e3d2c57b68c6798093559", null ]
 ];

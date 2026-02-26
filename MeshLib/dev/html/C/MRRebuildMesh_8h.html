@@ -426,7 +426,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::RebuildMeshSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::RebuildMeshSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -518,7 +518,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::RebuildMeshSettings</code> elementwise. The reference to the parameter <code>signMode</code> might be preserved in the constructed object. The reference to the parameter <code>offsetMode</code> might be preserved in the constructed object. The reference to the parameter <code>outSharpEdges</code> might be preserved in the constructed object. The reference to the parameter <code>fwn</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. The reference to the parameter <code>onSignDetectionModeSelected</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4b8b7c4ac8006b30c9a2b45840652e" title="Destroys a heap-allocated instance of MR_RebuildMeshSettings. Does nothing if the pointer is null.">MR_RebuildMeshSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::RebuildMeshSettings</code> elementwise. The reference to the parameter <code>signMode</code> might be preserved in the constructed object. The reference to the parameter <code>offsetMode</code> might be preserved in the constructed object. The reference to the parameter <code>outSharpEdges</code> might be preserved in the constructed object. The reference to the parameter <code>fwn</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. The reference to the parameter <code>onSignDetectionModeSelected</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4b8b7c4ac8006b30c9a2b45840652e" title="Destroys a heap-allocated instance of MR_RebuildMeshSettings. Does nothing if the pointer is null.">MR_RebuildMeshSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1148,7 +1148,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>closeHolesInHoleWindingNumber</code>. </p>
+<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>closeHolesInHoleWindingNumber</code>. </p>
 
 </div>
 </div>
@@ -1170,7 +1170,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to decimate resulting mesh Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>decimate</code>. </p>
+<p>whether to decimate resulting mesh Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>decimate</code>. </p>
 
 </div>
 </div>
@@ -1197,7 +1197,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>fwn</code>. When this function is called, this object will drop object references it had previously in <code>fwn</code>. </p>
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>fwn</code>. When this function is called, this object will drop object references it held previously in <code>fwn</code>. </p>
 
 </div>
 </div>
@@ -1219,7 +1219,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>offsetMode</code>. When this function is called, this object will drop object references it had previously in <code>offsetMode</code>. </p>
+<p>Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>offsetMode</code>. When this function is called, this object will drop object references it held previously in <code>offsetMode</code>. </p>
 
 </div>
 </div>
@@ -1246,7 +1246,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>onSignDetectionModeSelected</code>. When this function is called, this object will drop object references it had previously in <code>onSignDetectionModeSelected</code>. </p>
+<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>onSignDetectionModeSelected</code>. When this function is called, this object will drop object references it held previously in <code>onSignDetectionModeSelected</code>. </p>
 
 </div>
 </div>
@@ -1268,7 +1268,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outSharpEdges</code>. When this function is called, this object will drop object references it had previously in <code>outSharpEdges</code>. </p>
+<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outSharpEdges</code>. When this function is called, this object will drop object references it held previously in <code>outSharpEdges</code>. </p>
 
 </div>
 </div>
@@ -1290,7 +1290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>preSubdivide</code>. </p>
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>preSubdivide</code>. </p>
 
 </div>
 </div>
@@ -1317,7 +1317,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>To report algorithm's progress and cancel it on user demand Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>To report algorithm's progress and cancel it on user demand Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it held previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -1339,7 +1339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>signMode</code>. When this function is called, this object will drop object references it had previously in <code>signMode</code>. </p>
+<p>Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>signMode</code>. When this function is called, this object will drop object references it held previously in <code>signMode</code>. </p>
 
 </div>
 </div>
@@ -1361,7 +1361,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>tinyEdgeLength</code>. </p>
+<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>tinyEdgeLength</code>. </p>
 
 </div>
 </div>
@@ -1383,7 +1383,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>voxelSize</code>. </p>
 
 </div>
 </div>
@@ -1405,7 +1405,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberBeta</code>. </p>
+<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberBeta</code>. </p>
 
 </div>
 </div>
@@ -1427,7 +1427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberThreshold</code>. </p>
+<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberThreshold</code>. </p>
 
 </div>
 </div>

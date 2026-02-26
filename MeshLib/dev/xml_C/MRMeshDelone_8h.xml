@@ -292,7 +292,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal allowed surface deviation during every individual flip Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>maxDeviationAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDeviationAfterFlip</computeroutput>. </para>
+<para>Maximal allowed surface deviation during every individual flip Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>maxDeviationAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDeviationAfterFlip</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -350,7 +350,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximal allowed dihedral angle change (in radians) over the flipped edge Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChange</computeroutput>. </para>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -408,7 +408,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -466,7 +466,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -524,7 +524,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edges specified by this bit-set will never be flipped Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notFlippable</computeroutput>. </para>
+<para>Edges specified by this bit-set will never be flipped Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notFlippable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -582,7 +582,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertRegion</computeroutput>. </para>
+<para>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <computeroutput>MR::DeloneSettings</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertRegion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -673,7 +673,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DeloneSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" kindref="member">MR_DeloneSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DeloneSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" kindref="member">MR_DeloneSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -793,7 +793,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DeloneSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DeloneSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1170,7 +1170,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>threshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>threshold</computeroutput>. </para>
+<para>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>threshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>threshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1228,7 +1228,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1286,7 +1286,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edges specified by this bit-set will never be flipped Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notFlippable</computeroutput>. </para>
+<para>Edges specified by this bit-set will never be flipped Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notFlippable</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1344,7 +1344,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertRegion</computeroutput>. </para>
+<para>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertRegion</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1427,7 +1427,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" kindref="member">MR_IntrinsicDeloneSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::IntrinsicDeloneSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" kindref="member">MR_IntrinsicDeloneSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1547,7 +1547,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::IntrinsicDeloneSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::IntrinsicDeloneSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

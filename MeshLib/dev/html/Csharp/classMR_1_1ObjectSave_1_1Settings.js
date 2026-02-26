@@ -7,5 +7,5 @@ var classMR_1_1ObjectSave_1_1Settings =
     [ "Settings", "classMR_1_1ObjectSave_1_1Settings.html#abe27a917bbed37b1d441e6b0880eb061", null ],
     [ "assign", "classMR_1_1ObjectSave_1_1Settings.html#aa695f1790e95659a34f55a1b7fda5d7c", null ],
     [ "lengthUnit", "classMR_1_1ObjectSave_1_1Settings.html#a5c6e05d7daa5a16ddad366222d11db46", null ],
-    [ "progress", "classMR_1_1ObjectSave_1_1Settings.html#a6ff3f7d860587cd6b2f85bb05fe62edf", null ]
+    [ "progress", "classMR_1_1ObjectSave_1_1Settings.html#a4ab83bbb53de6611e6868e6dfbb699ef", null ]
 ];

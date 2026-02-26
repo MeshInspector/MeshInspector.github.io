@@ -175,7 +175,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball1f</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball1f</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -233,7 +233,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball1f</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiusSq</computeroutput>. </para>
+<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball1f</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiusSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -329,7 +329,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Ball1f</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a6577e6366e1383228c691dc8287e7dd0" kindref="member">MR_Ball1f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Ball1f</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a6577e6366e1383228c691dc8287e7dd0" kindref="member">MR_Ball1f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -449,7 +449,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Ball1f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Ball1f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -528,7 +528,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball1d</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball1d</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -586,7 +586,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball1d</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiusSq</computeroutput>. </para>
+<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball1d</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiusSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -682,7 +682,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Ball1d</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1ad95259a55ebedea6259dfa7f0aa26b40" kindref="member">MR_Ball1d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Ball1d</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1ad95259a55ebedea6259dfa7f0aa26b40" kindref="member">MR_Ball1d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -802,7 +802,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Ball1d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Ball1d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -881,7 +881,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball2f</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball2f</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -939,7 +939,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball2f</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiusSq</computeroutput>. </para>
+<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball2f</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiusSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1035,7 +1035,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Ball2f</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a847b577779706b2db230c45440ab9bf5" kindref="member">MR_Ball2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Ball2f</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a847b577779706b2db230c45440ab9bf5" kindref="member">MR_Ball2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1155,7 +1155,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Ball2f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Ball2f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1234,7 +1234,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball2d</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball2d</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1292,7 +1292,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball2d</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiusSq</computeroutput>. </para>
+<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball2d</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiusSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1388,7 +1388,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Ball2d</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a27056b0ba6be8f4299538bdbe5809f16" kindref="member">MR_Ball2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Ball2d</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a27056b0ba6be8f4299538bdbe5809f16" kindref="member">MR_Ball2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1508,7 +1508,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Ball2d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Ball2d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1587,7 +1587,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball3f</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball3f</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1645,7 +1645,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball3f</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiusSq</computeroutput>. </para>
+<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball3f</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiusSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1741,7 +1741,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Ball3f</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a9263940c2afa1f2ab267fa859ecaa40b" kindref="member">MR_Ball3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Ball3f</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a9263940c2afa1f2ab267fa859ecaa40b" kindref="member">MR_Ball3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1861,7 +1861,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Ball3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Ball3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1940,7 +1940,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball3d</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>ball&apos;s center Modifies a member variable of class <computeroutput>MR::Ball3d</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1998,7 +1998,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball3d</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiusSq</computeroutput>. </para>
+<para>ball&apos;s squared radius Modifies a member variable of class <computeroutput>MR::Ball3d</computeroutput> named <computeroutput>radiusSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiusSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2094,7 +2094,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Ball3d</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a93897d46252e363096707346c4a2fcfe" kindref="member">MR_Ball3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Ball3d</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBall_8h_1a93897d46252e363096707346c4a2fcfe" kindref="member">MR_Ball3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2214,7 +2214,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Ball3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Ball3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

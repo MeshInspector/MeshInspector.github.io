@@ -167,9 +167,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="296" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="296" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a25c06468022502c806bc59c208cbce23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.RebuildMeshSettings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1ab237acae8b1e668df00236fe5d4cfd2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.RebuildMeshSettings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.RebuildMeshSettings.progress</qualifiedname>
@@ -180,11 +180,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="299" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="299" bodyend="299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="299" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="299" bodyend="299"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a47a6cfa3cba3da511c4030ab5bd63e37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMRSignDetectionMode</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMRSignDetectionMode MR.RebuildMeshSettings.onSignDetectionModeSelected</definition>
+      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1ad203d886815a40175d58c92989a41e3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MRSignDetectionMode</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MRSignDetectionMode MR.RebuildMeshSettings.onSignDetectionModeSelected</definition>
         <argsstring></argsstring>
         <name>onSignDetectionModeSelected</name>
         <qualifiedname>MR.RebuildMeshSettings.onSignDetectionModeSelected</qualifiedname>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="303" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="303" bodyend="303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="303" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="303" bodyend="303"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -436,10 +436,10 @@
       <member refid="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a311e9844f73510dabf2388f36c2257f7" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>fwn</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a17661a3ca4053eaf512af6316f5f8ddf" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>offsetMode</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1a47a6cfa3cba3da511c4030ab5bd63e37" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1ad203d886815a40175d58c92989a41e3a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a2ece5739c2508a4979af93b06d90b2c3" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1af0dbcaf69ab86fdf8ff783a07dfd2ed0" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>preSubdivide</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1a25c06468022502c806bc59c208cbce23" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1ab237acae8b1e668df00236fe5d4cfd2a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a677436ac9f9e1c4cf243177346c022e9" prot="package" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a5d6d60d71860f80051959130c5c23b3e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>

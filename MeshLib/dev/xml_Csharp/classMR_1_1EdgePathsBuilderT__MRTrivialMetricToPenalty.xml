@@ -85,10 +85,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="619" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="619" bodyend="619"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1af74bbda4458b55a1f4aac32bb189986c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a35553a48ca8ba0273899c82839145434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.EdgePathsBuilderT_MRTrivialMetricToPenalty</definition>
-        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Function_FloatFuncFromMREdgeId metric)</argsstring>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Function_Float_From_MREdgeId metric)</argsstring>
         <name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.EdgePathsBuilderT_MRTrivialMetricToPenalty</qualifiedname>
         <param>
@@ -96,7 +96,7 @@
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_FloatFuncFromMREdgeId</type>
+          <type>MR.Std.Const_Function_Float_From_MREdgeId</type>
           <declname>metric</declname>
         </param>
         <briefdescription>
@@ -127,14 +127,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="636" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="636" bodyend="642"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1acb050f90ea6e6d58a6016eae306576c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1afbf7e3e1fcdbe1b5d0d03ed967af8d35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.reset</definition>
-        <argsstring>(MR.Std.Const_Function_FloatFuncFromMREdgeId metric)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Float_From_MREdgeId metric)</argsstring>
         <name>reset</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRTrivialMetricToPenalty.reset</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_FloatFuncFromMREdgeId</type>
+          <type>MR.Std.Const_Function_Float_From_MREdgeId</type>
           <declname>metric</declname>
         </param>
         <briefdescription>
@@ -274,11 +274,11 @@
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1aa0d4b7ae7640ad7bae71bbac0124eafc" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a47132c9775cf57b1dd51021d0174bda1" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a2373698c9cf45843446c28cee7817ebb" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1af74bbda4458b55a1f4aac32bb189986c" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
+      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a35553a48ca8ba0273899c82839145434" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a3aeef77a65d13b1624430f74d02982dd" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>EdgePathsBuilderT_MRTrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1aa510fa8ba0c864bdc58b314c92bde300" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>growOneEdge</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1a7b202808163d3dd5d9eb8cd6443dc60f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>reachNext</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1acb050f90ea6e6d58a6016eae306576c1" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>reset</name></member>
+      <member refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty_1afbf7e3e1fcdbe1b5d0d03ed967af8d35" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</scope><name>reset</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

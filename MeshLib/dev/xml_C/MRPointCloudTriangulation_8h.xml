@@ -183,7 +183,7 @@ Returns a pointer to a member variable of class <computeroutput>MR::Triangulatio
   </para>
 </entry></row>
 </table>
-Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>numNeighbours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numNeighbours</computeroutput>. </para>
+Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>numNeighbours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numNeighbours</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -253,7 +253,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius of neighborhood around each point to consider for building local triangulation. This is an alternative to numNeighbours parameter. Please set to positive value only one of them. Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radius</computeroutput>. </para>
+<para>Radius of neighborhood around each point to consider for building local triangulation. This is an alternative to numNeighbours parameter. Please set to positive value only one of them. Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -329,7 +329,7 @@ Returns a pointer to a member variable of class <computeroutput>MR::Triangulatio
   </para>
 </entry></row>
 </table>
-Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>critAngle</computeroutput>. </para>
+Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>critAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -396,7 +396,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the vertex is considered as boundary if its neighbor ring has angle more than this value Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>boundaryAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>boundaryAngle</computeroutput>. </para>
+<para>the vertex is considered as boundary if its neighbor ring has angle more than this value Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>boundaryAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>boundaryAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -456,7 +456,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
 <para>Critical length of hole (all holes with length less then this value will be filled) </para>
         </briefdescription>
         <detaileddescription>
-<para>If value is subzero it is set automaticly to 0.7*bbox.diagonal() Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critHoleLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>critHoleLength</computeroutput>. </para>
+<para>If value is subzero it is set automaticly to 0.7*bbox.diagonal() Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critHoleLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>critHoleLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -515,7 +515,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>automatic increase of the radius if points outside can make triangles from original radius not-Delone Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>automaticRadiusIncrease</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>automaticRadiusIncrease</computeroutput>. </para>
+<para>automatic increase of the radius if points outside can make triangles from original radius not-Delone Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>automaticRadiusIncrease</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>automaticRadiusIncrease</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -573,7 +573,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints) Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>searchNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>searchNeighbors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>searchNeighbors</computeroutput>. </para>
+<para>optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints) Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>searchNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>searchNeighbors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>searchNeighbors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -668,7 +668,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TriangulationParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>searchNeighbors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudTriangulation_8h_1acf19372873d5cc774557d4e91b6b5f42" kindref="member">MR_TriangulationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TriangulationParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>searchNeighbors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudTriangulation_8h_1acf19372873d5cc774557d4e91b6b5f42" kindref="member">MR_TriangulationParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -788,7 +788,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriangulationParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriangulationParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -863,7 +863,7 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillHolesWithExtraPointsParams</computeroutput> named <computeroutput>triangulation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangulation</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>triangulation</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillHolesWithExtraPointsParams</computeroutput> named <computeroutput>triangulation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangulation</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>triangulation</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -921,7 +921,7 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if nullptr, then any boundary vertex of input mesh can get new triangles; otherwise only vertices from modifyBdVertices can get new triangles Modifies a member variable of class <computeroutput>MR::FillHolesWithExtraPointsParams</computeroutput> named <computeroutput>modifyBdVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>modifyBdVertices</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>modifyBdVertices</computeroutput>. </para>
+<para>if nullptr, then any boundary vertex of input mesh can get new triangles; otherwise only vertices from modifyBdVertices can get new triangles Modifies a member variable of class <computeroutput>MR::FillHolesWithExtraPointsParams</computeroutput> named <computeroutput>modifyBdVertices</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>modifyBdVertices</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>modifyBdVertices</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -996,7 +996,7 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillHolesWithExtraPointsParams</computeroutput> elementwise. Parameter <computeroutput>triangulation</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>triangulation</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>modifyBdVertices</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudTriangulation_8h_1a879befbfd45debc0c0b6d489fa14ed5c" kindref="member">MR_FillHolesWithExtraPointsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillHolesWithExtraPointsParams</computeroutput> elementwise. Parameter <computeroutput>triangulation</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>triangulation</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>modifyBdVertices</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointCloudTriangulation_8h_1a879befbfd45debc0c0b6d489fa14ed5c" kindref="member">MR_FillHolesWithExtraPointsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1116,7 +1116,7 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillHolesWithExtraPointsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillHolesWithExtraPointsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

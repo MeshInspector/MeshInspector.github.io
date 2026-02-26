@@ -1012,7 +1012,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;bool&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;bool&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1070,7 +1070,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;bool&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;bool&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1145,7 +1145,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;bool&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a1eb293134ebe6304fd994412c6cda3a3" kindref="member">MR_Matrix3_bool_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;bool&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a1eb293134ebe6304fd994412c6cda3a3" kindref="member">MR_Matrix3_bool_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1265,7 +1265,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;bool&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;bool&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2000,7 +2000,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;int&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;int&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2058,7 +2058,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;int&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;int&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2133,7 +2133,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;int&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a7563bb6cc6d9c239ccdd7bbd2c1efe39" kindref="member">MR_Matrix3_int_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;int&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a7563bb6cc6d9c239ccdd7bbd2c1efe39" kindref="member">MR_Matrix3_int_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2253,7 +2253,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;int&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;int&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2988,7 +2988,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3046,7 +3046,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3121,7 +3121,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a57ba81f072d6b5426b0a37d9c65968bc" kindref="member">MR_Matrix3_int64_t_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a57ba81f072d6b5426b0a37d9c65968bc" kindref="member">MR_Matrix3_int64_t_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3241,7 +3241,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;MR_int64_t&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4128,7 +4128,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;float&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;float&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4186,7 +4186,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;float&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;float&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4261,7 +4261,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;float&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a91b06a1fc1851a554e6d0866a97d1dde" kindref="member">MR_Matrix3_float_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;float&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a91b06a1fc1851a554e6d0866a97d1dde" kindref="member">MR_Matrix3_float_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4381,7 +4381,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;float&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;float&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5250,7 +5250,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;double&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;double&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5308,7 +5308,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;double&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;double&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5383,7 +5383,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;double&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a4caa9f587c4073ecdb25e0f6dd094df4" kindref="member">MR_Matrix3_double_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;double&gt;::QR</computeroutput> elementwise. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1a4caa9f587c4073ecdb25e0f6dd094df4" kindref="member">MR_Matrix3_double_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5503,7 +5503,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;double&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;double&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5873,7 +5873,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>rows, identity matrix by default Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;</computeroutput> named <computeroutput>x</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>x</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>x</computeroutput>. </para>
+<para>rows, identity matrix by default Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;</computeroutput> named <computeroutput>x</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>x</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>x</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5931,7 +5931,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;</computeroutput> named <computeroutput>y</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>y</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>y</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;</computeroutput> named <computeroutput>y</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>y</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>y</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5989,7 +5989,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>z</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>z</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>z</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>z</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6188,7 +6188,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;unsigned char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;unsigned char&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6532,7 +6532,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>q</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR</computeroutput> named <computeroutput>q</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>q</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>q</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6590,7 +6590,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6665,7 +6665,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR</computeroutput> elementwise. Parameter <computeroutput>q</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>r</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1aea3e25f8a35964225fec614bbcf4884b" kindref="member">MR_Matrix3_unsigned_char_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR</computeroutput> elementwise. Parameter <computeroutput>q</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>q</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>r</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix3_8h_1aea3e25f8a35964225fec614bbcf4884b" kindref="member">MR_Matrix3_unsigned_char_QR_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6785,7 +6785,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&lt;unsigned char&gt;::QR::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

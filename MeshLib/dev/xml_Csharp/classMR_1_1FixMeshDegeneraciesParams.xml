@@ -108,9 +108,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="226" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="226" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a3a8a36e73c45235a0b3a3ba085d57472" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FixMeshDegeneraciesParams.cb</definition>
+      <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a9b4f190d07dd759f7eaa047c7520aad5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.FixMeshDegeneraciesParams.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.FixMeshDegeneraciesParams.cb</qualifiedname>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="228" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="228" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="228" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="228" bodyend="228"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -337,7 +337,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="195" bodyend="311"/>
     <listofallmembers>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1afd7292ca48775e0ab94233157bde5f54" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>assign</name></member>
-      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3a8a36e73c45235a0b3a3ba085d57472" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1FixMeshDegeneraciesParams_1a9b4f190d07dd759f7eaa047c7520aad5" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1ae34824faf9d7160cc8698775f5060672" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1ac6400b423961dedd5e93ab4ef4a0345c" prot="package" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>

@@ -420,7 +420,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MeshLoadSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MeshLoadSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -492,7 +492,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::MeshLoadSettings</code> elementwise. The reference to the parameter <code>edges</code> might be preserved in the constructed object. The reference to the parameter <code>colors</code> might be preserved in the constructed object. The reference to the parameter <code>faceColors</code> might be preserved in the constructed object. The reference to the parameter <code>uvCoords</code> might be preserved in the constructed object. The reference to the parameter <code>normals</code> might be preserved in the constructed object. The reference to the parameter <code>texture</code> might be preserved in the constructed object. The reference to the parameter <code>skippedFaceCount</code> might be preserved in the constructed object. The reference to the parameter <code>duplicatedVertexCount</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. The reference to the parameter <code>callback</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6733b8876c9ead76b3263c11d75964b1" title="Destroys a heap-allocated instance of MR_MeshLoadSettings. Does nothing if the pointer is null.">MR_MeshLoadSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshLoadSettings</code> elementwise. The reference to the parameter <code>edges</code> might be preserved in the constructed object. The reference to the parameter <code>colors</code> might be preserved in the constructed object. The reference to the parameter <code>faceColors</code> might be preserved in the constructed object. The reference to the parameter <code>uvCoords</code> might be preserved in the constructed object. The reference to the parameter <code>normals</code> might be preserved in the constructed object. The reference to the parameter <code>texture</code> might be preserved in the constructed object. The reference to the parameter <code>skippedFaceCount</code> might be preserved in the constructed object. The reference to the parameter <code>duplicatedVertexCount</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. The reference to the parameter <code>callback</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6733b8876c9ead76b3263c11d75964b1" title="Destroys a heap-allocated instance of MR_MeshLoadSettings. Does nothing if the pointer is null.">MR_MeshLoadSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -606,7 +606,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback for set progress and stop process Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>callback</code>. When this function is called, this object will drop object references it had previously in <code>callback</code>. </p>
+<p>callback for set progress and stop process Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>callback</code>. When this function is called, this object will drop object references it held previously in <code>callback</code>. </p>
 
 </div>
 </div>
@@ -624,7 +624,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional load artifact: per-vertex color map Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>colors</code>. When this function is called, this object will drop object references it had previously in <code>colors</code>. </p>
+<p>optional load artifact: per-vertex color map Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>colors</code>. When this function is called, this object will drop object references it held previously in <code>colors</code>. </p>
 
 </div>
 </div>
@@ -642,7 +642,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>duplicatedVertexCount</code>. When this function is called, this object will drop object references it had previously in <code>duplicatedVertexCount</code>. </p>
+<p>optional output: counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>duplicatedVertexCount</code>. When this function is called, this object will drop object references it held previously in <code>duplicatedVertexCount</code>. </p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional load artifact: polyline edges Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>edges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>edges</code>. When this function is called, this object will drop object references it had previously in <code>edges</code>. </p>
+<p>optional load artifact: polyline edges Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>edges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>edges</code>. When this function is called, this object will drop object references it held previously in <code>edges</code>. </p>
 
 </div>
 </div>
@@ -678,7 +678,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional load artifact: per-face color map Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceColors</code>. When this function is called, this object will drop object references it had previously in <code>faceColors</code>. </p>
+<p>optional load artifact: per-face color map Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceColors</code>. When this function is called, this object will drop object references it held previously in <code>faceColors</code>. </p>
 
 </div>
 </div>
@@ -696,7 +696,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional load artifact: per-vertex normals Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>normals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>normals</code>. When this function is called, this object will drop object references it had previously in <code>normals</code>. </p>
+<p>optional load artifact: per-vertex normals Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>normals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>normals</code>. When this function is called, this object will drop object references it held previously in <code>normals</code>. </p>
 
 </div>
 </div>
@@ -714,7 +714,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: counter of skipped faces during mesh creation Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>skippedFaceCount</code>. When this function is called, this object will drop object references it had previously in <code>skippedFaceCount</code>. </p>
+<p>optional output: counter of skipped faces during mesh creation Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>skippedFaceCount</code>. When this function is called, this object will drop object references it held previously in <code>skippedFaceCount</code>. </p>
 
 </div>
 </div>
@@ -732,7 +732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>permit telemetry signal about loading Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>telemetrySignal</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>telemetrySignal</code>. </p>
+<p>permit telemetry signal about loading Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>telemetrySignal</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>telemetrySignal</code>. </p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional load artifact: texture image Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>texture</code>. When this function is called, this object will drop object references it had previously in <code>texture</code>. </p>
+<p>optional load artifact: texture image Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>texture</code>. When this function is called, this object will drop object references it held previously in <code>texture</code>. </p>
 
 </div>
 </div>
@@ -768,7 +768,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional load artifact: per-vertex uv-coordinates Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uvCoords</code>. When this function is called, this object will drop object references it had previously in <code>uvCoords</code>. </p>
+<p>optional load artifact: per-vertex uv-coordinates Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uvCoords</code>. When this function is called, this object will drop object references it held previously in <code>uvCoords</code>. </p>
 
 </div>
 </div>
@@ -786,7 +786,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: transform for the loaded mesh to improve precision of vertex coordinates Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it had previously in <code>xf</code>. </p>
+<p>optional output: transform for the loaded mesh to improve precision of vertex coordinates Modifies a member variable of class <code>MR::MeshLoadSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it held previously in <code>xf</code>. </p>
 
 </div>
 </div>

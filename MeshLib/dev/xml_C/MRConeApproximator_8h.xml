@@ -121,7 +121,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>levenbergMarquardtMaxIteration</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -179,7 +179,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>coneFitterType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coneFitterType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>coneFitterType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>coneFitterType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>coneFitterType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>coneFitterType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -237,7 +237,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchPhiResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hemisphereSearchPhiResolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchPhiResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hemisphereSearchPhiResolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -295,7 +295,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchThetaResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hemisphereSearchThetaResolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Cone3ApproximationParams</computeroutput> named <computeroutput>hemisphereSearchThetaResolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hemisphereSearchThetaResolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -378,7 +378,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Cone3ApproximationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>coneFitterType</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" kindref="member">MR_Cone3ApproximationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Cone3ApproximationParams</computeroutput> elementwise. The reference to the parameter <computeroutput>coneFitterType</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConeApproximator_8h_1aec53646061d3ddca485d17efce70d38b" kindref="member">MR_Cone3ApproximationParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -498,7 +498,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Cone3ApproximationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Cone3ApproximationParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

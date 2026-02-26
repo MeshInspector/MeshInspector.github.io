@@ -287,7 +287,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true =&gt; if input file has more than one cloud, they all will be combined in one Modifies a member variable of class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> named <computeroutput>combineAllObjects</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>combineAllObjects</computeroutput>. </para>
+<para>true =&gt; if input file has more than one cloud, they all will be combined in one Modifies a member variable of class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> named <computeroutput>combineAllObjects</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>combineAllObjects</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -345,7 +345,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true =&gt; return only identity transforms, applying them to points Modifies a member variable of class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> named <computeroutput>identityXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>identityXf</computeroutput>. </para>
+<para>true =&gt; return only identity transforms, applying them to points Modifies a member variable of class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> named <computeroutput>identityXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>identityXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -407,7 +407,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>progress report and cancellation Modifies a member variable of class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>progress report and cancellation Modifies a member variable of class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -490,7 +490,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" kindref="member">MR_PointsLoad_E57LoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" kindref="member">MR_PointsLoad_E57LoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -618,7 +618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsLoad::E57LoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsLoad::E57LoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -662,7 +662,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>name</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -724,7 +724,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>cloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cloud</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cloud</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>cloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cloud</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cloud</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -782,7 +782,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -844,7 +844,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -939,7 +939,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cloud</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" kindref="member">MR_PointsLoad_NamedCloud_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PointsLoad::NamedCloud</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cloud</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" kindref="member">MR_PointsLoad_NamedCloud_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1067,7 +1067,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsLoad::NamedCloud::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsLoad::NamedCloud::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

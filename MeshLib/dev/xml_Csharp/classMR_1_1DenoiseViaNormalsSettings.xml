@@ -139,9 +139,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="231" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="232" bodyend="241"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DenoiseViaNormalsSettings_1a11e4e77d34776c5f42f2a5e3a7a22f37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DenoiseViaNormalsSettings.cb</definition>
+      <memberdef kind="property" id="classMR_1_1DenoiseViaNormalsSettings_1a08b4fe0295f03cbb4498ce4a78dd8478" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.DenoiseViaNormalsSettings.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.DenoiseViaNormalsSettings.cb</qualifiedname>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="244" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="244" bodyend="244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="244" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="244" bodyend="244"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -378,7 +378,7 @@
     <listofallmembers>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a1469aa8ace65ead884e64786b07d43a1" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1adb3af5a3ba12b28f690ec76e46a1a439" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>beta</name></member>
-      <member refid="classMR_1_1DenoiseViaNormalsSettings_1a11e4e77d34776c5f42f2a5e3a7a22f37" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1DenoiseViaNormalsSettings_1a08b4fe0295f03cbb4498ce4a78dd8478" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a75052624bf05c14971df0f58c7087053" prot="package" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a25627dcab94d4cd126e432a1b9d8e469" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a94ddf14ac7e79a1a0c2bc8126015862a" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>

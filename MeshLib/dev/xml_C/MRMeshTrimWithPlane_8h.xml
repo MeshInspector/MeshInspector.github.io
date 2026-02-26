@@ -247,7 +247,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>plane</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>plane</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>plane</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>plane</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -305,7 +305,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>eps</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>eps</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>eps</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -367,7 +367,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplitCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplitCallback</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimWithPlaneParams</computeroutput> named <computeroutput>onEdgeSplitCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplitCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onEdgeSplitCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -450,7 +450,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TrimWithPlaneParams</computeroutput> elementwise. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>plane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplitCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" kindref="member">MR_TrimWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TrimWithPlaneParams</computeroutput> elementwise. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>plane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplitCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1ae057f6788545b31797ba48b5831dfe53" kindref="member">MR_TrimWithPlaneParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -578,7 +578,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TrimWithPlaneParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TrimWithPlaneParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -618,7 +618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutEdges</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outCutEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -676,7 +676,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutContours</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutContours</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>outCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutContours</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outCutContours</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -734,7 +734,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>new2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2Old</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2Old</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>new2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2Old</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>new2Old</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -792,7 +792,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherPart</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherPart</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherPart</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -850,7 +850,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherNew2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherNew2Old</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherNew2Old</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherNew2Old</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherNew2Old</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherNew2Old</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -908,7 +908,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherOutCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutCutContours</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>otherOutCutContours</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TrimOptionalOutput</computeroutput> named <computeroutput>otherOutCutContours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>otherOutCutContours</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>otherOutCutContours</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -999,7 +999,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TrimOptionalOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>outCutEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutContours</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2Old</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherNew2Old</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutCutContours</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" kindref="member">MR_TrimOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TrimOptionalOutput</computeroutput> elementwise. The reference to the parameter <computeroutput>outCutEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutContours</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2Old</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherPart</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherNew2Old</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>otherOutCutContours</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTrimWithPlane_8h_1af71d338cc7199bc8b16a2b80cfeb06f3" kindref="member">MR_TrimOptionalOutput_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1119,7 +1119,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TrimOptionalOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TrimOptionalOutput::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

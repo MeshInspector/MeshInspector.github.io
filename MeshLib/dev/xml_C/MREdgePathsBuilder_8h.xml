@@ -302,7 +302,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VertPathInfo</computeroutput> named <computeroutput>back</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>back</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>back</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VertPathInfo</computeroutput> named <computeroutput>back</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>back</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>back</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -360,7 +360,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VertPathInfo</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VertPathInfo</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -435,7 +435,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VertPathInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>back</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1afc0df3f8385022126665b03949deabef" kindref="member">MR_VertPathInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VertPathInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>back</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1afc0df3f8385022126665b03949deabef" kindref="member">MR_VertPathInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -555,7 +555,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VertPathInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VertPathInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -985,7 +985,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>v</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>v</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1043,7 +1043,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>backward</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>backward</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>backward</computeroutput>. </para>
+<para>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>backward</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>backward</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>backward</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1101,7 +1101,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>penalty</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>penalty</computeroutput>. </para>
+<para>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>penalty</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>penalty</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1159,7 +1159,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>summed metric to reach this vertex Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+<para>summed metric to reach this vertex Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1242,7 +1242,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>backward</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1a824549ea2ae5682f509f79d8d99dff72" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>backward</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1a824549ea2ae5682f509f79d8d99dff72" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1362,7 +1362,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1810,7 +1810,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>v</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>v</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1868,7 +1868,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>backward</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>backward</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>backward</computeroutput>. </para>
+<para>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>backward</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>backward</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>backward</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1926,7 +1926,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>penalty</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>penalty</computeroutput>. </para>
+<para>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>penalty</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>penalty</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1984,7 +1984,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>summed metric to reach this vertex Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+<para>summed metric to reach this vertex Modifies a member variable of class <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2067,7 +2067,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>backward</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1af296fa51f6e74c56c5749f4268e1e6f3" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</computeroutput> elementwise. The reference to the parameter <computeroutput>v</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>backward</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1af296fa51f6e74c56c5749f4268e1e6f3" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2187,7 +2187,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2342,7 +2342,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TrivialMetricToPenalty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TrivialMetricToPenalty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2408,7 +2408,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MetricToAStarPenalty</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>points</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MetricToAStarPenalty</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>points</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2466,7 +2466,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MetricToAStarPenalty</computeroutput> named <computeroutput>target</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>target</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>target</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MetricToAStarPenalty</computeroutput> named <computeroutput>target</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>target</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>target</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2541,7 +2541,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MetricToAStarPenalty</computeroutput> elementwise. The reference to the parameter <computeroutput>points</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>target</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1a1c354c2df24687523f52076c2de81c28" kindref="member">MR_MetricToAStarPenalty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MetricToAStarPenalty</computeroutput> elementwise. The reference to the parameter <computeroutput>points</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>target</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgePathsBuilder_8h_1a1c354c2df24687523f52076c2de81c28" kindref="member">MR_MetricToAStarPenalty_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2661,7 +2661,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MetricToAStarPenalty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MetricToAStarPenalty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

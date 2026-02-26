@@ -4,9 +4,9 @@
     <compoundname>MR::SortIntersectionsData</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SortIntersectionsData</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1SortIntersectionsData_1aed660113d36a74cb524746a166325b81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_MRVector3iFuncFromConstMRVector3fRef</type>
-        <definition>new unsafe MR.Std.Function_MRVector3iFuncFromConstMRVector3fRef MR.SortIntersectionsData.converter</definition>
+      <memberdef kind="property" id="classMR_1_1SortIntersectionsData_1aec114585755e3950a3b75d8d0f2f7994" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_MRVector3i_From_ConstMRVector3fRef</type>
+        <definition>new unsafe MR.Std.Function_MRVector3i_From_ConstMRVector3fRef MR.SortIntersectionsData.converter</definition>
         <argsstring></argsstring>
         <name>converter</name>
         <qualifiedname>MR.SortIntersectionsData.converter</qualifiedname>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="153" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="153" bodyend="153"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="153" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="153" bodyend="153"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SortIntersectionsData_1a048858f6764aa1dbed7417a848ffb298" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -232,7 +232,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="151" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="152" bodyend="231"/>
     <listofallmembers>
-      <member refid="classMR_1_1SortIntersectionsData_1aed660113d36a74cb524746a166325b81" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>converter</name></member>
+      <member refid="classMR_1_1SortIntersectionsData_1aec114585755e3950a3b75d8d0f2f7994" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>converter</name></member>
       <member refid="classMR_1_1SortIntersectionsData_1aefef8f1a0ed2e6dff40184a86d4a4111" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>isOtherA</name></member>
       <member refid="classMR_1_1SortIntersectionsData_1a34d1723d4f49a0317b2b290918cb3061" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>meshAVertsNum</name></member>
       <member refid="classMR_1_1SortIntersectionsData_1a048858f6764aa1dbed7417a848ffb298" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>rigidB2A</name></member>

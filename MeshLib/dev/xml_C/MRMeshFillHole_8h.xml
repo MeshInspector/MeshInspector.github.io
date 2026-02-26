@@ -352,7 +352,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <detaileddescription>
 <para>Specifies triangulation metric<linebreak/>
 default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
-<simplesect kind="see"><para>FillHoleMetric Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+<simplesect kind="see"><para>FillHoleMetric Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -416,7 +416,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>smoothBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>smoothBd</computeroutput>. </para>
+<para>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>smoothBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>smoothBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -474,7 +474,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If not nullptr accumulate new faces Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outNewFaces</computeroutput>. </para>
+<para>If not nullptr accumulate new faces Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outNewFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -532,7 +532,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>multipleEdgesResolveMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>multipleEdgesResolveMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>multipleEdgesResolveMode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>multipleEdgesResolveMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>multipleEdgesResolveMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>multipleEdgesResolveMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -592,7 +592,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If true creates degenerate faces band around hole to have sharp angle visualization <simplesect kind="warning"><para>This flag bad for result topology, most likely you do not need it Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>makeDegenerateBand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>makeDegenerateBand</computeroutput>. </para>
+<para>If true creates degenerate faces band around hole to have sharp angle visualization <simplesect kind="warning"><para>This flag bad for result topology, most likely you do not need it Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>makeDegenerateBand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>makeDegenerateBand</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -654,7 +654,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>maxPolygonSubdivisions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxPolygonSubdivisions</computeroutput>. </para>
+<para>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>maxPolygonSubdivisions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxPolygonSubdivisions</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -712,7 +712,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>stopBeforeBadTriangulation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stopBeforeBadTriangulation</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>stopBeforeBadTriangulation</computeroutput>. </para>
+<para>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Modifies a member variable of class <computeroutput>MR::FillHoleParams</computeroutput> named <computeroutput>stopBeforeBadTriangulation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stopBeforeBadTriangulation</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>stopBeforeBadTriangulation</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -811,7 +811,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillHoleParams</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>multipleEdgesResolveMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stopBeforeBadTriangulation</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1af41d496b3c433619b7c770ce1e3de2c8" kindref="member">MR_FillHoleParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillHoleParams</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>multipleEdgesResolveMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stopBeforeBadTriangulation</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1af41d496b3c433619b7c770ce1e3de2c8" kindref="member">MR_FillHoleParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -939,7 +939,7 @@ default for MR::fillHole: getCircumscribedFillMetric<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillHoleParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillHoleParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -987,7 +987,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         </briefdescription>
         <detaileddescription>
 <para>Specifies triangulation metric<linebreak/>
-default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para>FillHoleMetric Modifies a member variable of class <computeroutput>MR::StitchHolesParams</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>metric</computeroutput>. </para>
+default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para>FillHoleMetric Modifies a member variable of class <computeroutput>MR::StitchHolesParams</computeroutput> named <computeroutput>metric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>metric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>metric</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1050,7 +1050,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If not nullptr accumulate new faces Modifies a member variable of class <computeroutput>MR::StitchHolesParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outNewFaces</computeroutput>. </para>
+<para>If not nullptr accumulate new faces Modifies a member variable of class <computeroutput>MR::StitchHolesParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outNewFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1129,7 +1129,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::StitchHolesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1aa6654c3b1cbd7e4932b7270a00868f1a" kindref="member">MR_StitchHolesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::StitchHolesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>metric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1aa6654c3b1cbd7e4932b7270a00868f1a" kindref="member">MR_StitchHolesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1257,7 +1257,7 @@ default for MR::stitchHoles: getComplexStitchMetric <simplesect kind="see"><para
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::StitchHolesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::StitchHolesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1576,7 +1576,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillHoleItem</computeroutput> named <computeroutput>edgeCode1</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>edgeCode1</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillHoleItem</computeroutput> named <computeroutput>edgeCode1</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>edgeCode1</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1634,7 +1634,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillHoleItem</computeroutput> named <computeroutput>edgeCode2</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>edgeCode2</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillHoleItem</computeroutput> named <computeroutput>edgeCode2</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>edgeCode2</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1709,7 +1709,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillHoleItem</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1a1c946e8dc89cbd0eb42466b4e85fe5cc" kindref="member">MR_FillHoleItem_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillHoleItem</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1a1c946e8dc89cbd0eb42466b4e85fe5cc" kindref="member">MR_FillHoleItem_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1829,7 +1829,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillHoleItem::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillHoleItem::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1873,7 +1873,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::HoleFillPlan</computeroutput> named <computeroutput>items</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>items</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>items</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::HoleFillPlan</computeroutput> named <computeroutput>items</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>items</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>items</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1931,7 +1931,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::HoleFillPlan</computeroutput> named <computeroutput>numTris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numTris</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::HoleFillPlan</computeroutput> named <computeroutput>numTris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numTris</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2010,7 +2010,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::HoleFillPlan</computeroutput> elementwise. The reference to the parameter <computeroutput>items</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1ae16b4f520d4c13c1741c72600f7de34f" kindref="member">MR_HoleFillPlan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::HoleFillPlan</computeroutput> elementwise. The reference to the parameter <computeroutput>items</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1ae16b4f520d4c13c1741c72600f7de34f" kindref="member">MR_HoleFillPlan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2138,7 +2138,7 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::HoleFillPlan::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::HoleFillPlan::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2528,7 +2528,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of faces added to the mesh Modifies a member variable of class <computeroutput>MR::MakeBridgeResult</computeroutput> named <computeroutput>newFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>newFaces</computeroutput>. </para>
+<para>the number of faces added to the mesh Modifies a member variable of class <computeroutput>MR::MakeBridgeResult</computeroutput> named <computeroutput>newFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>newFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2586,7 +2586,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <computeroutput>MR::MakeBridgeResult</computeroutput> named <computeroutput>na</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>na</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>na</computeroutput>. </para>
+<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <computeroutput>MR::MakeBridgeResult</computeroutput> named <computeroutput>na</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>na</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>na</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2644,7 +2644,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <computeroutput>MR::MakeBridgeResult</computeroutput> named <computeroutput>nb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>nb</computeroutput>. </para>
+<para>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <computeroutput>MR::MakeBridgeResult</computeroutput> named <computeroutput>nb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>nb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2723,7 +2723,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MakeBridgeResult</computeroutput> elementwise. The reference to the parameter <computeroutput>na</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1ad0d309784c1b08bd5f042ba6684ca870" kindref="member">MR_MakeBridgeResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MakeBridgeResult</computeroutput> elementwise. The reference to the parameter <computeroutput>na</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshFillHole_8h_1ad0d309784c1b08bd5f042ba6684ca870" kindref="member">MR_MakeBridgeResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2861,7 +2861,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MakeBridgeResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MakeBridgeResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

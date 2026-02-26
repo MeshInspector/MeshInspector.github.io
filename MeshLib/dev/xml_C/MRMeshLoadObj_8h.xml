@@ -342,7 +342,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true then vertices will be returned relative to some transformation to avoid precision loss Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>customXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>customXf</computeroutput>. </para>
+<para>if true then vertices will be returned relative to some transformation to avoid precision loss Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>customXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>customXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -400,7 +400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, the number of skipped faces (faces than can&apos;t be created) will be counted Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>countSkippedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>countSkippedFaces</computeroutput>. </para>
+<para>if true, the number of skipped faces (faces than can&apos;t be created) will be counted Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>countSkippedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>countSkippedFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -462,7 +462,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -520,7 +520,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>telemetrySignal</computeroutput>. </para>
+<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>telemetrySignal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -607,7 +607,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" kindref="member">MR_MeshLoad_ObjLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshLoad::ObjLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1ab96cb754e2a5cd31c59be54a97e40679" kindref="member">MR_MeshLoad_ObjLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -735,7 +735,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshLoad::ObjLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshLoad::ObjLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -779,7 +779,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>name</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -841,7 +841,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -903,7 +903,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvCoords</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uvCoords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -965,7 +965,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1027,7 +1027,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>textureFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textureFiles</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>textureFiles</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>textureFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textureFiles</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>textureFiles</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1089,7 +1089,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texturePerFace</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>texturePerFace</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1147,7 +1147,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>diffuseColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>diffuseColor</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>diffuseColor</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>diffuseColor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>diffuseColor</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>diffuseColor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1205,7 +1205,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1263,7 +1263,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>counter of skipped faces (faces than can&apos;t be created), not zero only if ObjLoadSettings.countSkippedFaces Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>skippedFaceCount</computeroutput>. </para>
+<para>counter of skipped faces (faces than can&apos;t be created), not zero only if ObjLoadSettings.countSkippedFaces Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>skippedFaceCount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1321,7 +1321,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>duplicatedVertexCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>duplicatedVertexCount</computeroutput>. </para>
+<para>counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> named <computeroutput>duplicatedVertexCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>duplicatedVertexCount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1452,7 +1452,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>textureFiles</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>diffuseColor</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>diffuseColor</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" kindref="member">MR_MeshLoad_NamedMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshLoad::NamedMesh</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>textureFiles</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>diffuseColor</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>diffuseColor</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshLoadObj_8h_1a1b8b4e85ec39afc10c3a1b887664cc48" kindref="member">MR_MeshLoad_NamedMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1580,7 +1580,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshLoad::NamedMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshLoad::NamedMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

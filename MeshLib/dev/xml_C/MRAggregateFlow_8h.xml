@@ -275,7 +275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>point on the mesh, where this flow starts Modifies a member variable of class <computeroutput>MR::FlowOrigin</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>point on the mesh, where this flow starts Modifies a member variable of class <computeroutput>MR::FlowOrigin</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -333,7 +333,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Modifies a member variable of class <computeroutput>MR::FlowOrigin</computeroutput> named <computeroutput>amount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>amount</computeroutput>. </para>
+<para>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Modifies a member variable of class <computeroutput>MR::FlowOrigin</computeroutput> named <computeroutput>amount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>amount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -408,7 +408,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FlowOrigin</computeroutput> elementwise. Parameter <computeroutput>point</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAggregateFlow_8h_1a09e0b6812dae13f6999c84c44b09d0f1" kindref="member">MR_FlowOrigin_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FlowOrigin</computeroutput> elementwise. Parameter <computeroutput>point</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAggregateFlow_8h_1a09e0b6812dae13f6999c84c44b09d0f1" kindref="member">MR_FlowOrigin_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -528,7 +528,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FlowOrigin::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FlowOrigin::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -568,7 +568,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: lines of all flows Modifies a member variable of class <computeroutput>MR::OutputFlows</computeroutput> named <computeroutput>pPolyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pPolyline</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pPolyline</computeroutput>. </para>
+<para>optional output: lines of all flows Modifies a member variable of class <computeroutput>MR::OutputFlows</computeroutput> named <computeroutput>pPolyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pPolyline</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pPolyline</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -626,7 +626,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: flow in each line of outPolyline Modifies a member variable of class <computeroutput>MR::OutputFlows</computeroutput> named <computeroutput>pFlowPerEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pFlowPerEdge</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pFlowPerEdge</computeroutput>. </para>
+<para>optional output: flow in each line of outPolyline Modifies a member variable of class <computeroutput>MR::OutputFlows</computeroutput> named <computeroutput>pFlowPerEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pFlowPerEdge</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pFlowPerEdge</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -684,7 +684,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>output in outPolyline only the flows with the amount greater than Modifies a member variable of class <computeroutput>MR::OutputFlows</computeroutput> named <computeroutput>amountGreaterThan</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>amountGreaterThan</computeroutput>. </para>
+<para>output in outPolyline only the flows with the amount greater than Modifies a member variable of class <computeroutput>MR::OutputFlows</computeroutput> named <computeroutput>amountGreaterThan</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>amountGreaterThan</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -763,7 +763,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OutputFlows</computeroutput> elementwise. The reference to the parameter <computeroutput>pPolyline</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pFlowPerEdge</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAggregateFlow_8h_1ac330cbf88469accaf3592bc784f54284" kindref="member">MR_OutputFlows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OutputFlows</computeroutput> elementwise. The reference to the parameter <computeroutput>pPolyline</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pFlowPerEdge</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAggregateFlow_8h_1ac330cbf88469accaf3592bc784f54284" kindref="member">MR_OutputFlows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -883,7 +883,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OutputFlows::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OutputFlows::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1255,7 +1255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FlowAggregator::Flows</computeroutput> named <computeroutput>polyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>polyline</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>polyline</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FlowAggregator::Flows</computeroutput> named <computeroutput>polyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>polyline</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>polyline</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1317,7 +1317,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FlowAggregator::Flows</computeroutput> named <computeroutput>flowPerEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>flowPerEdge</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>flowPerEdge</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FlowAggregator::Flows</computeroutput> named <computeroutput>flowPerEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>flowPerEdge</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>flowPerEdge</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1400,7 +1400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FlowAggregator::Flows</computeroutput> elementwise. The reference to the parameter <computeroutput>polyline</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>flowPerEdge</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAggregateFlow_8h_1a8594e4ef9b414731b36302b353e9ac55" kindref="member">MR_FlowAggregator_Flows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FlowAggregator::Flows</computeroutput> elementwise. The reference to the parameter <computeroutput>polyline</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>flowPerEdge</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAggregateFlow_8h_1a8594e4ef9b414731b36302b353e9ac55" kindref="member">MR_FlowAggregator_Flows_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1528,7 +1528,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FlowAggregator::Flows::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FlowAggregator::Flows::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -292,7 +292,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>all points of model Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>points</computeroutput>. </para>
+<para>all points of model Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>points</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>points</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -350,7 +350,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bitset of valid points Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>validPoints</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>validPoints</computeroutput>. </para>
+<para>bitset of valid points Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>validPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>validPoints</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>validPoints</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -408,7 +408,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>model world xf Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>model world xf Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -466,7 +466,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if present this value will override ObjId in result ObjVertId Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>fakeObjId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fakeObjId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fakeObjId</computeroutput>. </para>
+<para>if present this value will override ObjId in result ObjVertId Modifies a member variable of class <computeroutput>MR::ModelPointsData</computeroutput> named <computeroutput>fakeObjId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fakeObjId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fakeObjId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -549,7 +549,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ModelPointsData</computeroutput> elementwise. The reference to the parameter <computeroutput>points</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>validPoints</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fakeObjId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" kindref="member">MR_ModelPointsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ModelPointsData</computeroutput> elementwise. The reference to the parameter <computeroutput>points</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>validPoints</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fakeObjId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRGridSampling_8h_1abd366c90930efc4cff92b29b6b880a13" kindref="member">MR_ModelPointsData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -669,7 +669,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ModelPointsData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ModelPointsData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

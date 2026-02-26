@@ -190,7 +190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of offset for original mesh vertices Modifies a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>outsideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>outsideOffset</computeroutput>. </para>
+<para>the amount of offset for original mesh vertices Modifies a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>outsideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>outsideOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -248,7 +248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction Modifies a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>insideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>insideOffset</computeroutput>. </para>
+<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction Modifies a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>insideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>insideOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -306,7 +306,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother Modifies a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>normalsTrustFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>normalsTrustFactor</computeroutput>. </para>
+<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother Modifies a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>normalsTrustFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>normalsTrustFactor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -385,7 +385,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ThickenParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" kindref="member">MR_ThickenParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ThickenParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" kindref="member">MR_ThickenParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -505,7 +505,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ThickenParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ThickenParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -567,7 +567,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>maxShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxShift</computeroutput>. </para>
+<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>maxShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxShift</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -625,7 +625,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, limits the movement of each vertex to reduce self-intersections in the mesh Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>reduceSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>reduceSelfIntersections</computeroutput>. </para>
+<para>if true, limits the movement of each vertex to reduce self-intersections in the mesh Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>reduceSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>reduceSelfIntersections</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -683,7 +683,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>minThickness</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minThickness</computeroutput>. </para>
+<para>only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>minThickness</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minThickness</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -745,7 +745,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report progress and cancel processing Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report progress and cancel processing Modifies a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -832,7 +832,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ZCompensateParams</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" kindref="member">MR_ZCompensateParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ZCompensateParams</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" kindref="member">MR_ZCompensateParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -960,7 +960,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ZCompensateParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ZCompensateParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -123,7 +123,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>fillAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fillAngle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>fillAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fillAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -181,7 +181,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>cutAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>cutAngle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>cutAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>cutAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAnglePrecision</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minAnglePrecision</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outStructFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outStructFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outStructFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outStructFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outStructFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outStructFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -355,7 +355,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outFillFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outFillFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outFillFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outFillFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outFillFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outFillFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -413,7 +413,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outCutFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outCutFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>outCutFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outCutFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outCutFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -471,7 +471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>new2oldFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2oldFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2oldFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EmbeddedStructureParameters</computeroutput> named <computeroutput>new2oldFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2oldFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>new2oldFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -566,7 +566,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EmbeddedStructureParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>outStructFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outFillFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2oldFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" kindref="member">MR_EmbeddedStructureParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EmbeddedStructureParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>outStructFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outFillFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outCutFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2oldFaces</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREmbedTerrainStructure_8h_1a76ae1bf966de27f1f5333815e14b6c89" kindref="member">MR_EmbeddedStructureParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -686,7 +686,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EmbeddedStructureParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EmbeddedStructureParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -50,10 +50,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="927" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="927" bodyend="932"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1a19b29d5b239ddafae9a77f168e137351" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1a8e34c837749abd7a0b120ce21678e368" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.FillingSurface.CellularSurface.build</definition>
-        <argsstring>(in MR.Vector3f size, MR.FillingSurface.CellularSurface.Const_Params params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(in MR.Vector3f size, MR.FillingSurface.CellularSurface.Const_Params params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>build</name>
         <qualifiedname>MR.FillingSurface.CellularSurface.build</qualifiedname>
         <param>
@@ -65,12 +65,12 @@
           <declname>params_</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Build a cellular surface of size <computeroutput>size</computeroutput> Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1a19b29d5b239ddafae9a77f168e137351" kindref="member">MR.FillingSurface.CellularSurface.build</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Build a cellular surface of size <computeroutput>size</computeroutput> Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1a8e34c837749abd7a0b120ce21678e368" kindref="member">MR.FillingSurface.CellularSurface.build</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,10 +78,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="939" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="939" bodyend="950"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1ae6017f625a882baeaae5f87c5ce29ded" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1a208f60369c7da3042d773f7bdcd920ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.FillingSurface.CellularSurface.fill</definition>
-        <argsstring>(MR.Const_Mesh mesh, MR.FillingSurface.CellularSurface.Const_Params params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.FillingSurface.CellularSurface.Const_Params params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>fill</name>
         <qualifiedname>MR.FillingSurface.CellularSurface.fill</qualifiedname>
         <param>
@@ -93,12 +93,12 @@
           <declname>params_</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Fill given mesh with a cellular surface Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1ae6017f625a882baeaae5f87c5ce29ded" kindref="member">MR.FillingSurface.CellularSurface.fill</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Fill given mesh with a cellular surface Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1a208f60369c7da3042d773f7bdcd920ee" kindref="member">MR.FillingSurface.CellularSurface.fill</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -170,10 +170,10 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="488" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="922" bodyend="990"/>
     <listofallmembers>
-      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1a19b29d5b239ddafae9a77f168e137351" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>build</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1a8e34c837749abd7a0b120ce21678e368" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>build</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1a65ce1a0a9aa5800b7232e922072e429d" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>estimateDensity</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1a14f1914dbcc2adbcaf9271b650293ee4" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>estimateWidth</name></member>
-      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1ae6017f625a882baeaae5f87c5ce29ded" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>fill</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1a208f60369c7da3042d773f7bdcd920ee" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>fill</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1a3ed403700d3d4209d02f524a579ecb56" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>getTypeNames</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface</scope><name>Type</name></member>
     </listofallmembers>

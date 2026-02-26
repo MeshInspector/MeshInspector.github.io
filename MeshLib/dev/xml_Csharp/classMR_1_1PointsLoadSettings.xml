@@ -35,9 +35,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" line="176" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" bodystart="177" bodyend="186"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1PointsLoadSettings_1ad259d800f642a181b24772252cb6d3e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.PointsLoadSettings.callback</definition>
+      <memberdef kind="property" id="classMR_1_1PointsLoadSettings_1ae878a2165d7f33672bf25b663ef0d184" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.PointsLoadSettings.callback</definition>
         <argsstring></argsstring>
         <name>callback</name>
         <qualifiedname>MR.PointsLoadSettings.callback</qualifiedname>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" line="189" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" bodystart="189" bodyend="189"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" line="189" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" bodystart="189" bodyend="189"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PointsLoadSettings_1a2e5cf330234a0a7bfcd408f7f515a43f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -263,7 +263,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" bodystart="161" bodyend="277"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsLoadSettings_1ac54cd04062d9273c28d31ce11753783c" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>assign</name></member>
-      <member refid="classMR_1_1PointsLoadSettings_1ad259d800f642a181b24772252cb6d3e9" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>callback</name></member>
+      <member refid="classMR_1_1PointsLoadSettings_1ae878a2165d7f33672bf25b663ef0d184" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>callback</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a23738fee48586fce88572f0c4bd8ebd8" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>colors</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a396fb6fb14e6f3750c88764e172d70f2" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>outXf</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a55a6b20ef036c845a934cf0675784b50" prot="package" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>

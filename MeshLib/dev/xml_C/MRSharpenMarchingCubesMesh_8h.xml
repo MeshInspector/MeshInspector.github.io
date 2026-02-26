@@ -123,7 +123,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>minNewVertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minNewVertDev</computeroutput>. </para>
+<para>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>minNewVertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minNewVertDev</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -181,7 +181,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank2VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNewRank2VertDev</computeroutput>. </para>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank2VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxNewRank2VertDev</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank3VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNewRank3VertDev</computeroutput>. </para>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxNewRank3VertDev</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxNewRank3VertDev</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>relative to reference mesh Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+<para>relative to reference mesh Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -355,7 +355,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxOldVertPosCorrection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxOldVertPosCorrection</computeroutput>. </para>
+<para>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>maxOldVertPosCorrection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxOldVertPosCorrection</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -413,7 +413,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>posSelIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>posSelIters</computeroutput>. </para>
+<para>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>posSelIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>posSelIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -471,7 +471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if non-null then created sharp edges will be saved here Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outSharpEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outSharpEdges</computeroutput>. </para>
+<para>if non-null then created sharp edges will be saved here Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outSharpEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outSharpEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -566,7 +566,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -686,7 +686,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SharpenMarchingCubesMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SharpenMarchingCubesMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

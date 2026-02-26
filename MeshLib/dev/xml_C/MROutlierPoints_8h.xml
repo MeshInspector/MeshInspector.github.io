@@ -248,7 +248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum points in the outlier component Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxClusterSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxClusterSize</computeroutput>. </para>
+<para>Maximum points in the outlier component Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxClusterSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxClusterSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -306,7 +306,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of adjacent points for an outlier point Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxNeighbors</computeroutput>. </para>
+<para>Maximum number of adjacent points for an outlier point Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxNeighbors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -364,7 +364,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minHeight</computeroutput>. </para>
+<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minHeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -424,7 +424,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAngle</computeroutput>. </para>
+<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals Modifies a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minAngle</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -511,7 +511,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OutlierParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" kindref="member">MR_OutlierParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OutlierParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" kindref="member">MR_OutlierParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -631,7 +631,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OutlierParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OutlierParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -966,7 +966,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OutliersDetector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OutliersDetector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1155,7 +1155,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Parameters of various criteria for detecting outlier points Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>finderParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>finderParams</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>finderParams</computeroutput>. </para>
+<para>Parameters of various criteria for detecting outlier points Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>finderParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>finderParams</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>finderParams</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1213,7 +1213,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius of the search for neighboring points for analysis Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radius</computeroutput>. </para>
+<para>Radius of the search for neighboring points for analysis Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1271,7 +1271,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Mask of the types of outliers that are looking for Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>mask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mask</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mask</computeroutput>. </para>
+<para>Mask of the types of outliers that are looking for Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>mask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mask</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mask</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1329,7 +1329,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>Progress callback Modifies a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1441,7 +1441,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindOutliersParams</computeroutput> elementwise. Parameter <computeroutput>finderParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>finderParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mask</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" kindref="member">MR_FindOutliersParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindOutliersParams</computeroutput> elementwise. Parameter <computeroutput>finderParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>finderParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mask</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" kindref="member">MR_FindOutliersParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1569,7 +1569,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindOutliersParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindOutliersParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

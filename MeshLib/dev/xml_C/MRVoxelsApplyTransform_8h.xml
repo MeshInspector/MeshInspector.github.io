@@ -139,7 +139,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>volume</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>volume</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>volume</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>volume</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -197,7 +197,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>boxFixed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>boxFixed</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TransformVdbVolumeResult</computeroutput> named <computeroutput>boxFixed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>boxFixed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -276,7 +276,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TransformVdbVolumeResult</computeroutput> elementwise. The reference to the parameter <computeroutput>volume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" kindref="member">MR_TransformVdbVolumeResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TransformVdbVolumeResult</computeroutput> elementwise. The reference to the parameter <computeroutput>volume</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsApplyTransform_8h_1a8876f6d0bf88ff2084f69c3212e0f339" kindref="member">MR_TransformVdbVolumeResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -404,7 +404,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TransformVdbVolumeResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TransformVdbVolumeResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

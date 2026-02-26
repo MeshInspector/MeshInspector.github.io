@@ -6,6 +6,6 @@ var classMR_1_1ProjectAttributeParams =
     [ "ProjectAttributeParams", "classMR_1_1ProjectAttributeParams.html#afe5ce7b16eed1d97890e462dab0492cd", null ],
     [ "ProjectAttributeParams", "classMR_1_1ProjectAttributeParams.html#a6ee38240f2db4be1ab7f8f6b49969ede", null ],
     [ "assign", "classMR_1_1ProjectAttributeParams.html#a7d8d513236da5749aeb778a9f09b33c0", null ],
-    [ "progressCb", "classMR_1_1ProjectAttributeParams.html#a42fe2d84844f85dafd2e64cc05ae56b8", null ],
+    [ "progressCb", "classMR_1_1ProjectAttributeParams.html#a0f66c279cc9e9b41055a785a7ea01f68", null ],
     [ "xfs", "classMR_1_1ProjectAttributeParams.html#a0cca373f3d575e5ed3d60bdb1c5f20f5", null ]
 ];

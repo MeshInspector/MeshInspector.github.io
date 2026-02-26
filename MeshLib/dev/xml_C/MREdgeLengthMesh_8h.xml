@@ -154,7 +154,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EdgeLengthMesh</computeroutput> named <computeroutput>topology</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>topology</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>topology</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EdgeLengthMesh</computeroutput> named <computeroutput>topology</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>topology</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>topology</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -216,7 +216,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::EdgeLengthMesh</computeroutput> named <computeroutput>edgeLengths</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeLengths</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgeLengths</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::EdgeLengthMesh</computeroutput> named <computeroutput>edgeLengths</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeLengths</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edgeLengths</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -299,7 +299,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::EdgeLengthMesh</computeroutput> elementwise. The reference to the parameter <computeroutput>topology</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeLengths</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" kindref="member">MR_EdgeLengthMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::EdgeLengthMesh</computeroutput> elementwise. The reference to the parameter <computeroutput>topology</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeLengths</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" kindref="member">MR_EdgeLengthMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -427,7 +427,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::EdgeLengthMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::EdgeLengthMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

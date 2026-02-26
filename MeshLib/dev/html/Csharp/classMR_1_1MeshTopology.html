@@ -192,9 +192,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08126f32bb3b4d9f2a75a8f0e142f0c2" id="r_a08126f32bb3b4d9f2a75a8f0e142f0c2"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08126f32bb3b4d9f2a75a8f0e142f0c2">splice</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> a, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> b)</td></tr>
 <tr class="memdesc:a08126f32bb3b4d9f2a75a8f0e142f0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring; 2) if a and b were from the same ring, puts them in separate rings; the cut in rings in both cases is made after a and b Generated from method <code><a class="el" href="#a08126f32bb3b4d9f2a75a8f0e142f0c2" title="given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring;...">MR.MeshTopology.splice</a></code>.  <br /></td></tr>
 <tr class="separator:a08126f32bb3b4d9f2a75a8f0e142f0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec8e65e49f461f24fff09204cff91b8" id="r_a4ec8e65e49f461f24fff09204cff91b8"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ec8e65e49f461f24fff09204cff91b8">collapseEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel)</td></tr>
-<tr class="memdesc:a4ec8e65e49f461f24fff09204cff91b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del)  <br /></td></tr>
-<tr class="separator:a4ec8e65e49f461f24fff09204cff91b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b5a8aa5f854f307af97aafe7cb3ab69" id="r_a0b5a8aa5f854f307af97aafe7cb3ab69"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b5a8aa5f854f307af97aafe7cb3ab69">collapseEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId onEdgeDel)</td></tr>
+<tr class="memdesc:a0b5a8aa5f854f307af97aafe7cb3ab69"><td class="mdescLeft">&#160;</td><td class="mdescRight">collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del)  <br /></td></tr>
+<tr class="separator:a0b5a8aa5f854f307af97aafe7cb3ab69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add9d777e7b522152daa32c58e6ca991b" id="r_add9d777e7b522152daa32c58e6ca991b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9d777e7b522152daa32c58e6ca991b">setOrg</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> a, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v)</td></tr>
 <tr class="memdesc:add9d777e7b522152daa32c58e6ca991b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new origin to the full origin ring including this edge; edgePerVertex_ table is updated accordingly Generated from method <code><a class="el" href="#add9d777e7b522152daa32c58e6ca991b" title="sets new origin to the full origin ring including this edge; edgePerVertex_ table is updated accordin...">MR.MeshTopology.setOrg</a></code>.  <br /></td></tr>
 <tr class="separator:add9d777e7b522152daa32c58e6ca991b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -744,8 +744,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ec8e65e49f461f24fff09204cff91b8" name="a4ec8e65e49f461f24fff09204cff91b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec8e65e49f461f24fff09204cff91b8">&#9670;&#160;</a></span>collapseEdge()</h2>
+<a id="a0b5a8aa5f854f307af97aafe7cb3ab69" name="a0b5a8aa5f854f307af97aafe7cb3ab69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b5a8aa5f854f307af97aafe7cb3ab69">&#9670;&#160;</a></span>collapseEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -761,7 +761,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId</td>          <td class="paramname"><span class="paramname"><em>onEdgeDel</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</td>          <td class="paramname"><span class="paramname"><em>onEdgeDel</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -772,7 +772,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p>
-<dl class="section return"><dt>Returns</dt><dd>prev( e ) if it is still valid Generated from method <code><a class="el" href="#a4ec8e65e49f461f24fff09204cff91b8" title="collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e,...">MR.MeshTopology.collapseEdge</a></code>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>prev( e ) if it is still valid Generated from method <code><a class="el" href="#a0b5a8aa5f854f307af97aafe7cb3ab69" title="collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e,...">MR.MeshTopology.collapseEdge</a></code>. </dd></dl>
 
 </div>
 </div>

@@ -10,5 +10,5 @@ var classMR_1_1EdgePathsAStarBuilder =
     [ "growOneEdge", "classMR_1_1EdgePathsAStarBuilder.html#af0e220e96205306e292fe51beed7f1c1", null ],
     [ "operator MR.EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1EdgePathsAStarBuilder.html#a1847c905babf31a4e345d8363b387ac1", null ],
     [ "reachNext", "classMR_1_1EdgePathsAStarBuilder.html#af0735d447410a3dbdba9294a0128634a", null ],
-    [ "reset", "classMR_1_1EdgePathsAStarBuilder.html#ab2dc410d54202db65e8821b9ddd3eec2", null ]
+    [ "reset", "classMR_1_1EdgePathsAStarBuilder.html#ab7564fe763b0d5ea0aab5f19d0855efc", null ]
 ];

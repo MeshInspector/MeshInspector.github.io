@@ -230,7 +230,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>files that should not be included to result zip Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>excludeFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>excludeFiles</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>excludeFiles</computeroutput>. </para>
+<para>files that should not be included to result zip Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>excludeFiles</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>excludeFiles</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>excludeFiles</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -288,7 +288,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>compressionLevel</computeroutput>. </para>
+<para>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>compressionLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>compressionLevel</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -350,7 +350,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if password is given then the archive will be encrypted Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>password</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>password</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>password</computeroutput>. </para>
+<para>if password is given then the archive will be encrypted Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>password</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>password</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>password</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -412,7 +412,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>an option to get progress notifications and cancel the operation Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>an option to get progress notifications and cancel the operation Modifies a member variable of class <computeroutput>MR::CompressZipSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -507,7 +507,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CompressZipSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>excludeFiles</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>password</computeroutput> can not be null. If <computeroutput>password_end</computeroutput> is null, then <computeroutput>password</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>password</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" kindref="member">MR_CompressZipSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CompressZipSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>excludeFiles</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>password</computeroutput> can not be null. If <computeroutput>password_end</computeroutput> is null, then <computeroutput>password</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>password</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZip_8h_1af3c94002994afc43214c235f15c5b24e" kindref="member">MR_CompressZipSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -635,7 +635,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CompressZipSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CompressZipSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

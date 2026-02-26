@@ -123,7 +123,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outNewFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outNewFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outNewFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outNewFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -181,7 +181,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outExtrudedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outExtrudedEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outExtrudedEdges</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>outExtrudedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outExtrudedEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outExtrudedEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>maxEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxEdgeLength</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLength</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>maxEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxEdgeLength</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>maxEdgeLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2OldMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2OldMap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2OldMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>new2OldMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -380,7 +380,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> elementwise. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outExtrudedEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxEdgeLength</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2OldMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MakeDegenerateBandAroundRegionParams</computeroutput> elementwise. The reference to the parameter <computeroutput>outNewFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outExtrudedEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxEdgeLength</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2OldMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshExtrude_8h_1afc520e05c508a1ae0636d5d553f19ed4" kindref="member">MR_MakeDegenerateBandAroundRegionParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -500,7 +500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MakeDegenerateBandAroundRegionParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MakeDegenerateBandAroundRegionParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

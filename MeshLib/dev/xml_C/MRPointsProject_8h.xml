@@ -335,7 +335,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PointsProjectionResult</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PointsProjectionResult</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -393,7 +393,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the closest vertex in point cloud Modifies a member variable of class <computeroutput>MR::PointsProjectionResult</computeroutput> named <computeroutput>vId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vId</computeroutput>. </para>
+<para>the closest vertex in point cloud Modifies a member variable of class <computeroutput>MR::PointsProjectionResult</computeroutput> named <computeroutput>vId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -468,7 +468,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PointsProjectionResult</computeroutput> elementwise. The reference to the parameter <computeroutput>vId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsProject_8h_1a40f66526069140df6bb4d53c792e1882" kindref="member">MR_PointsProjectionResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PointsProjectionResult</computeroutput> elementwise. The reference to the parameter <computeroutput>vId</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsProject_8h_1a40f66526069140df6bb4d53c792e1882" kindref="member">MR_PointsProjectionResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -588,7 +588,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsProjectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsProjectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -924,7 +924,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bitset of valid input points Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>valid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>valid</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>valid</computeroutput>. </para>
+<para>bitset of valid input points Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>valid</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>valid</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>valid</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -982,7 +982,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>affine transformation for input points Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>affine transformation for input points Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1040,7 +1040,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
+<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1098,7 +1098,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>loDistLimitSq</computeroutput>. </para>
+<para>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>loDistLimitSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1156,7 +1156,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, discards a projection candidate with the same index as the target point Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>skipSameIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>skipSameIndex</computeroutput>. </para>
+<para>if true, discards a projection candidate with the same index as the target point Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>skipSameIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>skipSameIndex</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1218,7 +1218,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>progress callback Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>progress callback Modifies a member variable of class <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1313,7 +1313,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>valid</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsProject_8h_1ac72c214b018ab5320946450d5aa03797" kindref="member">MR_FindProjectionOnPointsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindProjectionOnPointsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>valid</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsProject_8h_1ac72c214b018ab5320946450d5aa03797" kindref="member">MR_FindProjectionOnPointsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1441,7 +1441,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindProjectionOnPointsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindProjectionOnPointsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1902,7 +1902,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

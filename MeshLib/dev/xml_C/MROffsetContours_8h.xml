@@ -324,7 +324,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContourIndex</computeroutput> named <computeroutput>contourId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>contourId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContourIndex</computeroutput> named <computeroutput>contourId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>contourId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -382,7 +382,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContourIndex</computeroutput> named <computeroutput>vertId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>vertId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContourIndex</computeroutput> named <computeroutput>vertId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>vertId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -457,7 +457,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OffsetContourIndex</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1a5e9a36c4ec6670e7f43b0cd986e86033" kindref="member">MR_OffsetContourIndex_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OffsetContourIndex</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1a5e9a36c4ec6670e7f43b0cd986e86033" kindref="member">MR_OffsetContourIndex_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -577,7 +577,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OffsetContourIndex::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OffsetContourIndex::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -635,7 +635,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>lOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lOrg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lOrg</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>lOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lOrg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lOrg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -693,7 +693,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>lDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lDest</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lDest</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>lDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lDest</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lDest</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -751,7 +751,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>uOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uOrg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uOrg</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>uOrg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uOrg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uOrg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -809,7 +809,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>uDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uDest</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uDest</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>uDest</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uDest</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uDest</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -867,7 +867,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>lRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lRatio</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>lRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>lRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -925,7 +925,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>uRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>uRatio</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursOrigins</computeroutput> named <computeroutput>uRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>uRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1016,7 +1016,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OffsetContoursOrigins</computeroutput> elementwise. Parameter <computeroutput>lOrg</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>lOrg</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lDest</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>lDest</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>uOrg</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>uOrg</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>uDest</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>uDest</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1acf62d28981b8cbbd0c87a92e56eab0ba" kindref="member">MR_OffsetContoursOrigins_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OffsetContoursOrigins</computeroutput> elementwise. Parameter <computeroutput>lOrg</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>lOrg</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>lDest</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>lDest</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>uOrg</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>uOrg</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>uDest</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>uDest</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1acf62d28981b8cbbd0c87a92e56eab0ba" kindref="member">MR_OffsetContoursOrigins_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1136,7 +1136,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OffsetContoursOrigins::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OffsetContoursOrigins::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1212,7 +1212,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1270,7 +1270,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>endType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>endType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>endType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>endType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>endType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>endType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1328,7 +1328,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>cornerType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cornerType</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cornerType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>cornerType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cornerType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cornerType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1386,7 +1386,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minAnglePrecision</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>minAnglePrecision</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minAnglePrecision</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1444,7 +1444,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>maxSharpAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxSharpAngle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>maxSharpAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxSharpAngle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1502,7 +1502,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output that maps result contour ids to input contour ids Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>indicesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>indicesMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>indicesMap</computeroutput>. </para>
+<para>optional output that maps result contour ids to input contour ids Modifies a member variable of class <computeroutput>MR::OffsetContoursParams</computeroutput> named <computeroutput>indicesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>indicesMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>indicesMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1593,7 +1593,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OffsetContoursParams</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>endType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cornerType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>indicesMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1a5bef008512c33a9335d7beb25d148e82" kindref="member">MR_OffsetContoursParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OffsetContoursParams</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>endType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cornerType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>indicesMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1a5bef008512c33a9335d7beb25d148e82" kindref="member">MR_OffsetContoursParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1713,7 +1713,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OffsetContoursParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OffsetContoursParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1813,7 +1813,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursRestoreZParams</computeroutput> named <computeroutput>zCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>zCallback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>zCallback</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::OffsetContoursRestoreZParams</computeroutput> named <computeroutput>zCallback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>zCallback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>zCallback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1871,7 +1871,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if &gt; 0 z coordinate will be relaxed this many iterations Modifies a member variable of class <computeroutput>MR::OffsetContoursRestoreZParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxIterations</computeroutput>. </para>
+<para>if &gt; 0 z coordinate will be relaxed this many iterations Modifies a member variable of class <computeroutput>MR::OffsetContoursRestoreZParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>relaxIterations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1950,7 +1950,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::OffsetContoursRestoreZParams</computeroutput> elementwise. The reference to the parameter <computeroutput>zCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1a4c5cf2138c02576f11a71bf52538a20f" kindref="member">MR_OffsetContoursRestoreZParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::OffsetContoursRestoreZParams</computeroutput> elementwise. The reference to the parameter <computeroutput>zCallback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROffsetContours_8h_1a4c5cf2138c02576f11a71bf52538a20f" kindref="member">MR_OffsetContoursRestoreZParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2078,7 +2078,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::OffsetContoursRestoreZParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::OffsetContoursRestoreZParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

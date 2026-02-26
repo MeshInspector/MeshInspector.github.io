@@ -4,9 +4,9 @@
     <compoundname>MR::DividePolylineParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DividePolylineParameters</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1ad091c7a60513b137393a67ea6bb559ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat MR.DividePolylineParameters.onEdgeSplitCallback</definition>
+      <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a12afa22269422258f4b690beba8c6a7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float MR.DividePolylineParameters.onEdgeSplitCallback</definition>
         <argsstring></argsstring>
         <name>onEdgeSplitCallback</name>
         <qualifiedname>MR.DividePolylineParameters.onEdgeSplitCallback</qualifiedname>
@@ -327,7 +327,7 @@
       <member refid="classMR_1_1DividePolylineParameters_1a5fd241ed2a6757408f815d61801e2632" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1afd882db9690be2342a9012610e0c8d66" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a5f17813313cea9c7b88668e613686358" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
-      <member refid="classMR_1_1DividePolylineParameters_1ad091c7a60513b137393a67ea6bb559ad" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classMR_1_1DividePolylineParameters_1a12afa22269422258f4b690beba8c6a7c" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a165b5cbfd774ff6a084364123701461b" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutEmap</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a588a9c550243db191d4663cac648f02e" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutVmap</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1abb29ee9bf97b682a80486a3bdf9333cd" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherPart</name></member>

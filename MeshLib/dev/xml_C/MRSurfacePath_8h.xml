@@ -365,7 +365,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>can be invalid, then the path starts in mids.front() Modifies a member variable of class <computeroutput>MR::GeodesicPath</computeroutput> named <computeroutput>start</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>start</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>start</computeroutput>. </para>
+<para>can be invalid, then the path starts in mids.front() Modifies a member variable of class <computeroutput>MR::GeodesicPath</computeroutput> named <computeroutput>start</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>start</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>start</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -448,7 +448,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::GeodesicPath</computeroutput> named <computeroutput>mids</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mids</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mids</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::GeodesicPath</computeroutput> named <computeroutput>mids</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mids</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mids</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -484,7 +484,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>can be invalid, then the path ends in mids.back() Modifies a member variable of class <computeroutput>MR::GeodesicPath</computeroutput> named <computeroutput>end</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>end</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>end</computeroutput>. </para>
+<para>can be invalid, then the path ends in mids.back() Modifies a member variable of class <computeroutput>MR::GeodesicPath</computeroutput> named <computeroutput>end</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>end</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>end</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -588,7 +588,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::GeodesicPath</computeroutput> elementwise. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>start</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mids</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>end</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSurfacePath_8h_1a4646c176f90a65b7f8e794bd74e30100" kindref="member">MR_GeodesicPath_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::GeodesicPath</computeroutput> elementwise. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>start</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mids</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>end</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSurfacePath_8h_1a4646c176f90a65b7f8e794bd74e30100" kindref="member">MR_GeodesicPath_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -716,7 +716,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::GeodesicPath::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::GeodesicPath::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -928,7 +928,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if valid, then the descent is stopped as soon as same triangle with (end) is reached Modifies a member variable of class <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> named <computeroutput>end</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>end</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>end</computeroutput>. </para>
+<para>if valid, then the descent is stopped as soon as same triangle with (end) is reached Modifies a member variable of class <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> named <computeroutput>end</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>end</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>end</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -986,7 +986,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Modifies a member variable of class <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> named <computeroutput>outVertexReached</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVertexReached</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outVertexReached</computeroutput>. </para>
+<para>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Modifies a member variable of class <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> named <computeroutput>outVertexReached</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outVertexReached</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outVertexReached</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1044,7 +1044,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Modifies a member variable of class <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> named <computeroutput>outBdReached</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outBdReached</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outBdReached</computeroutput>. </para>
+<para>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Modifies a member variable of class <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> named <computeroutput>outBdReached</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outBdReached</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outBdReached</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1123,7 +1123,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> elementwise. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>end</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outVertexReached</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outBdReached</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSurfacePath_8h_1a0e91384fdadbc64b647bfd534b141d07" kindref="member">MR_ComputeSteepestDescentPathSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ComputeSteepestDescentPathSettings</computeroutput> elementwise. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>end</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outVertexReached</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outBdReached</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSurfacePath_8h_1a0e91384fdadbc64b647bfd534b141d07" kindref="member">MR_ComputeSteepestDescentPathSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1243,7 +1243,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ComputeSteepestDescentPathSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ComputeSteepestDescentPathSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

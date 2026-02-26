@@ -79,9 +79,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="419" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="419" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a42d37560700fcb28b87f3cdf6c449f4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FindProjectionOnPointsSettings.cb</definition>
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a17b406f9dd2aac6ba9f0b7ae38292a82" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.FindProjectionOnPointsSettings.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.FindProjectionOnPointsSettings.cb</qualifiedname>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="422" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="422" bodyend="422"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="422" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="422" bodyend="422"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -301,7 +301,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="384" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="385" bodyend="506"/>
     <listofallmembers>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1aaefefdbe5255b54029b22a1788375642" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>assign</name></member>
-      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a42d37560700fcb28b87f3cdf6c449f4b" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a17b406f9dd2aac6ba9f0b7ae38292a82" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a9834066b76b6cffd2a1d95aeabfe35c7" prot="package" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a8e4de168dc26fe7e4710894323b55cb8" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a99dc2a7d9a715f087c42a8baa67491fc" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>

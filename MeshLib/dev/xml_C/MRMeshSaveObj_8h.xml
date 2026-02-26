@@ -235,7 +235,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>name</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -293,7 +293,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> named <computeroutput>toWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toWorld</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>toWorld</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> named <computeroutput>toWorld</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toWorld</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>toWorld</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -355,7 +355,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -442,7 +442,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>toWorld</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshSaveObj_8h_1a6d327a05c3e0f276e7ca727a10d0af8e" kindref="member">MR_MeshSave_NamedXfMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshSave::NamedXfMesh</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>toWorld</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshSaveObj_8h_1a6d327a05c3e0f276e7ca727a10d0af8e" kindref="member">MR_MeshSave_NamedXfMesh_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -570,7 +570,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshSave::NamedXfMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshSave::NamedXfMesh::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

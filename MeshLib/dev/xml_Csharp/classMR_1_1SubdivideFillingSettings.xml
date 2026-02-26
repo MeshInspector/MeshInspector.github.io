@@ -64,9 +64,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="187" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="187" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1a244cb099f6d541010a34ddce2fb2a976" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromMREdgeId</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromMREdgeId MR.SubdivideFillingSettings.beforeEdgeSplit</definition>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1ac37da172f330f3e052931eb23839af5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_MREdgeId</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_MREdgeId MR.SubdivideFillingSettings.beforeEdgeSplit</definition>
         <argsstring></argsstring>
         <name>beforeEdgeSplit</name>
         <qualifiedname>MR.SubdivideFillingSettings.beforeEdgeSplit</qualifiedname>
@@ -77,11 +77,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="190" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="190" bodyend="190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="190" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="190" bodyend="190"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1a7fb9cb1f214b2b116a593649cc6f6aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId</type>
-        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId MR.SubdivideFillingSettings.onEdgeSplit</definition>
+      <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1a48d0d24b185f64c0b4195ecaa9c1f240" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId</type>
+        <definition>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId MR.SubdivideFillingSettings.onEdgeSplit</definition>
         <argsstring></argsstring>
         <name>onEdgeSplit</name>
         <qualifiedname>MR.SubdivideFillingSettings.onEdgeSplit</qualifiedname>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="193" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="193" bodyend="193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="193" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="193" bodyend="193"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -301,12 +301,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="165" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="166" bodyend="284"/>
     <listofallmembers>
       <member refid="classMR_1_1SubdivideFillingSettings_1ad2e65b46e2f116a7860cdf379b727728" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>assign</name></member>
-      <member refid="classMR_1_1SubdivideFillingSettings_1a244cb099f6d541010a34ddce2fb2a976" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1ac37da172f330f3e052931eb23839af5c" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>beforeEdgeSplit</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ac8d79015901dd1d039820ca164d564c9" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxAngleChangeAfterFlip</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1add6104ebc126a14aa4516b0906a8d432" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxEdgeLen</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ad938bd807028981dfa116d8d3b0ee0d1" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxEdgeSplits</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1adaec9be12a253b1a260be3022f3ac435" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>notFlippable</name></member>
-      <member refid="classMR_1_1SubdivideFillingSettings_1a7fb9cb1f214b2b116a593649cc6f6aa2" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a48d0d24b185f64c0b4195ecaa9c1f240" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>onEdgeSplit</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1a535699b88de7b3f9d2f5ea0f5c94be19" prot="package" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ae9d9d58deaa9658956b648bc91fc5e2a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>

@@ -217,7 +217,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: mesh triangles Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tris</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tris</computeroutput>. </para>
+<para>optional load artifact: mesh triangles Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tris</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tris</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -275,7 +275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: polyline edges Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>edges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edges</computeroutput>. </para>
+<para>optional load artifact: polyline edges Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>edges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -333,7 +333,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex color map Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colors</computeroutput>. </para>
+<para>optional load artifact: per-vertex color map Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -391,7 +391,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-face color map Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceColors</computeroutput>. </para>
+<para>optional load artifact: per-face color map Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>faceColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -449,7 +449,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex uv-coordinates Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvCoords</computeroutput>. </para>
+<para>optional load artifact: per-vertex uv-coordinates Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uvCoords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -507,7 +507,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-corner uv-coordinates for each triangle Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>triCornerUvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triCornerUvCoords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>triCornerUvCoords</computeroutput>. </para>
+<para>optional load artifact: per-corner uv-coordinates for each triangle Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>triCornerUvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triCornerUvCoords</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>triCornerUvCoords</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -565,7 +565,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex normals Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normals</computeroutput>. </para>
+<para>optional load artifact: per-vertex normals Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normals</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normals</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -623,7 +623,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: texture image Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texture</computeroutput>. </para>
+<para>optional load artifact: texture image Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texture</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>texture</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -681,7 +681,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>directory to load texture files from Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+<para>directory to load texture files from Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -743,7 +743,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+<para>callback for set progress and stop process Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>callback</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -805,7 +805,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>telemetrySignal</computeroutput>. </para>
+<para>permit telemetry signal about loading Modifies a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>telemetrySignal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -945,7 +945,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PlyLoadParams</computeroutput> elementwise. The reference to the parameter <computeroutput>tris</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>triCornerUvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>normals</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texture</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dir</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" kindref="member">MR_PlyLoadParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PlyLoadParams</computeroutput> elementwise. The reference to the parameter <computeroutput>tris</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>triCornerUvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>normals</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texture</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dir</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" kindref="member">MR_PlyLoadParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1073,7 +1073,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PlyLoadParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PlyLoadParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

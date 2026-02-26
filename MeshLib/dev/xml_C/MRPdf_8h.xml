@@ -755,7 +755,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>titleSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>titleSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>titleSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>titleSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -813,7 +813,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>textSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>textSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>textSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>textSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -877,7 +877,7 @@
 <para>Font name. </para>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>defaultFont</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>defaultFont</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>defaultFont</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>defaultFont</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>defaultFont</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>defaultFont</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -940,7 +940,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>defaultFontBold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>defaultFontBold</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>defaultFontBold</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>defaultFontBold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>defaultFontBold</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>defaultFontBold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1002,7 +1002,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Font name for table (monospaced) Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>tableFont</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tableFont</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tableFont</computeroutput>. </para>
+<para>Font name for table (monospaced) Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>tableFont</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tableFont</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tableFont</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1064,7 +1064,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>tableFontBold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tableFontBold</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>tableFontBold</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PdfParameters</computeroutput> named <computeroutput>tableFontBold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>tableFontBold</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>tableFontBold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1171,7 +1171,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PdfParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>defaultFont</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>defaultFontBold</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tableFont</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tableFontBold</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" kindref="member">MR_PdfParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PdfParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>defaultFont</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>defaultFontBold</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tableFont</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>tableFontBold</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" kindref="member">MR_PdfParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1299,7 +1299,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PdfParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PdfParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1481,7 +1481,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2158,7 +2158,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>fontName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fontName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fontName</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>fontName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fontName</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fontName</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2216,7 +2216,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>fontSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>fontSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2274,7 +2274,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>alignment</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>alignment</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>alignment</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>alignment</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>alignment</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>alignment</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2332,7 +2332,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>colorText</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorText</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorText</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>colorText</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorText</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorText</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2390,7 +2390,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>underline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>underline</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextParams</computeroutput> named <computeroutput>underline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>underline</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2481,7 +2481,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Pdf::TextParams</computeroutput> elementwise. The reference to the parameter <computeroutput>fontName</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>alignment</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorText</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a29ee6a78e22d55cb3266162c602cf044" kindref="member">MR_Pdf_TextParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Pdf::TextParams</computeroutput> elementwise. The reference to the parameter <computeroutput>fontName</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>alignment</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorText</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a29ee6a78e22d55cb3266162c602cf044" kindref="member">MR_Pdf_TextParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2609,7 +2609,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::TextParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::TextParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2649,7 +2649,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>color</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>color</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>color</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>color</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>color</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>color</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2711,7 +2711,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>rangeMin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rangeMin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rangeMin</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>rangeMin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rangeMin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rangeMin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2773,7 +2773,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>rangeMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rangeMax</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rangeMax</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>rangeMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rangeMax</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rangeMax</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2835,7 +2835,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>percent</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>percent</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>percent</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> named <computeroutput>percent</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>percent</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>percent</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2930,7 +2930,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> elementwise. The reference to the parameter <computeroutput>color</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>rangeMin</computeroutput> can not be null. If <computeroutput>rangeMin_end</computeroutput> is null, then <computeroutput>rangeMin</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>rangeMin</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>rangeMax</computeroutput> can not be null. If <computeroutput>rangeMax_end</computeroutput> is null, then <computeroutput>rangeMax</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>rangeMax</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>percent</computeroutput> can not be null. If <computeroutput>percent_end</computeroutput> is null, then <computeroutput>percent</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>percent</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a7c8854a3302d83a2d8dad62435a348ba" kindref="member">MR_Pdf_PaletteRowStats_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Pdf::PaletteRowStats</computeroutput> elementwise. The reference to the parameter <computeroutput>color</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>rangeMin</computeroutput> can not be null. If <computeroutput>rangeMin_end</computeroutput> is null, then <computeroutput>rangeMin</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>rangeMin</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>rangeMax</computeroutput> can not be null. If <computeroutput>rangeMax_end</computeroutput> is null, then <computeroutput>rangeMax</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>rangeMax</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>percent</computeroutput> can not be null. If <computeroutput>percent_end</computeroutput> is null, then <computeroutput>percent</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>percent</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a7c8854a3302d83a2d8dad62435a348ba" kindref="member">MR_Pdf_PaletteRowStats_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3058,7 +3058,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::PaletteRowStats::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::PaletteRowStats::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3098,7 +3098,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>size</computeroutput>. </para>
+<para>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>size</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3160,7 +3160,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>caption if not empty - add caption under marks (if exist) or image. Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>caption</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>caption</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>caption</computeroutput>. </para>
+<para>caption if not empty - add caption under marks (if exist) or image. Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>caption</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>caption</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>caption</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3218,7 +3218,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>uniformScale</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uniformScale</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uniformScale</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>uniformScale</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uniformScale</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uniformScale</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3276,7 +3276,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>alignmentVertical</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>alignmentVertical</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>alignmentVertical</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>alignmentVertical</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>alignmentVertical</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>alignmentVertical</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3334,7 +3334,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>alignmentHorizontal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>alignmentHorizontal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>alignmentHorizontal</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::ImageParams</computeroutput> named <computeroutput>alignmentHorizontal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>alignmentHorizontal</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>alignmentHorizontal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3425,7 +3425,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Pdf::ImageParams</computeroutput> elementwise. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>caption</computeroutput> can not be null. If <computeroutput>caption_end</computeroutput> is null, then <computeroutput>caption</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>caption</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uniformScale</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>alignmentVertical</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>alignmentHorizontal</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a311e0d716095188eb2aabe996c020616" kindref="member">MR_Pdf_ImageParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Pdf::ImageParams</computeroutput> elementwise. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>caption</computeroutput> can not be null. If <computeroutput>caption_end</computeroutput> is null, then <computeroutput>caption</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>caption</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uniformScale</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>alignmentVertical</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>alignmentHorizontal</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a311e0d716095188eb2aabe996c020616" kindref="member">MR_Pdf_ImageParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3553,7 +3553,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::ImageParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::ImageParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3597,7 +3597,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::Cell</computeroutput> named <computeroutput>data</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>data</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>data</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::Cell</computeroutput> named <computeroutput>data</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>data</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>data</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3778,7 +3778,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::Cell::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::Cell::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3959,7 +3959,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::Cell::Empty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::Cell::Empty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3999,7 +3999,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>colorText</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorText</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorText</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>colorText</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorText</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorText</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4057,7 +4057,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>colorCellBg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorCellBg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorCellBg</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>colorCellBg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorCellBg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorCellBg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4115,7 +4115,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>colorCellBorder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorCellBorder</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorCellBorder</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>colorCellBorder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorCellBorder</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorCellBorder</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4177,7 +4177,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. Non-null <computeroutput>value_end</computeroutput> requires a non-null <computeroutput>value</computeroutput>. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer to both it and <computeroutput>value_end</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>text</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>text</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::CellCustomParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. Non-null <computeroutput>value_end</computeroutput> requires a non-null <computeroutput>value</computeroutput>. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer to both it and <computeroutput>value_end</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>text</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>text</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4264,7 +4264,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Pdf::CellCustomParams</computeroutput> elementwise. Parameter <computeroutput>colorText</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>colorText</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>colorCellBg</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>colorCellBg</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>colorCellBorder</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>colorCellBorder</computeroutput> might be preserved in the constructed object. If <computeroutput>text_end</computeroutput> is null, then <computeroutput>text</computeroutput> is assumed to be null-terminated. Non-null <computeroutput>text_end</computeroutput> requires a non-null <computeroutput>text</computeroutput>. Parameter <computeroutput>text</computeroutput> is optional. To keep it empty, pass a null pointer to both it and <computeroutput>text_end</computeroutput>. The reference to the parameter <computeroutput>text</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a7d9b92f3fae39628aa55247b3f8e08ef" kindref="member">MR_Pdf_CellCustomParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Pdf::CellCustomParams</computeroutput> elementwise. Parameter <computeroutput>colorText</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>colorText</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>colorCellBg</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>colorCellBg</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>colorCellBorder</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>colorCellBorder</computeroutput> might be preserved in the constructed object. If <computeroutput>text_end</computeroutput> is null, then <computeroutput>text</computeroutput> is assumed to be null-terminated. Non-null <computeroutput>text_end</computeroutput> requires a non-null <computeroutput>text</computeroutput>. Parameter <computeroutput>text</computeroutput> is optional. To keep it empty, pass a null pointer to both it and <computeroutput>text_end</computeroutput>. The reference to the parameter <computeroutput>text</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a7d9b92f3fae39628aa55247b3f8e08ef" kindref="member">MR_Pdf_CellCustomParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4392,7 +4392,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::CellCustomParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::CellCustomParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4436,7 +4436,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>textParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textParams</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>textParams</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>textParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textParams</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>textParams</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4494,7 +4494,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>rect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rect</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rect</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>rect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rect</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rect</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4552,7 +4552,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>colorBorder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorBorder</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorBorder</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>colorBorder</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorBorder</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorBorder</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4610,7 +4610,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>colorBackground</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorBackground</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorBackground</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Pdf::TextCellParams</computeroutput> named <computeroutput>colorBackground</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorBackground</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>colorBackground</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4697,7 +4697,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Pdf::TextCellParams</computeroutput> elementwise. The reference to the parameter <computeroutput>textParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rect</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorBorder</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorBackground</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a729138ab4fe6b2ecf131eba2d2fdab5a" kindref="member">MR_Pdf_TextCellParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Pdf::TextCellParams</computeroutput> elementwise. The reference to the parameter <computeroutput>textParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rect</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorBorder</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorBackground</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPdf_8h_1a729138ab4fe6b2ecf131eba2d2fdab5a" kindref="member">MR_Pdf_TextCellParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4825,7 +4825,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Pdf::TextCellParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Pdf::TextCellParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

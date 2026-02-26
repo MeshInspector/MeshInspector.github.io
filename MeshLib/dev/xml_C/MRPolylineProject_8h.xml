@@ -337,7 +337,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>polyline&apos;s edge containing the closest point Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult2</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>polyline&apos;s edge containing the closest point Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult2</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -395,7 +395,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult2</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult2</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -453,7 +453,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult2</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult2</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -532,7 +532,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineProjectionResult2</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1abbb01ffa356e16c22be37b2adad974c2" kindref="member">MR_PolylineProjectionResult2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineProjectionResult2</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1abbb01ffa356e16c22be37b2adad974c2" kindref="member">MR_PolylineProjectionResult2_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -670,7 +670,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineProjectionResult2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineProjectionResult2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -728,7 +728,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>polyline&apos;s edge containing the closest point Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>polyline&apos;s edge containing the closest point Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -786,7 +786,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -844,7 +844,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -923,7 +923,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineProjectionResult3</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1a07c855f053cc62600ee278336f1d1aa8" kindref="member">MR_PolylineProjectionResult3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineProjectionResult3</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1a07c855f053cc62600ee278336f1d1aa8" kindref="member">MR_PolylineProjectionResult3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1097,7 +1097,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineProjectionResult3::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineProjectionResult3::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1155,7 +1155,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest line id on polyline Modifies a member variable of class <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>closest line id on polyline Modifies a member variable of class <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1213,7 +1213,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1271,7 +1271,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>distance from offset point to proj Modifies a member variable of class <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>distance from offset point to proj Modifies a member variable of class <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1350,7 +1350,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1a8a15e0d4db3f36b7a4820c24a9637bad" kindref="member">MR_Polyline2ProjectionWithOffsetResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Polyline2ProjectionWithOffsetResult</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1a8a15e0d4db3f36b7a4820c24a9637bad" kindref="member">MR_Polyline2ProjectionWithOffsetResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1470,7 +1470,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Polyline2ProjectionWithOffsetResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Polyline2ProjectionWithOffsetResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1510,7 +1510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest line id on polyline Modifies a member variable of class <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>closest line id on polyline Modifies a member variable of class <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1568,7 +1568,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1626,7 +1626,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>distance from offset point to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>distance from offset point to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1705,7 +1705,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1a4f695bc00d8bf953b344ec3ae1698a1a" kindref="member">MR_PolylineProjectionWithOffsetResult3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineProjectionWithOffsetResult3</computeroutput> elementwise. The reference to the parameter <computeroutput>line</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineProject_8h_1a4f695bc00d8bf953b344ec3ae1698a1a" kindref="member">MR_PolylineProjectionWithOffsetResult3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1825,7 +1825,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineProjectionWithOffsetResult3::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineProjectionWithOffsetResult3::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1985,7 +1985,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>pointId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointId</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pointId</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>pointId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointId</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pointId</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2043,7 +2043,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>polyline&apos;s edge containing the closest point Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>line</computeroutput>. </para>
+<para>polyline&apos;s edge containing the closest point Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>line</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>line</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>line</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2101,7 +2101,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>closest point on polyline, transformed by xf if it is given Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2159,7 +2159,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance from pt to proj Modifies a member variable of class <computeroutput>MR::PolylineProjectionResult3Arg</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2386,7 +2386,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineProjectionResult3Arg::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineProjectionResult3Arg::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

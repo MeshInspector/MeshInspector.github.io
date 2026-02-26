@@ -533,7 +533,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::Primitives::Plane</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>center</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::Primitives::Plane</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>center</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>center</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -591,7 +591,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::Primitives::Plane</computeroutput> named <computeroutput>normal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normal</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::Primitives::Plane</computeroutput> named <computeroutput>normal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normal</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -666,7 +666,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Features::Primitives::Plane</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>normal</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1a4297c4a82d5a0b7f9fd093652497ca58" kindref="member">MR_Features_Primitives_Plane_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Features::Primitives::Plane</computeroutput> elementwise. The reference to the parameter <computeroutput>center</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>normal</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1a4297c4a82d5a0b7f9fd093652497ca58" kindref="member">MR_Features_Primitives_Plane_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -786,7 +786,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Primitives::Plane::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Primitives::Plane::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -892,7 +892,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Some point on the axis, but not necessarily the true center point. Use <computeroutput>centerPoint()</computeroutput> for that. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>referencePoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>referencePoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>referencePoint</computeroutput>. </para>
+<para>Some point on the axis, but not necessarily the true center point. Use <computeroutput>centerPoint()</computeroutput> for that. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>referencePoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>referencePoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>referencePoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -950,7 +950,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The axis direction. Must be normalized. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+<para>The axis direction. Must be normalized. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1008,7 +1008,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Cap radius in the <computeroutput>dir</computeroutput> direction. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>positiveSideRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>positiveSideRadius</computeroutput>. </para>
+<para>Cap radius in the <computeroutput>dir</computeroutput> direction. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>positiveSideRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>positiveSideRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1066,7 +1066,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Cap radius in the direction opposite to <computeroutput>dir</computeroutput>. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>negativeSideRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>negativeSideRadius</computeroutput>. </para>
+<para>Cap radius in the direction opposite to <computeroutput>dir</computeroutput>. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>negativeSideRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>negativeSideRadius</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1124,7 +1124,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Distance from the <computeroutput>center</computeroutput> to the cap in the <computeroutput>dir</computeroutput> direction. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>positiveLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>positiveLength</computeroutput>. </para>
+<para>Distance from the <computeroutput>center</computeroutput> to the cap in the <computeroutput>dir</computeroutput> direction. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>positiveLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>positiveLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1182,7 +1182,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Distance from the <computeroutput>center</computeroutput> to the cap in the direction opposite to <computeroutput>dir</computeroutput>. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>negativeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>negativeLength</computeroutput>. </para>
+<para>Distance from the <computeroutput>center</computeroutput> to the cap in the direction opposite to <computeroutput>dir</computeroutput>. Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>negativeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>negativeLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1240,7 +1240,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>hollow</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>hollow</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> named <computeroutput>hollow</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>hollow</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1335,7 +1335,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> elementwise. The reference to the parameter <computeroutput>referencePoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1aec9427f323661d02a372f535cc440558" kindref="member">MR_Features_Primitives_ConeSegment_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Features::Primitives::ConeSegment</computeroutput> elementwise. The reference to the parameter <computeroutput>referencePoint</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1aec9427f323661d02a372f535cc440558" kindref="member">MR_Features_Primitives_ConeSegment_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1455,7 +1455,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Primitives::ConeSegment::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Primitives::ConeSegment::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2063,7 +2063,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>distance</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>distance</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>distance</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>distance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2121,7 +2121,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>centerDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>centerDistance</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>centerDistance</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>centerDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>centerDistance</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>centerDistance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2179,7 +2179,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>angle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>angle</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>angle</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>angle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>angle</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>angle</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2241,7 +2241,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>intersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersections</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>intersections</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult</computeroutput> named <computeroutput>intersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intersections</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intersections</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2328,7 +2328,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Features::MeasureResult</computeroutput> elementwise. Parameter <computeroutput>distance</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>distance</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>centerDistance</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>centerDistance</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>angle</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>angle</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>intersections</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1a35daf4a6ef8c58453791980a93dc329c" kindref="member">MR_Features_MeasureResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Features::MeasureResult</computeroutput> elementwise. Parameter <computeroutput>distance</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>distance</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>centerDistance</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>centerDistance</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>angle</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>angle</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>intersections</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1a35daf4a6ef8c58453791980a93dc329c" kindref="member">MR_Features_MeasureResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2456,7 +2456,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::MeasureResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2514,7 +2514,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>status</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>status</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2585,7 +2585,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> elementwise. The reference to the parameter <computeroutput>status</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" kindref="member">MR_Features_MeasureResult_BasicPart_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> elementwise. The reference to the parameter <computeroutput>status</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" kindref="member">MR_Features_MeasureResult_BasicPart_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2795,7 +2795,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::MeasureResult::BasicPart::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::BasicPart::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2835,7 +2835,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distance</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distance</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2893,7 +2893,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>closestPointA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>closestPointA</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>closestPointA</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>closestPointA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>closestPointA</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>closestPointA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2951,7 +2951,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>closestPointB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>closestPointB</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>closestPointB</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>closestPointB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>closestPointB</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>closestPointB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3009,7 +3009,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>status</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>status</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3236,7 +3236,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::MeasureResult::Distance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Distance::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3342,7 +3342,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>pointA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointA</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pointA</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>pointA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointA</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pointA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3400,7 +3400,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>pointB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointB</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pointB</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>pointB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pointB</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pointB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3458,7 +3458,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>dirA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dirA</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dirA</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>dirA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dirA</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dirA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3516,7 +3516,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>dirB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dirB</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dirB</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>dirB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dirB</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dirB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3574,7 +3574,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether <computeroutput>dir{A,B}</computeroutput> is a surface normal or a line direction. Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>isSurfaceNormalA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isSurfaceNormalA</computeroutput>. </para>
+<para>Whether <computeroutput>dir{A,B}</computeroutput> is a surface normal or a line direction. Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>isSurfaceNormalA</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>isSurfaceNormalA</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3632,7 +3632,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>isSurfaceNormalB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isSurfaceNormalB</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>isSurfaceNormalB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>isSurfaceNormalB</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3690,7 +3690,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>status</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput> named <computeroutput>status</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>status</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>status</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3917,7 +3917,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::MeasureResult::Angle::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Angle::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4174,7 +4174,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Unary&lt;MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Unary&lt;MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4351,7 +4351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Unary&lt;MR::Features::Primitives::ConeSegment&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Unary&lt;MR::Features::Primitives::ConeSegment&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4528,7 +4528,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Unary&lt;MR::Features::Primitives::Plane&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Unary&lt;MR::Features::Primitives::Plane&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4705,7 +4705,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Sphere3f, MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Sphere3f, MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4886,7 +4886,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::ConeSegment, MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::ConeSegment, MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5067,7 +5067,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::Plane, MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::Plane, MR::Sphere3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5248,7 +5248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::ConeSegment, MR::Features::Primitives::ConeSegment&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::ConeSegment, MR::Features::Primitives::ConeSegment&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5429,7 +5429,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::Plane, MR::Features::Primitives::ConeSegment&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::Plane, MR::Features::Primitives::ConeSegment&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5610,7 +5610,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::Plane, MR::Features::Primitives::Plane&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&lt;MR::Features::Primitives::Plane, MR::Features::Primitives::Plane&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

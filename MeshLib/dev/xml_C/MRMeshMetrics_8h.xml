@@ -190,7 +190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>is called for each triangle, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>triangleMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangleMetric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>triangleMetric</computeroutput>. </para>
+<para>is called for each triangle, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>triangleMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangleMetric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>triangleMetric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -252,7 +252,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>is called for each edge, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>edgeMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeMetric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgeMetric</computeroutput>. </para>
+<para>is called for each edge, if it is set Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>edgeMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeMetric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>edgeMetric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -314,7 +314,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>is called to combine metrics from different candidates, if it is not set it just summarizes input Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>combineMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>combineMetric</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>combineMetric</computeroutput>. </para>
+<para>is called to combine metrics from different candidates, if it is not set it just summarizes input Modifies a member variable of class <computeroutput>MR::FillHoleMetric</computeroutput> named <computeroutput>combineMetric</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>combineMetric</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>combineMetric</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -405,7 +405,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillHoleMetric</computeroutput> elementwise. The reference to the parameter <computeroutput>triangleMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>combineMetric</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" kindref="member">MR_FillHoleMetric_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillHoleMetric</computeroutput> elementwise. The reference to the parameter <computeroutput>triangleMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeMetric</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>combineMetric</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshMetrics_8h_1ade64d89e14732245a119db72f913913d" kindref="member">MR_FillHoleMetric_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -533,7 +533,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillHoleMetric::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillHoleMetric::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

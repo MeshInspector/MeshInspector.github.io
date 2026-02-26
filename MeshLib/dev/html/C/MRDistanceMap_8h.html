@@ -1096,7 +1096,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::ContoursDistanceMapOffset</code> elementwise. Parameter <code>perEdgeOffset</code> can not be null. It is a single object. The reference to the parameter <code>perEdgeOffset</code> might be preserved in the constructed object. The reference to the parameter <code>type</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae18da42a9249a2872780e64db64442f6" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOffset. Does nothing if the pointer is nu...">MR_ContoursDistanceMapOffset_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::ContoursDistanceMapOffset</code> elementwise. Parameter <code>perEdgeOffset</code> can not be null. It is a single object. The reference to the parameter <code>perEdgeOffset</code> might be preserved in the constructed object. The reference to the parameter <code>type</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae18da42a9249a2872780e64db64442f6" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOffset. Does nothing if the pointer is nu...">MR_ContoursDistanceMapOffset_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1272,7 +1272,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>type</code>. When this function is called, this object will drop object references it had previously in <code>type</code>. </p>
+<p>Modifies a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>type</code>. When this function is called, this object will drop object references it held previously in <code>type</code>. </p>
 
 </div>
 </div>
@@ -1294,7 +1294,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::ContoursDistanceMapOptions::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::ContoursDistanceMapOptions::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1336,7 +1336,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::ContoursDistanceMapOptions</code> elementwise. The reference to the parameter <code>signMethod</code> might be preserved in the constructed object. The reference to the parameter <code>offsetParameters</code> might be preserved in the constructed object. The reference to the parameter <code>region</code> might be preserved in the constructed object. The reference to the parameter <code>outClosestEdges</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a94bb0cea09393f31524cfbfced255e16" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOptions. Does nothing if the pointer is n...">MR_ContoursDistanceMapOptions_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::ContoursDistanceMapOptions</code> elementwise. The reference to the parameter <code>signMethod</code> might be preserved in the constructed object. The reference to the parameter <code>offsetParameters</code> might be preserved in the constructed object. The reference to the parameter <code>region</code> might be preserved in the constructed object. The reference to the parameter <code>outClosestEdges</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a94bb0cea09393f31524cfbfced255e16" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOptions. Does nothing if the pointer is n...">MR_ContoursDistanceMapOptions_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1710,7 +1710,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxDist</code>. </p>
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxDist</code>. </p>
 
 </div>
 </div>
@@ -1732,7 +1732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minDist</code>. </p>
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>minDist</code>. </p>
 
 </div>
 </div>
@@ -1754,7 +1754,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>offsetParameters</code>. When this function is called, this object will drop object references it had previously in <code>offsetParameters</code>. </p>
+<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>offsetParameters</code>. When this function is called, this object will drop object references it held previously in <code>offsetParameters</code>. </p>
 
 </div>
 </div>
@@ -1776,7 +1776,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output vector of closest polyline edge per each pixel of distance map Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outClosestEdges</code>. When this function is called, this object will drop object references it had previously in <code>outClosestEdges</code>. </p>
+<p>optional output vector of closest polyline edge per each pixel of distance map Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outClosestEdges</code>. When this function is called, this object will drop object references it held previously in <code>outClosestEdges</code>. </p>
 
 </div>
 </div>
@@ -1798,7 +1798,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if pointer is valid, then only these pixels will be filled Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>region</code>. When this function is called, this object will drop object references it had previously in <code>region</code>. </p>
+<p>if pointer is valid, then only these pixels will be filled Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>region</code>. When this function is called, this object will drop object references it held previously in <code>region</code>. </p>
 
 </div>
 </div>
@@ -1820,7 +1820,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>signMethod</code>. When this function is called, this object will drop object references it had previously in <code>signMethod</code>. </p>
+<p>Modifies a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>signMethod</code>. When this function is called, this object will drop object references it held previously in <code>signMethod</code>. </p>
 
 </div>
 </div>
@@ -1977,7 +1977,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::DistanceMap::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::DistanceMap::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>

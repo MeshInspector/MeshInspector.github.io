@@ -351,7 +351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -506,7 +506,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -661,7 +661,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. bounding box of whole subtree Returns a pointer to a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. bounding box of whole subtree Returns a pointer to a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -679,7 +679,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>box</computeroutput>. </para>
+<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>box</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -737,7 +737,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>l</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>l</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -795,7 +795,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -895,7 +895,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1a8dfad8f0471b06b6fa3df258e7eec6a1" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1a8dfad8f0471b06b6fa3df258e7eec6a1" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1015,7 +1015,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1091,7 +1091,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>box</computeroutput>. </para>
+<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>box</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1149,7 +1149,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>l</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>l</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1207,7 +1207,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1307,7 +1307,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1a5c8f1f2a7d7ca8757cf06abefd5718bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1a5c8f1f2a7d7ca8757cf06abefd5718bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1427,7 +1427,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1503,7 +1503,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>box</computeroutput>. </para>
+<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>box</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1561,7 +1561,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>l</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>l</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1619,7 +1619,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1719,7 +1719,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1a8fbcc7e8dc3aaf2cc1ac69942fcac6e6" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1a8fbcc7e8dc3aaf2cc1ac69942fcac6e6" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1839,7 +1839,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1915,7 +1915,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>box</computeroutput>. </para>
+<para>bounding box of whole subtree Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>box</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>box</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1973,7 +1973,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>l</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>l</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>l</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2031,7 +2031,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>two children Modifies a member variable of class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>r</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2131,7 +2131,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1aaeb4cc730c63af580315919935139e3f" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>box</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>l</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>r</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1aaeb4cc730c63af580315919935139e3f" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2251,7 +2251,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2349,7 +2349,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NodeNode</computeroutput> named <computeroutput>aNode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>aNode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>aNode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NodeNode</computeroutput> named <computeroutput>aNode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>aNode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>aNode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2407,7 +2407,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::NodeNode</computeroutput> named <computeroutput>bNode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bNode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bNode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::NodeNode</computeroutput> named <computeroutput>bNode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bNode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>bNode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2482,7 +2482,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::NodeNode</computeroutput> elementwise. The reference to the parameter <computeroutput>aNode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>bNode</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1addb6d97cc833fe97f742487ec7ddeac2" kindref="member">MR_NodeNode_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::NodeNode</computeroutput> elementwise. The reference to the parameter <computeroutput>aNode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>bNode</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAABBTreeNode_8h_1addb6d97cc833fe97f742487ec7ddeac2" kindref="member">MR_NodeNode_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2602,7 +2602,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NodeNode::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NodeNode::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

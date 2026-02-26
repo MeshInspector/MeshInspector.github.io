@@ -673,7 +673,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::SaveSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::SaveSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -755,7 +755,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::SaveSettings</code> elementwise. The reference to the parameter <code>colors</code> might be preserved in the constructed object. The reference to the parameter <code>primitiveColors</code> might be preserved in the constructed object. The reference to the parameter <code>uvMap</code> might be preserved in the constructed object. The reference to the parameter <code>texture</code> might be preserved in the constructed object. Parameter <code>materialName</code> can not be null. If <code>materialName_end</code> is null, then <code>materialName</code> is assumed to be null-terminated. The reference to the parameter <code>materialName</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. Parameter <code>lengthUnit</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>lengthUnit</code> might be preserved in the constructed object. Parameter <code>solidColor</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>solidColor</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5f7d34b2c9ce91a34528daff62e10e7c" title="Destroys a heap-allocated instance of MR_SaveSettings. Does nothing if the pointer is null.">MR_SaveSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SaveSettings</code> elementwise. The reference to the parameter <code>colors</code> might be preserved in the constructed object. The reference to the parameter <code>primitiveColors</code> might be preserved in the constructed object. The reference to the parameter <code>uvMap</code> might be preserved in the constructed object. The reference to the parameter <code>texture</code> might be preserved in the constructed object. Parameter <code>materialName</code> can not be null. If <code>materialName_end</code> is null, then <code>materialName</code> is assumed to be null-terminated. The reference to the parameter <code>materialName</code> might be preserved in the constructed object. The reference to the parameter <code>xf</code> might be preserved in the constructed object. Parameter <code>lengthUnit</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>lengthUnit</code> might be preserved in the constructed object. Parameter <code>solidColor</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>solidColor</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5f7d34b2c9ce91a34528daff62e10e7c" title="Destroys a heap-allocated instance of MR_SaveSettings. Does nothing if the pointer is null.">MR_SaveSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1385,7 +1385,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional per-vertex color to save with the geometry Modifies a member variable of class <code>MR::SaveSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>colors</code>. When this function is called, this object will drop object references it had previously in <code>colors</code>. </p>
+<p>optional per-vertex color to save with the geometry Modifies a member variable of class <code>MR::SaveSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>colors</code>. When this function is called, this object will drop object references it held previously in <code>colors</code>. </p>
 
 </div>
 </div>
@@ -1407,7 +1407,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <code>MR::SaveSettings</code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>lengthUnit</code>. When this function is called, this object will drop object references it had previously in <code>lengthUnit</code>. </p>
+<p>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <code>MR::SaveSettings</code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>lengthUnit</code>. When this function is called, this object will drop object references it held previously in <code>lengthUnit</code>. </p>
 
 </div>
 </div>
@@ -1434,7 +1434,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <code>MR::SaveSettings</code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>materialName</code>. When this function is called, this object will drop object references it had previously in <code>materialName</code>. </p>
+<p>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Modifies a member variable of class <code>MR::SaveSettings</code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>materialName</code>. When this function is called, this object will drop object references it held previously in <code>materialName</code>. </p>
 
 </div>
 </div>
@@ -1456,7 +1456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <code>MR::SaveSettings</code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>onlyValidPoints</code>. </p>
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Modifies a member variable of class <code>MR::SaveSettings</code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>onlyValidPoints</code>. </p>
 
 </div>
 </div>
@@ -1478,7 +1478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <code>MR::SaveSettings</code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>packPrimitives</code>. </p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <code>MR::SaveSettings</code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>packPrimitives</code>. </p>
 
 </div>
 </div>
@@ -1500,7 +1500,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <code>MR::SaveSettings</code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>primitiveColors</code>. When this function is called, this object will drop object references it had previously in <code>primitiveColors</code>. </p>
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Modifies a member variable of class <code>MR::SaveSettings</code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>primitiveColors</code>. When this function is called, this object will drop object references it held previously in <code>primitiveColors</code>. </p>
 
 </div>
 </div>
@@ -1527,7 +1527,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report save progress and cancel saving if user desires Modifies a member variable of class <code>MR::SaveSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>to report save progress and cancel saving if user desires Modifies a member variable of class <code>MR::SaveSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it held previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -1549,7 +1549,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <code>MR::SaveSettings</code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>saveTriCornerUVCoords</code>. </p>
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Modifies a member variable of class <code>MR::SaveSettings</code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>saveTriCornerUVCoords</code>. </p>
 
 </div>
 </div>
@@ -1571,7 +1571,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the color of whole object Modifies a member variable of class <code>MR::SaveSettings</code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>solidColor</code>. When this function is called, this object will drop object references it had previously in <code>solidColor</code>. </p>
+<p>the color of whole object Modifies a member variable of class <code>MR::SaveSettings</code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>solidColor</code>. When this function is called, this object will drop object references it held previously in <code>solidColor</code>. </p>
 
 </div>
 </div>
@@ -1593,7 +1593,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional texture to save with the geometry Modifies a member variable of class <code>MR::SaveSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>texture</code>. When this function is called, this object will drop object references it had previously in <code>texture</code>. </p>
+<p>optional texture to save with the geometry Modifies a member variable of class <code>MR::SaveSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>texture</code>. When this function is called, this object will drop object references it held previously in <code>texture</code>. </p>
 
 </div>
 </div>
@@ -1615,7 +1615,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <code>MR::SaveSettings</code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uvMap</code>. When this function is called, this object will drop object references it had previously in <code>uvMap</code>. </p>
+<p>optional per-vertex uv coordinate to save with the geometry Modifies a member variable of class <code>MR::SaveSettings</code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uvMap</code>. When this function is called, this object will drop object references it held previously in <code>uvMap</code>. </p>
 
 </div>
 </div>
@@ -1637,7 +1637,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <code>MR::SaveSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it had previously in <code>xf</code>. </p>
+<p>this transformation can optionally be applied to all vertices (points) of saved object Modifies a member variable of class <code>MR::SaveSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xf</code>. When this function is called, this object will drop object references it held previously in <code>xf</code>. </p>
 
 </div>
 </div>
@@ -1769,7 +1769,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::VertRenumber::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::VertRenumber::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>

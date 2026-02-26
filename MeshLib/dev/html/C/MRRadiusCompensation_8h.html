@@ -362,7 +362,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::CompensateRadiusParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::CompensateRadiusParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -419,7 +419,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::CompensateRadiusParams</code> elementwise. The reference to the parameter <code>direction</code> might be preserved in the constructed object. The reference to the parameter <code>region</code> might be preserved in the constructed object. The reference to the parameter <code>callback</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5fd74c7e139e189cf6d1869989756b59" title="Destroys a heap-allocated instance of MR_CompensateRadiusParams. Does nothing if the pointer is null.">MR_CompensateRadiusParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::CompensateRadiusParams</code> elementwise. The reference to the parameter <code>direction</code> might be preserved in the constructed object. The reference to the parameter <code>region</code> might be preserved in the constructed object. The reference to the parameter <code>callback</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5fd74c7e139e189cf6d1869989756b59" title="Destroys a heap-allocated instance of MR_CompensateRadiusParams. Does nothing if the pointer is null.">MR_CompensateRadiusParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -874,7 +874,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>callback</code>. When this function is called, this object will drop object references it had previously in <code>callback</code>. </p>
+<p>Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>callback</code>. When this function is called, this object will drop object references it held previously in <code>callback</code>. </p>
 
 </div>
 </div>
@@ -896,7 +896,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Z direction of milling tool Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>direction</code>. When this function is called, this object will drop object references it had previously in <code>direction</code>. </p>
+<p>Z direction of milling tool Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>direction</code>. When this function is called, this object will drop object references it held previously in <code>direction</code>. </p>
 
 </div>
 </div>
@@ -918,7 +918,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum iteration of applying algorithm (each iteration improves result a little bit) Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>maxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxIterations</code>. </p>
+<p>maximum iteration of applying algorithm (each iteration improves result a little bit) Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>maxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxIterations</code>. </p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>region</code>. When this function is called, this object will drop object references it had previously in <code>region</code>. </p>
+<p>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>region</code>. When this function is called, this object will drop object references it held previously in <code>region</code>. </p>
 
 </div>
 </div>
@@ -962,7 +962,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how many hops to expand around each moved vertex for relaxation Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>relaxExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>relaxExpansion</code>. </p>
+<p>how many hops to expand around each moved vertex for relaxation Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>relaxExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>relaxExpansion</code>. </p>
 
 </div>
 </div>
@@ -984,7 +984,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>force of relaxations on each compensation iteration Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>relaxForce</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>relaxForce</code>. </p>
+<p>force of relaxations on each compensation iteration Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>relaxForce</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>relaxForce</code>. </p>
 
 </div>
 </div>
@@ -1006,7 +1006,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how many iterations of relax is applied on each compensation iteration Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>relaxIterations</code>. </p>
+<p>how many iterations of relax is applied on each compensation iteration Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>relaxIterations</code>. </p>
 
 </div>
 </div>
@@ -1028,7 +1028,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius of spherical tool Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>toolRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>toolRadius</code>. </p>
+<p>radius of spherical tool Modifies a member variable of class <code>MR::CompensateRadiusParams</code> named <code>toolRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>toolRadius</code>. </p>
 
 </div>
 </div>

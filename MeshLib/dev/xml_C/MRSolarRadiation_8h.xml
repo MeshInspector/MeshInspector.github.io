@@ -213,7 +213,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>direction toward the center of the patch Modifies a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+<para>direction toward the center of the patch Modifies a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -271,7 +271,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc Modifies a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>radiation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>radiation</computeroutput>. </para>
+<para>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc Modifies a member variable of class <computeroutput>MR::SkyPatch</computeroutput> named <computeroutput>radiation</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>radiation</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -346,7 +346,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SkyPatch</computeroutput> elementwise. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" kindref="member">MR_SkyPatch_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::SkyPatch</computeroutput> elementwise. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSolarRadiation_8h_1a91af284ff3c43accb2239cb0f638d2b3" kindref="member">MR_SkyPatch_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -466,7 +466,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SkyPatch::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SkyPatch::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

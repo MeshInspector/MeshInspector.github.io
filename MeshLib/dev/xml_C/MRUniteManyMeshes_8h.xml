@@ -190,7 +190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>useRandomShifts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>useRandomShifts</computeroutput>. </para>
+<para>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>useRandomShifts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>useRandomShifts</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -248,7 +248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>fixDegenerations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fixDegenerations</computeroutput>. </para>
+<para>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>fixDegenerations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fixDegenerations</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -306,7 +306,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>maxAllowedError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAllowedError</computeroutput>. </para>
+<para>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>maxAllowedError</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAllowedError</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -364,7 +364,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Seed that is used for random shifts Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>randomShiftsSeed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>randomShiftsSeed</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>randomShiftsSeed</computeroutput>. </para>
+<para>Seed that is used for random shifts Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>randomShiftsSeed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>randomShiftsSeed</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>randomShiftsSeed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -422,7 +422,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If set, the bitset will store new faces created by boolean operations Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>newFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>newFaces</computeroutput>. </para>
+<para>If set, the bitset will store new faces created by boolean operations Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>newFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>newFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>newFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -480,7 +480,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>nestedComponentsMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nestedComponentsMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>nestedComponentsMode</computeroutput>. </para>
+<para>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>nestedComponentsMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nestedComponentsMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>nestedComponentsMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -538,7 +538,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If set - merges meshes instead of booleaning it if boolean operation fails Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>mergeOnFail</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>mergeOnFail</computeroutput>. </para>
+<para>If set - merges meshes instead of booleaning it if boolean operation fails Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>mergeOnFail</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>mergeOnFail</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -598,7 +598,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>forceCut</computeroutput>. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>forceCut</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -664,7 +664,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>progressCb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progressCb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::UniteManyMeshesParams</computeroutput> named <computeroutput>progressCb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progressCb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progressCb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -771,7 +771,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::UniteManyMeshesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>randomShiftsSeed</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nestedComponentsMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" kindref="member">MR_UniteManyMeshesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::UniteManyMeshesParams</computeroutput> elementwise. The reference to the parameter <computeroutput>randomShiftsSeed</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nestedComponentsMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progressCb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUniteManyMeshes_8h_1ad3cb7000f5f540aa30fe619684227153" kindref="member">MR_UniteManyMeshesParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -899,7 +899,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UniteManyMeshesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::UniteManyMeshesParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

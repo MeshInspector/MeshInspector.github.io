@@ -383,7 +383,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::GridSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::GridSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::GridSettings</code> elementwise. The reference to the parameter <code>dim</code> might be preserved in the constructed object. The reference to the parameter <code>vertIds</code> might be preserved in the constructed object. The reference to the parameter <code>uedgeIds</code> might be preserved in the constructed object. The reference to the parameter <code>faceIds</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a301db484650714a6cbafba01c6620f97" title="Destroys a heap-allocated instance of MR_GridSettings. Does nothing if the pointer is null.">MR_GridSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::GridSettings</code> elementwise. The reference to the parameter <code>dim</code> might be preserved in the constructed object. The reference to the parameter <code>vertIds</code> might be preserved in the constructed object. The reference to the parameter <code>uedgeIds</code> might be preserved in the constructed object. The reference to the parameter <code>faceIds</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a301db484650714a6cbafba01c6620f97" title="Destroys a heap-allocated instance of MR_GridSettings. Does nothing if the pointer is null.">MR_GridSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -736,7 +736,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Modifies a member variable of class <code>MR::GridSettings</code> named <code>dim</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>dim</code>. When this function is called, this object will drop object references it had previously in <code>dim</code>. </p>
+<p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Modifies a member variable of class <code>MR::GridSettings</code> named <code>dim</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>dim</code>. When this function is called, this object will drop object references it held previously in <code>dim</code>. </p>
 
 </div>
 </div>
@@ -763,7 +763,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Modifies a member variable of class <code>MR::GridSettings</code> named <code>faceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceIds</code>. When this function is called, this object will drop object references it had previously in <code>faceIds</code>. </p>
+<p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Modifies a member variable of class <code>MR::GridSettings</code> named <code>faceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceIds</code>. When this function is called, this object will drop object references it held previously in <code>faceIds</code>. </p>
 
 </div>
 </div>
@@ -790,7 +790,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Modifies a member variable of class <code>MR::GridSettings</code> named <code>uedgeIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uedgeIds</code>. When this function is called, this object will drop object references it had previously in <code>uedgeIds</code>. </p>
+<p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Modifies a member variable of class <code>MR::GridSettings</code> named <code>uedgeIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>uedgeIds</code>. When this function is called, this object will drop object references it held previously in <code>uedgeIds</code>. </p>
 
 </div>
 </div>
@@ -817,7 +817,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Modifies a member variable of class <code>MR::GridSettings</code> named <code>vertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vertIds</code>. When this function is called, this object will drop object references it had previously in <code>vertIds</code>. </p>
+<p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Modifies a member variable of class <code>MR::GridSettings</code> named <code>vertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vertIds</code>. When this function is called, this object will drop object references it held previously in <code>vertIds</code>. </p>
 
 </div>
 </div>

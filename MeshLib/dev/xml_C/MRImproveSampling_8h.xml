@@ -161,7 +161,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the number of algorithm iterations to perform Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>numIters</computeroutput>. </para>
+<para>the number of algorithm iterations to perform Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>numIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numIters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -219,7 +219,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>minPointsInSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minPointsInSample</computeroutput>. </para>
+<para>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>minPointsInSample</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minPointsInSample</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -277,7 +277,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: mapping from input point id to sample id Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>pt2sm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt2sm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pt2sm</computeroutput>. </para>
+<para>optional output: mapping from input point id to sample id Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>pt2sm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pt2sm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pt2sm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -335,7 +335,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: new cloud containing averaged points and normals for each sample Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>cloudOfSamples</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cloudOfSamples</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cloudOfSamples</computeroutput>. </para>
+<para>optional output: new cloud containing averaged points and normals for each sample Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>cloudOfSamples</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cloudOfSamples</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cloudOfSamples</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -393,7 +393,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: the number of points in each sample Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptsInSm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptsInSm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>ptsInSm</computeroutput>. </para>
+<para>optional output: the number of points in each sample Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptsInSm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptsInSm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>ptsInSm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -451,7 +451,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional input: colors of input points Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>ptColors</computeroutput>. </para>
+<para>optional input: colors of input points Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>ptColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>ptColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -509,7 +509,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: averaged colors of samples Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>smColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>smColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>smColors</computeroutput>. </para>
+<para>optional output: averaged colors of samples Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>smColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>smColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>smColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -571,7 +571,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>output progress status and receive cancel signal Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>output progress status and receive cancel signal Modifies a member variable of class <computeroutput>MR::ImproveSamplingSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -674,7 +674,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ImproveSamplingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pt2sm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cloudOfSamples</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>ptsInSm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>ptColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>smColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ImproveSamplingSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>pt2sm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cloudOfSamples</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>ptsInSm</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>ptColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>smColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -802,7 +802,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ImproveSamplingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ImproveSamplingSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

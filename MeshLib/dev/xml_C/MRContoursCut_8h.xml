@@ -420,7 +420,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Modifies a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>splitEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>splitEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>splitEdges</computeroutput>. </para>
+<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Modifies a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>splitEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>splitEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>splitEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -482,7 +482,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Modifies a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>map</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>map</computeroutput>. </para>
+<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Modifies a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>map</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>map</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -565,7 +565,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::NewEdgesMap</computeroutput> elementwise. The reference to the parameter <computeroutput>splitEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>map</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" kindref="member">MR_NewEdgesMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::NewEdgesMap</computeroutput> elementwise. The reference to the parameter <computeroutput>splitEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>map</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" kindref="member">MR_NewEdgesMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -693,7 +693,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::NewEdgesMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::NewEdgesMap::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -737,7 +737,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </briefdescription>
         <detaileddescription>
 <para>This is optional input for better contours resolving<linebreak/>
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>sortData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sortData</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sortData</computeroutput>. </para>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>sortData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sortData</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>sortData</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -800,7 +800,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This is optional output - map from newly generated faces to old faces (N-1) Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2OldMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2OldMap</computeroutput>. </para>
+<para>This is optional output - map from newly generated faces to old faces (N-1) Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2OldMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>new2OldMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -858,7 +858,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>forceFillMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>forceFillMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>forceFillMode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>forceFillMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>forceFillMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>forceFillMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -916,7 +916,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2oldEdgesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2oldEdgesMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>new2oldEdgesMap</computeroutput>. </para>
+<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face Modifies a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2oldEdgesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>new2oldEdgesMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>new2oldEdgesMap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -999,7 +999,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CutMeshParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>sortData</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2OldMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>forceFillMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2oldEdgesMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" kindref="member">MR_CutMeshParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CutMeshParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>sortData</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2OldMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>forceFillMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>new2oldEdgesMap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" kindref="member">MR_CutMeshParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1119,7 +1119,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CutMeshParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CutMeshParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1163,7 +1163,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Paths of new edges on mesh, they represent same contours as input, but already cut Modifies a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>resultCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resultCut</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>resultCut</computeroutput>. </para>
+<para>Paths of new edges on mesh, they represent same contours as input, but already cut Modifies a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>resultCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resultCut</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>resultCut</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1227,7 +1227,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR::CutMeshParameters Modifies a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>fbsWithContourIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fbsWithContourIntersections</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fbsWithContourIntersections</computeroutput>. </para>
+<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR::CutMeshParameters Modifies a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>fbsWithContourIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fbsWithContourIntersections</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fbsWithContourIntersections</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1314,7 +1314,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CutMeshResult</computeroutput> elementwise. The reference to the parameter <computeroutput>resultCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fbsWithContourIntersections</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" kindref="member">MR_CutMeshResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CutMeshResult</computeroutput> elementwise. The reference to the parameter <computeroutput>resultCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fbsWithContourIntersections</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" kindref="member">MR_CutMeshResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1442,7 +1442,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CutMeshResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CutMeshResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1627,7 +1627,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>direction of projection (in mesh space) Modifies a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>direction</computeroutput>. </para>
+<para>direction of projection (in mesh space) Modifies a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>direction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1685,7 +1685,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if set - used to transform contours form its local space to mesh local space Modifies a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>cont2mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cont2mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cont2mesh</computeroutput>. </para>
+<para>if set - used to transform contours form its local space to mesh local space Modifies a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>cont2mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cont2mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cont2mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1760,7 +1760,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CutByProjectionSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>direction</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cont2mesh</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" kindref="member">MR_CutByProjectionSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CutByProjectionSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>direction</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cont2mesh</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" kindref="member">MR_CutByProjectionSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1880,7 +1880,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CutByProjectionSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CutByProjectionSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

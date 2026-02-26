@@ -8,5 +8,5 @@ var classMR_1_1FaceDistancesSettings =
     [ "assign", "classMR_1_1FaceDistancesSettings.html#a4432ed7f82b1aeabf03a300484de12dc", null ],
     [ "maxDist", "classMR_1_1FaceDistancesSettings.html#a25d0db10c99903c8c3b4381820bed608", null ],
     [ "out_", "classMR_1_1FaceDistancesSettings.html#a56c525691d6073b793ca78b36d2b7a35", null ],
-    [ "progress", "classMR_1_1FaceDistancesSettings.html#a373966763684da65a5aad18acecea24c", null ]
+    [ "progress", "classMR_1_1FaceDistancesSettings.html#a10655db51c0721652b4d91fe30ff8ec3", null ]
 ];

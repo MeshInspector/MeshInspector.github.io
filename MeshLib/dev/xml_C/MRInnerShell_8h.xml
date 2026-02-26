@@ -198,7 +198,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>specifies which side of shell is of interest: negative or positive relative to mesh normals Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>side</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>side</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>side</computeroutput>. </para>
+<para>specifies which side of shell is of interest: negative or positive relative to mesh normals Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>side</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>side</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>side</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -256,7 +256,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>specifies maximum squared distance from shell parts of interest to source mesh Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+<para>specifies maximum squared distance from shell parts of interest to source mesh Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -314,7 +314,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>useWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>useWindingNumber</computeroutput>. </para>
+<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>useWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>useWindingNumber</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -372,7 +372,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -430,7 +430,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>minVertsInComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minVertsInComp</computeroutput>. </para>
+<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Modifies a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>minVertsInComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minVertsInComp</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -517,7 +517,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FindInnerShellSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>side</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" kindref="member">MR_FindInnerShellSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FindInnerShellSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>side</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" kindref="member">MR_FindInnerShellSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -637,7 +637,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FindInnerShellSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FindInnerShellSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -677,7 +677,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true when shell vertex is within settings.maxDist from source mesh Modifies a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>inRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>inRange</computeroutput>. </para>
+<para>true when shell vertex is within settings.maxDist from source mesh Modifies a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>inRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>inRange</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -735,7 +735,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shell vertex projects on source mesh boundary (never true for winding rule mode) Modifies a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>projOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>projOnBd</computeroutput>. </para>
+<para>shell vertex projects on source mesh boundary (never true for winding rule mode) Modifies a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>projOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>projOnBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -793,7 +793,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether shell vertex is on requested side of source mesh Modifies a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>rightSide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>rightSide</computeroutput>. </para>
+<para>whether shell vertex is on requested side of source mesh Modifies a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>rightSide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>rightSide</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -872,7 +872,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ShellVertexInfo</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" kindref="member">MR_ShellVertexInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ShellVertexInfo</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" kindref="member">MR_ShellVertexInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -992,7 +992,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ShellVertexInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ShellVertexInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

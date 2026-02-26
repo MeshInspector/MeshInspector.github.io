@@ -49,9 +49,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="147" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="147" bodyend="147"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1CompressZipSettings_1ab44d370f01c543007abcefd5d30d9234" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.CompressZipSettings.cb</definition>
+      <memberdef kind="property" id="classMR_1_1CompressZipSettings_1a79b7de174cb5512fcbbac3038cc4079b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.CompressZipSettings.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.CompressZipSettings.cb</qualifiedname>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="150" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="150" bodyend="150"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="150" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="150" bodyend="150"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -263,7 +263,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="137" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="138" bodyend="251"/>
     <listofallmembers>
       <member refid="classMR_1_1CompressZipSettings_1a29a93ef8b54061a63a1e48b90f72df3b" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>assign</name></member>
-      <member refid="classMR_1_1CompressZipSettings_1ab44d370f01c543007abcefd5d30d9234" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1CompressZipSettings_1a79b7de174cb5512fcbbac3038cc4079b" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>cb</name></member>
       <member refid="classMR_1_1CompressZipSettings_1aabec1ee43236cd7635fc23efaca93406" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>compressionLevel</name></member>
       <member refid="classMR_1_1CompressZipSettings_1a78814704874080d78cb312d24488cf15" prot="package" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
       <member refid="classMR_1_1CompressZipSettings_1a2370266c1b9a1ce42ed0ce8e989950fe" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>

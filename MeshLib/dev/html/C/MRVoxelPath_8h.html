@@ -665,7 +665,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::VoxelMetricParameters::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::VoxelMetricParameters::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -702,7 +702,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::VoxelMetricParameters</code> elementwise. The reference to the parameter <code>start</code> might be preserved in the constructed object. The reference to the parameter <code>stop</code> might be preserved in the constructed object. The reference to the parameter <code>plane</code> might be preserved in the constructed object. The reference to the parameter <code>quatersMask</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0389d5b02c6a97ccfb6f8a765c7ba804" title="Destroys a heap-allocated instance of MR_VoxelMetricParameters. Does nothing if the pointer is null.">MR_VoxelMetricParameters_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::VoxelMetricParameters</code> elementwise. The reference to the parameter <code>start</code> might be preserved in the constructed object. The reference to the parameter <code>stop</code> might be preserved in the constructed object. The reference to the parameter <code>plane</code> might be preserved in the constructed object. The reference to the parameter <code>quatersMask</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0389d5b02c6a97ccfb6f8a765c7ba804" title="Destroys a heap-allocated instance of MR_VoxelMetricParameters. Does nothing if the pointer is null.">MR_VoxelMetricParameters_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -812,7 +812,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>maxDistRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxDistRatio</code>. </p>
+<p>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>maxDistRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxDistRatio</code>. </p>
 
 </div>
 </div>
@@ -830,7 +830,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>plane</code>. When this function is called, this object will drop object references it had previously in <code>plane</code>. </p>
+<p>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>plane</code>. When this function is called, this object will drop object references it held previously in <code>plane</code>. </p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>quatersMask</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>quatersMask</code>. When this function is called, this object will drop object references it had previously in <code>quatersMask</code>. </p>
+<p>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>quatersMask</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>quatersMask</code>. When this function is called, this object will drop object references it held previously in <code>quatersMask</code>. </p>
 
 </div>
 </div>
@@ -866,7 +866,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>start voxel index Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>start</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>start</code>. When this function is called, this object will drop object references it had previously in <code>start</code>. </p>
+<p>start voxel index Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>start</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>start</code>. When this function is called, this object will drop object references it held previously in <code>start</code>. </p>
 
 </div>
 </div>
@@ -884,7 +884,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>stop voxel index Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>stop</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>stop</code>. When this function is called, this object will drop object references it had previously in <code>stop</code>. </p>
+<p>stop voxel index Modifies a member variable of class <code>MR::VoxelMetricParameters</code> named <code>stop</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>stop</code>. When this function is called, this object will drop object references it held previously in <code>stop</code>. </p>
 
 </div>
 </div>

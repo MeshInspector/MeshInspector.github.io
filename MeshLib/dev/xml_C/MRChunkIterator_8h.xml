@@ -110,7 +110,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>chunk offset Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offset</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>offset</computeroutput>. </para>
+<para>chunk offset Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offset</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -168,7 +168,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>chunk size; the last chunk&apos;s size may be smaller than other chunk&apos;s ones Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>size</computeroutput>. </para>
+<para>chunk size; the last chunk&apos;s size may be smaller than other chunk&apos;s ones Modifies a member variable of class <computeroutput>MR::Chunk</computeroutput> named <computeroutput>size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>size</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>size</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -243,7 +243,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::Chunk</computeroutput> elementwise. The reference to the parameter <computeroutput>offset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" kindref="member">MR_Chunk_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::Chunk</computeroutput> elementwise. The reference to the parameter <computeroutput>offset</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ac73c904dbb554d7416b191a870a9952c" kindref="member">MR_Chunk_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -363,7 +363,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::Chunk::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::Chunk::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -403,7 +403,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>totalSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>totalSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>totalSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>totalSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>totalSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>totalSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -461,7 +461,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>chunkSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>chunkSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>chunkSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>chunkSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>chunkSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>chunkSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -519,7 +519,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overlap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>overlap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>overlap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>overlap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -577,7 +577,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>index</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>index</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>index</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ChunkIterator</computeroutput> named <computeroutput>index</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>index</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>index</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -660,7 +660,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ChunkIterator</computeroutput> elementwise. The reference to the parameter <computeroutput>totalSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>chunkSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>overlap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>index</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" kindref="member">MR_ChunkIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ChunkIterator</computeroutput> elementwise. The reference to the parameter <computeroutput>totalSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>chunkSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>overlap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>index</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChunkIterator_8h_1ab250349355f35b4224b40381d0b2660e" kindref="member">MR_ChunkIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -780,7 +780,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChunkIterator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ChunkIterator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -633,7 +633,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshOrPoints::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshOrPoints::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -940,7 +940,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>found closest point Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>found closest point Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -998,7 +998,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>normal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normal</computeroutput>. </para>
+<para>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>normal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normal</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1056,7 +1056,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>isBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isBd</computeroutput>. </para>
+<para>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>isBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>isBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1114,7 +1114,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>squared distance from query point to the closest point Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>squared distance from query point to the closest point Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1172,7 +1172,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>closestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>closestVert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>closestVert</computeroutput>. </para>
+<para>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Modifies a member variable of class <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> named <computeroutput>closestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>closestVert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>closestVert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1259,7 +1259,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> elementwise. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>normal</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>normal</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>closestVert</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshOrPoints_8h_1a5aff1645a2691a42da0352408145f0bd" kindref="member">MR_MeshOrPoints_ProjectionResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshOrPoints::ProjectionResult</computeroutput> elementwise. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>normal</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>normal</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>closestVert</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshOrPoints_8h_1a5aff1645a2691a42da0352408145f0bd" kindref="member">MR_MeshOrPoints_ProjectionResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1397,7 +1397,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshOrPoints::ProjectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshOrPoints::ProjectionResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1455,7 +1455,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshOrPointsXf</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>obj</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshOrPointsXf</computeroutput> named <computeroutput>obj</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>obj</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>obj</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1513,7 +1513,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshOrPointsXf</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshOrPointsXf</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1571,7 +1571,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshOrPointsXf</computeroutput> elementwise. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshOrPoints_8h_1af49a1e3d76cdf0a15c4be70c3ac954b7" kindref="member">MR_MeshOrPointsXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshOrPointsXf</computeroutput> elementwise. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshOrPoints_8h_1af49a1e3d76cdf0a15c4be70c3ac954b7" kindref="member">MR_MeshOrPointsXf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1673,7 +1673,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshOrPointsXf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshOrPointsXf::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

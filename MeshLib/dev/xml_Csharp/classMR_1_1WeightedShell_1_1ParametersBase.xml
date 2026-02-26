@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="402" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="402" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="404" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="404" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1WeightedShell_1_1ParametersBase_1a10fe087e6766131346a424b19a04d168" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="406" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="406" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="408" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="408" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1WeightedShell_1_1ParametersBase_1a7d539e61c82d4b0011f6b7d4d9685812" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,11 +47,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="409" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="409" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="411" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="411" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1ParametersBase_1a40988cd62da5bb85186047162902ef3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.WeightedShell.ParametersBase.progress</definition>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1ParametersBase_1a9a9a8b0e72bb74a95f0ecc1af2dc3367" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.WeightedShell.ParametersBase.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.WeightedShell.ParametersBase.progress</qualifiedname>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="412" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="412" bodyend="412"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="414" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="414" bodyend="414"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="431" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="431" bodyend="435"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="433" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="433" bodyend="437"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="441" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="441" bodyend="447"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="443" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="443" bodyend="449"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1a4611fd9961726ce2bdd824a684e701f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="452" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="452" bodyend="459"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="454" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="454" bodyend="461"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1af05a6c82bbe36efac22fd6c6b5e16de0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="464" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="464" bodyend="471"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="466" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="466" bodyend="473"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1a76f371ba4ee6c8f6db954f9afe97643b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="476" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="476" bodyend="476"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="478" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="478" bodyend="478"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1a2e35f96d3d5ca6df739ed8fe5cbf1956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="481" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="481" bodyend="481"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="483" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="483" bodyend="483"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1a488cdd7058f30cb127c7c859ec92df3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1WeightedShell_1_1ParametersBase" kindref="compound">MR.WeightedShell.ParametersBase</ref></type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="486" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="486" bodyend="493"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="488" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="488" bodyend="495"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -260,7 +260,7 @@
         <label>System::IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="399" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="400" bodyend="494"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="401" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="402" bodyend="496"/>
     <listofallmembers>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a488cdd7058f30cb127c7c859ec92df3b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>assign</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a7d539e61c82d4b0011f6b7d4d9685812" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>numLayers</name></member>
@@ -271,7 +271,7 @@
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1af05a6c82bbe36efac22fd6c6b5e16de0" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a76f371ba4ee6c8f6db954f9afe97643b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a2e35f96d3d5ca6df739ed8fe5cbf1956" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
-      <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a40988cd62da5bb85186047162902ef3e" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>progress</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a9a9a8b0e72bb74a95f0ecc1af2dc3367" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>progress</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a10fe087e6766131346a424b19a04d168" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>

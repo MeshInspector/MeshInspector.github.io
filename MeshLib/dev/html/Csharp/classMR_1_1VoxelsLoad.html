@@ -252,75 +252,75 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4712b0e40fa9832c74bff26290225549" id="r_a4712b0e40fa9832c74bff26290225549"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdFilesystemPath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4712b0e40fa9832c74bff26290225549">findDicomFoldersRecursively</a> (string path)</td></tr>
 <tr class="memdesc:a4712b0e40fa9832c74bff26290225549"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all the dicom folders in <code>path</code>, searching recursively Generated from function <code><a class="el" href="#a4712b0e40fa9832c74bff26290225549" title="returns all the dicom folders in path, searching recursively Generated from function MR....">MR.VoxelsLoad.findDicomFoldersRecursively</a></code>.  <br /></td></tr>
 <tr class="separator:a4712b0e40fa9832c74bff26290225549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a638c45514a9ec4463b570f5f952aefc2" id="r_a638c45514a9ec4463b570f5f952aefc2"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolume.html">MR.VoxelsLoad.DicomVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a638c45514a9ec4463b570f5f952aefc2">loadDicomFile</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a638c45514a9ec4463b570f5f952aefc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a638c45514a9ec4463b570f5f952aefc2" title="Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax Generated from func...">MR.VoxelsLoad.loadDicomFile</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a638c45514a9ec4463b570f5f952aefc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06d19bc4c265c8ae6d09e7fcddbb2be1" id="r_a06d19bc4c265c8ae6d09e7fcddbb2be1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html">MR.VoxelsLoad.DicomVolumeAsVdb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d19bc4c265c8ae6d09e7fcddbb2be1">loadDicomFileAsVdb</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a06d19bc4c265c8ae6d09e7fcddbb2be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a06d19bc4c265c8ae6d09e7fcddbb2be1" title="Loads full volume from single DICOM file (not a slice file) as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFileAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a06d19bc4c265c8ae6d09e7fcddbb2be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18625ffd62605f5b1d029fd111ea6c69" id="r_a18625ffd62605f5b1d029fd111ea6c69"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolume.html">MR.VoxelsLoad.DicomVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18625ffd62605f5b1d029fd111ea6c69">loadDicomFolder</a> (string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a18625ffd62605f5b1d029fd111ea6c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a18625ffd62605f5b1d029fd111ea6c69" title="Loads one volume from DICOM files located in given folder as SimpleVolumeMinMax Generated from functi...">MR.VoxelsLoad.loadDicomFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a18625ffd62605f5b1d029fd111ea6c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19883c337c06a47c9ee6888006e3a492" id="r_a19883c337c06a47c9ee6888006e3a492"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html">MR.VoxelsLoad.DicomVolumeAsVdb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19883c337c06a47c9ee6888006e3a492">loadDicomFolderAsVdb</a> (string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a19883c337c06a47c9ee6888006e3a492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a19883c337c06a47c9ee6888006e3a492" title="Loads one volume from DICOM files located in given folder as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a19883c337c06a47c9ee6888006e3a492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4a7b58b7d059d78314e3128c491752b" id="r_af4a7b58b7d059d78314e3128c491752b"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeStdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4a7b58b7d059d78314e3128c491752b">loadDicomsFolder</a> (string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:af4a7b58b7d059d78314e3128c491752b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#af4a7b58b7d059d78314e3128c491752b" title="Loads all volumes from DICOM files located in given folder as a number of SimpleVolumeMinMax Generate...">MR.VoxelsLoad.loadDicomsFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:af4a7b58b7d059d78314e3128c491752b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedec4862bd0fa283e388b9eaf9a29211" id="r_aedec4862bd0fa283e388b9eaf9a29211"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedec4862bd0fa283e388b9eaf9a29211">loadDicomsFolderAsVdb</a> (string path, uint maxNumThreads, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:aedec4862bd0fa283e388b9eaf9a29211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#aedec4862bd0fa283e388b9eaf9a29211" title="Loads all volumes from DICOM files located in given folder as a number of VdbVolume Generated from fu...">MR.VoxelsLoad.loadDicomsFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:aedec4862bd0fa283e388b9eaf9a29211"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a599d8ff5a18d29e6465c1cddc690654b" id="r_a599d8ff5a18d29e6465c1cddc690654b"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a599d8ff5a18d29e6465c1cddc690654b">loadDicomsFolderTreeAsVdb</a> (string path, uint? maxNumThreads=null, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a599d8ff5a18d29e6465c1cddc690654b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads every subfolder with DICOM volume as new object Generated from function <code><a class="el" href="#a599d8ff5a18d29e6465c1cddc690654b" title="Loads every subfolder with DICOM volume as new object Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</a></code>. Parameter <code>maxNumThreads</code> defaults to <code>4</code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a599d8ff5a18d29e6465c1cddc690654b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a622c95726333ec68a788191e4f69b3b5" id="r_a622c95726333ec68a788191e4f69b3b5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1ObjectVoxels.html">MR.ObjectVoxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622c95726333ec68a788191e4f69b3b5">createObjectVoxels</a> (MR.VoxelsLoad.Const_DicomVolumeAsVdb dcm, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a622c95726333ec68a788191e4f69b3b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html" title="Generated from class MR.VoxelsLoad.DicomVolumeAsVdb. This is the non-const half of the class.">DicomVolumeAsVdb</a> in <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#a622c95726333ec68a788191e4f69b3b5" title="converts DicomVolumeAsVdb in ObjectVoxels Generated from function MR.VoxelsLoad.createObjectVoxels....">MR.VoxelsLoad.createObjectVoxels</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a622c95726333ec68a788191e4f69b3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0affe2e0abfd294fae29e12fa5d9fee8" id="r_a0affe2e0abfd294fae29e12fa5d9fee8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1LoadedObjects.html">MR.LoadedObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0affe2e0abfd294fae29e12fa5d9fee8">makeObjectVoxelsFromDicomFolder</a> (string folder, MR.Std.Const_Function_BoolFuncFromFloat? callback=null)</td></tr>
-<tr class="memdesc:a0affe2e0abfd294fae29e12fa5d9fee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D volumetric data from dicom-files in given folder, and converts them into an <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#a0affe2e0abfd294fae29e12fa5d9fee8" title="Loads 3D volumetric data from dicom-files in given folder, and converts them into an ObjectVoxels Gen...">MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a0affe2e0abfd294fae29e12fa5d9fee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26449e3e5319319879f6d9b986310a2" id="r_af26449e3e5319319879f6d9b986310a2"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26449e3e5319319879f6d9b986310a2">fromRaw</a> (string file, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:af26449e3e5319319879f6d9b986310a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#af26449e3e5319319879f6d9b986310a2" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:af26449e3e5319319879f6d9b986310a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af012b14b36371a75d0d7019391f409d2" id="r_af012b14b36371a75d0d7019391f409d2"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af012b14b36371a75d0d7019391f409d2">fromRaw</a> (MR.Std.Istream in_, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:af012b14b36371a75d0d7019391f409d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#af26449e3e5319319879f6d9b986310a2" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:af012b14b36371a75d0d7019391f409d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b01975d27f0f95547d1390d2fe7403f" id="r_a6b01975d27f0f95547d1390d2fe7403f"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f">gridFromRaw</a> (string file, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a6b01975d27f0f95547d1390d2fe7403f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a6b01975d27f0f95547d1390d2fe7403f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710be5574cc18519fcd6e88a46ae50bf" id="r_a710be5574cc18519fcd6e88a46ae50bf"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710be5574cc18519fcd6e88a46ae50bf">gridFromRaw</a> (MR.Std.Istream in_, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a710be5574cc18519fcd6e88a46ae50bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a710be5574cc18519fcd6e88a46ae50bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004c8a6614aa21eea7c7b95e1ee3f7cc" id="r_a004c8a6614aa21eea7c7b95e1ee3f7cc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolume.html">MR.VoxelsLoad.DicomVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a004c8a6614aa21eea7c7b95e1ee3f7cc">loadDicomFile</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a004c8a6614aa21eea7c7b95e1ee3f7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a004c8a6614aa21eea7c7b95e1ee3f7cc" title="Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax Generated from func...">MR.VoxelsLoad.loadDicomFile</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a004c8a6614aa21eea7c7b95e1ee3f7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55db8dbf3f895bcd3d0f2a23a5da1b38" id="r_a55db8dbf3f895bcd3d0f2a23a5da1b38"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html">MR.VoxelsLoad.DicomVolumeAsVdb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55db8dbf3f895bcd3d0f2a23a5da1b38">loadDicomFileAsVdb</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a55db8dbf3f895bcd3d0f2a23a5da1b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a55db8dbf3f895bcd3d0f2a23a5da1b38" title="Loads full volume from single DICOM file (not a slice file) as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFileAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a55db8dbf3f895bcd3d0f2a23a5da1b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38a66f00b7cfa01376db5bc473610bd7" id="r_a38a66f00b7cfa01376db5bc473610bd7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolume.html">MR.VoxelsLoad.DicomVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a66f00b7cfa01376db5bc473610bd7">loadDicomFolder</a> (string path, uint maxNumThreads, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a38a66f00b7cfa01376db5bc473610bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a38a66f00b7cfa01376db5bc473610bd7" title="Loads one volume from DICOM files located in given folder as SimpleVolumeMinMax Generated from functi...">MR.VoxelsLoad.loadDicomFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a38a66f00b7cfa01376db5bc473610bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11dd39055b2cf6a6947811a5c812071c" id="r_a11dd39055b2cf6a6947811a5c812071c"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html">MR.VoxelsLoad.DicomVolumeAsVdb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11dd39055b2cf6a6947811a5c812071c">loadDicomFolderAsVdb</a> (string path, uint maxNumThreads, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a11dd39055b2cf6a6947811a5c812071c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a11dd39055b2cf6a6947811a5c812071c" title="Loads one volume from DICOM files located in given folder as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a11dd39055b2cf6a6947811a5c812071c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c8ae672debd2f25110b977e9827fb9" id="r_a46c8ae672debd2f25110b977e9827fb9"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeStdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c8ae672debd2f25110b977e9827fb9">loadDicomsFolder</a> (string path, uint maxNumThreads, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a46c8ae672debd2f25110b977e9827fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a46c8ae672debd2f25110b977e9827fb9" title="Loads all volumes from DICOM files located in given folder as a number of SimpleVolumeMinMax Generate...">MR.VoxelsLoad.loadDicomsFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a46c8ae672debd2f25110b977e9827fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b9fa119e7a6919991c737d90420682" id="r_af8b9fa119e7a6919991c737d90420682"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b9fa119e7a6919991c737d90420682">loadDicomsFolderAsVdb</a> (string path, uint maxNumThreads, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:af8b9fa119e7a6919991c737d90420682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#af8b9fa119e7a6919991c737d90420682" title="Loads all volumes from DICOM files located in given folder as a number of VdbVolume Generated from fu...">MR.VoxelsLoad.loadDicomsFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:af8b9fa119e7a6919991c737d90420682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8b39606d69883317cade51f7564e1f" id="r_add8b39606d69883317cade51f7564e1f"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_ExpectedMRVoxelsLoadDicomVolumeAsVdbStdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add8b39606d69883317cade51f7564e1f">loadDicomsFolderTreeAsVdb</a> (string path, uint? maxNumThreads=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:add8b39606d69883317cade51f7564e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads every subfolder with DICOM volume as new object Generated from function <code><a class="el" href="#add8b39606d69883317cade51f7564e1f" title="Loads every subfolder with DICOM volume as new object Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</a></code>. Parameter <code>maxNumThreads</code> defaults to <code>4</code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:add8b39606d69883317cade51f7564e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a3969849849d41eb3345f131f66ce8" id="r_a87a3969849849d41eb3345f131f66ce8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1ObjectVoxels.html">MR.ObjectVoxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87a3969849849d41eb3345f131f66ce8">createObjectVoxels</a> (MR.VoxelsLoad.Const_DicomVolumeAsVdb dcm, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a87a3969849849d41eb3345f131f66ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html" title="Generated from class MR.VoxelsLoad.DicomVolumeAsVdb. This is the non-const half of the class.">DicomVolumeAsVdb</a> in <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#a87a3969849849d41eb3345f131f66ce8" title="converts DicomVolumeAsVdb in ObjectVoxels Generated from function MR.VoxelsLoad.createObjectVoxels....">MR.VoxelsLoad.createObjectVoxels</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a87a3969849849d41eb3345f131f66ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f11881b595dab444e3381abe457dc4" id="r_ab4f11881b595dab444e3381abe457dc4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1LoadedObjects.html">MR.LoadedObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f11881b595dab444e3381abe457dc4">makeObjectVoxelsFromDicomFolder</a> (string folder, MR.Std.Const_Function_Bool_From_Float? callback=null)</td></tr>
+<tr class="memdesc:ab4f11881b595dab444e3381abe457dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D volumetric data from dicom-files in given folder, and converts them into an <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#ab4f11881b595dab444e3381abe457dc4" title="Loads 3D volumetric data from dicom-files in given folder, and converts them into an ObjectVoxels Gen...">MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:ab4f11881b595dab444e3381abe457dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c827fae1a3126702677c63cc0e5db3" id="r_a71c827fae1a3126702677c63cc0e5db3"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3">fromRaw</a> (string file, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a71c827fae1a3126702677c63cc0e5db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a71c827fae1a3126702677c63cc0e5db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bcce1c2eeee54506d2a382eb99de71e" id="r_a3bcce1c2eeee54506d2a382eb99de71e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bcce1c2eeee54506d2a382eb99de71e">fromRaw</a> (MR.Std.Istream in_, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a3bcce1c2eeee54506d2a382eb99de71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a3bcce1c2eeee54506d2a382eb99de71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ba7bae928d1b228797994b7a394da5" id="r_aa7ba7bae928d1b228797994b7a394da5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5">gridFromRaw</a> (string file, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:aa7ba7bae928d1b228797994b7a394da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:aa7ba7bae928d1b228797994b7a394da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab438c739f063d7d397b5d96e052f25bd" id="r_ab438c739f063d7d397b5d96e052f25bd"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab438c739f063d7d397b5d96e052f25bd">gridFromRaw</a> (MR.Std.Istream in_, MR.VoxelsLoad.Const_RawParameters params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:ab438c739f063d7d397b5d96e052f25bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:ab438c739f063d7d397b5d96e052f25bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73061b630e4a1d31327cc2fe1b42f7bd" id="r_a73061b630e4a1d31327cc2fe1b42f7bd"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VoxelsLoad_1_1RawParameters.html">MR.VoxelsLoad.RawParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73061b630e4a1d31327cc2fe1b42f7bd">findRawParameters</a> (MR.Std.Filesystem.Path file)</td></tr>
 <tr class="memdesc:a73061b630e4a1d31327cc2fe1b42f7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds raw voxels file and its encoding parameters  <br /></td></tr>
 <tr class="separator:a73061b630e4a1d31327cc2fe1b42f7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea2d7dc667c45f613ee5d25c18fa4df1" id="r_aea2d7dc667c45f613ee5d25c18fa4df1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2d7dc667c45f613ee5d25c18fa4df1">fromRaw</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:aea2d7dc667c45f613ee5d25c18fa4df1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#af26449e3e5319319879f6d9b986310a2" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:aea2d7dc667c45f613ee5d25c18fa4df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c7d90b970875f05791b0c63a0f6b2e" id="r_aa1c7d90b970875f05791b0c63a0f6b2e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1c7d90b970875f05791b0c63a0f6b2e">gridFromRaw</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:aa1c7d90b970875f05791b0c63a0f6b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:aa1c7d90b970875f05791b0c63a0f6b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c6488591485144ab1f837c8c9e3a8d7" id="r_a7c6488591485144ab1f837c8c9e3a8d7"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6488591485144ab1f837c8c9e3a8d7">fromVdb</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a7c6488591485144ab1f837c8c9e3a8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all voxel volumes from OpenVDB file Generated from function <code><a class="el" href="#a7c6488591485144ab1f837c8c9e3a8d7" title="Load all voxel volumes from OpenVDB file Generated from function MR.VoxelsLoad.fromVdb....">MR.VoxelsLoad.fromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a7c6488591485144ab1f837c8c9e3a8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95881b8df063823afc0921ec601e39d8" id="r_a95881b8df063823afc0921ec601e39d8"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95881b8df063823afc0921ec601e39d8">gridsFromVdb</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a95881b8df063823afc0921ec601e39d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a95881b8df063823afc0921ec601e39d8" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a95881b8df063823afc0921ec601e39d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80e3f3f52f7dcc416b9c4b3a76de9a5a" id="r_a80e3f3f52f7dcc416b9c4b3a76de9a5a"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80e3f3f52f7dcc416b9c4b3a76de9a5a">gridsFromVdb</a> (MR.Std.Istream in_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a80e3f3f52f7dcc416b9c4b3a76de9a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a95881b8df063823afc0921ec601e39d8" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a80e3f3f52f7dcc416b9c4b3a76de9a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0955035a86bced52d1d7024e6f223c0e" id="r_a0955035a86bced52d1d7024e6f223c0e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0955035a86bced52d1d7024e6f223c0e">fromGav</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a0955035a86bced52d1d7024e6f223c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction Generated from function <code><a class="el" href="#a0955035a86bced52d1d7024e6f223c0e" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:a0955035a86bced52d1d7024e6f223c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b7c814d22e78f2aa73967d3b95e662" id="r_ae6b7c814d22e78f2aa73967d3b95e662"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6b7c814d22e78f2aa73967d3b95e662">fromGav</a> (MR.Std.Istream in_, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:ae6b7c814d22e78f2aa73967d3b95e662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-stream with micro CT reconstruction Generated from function <code><a class="el" href="#a0955035a86bced52d1d7024e6f223c0e" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:ae6b7c814d22e78f2aa73967d3b95e662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7cbf91611e36bcb683c94e67694d9fb" id="r_ad7cbf91611e36bcb683c94e67694d9fb"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7cbf91611e36bcb683c94e67694d9fb">gridsFromAnySupportedFormat</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:ad7cbf91611e36bcb683c94e67694d9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#ad7cbf91611e36bcb683c94e67694d9fb" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.gridsFromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:ad7cbf91611e36bcb683c94e67694d9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca452fa8908f9c88a3a17e3bee9abb0c" id="r_aca452fa8908f9c88a3a17e3bee9abb0c"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca452fa8908f9c88a3a17e3bee9abb0c">fromAnySupportedFormat</a> (string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:aca452fa8908f9c88a3a17e3bee9abb0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#aca452fa8908f9c88a3a17e3bee9abb0c" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.fromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
-<tr class="separator:aca452fa8908f9c88a3a17e3bee9abb0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac007eb370f51a1350bbc8e42f42ae344" id="r_ac007eb370f51a1350bbc8e42f42ae344"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac007eb370f51a1350bbc8e42f42ae344">fromRaw</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:ac007eb370f51a1350bbc8e42f42ae344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:ac007eb370f51a1350bbc8e42f42ae344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a504531613aad2bcfd1b5a726f544b1" id="r_a0a504531613aad2bcfd1b5a726f544b1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a504531613aad2bcfd1b5a726f544b1">gridFromRaw</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a0a504531613aad2bcfd1b5a726f544b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a0a504531613aad2bcfd1b5a726f544b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872da0c7f32671783913b82c8ceda5d5" id="r_a872da0c7f32671783913b82c8ceda5d5"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a872da0c7f32671783913b82c8ceda5d5">fromVdb</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a872da0c7f32671783913b82c8ceda5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all voxel volumes from OpenVDB file Generated from function <code><a class="el" href="#a872da0c7f32671783913b82c8ceda5d5" title="Load all voxel volumes from OpenVDB file Generated from function MR.VoxelsLoad.fromVdb....">MR.VoxelsLoad.fromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a872da0c7f32671783913b82c8ceda5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab2e9806d8a35d0dab937df73de73fb" id="r_acab2e9806d8a35d0dab937df73de73fb"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acab2e9806d8a35d0dab937df73de73fb">gridsFromVdb</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:acab2e9806d8a35d0dab937df73de73fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#acab2e9806d8a35d0dab937df73de73fb" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:acab2e9806d8a35d0dab937df73de73fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05b0694b6dd2a04a83d3031a395dafa" id="r_ae05b0694b6dd2a04a83d3031a395dafa"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae05b0694b6dd2a04a83d3031a395dafa">gridsFromVdb</a> (MR.Std.Istream in_, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:ae05b0694b6dd2a04a83d3031a395dafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#acab2e9806d8a35d0dab937df73de73fb" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:ae05b0694b6dd2a04a83d3031a395dafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0abf0891d60d495a647fc8367f660c9" id="r_ad0abf0891d60d495a647fc8367f660c9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0abf0891d60d495a647fc8367f660c9">fromGav</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:ad0abf0891d60d495a647fc8367f660c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction Generated from function <code><a class="el" href="#ad0abf0891d60d495a647fc8367f660c9" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:ad0abf0891d60d495a647fc8367f660c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080500230f9c9b4291ae7b1b1fb5c287" id="r_a080500230f9c9b4291ae7b1b1fb5c287"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080500230f9c9b4291ae7b1b1fb5c287">fromGav</a> (MR.Std.Istream in_, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a080500230f9c9b4291ae7b1b1fb5c287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-stream with micro CT reconstruction Generated from function <code><a class="el" href="#ad0abf0891d60d495a647fc8367f660c9" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a080500230f9c9b4291ae7b1b1fb5c287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a4a72242fcaa36ea61514e8291db22" id="r_a80a4a72242fcaa36ea61514e8291db22"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80a4a72242fcaa36ea61514e8291db22">gridsFromAnySupportedFormat</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a80a4a72242fcaa36ea61514e8291db22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#a80a4a72242fcaa36ea61514e8291db22" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.gridsFromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a80a4a72242fcaa36ea61514e8291db22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fa635f15742a7398b6fe4540753b58" id="r_a67fa635f15742a7398b6fe4540753b58"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67fa635f15742a7398b6fe4540753b58">fromAnySupportedFormat</a> (string file, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a67fa635f15742a7398b6fe4540753b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#a67fa635f15742a7398b6fe4540753b58" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.fromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="separator:a67fa635f15742a7398b6fe4540753b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80cc54725388b6ee3b52d0e132206b26" id="r_a80cc54725388b6ee3b52d0e132206b26"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80cc54725388b6ee3b52d0e132206b26">loadTiffDir</a> (MR.VoxelsLoad.Const_LoadingTiffSettings settings)</td></tr>
 <tr class="memdesc:a80cc54725388b6ee3b52d0e132206b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxels from a set of TIFF files Generated from function <code><a class="el" href="#a80cc54725388b6ee3b52d0e132206b26" title="Load voxels from a set of TIFF files Generated from function MR.VoxelsLoad.loadTiffDir.">MR.VoxelsLoad.loadTiffDir</a></code>.  <br /></td></tr>
 <tr class="separator:a80cc54725388b6ee3b52d0e132206b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,8 +364,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a622c95726333ec68a788191e4f69b3b5" name="a622c95726333ec68a788191e4f69b3b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a622c95726333ec68a788191e4f69b3b5">&#9670;&#160;</a></span>createObjectVoxels()</h2>
+<a id="a87a3969849849d41eb3345f131f66ce8" name="a87a3969849849d41eb3345f131f66ce8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a3969849849d41eb3345f131f66ce8">&#9670;&#160;</a></span>createObjectVoxels()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,7 +381,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -391,7 +391,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>converts <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html" title="Generated from class MR.VoxelsLoad.DicomVolumeAsVdb. This is the non-const half of the class.">DicomVolumeAsVdb</a> in <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#a622c95726333ec68a788191e4f69b3b5" title="converts DicomVolumeAsVdb in ObjectVoxels Generated from function MR.VoxelsLoad.createObjectVoxels....">MR.VoxelsLoad.createObjectVoxels</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>converts <a class="el" href="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html" title="Generated from class MR.VoxelsLoad.DicomVolumeAsVdb. This is the non-const half of the class.">DicomVolumeAsVdb</a> in <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#a87a3969849849d41eb3345f131f66ce8" title="converts DicomVolumeAsVdb in ObjectVoxels Generated from function MR.VoxelsLoad.createObjectVoxels....">MR.VoxelsLoad.createObjectVoxels</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -455,8 +455,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aca452fa8908f9c88a3a17e3bee9abb0c" name="aca452fa8908f9c88a3a17e3bee9abb0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca452fa8908f9c88a3a17e3bee9abb0c">&#9670;&#160;</a></span>fromAnySupportedFormat()</h2>
+<a id="a67fa635f15742a7398b6fe4540753b58" name="a67fa635f15742a7398b6fe4540753b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67fa635f15742a7398b6fe4540753b58">&#9670;&#160;</a></span>fromAnySupportedFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +472,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -482,12 +482,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#aca452fa8908f9c88a3a17e3bee9abb0c" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.fromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#a67fa635f15742a7398b6fe4540753b58" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.fromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="ae6b7c814d22e78f2aa73967d3b95e662" name="ae6b7c814d22e78f2aa73967d3b95e662"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6b7c814d22e78f2aa73967d3b95e662">&#9670;&#160;</a></span>fromGav() <span class="overload">[1/2]</span></h2>
+<a id="a080500230f9c9b4291ae7b1b1fb5c287" name="a080500230f9c9b4291ae7b1b1fb5c287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080500230f9c9b4291ae7b1b1fb5c287">&#9670;&#160;</a></span>fromGav() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +503,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -513,12 +513,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load voxel from Gav-stream with micro CT reconstruction Generated from function <code><a class="el" href="#a0955035a86bced52d1d7024e6f223c0e" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load voxel from Gav-stream with micro CT reconstruction Generated from function <code><a class="el" href="#ad0abf0891d60d495a647fc8367f660c9" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a0955035a86bced52d1d7024e6f223c0e" name="a0955035a86bced52d1d7024e6f223c0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0955035a86bced52d1d7024e6f223c0e">&#9670;&#160;</a></span>fromGav() <span class="overload">[2/2]</span></h2>
+<a id="ad0abf0891d60d495a647fc8367f660c9" name="ad0abf0891d60d495a647fc8367f660c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0abf0891d60d495a647fc8367f660c9">&#9670;&#160;</a></span>fromGav() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +534,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -544,12 +544,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load voxel from Gav-file with micro CT reconstruction Generated from function <code><a class="el" href="#a0955035a86bced52d1d7024e6f223c0e" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load voxel from Gav-file with micro CT reconstruction Generated from function <code><a class="el" href="#ad0abf0891d60d495a647fc8367f660c9" title="Load voxel from Gav-file with micro CT reconstruction Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromGav</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="af012b14b36371a75d0d7019391f409d2" name="af012b14b36371a75d0d7019391f409d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af012b14b36371a75d0d7019391f409d2">&#9670;&#160;</a></span>fromRaw() <span class="overload">[1/3]</span></h2>
+<a id="a3bcce1c2eeee54506d2a382eb99de71e" name="a3bcce1c2eeee54506d2a382eb99de71e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bcce1c2eeee54506d2a382eb99de71e">&#9670;&#160;</a></span>fromRaw() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,7 +570,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -580,12 +580,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#af26449e3e5319319879f6d9b986310a2" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="aea2d7dc667c45f613ee5d25c18fa4df1" name="aea2d7dc667c45f613ee5d25c18fa4df1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea2d7dc667c45f613ee5d25c18fa4df1">&#9670;&#160;</a></span>fromRaw() <span class="overload">[2/3]</span></h2>
+<a id="ac007eb370f51a1350bbc8e42f42ae344" name="ac007eb370f51a1350bbc8e42f42ae344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac007eb370f51a1350bbc8e42f42ae344">&#9670;&#160;</a></span>fromRaw() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +601,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -611,12 +611,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#af26449e3e5319319879f6d9b986310a2" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="af26449e3e5319319879f6d9b986310a2" name="af26449e3e5319319879f6d9b986310a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26449e3e5319319879f6d9b986310a2">&#9670;&#160;</a></span>fromRaw() <span class="overload">[3/3]</span></h2>
+<a id="a71c827fae1a3126702677c63cc0e5db3" name="a71c827fae1a3126702677c63cc0e5db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71c827fae1a3126702677c63cc0e5db3">&#9670;&#160;</a></span>fromRaw() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -637,7 +637,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -647,12 +647,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#af26449e3e5319319879f6d9b986310a2" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#a71c827fae1a3126702677c63cc0e5db3" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.fromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a7c6488591485144ab1f837c8c9e3a8d7" name="a7c6488591485144ab1f837c8c9e3a8d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c6488591485144ab1f837c8c9e3a8d7">&#9670;&#160;</a></span>fromVdb()</h2>
+<a id="a872da0c7f32671783913b82c8ceda5d5" name="a872da0c7f32671783913b82c8ceda5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872da0c7f32671783913b82c8ceda5d5">&#9670;&#160;</a></span>fromVdb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -668,7 +668,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -678,12 +678,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load all voxel volumes from OpenVDB file Generated from function <code><a class="el" href="#a7c6488591485144ab1f837c8c9e3a8d7" title="Load all voxel volumes from OpenVDB file Generated from function MR.VoxelsLoad.fromVdb....">MR.VoxelsLoad.fromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load all voxel volumes from OpenVDB file Generated from function <code><a class="el" href="#a872da0c7f32671783913b82c8ceda5d5" title="Load all voxel volumes from OpenVDB file Generated from function MR.VoxelsLoad.fromVdb....">MR.VoxelsLoad.fromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a710be5574cc18519fcd6e88a46ae50bf" name="a710be5574cc18519fcd6e88a46ae50bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a710be5574cc18519fcd6e88a46ae50bf">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[1/3]</span></h2>
+<a id="ab438c739f063d7d397b5d96e052f25bd" name="ab438c739f063d7d397b5d96e052f25bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab438c739f063d7d397b5d96e052f25bd">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -704,7 +704,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -714,12 +714,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="aa1c7d90b970875f05791b0c63a0f6b2e" name="aa1c7d90b970875f05791b0c63a0f6b2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c7d90b970875f05791b0c63a0f6b2e">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[2/3]</span></h2>
+<a id="a0a504531613aad2bcfd1b5a726f544b1" name="a0a504531613aad2bcfd1b5a726f544b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a504531613aad2bcfd1b5a726f544b1">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -735,7 +735,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -745,12 +745,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load raw voxels file, parsing parameters from name Generated from function <code><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a6b01975d27f0f95547d1390d2fe7403f" name="a6b01975d27f0f95547d1390d2fe7403f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b01975d27f0f95547d1390d2fe7403f">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[3/3]</span></h2>
+<a id="aa7ba7bae928d1b228797994b7a394da5" name="aa7ba7bae928d1b228797994b7a394da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7ba7bae928d1b228797994b7a394da5">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -771,7 +771,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -781,12 +781,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#a6b01975d27f0f95547d1390d2fe7403f" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Load raw voxels from file with provided parameters Generated from function <code><a class="el" href="#aa7ba7bae928d1b228797994b7a394da5" title="Load raw voxels from file with provided parameters Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.gridFromRaw</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="ad7cbf91611e36bcb683c94e67694d9fb" name="ad7cbf91611e36bcb683c94e67694d9fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7cbf91611e36bcb683c94e67694d9fb">&#9670;&#160;</a></span>gridsFromAnySupportedFormat()</h2>
+<a id="a80a4a72242fcaa36ea61514e8291db22" name="a80a4a72242fcaa36ea61514e8291db22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a4a72242fcaa36ea61514e8291db22">&#9670;&#160;</a></span>gridsFromAnySupportedFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -802,7 +802,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -812,12 +812,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#ad7cbf91611e36bcb683c94e67694d9fb" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.gridsFromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Detects the format from file extension and loads voxels from it Generated from function <code><a class="el" href="#a80a4a72242fcaa36ea61514e8291db22" title="Detects the format from file extension and loads voxels from it Generated from function MR....">MR.VoxelsLoad.gridsFromAnySupportedFormat</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a80e3f3f52f7dcc416b9c4b3a76de9a5a" name="a80e3f3f52f7dcc416b9c4b3a76de9a5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80e3f3f52f7dcc416b9c4b3a76de9a5a">&#9670;&#160;</a></span>gridsFromVdb() <span class="overload">[1/2]</span></h2>
+<a id="ae05b0694b6dd2a04a83d3031a395dafa" name="ae05b0694b6dd2a04a83d3031a395dafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05b0694b6dd2a04a83d3031a395dafa">&#9670;&#160;</a></span>gridsFromVdb() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -833,7 +833,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -843,12 +843,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from function <code><a class="el" href="#a95881b8df063823afc0921ec601e39d8" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Generated from function <code><a class="el" href="#acab2e9806d8a35d0dab937df73de73fb" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a95881b8df063823afc0921ec601e39d8" name="a95881b8df063823afc0921ec601e39d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95881b8df063823afc0921ec601e39d8">&#9670;&#160;</a></span>gridsFromVdb() <span class="overload">[2/2]</span></h2>
+<a id="acab2e9806d8a35d0dab937df73de73fb" name="acab2e9806d8a35d0dab937df73de73fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab2e9806d8a35d0dab937df73de73fb">&#9670;&#160;</a></span>gridsFromVdb() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -864,7 +864,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -874,7 +874,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from function <code><a class="el" href="#a95881b8df063823afc0921ec601e39d8" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Generated from function <code><a class="el" href="#acab2e9806d8a35d0dab937df73de73fb" title="Generated from function MR.VoxelsLoad.gridsFromVdb. Parameter cb defaults to {}.">MR.VoxelsLoad.gridsFromVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -948,8 +948,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a638c45514a9ec4463b570f5f952aefc2" name="a638c45514a9ec4463b570f5f952aefc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a638c45514a9ec4463b570f5f952aefc2">&#9670;&#160;</a></span>loadDicomFile()</h2>
+<a id="a004c8a6614aa21eea7c7b95e1ee3f7cc" name="a004c8a6614aa21eea7c7b95e1ee3f7cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a004c8a6614aa21eea7c7b95e1ee3f7cc">&#9670;&#160;</a></span>loadDicomFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -965,7 +965,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -975,12 +975,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a638c45514a9ec4463b570f5f952aefc2" title="Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax Generated from func...">MR.VoxelsLoad.loadDicomFile</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a004c8a6614aa21eea7c7b95e1ee3f7cc" title="Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax Generated from func...">MR.VoxelsLoad.loadDicomFile</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a06d19bc4c265c8ae6d09e7fcddbb2be1" name="a06d19bc4c265c8ae6d09e7fcddbb2be1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06d19bc4c265c8ae6d09e7fcddbb2be1">&#9670;&#160;</a></span>loadDicomFileAsVdb()</h2>
+<a id="a55db8dbf3f895bcd3d0f2a23a5da1b38" name="a55db8dbf3f895bcd3d0f2a23a5da1b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55db8dbf3f895bcd3d0f2a23a5da1b38">&#9670;&#160;</a></span>loadDicomFileAsVdb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -996,7 +996,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1006,12 +1006,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a06d19bc4c265c8ae6d09e7fcddbb2be1" title="Loads full volume from single DICOM file (not a slice file) as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFileAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads full volume from single DICOM file (not a slice file) as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a55db8dbf3f895bcd3d0f2a23a5da1b38" title="Loads full volume from single DICOM file (not a slice file) as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFileAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a18625ffd62605f5b1d029fd111ea6c69" name="a18625ffd62605f5b1d029fd111ea6c69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18625ffd62605f5b1d029fd111ea6c69">&#9670;&#160;</a></span>loadDicomFolder()</h2>
+<a id="a38a66f00b7cfa01376db5bc473610bd7" name="a38a66f00b7cfa01376db5bc473610bd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a66f00b7cfa01376db5bc473610bd7">&#9670;&#160;</a></span>loadDicomFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1032,7 +1032,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1042,12 +1042,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a18625ffd62605f5b1d029fd111ea6c69" title="Loads one volume from DICOM files located in given folder as SimpleVolumeMinMax Generated from functi...">MR.VoxelsLoad.loadDicomFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a38a66f00b7cfa01376db5bc473610bd7" title="Loads one volume from DICOM files located in given folder as SimpleVolumeMinMax Generated from functi...">MR.VoxelsLoad.loadDicomFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a19883c337c06a47c9ee6888006e3a492" name="a19883c337c06a47c9ee6888006e3a492"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19883c337c06a47c9ee6888006e3a492">&#9670;&#160;</a></span>loadDicomFolderAsVdb()</h2>
+<a id="a11dd39055b2cf6a6947811a5c812071c" name="a11dd39055b2cf6a6947811a5c812071c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11dd39055b2cf6a6947811a5c812071c">&#9670;&#160;</a></span>loadDicomFolderAsVdb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1068,7 +1068,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1078,12 +1078,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a19883c337c06a47c9ee6888006e3a492" title="Loads one volume from DICOM files located in given folder as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads one volume from DICOM files located in given folder as <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#a11dd39055b2cf6a6947811a5c812071c" title="Loads one volume from DICOM files located in given folder as VdbVolume Generated from function MR....">MR.VoxelsLoad.loadDicomFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="af4a7b58b7d059d78314e3128c491752b" name="af4a7b58b7d059d78314e3128c491752b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4a7b58b7d059d78314e3128c491752b">&#9670;&#160;</a></span>loadDicomsFolder()</h2>
+<a id="a46c8ae672debd2f25110b977e9827fb9" name="a46c8ae672debd2f25110b977e9827fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c8ae672debd2f25110b977e9827fb9">&#9670;&#160;</a></span>loadDicomsFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1104,7 +1104,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1114,12 +1114,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#af4a7b58b7d059d78314e3128c491752b" title="Loads all volumes from DICOM files located in given folder as a number of SimpleVolumeMinMax Generate...">MR.VoxelsLoad.loadDicomsFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">SimpleVolumeMinMax</a> Generated from function <code><a class="el" href="#a46c8ae672debd2f25110b977e9827fb9" title="Loads all volumes from DICOM files located in given folder as a number of SimpleVolumeMinMax Generate...">MR.VoxelsLoad.loadDicomsFolder</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="aedec4862bd0fa283e388b9eaf9a29211" name="aedec4862bd0fa283e388b9eaf9a29211"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedec4862bd0fa283e388b9eaf9a29211">&#9670;&#160;</a></span>loadDicomsFolderAsVdb()</h2>
+<a id="af8b9fa119e7a6919991c737d90420682" name="af8b9fa119e7a6919991c737d90420682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b9fa119e7a6919991c737d90420682">&#9670;&#160;</a></span>loadDicomsFolderAsVdb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1140,7 +1140,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1150,12 +1150,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#aedec4862bd0fa283e388b9eaf9a29211" title="Loads all volumes from DICOM files located in given folder as a number of VdbVolume Generated from fu...">MR.VoxelsLoad.loadDicomsFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads all volumes from DICOM files located in given folder as a number of <a class="el" href="classMR_1_1VdbVolume.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">VdbVolume</a> Generated from function <code><a class="el" href="#af8b9fa119e7a6919991c737d90420682" title="Loads all volumes from DICOM files located in given folder as a number of VdbVolume Generated from fu...">MR.VoxelsLoad.loadDicomsFolderAsVdb</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
-<a id="a599d8ff5a18d29e6465c1cddc690654b" name="a599d8ff5a18d29e6465c1cddc690654b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a599d8ff5a18d29e6465c1cddc690654b">&#9670;&#160;</a></span>loadDicomsFolderTreeAsVdb()</h2>
+<a id="add8b39606d69883317cade51f7564e1f" name="add8b39606d69883317cade51f7564e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8b39606d69883317cade51f7564e1f">&#9670;&#160;</a></span>loadDicomsFolderTreeAsVdb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1176,7 +1176,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1186,7 +1186,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads every subfolder with DICOM volume as new object Generated from function <code><a class="el" href="#a599d8ff5a18d29e6465c1cddc690654b" title="Loads every subfolder with DICOM volume as new object Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</a></code>. Parameter <code>maxNumThreads</code> defaults to <code>4</code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+<p>Loads every subfolder with DICOM volume as new object Generated from function <code><a class="el" href="#add8b39606d69883317cade51f7564e1f" title="Loads every subfolder with DICOM volume as new object Generated from function MR.VoxelsLoad....">MR.VoxelsLoad.loadDicomsFolderTreeAsVdb</a></code>. Parameter <code>maxNumThreads</code> defaults to <code>4</code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -1217,8 +1217,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0affe2e0abfd294fae29e12fa5d9fee8" name="a0affe2e0abfd294fae29e12fa5d9fee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0affe2e0abfd294fae29e12fa5d9fee8">&#9670;&#160;</a></span>makeObjectVoxelsFromDicomFolder()</h2>
+<a id="ab4f11881b595dab444e3381abe457dc4" name="ab4f11881b595dab444e3381abe457dc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f11881b595dab444e3381abe457dc4">&#9670;&#160;</a></span>makeObjectVoxelsFromDicomFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1234,7 +1234,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1244,7 +1244,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads 3D volumetric data from dicom-files in given folder, and converts them into an <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#a0affe2e0abfd294fae29e12fa5d9fee8" title="Loads 3D volumetric data from dicom-files in given folder, and converts them into an ObjectVoxels Gen...">MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+<p>Loads 3D volumetric data from dicom-files in given folder, and converts them into an <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> Generated from function <code><a class="el" href="#ab4f11881b595dab444e3381abe457dc4" title="Loads 3D volumetric data from dicom-files in given folder, and converts them into an ObjectVoxels Gen...">MR.VoxelsLoad.makeObjectVoxelsFromDicomFolder</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>

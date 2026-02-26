@@ -4,9 +4,9 @@
     <compoundname>MR::CurveFunc</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_CurveFunc</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1CurveFunc_1a56b0ed0fff43d5752f8c11bea721af4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_MRCurvePointFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_MRCurvePointFuncFromFloat MR.CurveFunc.func</definition>
+      <memberdef kind="property" id="classMR_1_1CurveFunc_1acd68663c204c1636c0afb8cd970f3eb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_MRCurvePoint_From_Float</type>
+        <definition>new unsafe MR.Std.Function_MRCurvePoint_From_Float MR.CurveFunc.func</definition>
         <argsstring></argsstring>
         <name>func</name>
         <qualifiedname>MR.CurveFunc.func</qualifiedname>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="332" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="332" bodyend="332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="332" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="332" bodyend="332"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1CurveFunc_1a5d217d469c2e0189e5145d08a9a12df6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -231,7 +231,7 @@
       <member refid="classMR_1_1CurveFunc_1a98ba63d4540a07f5f1e900ac0b48dd0c" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
       <member refid="classMR_1_1CurveFunc_1a706d08d76ca3a0fd221e81e3b78876ce" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
       <member refid="classMR_1_1CurveFunc_1a5e48b80dc984b796576473d52408c806" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
-      <member refid="classMR_1_1CurveFunc_1a56b0ed0fff43d5752f8c11bea721af4e" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>func</name></member>
+      <member refid="classMR_1_1CurveFunc_1acd68663c204c1636c0afb8cd970f3eb0" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>func</name></member>
       <member refid="classMR_1_1CurveFunc_1a5d217d469c2e0189e5145d08a9a12df6" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>totalLength</name></member>
     </listofallmembers>
   </compounddef>

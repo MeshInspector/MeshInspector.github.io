@@ -114,7 +114,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::ObjectSave::Settings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>lengthUnit</computeroutput>. </para>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::ObjectSave::Settings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -176,7 +176,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report loading progress and allow the user to cancel it Modifies a member variable of class <computeroutput>MR::ObjectSave::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>to report loading progress and allow the user to cancel it Modifies a member variable of class <computeroutput>MR::ObjectSave::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -255,7 +255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ObjectSave::Settings</computeroutput> elementwise. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" kindref="member">MR_ObjectSave_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ObjectSave::Settings</computeroutput> elementwise. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" kindref="member">MR_ObjectSave_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -383,7 +383,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ObjectSave::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ObjectSave::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

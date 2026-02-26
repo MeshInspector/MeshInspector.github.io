@@ -7,7 +7,7 @@ var classMR_1_1DenoiseViaNormalsSettings =
     [ "DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html#aa969bb3f8ab3f04e2bce245b7133f138", null ],
     [ "assign", "classMR_1_1DenoiseViaNormalsSettings.html#a1469aa8ace65ead884e64786b07d43a1", null ],
     [ "beta", "classMR_1_1DenoiseViaNormalsSettings.html#adb3af5a3ba12b28f690ec76e46a1a439", null ],
-    [ "cb", "classMR_1_1DenoiseViaNormalsSettings.html#a11e4e77d34776c5f42f2a5e3a7a22f37", null ],
+    [ "cb", "classMR_1_1DenoiseViaNormalsSettings.html#a08b4fe0295f03cbb4498ce4a78dd8478", null ],
     [ "fastIndicatorComputation", "classMR_1_1DenoiseViaNormalsSettings.html#a276f1682546966a08329b768ac50870c", null ],
     [ "gamma", "classMR_1_1DenoiseViaNormalsSettings.html#a0917a9764b86db2266ddab1c0901f180", null ],
     [ "guideWeight", "classMR_1_1DenoiseViaNormalsSettings.html#a5c58dc4b9f1323e4e71485556a37bfeb", null ],

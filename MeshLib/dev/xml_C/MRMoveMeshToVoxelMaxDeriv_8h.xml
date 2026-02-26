@@ -384,7 +384,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts. Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>iters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iters</computeroutput>. </para>
+<para>number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts. Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>iters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iters</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -442,7 +442,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>number of points to sample for each vertex. Samples are used to get the picewice-linear function of density and estimate the derivative based on it Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>samplePoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>samplePoints</computeroutput>. </para>
+<para>number of points to sample for each vertex. Samples are used to get the picewice-linear function of density and estimate the derivative based on it Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>samplePoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>samplePoints</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -500,7 +500,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>degree of the polynomial used to fit sampled points. Must be in range [3; 6] Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>degree</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>degree</computeroutput>. </para>
+<para>degree of the polynomial used to fit sampled points. Must be in range [3; 6] Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>degree</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>degree</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -558,7 +558,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>outlierThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>outlierThreshold</computeroutput>. </para>
+<para>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>outlierThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>outlierThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -616,7 +616,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>force of the smoothing (relaxation) of vector field of shifts on each iteration Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>intermediateSmoothForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>intermediateSmoothForce</computeroutput>. </para>
+<para>force of the smoothing (relaxation) of vector field of shifts on each iteration Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>intermediateSmoothForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>intermediateSmoothForce</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -674,7 +674,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>force of initial smoothing of vertices, before applying the algorithm Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>preparationSmoothForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>preparationSmoothForce</computeroutput>. </para>
+<para>force of initial smoothing of vertices, before applying the algorithm Modifies a member variable of class <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> named <computeroutput>preparationSmoothForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>preparationSmoothForce</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -765,7 +765,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1ac50a7c70ae50f8d8bc47c0a3a2dfb8f7" kindref="member">MR_MoveMeshToVoxelMaxDerivSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMoveMeshToVoxelMaxDeriv_8h_1ac50a7c70ae50f8d8bc47c0a3a2dfb8f7" kindref="member">MR_MoveMeshToVoxelMaxDerivSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -885,7 +885,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MoveMeshToVoxelMaxDerivSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

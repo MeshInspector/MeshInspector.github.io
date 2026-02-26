@@ -274,7 +274,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -332,7 +332,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>offsetCount - the number of voxels around polyline to calculate distance in (should be positive) Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>offsetCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>offsetCount</computeroutput>. </para>
+<para>offsetCount - the number of voxels around polyline to calculate distance in (should be positive) Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>offsetCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offsetCount</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -390,7 +390,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>worldXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>worldXf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>worldXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>worldXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>worldXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -448,7 +448,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outXf</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outXf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -510,7 +510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -601,7 +601,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>worldXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" kindref="member">MR_PolylineToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineToDistanceVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>worldXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1ab1fed7db36db331ff78df4785d5c770c" kindref="member">MR_PolylineToDistanceVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -729,7 +729,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -817,7 +817,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vol</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>vol</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vol</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vol</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -875,7 +875,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::PolylineToVolumeParams</computeroutput> named <computeroutput>dist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dist</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -954,7 +954,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::PolylineToVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" kindref="member">MR_PolylineToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::PolylineToVolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>vol</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>dist</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dist</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3722d7a6400ce648fbba5523d5aeab8a" kindref="member">MR_PolylineToVolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1082,7 +1082,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PolylineToVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PolylineToVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

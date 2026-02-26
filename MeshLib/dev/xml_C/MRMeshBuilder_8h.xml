@@ -338,7 +338,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::VertDuplication</computeroutput> named <computeroutput>srcVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcVert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>srcVert</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::VertDuplication</computeroutput> named <computeroutput>srcVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>srcVert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>srcVert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -396,7 +396,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::VertDuplication</computeroutput> named <computeroutput>dupVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dupVert</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dupVert</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::VertDuplication</computeroutput> named <computeroutput>dupVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dupVert</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dupVert</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -471,7 +471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshBuilder::VertDuplication</computeroutput> elementwise. The reference to the parameter <computeroutput>srcVert</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dupVert</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilder_8h_1ae13c13e57dd7b4abca86f26f1f4b067e" kindref="member">MR_MeshBuilder_VertDuplication_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshBuilder::VertDuplication</computeroutput> elementwise. The reference to the parameter <computeroutput>srcVert</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dupVert</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilder_8h_1ae13c13e57dd7b4abca86f26f1f4b067e" kindref="member">MR_MeshBuilder_VertDuplication_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -591,7 +591,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshBuilder::VertDuplication::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshBuilder::VertDuplication::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -709,7 +709,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>fmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fmap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>fmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -771,7 +771,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>vmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vmap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vmap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>vmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vmap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vmap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -833,7 +833,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>topology</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>topology</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>topology</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>topology</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>topology</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>topology</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -895,7 +895,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>rem</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rem</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>rem</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> named <computeroutput>rem</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>rem</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>rem</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -994,7 +994,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> elementwise. The reference to the parameter <computeroutput>fmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>topology</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rem</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilder_8h_1ab2fcecdf8970d805887da1c99873f49e" kindref="member">MR_MeshBuilder_MeshPiece_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshBuilder::MeshPiece</computeroutput> elementwise. The reference to the parameter <computeroutput>fmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vmap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>topology</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>rem</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilder_8h_1ab2fcecdf8970d805887da1c99873f49e" kindref="member">MR_MeshBuilder_MeshPiece_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1122,7 +1122,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshBuilder::MeshPiece::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshBuilder::MeshPiece::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1278,7 +1278,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>closeDist</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>closeDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>closeDist</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1336,7 +1336,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>uniteOnlyBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>uniteOnlyBd</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>uniteOnlyBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>uniteOnlyBd</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1394,7 +1394,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1452,7 +1452,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>duplicateNonManifold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>duplicateNonManifold</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>duplicateNonManifold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>duplicateNonManifold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1510,7 +1510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>optionalVertOldToNew</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>optionalVertOldToNew</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>optionalVertOldToNew</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>optionalVertOldToNew</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>optionalVertOldToNew</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>optionalVertOldToNew</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1568,7 +1568,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>optionalDuplications</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>optionalDuplications</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>optionalDuplications</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> named <computeroutput>optionalDuplications</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>optionalDuplications</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>optionalDuplications</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1659,7 +1659,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>optionalVertOldToNew</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>optionalDuplications</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilder_8h_1a183c8f259860bc256312f8443455700e" kindref="member">MR_MeshBuilder_UniteCloseParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MeshBuilder::UniteCloseParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>optionalVertOldToNew</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>optionalDuplications</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilder_8h_1a183c8f259860bc256312f8443455700e" kindref="member">MR_MeshBuilder_UniteCloseParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1779,7 +1779,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshBuilder::UniteCloseParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshBuilder::UniteCloseParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -29,5 +29,5 @@ var classMR_1_1MeshLoad =
     [ "fromSceneStepFile", "classMR_1_1MeshLoad.html#ab07dafbcd59da06933f670040fe97f52", null ],
     [ "fromStep", "classMR_1_1MeshLoad.html#a857aebb8c9357976e1212d4ff2311251", null ],
     [ "fromStep", "classMR_1_1MeshLoad.html#a3815d5028a423c0371ddd531ebede9f5", null ],
-    [ "loadObjectFromObj", "classMR_1_1MeshLoad.html#a32f84956340084a360951274b67db47e", null ]
+    [ "loadObjectFromObj", "classMR_1_1MeshLoad.html#a94f74d007f6d508219aa326f25488c61", null ]
 ];

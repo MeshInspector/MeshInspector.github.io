@@ -181,7 +181,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>preSubdivide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>preSubdivide</computeroutput>. </para>
+<para>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>preSubdivide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>preSubdivide</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -239,7 +239,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -297,7 +297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>signMode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>signMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -355,7 +355,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>closeHolesInHoleWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>closeHolesInHoleWindingNumber</computeroutput>. </para>
+<para>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>closeHolesInHoleWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>closeHolesInHoleWindingNumber</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -413,7 +413,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>offsetMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offsetMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>offsetMode</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>offsetMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>offsetMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>offsetMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -471,7 +471,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outSharpEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>outSharpEdges</computeroutput>. </para>
+<para>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>outSharpEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outSharpEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outSharpEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -529,7 +529,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+<para>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -587,7 +587,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+<para>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -649,7 +649,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>fwn</computeroutput>. </para>
+<para>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>fwn</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>fwn</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>fwn</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -707,7 +707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to decimate resulting mesh Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>decimate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>decimate</computeroutput>. </para>
+<para>whether to decimate resulting mesh Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>decimate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>decimate</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -765,7 +765,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
+<para>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>tinyEdgeLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>tinyEdgeLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -827,7 +827,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>To report algorithm&apos;s progress and cancel it on user demand Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>progress</computeroutput>. </para>
+<para>To report algorithm&apos;s progress and cancel it on user demand Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -889,7 +889,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>onSignDetectionModeSelected</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onSignDetectionModeSelected</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onSignDetectionModeSelected</computeroutput>. </para>
+<para>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>onSignDetectionModeSelected</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onSignDetectionModeSelected</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>onSignDetectionModeSelected</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1020,7 +1020,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::RebuildMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>signMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>offsetMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onSignDetectionModeSelected</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" kindref="member">MR_RebuildMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::RebuildMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>signMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>offsetMode</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>fwn</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onSignDetectionModeSelected</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" kindref="member">MR_RebuildMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1148,7 +1148,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::RebuildMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::RebuildMeshSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

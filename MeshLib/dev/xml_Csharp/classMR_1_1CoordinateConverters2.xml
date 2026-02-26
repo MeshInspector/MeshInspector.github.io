@@ -4,9 +4,9 @@
     <compoundname>MR::CoordinateConverters2</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_CoordinateConverters2</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1CoordinateConverters2_1ab4bede941c761fb6227bcbe47857b7f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_MRVector2iFuncFromConstMRVector2fRef</type>
-        <definition>new unsafe MR.Std.Function_MRVector2iFuncFromConstMRVector2fRef MR.CoordinateConverters2.toInt</definition>
+      <memberdef kind="property" id="classMR_1_1CoordinateConverters2_1aebc4da211999ba7116b7056d7b85587a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_MRVector2i_From_ConstMRVector2fRef</type>
+        <definition>new unsafe MR.Std.Function_MRVector2i_From_ConstMRVector2fRef MR.CoordinateConverters2.toInt</definition>
         <argsstring></argsstring>
         <name>toInt</name>
         <qualifiedname>MR.CoordinateConverters2.toInt</qualifiedname>
@@ -16,11 +16,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="739" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="739" bodyend="739"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="739" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="739" bodyend="739"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1CoordinateConverters2_1a0aa5926cc806cef3d8cdb4948bdb63a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_MRVector2fFuncFromConstMRVector2iRef</type>
-        <definition>new unsafe MR.Std.Function_MRVector2fFuncFromConstMRVector2iRef MR.CoordinateConverters2.toFloat</definition>
+      <memberdef kind="property" id="classMR_1_1CoordinateConverters2_1aecfb8fbe3a49398f80b339e71405dcf0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_MRVector2f_From_ConstMRVector2iRef</type>
+        <definition>new unsafe MR.Std.Function_MRVector2f_From_ConstMRVector2iRef MR.CoordinateConverters2.toFloat</definition>
         <argsstring></argsstring>
         <name>toFloat</name>
         <qualifiedname>MR.CoordinateConverters2.toFloat</qualifiedname>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="741" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="741" bodyend="741"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="741" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="741" bodyend="741"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -229,8 +229,8 @@
       <member refid="classMR_1_1CoordinateConverters2_1a9f038d0ac09112745df950bd8ca57da1" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1af3ef995252aface23f403583f5fd03a0" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1add609e9043cdaa4eb9fd7894d85083e2" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
-      <member refid="classMR_1_1CoordinateConverters2_1a0aa5926cc806cef3d8cdb4948bdb63a0" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toFloat</name></member>
-      <member refid="classMR_1_1CoordinateConverters2_1ab4bede941c761fb6227bcbe47857b7f8" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toInt</name></member>
+      <member refid="classMR_1_1CoordinateConverters2_1aecfb8fbe3a49398f80b339e71405dcf0" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toFloat</name></member>
+      <member refid="classMR_1_1CoordinateConverters2_1aebc4da211999ba7116b7056d7b85587a" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toInt</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

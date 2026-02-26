@@ -169,7 +169,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af69827c382127e3347680100dd6bbf5a" id="r_af69827c382127e3347680100dd6bbf5a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af69827c382127e3347680100dd6bbf5a">SubdivideFillingSettings</a> ()</td></tr>
 <tr class="memdesc:af69827c382127e3347680100dd6bbf5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="separator:af69827c382127e3347680100dd6bbf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d9d58deaa9658956b648bc91fc5e2a" id="r_ae9d9d58deaa9658956b648bc91fc5e2a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9d9d58deaa9658956b648bc91fc5e2a">SubdivideFillingSettings</a> (<a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? <a class="el" href="#adaec9be12a253b1a260be3022f3ac435">notFlippable</a>, float <a class="el" href="#add6104ebc126a14aa4516b0906a8d432">maxEdgeLen</a>, int <a class="el" href="#ad938bd807028981dfa116d8d3b0ee0d1">maxEdgeSplits</a>, float <a class="el" href="#ac8d79015901dd1d039820ca164d564c9">maxAngleChangeAfterFlip</a>, MR.Std._ByValue_Function_BoolFuncFromMREdgeId <a class="el" href="#a244cb099f6d541010a34ddce2fb2a976">beforeEdgeSplit</a>, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId <a class="el" href="#a7fb9cb1f214b2b116a593649cc6f6aa2">onEdgeSplit</a>)</td></tr>
+<tr class="memitem:ae9d9d58deaa9658956b648bc91fc5e2a" id="r_ae9d9d58deaa9658956b648bc91fc5e2a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9d9d58deaa9658956b648bc91fc5e2a">SubdivideFillingSettings</a> (<a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? <a class="el" href="#adaec9be12a253b1a260be3022f3ac435">notFlippable</a>, float <a class="el" href="#add6104ebc126a14aa4516b0906a8d432">maxEdgeLen</a>, int <a class="el" href="#ad938bd807028981dfa116d8d3b0ee0d1">maxEdgeSplits</a>, float <a class="el" href="#ac8d79015901dd1d039820ca164d564c9">maxAngleChangeAfterFlip</a>, MR.Std._ByValue_Function_BoolFuncFromMREdgeId <a class="el" href="#ac37da172f330f3e052931eb23839af5c">beforeEdgeSplit</a>, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId <a class="el" href="#a48d0d24b185f64c0b4195ecaa9c1f240">onEdgeSplit</a>)</td></tr>
 <tr class="memdesc:ae9d9d58deaa9658956b648bc91fc5e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <code><a class="el" href="classMR_1_1SubdivideFillingSettings.html" title="Generated from class MR.SubdivideFillingSettings. This is the non-const half of the class.">MR.SubdivideFillingSettings</a></code> elementwise.  <br /></td></tr>
 <tr class="separator:ae9d9d58deaa9658956b648bc91fc5e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1beb1c0ae651ebc3d9e9da2490f79f3a" id="r_a1beb1c0ae651ebc3d9e9da2490f79f3a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1beb1c0ae651ebc3d9e9da2490f79f3a">SubdivideFillingSettings</a> (MR._ByValue_SubdivideFillingSettings _other)</td></tr>
@@ -199,12 +199,12 @@ Properties</h2></td></tr>
 <tr class="memitem:ac8d79015901dd1d039820ca164d564c9" id="r_ac8d79015901dd1d039820ca164d564c9"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8d79015901dd1d039820ca164d564c9">maxAngleChangeAfterFlip</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac8d79015901dd1d039820ca164d564c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians)  <br /></td></tr>
 <tr class="separator:ac8d79015901dd1d039820ca164d564c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a244cb099f6d541010a34ddce2fb2a976" id="r_a244cb099f6d541010a34ddce2fb2a976"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_BoolFuncFromMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a244cb099f6d541010a34ddce2fb2a976">beforeEdgeSplit</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a244cb099f6d541010a34ddce2fb2a976"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
-<tr class="separator:a244cb099f6d541010a34ddce2fb2a976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb9cb1f214b2b116a593649cc6f6aa2" id="r_a7fb9cb1f214b2b116a593649cc6f6aa2"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fb9cb1f214b2b116a593649cc6f6aa2">onEdgeSplit</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a7fb9cb1f214b2b116a593649cc6f6aa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
-<tr class="separator:a7fb9cb1f214b2b116a593649cc6f6aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37da172f330f3e052931eb23839af5c" id="r_ac37da172f330f3e052931eb23839af5c"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac37da172f330f3e052931eb23839af5c">beforeEdgeSplit</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ac37da172f330f3e052931eb23839af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
+<tr class="separator:ac37da172f330f3e052931eb23839af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d0d24b185f64c0b4195ecaa9c1f240" id="r_a48d0d24b185f64c0b4195ecaa9c1f240"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d0d24b185f64c0b4195ecaa9c1f240">onEdgeSplit</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a48d0d24b185f64c0b4195ecaa9c1f240"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
+<tr class="separator:a48d0d24b185f64c0b4195ecaa9c1f240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <code><a class="el" href="classMR_1_1SubdivideFillingSettings.html" title="Generated from class MR.SubdivideFillingSettings. This is the non-const half of the class.">MR.SubdivideFillingSettings</a></code>. This is the non-const half of the class. </p>
@@ -397,8 +397,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a244cb099f6d541010a34ddce2fb2a976" name="a244cb099f6d541010a34ddce2fb2a976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a244cb099f6d541010a34ddce2fb2a976">&#9670;&#160;</a></span>beforeEdgeSplit</h2>
+<a id="ac37da172f330f3e052931eb23839af5c" name="ac37da172f330f3e052931eb23839af5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac37da172f330f3e052931eb23839af5c">&#9670;&#160;</a></span>beforeEdgeSplit</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +407,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe MR.Std.Function_BoolFuncFromMREdgeId MR.SubdivideFillingSettings.beforeEdgeSplit</td>
+          <td class="memname">new unsafe MR.Std.Function_Bool_From_MREdgeId MR.SubdivideFillingSettings.beforeEdgeSplit</td>
         </tr>
       </table>
   </td>
@@ -517,8 +517,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a7fb9cb1f214b2b116a593649cc6f6aa2" name="a7fb9cb1f214b2b116a593649cc6f6aa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fb9cb1f214b2b116a593649cc6f6aa2">&#9670;&#160;</a></span>onEdgeSplit</h2>
+<a id="a48d0d24b185f64c0b4195ecaa9c1f240" name="a48d0d24b185f64c0b4195ecaa9c1f240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d0d24b185f64c0b4195ecaa9c1f240">&#9670;&#160;</a></span>onEdgeSplit</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,7 +527,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId MR.SubdivideFillingSettings.onEdgeSplit</td>
+          <td class="memname">new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId MR.SubdivideFillingSettings.onEdgeSplit</td>
         </tr>
       </table>
   </td>

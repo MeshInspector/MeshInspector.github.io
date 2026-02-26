@@ -6,7 +6,7 @@ var classMR_1_1BooleanParameters =
     [ "BooleanParameters", "classMR_1_1BooleanParameters.html#aa575bb722008b6b8734d6f5dff719a32", null ],
     [ "BooleanParameters", "classMR_1_1BooleanParameters.html#a30a38c2c80f6057fa5c047c264da2651", null ],
     [ "assign", "classMR_1_1BooleanParameters.html#ad5e497e4879c97fd381f589e89690655", null ],
-    [ "cb", "classMR_1_1BooleanParameters.html#a6578fa036306b2b7c5fc4c81d485e365", null ],
+    [ "cb", "classMR_1_1BooleanParameters.html#ad9cbad0b57e02b14bfdc1531250d8366", null ],
     [ "forceCut", "classMR_1_1BooleanParameters.html#a225aab981cc3810283cd4a45f67ce333", null ],
     [ "mapper", "classMR_1_1BooleanParameters.html#a0b4d64485461751a76dc6da72fc3f7b3", null ],
     [ "mergeAllNonIntersectingComponents", "classMR_1_1BooleanParameters.html#ae2205ffc85fa428c127fc66756977e1d", null ],

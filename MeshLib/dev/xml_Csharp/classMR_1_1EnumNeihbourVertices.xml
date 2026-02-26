@@ -119,10 +119,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" line="101" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" bodystart="101" bodyend="108"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1aaf98c61a896a1f2e149cb09a53fb1a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1a2e38c0629b26b6c061cc4983be57983f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EnumNeihbourVertices.run</definition>
-        <argsstring>(MR.Const_MeshTopology topology, MR.VertId start, MR.Std.Const_Function_BoolFuncFromMRVertId pred)</argsstring>
+        <argsstring>(MR.Const_MeshTopology topology, MR.VertId start, MR.Std.Const_Function_Bool_From_MRVertId pred)</argsstring>
         <name>run</name>
         <qualifiedname>MR.EnumNeihbourVertices.run</qualifiedname>
         <param>
@@ -134,7 +134,7 @@
           <declname>start</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromMRVertId</type>
+          <type>MR.Std.Const_Function_Bool_From_MRVertId</type>
           <declname>pred</declname>
         </param>
         <briefdescription>
@@ -147,7 +147,7 @@
 <parametername>and</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>continuing to all immediate neighbours in depth-first order until the predicate returns false Generated from method <computeroutput><ref refid="classMR_1_1EnumNeihbourVertices_1aaf98c61a896a1f2e149cb09a53fb1a29" kindref="member">MR.EnumNeihbourVertices.run</ref></computeroutput>. </para>
+<para>continuing to all immediate neighbours in depth-first order until the predicate returns false Generated from method <computeroutput><ref refid="classMR_1_1EnumNeihbourVertices_1a2e38c0629b26b6c061cc4983be57983f" kindref="member">MR.EnumNeihbourVertices.run</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -157,10 +157,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" line="115" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" bodystart="115" bodyend="120"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1a1927bf91bc65c8ab089a51bb4be85e41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1a2eeb4e576ccf64f868dd58d3886a1253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.EnumNeihbourVertices.run</definition>
-        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertBitSet start, MR.Std.Const_Function_BoolFuncFromMRVertId pred)</argsstring>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertBitSet start, MR.Std.Const_Function_Bool_From_MRVertId pred)</argsstring>
         <name>run</name>
         <qualifiedname>MR.EnumNeihbourVertices.run</qualifiedname>
         <param>
@@ -172,11 +172,11 @@
           <declname>start</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_BoolFuncFromMRVertId</type>
+          <type>MR.Std.Const_Function_Bool_From_MRVertId</type>
           <declname>pred</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1EnumNeihbourVertices_1aaf98c61a896a1f2e149cb09a53fb1a29" kindref="member">MR.EnumNeihbourVertices.run</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EnumNeihbourVertices_1a2e38c0629b26b6c061cc4983be57983f" kindref="member">MR.EnumNeihbourVertices.run</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,8 +240,8 @@
       <member refid="classMR_1_1EnumNeihbourVertices_1a37e1beab4fc2ea96620b1d0c4a2779a0" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>EnumNeihbourVertices</name></member>
       <member refid="classMR_1_1EnumNeihbourVertices_1a90ac5cb46e88ceb3df3a32235003d400" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>EnumNeihbourVertices</name></member>
       <member refid="classMR_1_1EnumNeihbourVertices_1a2b02bf22e693363e661c1d2c1bae67bd" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>EnumNeihbourVertices</name></member>
-      <member refid="classMR_1_1EnumNeihbourVertices_1aaf98c61a896a1f2e149cb09a53fb1a29" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
-      <member refid="classMR_1_1EnumNeihbourVertices_1a1927bf91bc65c8ab089a51bb4be85e41" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="classMR_1_1EnumNeihbourVertices_1a2e38c0629b26b6c061cc4983be57983f" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="classMR_1_1EnumNeihbourVertices_1a2eeb4e576ccf64f868dd58d3886a1253" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

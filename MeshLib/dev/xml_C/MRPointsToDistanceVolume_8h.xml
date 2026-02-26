@@ -215,7 +215,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>sigma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>sigma</computeroutput>. </para>
+<para>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>sigma</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>sigma</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -273,7 +273,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>minWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minWeight</computeroutput>. </para>
+<para>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>minWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -331,7 +331,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>invSigmaModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>invSigmaModifier</computeroutput>. </para>
+<para>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>invSigmaModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>invSigmaModifier</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -389,7 +389,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>sqrtAngleWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>sqrtAngleWeight</computeroutput>. </para>
+<para>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>sqrtAngleWeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>sqrtAngleWeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -447,7 +447,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>ptNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptNormals</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>ptNormals</computeroutput>. </para>
+<para>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>ptNormals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>ptNormals</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>ptNormals</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -505,7 +505,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>origin point of voxels box Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>origin</computeroutput>. </para>
+<para>origin point of voxels box Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>origin</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -567,7 +567,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>progress callback Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+<para>progress callback Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -625,7 +625,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>size of voxel on each axis Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>size of voxel on each axis Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -683,7 +683,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>num voxels along each axis Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>dimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dimensions</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dimensions</computeroutput>. </para>
+<para>num voxels along each axis Modifies a member variable of class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput> named <computeroutput>dimensions</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dimensions</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dimensions</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -900,7 +900,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::PointsToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::PointsToDistanceVolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

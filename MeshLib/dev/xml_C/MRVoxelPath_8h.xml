@@ -426,7 +426,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>start voxel index Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>start</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>start</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>start</computeroutput>. </para>
+<para>start voxel index Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>start</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>start</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>start</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -484,7 +484,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stop voxel index Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>stop</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stop</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>stop</computeroutput>. </para>
+<para>stop voxel index Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>stop</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stop</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>stop</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -542,7 +542,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>maxDistRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistRatio</computeroutput>. </para>
+<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>maxDistRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDistRatio</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -600,7 +600,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>plane</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>plane</computeroutput>. </para>
+<para>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>plane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>plane</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>plane</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -658,7 +658,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>quatersMask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>quatersMask</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>quatersMask</computeroutput>. </para>
+<para>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All Modifies a member variable of class <computeroutput>MR::VoxelMetricParameters</computeroutput> named <computeroutput>quatersMask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>quatersMask</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>quatersMask</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -766,7 +766,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VoxelMetricParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>start</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stop</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>plane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>quatersMask</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelPath_8h_1a0389d5b02c6a97ccfb6f8a765c7ba804" kindref="member">MR_VoxelMetricParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::VoxelMetricParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>start</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stop</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>plane</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>quatersMask</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelPath_8h_1a0389d5b02c6a97ccfb6f8a765c7ba804" kindref="member">MR_VoxelMetricParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -886,7 +886,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelMetricParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelMetricParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

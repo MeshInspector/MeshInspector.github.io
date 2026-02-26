@@ -754,7 +754,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>propertyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>propertyName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>propertyName</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>propertyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>propertyName</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>propertyName</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -812,7 +812,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>kind</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>kind</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>kind</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>kind</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>kind</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>kind</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -874,7 +874,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>getter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>getter</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>getter</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>getter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>getter</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>getter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -936,7 +936,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>setter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>setter</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>setter</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectSharedProperty</computeroutput> named <computeroutput>setter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>setter</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>setter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1082,7 +1082,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FeatureObjectSharedProperty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FeatureObjectSharedProperty::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1122,7 +1122,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectProjectPointResult</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>point</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectProjectPointResult</computeroutput> named <computeroutput>point</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>point</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>point</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1180,7 +1180,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectProjectPointResult</computeroutput> named <computeroutput>normal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>normal</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FeatureObjectProjectPointResult</computeroutput> named <computeroutput>normal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>normal</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>normal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1255,7 +1255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FeatureObjectProjectPointResult</computeroutput> elementwise. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>normal</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>normal</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatureObject_8h_1ae02b3d30126653a9d878acbc68fd4e44" kindref="member">MR_FeatureObjectProjectPointResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FeatureObjectProjectPointResult</computeroutput> elementwise. The reference to the parameter <computeroutput>point</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>normal</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>normal</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFeatureObject_8h_1ae02b3d30126653a9d878acbc68fd4e44" kindref="member">MR_FeatureObjectProjectPointResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1375,7 +1375,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FeatureObjectProjectPointResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FeatureObjectProjectPointResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

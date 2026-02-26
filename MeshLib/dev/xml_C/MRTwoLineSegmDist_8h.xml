@@ -132,7 +132,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -190,7 +190,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -248,7 +248,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -327,7 +327,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1a872812b411357ff81fe041bf0547f730" kindref="member">MR_TwoLineSegmClosestPoints_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -447,7 +447,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -487,7 +487,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -545,7 +545,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>the closest points each from its respective segment Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -603,7 +603,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -682,7 +682,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ac5734eada935fe4ff72d8296045d1f92" kindref="member">MR_TwoLineSegmClosestPoints_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -802,7 +802,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

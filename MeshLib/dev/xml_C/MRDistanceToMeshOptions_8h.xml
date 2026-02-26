@@ -100,7 +100,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minDistSq</computeroutput>. </para>
+<para>minimum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -158,7 +158,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+<para>maximum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -216,7 +216,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>nullOutsideMinMax</computeroutput>. </para>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>nullOutsideMinMax</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -274,7 +274,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -332,7 +332,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -419,7 +419,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::DistanceToMeshOptions</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::DistanceToMeshOptions</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -575,7 +575,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::DistanceToMeshOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::DistanceToMeshOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -615,7 +615,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the method to compute distance sign Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>signMode</computeroutput>. </para>
+<para>the method to compute distance sign Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMode</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>signMode</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -673,7 +673,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minDistSq</computeroutput>. </para>
+<para>minimum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>minDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -731,7 +731,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+<para>maximum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxDistSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -789,7 +789,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>nullOutsideMinMax</computeroutput>. </para>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>nullOutsideMinMax</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -847,7 +847,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -905,7 +905,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1114,7 +1114,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::SignedDistanceToMeshOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::SignedDistanceToMeshOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

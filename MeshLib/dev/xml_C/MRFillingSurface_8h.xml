@@ -406,7 +406,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -464,7 +464,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> named <computeroutput>frequency</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>frequency</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> named <computeroutput>frequency</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>frequency</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -522,7 +522,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>resolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>resolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -601,7 +601,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" kindref="member">MR_FillingSurface_TPMS_VolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" kindref="member">MR_FillingSurface_TPMS_VolumeParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -757,7 +757,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillingSurface::TPMS::VolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillingSurface::TPMS::VolumeParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -797,7 +797,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>iso</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>iso</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>iso</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>iso</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -855,7 +855,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>decimate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>decimate</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>decimate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>decimate</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -913,7 +913,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -971,7 +971,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>frequency</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>frequency</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>frequency</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>frequency</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1029,7 +1029,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>resolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>resolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1238,7 +1238,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillingSurface::TPMS::MeshParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillingSurface::TPMS::MeshParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1489,7 +1489,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the type of the base element Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>type</computeroutput>. </para>
+<para>the type of the base element Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1547,7 +1547,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the distance between consecutive cylinders in each direction Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>period</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>period</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>period</computeroutput>. </para>
+<para>the distance between consecutive cylinders in each direction Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>period</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>period</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>period</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1605,7 +1605,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the width of cylinders in each direction Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>width</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>width</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>width</computeroutput>. </para>
+<para>the width of cylinders in each direction Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>width</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>width</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>width</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1663,7 +1663,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the radius of uniting spheres Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>r</computeroutput>. </para>
+<para>the radius of uniting spheres Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>r</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1742,7 +1742,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>highRes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>highRes</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>highRes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>highRes</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1800,7 +1800,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>preserveTips</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>preserveTips</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> named <computeroutput>preserveTips</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>preserveTips</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1891,7 +1891,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>period</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>width</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillingSurface_8h_1a18d8807677b383f6c1abec41319dc16d" kindref="member">MR_FillingSurface_CellularSurface_Params_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::FillingSurface::CellularSurface::Params</computeroutput> elementwise. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>period</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>width</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillingSurface_8h_1a18d8807677b383f6c1abec41319dc16d" kindref="member">MR_FillingSurface_CellularSurface_Params_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2011,7 +2011,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FillingSurface::CellularSurface::Params::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::FillingSurface::CellularSurface::Params::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -100,7 +100,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>position on the curve Modifies a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pos</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pos</computeroutput>. </para>
+<para>position on the curve Modifies a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pos</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pos</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -158,7 +158,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>direction along the curve Modifies a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>dir</computeroutput>. </para>
+<para>direction along the curve Modifies a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -216,7 +216,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the normal of the surface where the curve is located Modifies a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>snorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>snorm</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>snorm</computeroutput>. </para>
+<para>the normal of the surface where the curve is located Modifies a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>snorm</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>snorm</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>snorm</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -316,7 +316,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CurvePoint</computeroutput> elementwise. The reference to the parameter <computeroutput>pos</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>snorm</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCurve_8h_1af6b2ae122a0b344a0e4b61439c39bbd1" kindref="member">MR_CurvePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CurvePoint</computeroutput> elementwise. The reference to the parameter <computeroutput>pos</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>snorm</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCurve_8h_1af6b2ae122a0b344a0e4b61439c39bbd1" kindref="member">MR_CurvePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -436,7 +436,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CurvePoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CurvePoint::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -480,7 +480,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>curve given as a function: position along curve -&gt; point Modifies a member variable of class <computeroutput>MR::CurveFunc</computeroutput> named <computeroutput>func</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>func</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>func</computeroutput>. </para>
+<para>curve given as a function: position along curve -&gt; point Modifies a member variable of class <computeroutput>MR::CurveFunc</computeroutput> named <computeroutput>func</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>func</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>func</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -538,7 +538,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>total length of the given curve Modifies a member variable of class <computeroutput>MR::CurveFunc</computeroutput> named <computeroutput>totalLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>totalLength</computeroutput>. </para>
+<para>total length of the given curve Modifies a member variable of class <computeroutput>MR::CurveFunc</computeroutput> named <computeroutput>totalLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>totalLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -617,7 +617,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::CurveFunc</computeroutput> elementwise. The reference to the parameter <computeroutput>func</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCurve_8h_1aacd8619d2c8dcc662a30136fd8b8b844" kindref="member">MR_CurveFunc_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::CurveFunc</computeroutput> elementwise. The reference to the parameter <computeroutput>func</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCurve_8h_1aacd8619d2c8dcc662a30136fd8b8b844" kindref="member">MR_CurveFunc_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -745,7 +745,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::CurveFunc::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::CurveFunc::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

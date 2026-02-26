@@ -6,7 +6,7 @@ var classMR_1_1LineInterpolationParams =
     [ "LineInterpolationParams", "classMR_1_1LineInterpolationParams.html#a15748ee228b576deda252e989f130318", null ],
     [ "LineInterpolationParams", "classMR_1_1LineInterpolationParams.html#a54f92e20bec3faec22b801afcd531eee", null ],
     [ "assign", "classMR_1_1LineInterpolationParams.html#a7307e96c23cbeccc7a4656d5a6e1694d", null ],
-    [ "cb", "classMR_1_1LineInterpolationParams.html#aa6d654db941e05998cded5b4096a5680", null ],
+    [ "cb", "classMR_1_1LineInterpolationParams.html#a0268ab329f3668e886e3259d122bac4b", null ],
     [ "eps", "classMR_1_1LineInterpolationParams.html#a1db43807bc61db1747fdf2d0997c44c9", null ],
     [ "maxLength", "classMR_1_1LineInterpolationParams.html#a85e29fe7a32e64ce1a67c1357d00c878", null ]
 ];

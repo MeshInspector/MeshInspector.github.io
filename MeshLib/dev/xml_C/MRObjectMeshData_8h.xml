@@ -185,7 +185,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mesh</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>mesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -247,7 +247,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>selectedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>selectedFaces</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>selectedFaces</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>selectedFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>selectedFaces</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>selectedFaces</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -309,7 +309,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>selectedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>selectedEdges</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>selectedEdges</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>selectedEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>selectedEdges</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>selectedEdges</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -371,7 +371,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>creases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>creases</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>creases</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>creases</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>creases</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>creases</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -433,7 +433,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>vertColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vertColors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>vertColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -495,7 +495,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceColors</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>faceColors</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -531,7 +531,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vertices coordinates in texture Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>uvCoordinates</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoordinates</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvCoordinates</computeroutput>. </para>
+<para>vertices coordinates in texture Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>uvCoordinates</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoordinates</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>uvCoordinates</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -618,7 +618,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>texturePerFace</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::ObjectMeshData</computeroutput> named <computeroutput>texturePerFace</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>texturePerFace</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>texturePerFace</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -749,7 +749,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::ObjectMeshData</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>selectedFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>selectedEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>creases</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoordinates</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectMeshData_8h_1a4523b0dda565e986784306c96bfb6b27" kindref="member">MR_ObjectMeshData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::ObjectMeshData</computeroutput> elementwise. The reference to the parameter <computeroutput>mesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>selectedFaces</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>selectedEdges</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>creases</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoordinates</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>texturePerFace</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectMeshData_8h_1a4523b0dda565e986784306c96bfb6b27" kindref="member">MR_ObjectMeshData_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -877,7 +877,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ObjectMeshData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::ObjectMeshData::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

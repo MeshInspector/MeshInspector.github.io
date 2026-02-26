@@ -64,9 +64,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="185" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="185" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ComputeSweptVolumeParameters_1af1470d42c0d6ecd69fbe524e2066d8b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ComputeSweptVolumeParameters.cb</definition>
+      <memberdef kind="property" id="classMR_1_1ComputeSweptVolumeParameters_1a25176ee17d5e30124e52529c9fc24727" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.ComputeSweptVolumeParameters.cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
         <qualifiedname>MR.ComputeSweptVolumeParameters.cb</qualifiedname>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="188" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="188" bodyend="188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="188" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="188" bodyend="188"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -251,7 +251,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="161" bodyend="257"/>
     <listofallmembers>
-      <member refid="classMR_1_1ComputeSweptVolumeParameters_1af1470d42c0d6ecd69fbe524e2066d8b4" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>cb</name></member>
+      <member refid="classMR_1_1ComputeSweptVolumeParameters_1a25176ee17d5e30124e52529c9fc24727" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>cb</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1ab6f7b1f91584808ebcdc97ec9aa2fefd" prot="package" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a327e218959c40195b90c642c98ddd0c1" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1accc2f049a061f7d438262bc61786ad3c" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>

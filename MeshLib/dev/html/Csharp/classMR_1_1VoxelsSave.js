@@ -9,7 +9,7 @@ var classMR_1_1VoxelsSave =
     [ "saveAllSlicesToImage", "classMR_1_1VoxelsSave.html#a1183900514fb84082b997eae6f87608a", null ],
     [ "saveSliceToImage", "classMR_1_1VoxelsSave.html#ae174243e90561c32d2a42c58bee25a1a", null ],
     [ "toAnySupportedFormat", "classMR_1_1VoxelsSave.html#a81f68ce09e87d7e547c4c9f4862c2a89", null ],
-    [ "toDicom", "classMR_1_1VoxelsSave.html#a23d89fb99c8fdc9d2f2e3d2981f40a8d", null ],
+    [ "toDicom", "classMR_1_1VoxelsSave.html#ae6e2453df20537093a548aa9518f1107", null ],
     [ "toDicom", "classMR_1_1VoxelsSave.html#a6c6921e445751acc40c054ff9d25dfe2", null ],
     [ "toGav", "classMR_1_1VoxelsSave.html#a3d577dd8122884f5efde439d0890e8a7", null ],
     [ "toGav", "classMR_1_1VoxelsSave.html#a03716929055448a0a7eccbd8af3c80f1", null ],

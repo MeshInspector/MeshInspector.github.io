@@ -259,7 +259,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Position on mesh, where text&apos;s pivot point is mapped Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>startPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>startPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>startPoint</computeroutput>. </para>
+<para>Position on mesh, where text&apos;s pivot point is mapped Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>startPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>startPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>startPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -317,7 +317,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Position of the startPoint in a text bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>pivotPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pivotPoint</computeroutput>. </para>
+<para>Position of the startPoint in a text bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>pivotPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pivotPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -375,7 +375,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Direction of text, must be not zero Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>direction</computeroutput>. </para>
+<para>Direction of text, must be not zero Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>direction</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -433,7 +433,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Text normal to surface, if nullptr - use mesh normal at <computeroutput>startPoint</computeroutput> Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>textNormal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textNormal</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>textNormal</computeroutput>. </para>
+<para>Text normal to surface, if nullptr - use mesh normal at <computeroutput>startPoint</computeroutput> Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>textNormal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>textNormal</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>textNormal</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -491,7 +491,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Font height, meters Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>fontHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontHeight</computeroutput>. </para>
+<para>Font height, meters Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>fontHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontHeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -549,7 +549,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Text mesh inside and outside offset of input mesh Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>surfaceOffset</computeroutput>. </para>
+<para>Text mesh inside and outside offset of input mesh Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>surfaceOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -607,7 +607,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum possible movement of text mesh alignment, meters Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>textMaximumMovement</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>textMaximumMovement</computeroutput>. </para>
+<para>Maximum possible movement of text mesh alignment, meters Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>textMaximumMovement</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>textMaximumMovement</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -665,7 +665,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>fontBasedSizeCalc</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontBasedSizeCalc</computeroutput>. </para>
+<para>If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>fontBasedSizeCalc</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontBasedSizeCalc</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -744,7 +744,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>text</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>text</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>text</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>text</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -802,7 +802,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontDetalization</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontDetalization</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -860,7 +860,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -918,7 +918,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -976,7 +976,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>align</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>align</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>align</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>align</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1038,7 +1038,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pathToFontFile</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pathToFontFile</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TextMeshAlignParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pathToFontFile</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pathToFontFile</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1255,7 +1255,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TextMeshAlignParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TextMeshAlignParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1321,7 +1321,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>parameters of contours to mesh conversion Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>symbolMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>symbolMesh</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>symbolMesh</computeroutput>. </para>
+<para>parameters of contours to mesh conversion Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>symbolMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>symbolMesh</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>symbolMesh</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1379,7 +1379,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Position on the curve, where bounding box&apos;s pivot point is mapped Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>pivotCurveTime</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>pivotCurveTime</computeroutput>. </para>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>pivotCurveTime</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>pivotCurveTime</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1437,7 +1437,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Position of the curve(pivotCurveTime) in the test&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>pivotBoxPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotBoxPoint</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pivotBoxPoint</computeroutput>. </para>
+<para>Position of the curve(pivotCurveTime) in the test&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>pivotBoxPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pivotBoxPoint</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pivotBoxPoint</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1495,7 +1495,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>fontHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontHeight</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>fontHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontHeight</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1553,7 +1553,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>surfaceOffset</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>surfaceOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>surfaceOffset</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1611,7 +1611,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>fontBasedSizeCalc</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fontBasedSizeCalc</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>fontBasedSizeCalc</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>fontBasedSizeCalc</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1669,7 +1669,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>periodicCurve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>periodicCurve</computeroutput>. </para>
+<para>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>periodicCurve</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>periodicCurve</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1727,7 +1727,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stretch whole text along curve to fit in unit curve range Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>stretch</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>stretch</computeroutput>. </para>
+<para>stretch whole text along curve to fit in unit curve range Modifies a member variable of class <computeroutput>MR::BendTextAlongCurveParams</computeroutput> named <computeroutput>stretch</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>stretch</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1830,7 +1830,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::BendTextAlongCurveParams</computeroutput> elementwise. The reference to the parameter <computeroutput>symbolMesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pivotBoxPoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlignTextToMesh_8h_1aa4abe2e6aab48e893fe7b796d4a7cde9" kindref="member">MR_BendTextAlongCurveParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::BendTextAlongCurveParams</computeroutput> elementwise. The reference to the parameter <computeroutput>symbolMesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>pivotBoxPoint</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRAlignTextToMesh_8h_1aa4abe2e6aab48e893fe7b796d4a7cde9" kindref="member">MR_BendTextAlongCurveParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1958,7 +1958,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::BendTextAlongCurveParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::BendTextAlongCurveParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

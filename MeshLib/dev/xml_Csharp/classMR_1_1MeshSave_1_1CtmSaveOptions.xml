@@ -227,9 +227,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="464" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="464" bodyend="464"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1MeshSave_1_1CtmSaveOptions_1aa674a8967d1bb8387772727157e8c7ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.MeshSave.CtmSaveOptions.progress</definition>
+      <memberdef kind="property" id="classMR_1_1MeshSave_1_1CtmSaveOptions_1a6a0a7a64ae387007e9f6bfb6b3695f54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.MeshSave.CtmSaveOptions.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.MeshSave.CtmSaveOptions.progress</qualifiedname>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="467" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="467" bodyend="467"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="467" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="467" bodyend="467"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -445,7 +445,7 @@
       <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a57f858f4c1d2ca0a02c1c61fbda01b56" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>operator MR.SaveSettings</name></member>
       <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a6bdd48b15c0df0c75da8421d82fbb11c" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>packPrimitives</name></member>
       <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1ab396730debb981f736009c59d7221a5d" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>primitiveColors</name></member>
-      <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1aa674a8967d1bb8387772727157e8c7ce" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>progress</name></member>
+      <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a6a0a7a64ae387007e9f6bfb6b3695f54" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>progress</name></member>
       <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a40e211f90634b8c12885fb650237c763" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
       <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a2ed7d23f734cc394370249a0c40f1475" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>solidColor</name></member>
       <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1aa5a9f26c25457491e7ad2248bba0f01e" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>texture</name></member>

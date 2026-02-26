@@ -19,9 +19,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="117" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="117" bodyend="117"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1ObjectSave_1_1Settings_1a6ff3f7d860587cd6b2f85bb05fe62edf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
-        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.ObjectSave.Settings.progress</definition>
+      <memberdef kind="property" id="classMR_1_1ObjectSave_1_1Settings_1a4ab83bbb53de6611e6868e6dfbb699ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.ObjectSave.Settings.progress</definition>
         <argsstring></argsstring>
         <name>progress</name>
         <qualifiedname>MR.ObjectSave.Settings.progress</qualifiedname>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="120" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="120" bodyend="120"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="120" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="120" bodyend="120"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -226,7 +226,7 @@
     <listofallmembers>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1aa695f1790e95659a34f55a1b7fda5d7c" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>assign</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a5c6e05d7daa5a16ddad366222d11db46" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>lengthUnit</name></member>
-      <member refid="classMR_1_1ObjectSave_1_1Settings_1a6ff3f7d860587cd6b2f85bb05fe62edf" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>progress</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Settings_1a4ab83bbb53de6611e6868e6dfbb699ef" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>progress</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a815f195da74a37d78a7f3e28f3af055a" prot="package" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a2282543d73724cbcd2f635a27e088564" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a0fbc73531866a00bdece2cba31ccf889" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>

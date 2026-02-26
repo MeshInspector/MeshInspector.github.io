@@ -441,7 +441,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::CompressZipSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::CompressZipSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::CompressZipSettings</code> elementwise. The reference to the parameter <code>excludeFiles</code> might be preserved in the constructed object. Parameter <code>password</code> can not be null. If <code>password_end</code> is null, then <code>password</code> is assumed to be null-terminated. The reference to the parameter <code>password</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3c94002994afc43214c235f15c5b24e" title="Destroys a heap-allocated instance of MR_CompressZipSettings. Does nothing if the pointer is null.">MR_CompressZipSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::CompressZipSettings</code> elementwise. The reference to the parameter <code>excludeFiles</code> might be preserved in the constructed object. Parameter <code>password</code> can not be null. If <code>password_end</code> is null, then <code>password</code> is assumed to be null-terminated. The reference to the parameter <code>password</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3c94002994afc43214c235f15c5b24e" title="Destroys a heap-allocated instance of MR_CompressZipSettings. Does nothing if the pointer is null.">MR_CompressZipSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -799,7 +799,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>an option to get progress notifications and cancel the operation Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+<p>an option to get progress notifications and cancel the operation Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it held previously in <code>cb</code>. </p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>compressionLevel</code>. </p>
+<p>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>compressionLevel</code>. </p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>files that should not be included to result zip Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>excludeFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>excludeFiles</code>. When this function is called, this object will drop object references it had previously in <code>excludeFiles</code>. </p>
+<p>files that should not be included to result zip Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>excludeFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>excludeFiles</code>. When this function is called, this object will drop object references it held previously in <code>excludeFiles</code>. </p>
 
 </div>
 </div>
@@ -875,7 +875,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if password is given then the archive will be encrypted Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>password</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>password</code>. When this function is called, this object will drop object references it had previously in <code>password</code>. </p>
+<p>if password is given then the archive will be encrypted Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>password</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>password</code>. When this function is called, this object will drop object references it held previously in <code>password</code>. </p>
 
 </div>
 </div>

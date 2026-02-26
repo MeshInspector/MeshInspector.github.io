@@ -12,5 +12,5 @@ var classMR_1_1DistanceFromWeightedPointsComputeParams =
     [ "maxWeightGrad", "classMR_1_1DistanceFromWeightedPointsComputeParams.html#aed9ab1f063e12f2a39d30514e77f19ae", null ],
     [ "minBidirDist", "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a17c3a42c75d5dc1a9837a57de738c197", null ],
     [ "minWeight", "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a60321ae15ba2bca670f8ff81a5235c5f", null ],
-    [ "pointWeight", "classMR_1_1DistanceFromWeightedPointsComputeParams.html#aaf894dac90dc745a42ba6b4bec3bd8bc", null ]
+    [ "pointWeight", "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a50f91e19700795af23a70f942255b2e3", null ]
 ];

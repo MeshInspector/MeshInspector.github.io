@@ -105,7 +105,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>min</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>min</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>min</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>min</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -163,7 +163,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>max</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>max</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>max</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>max</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -221,7 +221,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>minArg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>minArg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>minArg</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>minArg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>minArg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>minArg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -279,7 +279,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>maxArg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxArg</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maxArg</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> named <computeroutput>maxArg</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxArg</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>maxArg</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -362,7 +362,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>minArg</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxArg</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>minArg</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>maxArg</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMinMaxArg_8h_1a0bd8b3a261a5dfec35cb397f78ff0197" kindref="member">MR_MinMaxArg_float_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -482,7 +482,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

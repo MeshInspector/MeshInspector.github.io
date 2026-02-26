@@ -811,7 +811,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::DoubleOffsetSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::DoubleOffsetSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -873,7 +873,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::DoubleOffsetSettings</code> elementwise. The reference to the parameter <code>fwn</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8735a6bcd90743a570f9d77145a14563" title="Destroys a heap-allocated instance of MR_DoubleOffsetSettings. Does nothing if the pointer is null.">MR_DoubleOffsetSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::DoubleOffsetSettings</code> elementwise. The reference to the parameter <code>fwn</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8735a6bcd90743a570f9d77145a14563" title="Destroys a heap-allocated instance of MR_DoubleOffsetSettings. Does nothing if the pointer is null.">MR_DoubleOffsetSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1323,7 +1323,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>adaptivity</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>adaptivity</code>. </p>
+<p>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>adaptivity</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>adaptivity</code>. </p>
 
 </div>
 </div>
@@ -1350,7 +1350,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>fwn</code>. When this function is called, this object will drop object references it had previously in <code>fwn</code>. </p>
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>fwn</code>. When this function is called, this object will drop object references it held previously in <code>fwn</code>. </p>
 
 </div>
 </div>
@@ -1372,7 +1372,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of first offset Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>offsetA</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>offsetA</code>. </p>
+<p>the amount of first offset Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>offsetA</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>offsetA</code>. </p>
 
 </div>
 </div>
@@ -1394,7 +1394,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of second offset Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>offsetB</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>offsetB</code>. </p>
+<p>the amount of second offset Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>offsetB</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>offsetB</code>. </p>
 
 </div>
 </div>
@@ -1421,7 +1421,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm's progress and to cancel it Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>to report algorithm's progress and to cancel it Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it held previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -1443,7 +1443,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the size of voxel in intermediate voxel grid representation Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
+<p>the size of voxel in intermediate voxel grid representation Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>voxelSize</code>. </p>
 
 </div>
 </div>
@@ -1465,7 +1465,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberBeta</code>. </p>
+<p>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberBeta</code>. </p>
 
 </div>
 </div>
@@ -1487,7 +1487,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberThreshold</code>. </p>
+<p>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::DoubleOffsetSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberThreshold</code>. </p>
 
 </div>
 </div>
@@ -1656,7 +1656,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::GridToMeshSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::GridToMeshSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1708,7 +1708,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::GridToMeshSettings</code> elementwise. The reference to the parameter <code>voxelSize</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6dfeafb0cd0478be3e88411958c5a7b3" title="Destroys a heap-allocated instance of MR_GridToMeshSettings. Does nothing if the pointer is null.">MR_GridToMeshSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::GridToMeshSettings</code> elementwise. The reference to the parameter <code>voxelSize</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6dfeafb0cd0478be3e88411958c5a7b3" title="Destroys a heap-allocated instance of MR_GridToMeshSettings. Does nothing if the pointer is null.">MR_GridToMeshSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -2122,7 +2122,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>adaptivity</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>adaptivity</code>. </p>
+<p>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values) Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>adaptivity</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>adaptivity</code>. </p>
 
 </div>
 </div>
@@ -2149,7 +2149,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to receive progress and request cancellation Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+<p>to receive progress and request cancellation Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it held previously in <code>cb</code>. </p>
 
 </div>
 </div>
@@ -2171,7 +2171,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>isoValue</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>isoValue</code>. </p>
+<p>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>isoValue</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>isoValue</code>. </p>
 
 </div>
 </div>
@@ -2193,7 +2193,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if the mesh exceeds this number of faces, an error returns Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>maxFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxFaces</code>. </p>
+<p>if the mesh exceeds this number of faces, an error returns Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>maxFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxFaces</code>. </p>
 
 </div>
 </div>
@@ -2215,7 +2215,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if the mesh exceeds this number of vertices, an error returns Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>maxVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxVertices</code>. </p>
+<p>if the mesh exceeds this number of vertices, an error returns Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>maxVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>maxVertices</code>. </p>
 
 </div>
 </div>
@@ -2237,7 +2237,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>relaxDisorientedTriangles</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>relaxDisorientedTriangles</code>. </p>
+<p>Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>relaxDisorientedTriangles</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>relaxDisorientedTriangles</code>. </p>
 
 </div>
 </div>
@@ -2259,7 +2259,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the size of each voxel in the grid Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>voxelSize</code>. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
+<p>the size of each voxel in the grid Modifies a member variable of class <code>MR::GridToMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>voxelSize</code>. When this function is called, this object will drop object references it held previously in <code>voxelSize</code>. </p>
 
 </div>
 </div>
@@ -2318,7 +2318,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MakeSignedByWindingNumberSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MakeSignedByWindingNumberSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -2365,7 +2365,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::MakeSignedByWindingNumberSettings</code> elementwise. The reference to the parameter <code>meshToGridXf</code> might be preserved in the constructed object. The reference to the parameter <code>fwn</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a631a1dc16d5b940f04e18df389fd800b" title="Destroys a heap-allocated instance of MR_MakeSignedByWindingNumberSettings. Does nothing if the point...">MR_MakeSignedByWindingNumberSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MakeSignedByWindingNumberSettings</code> elementwise. The reference to the parameter <code>meshToGridXf</code> might be preserved in the constructed object. The reference to the parameter <code>fwn</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a631a1dc16d5b940f04e18df389fd800b" title="Destroys a heap-allocated instance of MR_MakeSignedByWindingNumberSettings. Does nothing if the point...">MR_MakeSignedByWindingNumberSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -2712,7 +2712,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>fwn</code>. When this function is called, this object will drop object references it had previously in <code>fwn</code>. </p>
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>fwn</code>. When this function is called, this object will drop object references it held previously in <code>fwn</code>. </p>
 
 </div>
 </div>
@@ -2734,7 +2734,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>defines the mapping from mesh reference from to grid reference frame Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>meshToGridXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>meshToGridXf</code>. When this function is called, this object will drop object references it had previously in <code>meshToGridXf</code>. </p>
+<p>defines the mapping from mesh reference from to grid reference frame Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>meshToGridXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>meshToGridXf</code>. When this function is called, this object will drop object references it held previously in <code>meshToGridXf</code>. </p>
 
 </div>
 </div>
@@ -2761,7 +2761,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm's progress and to cancel it Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>to report algorithm's progress and to cancel it Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it held previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -2783,7 +2783,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberBeta</code>. </p>
+<p>determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberBeta</code>. </p>
 
 </div>
 </div>
@@ -2805,7 +2805,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberThreshold</code>. </p>
+<p>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::MakeSignedByWindingNumberSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>windingNumberThreshold</code>. </p>
 
 </div>
 </div>
@@ -2960,7 +2960,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MeshToVolumeParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::MeshToVolumeParams::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -3007,7 +3007,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code>MR::MeshToVolumeParams</code> elementwise. The reference to the parameter <code>type</code> might be preserved in the constructed object. The reference to the parameter <code>voxelSize</code> might be preserved in the constructed object. The reference to the parameter <code>worldXf</code> might be preserved in the constructed object. The reference to the parameter <code>outXf</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac37bcb9a81cc136c9e4a49792f78ce24" title="Destroys a heap-allocated instance of MR_MeshToVolumeParams. Does nothing if the pointer is null.">MR_MeshToVolumeParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshToVolumeParams</code> elementwise. The reference to the parameter <code>type</code> might be preserved in the constructed object. The reference to the parameter <code>voxelSize</code> might be preserved in the constructed object. The reference to the parameter <code>worldXf</code> might be preserved in the constructed object. The reference to the parameter <code>outXf</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac37bcb9a81cc136c9e4a49792f78ce24" title="Destroys a heap-allocated instance of MR_MeshToVolumeParams. Does nothing if the pointer is null.">MR_MeshToVolumeParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -3390,7 +3390,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it held previously in <code>cb</code>. </p>
 
 </div>
 </div>
@@ -3412,7 +3412,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>outXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outXf</code>. When this function is called, this object will drop object references it had previously in <code>outXf</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>outXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outXf</code>. When this function is called, this object will drop object references it held previously in <code>outXf</code>. </p>
 
 </div>
 </div>
@@ -3434,7 +3434,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>surfaceOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>surfaceOffset</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>surfaceOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <code>surfaceOffset</code>. </p>
 
 </div>
 </div>
@@ -3456,7 +3456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>type</code>. When this function is called, this object will drop object references it had previously in <code>type</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>type</code>. When this function is called, this object will drop object references it held previously in <code>type</code>. </p>
 
 </div>
 </div>
@@ -3478,7 +3478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>voxelSize</code>. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>voxelSize</code>. When this function is called, this object will drop object references it held previously in <code>voxelSize</code>. </p>
 
 </div>
 </div>
@@ -3500,7 +3500,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>worldXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>worldXf</code>. When this function is called, this object will drop object references it had previously in <code>worldXf</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshToVolumeParams</code> named <code>worldXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>worldXf</code>. When this function is called, this object will drop object references it held previously in <code>worldXf</code>. </p>
 
 </div>
 </div>

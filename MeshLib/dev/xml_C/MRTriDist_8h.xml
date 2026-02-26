@@ -210,7 +210,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -268,7 +268,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -326,7 +326,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -384,7 +384,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>overlap</computeroutput>. </para>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>overlap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -467,7 +467,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceResult&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kindref="member">MR_TriTriDistanceResult_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -587,7 +587,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceResult&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceResult&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -627,7 +627,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>a</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -685,7 +685,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+<para>If the triangles are disjoint, these points are the closest points of the corresponding triangles. However, if the triangles overlap, these are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>b</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -743,7 +743,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>distSq</computeroutput>. </para>
+<para>If the triangles are disjoint, it is the squared distance them (equal to the squared distance between a and b points). If the triangles overlap, it is zero. Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>distSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -801,7 +801,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>overlap</computeroutput>. </para>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another Modifies a member variable of class <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> named <computeroutput>overlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>overlap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -884,7 +884,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceResult&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kindref="member">MR_TriTriDistanceResult_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1004,7 +1004,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceResult&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceResult&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1044,7 +1044,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;float&gt;</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
+<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;float&gt;</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1102,7 +1102,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;float&gt;</computeroutput> named <computeroutput>upLimitCheck</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>upLimitCheck</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>upLimitCheck</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;float&gt;</computeroutput> named <computeroutput>upLimitCheck</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>upLimitCheck</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>upLimitCheck</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1177,7 +1177,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceParams&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>upLimitCheck</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a13f859250be4d59b2412abd82799c9cd" kindref="member">MR_TriTriDistanceParams_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceParams&lt;float&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>upLimitCheck</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a13f859250be4d59b2412abd82799c9cd" kindref="member">MR_TriTriDistanceParams_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1297,7 +1297,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceParams&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceParams&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1377,7 +1377,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;double&gt;</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
+<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;double&gt;</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1435,7 +1435,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;double&gt;</computeroutput> named <computeroutput>upLimitCheck</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>upLimitCheck</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>upLimitCheck</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::TriTriDistanceParams&lt;double&gt;</computeroutput> named <computeroutput>upLimitCheck</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>upLimitCheck</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>upLimitCheck</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1510,7 +1510,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceParams&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>upLimitCheck</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a0dcbb1fc09dffbc57a6b80864cb5cdbe" kindref="member">MR_TriTriDistanceParams_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceParams&lt;double&gt;</computeroutput> elementwise. The reference to the parameter <computeroutput>upLimitCheck</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriDist_8h_1a0dcbb1fc09dffbc57a6b80864cb5cdbe" kindref="member">MR_TriTriDistanceParams_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1630,7 +1630,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceParams&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceParams&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

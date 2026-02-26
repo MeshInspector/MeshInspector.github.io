@@ -186,7 +186,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>filter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>filter</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>filter</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>filter</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>filter</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>filter</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -244,7 +244,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>wrap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>wrap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>wrap</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>wrap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>wrap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>wrap</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -306,7 +306,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>pixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixels</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>pixels</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>pixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>pixels</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>pixels</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -364,7 +364,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>resolution</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::MeshTexture</computeroutput> named <computeroutput>resolution</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>resolution</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>resolution</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -581,7 +581,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MeshTexture::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MeshTexture::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
