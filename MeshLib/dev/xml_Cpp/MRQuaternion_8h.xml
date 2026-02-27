@@ -214,10 +214,6 @@
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="11">
-        <label>MRSurfaceManipulationWidget.h</label>
-        <link refid="MRSurfaceManipulationWidget_8h"/>
-      </node>
-      <node id="12">
         <label>MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
@@ -230,10 +226,8 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="13">
+      <node id="12">
         <label>MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>

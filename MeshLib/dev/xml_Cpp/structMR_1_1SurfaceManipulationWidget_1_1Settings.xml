@@ -11,13 +11,14 @@
       <member refid="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" kind="variable"><name>sharpness</name></member>
       <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kind="variable"><name>relaxForceAfterEdit</name></member>
       <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
     </sectiondef>
     <briefdescription>
 <para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> change settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="50" bodyend="58"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="48" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="49" bodyend="58"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>edgeWeights</name></member>
       <member refid="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>editForce</name></member>
@@ -25,6 +26,7 @@
       <member refid="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForce</name></member>
       <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForceAfterEdit</name></member>
       <member refid="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>sharpness</name></member>
+      <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>vmass</name></member>
       <member refid="group__GeneralGroup_1ga112aadc006f7ece0404c1cbe603783cd" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>workMode</name></member>
     </listofallmembers>
   </compounddef>

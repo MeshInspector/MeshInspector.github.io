@@ -6899,6 +6899,7 @@ var group__GeneralGroup =
       [ "relaxForce", "group__GeneralGroup.html#ga2d31568cac0bf19969e4cc51dc854a14", null ],
       [ "relaxForceAfterEdit", "group__GeneralGroup.html#gab3d9e28df35121c177e6e2eead86a43a", null ],
       [ "sharpness", "group__GeneralGroup.html#gac91503b98cd4530afb0bafe21f09b924", null ],
+      [ "vmass", "group__GeneralGroup.html#gaab506cf4d0c39bc59ac2ac941047014b", null ],
       [ "workMode", "group__GeneralGroup.html#ga112aadc006f7ece0404c1cbe603783cd", null ]
     ] ],
     [ "MR::SurfacePointWidget", "classMR_1_1SurfacePointWidget.html", [
@@ -17886,6 +17887,7 @@ var group__GeneralGroup =
     [ "MR::RenderDimensions::RadiusParams::visualLengthMultiplier", "group__GeneralGroup.html#ga209f752c72abb3b57f493fdde9dfe41e", null ],
     [ "MR::MeshBuilder::MeshPiece::vmap", "group__GeneralGroup.html#ga0e2772f29127c4ade3e9c174019fa545", null ],
     [ "MR::SmoothFillingSettings::vmass", "group__GeneralGroup.html#ga527a7a95f06fcee7ca081ed3dbec23b6", null ],
+    [ "MR::SurfaceManipulationWidget::Settings::vmass", "group__GeneralGroup.html#gaab506cf4d0c39bc59ac2ac941047014b", null ],
     [ "MR::CloseToMeshVolumeParams::vol", "group__GeneralGroup.html#ga1ce839bd011c48c41fab0722461d05c7", null ],
     [ "MR::MeshToDirectionVolumeParams::vol", "group__GeneralGroup.html#gabc2ad86ead41f3e878ed25f71acf4882", null ],
     [ "MR::MeshToDistanceVolumeParams::vol", "group__GeneralGroup.html#ga360d1bd15bac22e4e7e287a986e68bed", null ],

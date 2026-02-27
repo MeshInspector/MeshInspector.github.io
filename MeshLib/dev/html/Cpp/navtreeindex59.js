@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1BooleanResult.html#ac98caba27fe5a9fdbaa3e4aafff41f2a":[6,0,0,8,5,2],
 "structMR_1_1BooleanResult.html#ad2591d2b1ef80f9dc169034f419d83e4":[6,0,0,8,5,4],
 "structMR_1_1BooleanResultMapper.html":[6,0,0,8,0],
 "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9":[6,0,0,8,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1DragDropListener.html":[6,0,0,20,739],
 "structMR_1_1DragEndListener.html":[6,0,0,20,729],
 "structMR_1_1DragEntranceListener.html":[6,0,0,20,740],
-"structMR_1_1DragListener.html":[6,0,0,20,730],
-"structMR_1_1DragOverListener.html":[6,0,0,20,741]
+"structMR_1_1DragListener.html":[6,0,0,20,730]
 };

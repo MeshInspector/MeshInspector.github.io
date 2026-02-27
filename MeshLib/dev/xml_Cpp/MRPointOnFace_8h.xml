@@ -356,17 +356,13 @@
         <label>MRPointInAllSpaces.h</label>
         <link refid="MRPointInAllSpaces_8h"/>
       </node>
-      <node id="37">
-        <label>MRSurfaceManipulationWidget.h</label>
-        <link refid="MRSurfaceManipulationWidget_8h"/>
-      </node>
       <node id="34">
         <label>MRSurfacePointPicker.h</label>
         <link refid="MRSurfacePointPicker_8h"/>
         <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="37">
         <label>MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
@@ -379,10 +375,8 @@
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
       </node>
-      <node id="39">
+      <node id="38">
         <label>MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>

@@ -263,7 +263,7 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
       </node>
       <node id="15">
@@ -319,10 +319,6 @@
         <link refid="MRPlaneWidget_8h"/>
       </node>
       <node id="35">
-        <label>MRSurfaceManipulationWidget.h</label>
-        <link refid="MRSurfaceManipulationWidget_8h"/>
-      </node>
-      <node id="36">
         <label>MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
@@ -335,16 +331,14 @@
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
       </node>
-      <node id="38">
+      <node id="37">
         <label>MRViewportGL.h</label>
         <link refid="MRViewportGL_8h"/>
         <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="37">
+      <node id="36">
         <label>MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>

@@ -114,11 +114,11 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="61">
+      <node id="60">
         <label>MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="57">
+      <node id="56">
         <label>MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
@@ -134,7 +134,7 @@
         <label>MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
-      <node id="66">
+      <node id="65">
         <label>MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
@@ -150,17 +150,17 @@
         <label>MRAlignContoursToMesh.h</label>
         <link refid="MRAlignContoursToMesh_8h"/>
       </node>
-      <node id="53">
+      <node id="52">
         <label>MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
-        <childnode refid="54" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
       </node>
-      <node id="55">
+      <node id="54">
         <label>MRChangePolylineAction.h</label>
         <link refid="MRChangePolylineAction_8h"/>
       </node>
@@ -170,23 +170,23 @@
         <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="53">
         <label>MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
-      <node id="56">
+      <node id="55">
         <label>MRDistanceMap.h</label>
         <link refid="MRDistanceMap_8h"/>
-        <childnode refid="57" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
         <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
-        </childnode>
       </node>
-      <node id="58">
+      <node id="57">
         <label>MRDistanceMapLoad.h</label>
         <link refid="MRDistanceMapLoad_8h"/>
       </node>
@@ -209,25 +209,25 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
       </node>
       <node id="10">
         <label>MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
       </node>
-      <node id="59">
+      <node id="58">
         <label>MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
-        <childnode refid="60" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="62" relation="include">
+        <childnode refid="61" relation="include">
         </childnode>
       </node>
       <node id="11">
@@ -385,7 +385,7 @@
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
@@ -406,29 +406,29 @@
         <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="51">
         <label>MRPolyline.h</label>
         <link refid="MRPolyline_8h"/>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
         <childnode refid="63" relation="include">
-        </childnode>
-        <childnode refid="64" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="63">
+      <node id="62">
         <label>MRPolyline2Collide.h</label>
         <link refid="MRPolyline2Collide_8h"/>
       </node>
-      <node id="67">
+      <node id="66">
         <label>MRPolyline2Intersect.h</label>
         <link refid="MRPolyline2Intersect_8h"/>
       </node>
@@ -444,7 +444,7 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="49">
         <label>MRSurfacePath.h</label>
         <link refid="MRSurfacePath_8h"/>
       </node>
@@ -464,7 +464,7 @@
         <label>MRAlignTextToMesh.h</label>
         <link refid="MRAlignTextToMesh_8h"/>
       </node>
-      <node id="65">
+      <node id="64">
         <label>MRCudaAccessor.h</label>
         <link refid="MRCudaAccessor_8h"/>
       </node>
@@ -472,7 +472,7 @@
         <label>MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="51">
+      <node id="50">
         <label>MRPickHoleBorderElement.h</label>
         <link refid="MRPickHoleBorderElement_8h"/>
         <childnode refid="15" relation="include">
@@ -482,17 +482,13 @@
         <label>MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
-      <node id="47">
-        <label>MRSurfaceManipulationWidget.h</label>
-        <link refid="MRSurfaceManipulationWidget_8h"/>
-      </node>
       <node id="44">
         <label>MRSurfacePointPicker.h</label>
         <link refid="MRSurfacePointPicker_8h"/>
         <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="47">
         <label>MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
@@ -505,10 +501,8 @@
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
       </node>
-      <node id="49">
+      <node id="48">
         <label>MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
@@ -516,25 +510,25 @@
         <label>MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="64">
+      <node id="63">
         <label>MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
-        <childnode refid="65" relation="include">
+        <childnode refid="64" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="65" relation="include">
         </childnode>
       </node>
       <node id="25">
         <label>MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
-      <node id="60">
+      <node id="59">
         <label>MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
-        <childnode refid="61" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
-      <node id="62">
+      <node id="61">
         <label>MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
