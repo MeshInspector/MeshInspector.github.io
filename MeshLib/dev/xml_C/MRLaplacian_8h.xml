@@ -572,6 +572,42 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="132" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="132" declcolumn="29"/>
       </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1ae56fc7d876182cfe2124510bf99f3fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+        <definition>MRC_API const MR_MeshTopology * MR_Laplacian_topology</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_topology</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the topology for which Laplacian was constructed Generated from method <computeroutput>MR::Laplacian::topology</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="138" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="138" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLaplacian_8h_1aed1f5d2fd2c6257475041a7956e90de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_VertCoords * MR_Laplacian_points</definition>
+        <argsstring>(const MR_Laplacian *_this)</argsstring>
+        <name>MR_Laplacian_points</name>
+        <param>
+          <type>const <ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the vector of coordinates for which Laplacian was constructed Generated from method <computeroutput>MR::Laplacian::points</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" line="144" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h" declline="144" declcolumn="23"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -642,9 +678,13 @@
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="132" refid="MRLaplacian_8h_1a2fbed454afaad11363b03fd045a07589" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRLaplacian_8h_1a2fbed454afaad11363b03fd045a07589" kindref="member">MR_Laplacian_firstLayerFixedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="138" refid="MRLaplacian_8h_1ae56fc7d876182cfe2124510bf99f3fd8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRLaplacian_8h_1ae56fc7d876182cfe2124510bf99f3fd8" kindref="member">MR_Laplacian_topology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRLaplacian_8h_1aed1f5d2fd2c6257475041a7956e90de5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRLaplacian_8h_1aed1f5d2fd2c6257475041a7956e90de5" kindref="member">MR_Laplacian_points</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLaplacian_8h_1a5a83991ce0ccd72650f7dedbedd89cae" kindref="member">MR_Laplacian</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLaplacian.h"/>
   </compounddef>

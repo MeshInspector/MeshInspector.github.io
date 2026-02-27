@@ -42,6 +42,8 @@
       <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" kind="function"><name>region</name></member>
       <member refid="group__GeneralGroup_1ga193dcb7b5ba595a2dad19cf1b4af4ce9" kind="function"><name>freeVerts</name></member>
       <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" kind="function"><name>firstLayerFixedVerts</name></member>
+      <member refid="group__GeneralGroup_1gac4f2d6921a705dd7dd24fb45d990795a" kind="function"><name>topology</name></member>
+      <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
@@ -59,7 +61,7 @@
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="24" bodyend="131"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="24" bodyend="137"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
       <member refid="group__GeneralGroup_1ga175ea45bb3617c292306378d0ae533a0" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>
@@ -77,6 +79,7 @@
       <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>M_</name></member>
       <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>nonZeroElements_</name></member>
+      <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>points</name></member>
       <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>points_</name></member>
       <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>prepareRhs_</name></member>
       <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>region</name></member>
@@ -89,6 +92,7 @@
       <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>solverValid_</name></member>
       <member refid="group__GeneralGroup_1ga1e93a879eaadfec3d0015f118fa5fc4a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>SparseMatrix</name></member>
       <member refid="group__GeneralGroup_1ga167fefaf482de016d077cd7d54066c53" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>SparseMatrixColMajor</name></member>
+      <member refid="group__GeneralGroup_1gac4f2d6921a705dd7dd24fb45d990795a" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>topology</name></member>
       <member refid="group__GeneralGroup_1ga112a32afcf865c5075765fe27e01b5db" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>topology_</name></member>
       <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateRhs_</name></member>
       <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateSolver</name></member>

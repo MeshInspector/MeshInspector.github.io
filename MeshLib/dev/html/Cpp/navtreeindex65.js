@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1SegmPoint.html":[6,0,0,0,22],
+"structMR_1_1SegmPoint.html":[6,0,0,20,452],
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,0,20,427],
 "structMR_1_1SelfIntersections_1_1Settings.html":[6,0,0,20,236],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,0,20,454],
 "structMR_1_1SetNew.html":[6,0,0,4,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1UI_1_1TestEngine_1_1Entry.html#af990d8e37018eb62dd57a502b644717c":[6,0,2,0,2,28,0,2,0],
 "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html":[6,0,1,0,1,44,2,3],
 "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html":[6,0,2,0,2,28,0,3],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#ae5c1521ca92b3ee6b97084822165a34a":[6,0,1,0,1,44,2,3,0],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#ae5c1521ca92b3ee6b97084822165a34a":[6,0,2,0,2,28,0,3,0],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html":[6,0,1,0,1,44,2,4],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html":[6,0,2,0,2,28,0,4]
+"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#ae5c1521ca92b3ee6b97084822165a34a":[6,0,1,0,1,44,2,3,0]
 };

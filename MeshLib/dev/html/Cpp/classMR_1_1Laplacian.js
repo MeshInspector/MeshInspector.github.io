@@ -13,6 +13,8 @@ var classMR_1_1Laplacian =
     [ "fixVertex", "group__GeneralGroup.html#gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd", null ],
     [ "freeVerts", "group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9", null ],
     [ "init", "group__GeneralGroup.html#ga27e53a6f515c82f8afd74a84abfb2b9f", null ],
+    [ "points", "group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c", null ],
     [ "region", "group__GeneralGroup.html#ga9ad9ba866f86e02979c7ad6b6af3331c", null ],
+    [ "topology", "group__GeneralGroup.html#gac4f2d6921a705dd7dd24fb45d990795a", null ],
     [ "updateSolver", "group__GeneralGroup.html#gaed49a7865f3de5ad169b768e09d8d91a", null ]
 ];

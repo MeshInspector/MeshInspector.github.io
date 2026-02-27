@@ -26,6 +26,8 @@ var MRLaplacian_8h =
     [ "MR_Laplacian_init", "MRLaplacian_8h.html#a120c044537eb88af38dc10d43924a0b1", null ],
     [ "MR_Laplacian_OffsetMutablePtr", "MRLaplacian_8h.html#a84dc142ead9fea95151b197c36ec5e15", null ],
     [ "MR_Laplacian_OffsetPtr", "MRLaplacian_8h.html#a0980a090b8d3ee493b4321f94198ca7f", null ],
+    [ "MR_Laplacian_points", "MRLaplacian_8h.html#aed1f5d2fd2c6257475041a7956e90de5", null ],
     [ "MR_Laplacian_region", "MRLaplacian_8h.html#a349e7bc904db55563e15412c136a3d9a", null ],
+    [ "MR_Laplacian_topology", "MRLaplacian_8h.html#ae56fc7d876182cfe2124510bf99f3fd8", null ],
     [ "MR_Laplacian_updateSolver", "MRLaplacian_8h.html#a05611f31527f0bab7d71731a2a189aad", null ]
 ];

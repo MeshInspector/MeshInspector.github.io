@@ -10,6 +10,8 @@ var classmrmeshpy_1_1Laplacian =
     [ "fixVertex", "classmrmeshpy_1_1Laplacian.html#a6d27c2a94043d2a8efae6288902a9e5d", null ],
     [ "freeVerts", "classmrmeshpy_1_1Laplacian.html#a3679c8f277694985b452a72ea9a5cd3f", null ],
     [ "init", "classmrmeshpy_1_1Laplacian.html#accf5ca986168fc7ef7de3f018937b6dc", null ],
+    [ "points", "classmrmeshpy_1_1Laplacian.html#a473d35ed5b906e7e9fafc06fff258143", null ],
     [ "region", "classmrmeshpy_1_1Laplacian.html#a397e9c7782643cb024e4dc759bae415a", null ],
+    [ "topology", "classmrmeshpy_1_1Laplacian.html#ab2de54cbe949f98f111b0c2f1966e8af", null ],
     [ "updateSolver", "classmrmeshpy_1_1Laplacian.html#a2f08ce89d085f4800192cfc97ea15938", null ]
 ];

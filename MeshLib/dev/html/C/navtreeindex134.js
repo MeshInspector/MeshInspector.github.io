@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"MRWeightedPointsShell_8h.html#afa0ec125048a2c496d40e2a5cae5c0e5":[6,2,1,0,0,0,3,39,22],
+"MRWeightedPointsShell_8h.html#afa48f38f4c78e4a5bbb2fd060782d0d9":[6,2,1,0,0,0,3,39,15],
 "MRWeightedPointsShell_8h.html#afbe07936bd5ddc6db30899509b0a9f16":[6,2,1,0,0,0,3,39,106],
 "MRWeightedPointsShell_8h.html#afeabc302754f176c03033e1bb97f7701":[6,2,1,0,0,0,3,39,50],
 "MRWeightedPointsShell_8h_source.html":[6,2,1,0,0,0,3,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "structMR__Vector3f.html#af231b1ad1b20023178270820302149f8":[6,2,0,0,50,0],
 "structMR__Vector3i.html":[6,2,0,0,51],
 "structMR__Vector3i.html#a7aef790883b4f51b0418ea96979f7054":[6,2,0,0,51,0],
-"structMR__Vector3i.html#a7ced15e6b88f42e49930db4fb28ef34c":[6,2,0,0,51,2],
-"structMR__Vector3i.html#a869abe23626ddb85ec4cdbb6e36dcad6":[6,2,0,0,51,1],
-"structMR__Vector3i64.html":[6,2,0,0,52]
+"structMR__Vector3i.html#a7ced15e6b88f42e49930db4fb28ef34c":[6,2,0,0,51,2]
 };

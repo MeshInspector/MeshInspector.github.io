@@ -223,6 +223,10 @@ Functions</h2></td></tr>
 <tr class="separator:a8b8ef579c5779ad4d2984deda25af9cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbed454afaad11363b03fd045a07589" id="r_a2fbed454afaad11363b03fd045a07589"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbed454afaad11363b03fd045a07589">MR_Laplacian_firstLayerFixedVerts</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
 <tr class="separator:a2fbed454afaad11363b03fd045a07589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56fc7d876182cfe2124510bf99f3fd8" id="r_ae56fc7d876182cfe2124510bf99f3fd8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae56fc7d876182cfe2124510bf99f3fd8">MR_Laplacian_topology</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
+<tr class="separator:ae56fc7d876182cfe2124510bf99f3fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1f5d2fd2c6257475041a7956e90de5" id="r_aed1f5d2fd2c6257475041a7956e90de5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed1f5d2fd2c6257475041a7956e90de5">MR_Laplacian_points</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
+<tr class="separator:aed1f5d2fd2c6257475041a7956e90de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a5a83991ce0ccd72650f7dedbedd89cae" name="a5a83991ce0ccd72650f7dedbedd89cae"></a>
@@ -694,6 +698,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aed1f5d2fd2c6257475041a7956e90de5" name="aed1f5d2fd2c6257475041a7956e90de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed1f5d2fd2c6257475041a7956e90de5">&#9670;&#160;</a></span>MR_Laplacian_points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_Laplacian_points </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return the vector of coordinates for which Laplacian was constructed Generated from method <code>MR::Laplacian::points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a349e7bc904db55563e15412c136a3d9a" name="a349e7bc904db55563e15412c136a3d9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a349e7bc904db55563e15412c136a3d9a">&#9670;&#160;</a></span>MR_Laplacian_region()</h2>
 
@@ -709,6 +731,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>return all initially free vertices and the first layer of vertices around them Generated from method <code>MR::Laplacian::region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae56fc7d876182cfe2124510bf99f3fd8" name="ae56fc7d876182cfe2124510bf99f3fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56fc7d876182cfe2124510bf99f3fd8">&#9670;&#160;</a></span>MR_Laplacian_topology()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> * MR_Laplacian_topology </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return the topology for which Laplacian was constructed Generated from method <code>MR::Laplacian::topology</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>

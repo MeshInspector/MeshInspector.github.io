@@ -4623,6 +4623,8 @@
     <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" kind="function"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga193dcb7b5ba595a2dad19cf1b4af4ce9" kind="function"><name>freeVerts</name></member>
     <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" kind="function"><name>firstLayerFixedVerts</name></member>
+    <member refid="group__GeneralGroup_1gac4f2d6921a705dd7dd24fb45d990795a" kind="function"><name>topology</name></member>
+    <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
     <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
     <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" kind="function"><name>prepareRhs_</name></member>
@@ -10717,6 +10719,7 @@
     <member refid="group__GeneralGroup_1gabf2e20a55a28b2f567d2c8197674fd9d" kind="function"><name>updateRegion_</name></member>
     <member refid="group__GeneralGroup_1ga405e5904bb2f5f323394b020acdb5b67" kind="function"><name>invalidateMetricsCache_</name></member>
     <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" kind="function"><name>abortEdit_</name></member>
+    <member refid="group__GeneralGroup_1ga3b3b4f21af3868efc2586ae20093938a" kind="function"><name>initLaplacian_</name></member>
     <member refid="group__GeneralGroup_1gad41aeaafb3e4c8632a313f4d729c3561" kind="function"><name>laplacianPickVert_</name></member>
     <member refid="group__GeneralGroup_1ga297618816e83dce980de3f9075d4657a" kind="function"><name>laplacianMoveVert_</name></member>
     <member refid="group__GeneralGroup_1gafd37fd93e8c51f4037dda6a9b72ee3d7" kind="function"><name>updateVizualizeSelection_</name></member>
@@ -25307,6 +25310,8 @@
     <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" kind="function"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga193dcb7b5ba595a2dad19cf1b4af4ce9" kind="function"><name>freeVerts</name></member>
     <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" kind="function"><name>firstLayerFixedVerts</name></member>
+    <member refid="group__GeneralGroup_1gac4f2d6921a705dd7dd24fb45d990795a" kind="function"><name>topology</name></member>
+    <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
     <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
     <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" kind="function"><name>prepareRhs_</name></member>
@@ -28797,6 +28802,7 @@
     <member refid="group__GeneralGroup_1gabf2e20a55a28b2f567d2c8197674fd9d" kind="function"><name>updateRegion_</name></member>
     <member refid="group__GeneralGroup_1ga405e5904bb2f5f323394b020acdb5b67" kind="function"><name>invalidateMetricsCache_</name></member>
     <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" kind="function"><name>abortEdit_</name></member>
+    <member refid="group__GeneralGroup_1ga3b3b4f21af3868efc2586ae20093938a" kind="function"><name>initLaplacian_</name></member>
     <member refid="group__GeneralGroup_1gad41aeaafb3e4c8632a313f4d729c3561" kind="function"><name>laplacianPickVert_</name></member>
     <member refid="group__GeneralGroup_1ga297618816e83dce980de3f9075d4657a" kind="function"><name>laplacianMoveVert_</name></member>
     <member refid="group__GeneralGroup_1gafd37fd93e8c51f4037dda6a9b72ee3d7" kind="function"><name>updateVizualizeSelection_</name></member>

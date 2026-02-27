@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217":[6,0,0,12,0,0],
+"structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26":[6,0,0,12,0,3],
+"structMR_1_1PointCloud.html#a5da247e2172bb10e5ba6ed1105d5c167":[6,0,0,12,0,13],
 "structMR_1_1PointCloud.html#a645a4b6af1de600172fab56912082219":[6,0,0,12,0,9],
 "structMR_1_1PointCloud.html#a765101913d8149614746444a3257c1f2":[6,0,0,12,0,2],
 "structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315":[6,0,0,12,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[6,0,2,0,2,24,1,3],
 "structMR_1_1SceneReorder.html":[6,0,0,20,659],
 "structMR_1_1SearchPathSettings.html":[6,0,0,20,382],
-"structMR_1_1SegmEndColors.html":[6,0,0,20,776],
-"structMR_1_1SegmPoint.html":[6,0,0,0,22],
-"structMR_1_1SegmPoint.html":[6,0,0,20,452],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,0,20,427]
+"structMR_1_1SegmEndColors.html":[6,0,0,20,776]
 };
