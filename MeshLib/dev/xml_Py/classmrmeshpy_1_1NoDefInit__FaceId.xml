@@ -139,7 +139,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::FaceId&gt;
-Aliases:  Buffer_FaceId.const_iterator, Buffer_FaceId.const_reference, Buffer_FaceId_FaceId.T, Buffer_FaceId_FaceId.const_iterator, Buffer_FaceId_FaceId.reference, NoCtor_FaceId.type, Buffer_FaceId.reference, Buffer_FaceId_FaceId.const_reference, Buffer_FaceId.T, Buffer_FaceId_FaceId.iterator, Buffer_FaceId.iterator
+Aliases:  Buffer_FaceId_FaceId.const_iterator, Buffer_FaceId.const_reference, Buffer_FaceId.T, Buffer_FaceId.const_iterator, Buffer_FaceId_FaceId.reference, Buffer_FaceId.reference, NoCtor_FaceId.type, Buffer_FaceId_FaceId.T, Buffer_FaceId_FaceId.iterator, Buffer_FaceId.iterator, Buffer_FaceId_FaceId.const_reference
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

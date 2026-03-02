@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1LinesLoadSettings.html":[6,0,0,20,285],
+"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,1,0,1,18,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,2,0,2,8,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,1,0,1,18,0,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,2,0,2,8,0,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,1,0,1,18,0,1],
 "structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,2,0,2,8,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,1,0,1,19,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,2,0,2,9,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1MeshSave_1_1MeshSaver.html":[6,0,1,0,1,23,2],
 "structMR_1_1MeshSave_1_1MeshSaver.html":[6,0,2,0,2,13,2],
 "structMR_1_1MeshSave_1_1MeshSaver.html#a42c3b3942648bbdf04a63ea09d084621":[6,0,1,0,1,23,2,2],
-"structMR_1_1MeshSave_1_1MeshSaver.html#a42c3b3942648bbdf04a63ea09d084621":[6,0,2,0,2,13,2,2],
-"structMR_1_1MeshSave_1_1MeshSaver.html#a4951d53470a1d6ced4ee918e8836c3fc":[6,0,1,0,1,23,2,1],
-"structMR_1_1MeshSave_1_1MeshSaver.html#a4951d53470a1d6ced4ee918e8836c3fc":[6,0,2,0,2,13,2,1],
-"structMR_1_1MeshSave_1_1MeshSaver.html#a88e501ec164cae8c6cfe40f5fa7438cc":[6,0,1,0,1,23,2,0],
-"structMR_1_1MeshSave_1_1MeshSaver.html#a88e501ec164cae8c6cfe40f5fa7438cc":[6,0,2,0,2,13,2,0],
-"structMR_1_1MeshSave_1_1MeshSaverCapabilities.html":[6,0,1,0,1,23,3],
-"structMR_1_1MeshSave_1_1MeshSaverCapabilities.html":[6,0,2,0,2,13,3]
+"structMR_1_1MeshSave_1_1MeshSaver.html#a42c3b3942648bbdf04a63ea09d084621":[6,0,2,0,2,13,2,2]
 };

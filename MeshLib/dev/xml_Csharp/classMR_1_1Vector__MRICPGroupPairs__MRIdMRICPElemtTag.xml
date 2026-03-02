@@ -3,6 +3,7 @@
   <compounddef id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a9ecf515bbb69dab5814f2eca29c9d301" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRICPGroupPairs</type>
@@ -11,40 +12,30 @@
         <name>vec</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.vec</qualifiedname>
         <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+<para>The user can directly manipulate the vector, they can&apos;t break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32511" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32511" bodyend="32511"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38527" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38527" bodyend="38527"/>
       </memberdef>
     </sectiondef>
-    <sectiondef kind="package-func">
-      <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3883c4ba526b141f75e590b98916eecd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</definition>
-        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
-        <name>Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name>
-        <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1f1d4cc9dc9ab43a11b34c15de5f4925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.ICPGroupPairs &gt; MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.GetEnumerator</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32530" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32530" bodyend="32534"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38516" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38516" bodyend="38519"/>
       </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1afae7706ec079e83a2a9094b14392b899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</definition>
@@ -58,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32540" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32540" bodyend="32546"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38556" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38556" bodyend="38562"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a80a17b2061bb505aba956b8b0061a36d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -77,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32551" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32551" bodyend="32558"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38567" bodyend="38574"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a771fe4f9e8b5d9a15f7c32411892bafc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -96,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32563" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32563" bodyend="32563"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38579" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38579" bodyend="38579"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a96a7cf3484c8c4fe2ec483755cf0d30b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -115,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32568" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32568" bodyend="32568"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38584" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38584" bodyend="38584"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a24d7c8d777fa296acec889981abbe1a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32574" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32574" bodyend="32580"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38590" bodyend="38596"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a4422821db24ba880a98d9b8174821bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32586" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32586" bodyend="32593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38602" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38602" bodyend="38609"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a2168defadecaccb4bc4b247482d52903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -176,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32599" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32599" bodyend="32606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38615" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38615" bodyend="38622"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a2cc0dac4bc12d17cbf3e20dc10486c04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag" kindref="compound">MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</ref></type>
@@ -195,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32617" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32617" bodyend="32624"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38633" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38633" bodyend="38640"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aa3dcb82247432abba30af9d393c175d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -210,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32629" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32629" bodyend="32634"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38645" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38645" bodyend="38650"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac0239402719687ee712a91eef020ea2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -229,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32639" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32639" bodyend="32644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38655" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38655" bodyend="38660"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a788a614ab333664221a7d3abc7ffa1d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -252,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32649" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32649" bodyend="32654"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38665" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38665" bodyend="38670"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ad0bfb6b4b73718d12ad7833d4a608996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -271,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32659" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32659" bodyend="32664"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38675" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38675" bodyend="38680"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af12a1b4ace5a27eae977b8830dc57acf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -290,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32686" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32686" bodyend="32691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38702" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38702" bodyend="38707"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a48595c8781e7d62f41a2e35b35e57abd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -313,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32697" bodyend="32702"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38713" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38713" bodyend="38718"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1460c972bcd2ddc15424a6bbc96244dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -340,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32709" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32709" bodyend="32714"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38725" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38725" bodyend="38730"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5559164df5a86b17cce6dccd29e5021e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -363,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32720" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32720" bodyend="32725"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38736" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38736" bodyend="38741"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aac48ca302b0ddb95137369d9d837bcc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref></type>
@@ -382,7 +373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32731" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32731" bodyend="32736"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38747" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38747" bodyend="38752"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a85feab3b6fc3e5b7decfcce1d1e0d5ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -401,7 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32741" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32741" bodyend="32747"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38757" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38757" bodyend="38763"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3232dc5e1633bf5cd9f0103cac67753c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -420,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32752" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32752" bodyend="32758"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38768" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38768" bodyend="38774"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ad652f69bd789d1e98d3f4e7062f79eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -435,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32763" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32763" bodyend="32768"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38779" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38779" bodyend="38784"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac10aeab9172dace94bee3a6c09f6db6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref></type>
@@ -450,7 +441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32773" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32773" bodyend="32778"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38789" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38789" bodyend="38794"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a40b9604c7b9867e20a3cceb5509e61b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref></type>
@@ -465,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32783" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32783" bodyend="32791"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38799" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38799" bodyend="38807"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5672cae7be4258e9269b018847212800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref></type>
@@ -480,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32796" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32796" bodyend="32804"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38812" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38812" bodyend="38820"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aca95aa278a5e076140b51a1c2f147f49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.? <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -495,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32809" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32809" bodyend="32818"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38825" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38825" bodyend="38834"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1acb3c33a52a39d3b05a23a0c980a7dd77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -514,7 +505,47 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32823" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32823" bodyend="32828"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38839" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38839" bodyend="38844"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3d596a8c1dab57f86638a4698fb38bd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38521" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38521" bodyend="38524"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3883c4ba526b141f75e590b98916eecd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38546" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38546" bodyend="38550"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -535,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32612" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32612" bodyend="32612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38628" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38628" bodyend="38628"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -562,10 +593,15 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
       <node id="1">
         <label>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</label>
         <link refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -573,6 +609,8 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -583,10 +621,15 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
       <node id="1">
         <label>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</label>
         <link refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -594,6 +637,8 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -603,7 +648,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32508" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32509" bodyend="32829"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38460" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38461" bodyend="38845"/>
     <listofallmembers>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a2cc0dac4bc12d17cbf3e20dc10486c04" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>assign</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aac48ca302b0ddb95137369d9d837bcc3" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>autoResizeAt</name></member>
@@ -614,6 +659,8 @@
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aca95aa278a5e076140b51a1c2f147f49" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>data</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac10aeab9172dace94bee3a6c09f6db6d" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>emplaceBack</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a40b9604c7b9867e20a3cceb5509e61b5" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1f1d4cc9dc9ab43a11b34c15de5f4925" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3d596a8c1dab57f86638a4698fb38bd4" prot="private" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ade43364375b3fc5d078396691955b06c" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>operator Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ad652f69bd789d1e98d3f4e7062f79eb2" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a85feab3b6fc3e5b7decfcce1d1e0d5ac" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>pushBack</name></member>

@@ -322,6 +322,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63029" bodyend="63030"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4i_1aac6c1843614259c05796338717e53e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4i.__init__</definition>
+        <argsstring>(self, Color arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector4i.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63032" bodyend="63033"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector4i_1a621979069a3f4294e648ed80a1de0807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector4i.__init__</definition>
@@ -338,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63032" bodyend="63033"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63035" bodyend="63036"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector4i_1afc75d4b026fa64af3f9765657498fe6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -372,7 +394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63035" bodyend="63036"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63038" bodyend="63039"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector4i_1afb281bc5b5232f31bd004ec9d22f8a00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -396,29 +418,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63038" bodyend="63041"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector4i_1aac6c1843614259c05796338717e53e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.Vector4i.__init__</definition>
-        <argsstring>(self, Color arg0)</argsstring>
-        <name>__init__</name>
-        <qualifiedname>mrmeshpy.Vector4i.__init__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
-          <declname>arg0</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63043" bodyend="63044"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63041" bodyend="63044"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector4i_1a2f89b9a5b302be8fbec381272948656b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
@@ -774,10 +774,10 @@ four-dimensional vector
       <member refid="classmrmeshpy_1_1Vector4i_1a73568ee53c7ac41b6c41edba488e3ada" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__imatmul__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1aa8806c483e09b15aae532e3d2a267c16" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1aa8806c483e09b15aae532e3d2a267c16" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4i_1aac6c1843614259c05796338717e53e39" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1a621979069a3f4294e648ed80a1de0807" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1afc75d4b026fa64af3f9765657498fe6c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1afb281bc5b5232f31bd004ec9d22f8a00" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector4i_1aac6c1843614259c05796338717e53e39" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1a2f89b9a5b302be8fbec381272948656b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__isub__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1adefa696667e0994ccb909cec9c7167f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1Vector4i_1a95cb349c7e3194277d60bb4c014594ac" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4i</scope><name>__itruediv__</name></member>

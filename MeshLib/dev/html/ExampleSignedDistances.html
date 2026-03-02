@@ -164,7 +164,7 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">    }</div>
 <div class="line">    <span class="comment">// get object of VertScalars - set of distances between points of target mesh and reference mesh</span></div>
 <div class="line">    <span class="keyword">auto</span> vertDistances = MR::findSignedDistances( *refMesh, *mesh );</div>
-<div class="line">    <span class="keyword">auto</span> minmax = std::minmax_element( MR::begin( vertDistances ), MR::end( vertDistances ) );</div>
+<div class="line">    <span class="keyword">auto</span> minmax = std::minmax_element( begin( vertDistances ), end( vertDistances ) );</div>
 <div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is &quot;</span> &lt;&lt; *minmax.first &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is &quot;</span> &lt;&lt; *minmax.second &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line"> </div>

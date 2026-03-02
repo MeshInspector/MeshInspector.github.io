@@ -963,7 +963,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+<para><verbatim>The user can directly manipulate the vector, they can&apos;t break anything anyway.
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -997,7 +997,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::Vector&lt;MR::VoxelId, MR::VoxelId&gt;
-Aliases:  Vector_Id_VoxelTag_Id_VoxelTag, Vector_Id_VoxelTag_Id_VoxelTag, Vector_TypedBitSet_Id_VoxelTag_IndexType_TypedBitSet_Id_VoxelTag_IndexType, Vector_Id_VoxelTag_Id_VoxelTag
+Aliases:  Vector_Id_VoxelTag_Id_VoxelTag, Vector_Id_VoxelTag_Id_VoxelTag, Vector_Id_VoxelTag_Id_VoxelTag, Vector_TypedBitSet_Id_VoxelTag_IndexType_TypedBitSet_Id_VoxelTag_IndexType
 
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,

@@ -140,7 +140,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::SimpleVolumeMinMax
-Aliases:  VoxelsVolumeAccessor_SimpleVolumeMinMax.VolumeType, VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_SimpleVolumeMinMax.VolumeType
+Aliases:  VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_SimpleVolumeMinMax.VolumeType, VoxelsVolumeAccessor_SimpleVolumeMinMax.VolumeType
 
 represents a box in 3D space subdivided on voxels stored in T;
 and stores minimum and maximum values among all valid voxels

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::SetBitIteratorT_MRGraphEdgeBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRGraphEdgeBitSet</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a89fe19caa54e4fd74ee4f9ba4e3b77f9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SetBitIteratorT_MRGraphEdgeBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16444" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16444" bodyend="16444"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a4d3e952492da509cf593dc10e0c7562d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>SetBitIteratorT_MRGraphEdgeBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16449" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16449" bodyend="16454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a843f4cf3f3fd5f2d9ae9156b6ea8c4e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRGraphEdgeBitSet _other)</argsstring>
+        <name>SetBitIteratorT_MRGraphEdgeBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRGraphEdgeBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16459" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16459" bodyend="16465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a9e7a656c20644613da75bdb19948ea08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</definition>
+        <argsstring>(SetBitIteratorT_MRGraphEdgeBitSet _other)</argsstring>
+        <name>SetBitIteratorT_MRGraphEdgeBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet" kindref="compound">SetBitIteratorT_MRGraphEdgeBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16470" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16470" bodyend="16470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1ac9c69d89532a32fa0bc40cc91e9c1636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet bitset)</argsstring>
+        <name>SetBitIteratorT_MRGraphEdgeBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.SetBitIteratorT_MRGraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_GraphEdgeBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16476" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16476" bodyend="16482"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a3099f87a4803ad0391669445828898d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet" kindref="compound">MR.SetBitIteratorT_MRGraphEdgeBitSet</ref></type>
+        <definition>unsafe MR.SetBitIteratorT_MRGraphEdgeBitSet MR.SetBitIteratorT_MRGraphEdgeBitSet.assign</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRGraphEdgeBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SetBitIteratorT_MRGraphEdgeBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16493" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16493" bodyend="16500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a98eba1f8117895b6f069fa1a39767de9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.SetBitIteratorT_MRGraphEdgeBitSet.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16505" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16505" bodyend="16510"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1abbb1a87afd2d5fb3222cc8fee87b1e46" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.SetBitIteratorT_MRGraphEdgeBitSet.operator SetBitIteratorT_MRGraphEdgeBitSet</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet bitset)</argsstring>
+        <name>operator SetBitIteratorT_MRGraphEdgeBitSet</name>
+        <qualifiedname>MR.SetBitIteratorT_MRGraphEdgeBitSet.operator SetBitIteratorT_MRGraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_GraphEdgeBitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16488" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16488" bodyend="16488"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&lt;<ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRGraphEdgeBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRGraphEdgeBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.SetBitIteratorT_MRGraphEdgeBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_SetBitIteratorT_MRGraphEdgeBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16442" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16443" bodyend="16511"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a3099f87a4803ad0391669445828898d6" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a98eba1f8117895b6f069fa1a39767de9" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1abbb1a87afd2d5fb3222cc8fee87b1e46" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>operator SetBitIteratorT_MRGraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a89fe19caa54e4fd74ee4f9ba4e3b77f9" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>SetBitIteratorT_MRGraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a4d3e952492da509cf593dc10e0c7562d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>SetBitIteratorT_MRGraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a843f4cf3f3fd5f2d9ae9156b6ea8c4e8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>SetBitIteratorT_MRGraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1a9e7a656c20644613da75bdb19948ea08" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>SetBitIteratorT_MRGraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1SetBitIteratorT__MRGraphEdgeBitSet_1ac9c69d89532a32fa0bc40cc91e9c1636" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphEdgeBitSet</scope><name>SetBitIteratorT_MRGraphEdgeBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

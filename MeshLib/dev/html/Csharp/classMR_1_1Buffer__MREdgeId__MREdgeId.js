@@ -6,6 +6,7 @@ var classMR_1_1Buffer__MREdgeId__MREdgeId =
     [ "assign", "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a3fe66d56be63b93ccc7b87c099fc03fe", null ],
     [ "clear", "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a684e2ddf7bf61adcde774f6907593ddd", null ],
     [ "data", "classMR_1_1Buffer__MREdgeId__MREdgeId.html#aaa25d279ed251b934092e607c8595315", null ],
+    [ "GetEnumerator", "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a11e3d999d2b7bc44b0f63b83bbda04f5", null ],
     [ "resize", "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a08f263891222bbd7209994e2d488ea56", null ],
     [ "this[MR.EdgeId i]", "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a22a56258e65faec3572528c1a7f7f85c", null ]
 ];

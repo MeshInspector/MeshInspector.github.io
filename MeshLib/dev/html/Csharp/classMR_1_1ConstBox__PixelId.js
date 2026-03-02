@@ -5,6 +5,7 @@ var classMR_1_1ConstBox__PixelId =
     [ "ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html#af6bde4cec7c678b370b9e3925e611df3", null ],
     [ "ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html#a28968eb78949a8b90ec994d7e13763e3", null ],
     [ "ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html#afa19a392aef0ba2e4469f4c5d9fc1256", null ],
+    [ "ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html#ab120abe80f71a95f3109257ffae05093", null ],
     [ "Dispose", "classMR_1_1ConstBox__PixelId.html#a0b759b58a785c7bb5caa78f588b209d4", null ],
     [ "Dispose", "classMR_1_1ConstBox__PixelId.html#aa26524b12dedf8035eabc1a3b91cee6b", null ],
     [ "Equals", "classMR_1_1ConstBox__PixelId.html#a5b3b5e8c75a964709f3d3e1349bb1f1e", null ],

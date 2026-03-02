@@ -3,6 +3,160 @@
   <compounddef id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a72fcdf88fcaf67a351c5387616710f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">MR.NoDefInit_MRIdMRICPElemtTag</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.NoDefInit_MRIdMRICPElemtTag &gt; MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8427" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8427" bodyend="8430"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a072e32997999050c8c4f410931644264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
+        <argsstring>()</argsstring>
+        <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8442" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8442" bodyend="8447"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab305fb14a3a5b1ec997e74eb32d39aa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
+        <argsstring>(MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag _other)</argsstring>
+        <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8452" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8452" bodyend="8458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab9711795d2f0303a533fe31656b0ea15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8463" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8463" bodyend="8468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa75457ca4d56fbbebabfa4c141f6dbe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kindref="compound">MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.assign</definition>
+        <argsstring>(MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8473" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8473" bodyend="8480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8485" bodyend="8490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8495" bodyend="8500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">NoDefInit_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe new MR.? NoDefInit_MRIdMRICPElemtTag MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::data</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8521" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8521" bodyend="8530"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af6d1f4597e6becf248a5b85500014891" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8432" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8432" bodyend="8435"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a0ea4b2d9b3aedb14634bd7dcb6fae1b8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -24,130 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6005" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6005" bodyend="6005"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a072e32997999050c8c4f410931644264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
-        <argsstring>()</argsstring>
-        <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6010" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6010" bodyend="6015"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab305fb14a3a5b1ec997e74eb32d39aa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
-        <argsstring>(MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag _other)</argsstring>
-        <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6020" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6020" bodyend="6026"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab9711795d2f0303a533fe31656b0ea15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6031" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6031" bodyend="6036"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa75457ca4d56fbbebabfa4c141f6dbe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kindref="compound">MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</ref></type>
-        <definition>unsafe MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.assign</definition>
-        <argsstring>(MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6041" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6041" bodyend="6048"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6053" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6053" bodyend="6058"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6063" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6063" bodyend="6068"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">NoDefInit_MRIdMRICPElemtTag</ref></type>
-        <definition>unsafe new MR.? NoDefInit_MRIdMRICPElemtTag MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6089" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6089" bodyend="6098"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8437" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8437" bodyend="8437"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -174,10 +205,15 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
       <node id="1">
         <label>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
         <link refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -185,6 +221,8 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -195,10 +233,15 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
       <node id="1">
         <label>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
         <link refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -206,6 +249,8 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -215,7 +260,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6003" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6004" bodyend="6099"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8371" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8372" bodyend="8531"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa75457ca4d56fbbebabfa4c141f6dbe7" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>assign</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a0ea4b2d9b3aedb14634bd7dcb6fae1b8" prot="package" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
@@ -224,6 +269,8 @@
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab9711795d2f0303a533fe31656b0ea15" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>clear</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>data</name></member>
+      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a72fcdf88fcaf67a351c5387616710f58" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af6d1f4597e6becf248a5b85500014891" prot="private" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>resize</name></member>
     </listofallmembers>
   </compounddef>

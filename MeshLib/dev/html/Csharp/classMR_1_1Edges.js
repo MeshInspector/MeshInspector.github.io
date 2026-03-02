@@ -16,6 +16,7 @@ var classMR_1_1Edges =
     [ "data", "classMR_1_1Edges.html#a5c1b7f066540613eadcb2e790a8ac278", null ],
     [ "emplaceBack", "classMR_1_1Edges.html#ae1a687a534ed89ba313a3899b9784f09", null ],
     [ "front", "classMR_1_1Edges.html#a6b13875473ff22d1ff98b38b08fee574", null ],
+    [ "GetEnumerator", "classMR_1_1Edges.html#a023a4b86a7fa3c2c6d05baa96d765aa7", null ],
     [ "operator Edges", "classMR_1_1Edges.html#a4d8298e70cfb5aa6ea29418e6d4b5b8c", null ],
     [ "popBack", "classMR_1_1Edges.html#ac2d81ef2bca2f93efbb8166f2c96ff57", null ],
     [ "pushBack", "classMR_1_1Edges.html#af884458dd485607229ca420d09a9136c", null ],

@@ -4,6 +4,7 @@ var structMR_1_1GraphEdgeId =
     [ "GraphEdgeId", "structMR_1_1GraphEdgeId.html#af9d64ca1143af98a465b8d2e27e64063", null ],
     [ "GraphEdgeId", "structMR_1_1GraphEdgeId.html#a0b1e148ba6bef0fff9a0ca7c3425eb0f", null ],
     [ "GraphEdgeId", "structMR_1_1GraphEdgeId.html#ad0eff940ad2e80c49d9d3df6971ab8e1", null ],
+    [ "GraphEdgeId", "structMR_1_1GraphEdgeId.html#ade444a96081611c7269e82f1da3b1876", null ],
     [ "addAssign", "structMR_1_1GraphEdgeId.html#a0e623ecc8783505efd46f9ccb9d8268e", null ],
     [ "decr", "structMR_1_1GraphEdgeId.html#a96f0abd89962eada9c89ab2baf42f6b2", null ],
     [ "decr", "structMR_1_1GraphEdgeId.html#af65658804b34d65a1b7aed6224939aef", null ],

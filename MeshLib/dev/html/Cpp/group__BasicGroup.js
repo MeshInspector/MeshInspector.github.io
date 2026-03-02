@@ -2,6 +2,21 @@ var group__BasicGroup =
 [
     [ "Iterators", "group__IteratorRange.html", "group__IteratorRange" ],
     [ "MR::BitSetParallel", "namespaceMR_1_1BitSetParallel.html", null ],
+    [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", [
+      [ "difference_type", "classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b", null ],
+      [ "IndexType", "classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0", null ],
+      [ "iterator_category", "classMR_1_1SetBitIteratorT.html#a3ead9e2691fedc1c67d1212721d3a157", null ],
+      [ "pointer", "classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba", null ],
+      [ "reference", "classMR_1_1SetBitIteratorT.html#aced05ebc6333620dcadd87af14a3f610", null ],
+      [ "value_type", "classMR_1_1SetBitIteratorT.html#a65326d51ccb6cea126d404534ea2a329", null ],
+      [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8", null ],
+      [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca", null ],
+      [ "bitset", "classMR_1_1SetBitIteratorT.html#a4462188d7adb7134739834723a0e405e", null ],
+      [ "operator*", "classMR_1_1SetBitIteratorT.html#aa231d32ed4abe7e732adfff36d5e267b", null ],
+      [ "operator++", "classMR_1_1SetBitIteratorT.html#aad821003890f84db390e9a4011c8d37d", null ],
+      [ "operator++", "classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2", null ],
+      [ "operator==", "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea", null ]
+    ] ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
       [ "block_type", "classMR_1_1BitSet.html#a2e90d15a57f34b4cdbf8341a85e52575", null ],
       [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
@@ -59,6 +74,8 @@ var group__BasicGroup =
       [ "test_set", "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c", null ],
       [ "uncheckedTest", "classMR_1_1BitSet.html#a88d7cb003f37bb4ff177bf6082074305", null ],
       [ "uncheckedTestSet", "classMR_1_1BitSet.html#aa1f040574bd60bfde685c9747f1e689c", null ],
+      [ "begin", "classMR_1_1BitSet.html#ad10eef891e591ca10e1d3328b630615b", null ],
+      [ "end", "classMR_1_1BitSet.html#a6da7329d948ae26caf06d68118aa5dc4", null ],
       [ "operator<<", "classMR_1_1BitSet.html#a6a67416a17d4bee21a1d349ba0e9b7f1", null ],
       [ "operator>>", "classMR_1_1BitSet.html#aadab48850b173a8c3542b620d35b4960", null ]
     ] ],
@@ -106,25 +123,12 @@ var group__BasicGroup =
       [ "subtract", "classMR_1_1TypedBitSet.html#ad9dd330c61eb1ba1e9d9de2595f7553e", null ],
       [ "test", "classMR_1_1TypedBitSet.html#af68ef102b7a101a12239b7dcaaad7bf9", null ],
       [ "test_set", "classMR_1_1TypedBitSet.html#a0aa7b935d8b7848c1ac69d22eb1d799e", null ],
+      [ "begin", "classMR_1_1TypedBitSet.html#a7431dbea0877010d6fe6071a4079e4f0", null ],
+      [ "end", "classMR_1_1TypedBitSet.html#a46316815dacca975fffa963f1041957a", null ],
       [ "operator&", "classMR_1_1TypedBitSet.html#a1247ee89971a386cb10997fb10817e32", null ],
       [ "operator-", "classMR_1_1TypedBitSet.html#a5c12d2b38ae2d0cc432992afdaa37ebf", null ],
       [ "operator^", "classMR_1_1TypedBitSet.html#a9a6311d580354711cb0ba92d6491c58d", null ],
       [ "operator|", "classMR_1_1TypedBitSet.html#a1149b2c32a22288cf8377b471b828dfc", null ]
-    ] ],
-    [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", [
-      [ "difference_type", "classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b", null ],
-      [ "IndexType", "classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0", null ],
-      [ "iterator_category", "classMR_1_1SetBitIteratorT.html#a3ead9e2691fedc1c67d1212721d3a157", null ],
-      [ "pointer", "classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba", null ],
-      [ "reference", "classMR_1_1SetBitIteratorT.html#aced05ebc6333620dcadd87af14a3f610", null ],
-      [ "value_type", "classMR_1_1SetBitIteratorT.html#a65326d51ccb6cea126d404534ea2a329", null ],
-      [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8", null ],
-      [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca", null ],
-      [ "bitset", "classMR_1_1SetBitIteratorT.html#a4462188d7adb7134739834723a0e405e", null ],
-      [ "operator*", "classMR_1_1SetBitIteratorT.html#aa231d32ed4abe7e732adfff36d5e267b", null ],
-      [ "operator++", "classMR_1_1SetBitIteratorT.html#aad821003890f84db390e9a4011c8d37d", null ],
-      [ "operator++", "classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2", null ],
-      [ "operator==", "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea", null ]
     ] ],
     [ "MR::IdRange< Id >", "structMR_1_1IdRange.html", [
       [ "size", "structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a", null ],
@@ -151,7 +155,11 @@ var group__BasicGroup =
       [ "operator[]", "group__GeneralGroup.html#ga66aeaf02d13592c3ada67644f64737d9", null ],
       [ "operator[]", "group__GeneralGroup.html#gaf470e40945b997fc7f6e66ab968a9d48", null ],
       [ "resize", "group__GeneralGroup.html#gab1bc4a40918912e001d6da1bf1595d36", null ],
-      [ "size", "group__GeneralGroup.html#ga40bf924b784b4438431f70517b950d70", null ]
+      [ "size", "group__GeneralGroup.html#ga40bf924b784b4438431f70517b950d70", null ],
+      [ "begin", "group__GeneralGroup.html#ga0e8a0d24d793d8361f36b8732241f64c", null ],
+      [ "begin", "group__GeneralGroup.html#ga55e9a4cb66cd8ea3f169c01dec8a4c47", null ],
+      [ "end", "group__GeneralGroup.html#gaafc760c21f8f2800875322be6ec79f12", null ],
+      [ "end", "group__GeneralGroup.html#ga7b23195a6817f509adeba53011944bbc", null ]
     ] ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", [
       [ "Element", "structMR_1_1Heap_1_1Element.html", [
@@ -280,6 +288,10 @@ var group__BasicGroup =
       [ "resizeWithReserve", "group__GeneralGroup.html#ga8d2ff338e3ecf6232044e755e5145fde", null ],
       [ "size", "group__GeneralGroup.html#ga2816ffd002bac70ab04d1bd18e2c5cfd", null ],
       [ "swap", "group__GeneralGroup.html#gae03333f72ab69a79829ae5f0d6d426ef", null ],
+      [ "begin", "group__GeneralGroup.html#gac2374ea2fa52ec9ff0f43f1d45aab889", null ],
+      [ "begin", "group__GeneralGroup.html#gab3222ec28cfb5b8baf0f806b9035207d", null ],
+      [ "end", "group__GeneralGroup.html#ga41b6e642d26380cc66a251b84ede3a07", null ],
+      [ "end", "group__GeneralGroup.html#gae4b694dba80d0a51e8c06de14eef2aff", null ],
       [ "vec_", "group__GeneralGroup.html#gad4c1a76a727c0e52830149df75a87a0f", null ]
     ] ],
     [ "MR::addFileNameInError", "group__BasicGroup.html#ga5a6d09d98985d45fdd40a23f1df854c2", null ],
@@ -287,8 +299,6 @@ var group__BasicGroup =
     [ "MR::asString", "group__BasicGroup.html#gabf753ea56f25d4f1e8076ef90286efce", null ],
     [ "MR::asU8String", "group__BasicGroup.html#gaa7dfbd8929d54cde238ceb82f7836fcc", null ],
     [ "MR::asU8String", "group__BasicGroup.html#ga51004e242a303220acdbb40a49488daf", null ],
-    [ "MR::begin", "group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e", null ],
-    [ "MR::begin", "group__BasicGroup.html#ga38c685d6a63eb8e03a7e70c795f56c69", null ],
     [ "MR::BitSetParallelFor", "group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e", null ],
     [ "MR::BitSetParallelFor", "group__BasicGroup.html#gaa44fd6dceea20f68975639cc07df31b2", null ],
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#ga13c3e24dbe2feef1f9d56ea427ef4107", null ],
@@ -302,8 +312,6 @@ var group__BasicGroup =
     [ "MR::contains", "group__BasicGroup.html#ga84d3ef89997a21c7e28a95f9888e3a2e", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#ga81e9669d61837dd60dd6c7c5f1e1ff75", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#ga6960104faf9ba5240b17b414e029bbe8", null ],
-    [ "MR::end", "group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a", null ],
-    [ "MR::end", "group__BasicGroup.html#ga52b6833b699c3c42d4d252bc856d9440", null ],
     [ "MR::faceMapsComposition", "group__BasicGroup.html#gace9f90469164cb307af85f02d5249dc9", null ],
     [ "MR::faceMapsComposition", "group__BasicGroup.html#gae86e0a0b11af9b982cfed96b9802f710", null ],
     [ "MR::fillVectorWithSeqNums", "group__BasicGroup.html#ga896279ee5bfa452079d99c123817842b", null ],

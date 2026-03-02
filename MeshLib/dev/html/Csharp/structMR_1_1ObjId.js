@@ -4,6 +4,7 @@ var structMR_1_1ObjId =
     [ "ObjId", "structMR_1_1ObjId.html#ad83a0518820d0e912bb43243cd590500", null ],
     [ "ObjId", "structMR_1_1ObjId.html#a70822b66eae4e3ff000a5c27fcf7e00a", null ],
     [ "ObjId", "structMR_1_1ObjId.html#a087038984e20dd51292e23c6943dd188", null ],
+    [ "ObjId", "structMR_1_1ObjId.html#a03f16942ade1a53cff0ef10ede02f7d1", null ],
     [ "addAssign", "structMR_1_1ObjId.html#ad64bba958f36d4a4e3fe558a9b7c2fed", null ],
     [ "decr", "structMR_1_1ObjId.html#a9ae88b4b3e41fd265f3d68e182601388", null ],
     [ "decr", "structMR_1_1ObjId.html#a069056d421540cf52a3cc5290d23ac56", null ],

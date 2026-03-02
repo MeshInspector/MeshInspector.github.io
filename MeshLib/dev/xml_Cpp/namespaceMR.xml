@@ -1342,7 +1342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="137" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="137" bodyend="140"/>
+        <location file="MRMesh/MRVector2.h" line="146" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="146" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1a847fe803c44c19055d0a15eca838df52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1370,7 +1370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="144" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="144" bodyend="147"/>
+        <location file="MRMesh/MRVector2.h" line="153" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="153" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1398,7 +1398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="151" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="151" bodyend="154"/>
+        <location file="MRMesh/MRVector2.h" line="160" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="160" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1aa7e0a1754fac4de39eb88fc3f1e2db46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1426,7 +1426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="158" column="13" bodyfile="MRMesh/MRVector2.h" bodystart="158" bodyend="161"/>
+        <location file="MRMesh/MRVector2.h" line="167" column="13" bodyfile="MRMesh/MRVector2.h" bodystart="167" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1a9d7aee9b382101cb77cc426a34791517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1450,7 +1450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="165" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="165" bodyend="168"/>
+        <location file="MRMesh/MRVector2.h" line="174" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="174" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1478,7 +1478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="172" column="16" bodyfile="MRMesh/MRVector2.h" bodystart="172" bodyend="175"/>
+        <location file="MRMesh/MRVector2.h" line="181" column="16" bodyfile="MRMesh/MRVector2.h" bodystart="181" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1506,7 +1506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="179" column="16" bodyfile="MRMesh/MRVector2.h" bodystart="179" bodyend="182"/>
+        <location file="MRMesh/MRVector2.h" line="188" column="16" bodyfile="MRMesh/MRVector2.h" bodystart="188" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1535,31 +1535,7 @@
         <inbodydescription>
 <para>this version is slower and less precise return std::acos( std::clamp( dot( a.normalized(), b.normalized() ), T(-1), T(1) ) );</para>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="186" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="186" bodyend="191"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Vector2_1a14144bf50dd7436a833a9ad74fab0fdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>MR_BIND_IGNORE_PY auto</type>
-        <definition>MR_BIND_IGNORE_PY auto begin</definition>
-        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR::Vector2::begin</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>We don&apos;t need to bind those functions in Python, because this doesn&apos;t prevent <computeroutput>__iter__</computeroutput> from being generated for the type. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="208" column="31" bodyfile="MRMesh/MRVector2.h" bodystart="208" bodyend="208"/>
+        <location file="MRMesh/MRVector2.h" line="195" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="195" bodyend="200"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -1573,7 +1549,6 @@
       <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
       <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
       <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
-      <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
@@ -1582,7 +1557,6 @@
       <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
       <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
       <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
-      <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     </sectiondef>
     <sectiondef kind="enum">
       <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
@@ -2092,10 +2066,6 @@
       <member refid="group__BasicGroup_1ga3057a729a683a6a8a6b4f097a0094d58" kind="function"><name>makePredicate</name></member>
       <member refid="group__BasicGroup_1ga84d3ef89997a21c7e28a95f9888e3a2e" kind="function"><name>contains</name></member>
       <member refid="group__BasicGroup_1ga57dc941dcc422cae832eb4e285f9258b" kind="function"><name>contains</name></member>
-      <member refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kind="function"><name>begin</name></member>
-      <member refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kind="function"><name>end</name></member>
-      <member refid="group__BasicGroup_1ga38c685d6a63eb8e03a7e70c795f56c69" kind="function"><name>begin</name></member>
-      <member refid="group__BasicGroup_1ga52b6833b699c3c42d4d252bc856d9440" kind="function"><name>end</name></member>
       <member refid="group__BasicGroup_1ga896279ee5bfa452079d99c123817842b" kind="function"><name>fillVectorWithSeqNums</name></member>
       <member refid="group__BasicGroup_1ga68d5cff879ff5d9d841c1ecebfb71ed1" kind="function"><name>makeVectorWithSeqNums</name></member>
       <member refid="group__BasicGroup_1ga2637b6b01910fbe8294a9f26f472f35f" kind="function"><name>makeHashMapWithSeqNums</name></member>
@@ -2122,10 +2092,6 @@
       <member refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kind="function"><name>get</name></member>
       <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
       <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
-      <member refid="group__GeneralGroup_1ga3bd81207bb5dccdfe9533eae31414e16" kind="function"><name>begin</name></member>
-      <member refid="group__GeneralGroup_1gaff3156c83a0cd4f80c755c47b577c1c9" kind="function"><name>begin</name></member>
-      <member refid="group__GeneralGroup_1ga484bb1d73bd93c876842593fe3441211" kind="function"><name>end</name></member>
-      <member refid="group__GeneralGroup_1ga78839ede3780b97bcce02af755e7e577" kind="function"><name>end</name></member>
       <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
       <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
       <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
@@ -2193,11 +2159,7 @@
       <member refid="group__GeneralGroup_1ga6183b53e85b58b3c7c8e78c383c4be15" kind="function"><name>calcDipoles</name></member>
       <member refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" kind="function"><name>calcFastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1gaf2e1ccdd324b3b749a67c4cb570b80a3" kind="function"><name>findPathWithExtension</name></member>
-      <member refid="group__GeneralGroup_1ga8037d5f405b7159ef4d26ac722d943f1" kind="function"><name>begin</name></member>
-      <member refid="group__GeneralGroup_1ga4926258bf30d6156c19b0f6e042d77c7" kind="function"><name>end</name></member>
       <member refid="group__GeneralGroup_1ga5c22b27c2464d046430fef62ea6832e0" kind="function"><name>operator!=</name></member>
-      <member refid="group__GeneralGroup_1gacb74ec61600c1cedc296814bdcedd962" kind="function"><name>begin</name></member>
-      <member refid="group__GeneralGroup_1gabae985da68516747ebfd8b040b5cefcb" kind="function"><name>end</name></member>
       <member refid="group__GeneralGroup_1ga039594731b2ed053db57ed622292346d" kind="function"><name>operator!=</name></member>
       <member refid="group__AABBTreeGroup_1ga27f3ab649f42f8c32266636ea1e4a672" kind="function"><name>findDirMax</name></member>
       <member refid="group__AABBTreeGroup_1ga349eb7a8c883560631fb216578fa032e" kind="function"><name>findDirMax</name></member>
@@ -3269,10 +3231,6 @@
       <member refid="group__GeneralGroup_1ga0c2948849a79593059ba5c880d5ae050" kind="function"><name>unitsAreEquivalent</name></member>
       <member refid="group__GeneralGroup_1gabc1dac35ba49a323ad136b896517b3b3" kind="function"><name>convertUnits</name></member>
       <member refid="group__GeneralGroup_1gab07c2e27cb1322b5471e253ff9e52a0d" kind="function"><name>convertUnits</name></member>
-      <member refid="group__GeneralGroup_1ga6ee95b3cff2f84ccfbcbc79a7e30c8e9" kind="function"><name>begin</name></member>
-      <member refid="group__GeneralGroup_1ga093b76c6840e13694b05f1909b43a2fc" kind="function"><name>begin</name></member>
-      <member refid="group__GeneralGroup_1ga352a74dc36ff65d5e9f0a441c478e5f2" kind="function"><name>end</name></member>
-      <member refid="group__GeneralGroup_1gaed083bc895027bcf1a1fe77d22deebeb" kind="function"><name>end</name></member>
       <member refid="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" kind="function"><name>getAt</name></member>
       <member refid="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" kind="function"><name>getAt</name></member>
       <member refid="group__ViewportGroup_1gaab3f3280e9df3ad6b0ae88ee01f28286" kind="function"><name>operator&amp;</name></member>

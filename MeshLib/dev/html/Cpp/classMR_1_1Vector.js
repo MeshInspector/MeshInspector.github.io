@@ -43,5 +43,9 @@ var classMR_1_1Vector =
     [ "resizeWithReserve", "group__GeneralGroup.html#ga8d2ff338e3ecf6232044e755e5145fde", null ],
     [ "size", "group__GeneralGroup.html#ga2816ffd002bac70ab04d1bd18e2c5cfd", null ],
     [ "swap", "group__GeneralGroup.html#gae03333f72ab69a79829ae5f0d6d426ef", null ],
+    [ "begin", "group__GeneralGroup.html#gac2374ea2fa52ec9ff0f43f1d45aab889", null ],
+    [ "begin", "group__GeneralGroup.html#gab3222ec28cfb5b8baf0f806b9035207d", null ],
+    [ "end", "group__GeneralGroup.html#ga41b6e642d26380cc66a251b84ede3a07", null ],
+    [ "end", "group__GeneralGroup.html#gae4b694dba80d0a51e8c06de14eef2aff", null ],
     [ "vec_", "group__GeneralGroup.html#gad4c1a76a727c0e52830149df75a87a0f", null ]
 ];

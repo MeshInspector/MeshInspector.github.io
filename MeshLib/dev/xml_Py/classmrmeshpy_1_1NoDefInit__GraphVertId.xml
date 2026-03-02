@@ -139,7 +139,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::GraphVertId&gt;
-Aliases:  Buffer_GraphVertId_GraphVertId.const_iterator, Buffer_GraphVertId_GraphVertId.const_reference, Buffer_GraphVertId_GraphVertId.reference, Buffer_GraphVertId_GraphVertId.T, NoCtor_GraphVertId.type, Buffer_GraphVertId_GraphVertId.iterator
+Aliases:  Buffer_GraphVertId_GraphVertId.T, Buffer_GraphVertId_GraphVertId.const_iterator, Buffer_GraphVertId_GraphVertId.reference, Buffer_GraphVertId_GraphVertId.const_reference, Buffer_GraphVertId_GraphVertId.iterator, NoCtor_GraphVertId.type
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

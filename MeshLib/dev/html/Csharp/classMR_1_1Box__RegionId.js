@@ -5,6 +5,7 @@ var classMR_1_1Box__RegionId =
     [ "Box_RegionId", "classMR_1_1Box__RegionId.html#a1871500836c50ab00389789b647f2177", null ],
     [ "Box_RegionId", "classMR_1_1Box__RegionId.html#ab716164ee2d73c3541c71ba2677e647d", null ],
     [ "Box_RegionId", "classMR_1_1Box__RegionId.html#a4603e172d16350d74e276f5b4db96b26", null ],
+    [ "Box_RegionId", "classMR_1_1Box__RegionId.html#a81c3dafd502a7b3d41c4cb065f012eec", null ],
     [ "addAssign", "classMR_1_1Box__RegionId.html#ab0f7ed624bf694ff36aa05e9729dcf2d", null ],
     [ "Assign", "classMR_1_1Box__RegionId.html#a39848c6bedaa7cbc3ee1ebfb4465bdf4", null ],
     [ "decr", "classMR_1_1Box__RegionId.html#a40d1d12a6956daab58aaa23b99a30aa7", null ],

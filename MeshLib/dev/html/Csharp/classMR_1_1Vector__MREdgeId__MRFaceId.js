@@ -16,6 +16,7 @@ var classMR_1_1Vector__MREdgeId__MRFaceId =
     [ "data", "classMR_1_1Vector__MREdgeId__MRFaceId.html#a2dc1ef46ded16fd885f3ac4fe5a81449", null ],
     [ "emplaceBack", "classMR_1_1Vector__MREdgeId__MRFaceId.html#a80c7799a3ba3337688ef05ddc3fec6ba", null ],
     [ "front", "classMR_1_1Vector__MREdgeId__MRFaceId.html#af2f2b221d6af85d9b0c4d67f41458167", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MREdgeId__MRFaceId.html#a35282725cafe9e0893fd497c57abc159", null ],
     [ "operator Vector_MREdgeId_MRFaceId", "classMR_1_1Vector__MREdgeId__MRFaceId.html#a60a791c7669ed204919b7c663bad66b2", null ],
     [ "popBack", "classMR_1_1Vector__MREdgeId__MRFaceId.html#aae0155d78c5bad4ea912fd0001d501de", null ],
     [ "pushBack", "classMR_1_1Vector__MREdgeId__MRFaceId.html#a0682fa14984cf1a213b70df997dcb040", null ],

@@ -19,7 +19,6 @@
       <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
       <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
       <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
-      <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga8ecb748650561c957b8b73afd24288cb" kind="typedef"><name>ValueType</name></member>
@@ -74,16 +73,21 @@
       <member refid="group__GeneralGroup_1ga7eff91fc4125a6e58692cd47a47988c8" kind="friend"><name>operator/=</name></member>
       <member refid="group__GeneralGroup_1ga6864066faa20838c17a4d2ff7ce6ca80" kind="friend"><name>operator&lt;&lt;</name></member>
       <member refid="group__GeneralGroup_1ga64b84f75251bb43ebfc98d129d849ab9" kind="friend"><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga2a0868d8f2ba2eb64ff5ac8e05e76782" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gac86b550c05ce4cf51bf3850ba0a000e7" kind="friend"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga219a1a3ddaae6f7467c7b62278b0a2df" kind="friend"><name>end</name></member>
+      <member refid="group__GeneralGroup_1ga6b9ccf24b760d9f47f17c7e5f184e826" kind="friend"><name>end</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>three-dimensional vector </para>
     </detaileddescription>
-    <location file="MRMesh/MRVector3.h" line="32" column="1" bodyfile="MRMesh/MRVector3.h" bodystart="33" bodyend="152"/>
+    <location file="MRMesh/MRVector3.h" line="32" column="1" bodyfile="MRMesh/MRVector3.h" bodystart="33" bodyend="161"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>angle</name></member>
-      <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1ga2a0868d8f2ba2eb64ff5ac8e05e76782" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gac86b550c05ce4cf51bf3850ba0a000e7" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>begin</name></member>
       <member refid="group__GeneralGroup_1gaf9065ae414e0307701366e479519540d" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>cross</name></member>
       <member refid="group__GeneralGroup_1gaf3522428d5137f019a3da623a19222ab" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>diagonal</name></member>
       <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>distance</name></member>
@@ -91,6 +95,8 @@
       <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>div</name></member>
       <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>dot</name></member>
       <member refid="group__GeneralGroup_1ga5f40bccc013c893ac7558c2262a6eff1" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>elements</name></member>
+      <member refid="group__GeneralGroup_1ga219a1a3ddaae6f7467c7b62278b0a2df" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>end</name></member>
+      <member refid="group__GeneralGroup_1ga6b9ccf24b760d9f47f17c7e5f184e826" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>end</name></member>
       <member refid="group__GeneralGroup_1gaf10fc7b8e96744a5bf22924d7bb263ad" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>isFinite</name></member>
       <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>length</name></member>
       <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>lengthSq</name></member>

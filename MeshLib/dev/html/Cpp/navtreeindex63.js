@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a":[6,0,0,14,0,36],
+"structMR_1_1Polyline.html#a4b0c7356bf9410a07c99ee9ee80b8db5":[6,0,0,14,0,1],
+"structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a":[6,0,0,14,0,0],
+"structMR_1_1Polyline.html#a5c0695a3191577ed04a1a11224d50045":[6,0,0,14,0,6],
+"structMR_1_1Polyline.html#a64df04a94a707f0ac6075f909e5e9d2a":[6,0,0,14,0,4],
+"structMR_1_1Polyline.html#a6680e632ef5cd15c07a087a1b0f4da18":[6,0,0,14,0,11],
 "structMR_1_1Polyline.html#a83ce5536fb56d4e5f1126acbc419a663":[6,0,0,14,0,38],
 "structMR_1_1Polyline.html#a8b760a1f4e7c27a21eb28891086f6dde":[6,0,0,14,0,37],
 "structMR_1_1Polyline.html#a8e343d92cbb2ec14812dc38e4ba107fd":[6,0,0,14,0,39],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5":[6,0,0,9,7,0,12],
 "structMR_1_1SubdivideSettings.html#acfa476aa1e7c9c2507f12fde82a81f8f":[6,0,0,9,7,0,3],
 "structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[6,0,0,9,7,0,15],
-"structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[6,0,0,9,7,0,8],
-"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[6,0,0,9,7,0,5],
-"structMR_1_1SubdivideSettings.html#ae48504fe6f54fb67dee57969d77efc43":[6,0,0,9,7,0,2],
-"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,11],
-"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,13],
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,7],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,692]
+"structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[6,0,0,9,7,0,8]
 };

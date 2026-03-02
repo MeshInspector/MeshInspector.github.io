@@ -5,6 +5,7 @@ var classMR_1_1ConstBox__NodeId =
     [ "ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html#a00408e9eed56d644a435da0912430ccf", null ],
     [ "ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html#aefa8db0833f1759a2fb275d62d8fdf07", null ],
     [ "ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html#aa3a881c9f52c16ebbaf41e4387f53a9a", null ],
+    [ "ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html#aa1148136167a8155026334cbd9173917", null ],
     [ "Dispose", "classMR_1_1ConstBox__NodeId.html#adf2dd3a1e5997056a934c33a2bc30412", null ],
     [ "Dispose", "classMR_1_1ConstBox__NodeId.html#a209056bd01b1ee53f7c04980508e5a54", null ],
     [ "Equals", "classMR_1_1ConstBox__NodeId.html#a28c752786c4f1b895f7fb2995ec409d1", null ],

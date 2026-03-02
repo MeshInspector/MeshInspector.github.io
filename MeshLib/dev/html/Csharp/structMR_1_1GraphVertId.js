@@ -4,6 +4,7 @@ var structMR_1_1GraphVertId =
     [ "GraphVertId", "structMR_1_1GraphVertId.html#a3efaed61cfd0c1b686eec7d2f2bb968c", null ],
     [ "GraphVertId", "structMR_1_1GraphVertId.html#add67c7491ea3aa584d34d6c950c48012", null ],
     [ "GraphVertId", "structMR_1_1GraphVertId.html#a6c0f0d31ab55cb5e6ad48a4f644eb30c", null ],
+    [ "GraphVertId", "structMR_1_1GraphVertId.html#a31fa40089549080753089fa940302722", null ],
     [ "addAssign", "structMR_1_1GraphVertId.html#a4f346c09158b0037a1918757189e0146", null ],
     [ "decr", "structMR_1_1GraphVertId.html#ae49f3c8ab6135e8741239cc655d28ddf", null ],
     [ "decr", "structMR_1_1GraphVertId.html#af107a6f3a0340d5e3bbbe6db4ab85ca6", null ],

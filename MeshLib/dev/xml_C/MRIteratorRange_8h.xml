@@ -365,11 +365,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="115" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="115" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a1170f9b402989d766ce71c554409b3e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a8bca753cc6925eb917c1877af4cb545a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
-        <definition>MRC_API MR_ChunkIterator * MR_begin_MR_IteratorRange_MR_ChunkIterator</definition>
+        <definition>MRC_API MR_ChunkIterator * MR_begin_const_MR_IteratorRange_MR_ChunkIterator_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_ChunkIterator *range)</argsstring>
-        <name>MR_begin_MR_IteratorRange_MR_ChunkIterator</name>
+        <name>MR_begin_const_MR_IteratorRange_MR_ChunkIterator_ref</name>
         <param>
           <type>const <ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref> *</type>
           <declname>range</declname>
@@ -383,11 +383,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="121" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="121" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a6976057123064820721d3f8452f69310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a8ce98030ee09847b522dec2209443c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
-        <definition>MRC_API MR_ChunkIterator * MR_end_MR_IteratorRange_MR_ChunkIterator</definition>
+        <definition>MRC_API MR_ChunkIterator * MR_end_const_MR_IteratorRange_MR_ChunkIterator_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_ChunkIterator *range)</argsstring>
-        <name>MR_end_MR_IteratorRange_MR_ChunkIterator</name>
+        <name>MR_end_const_MR_IteratorRange_MR_ChunkIterator_ref</name>
         <param>
           <type>const <ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref> *</type>
           <declname>range</declname>
@@ -659,11 +659,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="201" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="201" declcolumn="52"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a3862240b02616126184ff28a7bb01064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_UndirectedEdgeIterator * MR_begin_MR_IteratorRange_MR_UndirectedEdgeIterator</definition>
+        <definition>MRC_API MR_UndirectedEdgeIterator * MR_begin_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_UndirectedEdgeIterator *range)</argsstring>
-        <name>MR_begin_MR_IteratorRange_MR_UndirectedEdgeIterator</name>
+        <name>MR_begin_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</name>
         <param>
           <type>const <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
           <declname>range</declname>
@@ -677,11 +677,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="207" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="207" declcolumn="35"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ae66bbe38e6cb41d10ca829b81fadb595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_UndirectedEdgeIterator * MR_end_MR_IteratorRange_MR_UndirectedEdgeIterator</definition>
+        <definition>MRC_API MR_UndirectedEdgeIterator * MR_end_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_UndirectedEdgeIterator *range)</argsstring>
-        <name>MR_end_MR_IteratorRange_MR_UndirectedEdgeIterator</name>
+        <name>MR_end_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</name>
         <param>
           <type>const <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
           <declname>range</declname>
@@ -953,11 +953,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="287" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="287" declcolumn="64"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a498eae314c9fd9176174313212e7aed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a9987ca91ce92d9c8620abae9a9b1f3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref> *</type>
-        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameOrigin * MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</definition>
+        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameOrigin * MR_begin_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin *range)</argsstring>
-        <name>MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</name>
+        <name>MR_begin_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_ref</name>
         <param>
           <type>const <ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref> *</type>
           <declname>range</declname>
@@ -971,11 +971,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="293" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="293" declcolumn="47"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a3338f6d85f1246bbcd6285db1a6ed5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a7a48c7a137155e284f94b2dd4faff84c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref> *</type>
-        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameOrigin * MR_end_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</definition>
+        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameOrigin * MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin *range)</argsstring>
-        <name>MR_end_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</name>
+        <name>MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_ref</name>
         <param>
           <type>const <ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref> *</type>
           <declname>range</declname>
@@ -1247,11 +1247,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="373" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="373" declcolumn="62"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a216be37bbe07a5839350d6228224fef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a5485eecf4080386ba44f7ff78e5f0e60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref> *</type>
-        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameLeft * MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</definition>
+        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameLeft * MR_begin_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft *range)</argsstring>
-        <name>MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</name>
+        <name>MR_begin_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</name>
         <param>
           <type>const <ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref> *</type>
           <declname>range</declname>
@@ -1265,11 +1265,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="379" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="379" declcolumn="45"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1abd6c6a1f55d778f28e3e37a88bfd149c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a30fdafd788769106a7061d5c40b4c137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref> *</type>
-        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameLeft * MR_end_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</definition>
+        <definition>MRC_API MR_RingIterator_MR_NextEdgeSameLeft * MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft *range)</argsstring>
-        <name>MR_end_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</name>
+        <name>MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</name>
         <param>
           <type>const <ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref> *</type>
           <declname>range</declname>
@@ -1541,11 +1541,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="459" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="459" declcolumn="60"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a189b8917a536e14ed42ca6579ada500f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_begin_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</definition>
+        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *range)</argsstring>
-        <name>MR_begin_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</name>
+        <name>MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</name>
         <param>
           <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
           <declname>range</declname>
@@ -1559,11 +1559,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" line="465" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIteratorRange.h" declline="465" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a41a754a421a468b7905e8eadfd7883f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_end_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</definition>
+        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</definition>
         <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *range)</argsstring>
-        <name>MR_end_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</name>
+        <name>MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</name>
         <param>
           <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
           <declname>range</declname>
@@ -1636,9 +1636,9 @@
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="MRIteratorRange_8h_1a5e1131b879f47e1a0a8e3aa4bd2e8edf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a5e1131b879f47e1a0a8e3aa4bd2e8edf" kindref="member">MR_IteratorRange_MR_ChunkIterator_AssignFromAnother</ref>(<ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRIteratorRange_8h_1a1170f9b402989d766ce71c554409b3e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1170f9b402989d766ce71c554409b3e8" kindref="member">MR_begin_MR_IteratorRange_MR_ChunkIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="121" refid="MRIteratorRange_8h_1a8bca753cc6925eb917c1877af4cb545a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a8bca753cc6925eb917c1877af4cb545a" kindref="member">MR_begin_const_MR_IteratorRange_MR_ChunkIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRIteratorRange_8h_1a6976057123064820721d3f8452f69310" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a6976057123064820721d3f8452f69310" kindref="member">MR_end_MR_IteratorRange_MR_ChunkIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="127" refid="MRIteratorRange_8h_1a8ce98030ee09847b522dec2209443c91" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a8ce98030ee09847b522dec2209443c91" kindref="member">MR_end_const_MR_IteratorRange_MR_ChunkIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133" refid="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
@@ -1666,9 +1666,9 @@
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
 <codeline lineno="201" refid="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRIteratorRange_8h_1a3862240b02616126184ff28a7bb01064" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a3862240b02616126184ff28a7bb01064" kindref="member">MR_begin_MR_IteratorRange_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="207" refid="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" kindref="member">MR_begin_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRIteratorRange_8h_1ae66bbe38e6cb41d10ca829b81fadb595" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ae66bbe38e6cb41d10ca829b81fadb595" kindref="member">MR_end_MR_IteratorRange_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="213" refid="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" kindref="member">MR_end_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
 <codeline lineno="219" refid="MRIteratorRange_8h_1a210d3346b8e704db94caa34c01688bbc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRIteratorRange_8h_1a210d3346b8e704db94caa34c01688bbc" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
@@ -1696,9 +1696,9 @@
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
 <codeline lineno="287" refid="MRIteratorRange_8h_1aaef106b5c40c9ec09636c0d3bd7d749e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRIteratorRange_8h_1aaef106b5c40c9ec09636c0d3bd7d749e" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRIteratorRange_8h_1a498eae314c9fd9176174313212e7aed5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRIteratorRange_8h_1a498eae314c9fd9176174313212e7aed5" kindref="member">MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="293" refid="MRIteratorRange_8h_1a9987ca91ce92d9c8620abae9a9b1f3f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRIteratorRange_8h_1a9987ca91ce92d9c8620abae9a9b1f3f3" kindref="member">MR_begin_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="MRIteratorRange_8h_1a3338f6d85f1246bbcd6285db1a6ed5c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRIteratorRange_8h_1a3338f6d85f1246bbcd6285db1a6ed5c1" kindref="member">MR_end_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="299" refid="MRIteratorRange_8h_1a7a48c7a137155e284f94b2dd4faff84c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRIteratorRange_8h_1a7a48c7a137155e284f94b2dd4faff84c" kindref="member">MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
 <codeline lineno="305" refid="MRIteratorRange_8h_1aff28f237e4f2479ce9fc4f93add2486c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1aff28f237e4f2479ce9fc4f93add2486c" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
@@ -1726,9 +1726,9 @@
 <codeline lineno="366"><highlight class="normal"></highlight></codeline>
 <codeline lineno="373" refid="MRIteratorRange_8h_1afc1b5ce191624fa13e3990ae59f9acb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1afc1b5ce191624fa13e3990ae59f9acb5" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379" refid="MRIteratorRange_8h_1a216be37bbe07a5839350d6228224fef6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1a216be37bbe07a5839350d6228224fef6" kindref="member">MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="379" refid="MRIteratorRange_8h_1a5485eecf4080386ba44f7ff78e5f0e60" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1a5485eecf4080386ba44f7ff78e5f0e60" kindref="member">MR_begin_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight></codeline>
-<codeline lineno="385" refid="MRIteratorRange_8h_1abd6c6a1f55d778f28e3e37a88bfd149c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1abd6c6a1f55d778f28e3e37a88bfd149c" kindref="member">MR_end_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="385" refid="MRIteratorRange_8h_1a30fdafd788769106a7061d5c40b4c137" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1a30fdafd788769106a7061d5c40b4c137" kindref="member">MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="386"><highlight class="normal"></highlight></codeline>
 <codeline lineno="391" refid="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="392"><highlight class="normal"></highlight></codeline>
@@ -1756,9 +1756,9 @@
 <codeline lineno="452"><highlight class="normal"></highlight></codeline>
 <codeline lineno="459" refid="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="460"><highlight class="normal"></highlight></codeline>
-<codeline lineno="465" refid="MRIteratorRange_8h_1a189b8917a536e14ed42ca6579ada500f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a189b8917a536e14ed42ca6579ada500f" kindref="member">MR_begin_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="465" refid="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" kindref="member">MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="466"><highlight class="normal"></highlight></codeline>
-<codeline lineno="471" refid="MRIteratorRange_8h_1a41a754a421a468b7905e8eadfd7883f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a41a754a421a468b7905e8eadfd7883f1" kindref="member">MR_end_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="471" refid="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" kindref="member">MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="472"><highlight class="normal"></highlight></codeline>
 <codeline lineno="473"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="474"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

@@ -16,6 +16,7 @@ var classMR_1_1UndirectedEdgeMap =
     [ "data", "classMR_1_1UndirectedEdgeMap.html#a8d12c2197b1b1b7fc975dd3d6aab98bd", null ],
     [ "emplaceBack", "classMR_1_1UndirectedEdgeMap.html#a0f5c6087cbffa1f9dd412775f9a55a1e", null ],
     [ "front", "classMR_1_1UndirectedEdgeMap.html#a7f5ec4e8dbc5a5cfbeb72bed9226d0fc", null ],
+    [ "GetEnumerator", "classMR_1_1UndirectedEdgeMap.html#a41c5f41122313edc5c7151873ddf15cf", null ],
     [ "operator UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html#aaa5198b83b4798c01ff45d6b3a347460", null ],
     [ "popBack", "classMR_1_1UndirectedEdgeMap.html#a76aaa26bc02a0d86510fe8f0ba3d9035", null ],
     [ "pushBack", "classMR_1_1UndirectedEdgeMap.html#a31a67f749d2a23e6a93be640611ea3c7", null ],

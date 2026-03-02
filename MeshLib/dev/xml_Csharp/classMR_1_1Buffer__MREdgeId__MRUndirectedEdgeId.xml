@@ -3,6 +3,7 @@
   <compounddef id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MREdgeId_MRUndirectedEdgeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MREdgeId_MRUndirectedEdgeId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1acbc9a3e631997066598cbb5d90900767" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1NoDefInit__MREdgeId" kindref="compound">MR.NoDefInit_MREdgeId</ref></type>
@@ -17,7 +18,160 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3148" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3149" bodyend="3159"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4428" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4429" bodyend="4439"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a4168811f64a1bb0023c7caa0e01fc3bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MREdgeId" kindref="compound">MR.NoDefInit_MREdgeId</ref> &gt;</type>
+        <definition>new IEnumerator&lt; MR.NoDefInit_MREdgeId &gt; MR.Buffer_MREdgeId_MRUndirectedEdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4350" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4350" bodyend="4353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a3cdedaf4aff21088d6532630d14a1b71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>Buffer_MREdgeId_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4365" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4365" bodyend="4370"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a0f923f75df41a39fa4fb79c9964bcf74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</definition>
+        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId _other)</argsstring>
+        <name>Buffer_MREdgeId_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4375" bodyend="4381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1ace4c37c597cf970180224e06f6766b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Buffer_MREdgeId_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4386" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4386" bodyend="4391"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a7bf00f9c3b63e7c2ee81271065b1cb75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId" kindref="compound">MR.Buffer_MREdgeId_MRUndirectedEdgeId</ref></type>
+        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId MR.Buffer_MREdgeId_MRUndirectedEdgeId.assign</definition>
+        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4396" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4396" bodyend="4403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a26e41153c0003ee50477976b230e3e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MREdgeId_MRUndirectedEdgeId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4408" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4408" bodyend="4413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a7a4b7244a80d387e1e697746fcf018ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Buffer_MREdgeId_MRUndirectedEdgeId.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::resize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4418" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4418" bodyend="4423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a10e8b0c17a8fd89b47cc62d36353ea49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MREdgeId" kindref="compound">NoDefInit_MREdgeId</ref></type>
+        <definition>unsafe new MR.? NoDefInit_MREdgeId MR.Buffer_MREdgeId_MRUndirectedEdgeId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::data</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4444" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4444" bodyend="4453"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a249bb6d209ba6652cb9c05d06bae6305" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Buffer_MREdgeId_MRUndirectedEdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4355" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4355" bodyend="4358"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,130 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3080" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3080" bodyend="3080"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a3cdedaf4aff21088d6532630d14a1b71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</definition>
-        <argsstring>()</argsstring>
-        <name>Buffer_MREdgeId_MRUndirectedEdgeId</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</qualifiedname>
-        <briefdescription>
-<para>Constructs an empty (default-constructed) instance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3085" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3085" bodyend="3090"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a0f923f75df41a39fa4fb79c9964bcf74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</definition>
-        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId _other)</argsstring>
-        <name>Buffer_MREdgeId_MRUndirectedEdgeId</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3095" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3095" bodyend="3101"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1ace4c37c597cf970180224e06f6766b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</definition>
-        <argsstring>(ulong size)</argsstring>
-        <name>Buffer_MREdgeId_MRUndirectedEdgeId</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.Buffer_MREdgeId_MRUndirectedEdgeId</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::Buffer</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3106" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3106" bodyend="3111"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a7bf00f9c3b63e7c2ee81271065b1cb75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId" kindref="compound">MR.Buffer_MREdgeId_MRUndirectedEdgeId</ref></type>
-        <definition>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId MR.Buffer_MREdgeId_MRUndirectedEdgeId.assign</definition>
-        <argsstring>(MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_Buffer_MREdgeId_MRUndirectedEdgeId</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3116" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3116" bodyend="3123"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a26e41153c0003ee50477976b230e3e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MREdgeId_MRUndirectedEdgeId.clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.clear</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::clear</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3128" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3128" bodyend="3133"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a7a4b7244a80d387e1e697746fcf018ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Buffer_MREdgeId_MRUndirectedEdgeId.resize</definition>
-        <argsstring>(ulong newSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.resize</qualifiedname>
-        <param>
-          <type>ulong</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::resize</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3138" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3138" bodyend="3143"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a10e8b0c17a8fd89b47cc62d36353ea49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.? <ref refid="classMR_1_1NoDefInit__MREdgeId" kindref="compound">NoDefInit_MREdgeId</ref></type>
-        <definition>unsafe new MR.? NoDefInit_MREdgeId MR.Buffer_MREdgeId_MRUndirectedEdgeId.data</definition>
-        <argsstring>()</argsstring>
-        <name>data</name>
-        <qualifiedname>MR.Buffer_MREdgeId_MRUndirectedEdgeId.data</qualifiedname>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::data</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3164" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3164" bodyend="3173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4360" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4360" bodyend="4360"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -191,10 +222,15 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
       <node id="1">
         <label>MR.Buffer_MREdgeId_MRUndirectedEdgeId</label>
         <link refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -202,6 +238,8 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -212,10 +250,15 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
       <node id="1">
         <label>MR.Buffer_MREdgeId_MRUndirectedEdgeId</label>
         <link refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -223,6 +266,8 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -232,7 +277,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3078" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3079" bodyend="3174"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="4294" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="4295" bodyend="4454"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a7bf00f9c3b63e7c2ee81271065b1cb75" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a057264ad7e29e7ec3a24c18c3275cc68" prot="package" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>Buffer_MREdgeId_MRUndirectedEdgeId</name></member>
@@ -241,6 +286,8 @@
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1ace4c37c597cf970180224e06f6766b69" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>Buffer_MREdgeId_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a26e41153c0003ee50477976b230e3e72" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>clear</name></member>
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a10e8b0c17a8fd89b47cc62d36353ea49" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a4168811f64a1bb0023c7caa0e01fc3bf" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a249bb6d209ba6652cb9c05d06bae6305" prot="private" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1a7a4b7244a80d387e1e697746fcf018ad" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>resize</name></member>
       <member refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId_1acbc9a3e631997066598cbb5d90900767" prot="public" virt="non-virtual"><scope>MR::Buffer_MREdgeId_MRUndirectedEdgeId</scope><name>this[MR.UndirectedEdgeId i]</name></member>
     </listofallmembers>

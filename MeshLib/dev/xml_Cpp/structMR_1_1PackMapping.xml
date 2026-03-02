@@ -13,7 +13,7 @@
     <detaileddescription>
 <para>mapping of mesh elements: old -&gt; new, the mapping is tight (or packing) in the sense that there are no unused new elements within [0, (e/f/v).tsize) </para>
     </detaileddescription>
-    <location file="MRMesh/MRBuffer.h" line="154" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="155" bodyend="159"/>
+    <location file="MRMesh/MRBuffer.h" line="143" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="144" bodyend="148"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga064cdbdc31f7c5de6f7cb77f75c1a962" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>e</name></member>
       <member refid="group__GeneralGroup_1ga53564598fd272bd72bf4ea9a97a2340a" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>f</name></member>

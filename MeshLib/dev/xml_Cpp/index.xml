@@ -672,6 +672,8 @@
     <member refid="classMR_1_1BitSet_1ad9e0a275c5788e83a990cca3d5b88b3e" kind="function"><name>findNonSetBitAfter_</name></member>
     <member refid="classMR_1_1BitSet_1a6a67416a17d4bee21a1d349ba0e9b7f1" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="classMR_1_1BitSet_1aadab48850b173a8c3542b620d35b4960" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="classMR_1_1BitSet_1ad10eef891e591ca10e1d3328b630615b" kind="friend"><name>begin</name></member>
+    <member refid="classMR_1_1BitSet_1a6da7329d948ae26caf06d68118aa5dc4" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1SeparationPointStorage_1_1Block" kind="struct"><name>MR::SeparationPointStorage::Block</name>
     <member refid="group__GeneralGroup_1ga171fe956486e01cdfdddedaedd905ca4" kind="variable"><name>smap</name></member>
@@ -862,6 +864,10 @@
     <member refid="group__GeneralGroup_1ga0aae7e1ae916ef6da5cd9f342f93207c" kind="function"><name>backId</name></member>
     <member refid="group__GeneralGroup_1gabfa0b936734c36dff600039214adb66f" kind="function"><name>endId</name></member>
     <member refid="group__GeneralGroup_1ga7351432c6f65b963c17560ef8054076c" kind="function"><name>heapBytes</name></member>
+    <member refid="group__GeneralGroup_1ga55e9a4cb66cd8ea3f169c01dec8a4c47" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga0e8a0d24d793d8361f36b8732241f64c" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga7b23195a6817f509adeba53011944bbc" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1gaafc760c21f8f2800875322be6ec79f12" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1MeshBuilder_1_1BuildSettings" kind="struct"><name>MR::MeshBuilder::BuildSettings</name>
     <member refid="group__GeneralGroup_1ga1fdb51404a12dafa32d295e97234ce4f" kind="variable"><name>region</name></member>
@@ -2479,6 +2485,8 @@
   <compound refid="structMR_1_1Directory" kind="struct"><name>MR::Directory</name>
     <member refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" kind="variable"><name>dir</name></member>
     <member refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" kind="variable"><name>ec</name></member>
+    <member refid="group__GeneralGroup_1ga6ab2361fd0da1dda8b47bbf7a0b5c5dc" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga58ef3afa32fac9864ead9267f46a255d" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1DirectoryIterator" kind="struct"><name>MR::DirectoryIterator</name>
     <member refid="group__GeneralGroup_1ga43d198bfa65499a30571596ae9d9b943" kind="variable"><name>it</name></member>
@@ -2489,6 +2497,8 @@
   <compound refid="structMR_1_1DirectoryRecursive" kind="struct"><name>MR::DirectoryRecursive</name>
     <member refid="group__GeneralGroup_1ga0377432c17ff4de701e83f6c0ac198ae" kind="variable"><name>dir</name></member>
     <member refid="group__GeneralGroup_1ga2e941bde547838e6a74d34b9aed8d49e" kind="variable"><name>ec</name></member>
+    <member refid="group__GeneralGroup_1ga3208da396eae7727ebb85c7b57831d90" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga4b35e430ce2cbb2036d07755da2d4e7d" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1DirectoryRecursiveIterator" kind="struct"><name>MR::DirectoryRecursiveIterator</name>
     <member refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" kind="variable"><name>it</name></member>
@@ -11458,6 +11468,8 @@
     <member refid="classMR_1_1TypedBitSet_1a1149b2c32a22288cf8377b471b828dfc" kind="friend"><name>operator|</name></member>
     <member refid="classMR_1_1TypedBitSet_1a9a6311d580354711cb0ba92d6491c58d" kind="friend"><name>operator^</name></member>
     <member refid="classMR_1_1TypedBitSet_1a5c12d2b38ae2d0cc432992afdaa37ebf" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a7431dbea0877010d6fe6071a4079e4f0" kind="friend"><name>begin</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a46316815dacca975fffa963f1041957a" kind="friend"><name>end</name></member>
     <member refid="classMR_1_1TypedBitSet_1a14519da8a9492a4f7bfa687489218f29" kind="function"><name>beginId</name></member>
   </compound>
   <compound refid="structMR_1_1TypedFlatTree" kind="struct"><name>MR::TypedFlatTree</name>
@@ -11734,6 +11746,10 @@
     <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" kind="function"><name>data</name></member>
     <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
     <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
+    <member refid="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1Vector2" kind="struct"><name>MR::Vector2</name>
     <member refid="structMR_1_1Vector2_1a7be48c5d4180d89d8038acede661911e" kind="function"><name>distanceSq</name></member>
@@ -11744,7 +11760,6 @@
     <member refid="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" kind="function"><name>mult</name></member>
     <member refid="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" kind="function"><name>div</name></member>
     <member refid="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" kind="function"><name>angle</name></member>
-    <member refid="structMR_1_1Vector2_1a14144bf50dd7436a833a9ad74fab0fdb" kind="function"><name>begin</name></member>
     <member refid="structMR_1_1Vector2_1a419f18cb7af20ab8455495874cefbd9d" kind="typedef"><name>ValueType</name></member>
     <member refid="structMR_1_1Vector2_1a74579bfbb9d532d53c66684a02dc8cb5" kind="typedef"><name>MatrixType</name></member>
     <member refid="structMR_1_1Vector2_1aad35960bf4d5a0eefd7945e6e6bf768c" kind="typedef"><name>SymMatrixType</name></member>
@@ -11783,6 +11798,10 @@
     <member refid="structMR_1_1Vector2_1a4f4e721384be597d0f5a0ff303e07c48" kind="friend"><name>operator/=</name></member>
     <member refid="structMR_1_1Vector2_1af814c81714572ce6bb89483f32d274f1" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="structMR_1_1Vector2_1a5dfc5e9acce45ac36a78ba8a1115af3a" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="structMR_1_1Vector2_1a6ff45773ec0657ef8d168ab6b82400d2" kind="friend"><name>begin</name></member>
+    <member refid="structMR_1_1Vector2_1a1d6b8b54858c91277b9c4999e6350855" kind="friend"><name>begin</name></member>
+    <member refid="structMR_1_1Vector2_1a2c381e860fef7677ad4076ca39c57ad8" kind="friend"><name>end</name></member>
+    <member refid="structMR_1_1Vector2_1a0e1305674b24cfc7ac3054b3e9561b44" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1Vector3" kind="struct"><name>MR::Vector3</name>
     <member refid="group__GeneralGroup_1ga1b7a343939b1a92e61700fb5bd609b56" kind="function"><name>distanceSq</name></member>
@@ -11795,7 +11814,6 @@
     <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
     <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
-    <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga8ecb748650561c957b8b73afd24288cb" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1ga7c629d81f031f089ef5fb3ea45689ea5" kind="typedef"><name>MatrixType</name></member>
     <member refid="group__GeneralGroup_1ga1be16f68d003d1fe45b63bd915d50bff" kind="typedef"><name>SymMatrixType</name></member>
@@ -11838,6 +11856,10 @@
     <member refid="group__GeneralGroup_1ga7eff91fc4125a6e58692cd47a47988c8" kind="friend"><name>operator/=</name></member>
     <member refid="group__GeneralGroup_1ga6864066faa20838c17a4d2ff7ce6ca80" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1ga64b84f75251bb43ebfc98d129d849ab9" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="group__GeneralGroup_1ga2a0868d8f2ba2eb64ff5ac8e05e76782" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gac86b550c05ce4cf51bf3850ba0a000e7" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga219a1a3ddaae6f7467c7b62278b0a2df" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga6b9ccf24b760d9f47f17c7e5f184e826" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1Vector4" kind="struct"><name>MR::Vector4</name>
     <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
@@ -11846,7 +11868,6 @@
     <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
     <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
-    <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga458502d7f4776a6bddef3495ad567541" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1gaecd18b3e13e9b87796242a04883f0592" kind="typedef"><name>MatrixType</name></member>
     <member refid="group__GeneralGroup_1ga7e8e73c7399e2f377d577c269193a4a0" kind="typedef"><name>SymMatrixType</name></member>
@@ -11882,6 +11903,10 @@
     <member refid="group__GeneralGroup_1gaca06a481c53bf7bef1d1f701851ce9de" kind="friend"><name>operator/=</name></member>
     <member refid="group__GeneralGroup_1ga3789873acec0961558649d59f6de2825" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1ga27e081f75b4813615258a92cc851597b" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="group__GeneralGroup_1ga37fcdbc6e2c737a4a6cab14ef52dd794" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gaa8566e057813e830215faa299cc06d01" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gabd29b7582168608aaab1305e0bffaab4" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga7608b91cd7e3aa970b7a7bfd0a9e8477" kind="friend"><name>end</name></member>
   </compound>
   <compound refid="structMR_1_1SceneCache_1_1VectorHolder" kind="struct"><name>MR::SceneCache::VectorHolder</name>
     <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" kind="variable"><name>value</name></member>
@@ -13447,7 +13472,6 @@
     <member refid="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" kind="function"><name>mult</name></member>
     <member refid="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" kind="function"><name>div</name></member>
     <member refid="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" kind="function"><name>angle</name></member>
-    <member refid="structMR_1_1Vector2_1a14144bf50dd7436a833a9ad74fab0fdb" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga1b7a343939b1a92e61700fb5bd609b56" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1gaf9065ae414e0307701366e479519540d" kind="function"><name>cross</name></member>
@@ -13458,14 +13482,12 @@
     <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
     <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
-    <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
     <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
     <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
-    <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
     <member refid="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" kind="enum"><name>Axis</name></member>
     <member refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kind="enum"><name>BooleanOperation</name></member>
@@ -13954,10 +13976,6 @@
     <member refid="group__BasicGroup_1ga3057a729a683a6a8a6b4f097a0094d58" kind="function"><name>makePredicate</name></member>
     <member refid="group__BasicGroup_1ga84d3ef89997a21c7e28a95f9888e3a2e" kind="function"><name>contains</name></member>
     <member refid="group__BasicGroup_1ga57dc941dcc422cae832eb4e285f9258b" kind="function"><name>contains</name></member>
-    <member refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kind="function"><name>begin</name></member>
-    <member refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kind="function"><name>end</name></member>
-    <member refid="group__BasicGroup_1ga38c685d6a63eb8e03a7e70c795f56c69" kind="function"><name>begin</name></member>
-    <member refid="group__BasicGroup_1ga52b6833b699c3c42d4d252bc856d9440" kind="function"><name>end</name></member>
     <member refid="group__BasicGroup_1ga896279ee5bfa452079d99c123817842b" kind="function"><name>fillVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga68d5cff879ff5d9d841c1ecebfb71ed1" kind="function"><name>makeVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga2637b6b01910fbe8294a9f26f472f35f" kind="function"><name>makeHashMapWithSeqNums</name></member>
@@ -13984,10 +14002,6 @@
     <member refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kind="function"><name>get</name></member>
     <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
-    <member refid="group__GeneralGroup_1ga3bd81207bb5dccdfe9533eae31414e16" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1gaff3156c83a0cd4f80c755c47b577c1c9" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga484bb1d73bd93c876842593fe3441211" kind="function"><name>end</name></member>
-    <member refid="group__GeneralGroup_1ga78839ede3780b97bcce02af755e7e577" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
     <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
     <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
@@ -14055,11 +14069,7 @@
     <member refid="group__GeneralGroup_1ga6183b53e85b58b3c7c8e78c383c4be15" kind="function"><name>calcDipoles</name></member>
     <member refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" kind="function"><name>calcFastWindingNumber</name></member>
     <member refid="group__GeneralGroup_1gaf2e1ccdd324b3b749a67c4cb570b80a3" kind="function"><name>findPathWithExtension</name></member>
-    <member refid="group__GeneralGroup_1ga8037d5f405b7159ef4d26ac722d943f1" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga4926258bf30d6156c19b0f6e042d77c7" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga5c22b27c2464d046430fef62ea6832e0" kind="function"><name>operator!=</name></member>
-    <member refid="group__GeneralGroup_1gacb74ec61600c1cedc296814bdcedd962" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1gabae985da68516747ebfd8b040b5cefcb" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga039594731b2ed053db57ed622292346d" kind="function"><name>operator!=</name></member>
     <member refid="group__AABBTreeGroup_1ga27f3ab649f42f8c32266636ea1e4a672" kind="function"><name>findDirMax</name></member>
     <member refid="group__AABBTreeGroup_1ga349eb7a8c883560631fb216578fa032e" kind="function"><name>findDirMax</name></member>
@@ -15131,10 +15141,6 @@
     <member refid="group__GeneralGroup_1ga0c2948849a79593059ba5c880d5ae050" kind="function"><name>unitsAreEquivalent</name></member>
     <member refid="group__GeneralGroup_1gabc1dac35ba49a323ad136b896517b3b3" kind="function"><name>convertUnits</name></member>
     <member refid="group__GeneralGroup_1gab07c2e27cb1322b5471e253ff9e52a0d" kind="function"><name>convertUnits</name></member>
-    <member refid="group__GeneralGroup_1ga6ee95b3cff2f84ccfbcbc79a7e30c8e9" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga093b76c6840e13694b05f1909b43a2fc" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga352a74dc36ff65d5e9f0a441c478e5f2" kind="function"><name>end</name></member>
-    <member refid="group__GeneralGroup_1gaed083bc895027bcf1a1fe77d22deebeb" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" kind="function"><name>getAt</name></member>
     <member refid="group__ViewportGroup_1gaab3f3280e9df3ad6b0ae88ee01f28286" kind="function"><name>operator&amp;</name></member>
@@ -18008,10 +18014,6 @@
     <member refid="group__BasicGroup_1ga3057a729a683a6a8a6b4f097a0094d58" kind="function"><name>makePredicate</name></member>
     <member refid="group__BasicGroup_1ga84d3ef89997a21c7e28a95f9888e3a2e" kind="function"><name>contains</name></member>
     <member refid="group__BasicGroup_1ga57dc941dcc422cae832eb4e285f9258b" kind="function"><name>contains</name></member>
-    <member refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kind="function"><name>begin</name></member>
-    <member refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kind="function"><name>end</name></member>
-    <member refid="group__BasicGroup_1ga38c685d6a63eb8e03a7e70c795f56c69" kind="function"><name>begin</name></member>
-    <member refid="group__BasicGroup_1ga52b6833b699c3c42d4d252bc856d9440" kind="function"><name>end</name></member>
     <member refid="group__BasicGroup_1ga896279ee5bfa452079d99c123817842b" kind="function"><name>fillVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga68d5cff879ff5d9d841c1ecebfb71ed1" kind="function"><name>makeVectorWithSeqNums</name></member>
     <member refid="group__BasicGroup_1ga2637b6b01910fbe8294a9f26f472f35f" kind="function"><name>makeHashMapWithSeqNums</name></member>
@@ -19218,14 +19220,12 @@
     <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
     <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
-    <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
     <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
     <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
-    <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga6aacb9f665076ffd42d5baa6e69c24fb" kind="enum"><name>XfMode</name></member>
     <member refid="group__GeneralGroup_1gga6aacb9f665076ffd42d5baa6e69c24fba6bc362dbf494c61ea117fe3c71ca48a5" kind="enumvalue"><name>Move</name></member>
     <member refid="group__GeneralGroup_1gga6aacb9f665076ffd42d5baa6e69c24fba8d2de5368588552fbae54044ac5c7b3d" kind="enumvalue"><name>Rotate</name></member>
@@ -20965,14 +20965,14 @@
     <member refid="group__GeneralGroup_1gaae5226baaa9fd2fef60b3940f4d0951f" kind="variable"><name>area</name></member>
     <member refid="group__GeneralGroup_1ga804c3991b7713194228966805194c66a" kind="variable"><name>dirArea</name></member>
     <member refid="group__GeneralGroup_1ga778dc3bfc3f81905b9e4922c640bb584" kind="variable"><name>rr</name></member>
-    <member refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" kind="variable"><name>dir</name></member>
-    <member refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" kind="variable"><name>ec</name></member>
-    <member refid="group__GeneralGroup_1ga0377432c17ff4de701e83f6c0ac198ae" kind="variable"><name>dir</name></member>
-    <member refid="group__GeneralGroup_1ga2e941bde547838e6a74d34b9aed8d49e" kind="variable"><name>ec</name></member>
     <member refid="group__GeneralGroup_1ga43d198bfa65499a30571596ae9d9b943" kind="variable"><name>it</name></member>
     <member refid="group__GeneralGroup_1ga4d7767889be907087117c4ee9fd0789d" kind="variable"><name>ec</name></member>
+    <member refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" kind="variable"><name>dir</name></member>
+    <member refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" kind="variable"><name>ec</name></member>
     <member refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" kind="variable"><name>it</name></member>
     <member refid="group__GeneralGroup_1ga1d7ccfb4cee663b44ee8386962c7898d" kind="variable"><name>ec</name></member>
+    <member refid="group__GeneralGroup_1ga0377432c17ff4de701e83f6c0ac198ae" kind="variable"><name>dir</name></member>
+    <member refid="group__GeneralGroup_1ga2e941bde547838e6a74d34b9aed8d49e" kind="variable"><name>ec</name></member>
     <member refid="group__GeneralGroup_1gab1f2988a6bbcd9b1c198f31bd77ab8fb" kind="variable"><name>isNegative_</name></member>
     <member refid="group__GeneralGroup_1gabcd01f00ff5d20ff3a4fac2fdc65ed65" kind="variable"><name>perCoordDeltas_</name></member>
     <member refid="group__GeneralGroup_1gaadecd825f35fb44ff52fe037c3484c0a" kind="variable"><name>cachedValue_</name></member>
@@ -23849,6 +23849,14 @@
     <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" kind="friend"><name>operator!=</name></member>
     <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="group__GeneralGroup_1ga55e9a4cb66cd8ea3f169c01dec8a4c47" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga0e8a0d24d793d8361f36b8732241f64c" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga7b23195a6817f509adeba53011944bbc" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1gaafc760c21f8f2800875322be6ec79f12" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga6ab2361fd0da1dda8b47bbf7a0b5c5dc" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga58ef3afa32fac9864ead9267f46a255d" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga3208da396eae7727ebb85c7b57831d90" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga4b35e430ce2cbb2036d07755da2d4e7d" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga2479fd18962eebc79164a5a5485a0c31" kind="friend"><name>operator&lt;</name></member>
     <member refid="group__GeneralGroup_1ga8ad7586da649f116dbeefd965f5ff897" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga0a599e730d0a62e6972fecbb9a4e13b1" kind="friend"><name>operator==</name></member>
@@ -23914,6 +23922,10 @@
     <member refid="group__GeneralGroup_1ga49b96d931ecbe6f88e3b838a6347d14e" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1gaae0ca13e381c0da0a32ffd38d5f8c346" kind="friend"><name>operator&gt;&gt;</name></member>
     <member refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kind="friend"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1gaa313f8ba832a4b648631b27ecc640444" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga21621332debf444906aee7baa46ec9bd" kind="friend"><name>operator!=</name></member>
     <member refid="group__GeneralGroup_1ga6ff62d94821680cd4aa78b7f0e9fc08f" kind="friend"><name>operator+</name></member>
@@ -23929,6 +23941,10 @@
     <member refid="group__GeneralGroup_1ga7eff91fc4125a6e58692cd47a47988c8" kind="friend"><name>operator/=</name></member>
     <member refid="group__GeneralGroup_1ga6864066faa20838c17a4d2ff7ce6ca80" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1ga64b84f75251bb43ebfc98d129d849ab9" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="group__GeneralGroup_1ga2a0868d8f2ba2eb64ff5ac8e05e76782" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gac86b550c05ce4cf51bf3850ba0a000e7" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga219a1a3ddaae6f7467c7b62278b0a2df" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga6b9ccf24b760d9f47f17c7e5f184e826" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga9e71981dcf9a7450c7078d906aebfaf7" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga07969e93fb59b263b2d89bc91ff7c776" kind="friend"><name>operator!=</name></member>
     <member refid="group__GeneralGroup_1ga406ab28ca8f52a20219ceffe78e52cd5" kind="friend"><name>operator+</name></member>
@@ -23944,6 +23960,10 @@
     <member refid="group__GeneralGroup_1gaca06a481c53bf7bef1d1f701851ce9de" kind="friend"><name>operator/=</name></member>
     <member refid="group__GeneralGroup_1ga3789873acec0961558649d59f6de2825" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1ga27e081f75b4813615258a92cc851597b" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="group__GeneralGroup_1ga37fcdbc6e2c737a4a6cab14ef52dd794" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gaa8566e057813e830215faa299cc06d01" kind="friend"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gabd29b7582168608aaab1305e0bffaab4" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga7608b91cd7e3aa970b7a7bfd0a9e8477" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1gaa02559b4bc8509bffb99d37310ff5b40" kind="friend"><name>getViewerInstance</name></member>
     <member refid="group__GeneralGroup_1gaf4bbfb7affce8bc85f680fc1562f61ce" kind="friend"><name>deserializeFromJson</name></member>
@@ -24333,10 +24353,6 @@
     <member refid="group__GeneralGroup_1gabfa0b936734c36dff600039214adb66f" kind="function"><name>endId</name></member>
     <member refid="group__GeneralGroup_1ga7351432c6f65b963c17560ef8054076c" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
-    <member refid="group__GeneralGroup_1ga3bd81207bb5dccdfe9533eae31414e16" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1gaff3156c83a0cd4f80c755c47b577c1c9" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga484bb1d73bd93c876842593fe3441211" kind="function"><name>end</name></member>
-    <member refid="group__GeneralGroup_1ga78839ede3780b97bcce02af755e7e577" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
     <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" kind="function"><name>ChangeObjectColorAction</name></member>
     <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" kind="function"><name>name</name></member>
@@ -24732,14 +24748,10 @@
     <member refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" kind="function"><name>calcFastWindingNumber</name></member>
     <member refid="group__GeneralGroup_1ga97ffa4ef6cc99e6cfa211a4bed48c6f4" kind="function"><name>operator++</name></member>
     <member refid="group__GeneralGroup_1ga0614a693a34cc58e9e59902bf38e38ef" kind="function"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1gaf2e1ccdd324b3b749a67c4cb570b80a3" kind="function"><name>findPathWithExtension</name></member>
     <member refid="group__GeneralGroup_1gaf1ca3bdb83138eed5c4e5dd621505ffb" kind="function"><name>operator++</name></member>
     <member refid="group__GeneralGroup_1ga86cbbbe84f0161d57736c0baca9e7f48" kind="function"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga8037d5f405b7159ef4d26ac722d943f1" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga4926258bf30d6156c19b0f6e042d77c7" kind="function"><name>end</name></member>
+    <member refid="group__GeneralGroup_1gaf2e1ccdd324b3b749a67c4cb570b80a3" kind="function"><name>findPathWithExtension</name></member>
     <member refid="group__GeneralGroup_1ga5c22b27c2464d046430fef62ea6832e0" kind="function"><name>operator!=</name></member>
-    <member refid="group__GeneralGroup_1gacb74ec61600c1cedc296814bdcedd962" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1gabae985da68516747ebfd8b040b5cefcb" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga039594731b2ed053db57ed622292346d" kind="function"><name>operator!=</name></member>
     <member refid="group__GeneralGroup_1ga40541d713e13dcfd145845480438077c" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="group__GeneralGroup_1gabf598c3bfdd6296baf421ecc772816c1" kind="function"><name>findDirMaxBruteForce</name></member>
@@ -27265,10 +27277,6 @@
     <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" kind="function"><name>data</name></member>
     <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
     <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
-    <member refid="group__GeneralGroup_1ga6ee95b3cff2f84ccfbcbc79a7e30c8e9" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga093b76c6840e13694b05f1909b43a2fc" kind="function"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga352a74dc36ff65d5e9f0a441c478e5f2" kind="function"><name>end</name></member>
-    <member refid="group__GeneralGroup_1gaed083bc895027bcf1a1fe77d22deebeb" kind="function"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gad8b62d7466c2f210d9618cc9c3fe555f" kind="function"><name>Vector3</name></member>

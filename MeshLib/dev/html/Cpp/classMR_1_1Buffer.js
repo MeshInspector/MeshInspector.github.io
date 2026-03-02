@@ -19,5 +19,9 @@ var classMR_1_1Buffer =
     [ "operator[]", "group__GeneralGroup.html#ga66aeaf02d13592c3ada67644f64737d9", null ],
     [ "operator[]", "group__GeneralGroup.html#gaf470e40945b997fc7f6e66ab968a9d48", null ],
     [ "resize", "group__GeneralGroup.html#gab1bc4a40918912e001d6da1bf1595d36", null ],
-    [ "size", "group__GeneralGroup.html#ga40bf924b784b4438431f70517b950d70", null ]
+    [ "size", "group__GeneralGroup.html#ga40bf924b784b4438431f70517b950d70", null ],
+    [ "begin", "group__GeneralGroup.html#ga0e8a0d24d793d8361f36b8732241f64c", null ],
+    [ "begin", "group__GeneralGroup.html#ga55e9a4cb66cd8ea3f169c01dec8a4c47", null ],
+    [ "end", "group__GeneralGroup.html#gaafc760c21f8f2800875322be6ec79f12", null ],
+    [ "end", "group__GeneralGroup.html#ga7b23195a6817f509adeba53011944bbc", null ]
 ];

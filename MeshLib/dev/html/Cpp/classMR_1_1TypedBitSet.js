@@ -43,6 +43,8 @@ var classMR_1_1TypedBitSet =
     [ "subtract", "classMR_1_1TypedBitSet.html#ad9dd330c61eb1ba1e9d9de2595f7553e", null ],
     [ "test", "classMR_1_1TypedBitSet.html#af68ef102b7a101a12239b7dcaaad7bf9", null ],
     [ "test_set", "classMR_1_1TypedBitSet.html#a0aa7b935d8b7848c1ac69d22eb1d799e", null ],
+    [ "begin", "classMR_1_1TypedBitSet.html#a7431dbea0877010d6fe6071a4079e4f0", null ],
+    [ "end", "classMR_1_1TypedBitSet.html#a46316815dacca975fffa963f1041957a", null ],
     [ "operator&", "classMR_1_1TypedBitSet.html#a1247ee89971a386cb10997fb10817e32", null ],
     [ "operator-", "classMR_1_1TypedBitSet.html#a5c12d2b38ae2d0cc432992afdaa37ebf", null ],
     [ "operator^", "classMR_1_1TypedBitSet.html#a9a6311d580354711cb0ba92d6491c58d", null ],

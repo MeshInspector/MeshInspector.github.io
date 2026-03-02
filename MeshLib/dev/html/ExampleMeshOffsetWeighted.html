@@ -169,7 +169,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    <span class="comment">// common basic offset applied for all point</span></div>
 <div class="line">    <span class="comment">// Vertex-specific weighted offsets applied after the basic one</span></div>
 <div class="line">    params.offset = 0.2f;</div>
-<div class="line">    params.dist.maxWeight = *std::max_element( MR::begin( scalars ), MR::end( scalars ) ); <span class="comment">// should always have maximum between weights provided</span></div>
+<div class="line">    params.dist.maxWeight = *std::max_element( begin( scalars ), end( scalars ) ); <span class="comment">// should always have maximum between weights provided</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> res = MR::WeightedShell::meshShell( mesh, scalars, params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !res.has_value() )</div>

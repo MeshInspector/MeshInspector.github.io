@@ -9,7 +9,7 @@ var searchData=
   ['imageloader_6',['ImageLoader',['../namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53',1,'MR::ImageLoad']]],
   ['imagesaver_7',['ImageSaver',['../namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb',1,'MR::ImageSave']]],
   ['imguitreenodeflags_8',['ImGuiTreeNodeFlags',['../group__GeneralGroup.html#gadef3ad4d7054ccf6e99aba195fc29cf8',1,'MR::SceneObjectsListDrawer']]],
-  ['indextype_9',['IndexType',['../classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9',1,'MR::BitSet::IndexType'],['../classMR_1_1TypedBitSet.html#a7434b47b953a52e27cb6a6c645c7ca9e',1,'MR::TypedBitSet::IndexType'],['../classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0',1,'MR::SetBitIteratorT::IndexType']]],
+  ['indextype_9',['IndexType',['../classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0',1,'MR::SetBitIteratorT::IndexType'],['../classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9',1,'MR::BitSet::IndexType'],['../classMR_1_1TypedBitSet.html#a7434b47b953a52e27cb6a6c645c7ca9e',1,'MR::TypedBitSet::IndexType']]],
   ['inputtype_10',['InputType',['../group__GeneralGroup.html#ga369f95839764bbea9a5f5db04ec360ae',1,'MR::ConeFittingFunctor']]],
   ['int128_11',['Int128',['../group__HighPrecisionGroup.html#gaeb20f5b66b3c7532bcdb24bd415bd130',1,'MR']]],
   ['int256_12',['Int256',['../group__HighPrecisionGroup.html#ga62843f076a5d1ed019b89472396d5b37',1,'MR']]],

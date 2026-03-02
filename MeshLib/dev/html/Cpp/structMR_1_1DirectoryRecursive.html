@@ -139,6 +139,7 @@ $(function(){initNavTree('structMR_1_1DirectoryRecursive.html','','structMR_1_1D
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="structMR_1_1DirectoryRecursive-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::DirectoryRecursive Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
@@ -150,6 +151,11 @@ $(function(){initNavTree('structMR_1_1DirectoryRecursive.html','','structMR_1_1D
 Public Attributes</h2></td></tr>
 <tr class="memitem:ga0377432c17ff4de701e83f6c0ac198ae" id="r_ga0377432c17ff4de701e83f6c0ac198ae"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0377432c17ff4de701e83f6c0ac198ae">dir</a></td></tr>
 <tr class="memitem:ga2e941bde547838e6a74d34b9aed8d49e" id="r_ga2e941bde547838e6a74d34b9aed8d49e"><td class="memItemLeft" align="right" valign="top">std::error_code &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2e941bde547838e6a74d34b9aed8d49e">ec</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ga3208da396eae7727ebb85c7b57831d90" id="r_ga3208da396eae7727ebb85c7b57831d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DirectoryRecursiveIterator.html">DirectoryRecursiveIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3208da396eae7727ebb85c7b57831d90">begin</a> (const <a class="el" href="structMR_1_1DirectoryRecursive.html">DirectoryRecursive</a> &amp;sd)</td></tr>
+<tr class="memitem:ga4b35e430ce2cbb2036d07755da2d4e7d" id="r_ga4b35e430ce2cbb2036d07755da2d4e7d"><td class="memItemLeft" align="right" valign="top">std::filesystem::recursive_directory_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4b35e430ce2cbb2036d07755da2d4e7d">end</a> (const <a class="el" href="structMR_1_1DirectoryRecursive.html">DirectoryRecursive</a> &amp;)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>object of this struct can be passed to range-based-for to enumerate all entries in a filesystem directory <em>including</em> all subdirectories and <em>without</em> throwing exceptions e.g. std::error_code ec; for ( auto dirEntry : <a class="el" href="structMR_1_1DirectoryRecursive.html">DirectoryRecursive</a>{ std::filesystem::current_path(), ec } ) { ... } </p>
