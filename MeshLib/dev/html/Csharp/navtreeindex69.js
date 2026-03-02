@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1VoxelBitSet.html#a602b2e76091b4b95cc3e05a1b427ad8c":[6,3,0,0,0,971,34],
+"classMR_1_1VoxelBitSet.html#a617e59aa3c5403cc768a86790e832ca0":[6,3,0,0,0,971,14],
 "classMR_1_1VoxelBitSet.html#a652c80cb5d3aa2cc71ffa89748b96f25":[6,3,0,0,0,971,33],
 "classMR_1_1VoxelBitSet.html#a6f5003cd169237fc852d230a4d6ff5f7":[6,3,0,0,0,971,29],
 "classMR_1_1VoxelBitSet.html#a78ef8efea5378faacb52b9bc36660832":[6,3,0,0,0,971,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1WeightedShell.html#acea209e9f19afa7cdac2593429765dd3":[6,3,0,0,0,992,9],
 "classMR_1_1WeightedShell.html#ad8babcfcf4a060f9f9099d5063f06462":[6,3,0,0,0,992,8],
 "classMR_1_1WeightedShell.html#ae3595b4bcd950272f4aa52f03f698052":[6,3,0,0,0,992,7],
-"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,3,0,0,0,992,0],
-"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a0c22f38220e879d0bcd2cb86ae4f849d":[6,3,0,0,0,992,0,0],
-"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a2802283c32fa712993fa8288b1958dac":[6,3,0,0,0,992,0,4]
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,3,0,0,0,992,0]
 };

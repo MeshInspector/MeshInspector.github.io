@@ -367,6 +367,11 @@
     <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1aaef7815a7a344c6e7e7b434b66231974" kind="function"><name>process</name></member>
     <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1_1AtomicDevice_1aa7794bf3491894a3b19664df048e2859" kind="function"><name>valid</name></member>
   </compound>
+  <compound refid="structMR_1_1Laplacian_1_1Attractor" kind="struct"><name>MR::Laplacian::Attractor</name>
+    <member refid="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" kind="variable"><name>p</name></member>
+    <member refid="group__GeneralGroup_1ga9e19c8e2f07fda8228b4b66df9b6832b" kind="variable"><name>target</name></member>
+    <member refid="group__GeneralGroup_1ga38939421f38fc6c59008300357e654f4" kind="variable"><name>weight</name></member>
+  </compound>
   <compound refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kind="struct"><name>MR::BasicUiRenderTask::BackwardPassParams</name>
     <member refid="group__GeneralGroup_1ga29e14da81c0701108ac352055c7e9b99" kind="variable"><name>consumedInteractions</name></member>
     <member refid="group__GeneralGroup_1ga7664329c16a19590708d5686044a648a" kind="function"><name>tryConsumeMouseHover</name></member>
@@ -4614,6 +4619,7 @@
     <member refid="group__GeneralGroup_1ga94d87ecc413fa169f7ba71d81fe2beb5" kind="variable"><name>fixedSharpVertices_</name></member>
     <member refid="group__GeneralGroup_1gaf5bec5489bf7788b10653858d4fd9445" kind="variable"><name>firstLayerFixedVerts_</name></member>
     <member refid="group__GeneralGroup_1gadf4b40a1aa8036ab388aba99053ea46a" kind="variable"><name>equations_</name></member>
+    <member refid="group__GeneralGroup_1ga4d35392f2239e1a6287f4203b1fb4dbf" kind="variable"><name>attractors_</name></member>
     <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" kind="variable"><name>nonZeroElements_</name></member>
     <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" kind="variable"><name>regionVert2id_</name></member>
     <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" kind="variable"><name>freeVert2id_</name></member>
@@ -4635,9 +4641,11 @@
     <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" kind="function"><name>firstLayerFixedVerts</name></member>
     <member refid="group__GeneralGroup_1gac4f2d6921a705dd7dd24fb45d990795a" kind="function"><name>topology</name></member>
     <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
+    <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" kind="function"><name>addAttractor</name></member>
+    <member refid="group__GeneralGroup_1gac82a9081ff051fecccad5bd85d17e14b" kind="function"><name>removeAllAttractors</name></member>
     <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
     <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
-    <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" kind="function"><name>prepareRhs_</name></member>
+    <member refid="group__GeneralGroup_1gaed1eef6f6d9104e419065a9846ab33bb" kind="function"><name>prepareRhs_</name></member>
   </compound>
   <compound refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="struct"><name>MR::MeshComponents::LargeByAreaComponentsSettings</name>
     <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a37b0bf2cf4c042ffe4a78515e1678539" kind="variable"><name>maxLargeComponents</name></member>
@@ -21277,6 +21285,9 @@
     <member refid="group__GeneralGroup_1gaae6b3a6e5308d9b86786cc6f73d8a0ed" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
     <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
+    <member refid="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" kind="variable"><name>p</name></member>
+    <member refid="group__GeneralGroup_1ga9e19c8e2f07fda8228b4b66df9b6832b" kind="variable"><name>target</name></member>
+    <member refid="group__GeneralGroup_1ga38939421f38fc6c59008300357e654f4" kind="variable"><name>weight</name></member>
     <member refid="group__GeneralGroup_1ga112a32afcf865c5075765fe27e01b5db" kind="variable"><name>topology_</name></member>
     <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" kind="variable"><name>points_</name></member>
     <member refid="group__GeneralGroup_1ga89275c83411511907eadafbab493bc78" kind="variable"><name>region_</name></member>
@@ -21287,6 +21298,7 @@
     <member refid="group__GeneralGroup_1ga80ea927affaa2c1249bf4cab2cccf794" kind="variable"><name>centerCoeff</name></member>
     <member refid="group__GeneralGroup_1ga2e8fa73a7fb3e83c7ce12823130c0e80" kind="variable"><name>firstElem</name></member>
     <member refid="group__GeneralGroup_1gadf4b40a1aa8036ab388aba99053ea46a" kind="variable"><name>equations_</name></member>
+    <member refid="group__GeneralGroup_1ga4d35392f2239e1a6287f4203b1fb4dbf" kind="variable"><name>attractors_</name></member>
     <member refid="group__GeneralGroup_1gad2ece6b89496b0f61368d4b3fa06368b" kind="variable"><name>coeff</name></member>
     <member refid="group__GeneralGroup_1gad4869784868e32cc587ba5da71116e9f" kind="variable"><name>neiVert</name></member>
     <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" kind="variable"><name>nonZeroElements_</name></member>
@@ -25382,9 +25394,11 @@
     <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" kind="function"><name>firstLayerFixedVerts</name></member>
     <member refid="group__GeneralGroup_1gac4f2d6921a705dd7dd24fb45d990795a" kind="function"><name>topology</name></member>
     <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
+    <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" kind="function"><name>addAttractor</name></member>
+    <member refid="group__GeneralGroup_1gac82a9081ff051fecccad5bd85d17e14b" kind="function"><name>removeAllAttractors</name></member>
     <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
     <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
-    <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" kind="function"><name>prepareRhs_</name></member>
+    <member refid="group__GeneralGroup_1gaed1eef6f6d9104e419065a9846ab33bb" kind="function"><name>prepareRhs_</name></member>
     <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" kind="function"><name>~Solver</name></member>
     <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" kind="function"><name>compute</name></member>
     <member refid="group__GeneralGroup_1ga45582af69f6c747bd0d8dab89d918663" kind="function"><name>solve</name></member>

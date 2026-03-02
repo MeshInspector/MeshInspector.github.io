@@ -417,6 +417,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.IteratorRange_UndirectedEdgeIterator", "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html", "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator" ],
     [ "mrmeshpy.LabelVisualizePropertyType", "classmrmeshpy_1_1LabelVisualizePropertyType.html", "classmrmeshpy_1_1LabelVisualizePropertyType" ],
     [ "mrmeshpy.Laplacian", "classmrmeshpy_1_1Laplacian.html", "classmrmeshpy_1_1Laplacian" ],
+    [ "mrmeshpy.Laplacian.Attractor", "classmrmeshpy_1_1Laplacian_1_1Attractor.html", "classmrmeshpy_1_1Laplacian_1_1Attractor" ],
     [ "mrmeshpy.LengthUnit", "classmrmeshpy_1_1LengthUnit.html", "classmrmeshpy_1_1LengthUnit" ],
     [ "mrmeshpy.Line2d", "classmrmeshpy_1_1Line2d.html", "classmrmeshpy_1_1Line2d" ],
     [ "mrmeshpy.Line2f", "classmrmeshpy_1_1Line2f.html", "classmrmeshpy_1_1Line2f" ],

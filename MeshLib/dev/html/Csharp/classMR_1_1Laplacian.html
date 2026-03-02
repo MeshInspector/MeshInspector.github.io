@@ -174,6 +174,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adec94b8812ff2f12bbe9e564894393f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">given fixed vertices, computes positions of remaining region vertices Generated from method <span class="tt"><a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="given fixed vertices, computes positions of remaining region vertices Generated from method MR....">MR.Laplacian.apply</a></span>.  <br /></td></tr>
 <tr class="memitem:ad42cac80dba53264cee7888c3f137692" id="r_ad42cac80dba53264cee7888c3f137692"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad42cac80dba53264cee7888c3f137692">applyToScalar</a> (<a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> scalarField)</td></tr>
 <tr class="memdesc:ad42cac80dba53264cee7888c3f137692"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from method <span class="tt"><a class="el" href="#ad42cac80dba53264cee7888c3f137692" title="given a pre-resized scalar field with set values in fixed vertices, computes the values in free verti...">MR.Laplacian.applyToScalar</a></span>.  <br /></td></tr>
+<tr class="memitem:ae9c5b3e5929d54897288eb716c3f9b94" id="r_ae9c5b3e5929d54897288eb716c3f9b94"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c5b3e5929d54897288eb716c3f9b94">addAttractor</a> (MR.Laplacian.Const_Attractor a)</td></tr>
+<tr class="memdesc:ae9c5b3e5929d54897288eb716c3f9b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one more attractor to the stored list Generated from method <span class="tt"><a class="el" href="#ae9c5b3e5929d54897288eb716c3f9b94" title="adds one more attractor to the stored list Generated from method MR.Laplacian.addAttractor.">MR.Laplacian.addAttractor</a></span>.  <br /></td></tr>
+<tr class="memitem:acaa475d8642e7687fdf8d220796796cc" id="r_acaa475d8642e7687fdf8d220796796cc"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaa475d8642e7687fdf8d220796796cc">removeAllAttractors</a> ()</td></tr>
+<tr class="memdesc:acaa475d8642e7687fdf8d220796796cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">forgets all attractors added previously Generated from method <span class="tt"><a class="el" href="#acaa475d8642e7687fdf8d220796796cc" title="forgets all attractors added previously Generated from method MR.Laplacian.removeAllAttractors.">MR.Laplacian.removeAllAttractors</a></span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">Laplacian</a> to smoothly deform a region preserving mesh fine details. How to use: </p>
@@ -270,6 +274,33 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ae9c5b3e5929d54897288eb716c3f9b94" name="ae9c5b3e5929d54897288eb716c3f9b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c5b3e5929d54897288eb716c3f9b94">&#9670;&#160;</a></span>addAttractor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Laplacian.addAttractor </td>
+          <td>(</td>
+          <td class="paramtype">MR.Laplacian.Const_Attractor</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds one more attractor to the stored list Generated from method <span class="tt"><a class="el" href="#ae9c5b3e5929d54897288eb716c3f9b94" title="adds one more attractor to the stored list Generated from method MR.Laplacian.addAttractor.">MR.Laplacian.addAttractor</a></span>. </p>
+
+</div>
+</div>
 <a id="adec94b8812ff2f12bbe9e564894393f4" name="adec94b8812ff2f12bbe9e564894393f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adec94b8812ff2f12bbe9e564894393f4">&#9670;&#160;</a></span>apply()</h2>
 
@@ -447,6 +478,33 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="acaa475d8642e7687fdf8d220796796cc" name="acaa475d8642e7687fdf8d220796796cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa475d8642e7687fdf8d220796796cc">&#9670;&#160;</a></span>removeAllAttractors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Laplacian.removeAllAttractors </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>forgets all attractors added previously Generated from method <span class="tt"><a class="el" href="#acaa475d8642e7687fdf8d220796796cc" title="forgets all attractors added previously Generated from method MR.Laplacian.removeAllAttractors.">MR.Laplacian.removeAllAttractors</a></span>. </p>
 
 </div>
 </div>

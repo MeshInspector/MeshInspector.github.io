@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Laplacian_1_1Attractor" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Laplacian::Attractor</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a6d4ac70f20968a536da030b4452dae9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Laplacian.Attractor::_offsetof_p</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_p</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor._offsetof_p</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a7c88b531d2242986d63a4864ee518a32" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Laplacian.Attractor::_offsetof_target</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_target</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor._offsetof_target</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1acbf098132b3857be7461cdc8e57a9853" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Laplacian.Attractor::_offsetof_weight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_weight</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor._offsetof_weight</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25352" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a987140cdd3839be47548007985bb742a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.Attractor.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25357" bodyend="25358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a022bd5f4405c4105c9b4682232d6f16c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Laplacian_1_1Attractor" kindref="compound">Laplacian.Attractor</ref></type>
+        <definition> Laplacian.Attractor mrmeshpy.Laplacian.Attractor.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25361" bodyend="25362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a022bd5f4405c4105c9b4682232d6f16c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Laplacian_1_1Attractor" kindref="compound">Laplacian.Attractor</ref></type>
+        <definition> Laplacian.Attractor mrmeshpy.Laplacian.Attractor.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25365" bodyend="25366"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1aa834ec670582ec7eb1ebeb7cb59c530f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.Attractor.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25368" bodyend="25369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1add7e81403abd9d3e55c765606ce4cc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.Attractor.__init__</definition>
+        <argsstring>(self, Laplacian.Attractor arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Laplacian_1_1Attractor" kindref="compound">Laplacian.Attractor</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25371" bodyend="25374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a129d73121ea72d52a2bf04bc67962f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.Attractor.__init__</definition>
+        <argsstring>(self, MeshTriPoint p, Vector3d target, float weight)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25376" bodyend="25379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1a9f5e77b600000cc3354c64cf33255e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Laplacian.Attractor.weight</definition>
+        <argsstring>(self)</argsstring>
+        <name>weight</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.weight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the weight or priority of this attractor relative to all other equations,
+which must be compatible with weights of other equations;
+the weight of ordinary equations is 1 for VertexMass::Unit,
+and 1 / sqrt( double area around central vertex ) for VertexMass::NeiArea
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25381" bodyend="25387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1_1Attractor_1ada91c74e872877a00e008d85f3c3a37f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Laplacian.Attractor.weight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>weight</name>
+        <qualifiedname>mrmeshpy.Laplacian.Attractor.weight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25389" bodyend="25391"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Laplacian::Attractor
+
+attracts the given point inside some mesh&apos;s triangle to the given target with the given weight
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25344" bodyend="25390"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a987140cdd3839be47548007985bb742a" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1aa834ec670582ec7eb1ebeb7cb59c530f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1add7e81403abd9d3e55c765606ce4cc6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a129d73121ea72d52a2bf04bc67962f89" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a6d4ac70f20968a536da030b4452dae9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>_offsetof_p</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a7c88b531d2242986d63a4864ee518a32" prot="protected" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>_offsetof_target</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1acbf098132b3857be7461cdc8e57a9853" prot="protected" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>_offsetof_weight</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a022bd5f4405c4105c9b4682232d6f16c" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a022bd5f4405c4105c9b4682232d6f16c" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1a9f5e77b600000cc3354c64cf33255e76" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>weight</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1_1Attractor_1ada91c74e872877a00e008d85f3c3a37f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian::Attractor</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

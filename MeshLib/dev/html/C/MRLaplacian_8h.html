@@ -145,6 +145,7 @@ $(function(){initNavTree('MRLaplacian_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;MRCMisc/common.h&gt;</code><br />
 <code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
@@ -154,6 +155,7 @@ $(function(){initNavTree('MRLaplacian_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a308de5b4d4f7a0ed06b3d50ec1796be3" id="r_a308de5b4d4f7a0ed06b3d50ec1796be3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a></td></tr>
 <tr class="memitem:a5a83991ce0ccd72650f7dedbedd89cae" id="r_a5a83991ce0ccd72650f7dedbedd89cae"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -178,6 +180,28 @@ Functions</h2></td></tr>
 <tr class="memitem:a2fbed454afaad11363b03fd045a07589" id="r_a2fbed454afaad11363b03fd045a07589"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbed454afaad11363b03fd045a07589">MR_Laplacian_firstLayerFixedVerts</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
 <tr class="memitem:ae56fc7d876182cfe2124510bf99f3fd8" id="r_ae56fc7d876182cfe2124510bf99f3fd8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae56fc7d876182cfe2124510bf99f3fd8">MR_Laplacian_topology</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
 <tr class="memitem:aed1f5d2fd2c6257475041a7956e90de5" id="r_aed1f5d2fd2c6257475041a7956e90de5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed1f5d2fd2c6257475041a7956e90de5">MR_Laplacian_points</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
+<tr class="memitem:a6742975b61946dfdccf443a56e64c8a0" id="r_a6742975b61946dfdccf443a56e64c8a0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6742975b61946dfdccf443a56e64c8a0">MR_Laplacian_addAttractor</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *a)</td></tr>
+<tr class="memitem:a4498b18961ef5a7748292cebab277a02" id="r_a4498b18961ef5a7748292cebab277a02"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4498b18961ef5a7748292cebab277a02">MR_Laplacian_removeAllAttractors</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
+<tr class="memitem:af9db56cd2a924fefa689205cdaecfb84" id="r_af9db56cd2a924fefa689205cdaecfb84"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9db56cd2a924fefa689205cdaecfb84">MR_Laplacian_Attractor_Get_p</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memitem:a3dd97c8a6d1a91ac174242e5740e4519" id="r_a3dd97c8a6d1a91ac174242e5740e4519"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd97c8a6d1a91ac174242e5740e4519">MR_Laplacian_Attractor_Set_p</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *value)</td></tr>
+<tr class="memitem:a3a2082e66311692fb1d964d67ce8aeea" id="r_a3a2082e66311692fb1d964d67ce8aeea"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2082e66311692fb1d964d67ce8aeea">MR_Laplacian_Attractor_GetMutable_p</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memitem:a1476916e1c2df9266177f07834371699" id="r_a1476916e1c2df9266177f07834371699"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1476916e1c2df9266177f07834371699">MR_Laplacian_Attractor_Get_target</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memitem:a3916a16c79cc2bff1d27a8309935d637" id="r_a3916a16c79cc2bff1d27a8309935d637"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3916a16c79cc2bff1d27a8309935d637">MR_Laplacian_Attractor_Set_target</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
+<tr class="memitem:ab5dbf1334cd1365519913d920d74e12f" id="r_ab5dbf1334cd1365519913d920d74e12f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5dbf1334cd1365519913d920d74e12f">MR_Laplacian_Attractor_GetMutable_target</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memitem:ad65d51eb8dbf5f2fd67136d3038cdb80" id="r_ad65d51eb8dbf5f2fd67136d3038cdb80"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad65d51eb8dbf5f2fd67136d3038cdb80">MR_Laplacian_Attractor_Get_weight</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memitem:a0812d93f2bbaa7f2c88254cdf4026ad6" id="r_a0812d93f2bbaa7f2c88254cdf4026ad6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0812d93f2bbaa7f2c88254cdf4026ad6">MR_Laplacian_Attractor_Set_weight</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this, double value)</td></tr>
+<tr class="memitem:adaf8cc8d17f4d85e7c1d2f19f01db342" id="r_adaf8cc8d17f4d85e7c1d2f19f01db342"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaf8cc8d17f4d85e7c1d2f19f01db342">MR_Laplacian_Attractor_GetMutable_weight</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memitem:acc731fcd96d98686d9e839acbc792039" id="r_acc731fcd96d98686d9e839acbc792039"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc731fcd96d98686d9e839acbc792039">MR_Laplacian_Attractor_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:aa36e24a22afeabc5ce186d2ca3f97a4d" id="r_aa36e24a22afeabc5ce186d2ca3f97a4d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa36e24a22afeabc5ce186d2ca3f97a4d">MR_Laplacian_Attractor_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a85c04799bf5b5f173fdcd53190540c9f" id="r_a85c04799bf5b5f173fdcd53190540c9f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85c04799bf5b5f173fdcd53190540c9f">MR_Laplacian_Attractor_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *p, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> target, double weight)</td></tr>
+<tr class="memitem:ad8b71b28c7c75cd21c823f37e609c61b" id="r_ad8b71b28c7c75cd21c823f37e609c61b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8b71b28c7c75cd21c823f37e609c61b">MR_Laplacian_Attractor_OffsetPtr</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ad84e3ca0d118889de2209a8a42f20ce8" id="r_ad84e3ca0d118889de2209a8a42f20ce8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84e3ca0d118889de2209a8a42f20ce8">MR_Laplacian_Attractor_OffsetMutablePtr</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aa3c533e621ff305e111632f02f3fd951" id="r_aa3c533e621ff305e111632f02f3fd951"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c533e621ff305e111632f02f3fd951">MR_Laplacian_Attractor_ConstructFromAnother</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_other)</td></tr>
+<tr class="memitem:a614f2d0c0814f964ff484e5ac198baca" id="r_a614f2d0c0814f964ff484e5ac198baca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614f2d0c0814f964ff484e5ac198baca">MR_Laplacian_Attractor_Destroy</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memdesc:a614f2d0c0814f964ff484e5ac198baca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:add3c87bf6c93e2d4b8f28ff1e4951529" id="r_add3c87bf6c93e2d4b8f28ff1e4951529"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add3c87bf6c93e2d4b8f28ff1e4951529">MR_Laplacian_Attractor_DestroyArray</a> (const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this)</td></tr>
+<tr class="memdesc:add3c87bf6c93e2d4b8f28ff1e4951529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a6ba11e877c9c065badf0e723be46998b" id="r_a6ba11e877c9c065badf0e723be46998b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba11e877c9c065badf0e723be46998b">MR_Laplacian_Attractor_AssignFromAnother</a> (<a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_this, const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *_other)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a5a83991ce0ccd72650f7dedbedd89cae" name="a5a83991ce0ccd72650f7dedbedd89cae"></a>
@@ -200,7 +224,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a308de5b4d4f7a0ed06b3d50ec1796be3" name="a308de5b4d4f7a0ed06b3d50ec1796be3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308de5b4d4f7a0ed06b3d50ec1796be3">&#9670;&#160;</a></span>MR_Laplacian_Attractor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>attracts the given point inside some mesh's triangle to the given target with the given weight Generated from class <span class="tt">MR::Laplacian::Attractor</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a6742975b61946dfdccf443a56e64c8a0" name="a6742975b61946dfdccf443a56e64c8a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6742975b61946dfdccf443a56e64c8a0">&#9670;&#160;</a></span>MR_Laplacian_addAttractor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_addAttractor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds one more attractor to the stored list Generated from method <span class="tt">MR::Laplacian::addAttractor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">a</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="acb412025a702424fa10de3113dfdcfbb" name="acb412025a702424fa10de3113dfdcfbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb412025a702424fa10de3113dfdcfbb">&#9670;&#160;</a></span>MR_Laplacian_apply()</h2>
 
@@ -238,6 +299,365 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from method <span class="tt">MR::Laplacian::applyToScalar</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">scalarField</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6ba11e877c9c065badf0e723be46998b" name="a6ba11e877c9c065badf0e723be46998b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba11e877c9c065badf0e723be46998b">&#9670;&#160;</a></span>MR_Laplacian_Attractor_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Laplacian::Attractor::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a85c04799bf5b5f173fdcd53190540c9f" name="a85c04799bf5b5f173fdcd53190540c9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85c04799bf5b5f173fdcd53190540c9f">&#9670;&#160;</a></span>MR_Laplacian_Attractor_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3d.html">MR_Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>weight</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::Laplacian::Attractor</span> elementwise. Parameter <span class="tt">p</span> can not be null. It is a single object. The reference to the parameter <span class="tt">p</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">target</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a614f2d0c0814f964ff484e5ac198baca" title="Destroys a heap-allocated instance of MR_Laplacian_Attractor. Does nothing if the pointer is null.">MR_Laplacian_Attractor_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="aa3c533e621ff305e111632f02f3fd951" name="aa3c533e621ff305e111632f02f3fd951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c533e621ff305e111632f02f3fd951">&#9670;&#160;</a></span>MR_Laplacian_Attractor_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::Laplacian::Attractor::Attractor</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a614f2d0c0814f964ff484e5ac198baca" title="Destroys a heap-allocated instance of MR_Laplacian_Attractor. Does nothing if the pointer is null.">MR_Laplacian_Attractor_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acc731fcd96d98686d9e839acbc792039" name="acc731fcd96d98686d9e839acbc792039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc731fcd96d98686d9e839acbc792039">&#9670;&#160;</a></span>MR_Laplacian_Attractor_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a614f2d0c0814f964ff484e5ac198baca" title="Destroys a heap-allocated instance of MR_Laplacian_Attractor. Does nothing if the pointer is null.">MR_Laplacian_Attractor_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa36e24a22afeabc5ce186d2ca3f97a4d" name="aa36e24a22afeabc5ce186d2ca3f97a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa36e24a22afeabc5ce186d2ca3f97a4d">&#9670;&#160;</a></span>MR_Laplacian_Attractor_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#add3c87bf6c93e2d4b8f28ff1e4951529" title="Destroys a heap-allocated array of MR_Laplacian_Attractor. Does nothing if the pointer is null.">MR_Laplacian_Attractor_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#ad84e3ca0d118889de2209a8a42f20ce8">MR_Laplacian_Attractor_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#ad8b71b28c7c75cd21c823f37e609c61b">MR_Laplacian_Attractor_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a614f2d0c0814f964ff484e5ac198baca" name="a614f2d0c0814f964ff484e5ac198baca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614f2d0c0814f964ff484e5ac198baca">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_Attractor_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="add3c87bf6c93e2d4b8f28ff1e4951529" name="add3c87bf6c93e2d4b8f28ff1e4951529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add3c87bf6c93e2d4b8f28ff1e4951529">&#9670;&#160;</a></span>MR_Laplacian_Attractor_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_Attractor_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af9db56cd2a924fefa689205cdaecfb84" name="af9db56cd2a924fefa689205cdaecfb84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9db56cd2a924fefa689205cdaecfb84">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Get_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_Laplacian_Attractor_Get_p </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">p</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1476916e1c2df9266177f07834371699" name="a1476916e1c2df9266177f07834371699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1476916e1c2df9266177f07834371699">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Get_target()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Laplacian_Attractor_Get_target </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">target</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ad65d51eb8dbf5f2fd67136d3038cdb80" name="ad65d51eb8dbf5f2fd67136d3038cdb80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad65d51eb8dbf5f2fd67136d3038cdb80">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Get_weight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_Laplacian_Attractor_Get_weight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the weight or priority of this attractor relative to all other equations, which must be compatible with weights of other equations; the weight of ordinary equations is 1 for VertexMass::Unit, and 1 / sqrt( double area around central vertex ) for VertexMass::NeiArea Returns a pointer to a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">weight</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a3a2082e66311692fb1d964d67ce8aeea" name="a3a2082e66311692fb1d964d67ce8aeea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2082e66311692fb1d964d67ce8aeea">&#9670;&#160;</a></span>MR_Laplacian_Attractor_GetMutable_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_Laplacian_Attractor_GetMutable_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">p</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab5dbf1334cd1365519913d920d74e12f" name="ab5dbf1334cd1365519913d920d74e12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5dbf1334cd1365519913d920d74e12f">&#9670;&#160;</a></span>MR_Laplacian_Attractor_GetMutable_target()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Laplacian_Attractor_GetMutable_target </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">target</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="adaf8cc8d17f4d85e7c1d2f19f01db342" name="adaf8cc8d17f4d85e7c1d2f19f01db342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf8cc8d17f4d85e7c1d2f19f01db342">&#9670;&#160;</a></span>MR_Laplacian_Attractor_GetMutable_weight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_Laplacian_Attractor_GetMutable_weight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the weight or priority of this attractor relative to all other equations, which must be compatible with weights of other equations; the weight of ordinary equations is 1 for VertexMass::Unit, and 1 / sqrt( double area around central vertex ) for VertexMass::NeiArea Returns a mutable pointer to a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">weight</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ad84e3ca0d118889de2209a8a42f20ce8" name="ad84e3ca0d118889de2209a8a42f20ce8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad84e3ca0d118889de2209a8a42f20ce8">&#9670;&#160;</a></span>MR_Laplacian_Attractor_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ad8b71b28c7c75cd21c823f37e609c61b" name="ad8b71b28c7c75cd21c823f37e609c61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b71b28c7c75cd21c823f37e609c61b">&#9670;&#160;</a></span>MR_Laplacian_Attractor_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> * MR_Laplacian_Attractor_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a3dd97c8a6d1a91ac174242e5740e4519" name="a3dd97c8a6d1a91ac174242e5740e4519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd97c8a6d1a91ac174242e5740e4519">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Set_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_Attractor_Set_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">p</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">p</span>. When this function is called, this object will drop object references it held previously in <span class="tt">p</span>. </p>
+
+</div>
+</div>
+<a id="a3916a16c79cc2bff1d27a8309935d637" name="a3916a16c79cc2bff1d27a8309935d637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3916a16c79cc2bff1d27a8309935d637">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Set_target()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_Attractor_Set_target </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3d.html">MR_Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">target</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">target</span>. When this function is called, this object will drop object references it held previously in <span class="tt">target</span>. </p>
+
+</div>
+</div>
+<a id="a0812d93f2bbaa7f2c88254cdf4026ad6" name="a0812d93f2bbaa7f2c88254cdf4026ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0812d93f2bbaa7f2c88254cdf4026ad6">&#9670;&#160;</a></span>MR_Laplacian_Attractor_Set_weight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_Attractor_Set_weight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308de5b4d4f7a0ed06b3d50ec1796be3">MR_Laplacian_Attractor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the weight or priority of this attractor relative to all other equations, which must be compatible with weights of other equations; the weight of ordinary equations is 1 for VertexMass::Unit, and 1 / sqrt( double area around central vertex ) for VertexMass::NeiArea Modifies a member variable of class <span class="tt">MR::Laplacian::Attractor</span> named <span class="tt">weight</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">weight</span>. </p>
 
 </div>
 </div>
@@ -565,6 +985,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>return all initially free vertices and the first layer of vertices around them Generated from method <span class="tt">MR::Laplacian::region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4498b18961ef5a7748292cebab277a02" name="a4498b18961ef5a7748292cebab277a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4498b18961ef5a7748292cebab277a02">&#9670;&#160;</a></span>MR_Laplacian_removeAllAttractors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_removeAllAttractors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>forgets all attractors added previously Generated from method <span class="tt">MR::Laplacian::removeAllAttractors</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

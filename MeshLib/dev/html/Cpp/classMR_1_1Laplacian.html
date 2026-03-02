@@ -138,6 +138,7 @@ $(function(){initNavTree('classMR_1_1Laplacian.html','','classMR_1_1Laplacian-me
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1Laplacian-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::Laplacian Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
@@ -146,6 +147,11 @@ $(function(){initNavTree('classMR_1_1Laplacian.html','','classMR_1_1Laplacian-me
 
 <p><code>#include &lt;<a class="el" href="MRLaplacian_8h_source.html">MRMesh/MRLaplacian.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Attractor" id="r_Attractor"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Laplacian_1_1Attractor.html">Attractor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">attracts the given point inside some mesh's triangle to the given target with the given weight  <a href="structMR_1_1Laplacian_1_1Attractor.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ga701e06f6b7ebb3c08d691ca34ffeab37" id="r_ga701e06f6b7ebb3c08d691ca34ffeab37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga701e06f6b7ebb3c08d691ca34ffeab37">Laplacian</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
@@ -169,6 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:gac4f2d6921a705dd7dd24fb45d990795a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the topology for which <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> was constructed  <br /></td></tr>
 <tr class="memitem:gadea5e520fb681e438a8ea02cc7ef2c2c" id="r_gadea5e520fb681e438a8ea02cc7ef2c2c"><td class="memItemLeft" align="right" valign="top">VertCoords &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> () const</td></tr>
 <tr class="memdesc:gadea5e520fb681e438a8ea02cc7ef2c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the vector of coordinates for which <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> was constructed  <br /></td></tr>
+<tr class="memitem:ga0568cc66101d05347d62733b8e9e6e1a" id="r_ga0568cc66101d05347d62733b8e9e6e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0568cc66101d05347d62733b8e9e6e1a">addAttractor</a> (const <a class="el" href="structMR_1_1Laplacian_1_1Attractor.html">Attractor</a> &amp;a)</td></tr>
+<tr class="memdesc:ga0568cc66101d05347d62733b8e9e6e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one more attractor to the stored list  <br /></td></tr>
+<tr class="memitem:gac82a9081ff051fecccad5bd85d17e14b" id="r_gac82a9081ff051fecccad5bd85d17e14b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac82a9081ff051fecccad5bd85d17e14b">removeAllAttractors</a> ()</td></tr>
+<tr class="memdesc:gac82a9081ff051fecccad5bd85d17e14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">forgets all attractors added previously  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> to smoothly deform a region preserving mesh fine details. How to use:</p><ol type="1">

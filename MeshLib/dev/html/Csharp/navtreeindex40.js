@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1MeshBuilder_1_1VertSpan.html":[6,3,0,0,0,507,7],
+"classMR_1_1MeshBuilder_1_1VertSpan.html#a1e0299cfaf3a695544728660b1f6517a":[6,3,0,0,0,507,7,5],
 "classMR_1_1MeshBuilder_1_1VertSpan.html#a1efa618a004235d51a02d85c51746879":[6,3,0,0,0,507,7,1],
 "classMR_1_1MeshBuilder_1_1VertSpan.html#a4643324cae793abe2443d0d24a16bcd9":[6,3,0,0,0,507,7,0],
 "classMR_1_1MeshBuilder_1_1VertSpan.html#a8234b3abb8a7269fb53055f8a8027575":[6,3,0,0,0,507,7,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a2644cc087e27f48893c48fbf18c9f6a6":[6,3,0,0,0,522,0],
 "classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#ad79f22a3392d0ca4b78a5a7ec49ab44d":[6,3,0,0,0,522,1],
 "classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#af8f4874aebcecff10b724e5ac12a8cb9":[6,3,0,0,0,522,3],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html":[6,3,0,0,0,523],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a0cc16eaaa3151e9ded0d315206aea45f":[6,3,0,0,0,523,1],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a1c473baccd29924105014d12baccdab8":[6,3,0,0,0,523,3]
+"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html":[6,3,0,0,0,523]
 };

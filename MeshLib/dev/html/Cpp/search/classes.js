@@ -138,6 +138,7 @@ var searchData=
   ['arrow_37',['Arrow',['../structMR_1_1DirectionWidget_1_1Arrow.html',1,'MR::DirectionWidget']]],
   ['asyncrequest_38',['AsyncRequest',['../classMR_1_1AsyncRequest.html',1,'MR']]],
   ['asynctimer_39',['AsyncTimer',['../classMR_1_1AsyncTimer.html',1,'MR']]],
+  ['attractor_40',['Attractor',['../structMR_1_1Laplacian_1_1Attractor.html',1,'MR::Laplacian']]],
   ['xfbasedcache_0',['XfBasedCache',['../classMR_1_1XfBasedCache.html',1,'MR']]],
   ['xfbasedcache_3c_20box3f_20_3e_1',['XfBasedCache&lt; Box3f &gt;',['../classMR_1_1XfBasedCache.html',1,'MR']]],
   ['facedistancessettings_0',['FaceDistancesSettings',['../structMR_1_1FaceDistancesSettings.html',1,'MR']]],

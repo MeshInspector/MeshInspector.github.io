@@ -1,7 +1,9 @@
 var classmrmeshpy_1_1Laplacian =
 [
+    [ "Attractor", "classmrmeshpy_1_1Laplacian_1_1Attractor.html", "classmrmeshpy_1_1Laplacian_1_1Attractor" ],
     [ "__init__", "classmrmeshpy_1_1Laplacian.html#a01c18de522ef5d4337a86a271591e9d9", null ],
     [ "__init__", "classmrmeshpy_1_1Laplacian.html#ab24751ee0b489bd8995949094969da0e", null ],
+    [ "addAttractor", "classmrmeshpy_1_1Laplacian.html#ab9e15cb10cc81c0cd98ad5971c643e9f", null ],
     [ "apply", "classmrmeshpy_1_1Laplacian.html#a74976cdf1db0e786256d485745725a78", null ],
     [ "applyToScalar", "classmrmeshpy_1_1Laplacian.html#a798fff826171aeae8b689297df7b874f", null ],
     [ "firstLayerFixedVerts", "classmrmeshpy_1_1Laplacian.html#a7d9e2d2d3aacf175b748364a640c240a", null ],
@@ -11,6 +13,7 @@ var classmrmeshpy_1_1Laplacian =
     [ "init", "classmrmeshpy_1_1Laplacian.html#ab25bca66c5156873056d36f9aeb28b18", null ],
     [ "points", "classmrmeshpy_1_1Laplacian.html#a473d35ed5b906e7e9fafc06fff258143", null ],
     [ "region", "classmrmeshpy_1_1Laplacian.html#a397e9c7782643cb024e4dc759bae415a", null ],
+    [ "removeAllAttractors", "classmrmeshpy_1_1Laplacian.html#aa41072443163d8150b3249b9e5b63329", null ],
     [ "topology", "classmrmeshpy_1_1Laplacian.html#ab2de54cbe949f98f111b0c2f1966e8af", null ],
     [ "updateSolver", "classmrmeshpy_1_1Laplacian.html#a2f08ce89d085f4800192cfc97ea15938", null ]
 ];

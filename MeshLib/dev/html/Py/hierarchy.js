@@ -34,6 +34,7 @@ var hierarchy =
     [ "mrmeshpy.ArcInterpolationParams", "classmrmeshpy_1_1ArcInterpolationParams.html", null ],
     [ "mrmeshpy.ArcPlane", "classmrmeshpy_1_1ArcPlane.html", null ],
     [ "mrmeshpy.AreaUnit", "classmrmeshpy_1_1AreaUnit.html", null ],
+    [ "mrmeshpy.Laplacian.Attractor", "classmrmeshpy_1_1Laplacian_1_1Attractor.html", null ],
     [ "mrmeshpy.Axis", "classmrmeshpy_1_1Axis.html", null ],
     [ "mrmeshpy.BasicUiRenderTask.BackwardPassParams", "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
     [ "mrmeshpy.Ball1d", "classmrmeshpy_1_1Ball1d.html", null ],

@@ -2026,6 +2026,7 @@ var group__GeneralGroup =
     [ "MR::Laplacian", "classMR_1_1Laplacian.html", [
       [ "Laplacian", "group__GeneralGroup.html#ga701e06f6b7ebb3c08d691ca34ffeab37", null ],
       [ "Laplacian", "group__GeneralGroup.html#ga76c6a49784d646ffed8a834c10e927df", null ],
+      [ "addAttractor", "group__GeneralGroup.html#ga0568cc66101d05347d62733b8e9e6e1a", null ],
       [ "apply", "group__GeneralGroup.html#ga13fee62f9942597d173e9f43fe75c60e", null ],
       [ "applyToScalar", "group__GeneralGroup.html#ga175ea45bb3617c292306378d0ae533a0", null ],
       [ "firstLayerFixedVerts", "group__GeneralGroup.html#ga1d3cc11b268b8962ef51d56d4946b2a8", null ],
@@ -2035,8 +2036,14 @@ var group__GeneralGroup =
       [ "init", "group__GeneralGroup.html#ga4a5fd158281d7c2d11d4c1bfc6f0d42f", null ],
       [ "points", "group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c", null ],
       [ "region", "group__GeneralGroup.html#ga9ad9ba866f86e02979c7ad6b6af3331c", null ],
+      [ "removeAllAttractors", "group__GeneralGroup.html#gac82a9081ff051fecccad5bd85d17e14b", null ],
       [ "topology", "group__GeneralGroup.html#gac4f2d6921a705dd7dd24fb45d990795a", null ],
       [ "updateSolver", "group__GeneralGroup.html#gaed49a7865f3de5ad169b768e09d8d91a", null ]
+    ] ],
+    [ "MR::Laplacian::Attractor", "structMR_1_1Laplacian_1_1Attractor.html", [
+      [ "p", "group__GeneralGroup.html#ga568001a06cd6d0a77fc7e87e9cebdc9a", null ],
+      [ "target", "group__GeneralGroup.html#ga9e19c8e2f07fda8228b4b66df9b6832b", null ],
+      [ "weight", "group__GeneralGroup.html#ga38939421f38fc6c59008300357e654f4", null ]
     ] ],
     [ "MR::Line< V >", "structMR_1_1Line.html", [
       [ "T", "group__GeneralGroup.html#ga1fe712212ce4ea1421578c647f2fe8be", null ],
@@ -10251,6 +10258,7 @@ var group__GeneralGroup =
     [ "MR::ObjectMeshHolder::actualSerializeFormat", "group__GeneralGroup.html#gaa8ad23b98d545682db124f812216b717", null ],
     [ "MR::RangeProgress::add", "group__GeneralGroup.html#ga9c5219708895771c264ae1e50fca117e", null ],
     [ "MR::ImGuiMenu::add_modifier", "group__GeneralGroup.html#ga2839644d95083c59b3090076cb25f5b9", null ],
+    [ "MR::Laplacian::addAttractor", "group__GeneralGroup.html#ga0568cc66101d05347d62733b8e9e6e1a", null ],
     [ "MR::addBaseToPlanarMesh", "group__GeneralGroup.html#gac55797411aface5733212df942d0a0af", null ],
     [ "MR::ProvidesViewportWidget::ViewportWidgetInterface::addButton", "group__GeneralGroup.html#gab677748a84ab64369812ae2caebcf4e6", null ],
     [ "MR::ViewerSettingsPlugin::addComboSettings", "group__GeneralGroup.html#ga26c3643fb290f5451aba04478ef7d6cd", null ],
@@ -14198,6 +14206,7 @@ var group__GeneralGroup =
     [ "MR::RegisterRenderObjectConstructor::RegisterRenderObjectConstructor", "group__GeneralGroup.html#ga7174e7e470563d875f38fe3926d38c2b", null ],
     [ "MR::VisualObjectTagManager::registerTag", "group__GeneralGroup.html#ga7c6cb0cea735bb0696d8592e4341523c", null ],
     [ "MR::ImGuiMenu::reload_font", "group__GeneralGroup.html#ga16ffa6e8181cdfe8e660a4fe516ce742", null ],
+    [ "MR::Laplacian::removeAllAttractors", "group__GeneralGroup.html#gac82a9081ff051fecccad5bd85d17e14b", null ],
     [ "MR::CommandLoop::removeCommands", "group__GeneralGroup.html#gaf136777f46bf36d97d449cd471709f41", null ],
     [ "MR::SurfaceManipulationWidget::removeLastStableObjMesh_", "group__GeneralGroup.html#ga8b49dc6133efe789f4fa17bb75f3641c", null ],
     [ "MR::removeLoneContours", "group__GeneralGroup.html#ga3b4b14ed0aff6c8a322aa8c0b4741d96", null ],
@@ -17144,6 +17153,7 @@ var group__GeneralGroup =
     [ "MR::ObjectMeshMergeOptions::overrideXfs", "group__GeneralGroup.html#ga768ff92a1b363f68475e9d27cfc1688a", null ],
     [ "MR::SurfaceManipulationWidget::ownMeshChangedSignal_", "group__GeneralGroup.html#gab48b92dfb4eab8bf8e44861c6b4d3751", null ],
     [ "MR::CubicBezierCurve::p", "group__GeneralGroup.html#ga253c4a44671e701720f11bb8c0078f06", null ],
+    [ "MR::Laplacian::Attractor::p", "group__GeneralGroup.html#ga568001a06cd6d0a77fc7e87e9cebdc9a", null ],
     [ "MR::Line::p", "group__GeneralGroup.html#gaca04c91be84f9b11da19a3e455b5a28a", null ],
     [ "MR::ICPProperties::p2plAngleLimit", "group__GeneralGroup.html#gaea1145693fe2129927a24c786165f31f", null ],
     [ "MR::ICPProperties::p2plScaleLimit", "group__GeneralGroup.html#gaf5cb06bed691cb37cc63ad3e96ebc6f2", null ],
@@ -17647,6 +17657,7 @@ var group__GeneralGroup =
     [ "MR::ImGuiMenu::tagNewName_", "group__GeneralGroup.html#ga642eba300ae802eed145b8f3df8eb9c5", null ],
     [ "MR::ObjectTagEventDispatcher::tagRemovedSignal", "group__GeneralGroup.html#ga28eae4596bea57f3a608867f6475f8bd", null ],
     [ "MR::RibbonNotification::tags", "group__GeneralGroup.html#ga2074bc13c9424073e04d319984ae6d49", null ],
+    [ "MR::Laplacian::Attractor::target", "group__GeneralGroup.html#ga9e19c8e2f07fda8228b4b66df9b6832b", null ],
     [ "MR::MetricToAStarPenalty::target", "group__GeneralGroup.html#ga1abb85a715d1e270fa171a12e30b3b33", null ],
     [ "MR::UnitToStringParams::targetUnit", "group__GeneralGroup.html#gac1da9d705a2210ae748df1e41d865a2a", null ],
     [ "MR::ParallelProgressReporter::PerTaskReporter::task_", "group__GeneralGroup.html#ga8a3bbfef3276f1831b2a645909a93a94", null ],
@@ -17926,6 +17937,7 @@ var group__GeneralGroup =
     [ "MR::LoadedObjectT::warnings", "group__GeneralGroup.html#gaabc1e6add51daf7ce715234cb96c9805", null ],
     [ "MR::WebRequest", "group__GeneralGroup.html#gad94e4d4dcae262fbf618c54cbdbdf4aa", null ],
     [ "MR::ICPPairData::weight", "group__GeneralGroup.html#gacade73682f0a4e356ccf90131e1a5fa2", null ],
+    [ "MR::Laplacian::Attractor::weight", "group__GeneralGroup.html#ga38939421f38fc6c59008300357e654f4", null ],
     [ "MR::ParallelProgressReporter::TaskInfo::weight", "group__GeneralGroup.html#ga276059ffbe521f7edd753194e8ed98e2", null ],
     [ "MR::WeightedVertex::weight", "group__GeneralGroup.html#ga1208b58be6e320fd52f5e5a18d6c5760", null ],
     [ "MR::RibbonSchemaHolder::SearchParams::weights", "group__GeneralGroup.html#gaa7e03f93869b8695b61ce8aaf08406f8", null ],
