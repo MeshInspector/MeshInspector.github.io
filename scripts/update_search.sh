@@ -6,9 +6,9 @@ if [ "$(basename "$PWD")" != "MeshInspector.github.io" ]; then
     return 1
 fi
 
-if [ "$(doxygen --version | cut -d' ' -f1)" != "1.11.0" ]; then
+if [ "$(doxygen --version | cut -d' ' -f1)" != "1.14.0" ]; then
     echo "[ERROR] Unsuitable version of doxygen!"
-    echo "Use doxygen version 1.11.0 or update this script (and patch file)"
+    echo "Use doxygen version 1.14.0 or update this script (and patch file)"
     return 1
 fi
 
