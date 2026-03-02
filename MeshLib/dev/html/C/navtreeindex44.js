@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"MRImage_8h_source.html":[6,2,1,0,0,0,1,115],
+"MRImproveSampling_8h.html":[6,2,1,0,0,0,1,119],
+"MRImproveSampling_8h.html#a000a6708513be83be75412362114a4c5":[6,2,1,0,0,0,1,119,28],
+"MRImproveSampling_8h.html#a038b960e62c92ea7b36dd0be1862dc70":[6,2,1,0,0,0,1,119,11],
 "MRImproveSampling_8h.html#a066e6f292b375452a50919869b5120ba":[6,2,1,0,0,0,1,119,4],
 "MRImproveSampling_8h.html#a092acfae526e5e02b7aaf2e2da4552d8":[6,2,1,0,0,0,1,119,16],
 "MRImproveSampling_8h.html#a106b8e3df0f486f557e7f58f9d656715":[6,2,1,0,0,0,1,119,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "MRIntersection_8h_source.html":[6,2,1,0,0,0,1,121],
 "MRIsNaN_8h.html":[6,2,1,0,0,0,1,129],
 "MRIsNaN_8h.html#a20ea9b5473394db8e6ddd6cfb902fab5":[6,2,1,0,0,0,1,129,0],
-"MRIsNaN_8h_source.html":[6,2,1,0,0,0,1,129],
-"MRIterativeSampling_8h.html":[6,2,1,0,0,0,1,130],
-"MRIterativeSampling_8h.html#a603549d885b19de8cac37bb9dad1d6e1":[6,2,1,0,0,0,1,130,0],
-"MRIterativeSampling_8h_source.html":[6,2,1,0,0,0,1,130],
-"MRIteratorRange_8h.html":[6,2,1,0,0,0,1,131]
+"MRIsNaN_8h_source.html":[6,2,1,0,0,0,1,129]
 };

@@ -139,7 +139,6 @@ $(function(){initNavTree('MRLaplacian_8h.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRLaplacian.h File Reference</div></div>
 </div><!--header-->
@@ -155,14 +154,7 @@ $(function(){initNavTree('MRLaplacian_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a6473b7f7bca2d39712fcfbfd7cd00ba5" id="r_a6473b7f7bca2d39712fcfbfd7cd00ba5"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6473b7f7bca2d39712fcfbfd7cd00ba5">MR_Laplacian_RememberShape</a></td></tr>
 <tr class="memitem:a5a83991ce0ccd72650f7dedbedd89cae" id="r_a5a83991ce0ccd72650f7dedbedd89cae"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a9d1c532a5b4496576859f5ee4baa785c" id="r_a9d1c532a5b4496576859f5ee4baa785c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a> { <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785ca18fde6db14d76513928d9cafb09f3edb">MR_Laplacian_RememberShape_Yes</a> = 0
-, <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785cacec974f0d692615ddfa13b5023b2999c">MR_Laplacian_RememberShape_No</a> = 1
- }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -175,7 +167,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac6df2d6a7e2a2ea7f31402a4e2bedb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:aad9b3cd28251ba7f54e526d5ed11e566" id="r_aad9b3cd28251ba7f54e526d5ed11e566"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad9b3cd28251ba7f54e526d5ed11e566">MR_Laplacian_DestroyArray</a> (const <a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
 <tr class="memdesc:aad9b3cd28251ba7f54e526d5ed11e566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a120c044537eb88af38dc10d43924a0b1" id="r_a120c044537eb88af38dc10d43924a0b1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a120c044537eb88af38dc10d43924a0b1">MR_Laplacian_init</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *freeVerts, <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> weights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a> *rem)</td></tr>
+<tr class="memitem:a0853837b1ab4dfe254bc1939b1201572" id="r_a0853837b1ab4dfe254bc1939b1201572"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0853837b1ab4dfe254bc1939b1201572">MR_Laplacian_init</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *freeVerts, <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> weights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MREnums_8h.html#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a> *rem)</td></tr>
 <tr class="memitem:a9a8dcfff072f95c65b875b7829625adf" id="r_a9a8dcfff072f95c65b875b7829625adf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8dcfff072f95c65b875b7829625adf">MR_Laplacian_fixVertex_2</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const bool *smooth)</td></tr>
 <tr class="memitem:ae214e23246bc313c35a071d88706ee7f" id="r_ae214e23246bc313c35a071d88706ee7f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae214e23246bc313c35a071d88706ee7f">MR_Laplacian_fixVertex_3</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *fixedPos, const bool *smooth)</td></tr>
 <tr class="memitem:a05611f31527f0bab7d71731a2a189aad" id="r_a05611f31527f0bab7d71731a2a189aad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05611f31527f0bab7d71731a2a189aad">MR_Laplacian_updateSolver</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
@@ -205,39 +197,6 @@ Functions</h2></td></tr>
 <li>Optionally call updateSolver()</li>
 <li>Call apply() to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <div class="fragment"></div><!-- fragment --> Generated from class <span class="tt">MR::Laplacian</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </li>
 </ol>
-
-</div>
-</div>
-<a id="a6473b7f7bca2d39712fcfbfd7cd00ba5" name="a6473b7f7bca2d39712fcfbfd7cd00ba5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6473b7f7bca2d39712fcfbfd7cd00ba5">&#9670;&#160;</a></span>MR_Laplacian_RememberShape</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef enum <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a> <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="a9d1c532a5b4496576859f5ee4baa785c" name="a9d1c532a5b4496576859f5ee4baa785c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d1c532a5b4496576859f5ee4baa785c">&#9670;&#160;</a></span>MR_Laplacian_RememberShape</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9d1c532a5b4496576859f5ee4baa785ca18fde6db14d76513928d9cafb09f3edb" name="a9d1c532a5b4496576859f5ee4baa785ca18fde6db14d76513928d9cafb09f3edb"></a>MR_Laplacian_RememberShape_Yes&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9d1c532a5b4496576859f5ee4baa785cacec974f0d692615ddfa13b5023b2999c" name="a9d1c532a5b4496576859f5ee4baa785cacec974f0d692615ddfa13b5023b2999c"></a>MR_Laplacian_RememberShape_No&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
 </div>
 </div>
@@ -487,8 +446,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a120c044537eb88af38dc10d43924a0b1" name="a120c044537eb88af38dc10d43924a0b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a120c044537eb88af38dc10d43924a0b1">&#9670;&#160;</a></span>MR_Laplacian_init()</h2>
+<a id="a0853837b1ab4dfe254bc1939b1201572" name="a0853837b1ab4dfe254bc1939b1201572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0853837b1ab4dfe254bc1939b1201572">&#9670;&#160;</a></span>MR_Laplacian_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,13 +475,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a9d1c532a5b4496576859f5ee4baa785c">MR_Laplacian_RememberShape</a> *</td>          <td class="paramname"><span class="paramname"><em>rem</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a> *</td>          <td class="paramname"><span class="paramname"><em>rem</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>(re)initialize Laplacian for the region being deformed, here region properties are remembered and precomputed; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component Generated from method <span class="tt">MR::Laplacian::init</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">Laplacian::RememberShape::Yes</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component Generated from method <span class="tt">MR::Laplacian::init</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">RememberShape::Yes</span>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>

@@ -276,7 +276,7 @@ var searchData=
   ['regularmapmesher_13',['RegularMapMesher',['../classmrmeshpy_1_1RegularMapMesher.html',1,'mrmeshpy']]],
   ['relaxapproxtype_14',['RelaxApproxType',['../classmrmeshpy_1_1RelaxApproxType.html',1,'mrmeshpy']]],
   ['relaxparams_15',['RelaxParams',['../classmrmeshpy_1_1RelaxParams.html',1,'mrmeshpy']]],
-  ['remembershape_16',['RememberShape',['../classmrmeshpy_1_1Laplacian_1_1RememberShape.html',1,'mrmeshpy::Laplacian']]],
+  ['remembershape_16',['RememberShape',['../classmrmeshpy_1_1RememberShape.html',1,'mrmeshpy']]],
   ['remeshsettings_17',['RemeshSettings',['../classmrmeshpy_1_1RemeshSettings.html',1,'mrmeshpy']]],
   ['rendermodelpassmask_18',['RenderModelPassMask',['../classmrmeshpy_1_1RenderModelPassMask.html',1,'mrmeshpy']]],
   ['reorder_19',['Reorder',['../classmrmeshpy_1_1Reorder.html',1,'mrmeshpy']]],

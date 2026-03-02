@@ -6,9 +6,6 @@
     <innerclass refid="structMR_1_1Laplacian_1_1Element" prot="private">MR::Laplacian::Element</innerclass>
     <innerclass refid="structMR_1_1Laplacian_1_1Equation" prot="private">MR::Laplacian::Equation</innerclass>
     <innerclass refid="classMR_1_1Laplacian_1_1Solver" prot="private">MR::Laplacian::Solver</innerclass>
-    <sectiondef kind="public-type">
-      <member refid="group__GeneralGroup_1ga67c8dfc7669f41712a92d21d5ec99fed" kind="enum"><name>RememberShape</name></member>
-    </sectiondef>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga1e93a879eaadfec3d0015f118fa5fc4a" kind="typedef"><name>SparseMatrix</name></member>
       <member refid="group__GeneralGroup_1ga167fefaf482de016d077cd7d54066c53" kind="typedef"><name>SparseMatrixColMajor</name></member>
@@ -33,7 +30,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
       <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
-      <member refid="group__GeneralGroup_1ga27e53a6f515c82f8afd74a84abfb2b9f" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
       <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
       <member refid="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" kind="function"><name>fixVertex</name></member>
       <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" kind="function"><name>updateSolver</name></member>
@@ -61,7 +58,7 @@
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="MRMesh/MRLaplacian.h" bodystart="24" bodyend="137"/>
+    <location file="MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="MRMesh/MRLaplacian.h" bodystart="24" bodyend="131"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
       <member refid="group__GeneralGroup_1ga175ea45bb3617c292306378d0ae533a0" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>
@@ -74,7 +71,7 @@
       <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVert2id_</name></member>
       <member refid="group__GeneralGroup_1ga193dcb7b5ba595a2dad19cf1b4af4ce9" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts</name></member>
       <member refid="group__GeneralGroup_1ga0b96cdc6bcf86ca8f5867bfe56b00cf7" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts_</name></member>
-      <member refid="group__GeneralGroup_1ga27e53a6f515c82f8afd74a84abfb2b9f" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>M_</name></member>
@@ -85,7 +82,6 @@
       <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>region</name></member>
       <member refid="group__GeneralGroup_1ga89275c83411511907eadafbab493bc78" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>region_</name></member>
       <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>regionVert2id_</name></member>
-      <member refid="group__GeneralGroup_1ga67c8dfc7669f41712a92d21d5ec99fed" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>RememberShape</name></member>
       <member refid="group__GeneralGroup_1gadb64b7ef76faa31ee82d787ea107dc93" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>rhs_</name></member>
       <member refid="group__GeneralGroup_1ga6d44777bdfa7499069c9d45cce1d557c" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>rhsValid_</name></member>
       <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>solver_</name></member>

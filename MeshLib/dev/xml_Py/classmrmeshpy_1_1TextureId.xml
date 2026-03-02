@@ -478,7 +478,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::TextureId
-Aliases:  Vector_TextureId_TextureId.const_reference, Vector_TextureId_FaceId_const_reference, TypedBitSet_TextureId_IndexType, Vector_TextureId_FaceId_value_type, Vector_TextureId_TextureId.value_type, Vector_TextureId_TextureId.reference, Vector_TextureId_FaceId_reference
+Aliases:  Vector_TextureId_TextureId.const_reference, Vector_TextureId_FaceId_const_reference, Vector_TextureId_FaceId_value_type, TypedBitSet_TextureId_IndexType, Vector_TextureId_TextureId.value_type, Vector_TextureId_TextureId.reference, Vector_TextureId_FaceId_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

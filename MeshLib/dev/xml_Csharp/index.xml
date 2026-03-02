@@ -8603,7 +8603,7 @@
     <member refid="classMR_1_1Laplacian_1a11962dd32eeeb55c9aa2dbb3ea05db65" kind="function"><name>Laplacian</name></member>
     <member refid="classMR_1_1Laplacian_1ae08c9a839ac527f7563e515a61a0b70b" kind="function"><name>Laplacian</name></member>
     <member refid="classMR_1_1Laplacian_1aca102c7cdc39358341ad9213620270a6" kind="function"><name>Laplacian</name></member>
-    <member refid="classMR_1_1Laplacian_1acdc9ec6609072cedbcde3da4d864e3a7" kind="function"><name>init</name></member>
+    <member refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kind="function"><name>init</name></member>
     <member refid="classMR_1_1Laplacian_1a479045a960528acf02d857b5d88a13e5" kind="function"><name>fixVertex</name></member>
     <member refid="classMR_1_1Laplacian_1af57ef04dfe76e47096b1075975ceb84d" kind="function"><name>fixVertex</name></member>
     <member refid="classMR_1_1Laplacian_1a6ab6466ee01c85f49d6bfd5955ba7de0" kind="function"><name>updateSolver</name></member>
@@ -10678,6 +10678,9 @@
     <member refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9e" kind="enum"><name>EdgeWeights</name></member>
     <member refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9ea19c562a36aeb455d09534f93b4f5236f" kind="enumvalue"><name>Unit</name></member>
     <member refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9" kind="enumvalue"><name>Cotan</name></member>
+    <member refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15d" kind="enum"><name>RememberShape</name></member>
+    <member refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" kind="enumvalue"><name>Yes</name></member>
+    <member refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15dabafd7322c6e97d25b6299b5d6fe8920b" kind="enumvalue"><name>No</name></member>
     <member refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kind="enum"><name>Processing</name></member>
     <member refid="classMR_1a2e141c1c8c46db7665c0466e70b3917caa0bfb8e59e6c13fc8d990781f77694fe" kind="enumvalue"><name>Continue</name></member>
     <member refid="classMR_1a2e141c1c8c46db7665c0466e70b3917ca11a755d598c0c417f9a36758c3da7481" kind="enumvalue"><name>Stop</name></member>

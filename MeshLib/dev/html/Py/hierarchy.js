@@ -972,7 +972,7 @@ var hierarchy =
         [ "mrmeshpy.PointCloudApproxRelaxParams", "classmrmeshpy_1_1PointCloudApproxRelaxParams.html", null ]
       ] ]
     ] ],
-    [ "mrmeshpy.Laplacian.RememberShape", "classmrmeshpy_1_1Laplacian_1_1RememberShape.html", null ],
+    [ "mrmeshpy.RememberShape", "classmrmeshpy_1_1RememberShape.html", null ],
     [ "mrmeshpy.RemeshSettings", "classmrmeshpy_1_1RemeshSettings.html", null ],
     [ "mrmeshpy.RenderModelPassMask", "classmrmeshpy_1_1RenderModelPassMask.html", null ],
     [ "mrmeshpy.Reorder", "classmrmeshpy_1_1Reorder.html", null ],

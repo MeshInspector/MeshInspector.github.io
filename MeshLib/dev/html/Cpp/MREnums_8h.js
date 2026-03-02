@@ -34,6 +34,10 @@ var MREnums_8h =
       [ "MR::Processing::Continue", "group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe", null ],
       [ "MR::Processing::Stop", "group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481", null ]
     ] ],
+    [ "MR::RememberShape", "group__GeneralGroup.html#gaa86f413349a7d9d6b8e7b22783100cf2", [
+      [ "MR::RememberShape::Yes", "group__GeneralGroup.html#ggaa86f413349a7d9d6b8e7b22783100cf2a93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "MR::RememberShape::No", "group__GeneralGroup.html#ggaa86f413349a7d9d6b8e7b22783100cf2abafd7322c6e97d25b6299b5d6fe8920b", null ]
+    ] ],
     [ "MR::Reorder", "group__GeneralGroup.html#gafedf1467ef6a61af5a59eafa50a41bf9", [
       [ "MR::Reorder::None", "group__GeneralGroup.html#ggafedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "MR::Reorder::Lexicographically", "group__GeneralGroup.html#ggafedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954", null ],

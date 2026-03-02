@@ -159,6 +159,7 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a647d855259963a8a9399e34b49c5c6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the weight or mass of each vertex in applications like Laplacian  <br /></td></tr>
 <tr class="memitem:a7beea1a411c7b0c6342e68d2ad76f98d" id="r_a7beea1a411c7b0c6342e68d2ad76f98d"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7beea1a411c7b0c6342e68d2ad76f98d">MR_EdgeWeights</a></td></tr>
 <tr class="memdesc:a7beea1a411c7b0c6342e68d2ad76f98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the weight of each edge in applications like Laplacian  <br /></td></tr>
+<tr class="memitem:ae7edb655a25d3bc6dd3415d5cfbda767" id="r_ae7edb655a25d3bc6dd3415d5cfbda767"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7edb655a25d3bc6dd3415d5cfbda767">MR_RememberShape</a></td></tr>
 <tr class="memitem:ae27ea8c7570f040835b33a0df5f6be04" id="r_ae27ea8c7570f040835b33a0df5f6be04"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae27ea8c7570f040835b33a0df5f6be04">MR_Processing</a></td></tr>
 <tr class="memdesc:ae27ea8c7570f040835b33a0df5f6be04"><td class="mdescLeft">&#160;</td><td class="mdescRight">typically returned from callbacks to control the behavior of main algorithm  <br /></td></tr>
 <tr class="memitem:ae07e1336427a647b041b525ba1b2e725" id="r_ae07e1336427a647b041b525ba1b2e725"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a7e870a89eaf0714e711833b123b397b3">MR_OrientNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae07e1336427a647b041b525ba1b2e725">MR_OrientNormals</a></td></tr>
@@ -192,6 +193,9 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a9a47d4f1ed7f02b8923ccde473d7ab50a825ee3e532b35bc2472ab31f36b01591">MR_EdgeWeights_Cotan</a> = 1
  }</td></tr>
 <tr class="memdesc:a9a47d4f1ed7f02b8923ccde473d7ab50"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the weight of each edge in applications like Laplacian  <a href="#a9a47d4f1ed7f02b8923ccde473d7ab50">More...</a><br /></td></tr>
+<tr class="memitem:acb93b9836cfc63b8a860cd876cbade18" id="r_acb93b9836cfc63b8a860cd876cbade18"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a> { <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18a192361388fb7ef8e9f066eabfb0aa274">MR_RememberShape_Yes</a> = 0
+, <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18a0f5583e21a8f6f167050bc42a4fd3099">MR_RememberShape_No</a> = 1
+ }</td></tr>
 <tr class="memitem:a481d5e47b4284146a7e048728dfd7bb4" id="r_a481d5e47b4284146a7e048728dfd7bb4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a481d5e47b4284146a7e048728dfd7bb4a8c0d78f87009289352f7cc7a81650651">MR_Processing_Continue</a> = 0
 , <a class="el" href="#a481d5e47b4284146a7e048728dfd7bb4ad272346f566a093bb3b6a9a1500f8f52">MR_Processing_Stop</a> = 1
  }</td></tr>
@@ -334,6 +338,20 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>typically returned from callbacks to control the behavior of main algorithm </p>
+
+</div>
+</div>
+<a id="ae7edb655a25d3bc6dd3415d5cfbda767" name="ae7edb655a25d3bc6dd3415d5cfbda767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7edb655a25d3bc6dd3415d5cfbda767">&#9670;&#160;</a></span>MR_RememberShape</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a> <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -638,6 +656,26 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7e870a89eaf0714e711833b123b397b3a895fc9daf6c5031555850f1c3c3cac4c" name="a7e870a89eaf0714e711833b123b397b3a895fc9daf6c5031555850f1c3c3cac4c"></a>MR_OrientNormals_TowardOrigin&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7e870a89eaf0714e711833b123b397b3a0249a411bf2394e3efbbad25a602079c" name="a7e870a89eaf0714e711833b123b397b3a0249a411bf2394e3efbbad25a602079c"></a>MR_OrientNormals_AwayFromOrigin&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7e870a89eaf0714e711833b123b397b3ad38dbb20ad31f3b7610abce74844df12" name="a7e870a89eaf0714e711833b123b397b3ad38dbb20ad31f3b7610abce74844df12"></a>MR_OrientNormals_Smart&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="acb93b9836cfc63b8a860cd876cbade18" name="acb93b9836cfc63b8a860cd876cbade18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb93b9836cfc63b8a860cd876cbade18">&#9670;&#160;</a></span>MR_RememberShape</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acb93b9836cfc63b8a860cd876cbade18a192361388fb7ef8e9f066eabfb0aa274" name="acb93b9836cfc63b8a860cd876cbade18a192361388fb7ef8e9f066eabfb0aa274"></a>MR_RememberShape_Yes&#160;</td><td class="fielddoc"><p>true Laplacian mode when initial mesh shape is remembered and copied in apply </p>
+<p>ignore initial mesh shape in the region and just position vertices smoothly in the region </p>
+</td></tr>
+<tr><td class="fieldname"><a id="acb93b9836cfc63b8a860cd876cbade18a0f5583e21a8f6f167050bc42a4fd3099" name="acb93b9836cfc63b8a860cd876cbade18a0f5583e21a8f6f167050bc42a4fd3099"></a>MR_RememberShape_No&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

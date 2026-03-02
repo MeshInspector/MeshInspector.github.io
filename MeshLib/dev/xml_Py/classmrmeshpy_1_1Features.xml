@@ -356,6 +356,28 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19082" bodyend="19085"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+        <definition> Features.Primitives.Plane mrmeshpy.Features.transformPrimitive</definition>
+        <argsstring>(AffineXf3f xf, Features.Primitives.Plane primitive)</argsstring>
+        <name>transformPrimitive</name>
+        <qualifiedname>mrmeshpy.Features.transformPrimitive</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+          <declname>primitive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19088" bodyend="19089"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1abfb88b70e348bca8e75b19074d676ece" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
         <definition> Features.Primitives.ConeSegment mrmeshpy.Features.transformPrimitive</definition>
@@ -376,7 +398,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19088" bodyend="19089"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19092" bodyend="19093"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1a2de1e615a059d78336bc70ee9fe3aa31" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
@@ -398,7 +420,7 @@ This only returns the direct subfeatures. You can call this recursively to obtai
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19092" bodyend="19093"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19096" bodyend="19097"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1acf9a442deb2f29886a91bad01573e058" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
@@ -423,29 +445,7 @@ Non-uniform scaling and skewing are not supported.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19096" bodyend="19100"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
-        <definition> Features.Primitives.Plane mrmeshpy.Features.transformPrimitive</definition>
-        <argsstring>(AffineXf3f xf, Features.Primitives.Plane primitive)</argsstring>
-        <name>transformPrimitive</name>
-        <qualifiedname>mrmeshpy.Features.transformPrimitive</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
-          <declname>xf</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
-          <declname>primitive</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19103" bodyend="19104"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19100" bodyend="19104"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -472,10 +472,10 @@ Non-uniform scaling and skewing are not supported.
       <member refid="classmrmeshpy_1_1Features_1a96987b088a132365f936a5c64758f708" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1a84468c2c6772c768e86797e9b6d2596a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1aac503a731bf8fbf839b66c52d8306395" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>toString</name></member>
+      <member refid="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1abfb88b70e348bca8e75b19074d676ece" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1a2de1e615a059d78336bc70ee9fe3aa31" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
       <member refid="classmrmeshpy_1_1Features_1acf9a442deb2f29886a91bad01573e058" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
-      <member refid="classmrmeshpy_1_1Features_1a13dd9e368957364477612d24d2fccc82" prot="public" virt="non-virtual"><scope>mrmeshpy::Features</scope><name>transformPrimitive</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

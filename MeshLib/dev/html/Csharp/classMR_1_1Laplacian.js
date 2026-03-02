@@ -7,6 +7,6 @@ var classMR_1_1Laplacian =
     [ "applyToScalar", "classMR_1_1Laplacian.html#ad42cac80dba53264cee7888c3f137692", null ],
     [ "fixVertex", "classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5", null ],
     [ "fixVertex", "classMR_1_1Laplacian.html#af57ef04dfe76e47096b1075975ceb84d", null ],
-    [ "init", "classMR_1_1Laplacian.html#acdc9ec6609072cedbcde3da4d864e3a7", null ],
+    [ "init", "classMR_1_1Laplacian.html#a465de937f70863f60a48bdc752533568", null ],
     [ "updateSolver", "classMR_1_1Laplacian.html#a6ab6466ee01c85f49d6bfd5955ba7de0", null ]
 ];

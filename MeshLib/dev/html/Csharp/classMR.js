@@ -1337,6 +1337,10 @@ var classMR =
       [ "Planar", "classMR.html#a04fbc78203c3033872b6d43c31d2805ca93a097009b6443e711996c50b5354adf", null ],
       [ "Quadric", "classMR.html#a04fbc78203c3033872b6d43c31d2805cadd6dfa467092f93b67f60fb75476b794", null ]
     ] ],
+    [ "RememberShape", "classMR.html#ada4b8bfa685e52d58d9a257d93a6d15d", [
+      [ "Yes", "classMR.html#ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "No", "classMR.html#ada4b8bfa685e52d58d9a257d93a6d15dabafd7322c6e97d25b6299b5d6fe8920b", null ]
+    ] ],
     [ "RenderModelPassMask", "classMR.html#a2cfe11534ca643c46387ccc93c6822d4", [
       [ "Opaque", "classMR.html#a2cfe11534ca643c46387ccc93c6822d4afaa90538de35640e4b1e31ccf35b6eb5", null ],
       [ "Transparent", "classMR.html#a2cfe11534ca643c46387ccc93c6822d4a3d971943089a3388c01fb297a32d9ba7", null ],

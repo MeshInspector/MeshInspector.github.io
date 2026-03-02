@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="147" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="147" bodyend="147"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="139" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="139" bodyend="139"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="152" bodyend="158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="144" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="144" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1ae08c9a839ac527f7563e515a61a0b70b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="163" bodyend="169"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="155" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1aca102c7cdc39358341ad9213620270a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -87,12 +87,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="174" bodyend="181"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="166" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="166" bodyend="173"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1acdc9ec6609072cedbcde3da4d864e3a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Laplacian.init</definition>
-        <argsstring>(MR.Const_VertBitSet freeVerts, MR.EdgeWeights weights, MR.VertexMass? vmass=null, MR.Laplacian.RememberShape? rem=null)</argsstring>
+        <argsstring>(MR.Const_VertBitSet freeVerts, MR.EdgeWeights weights, MR.VertexMass? vmass=null, MR.RememberShape? rem=null)</argsstring>
         <name>init</name>
         <qualifiedname>MR.Laplacian.init</qualifiedname>
         <param>
@@ -109,7 +109,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Laplacian.RememberShape?</type>
+          <type><ref refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15d" kindref="member">MR.RememberShape</ref>?</type>
           <declname>rem</declname>
           <defval>null</defval>
         </param>
@@ -122,7 +122,7 @@
 <parametername>freeVerts</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>must not include all vertices of a mesh connected component Generated from method <computeroutput><ref refid="classMR_1_1Laplacian_1acdc9ec6609072cedbcde3da4d864e3a7" kindref="member">MR.Laplacian.init</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass.Unit</ref></computeroutput>. Parameter <computeroutput>rem</computeroutput> defaults to <computeroutput>Laplacian::RememberShape::Yes</computeroutput>. </para>
+<para>must not include all vertices of a mesh connected component Generated from method <computeroutput><ref refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kindref="member">MR.Laplacian.init</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass.Unit</ref></computeroutput>. Parameter <computeroutput>rem</computeroutput> defaults to <computeroutput><ref refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" kindref="member">RememberShape.Yes</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="190" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="190" bodyend="197"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="182" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="182" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1a479045a960528acf02d857b5d88a13e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="205" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="205" bodyend="211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="197" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1af57ef04dfe76e47096b1075975ceb84d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="219" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="219" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="211" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="211" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1a6ab6466ee01c85f49d6bfd5955ba7de0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="234" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="234" bodyend="239"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="226" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1adec94b8812ff2f12bbe9e564894393f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="245" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="245" bodyend="250"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="237" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="237" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1ad42cac80dba53264cee7888c3f137692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="256" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="256" bodyend="261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="248" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="248" bodyend="253"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -308,13 +308,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="146" bodyend="262"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="137" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="138" bodyend="254"/>
     <listofallmembers>
       <member refid="classMR_1_1Laplacian_1adec94b8812ff2f12bbe9e564894393f4" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
       <member refid="classMR_1_1Laplacian_1ad42cac80dba53264cee7888c3f137692" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>
       <member refid="classMR_1_1Laplacian_1a479045a960528acf02d857b5d88a13e5" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
       <member refid="classMR_1_1Laplacian_1af57ef04dfe76e47096b1075975ceb84d" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
-      <member refid="classMR_1_1Laplacian_1acdc9ec6609072cedbcde3da4d864e3a7" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
+      <member refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
       <member refid="classMR_1_1Laplacian_1a12fcd37478ae5ba2e802b2ce0687cea7" prot="package" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="classMR_1_1Laplacian_1a11962dd32eeeb55c9aa2dbb3ea05db65" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="classMR_1_1Laplacian_1ae08c9a839ac527f7563e515a61a0b70b" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>

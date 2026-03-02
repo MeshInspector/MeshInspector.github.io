@@ -784,6 +784,7 @@ var annotated_dup =
       [ "RegularMapMesher", "classmrmeshpy_1_1RegularMapMesher.html", "classmrmeshpy_1_1RegularMapMesher" ],
       [ "RelaxApproxType", "classmrmeshpy_1_1RelaxApproxType.html", "classmrmeshpy_1_1RelaxApproxType" ],
       [ "RelaxParams", "classmrmeshpy_1_1RelaxParams.html", "classmrmeshpy_1_1RelaxParams" ],
+      [ "RememberShape", "classmrmeshpy_1_1RememberShape.html", "classmrmeshpy_1_1RememberShape" ],
       [ "RemeshSettings", "classmrmeshpy_1_1RemeshSettings.html", "classmrmeshpy_1_1RemeshSettings" ],
       [ "RenderModelPassMask", "classmrmeshpy_1_1RenderModelPassMask.html", "classmrmeshpy_1_1RenderModelPassMask" ],
       [ "Reorder", "classmrmeshpy_1_1Reorder.html", "classmrmeshpy_1_1Reorder" ],

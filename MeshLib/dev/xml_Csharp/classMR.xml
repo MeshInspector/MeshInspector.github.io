@@ -1488,6 +1488,36 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="43" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="44" bodyend="49"/>
       </memberdef>
+      <memberdef kind="enum" id="classMR_1ada4b8bfa685e52d58d9a257d93a6d15d" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>RememberShape</name>
+        <qualifiedname>MR.RememberShape</qualifiedname>
+        <enumvalue id="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" prot="public">
+          <name>Yes</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>true <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> mode when initial mesh shape is remembered and copied in apply </para>
+          </briefdescription>
+          <detaileddescription>
+<para>ignore initial mesh shape in the region and just position vertices smoothly in the region </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1ada4b8bfa685e52d58d9a257d93a6d15dabafd7322c6e97d25b6299b5d6fe8920b" prot="public">
+          <name>No</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="51" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
       <memberdef kind="enum" id="classMR_1a2e141c1c8c46db7665c0466e70b3917c" prot="public" static="no" strong="yes">
         <type>byte</type>
         <name>Processing</name>
@@ -1515,7 +1545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="55" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="56" bodyend="59"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="64" bodyend="67"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1ad0f6ea3aa4937d3c311b441344576dab" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -1552,7 +1582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="64" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="65" bodyend="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="73" bodyend="77"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -1591,7 +1621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="72" bodyend="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="79" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="80" bodyend="87"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -1652,7 +1682,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="85" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="86" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="93" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="94" bodyend="105"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1adc3b249d0ba364990f1bc96d27fa7d88" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -1688,7 +1718,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="99" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="100" bodyend="107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="108" bodyend="115"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1aeefd25abc54607bc39e87bf80e80bf04" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -1728,7 +1758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="112" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="113" bodyend="120"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="120" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="121" bodyend="128"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a8e14dd18b0dc9305caffdd32f1a13ead" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -1757,7 +1787,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="126" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="127" bodyend="130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="134" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="135" bodyend="138"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -12678,7 +12708,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="136" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="136" bodyend="142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="144" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="144" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a04f8b4668e8d810a139093e706eb72f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -50128,6 +50158,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ae7a4a47b5689dc5b0cce7a6ea57fa3e0" prot="public" virt="non-virtual"><scope>MR</scope><name>relaxKeepVolume</name></member>
       <member refid="classMR_1a6aea027dc8d984438c7143dac6e4bdbf" prot="public" virt="non-virtual"><scope>MR</scope><name>relaxKeepVolume</name></member>
       <member refid="classMR_1af8771494a56c45d2540fd615a95aedd0" prot="public" virt="non-virtual"><scope>MR</scope><name>relaxKeepVolume</name></member>
+      <member refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15d" prot="public" virt="non-virtual"><scope>MR</scope><name>RememberShape</name></member>
       <member refid="classMR_1a45ad91d20adc7c36d5051f856642d124" prot="public" virt="non-virtual"><scope>MR</scope><name>remesh</name></member>
       <member refid="classMR_1a1f23b3c38a9c09d654587fa15abd6336" prot="public" virt="non-virtual"><scope>MR</scope><name>removeLoneContours</name></member>
       <member refid="classMR_1a3729b84667113a8e9a394114ac181566" prot="public" virt="non-virtual"><scope>MR</scope><name>removeLoneDegeneratedContours</name></member>

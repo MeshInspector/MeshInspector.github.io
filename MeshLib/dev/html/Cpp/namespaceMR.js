@@ -1556,6 +1556,10 @@ var namespaceMR =
       [ "Planar", "group__GeneralGroup.html#gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf", null ],
       [ "Quadric", "group__GeneralGroup.html#gga6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794", null ]
     ] ],
+    [ "RememberShape", "group__GeneralGroup.html#gaa86f413349a7d9d6b8e7b22783100cf2", [
+      [ "Yes", "group__GeneralGroup.html#ggaa86f413349a7d9d6b8e7b22783100cf2a93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "No", "group__GeneralGroup.html#ggaa86f413349a7d9d6b8e7b22783100cf2abafd7322c6e97d25b6299b5d6fe8920b", null ]
+    ] ],
     [ "RenderModelPassMask", "group__GeneralGroup.html#ga712ee084e6055ce8fadbbe8cf8b3f6ce", [
       [ "Opaque", "group__GeneralGroup.html#gga712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5", null ],
       [ "Transparent", "group__GeneralGroup.html#gga712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7", null ],

@@ -2024,10 +2024,6 @@ var group__GeneralGroup =
       [ "~RegisterRenderObjectConstructor", "group__GeneralGroup.html#gabd1b7dba45c5ebca540c9a469e64084e", null ]
     ] ],
     [ "MR::Laplacian", "classMR_1_1Laplacian.html", [
-      [ "RememberShape", "group__GeneralGroup.html#ga67c8dfc7669f41712a92d21d5ec99fed", [
-        [ "Yes", "group__GeneralGroup.html#gga67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435", null ],
-        [ "No", "group__GeneralGroup.html#gga67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b", null ]
-      ] ],
       [ "Laplacian", "group__GeneralGroup.html#ga701e06f6b7ebb3c08d691ca34ffeab37", null ],
       [ "Laplacian", "group__GeneralGroup.html#ga76c6a49784d646ffed8a834c10e927df", null ],
       [ "apply", "group__GeneralGroup.html#ga13fee62f9942597d173e9f43fe75c60e", null ],
@@ -2036,7 +2032,7 @@ var group__GeneralGroup =
       [ "fixVertex", "group__GeneralGroup.html#ga85bd09ce8356a9b467ee3ede1c5aa296", null ],
       [ "fixVertex", "group__GeneralGroup.html#gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd", null ],
       [ "freeVerts", "group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9", null ],
-      [ "init", "group__GeneralGroup.html#ga27e53a6f515c82f8afd74a84abfb2b9f", null ],
+      [ "init", "group__GeneralGroup.html#ga4a5fd158281d7c2d11d4c1bfc6f0d42f", null ],
       [ "points", "group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c", null ],
       [ "region", "group__GeneralGroup.html#ga9ad9ba866f86e02979c7ad6b6af3331c", null ],
       [ "topology", "group__GeneralGroup.html#gac4f2d6921a705dd7dd24fb45d990795a", null ],
@@ -9611,9 +9607,9 @@ var group__GeneralGroup =
       [ "MR::RelaxApproxType::Planar", "group__GeneralGroup.html#gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf", null ],
       [ "MR::RelaxApproxType::Quadric", "group__GeneralGroup.html#gga6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794", null ]
     ] ],
-    [ "MR::Laplacian::RememberShape", "group__GeneralGroup.html#ga67c8dfc7669f41712a92d21d5ec99fed", [
-      [ "MR::Laplacian::RememberShape::Yes", "group__GeneralGroup.html#gga67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435", null ],
-      [ "MR::Laplacian::RememberShape::No", "group__GeneralGroup.html#gga67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b", null ]
+    [ "MR::RememberShape", "group__GeneralGroup.html#gaa86f413349a7d9d6b8e7b22783100cf2", [
+      [ "MR::RememberShape::Yes", "group__GeneralGroup.html#ggaa86f413349a7d9d6b8e7b22783100cf2a93cba07454f06a4a960172bbd6e2a435", null ],
+      [ "MR::RememberShape::No", "group__GeneralGroup.html#ggaa86f413349a7d9d6b8e7b22783100cf2abafd7322c6e97d25b6299b5d6fe8920b", null ]
     ] ],
     [ "MR::RenderModelPassMask", "group__GeneralGroup.html#ga712ee084e6055ce8fadbbe8cf8b3f6ce", [
       [ "MR::RenderModelPassMask::Opaque", "group__GeneralGroup.html#gga712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5", null ],
@@ -12658,7 +12654,7 @@ var group__GeneralGroup =
     [ "MR::FreeFormDeformer::init", "group__GeneralGroup.html#ga73952f276094a9f07914830feabfb626", null ],
     [ "MR::ImGuiMenu::init", "group__GeneralGroup.html#gaa7ee3e7a4a77594b927efba32415a464", null ],
     [ "MR::ITransformControls::init", "group__GeneralGroup.html#ga907d92df55bd4c1c24eb99b0ac884d77", null ],
-    [ "MR::Laplacian::init", "group__GeneralGroup.html#ga27e53a6f515c82f8afd74a84abfb2b9f", null ],
+    [ "MR::Laplacian::init", "group__GeneralGroup.html#ga4a5fd158281d7c2d11d4c1bfc6f0d42f", null ],
     [ "MR::RibbonMenu::init", "group__GeneralGroup.html#ga1ead9bda756b557c004a8b3048fc882c", null ],
     [ "MR::SaveOnClosePlugin::init", "group__GeneralGroup.html#gaf872dbdc08c414c07982a40ac9489cf5", null ],
     [ "MR::SurfaceManipulationWidget::init", "group__GeneralGroup.html#ga42056e56380a989d42601b9611494613", null ],
