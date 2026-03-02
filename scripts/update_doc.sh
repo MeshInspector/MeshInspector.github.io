@@ -18,7 +18,8 @@ TARGET_DIR="${1:-MeshLib/local}"
 prepare_source_files() {
     CURRENT_DIR=$(pwd)
     cd ../MeshLib/
-    find source -name '*.h' -exec perl -pe 's|(?<!/)//(?![/!]) ?|/// |g;s|/\*(?![\*!]) ?|/** |g;s{^(\s*[^\s].*?)(?!/)(///|//!)(?!<)\s*$}{$1$2<}mg' -i {} \;
+    find source -name '*.h' -exec perl -pe 's/^\s*\}\s*\/\/\s*namespace.*$/}/' -i {} \;
+    find source -name '*.h' -exec perl -pe 's|(?<!/)//(?![/!]) ?|/// |g;s|/\*(?![\*!]) ?|/** |g' -i {} \;
     cd "$CURRENT_DIR"
     python3 ./scripts/generate_default_group.py
 }
@@ -53,6 +54,9 @@ generate_documentation_simple() {
         if [ "$MODULE" != "Main" ]; then
             echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
             echo "XML_OUTPUT = ./xml_${MODULE}" >> Doxyfile${MODULE}Tag
+        fi
+        if [ "$MODULE" = "Cpp" ]; then
+            echo "STRIP_FROM_INC_PATH = $(realpath ../MeshLib/source)" >> Doxyfile${MODULE}Tag
         fi
         echo "========== ${MODULE}" >> log.txt
         echo "========== ${MODULE}" >> log_error.txt
