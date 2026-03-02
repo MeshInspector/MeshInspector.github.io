@@ -57,6 +57,7 @@ generate_documentation_simple() {
         fi
         if [ "$MODULE" = "Cpp" ]; then
             echo "STRIP_FROM_INC_PATH = $(realpath ../MeshLib/source)" >> Doxyfile${MODULE}Tag
+            echo "STRIP_FROM_PATH = $(realpath ../MeshLib/source)" >> Doxyfile${MODULE}Tag
         fi
         echo "========== ${MODULE}" >> log.txt
         echo "========== ${MODULE}" >> log_error.txt
